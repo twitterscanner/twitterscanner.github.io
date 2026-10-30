@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 3:02 am SGT",
-  "lastScannedTs": "2026-10-31T03:02:50+08:00",
-  "asOf": "Fri 30 Oct 2026, 11:36 pm SGT",
-  "asOfTs": "2026-10-30T23:36:43+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 3:09 am SGT",
+  "lastScannedTs": "2026-10-31T03:09:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 3:09 am SGT",
+  "asOfTs": "2026-10-31T03:09:32+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Ten of fifteen alerts point to higher prices, centered on the Strait of Hormuz (now including a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Eleven of sixteen alerts point to higher prices, centered on the Gulf and the Strait of Hormuz (now including a new projectile strike and fire on a vessel south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "03:09",
+      "ts": "2026-10-31T03:09:00+08:00",
+      "eventTime": "~3:03 am, 31 Oct (est., UKMTO report logged 19:03 UTC)",
+      "eventTs": "2026-10-31T03:03:00+08:00",
+      "eventQual": "est.",
+      "headline": "UKMTO: a vessel was hit on its port side by an unknown projectile 40 nm south of Iran's Lavan Island in the central Gulf, causing a fire onboard; crew safe, no environmental impact reported",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO notice, via ILRedAlert, Faytuks Network and CGTN"
+    },
     {
       "time": "23:36",
       "ts": "2026-10-30T23:36:00+08:00",
@@ -195,6 +207,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO: vessel hit by projectile south of Lavan Island",
+      "site": "ILRedAlert",
+      "href": "https://x.com/ILRedAlert/status/2116245034538344775"
+    },
+    {
+      "title": "UKMTO Lavan Island incident",
+      "site": "Faytuks Network",
+      "href": "https://x.com/FaytuksNetwork/status/2116245036547383526"
+    },
     {
       "title": "Bloomberg: Aramco shuts main crude unit at Ras Tanura",
       "site": "The Hormuz Letter",
