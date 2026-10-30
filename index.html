@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Oil Watch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <h1>Oil Watch: geopolitical alerts</h1>
+    <p id="summary" class="summary">Loading…</p>
+    <p class="live"><span class="dot" id="live-dot"></span><span id="live-status">Connecting…</span></p>
+  </header>
+
+  <div class="callout" id="netread"><strong id="netread-lead"></strong> <span id="netread-text"></span></div>
+
+  <section class="tiles">
+    <div class="tile"><div class="val" id="m-total">–</div><div class="lbl">Alerts so far</div></div>
+    <div class="tile"><div class="val up" id="m-up">–</div><div class="lbl">Point prices up</div></div>
+    <div class="tile"><div class="val" id="m-down">–</div><div class="lbl">Point prices down</div></div>
+    <div class="tile"><div class="val" id="m-brent">–</div><div class="lbl">Brent</div><div class="det" id="m-brent-detail"></div></div>
+    <div class="tile scanned"><div class="val" id="m-scanned">–</div><div class="lbl">Last scanned</div><div class="det">Updated on every scan, even when nothing new is found</div></div>
+  </section>
+
+  <section>
+    <h2>Alert log</h2>
+    <div class="seg" id="conf-filter" role="group" aria-label="Confidence filter"></div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Reported (SGT)</th><th>Event time (SGT)</th><th>Headline</th><th>Theme</th><th>Oil impact</th><th>Confidence</th><th>Source</th></tr></thead>
+      <tbody id="log-body"></tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Filter by theme</h2>
+    <div class="seg" id="theme-filter" role="group" aria-label="Theme filter"></div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Theme</th><th>Reported (SGT)</th><th>Event time (SGT)</th><th>Headline</th><th>Oil impact</th><th>Confidence</th></tr></thead>
+      <tbody id="theme-body"></tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Alerts by theme</h2>
+    <div id="bars" class="bars"></div>
+  </section>
+
+  <section>
+    <h2>Sources</h2>
+    <ul id="sources" class="sources"></ul>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

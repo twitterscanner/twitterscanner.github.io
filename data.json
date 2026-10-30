@@ -1,0 +1,168 @@
+{
+  "lastScanned": "Fri 30 Oct 2026, 2:53 pm SGT",
+  "asOf": "Fri 30 Oct 2026, 2:39 pm SGT",
+  "summary": "Alerts from the weekday scan of X (every 5 minutes, 10:00 am to 6:00 pm Singapore time), as of Fri 30 Oct 2026, 1:59 pm. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
+  "netRead": {
+    "lead": "Net read: supply risk is rising.",
+    "text": "Five of nine alerts point to higher prices, centered on the Strait of Hormuz and Saudi Arabia. A US offer of direct talks with Iran and a 40 million barrel US SPR loan are the offsets, but Tehran hasn't answered and rejected Qatar's plan."
+  },
+  "brent": {
+    "value": "~$112",
+    "detail": "touched $114 overnight; $115.74 reported earlier"
+  },
+  "alerts": [
+    {
+      "time": "14:39",
+      "eventTime": "Not stated",
+      "headline": "US loans 40 million barrels of oil from the SPR, its last share of the global (IEA) release agreement",
+      "theme": "Strategic reserves",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "Giovanni Staunovo, UBS (watchlist), linking a news report"
+    },
+    {
+      "time": "13:59",
+      "eventTime": "Not stated (letter sent last week per NYT; reports surfaced ~10:17 am, 30 Oct)",
+      "headline": "US VP Vance offers to meet Iran's security chief Rezaei for talks to end the war; Iran confirms the letter, hasn't replied, and dismisses a Qatari peace plan",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Iran International (WaPo report), Israel War Room, Mossadil; NYT and WSJ also cited"
+    },
+    {
+      "time": "11:36",
+      "eventTime": "Not stated (just before the posts, est.)",
+      "headline": "Ukrainian drones hit Novokuybyshevsk (Samara) in Russia; refinery likely target, large fires reported",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping (watchlist), Woofers, Mockingjay News UA"
+    },
+    {
+      "time": "11:23",
+      "eventTime": "6:12 am, 30 Oct (UKMTO, 22:12 UTC)",
+      "headline": "UKMTO: tanker leaving Hormuz hit by a small boat that attached two explosive devices; fire now out, crew safe",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO, First Squawk, RedboxGlobal"
+    },
+    {
+      "time": "11:19",
+      "eventTime": "Not stated (the fire is likely the 6:12 am attack above)",
+      "headline": "Iran says 3 tankers hit mines near Hormuz; UKMTO reports a vessel on fire near Oman",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "X news, MarketPulse"
+    },
+    {
+      "time": "11:19",
+      "eventTime": "Not stated",
+      "headline": "US reportedly struck an IRGC missile launcher on Qeshm Island; explosions near Bandar-e-Jask",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "X news, AUC3I"
+    },
+    {
+      "time": "11:19",
+      "eventTime": "Not stated",
+      "headline": "IRGC claims capture of an intact US MQM-170 drone; US-side reports call it false",
+      "theme": "Iran",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping"
+    },
+    {
+      "time": "11:19",
+      "eventTime": "Price move in early Asia trade; attack time not stated",
+      "headline": "Houthi attacks on Saudi Arabia lift Brent to about $115.74 (+0.75%) in early Asia trade",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Iran International"
+    },
+    {
+      "time": "11:19",
+      "eventTime": "Not stated (policy decision, timing unknown)",
+      "headline": "WSJ: Ukraine paused strikes on Russian refineries until after the Nov 3 US midterms",
+      "theme": "Russia refineries",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "X news (WSJ report)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "US loans 40M barrels from the SPR",
+      "site": "Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2116054874542535067"
+    },
+    {
+      "title": "Vance offers to meet Rezaei (WaPo)",
+      "site": "Iran International",
+      "href": "https://x.com/IranIntl_En/status/2115991467369840910"
+    },
+    {
+      "title": "Iran got the letter, dismisses Qatari plan",
+      "site": "Israel War Room",
+      "href": "https://x.com/IsraelWarRoom/status/2116040476868346068"
+    },
+    {
+      "title": "Drone attack on Novokuybyshevsk refinery",
+      "site": "AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2116011359284646235"
+    },
+    {
+      "title": "Multiple fires at Novokuibyshevsk refinery",
+      "site": "Woofers",
+      "href": "https://x.com/NotWoofers/status/2116010967242821735"
+    },
+    {
+      "title": "Tanker hit by explosives in Hormuz",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2116007373030711574"
+    },
+    {
+      "title": "UKMTO notice on the Hormuz tanker",
+      "site": "RedboxGlobal",
+      "href": "https://x.com/RedboxWire/status/2116007376855965915"
+    },
+    {
+      "title": "Iran says 3 tankers hit mines near Hormuz",
+      "site": "X news",
+      "href": "https://x.com/i/trending/2115704977024774468"
+    },
+    {
+      "title": "UK report of a vessel on fire near Oman",
+      "site": "MarketPulse",
+      "href": "https://x.com/MarketPulse24X/status/2116006502741762510"
+    },
+    {
+      "title": "US strike on Qeshm Island",
+      "site": "X news",
+      "href": "https://x.com/i/trending/2115908514724159987"
+    },
+    {
+      "title": "Briefing on the Qeshm strike",
+      "site": "AUC3I",
+      "href": "https://x.com/AUC31/status/2116005259185209449"
+    },
+    {
+      "title": "IRGC drone capture claim",
+      "site": "AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2116004817852375510"
+    },
+    {
+      "title": "Houthi attacks lift Brent",
+      "site": "Iran International",
+      "href": "https://x.com/IranIntl_En/status/2116005910472712327"
+    },
+    {
+      "title": "Ukraine pauses refinery strikes",
+      "site": "X news",
+      "href": "https://x.com/i/trending/2115970424236577095"
+    }
+  ]
+}
