@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Fri 30 Oct 2026, 11:32 pm SGT",
-  "lastScannedTs": "2026-10-30T23:32:01+08:00",
-  "asOf": "Fri 30 Oct 2026, 9:57 pm SGT",
-  "asOfTs": "2026-10-30T21:57:00+08:00",
+  "lastScanned": "Fri 30 Oct 2026, 11:36 pm SGT",
+  "lastScannedTs": "2026-10-30T23:36:00+08:00",
+  "asOf": "Fri 30 Oct 2026, 11:36 pm SGT",
+  "asOfTs": "2026-10-30T23:36:43+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Nine of fourteen alerts point to higher prices, centered on the Strait of Hormuz (now including a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Ten of fifteen alerts point to higher prices, centered on the Strait of Hormuz (now including a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "23:36",
+      "ts": "2026-10-30T23:36:00+08:00",
+      "eventTime": "Not stated (shutdown follows Houthi attacks about 3 days ago, ~27 Oct)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bloomberg: Aramco has shut the main crude distillation unit at its 550,000 b/d Ras Tanura refinery, Saudi Arabia's largest, after damage from Houthi attacks; the unit is expected to stay offline",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Bloomberg report, via The Hormuz Letter and Conflict Alarm"
+    },
     {
       "time": "21:57",
       "ts": "2026-10-30T21:57:00+08:00",
@@ -183,6 +195,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Bloomberg: Aramco shuts main crude unit at Ras Tanura",
+      "site": "The Hormuz Letter",
+      "href": "https://x.com/HormuzLetter/status/2116191524765515807"
+    },
+    {
+      "title": "Ras Tanura distillation unit offline (Bloomberg)",
+      "site": "Conflict Alarm",
+      "href": "https://x.com/ConflictAlarm/status/2116191615031120228"
+    },
     {
       "title": "Libya NOC: armed group shuts Hamada-Zawiya pipeline valve",
       "site": "Giovanni Staunovo",
