@@ -1,18 +1,42 @@
 {
-  "lastScanned": "Fri 30 Oct 2026, 5:59 pm SGT",
-  "lastScannedTs": "2026-10-30T17:59:00+08:00",
-  "asOf": "Fri 30 Oct 2026, 3:41 pm SGT",
-  "asOfTs": "2026-10-30T15:41:00+08:00",
+  "lastScanned": "Fri 30 Oct 2026, 9:08 pm SGT",
+  "lastScannedTs": "2026-10-30T21:08:00+08:00",
+  "asOf": "Fri 30 Oct 2026, 9:09 pm SGT",
+  "asOfTs": "2026-10-30T21:09:10+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Six of ten alerts point to higher prices, centered on the Strait of Hormuz and Saudi Arabia, plus a tighter diesel market as Russia extends its export ban. A US offer of direct talks with Iran and a 40 million barrel US SPR loan are the offsets, but Tehran hasn't answered and rejected Qatar's plan."
+    "text": "Seven of twelve alerts point to higher prices, centered on the Strait of Hormuz (now including an Iranian claim of a US drone boat destroyed) and Saudi Arabia, plus a tighter diesel market. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$116",
     "detail": "up about 1% on Friday; $116.08 per Reuters"
   },
   "alerts": [
+    {
+      "time": "21:08",
+      "ts": "2026-10-30T21:08:00+08:00",
+      "eventTime": "Not stated (claim surfaced ~7:47 pm, 30 Oct)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's navy claims it destroyed a US unmanned vessel (drone boat) in the eastern Strait of Hormuz; no US confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian state media, via Sky News"
+    },
+    {
+      "time": "21:08",
+      "ts": "2026-10-30T21:08:00+08:00",
+      "eventTime": "7:40 pm, 30 Oct (est.)",
+      "eventTs": "2026-10-30T19:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump says the Iran war is 'going to get wrapped up soon' and Iran 'has to make a deal'; Qatari mediators brought revised proposals to Tehran, reply expected by the weekend",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Reuters, Sky News; CBS News via Open Source Intel"
+    },
     {
       "time": "15:41",
       "ts": "2026-10-30T15:41:00+08:00",
@@ -135,6 +159,21 @@
     }
   ],
   "sources": [
+    {
+      "title": "Trump: Iran war to be wrapped up soon; Iran claims US vessel destroyed",
+      "site": "Sky News",
+      "href": "https://x.com/SkyNews/status/2116141413045854239"
+    },
+    {
+      "title": "Trump on Iran war (Reuters)",
+      "site": "PUKmedia",
+      "href": "https://x.com/pukmedia/status/2116141260276695342"
+    },
+    {
+      "title": "Qatari mediators' revised proposals (CBS)",
+      "site": "Open Source Intel",
+      "href": "https://x.com/Osint613/status/2116150395164615109"
+    },
     {
       "title": "Russia extends diesel export ban (Reuters)",
       "site": "Kashish Parpiani",
