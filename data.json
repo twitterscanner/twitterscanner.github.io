@@ -1,18 +1,30 @@
 {
   "lastScanned": "Sat 31 Oct 2026, 4:05 am SGT",
   "lastScannedTs": "2026-10-31T04:05:00+08:00",
-  "asOf": "Sat 31 Oct 2026, 3:35 am SGT",
-  "asOfTs": "2026-10-31T03:35:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 4:03 am SGT",
+  "asOfTs": "2026-10-31T04:03:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Thirteen of eighteen alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Fourteen of nineteen alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "04:01",
+      "ts": "2026-10-31T04:01:00+08:00",
+      "eventTime": "Fri 30 Oct afternoon Iran time (~7:30 pm SGT, est.)",
+      "eventTs": "2026-10-30T19:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy claims a fourth tanker, a supertanker that ignored its warnings, exploded in the Strait of Hormuz this afternoon",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Navy statement relayed by CGTN Europe"
+    },
     {
       "time": "03:35",
       "ts": "2026-10-31T03:35:00+08:00",
@@ -231,6 +243,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "IRGC: fourth tanker, a supertanker, explodes in Hormuz",
+      "site": "CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2116259178754777477"
+    },
     {
       "title": "Israel finalizes Iran strike preparations (Channel 14)",
       "site": "Post Open Source",
