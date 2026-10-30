@@ -12,7 +12,11 @@
   <header>
     <h1>Oil Watch: geopolitical alerts</h1>
     <p id="summary" class="summary">Loading…</p>
-    <p class="live"><span class="dot" id="live-dot"></span><span id="live-status">Connecting…</span></p>
+    <p class="asof" id="asof"></p>
+    <div class="headbar">
+      <p class="live"><span class="dot" id="live-dot"></span><span id="live-status">Connecting…</span></p>
+      <div class="tzpick"><label for="tz-select">Time zone</label> <select id="tz-select"></select></div>
+    </div>
   </header>
 
   <div class="callout" id="netread"><strong id="netread-lead"></strong> <span id="netread-text"></span></div>
@@ -29,7 +33,7 @@
     <h2>Alert log</h2>
     <div class="seg" id="conf-filter" role="group" aria-label="Confidence filter"></div>
     <div class="tablewrap"><table>
-      <thead><tr><th>Reported (SGT)</th><th>Event time (SGT)</th><th>Headline</th><th>Theme</th><th>Oil impact</th><th>Confidence</th><th>Source</th></tr></thead>
+      <thead><tr><th class="th-rep">Reported (SGT)</th><th class="th-evt">Event time (SGT)</th><th>Headline</th><th>Theme</th><th>Oil impact</th><th>Confidence</th><th>Source</th></tr></thead>
       <tbody id="log-body"></tbody>
     </table></div>
   </section>
@@ -38,7 +42,7 @@
     <h2>Filter by theme</h2>
     <div class="seg" id="theme-filter" role="group" aria-label="Theme filter"></div>
     <div class="tablewrap"><table>
-      <thead><tr><th>Theme</th><th>Reported (SGT)</th><th>Event time (SGT)</th><th>Headline</th><th>Oil impact</th><th>Confidence</th></tr></thead>
+      <thead><tr><th>Theme</th><th class="th-rep">Reported (SGT)</th><th class="th-evt">Event time (SGT)</th><th>Headline</th><th>Oil impact</th><th>Confidence</th></tr></thead>
       <tbody id="theme-body"></tbody>
     </table></div>
   </section>
