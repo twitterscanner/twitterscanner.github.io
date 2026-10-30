@@ -3,7 +3,7 @@
   "lastScannedTs": "2026-10-30T17:59:00+08:00",
   "asOf": "Fri 30 Oct 2026, 3:41 pm SGT",
   "asOfTs": "2026-10-30T15:41:00+08:00",
-  "summary": "Alerts from the weekday scan of X (every 5 minutes, 10:00 am to 6:00 pm Singapore time), as of Fri 30 Oct 2026, 3:41 pm. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
+  "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
     "text": "Six of ten alerts point to higher prices, centered on the Strait of Hormuz and Saudi Arabia, plus a tighter diesel market as Russia extends its export ban. A US offer of direct talks with Iran and a 40 million barrel US SPR loan are the offsets, but Tehran hasn't answered and rejected Qatar's plan."
