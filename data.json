@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Fri 30 Oct 2026, 9:55 pm SGT",
-  "lastScannedTs": "2026-10-30T21:55:00+08:00",
-  "asOf": "Fri 30 Oct 2026, 9:17 pm SGT",
-  "asOfTs": "2026-10-30T21:17:00+08:00",
+  "lastScanned": "Fri 30 Oct 2026, 9:57 pm SGT",
+  "lastScannedTs": "2026-10-30T21:57:00+08:00",
+  "asOf": "Fri 30 Oct 2026, 9:57 pm SGT",
+  "asOfTs": "2026-10-30T21:57:00+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Eight of thirteen alerts point to higher prices, centered on the Strait of Hormuz (now including a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, plus a tighter diesel market. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Nine of fourteen alerts point to higher prices, centered on the Strait of Hormuz (now including a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
-    "value": "~$116",
-    "detail": "up about 1% on Friday; $116.08 per Reuters"
+    "value": "~$117",
+    "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "21:57",
+      "ts": "2026-10-30T21:57:00+08:00",
+      "eventTime": "pumping halted around midnight Libya time",
+      "eventTs": "2026-10-30T06:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Libya's NOC says an armed group shut the valve on the main Hamada-Zawiya crude pipeline at Al-Riyayna, forcing a halt to pumping to the Zawiya refinery",
+      "theme": "Libya",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Libya NOC statement, via Giovanni Staunovo, CGTN and Libyan outlets"
+    },
     {
       "time": "21:17",
       "ts": "2026-10-30T21:17:00+08:00",
@@ -171,6 +183,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Libya NOC: armed group shuts Hamada-Zawiya pipeline valve",
+      "site": "Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2116167343575339437"
+    },
+    {
+      "title": "NOC statement on the Hamada pipeline (Arabic)",
+      "site": "Wady Dinar",
+      "href": "https://x.com/wady_dynar/status/2116166880167682509"
+    },
     {
       "title": "Oman: vessel attacked off Musandam, 25 crew evacuated",
       "site": "Open Source Intel",
