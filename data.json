@@ -1,16 +1,25 @@
 {
-  "lastScanned": "Fri 30 Oct 2026, 3:38 pm SGT",
-  "asOf": "Fri 30 Oct 2026, 2:39 pm SGT",
-  "summary": "Alerts from the weekday scan of X (every 5 minutes, 10:00 am to 6:00 pm Singapore time), as of Fri 30 Oct 2026, 1:59 pm. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
+  "lastScanned": "Fri 30 Oct 2026, 3:44 pm SGT",
+  "asOf": "Fri 30 Oct 2026, 3:41 pm SGT",
+  "summary": "Alerts from the weekday scan of X (every 5 minutes, 10:00 am to 6:00 pm Singapore time), as of Fri 30 Oct 2026, 3:41 pm. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Five of nine alerts point to higher prices, centered on the Strait of Hormuz and Saudi Arabia. A US offer of direct talks with Iran and a 40 million barrel US SPR loan are the offsets, but Tehran hasn't answered and rejected Qatar's plan."
+    "text": "Six of ten alerts point to higher prices, centered on the Strait of Hormuz and Saudi Arabia, plus a tighter diesel market as Russia extends its export ban. A US offer of direct talks with Iran and a 40 million barrel US SPR loan are the offsets, but Tehran hasn't answered and rejected Qatar's plan."
   },
   "brent": {
-    "value": "~$112",
-    "detail": "touched $114 overnight; $115.74 reported earlier"
+    "value": "~$116",
+    "detail": "up about 1% on Friday; $116.08 per Reuters"
   },
   "alerts": [
+    {
+      "time": "15:41",
+      "eventTime": "Not stated (Reuters report published ~12:05 am, 30 Oct)",
+      "headline": "Reuters: Russia to extend its diesel export ban to year-end, using quotas only to meet its new export commitment to the US",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Reuters (two sources), via Kashish Parpiani"
+    },
     {
       "time": "14:39",
       "eventTime": "Not stated",
@@ -94,6 +103,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Russia extends diesel export ban (Reuters)",
+      "site": "Kashish Parpiani",
+      "href": "https://x.com/kashishparpiani/status/2116071081060811083"
+    },
     {
       "title": "US loans 40M barrels from the SPR",
       "site": "Giovanni Staunovo",
