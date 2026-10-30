@@ -1,12 +1,12 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 3:27 am SGT",
-  "lastScannedTs": "2026-10-31T03:27:23+08:00",
-  "asOf": "Sat 31 Oct 2026, 3:09 am SGT",
-  "asOfTs": "2026-10-31T03:09:32+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 3:35 am SGT",
+  "lastScannedTs": "2026-10-31T03:35:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 3:35 am SGT",
+  "asOfTs": "2026-10-31T03:35:00+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Eleven of sixteen alerts point to higher prices, centered on the Gulf and the Strait of Hormuz (now including a new projectile strike and fire on a vessel south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Thirteen of eighteen alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
@@ -14,11 +14,35 @@
   },
   "alerts": [
     {
+      "time": "03:35",
+      "ts": "2026-10-31T03:35:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israel's Channel 14 reports Israel has raised defensive and offensive readiness to high levels and finalized military preparations for an attack on Iran",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Israeli Channel 14 report, via Post Open Source"
+    },
+    {
+      "time": "03:35",
+      "ts": "2026-10-31T03:35:00+08:00",
+      "eventTime": "2:00 am, 31 Oct",
+      "eventTs": "2026-10-31T02:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "OSINT tracking suggests the vessel hit by a projectile south of Lavan Island is the Qatari-owned LNG tanker AL MAYEDA, which slowed and turned around at the time of the strike",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint ship-tracking analysis of the UKMTO notice"
+    },
+    {
       "time": "03:09",
       "ts": "2026-10-31T03:09:00+08:00",
-      "eventTime": "~3:03 am, 31 Oct (est., UKMTO report logged 19:03 UTC)",
-      "eventTs": "2026-10-31T03:03:00+08:00",
-      "eventQual": "est.",
+      "eventTime": "2:00 am, 31 Oct (UKMTO, 18:00 UTC)",
+      "eventTs": "2026-10-31T02:00:00+08:00",
+      "eventQual": "confirmed",
       "headline": "UKMTO: a vessel was hit on its port side by an unknown projectile 40 nm south of Iran's Lavan Island in the central Gulf, causing a fire onboard; crew safe, no environmental impact reported",
       "theme": "Hormuz",
       "direction": "Up",
@@ -207,6 +231,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Israel finalizes Iran strike preparations (Channel 14)",
+      "site": "Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2116251207924592755"
+    },
+    {
+      "title": "Lavan Island vessel identified as LNG tanker AL MAYEDA",
+      "site": "MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2116251704748392699"
+    },
     {
       "title": "UKMTO: vessel hit by projectile south of Lavan Island",
       "site": "ILRedAlert",
