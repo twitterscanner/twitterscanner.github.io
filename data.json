@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 7:35 am SGT",
-  "lastScannedTs": "2026-10-31T07:35:00+08:00",
-  "asOf": "Sat 31 Oct 2026, 4:20 am SGT",
-  "asOfTs": "2026-10-31T04:20:00+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 7:38 am SGT",
+  "lastScannedTs": "2026-10-31T07:38:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 7:38 am SGT",
+  "asOfTs": "2026-10-31T07:38:00+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Fifteen of twenty alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Sixteen of twenty-one alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "07:38",
+      "ts": "2026-10-31T07:38:00+08:00",
+      "eventTime": "Thu 29 Oct, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "India's shipping minister says the ADNOC-managed, Liberia-flagged VLCC ARZANAH was hit by a projectile near Hormuz on 29 Oct (2 Indian crew safe); likely not separately reported by UKMTO",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "India's shipping minister, relayed by Open Source Intel and Bering Report"
+    },
     {
       "time": "04:20",
       "ts": "2026-10-31T04:20:00+08:00",
@@ -255,6 +267,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "India: ADNOC-managed VLCC ARZANAH hit near Hormuz",
+      "site": "Open Source Intel",
+      "href": "https://x.com/Osint613/status/2116313023736619388"
+    },
+    {
+      "title": "India's minister adds VLCC Arzanah, hit Oct 29",
+      "site": "Bering Report",
+      "href": "https://x.com/BeringReport/status/2116165795621355999"
+    },
     {
       "title": "UKMTO: crude tanker struck by projectile leaving Hormuz",
       "site": "CGTN Europe",
