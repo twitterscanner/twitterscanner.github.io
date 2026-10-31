@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 3:09 pm SGT",
-  "lastScannedTs": "2026-10-31T15:09:00+08:00",
-  "asOf": "Sat 31 Oct 2026, 1:56 pm SGT",
-  "asOfTs": "2026-10-31T13:56:12+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 3:14 pm SGT",
+  "lastScannedTs": "2026-10-31T15:14:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 3:13 pm SGT",
+  "asOfTs": "2026-10-31T15:13:54+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Seventeen of twenty-three alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack, a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Eighteen of twenty-four alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack, a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "15:13",
+      "ts": "2026-10-31T15:13:54+08:00",
+      "eventTime": "3:07 pm, 31 Oct (est.)",
+      "eventTs": "2026-10-31T15:07:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Civil Defense issued an emergency early-warning alert for Jazan (Jizan) at about 3:07 pm SGT and lifted it three minutes later; small accounts say the Houthis claim a ballistic missile hit Aramco energy facilities in Jizan, home to a 400,000 b/d refinery and export terminal",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Saudi Civil Defense (alert, confirmed); Houthi strike claim via World Conflict and Raaz News (unconfirmed)"
+    },
     {
       "time": "13:56",
       "ts": "2026-10-31T13:56:12+08:00",
@@ -291,6 +303,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Early-warning alert issued for Jazan Province",
+      "site": "Saudi Civil Defense",
+      "href": "https://x.com/SaudiDCD/status/2116426881721328087"
+    },
+    {
+      "title": "Houthis say ballistic missile hit Aramco facilities in Jizan",
+      "site": "World Conflict",
+      "href": "https://x.com/WorldConflict_X/status/2116427700219068491"
+    },
     {
       "title": "Explosions in Ufa amid drone alerts, Bashkortostan",
       "site": "Kyiv Independent",
