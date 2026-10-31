@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sun 1 Nov 2026, 12:31 am SGT",
-  "lastScannedTs": "2026-11-01T00:31:00+08:00",
-  "asOf": "Sun 1 Nov 2026, 12:14 am SGT",
-  "asOfTs": "2026-11-01T00:14:00+08:00",
+  "lastScanned": "Sun 1 Nov 2026, 12:36 am SGT",
+  "lastScannedTs": "2026-11-01T00:36:00+08:00",
+  "asOf": "Sun 1 Nov 2026, 12:37 am SGT",
+  "asOfTs": "2026-11-01T00:37:07+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Twenty-four of thirty-three alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Twenty-four of thirty-four alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals, a 40 million barrel US SPR loan and a sourced report that OPEC+ will hold December output targets steady, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "00:36",
+      "ts": "2026-11-01T00:36:00+08:00",
+      "eventTime": "first reports ~12:34 am, 1 Nov",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "OPEC+ agrees in principle to keep its December production targets unchanged, a source says",
+      "theme": "OPEC+",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "FinancialJuice, CGTN Europe, NodeWire (citing a source)"
+    },
     {
       "time": "00:14",
       "ts": "2026-11-01T00:14:00+08:00",
@@ -411,6 +423,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "OPEC+ agrees in principle to hold December targets",
+      "site": "FinancialJuice",
+      "href": "https://x.com/financialjuice/status/2116569554835107859"
+    },
+    {
+      "title": "OPEC+ to maintain December production targets, source says",
+      "site": "CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2116569603014820094"
+    },
     {
       "title": "Leaked draft US-Iran framework via Qatar (Arabic)",
       "site": "Abdulrahman Al-Rashed",
