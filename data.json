@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 10:14 pm SGT",
-  "lastScannedTs": "2026-10-31T22:14:00+08:00",
-  "asOf": "Sat 31 Oct 2026, 9:49 pm SGT",
-  "asOfTs": "2026-10-31T21:49:00+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 10:19 pm SGT",
+  "lastScannedTs": "2026-10-31T22:19:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 10:19 pm SGT",
+  "asOfTs": "2026-10-31T22:19:00+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Twenty-three of thirty-one alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Twenty-four of thirty-two alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "22:17",
+      "ts": "2026-10-31T22:17:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Reports and new footage say a Kuwaiti oil tanker was targeted in the Strait of Hormuz today; the footage describes it as a 'violating ship' hit in the strait, and who carried out the strike was not stated",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (via AB4_Ali3), Iraq Al-Hadath TV (Arabic), The Observer"
+    },
     {
       "time": "21:38",
       "ts": "2026-10-31T21:38:00+08:00",
@@ -387,6 +399,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Footage: 'violating ship' hit in Strait of Hormuz today",
+      "site": "Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2116534925847584955"
+    },
+    {
+      "title": "Reports of Kuwaiti oil tanker targeted in Hormuz (Arabic)",
+      "site": "Iraq Al-Hadath TV",
+      "href": "https://x.com/iraqlhadath/status/2116534019114287441"
+    },
     {
       "title": "Araghchi: new proposal cuts Hormuz reopening plan to two days",
       "site": "Al Jazeera Breaking News",
