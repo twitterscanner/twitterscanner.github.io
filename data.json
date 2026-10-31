@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sun 1 Nov 2026, 2:57 am SGT",
-  "lastScannedTs": "2026-11-01T02:57:00+08:00",
-  "asOf": "Sun 1 Nov 2026, 2:45 am SGT",
-  "asOfTs": "2026-11-01T02:45:00+08:00",
+  "lastScanned": "Sun 1 Nov 2026, 3:02 am SGT",
+  "lastScannedTs": "2026-11-01T03:02:00+08:00",
+  "asOf": "Sun 1 Nov 2026, 3:03 am SGT",
+  "asOfTs": "2026-11-01T03:03:05+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Twenty-seven of thirty-seven alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including an i24NEWS report that the IDF has raised its alert level and could join renewed US operations against Iran within hours, an Iranian navy claim via state media that an oil tanker caught fire in Hormuz after hitting naval mines, unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, Ukrainian officials telling the Kyiv Independent the refinery strike campaign continues despite a US proposal for a 30-day halt, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals, a 40 million barrel US SPR loan and a sourced report that OPEC+ will hold December output targets steady, but Tehran hasn't answered yet."
+    "text": "Twenty-eight of thirty-eight alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including Iran's security chief Rezaei saying Hormuz stays closed until Tehran's seven conditions are met, an i24NEWS report that the IDF has raised its alert level and could join renewed US operations against Iran within hours, an Iranian navy claim via state media that an oil tanker caught fire in Hormuz after hitting naval mines, unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, Ukrainian officials telling the Kyiv Independent the refinery strike campaign continues despite a US proposal for a 30-day halt, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals, a 40 million barrel US SPR loan and a sourced report that OPEC+ will hold December output targets steady, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "03:02",
+      "ts": "2026-11-01T03:02:00+08:00",
+      "eventTime": "3:00 am, 1 Nov (est.)",
+      "eventTs": "2026-11-01T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's security chief Rezaei says the Strait of Hormuz will stay closed until Tehran's conditions are fulfilled; Tehran has sent Washington seven conditions and says there will be no negotiation until they are met",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Fars News, via FinancialJuice and Open Source Intel"
+    },
     {
       "time": "02:45",
       "ts": "2026-11-01T02:45:00+08:00",
@@ -459,6 +471,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Rezaei: Hormuz to stay closed until Tehran's conditions are fulfilled",
+      "site": "FinancialJuice",
+      "href": "https://x.com/financialjuice/status/2116606596436689287"
+    },
+    {
+      "title": "Iran sent Washington 7 conditions, no talks until met (Fars)",
+      "site": "Open Source Intel",
+      "href": "https://x.com/Osint613/status/2116606359537848725"
+    },
     {
       "title": "i24NEWS: IDF raises alert level, ready to join war on Iran within hours",
       "site": "Open Source Intel",
