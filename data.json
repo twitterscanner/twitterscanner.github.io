@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 1:51 pm SGT",
-  "lastScannedTs": "2026-10-31T13:51:00+08:00",
-  "asOf": "Sat 31 Oct 2026, 9:04 am SGT",
-  "asOfTs": "2026-10-31T09:04:00+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 1:56 pm SGT",
+  "lastScannedTs": "2026-10-31T13:56:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 1:56 pm SGT",
+  "asOfTs": "2026-10-31T13:56:12+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Sixteen of twenty-two alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Seventeen of twenty-three alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack, a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "13:56",
+      "ts": "2026-10-31T13:56:12+08:00",
+      "eventTime": "12:39 pm, 31 Oct (est.)",
+      "eventTs": "2026-10-31T12:39:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones hit Ufa's industrial zone in Bashkortostan; explosions confirmed by Kyiv Independent citing Russian media, and locals report a fire at an oil refinery",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Kyiv Independent; Ateo Breaking (Russian); local reports via Exilenova+"
+    },
     {
       "time": "09:04",
       "ts": "2026-10-31T09:04:00+08:00",
@@ -279,6 +291,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "Explosions in Ufa amid drone alerts, Bashkortostan",
+      "site": "Kyiv Independent",
+      "href": "https://x.com/KyivIndependent/status/2116405701677629847"
+    },
+    {
+      "title": "Locals report fire at Ufa oil refinery after attack",
+      "site": "Exilenova+",
+      "href": "https://x.com/Exilenova_plus/status/2116408059253903798"
+    },
     {
       "title": "US strike options on Iran exclude oil facilities (Arabic)",
       "site": "Al Hadath",
