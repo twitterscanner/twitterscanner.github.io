@@ -1,690 +1,690 @@
 {
-  "lastScanned": "Sun 1 Nov 2026, 12:14 am SGT",
-  "lastScannedTs": "2026-11-01T00:14:00+08:00",
-  "asOf": "Sun 1 Nov 2026, 12:14 am SGT",
-  "asOfTs": "2026-11-01T00:14:00+08:00",
-  "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
-  "netRead": {
-    "lead": "Net read: supply risk is rising.",
-    "text": "Twenty-four of thirty-three alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+ "lastScanned": "Sun 1 Nov 2026, 12:14 am SGT",
+ "lastScannedTs": "2026-11-01T00:14:00+08:00",
+ "asOf": "Sun 1 Nov 2026, 12:14 am SGT",
+ "asOfTs": "2026-11-01T00:14:00+08:00",
+ "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
+ "netRead": {
+  "lead": "Net read: supply risk is rising.",
+  "text": "Twenty-four of thirty-three alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+ },
+ "brent": {
+  "value": "~$117",
+  "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
+ },
+ "alerts": [
+  {
+   "time": "00:14",
+   "ts": "2026-11-01T00:14:00+08:00",
+   "eventTime": "11:24 pm, 31 Oct (est., first leak reports)",
+   "eventTs": "2026-10-31T23:24:00+08:00",
+   "eventQual": "est.",
+   "headline": "Leaked draft of a preliminary Qatari-brokered US-Iran framework reportedly has Tehran handing its roughly 440 kg of highly enriched uranium to an agreed third country and reopening the Strait of Hormuz to shipping within 7 days; no final deal yet",
+   "theme": "Ceasefire / diplomacy",
+   "direction": "Down",
+   "confidence": "Unconfirmed",
+   "source": "Abdulrahman Al-Rashed (Arabic), Mostafa Gorji citing an Asharq Al-Awsat reporter (Persian), Abdulaziz Al Oqab (Arabic)"
   },
-  "brent": {
-    "value": "~$117",
-    "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
+  {
+   "time": "22:17",
+   "ts": "2026-10-31T22:17:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Reports and new footage say a Kuwaiti oil tanker was targeted in the Strait of Hormuz today; the footage describes it as a 'violating ship' hit in the strait, and who carried out the strike was not stated",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Post Open Source (via AB4_Ali3), Iraq Al-Hadath TV (Arabic), The Observer"
   },
-  "alerts": [
-    {
-      "time": "00:14",
-      "ts": "2026-11-01T00:14:00+08:00",
-      "eventTime": "first leak reports",
-      "eventTs": "2026-10-31T23:24:00+08:00",
-      "eventQual": "est.",
-      "headline": "Leaked draft of a preliminary Qatari-brokered US-Iran framework reportedly has Tehran handing its roughly 440 kg of highly enriched uranium to an agreed third country and reopening the Strait of Hormuz to shipping within 7 days; no final deal yet",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Abdulrahman Al-Rashed (Arabic), Mostafa Gorji citing an Asharq Al-Awsat reporter (Persian), Abdulaziz Al Oqab (Arabic)"
-    },
-    {
-      "time": "22:17",
-      "ts": "2026-10-31T22:17:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reports and new footage say a Kuwaiti oil tanker was targeted in the Strait of Hormuz today; the footage describes it as a 'violating ship' hit in the strait, and who carried out the strike was not stated",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (via AB4_Ali3), Iraq Al-Hadath TV (Arabic), The Observer"
-    },
-    {
-      "time": "21:38",
-      "ts": "2026-10-31T21:38:00+08:00",
-      "eventTime": "9:10 pm, 31 Oct (est.)",
-      "eventTs": "2026-10-31T21:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Araghchi tells Al Jazeera that a new proposal reached with Qatari mediators cuts the time to implement Iran's plan to reopen the Strait of Hormuz to two days (down from five, and seven before that); Tehran's conditions include lifting sanctions, fewer US forces in the region and recognition of the new shipping route",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Araghchi via Al Jazeera Breaking News, also Iran International English and Entekhab (Persian)"
-    },
-    {
-      "time": "21:14",
-      "ts": "2026-10-31T21:14:00+08:00",
-      "eventTime": "9:10 pm, 31 Oct (est.)",
-      "eventTs": "2026-10-31T21:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's FM Araghchi tells Al Jazeera that Tehran wants recognition of a new Strait of Hormuz shipping lane agreed with Oman and the closure of alternative routes, says reopening Hormuz on Iran's terms would pave the way to resume talks with Washington, and that only Iran's proposal for reopening Hormuz is on the table",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Araghchi via Al Jazeera, relayed by CGTN Africa and FinSquawk"
-    },
-    {
-      "time": "19:07",
-      "ts": "2026-10-31T19:07:00+08:00",
-      "eventTime": "7:00 pm, 31 Oct (est.)",
-      "eventTs": "2026-10-31T19:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Russia's Deputy PM Novak says the government is preparing to extend its diesel export ban until the end of January 2027, with some exceptions (Interfax), pushing the curb past the earlier year-end date",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Novak via Interfax, relayed by First Squawk, RedboxGlobal and Tracy Shuchart"
-    },
-    {
-      "time": "19:00",
-      "ts": "2026-10-31T19:00:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran officially confirms US forces attacked fishing boats off Qeshm Island in the Strait of Hormuz, a provincial official tells state media (Reuters); Fars says two fishermen missing and two wounded",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Iranian provincial official via state media and Reuters, relayed by Post Open Source; earlier Tasnim and Fars via RedboxGlobal"
-    },
-    {
-      "time": "18:27",
-      "ts": "2026-10-31T18:27:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's Supreme Leader Mojtaba Khamenei, meeting senior armed forces commanders, orders an immediate, effective response without geographical limitations to any potential enemy threat",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Supreme Leader's office statement, relayed by CGTN Europe"
-    },
-    {
-      "time": "15:44",
-      "ts": "2026-10-31T15:44:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Al-Araby Al-Jadeed reports a breakthrough in indirect US-Iran talks after Qatari mediation, with a US delegation expected to join Iranian negotiators in Doha for direct talks after preliminary understandings on the nuclear file and Hormuz",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Al-Araby Al-Jadeed (unnamed sources), relayed by Faytuks Network, Cairo 24 and Kan via Akka"
-    },
-    {
-      "time": "15:33",
-      "ts": "2026-10-31T15:33:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Zelenskyy says Ukraine can now strike Russian targets from Yamal to Western Siberia, the core of Russia's oil and gas output, and is extending drone and missile reach with future strike directions identified",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Visioner (single report of Zelenskyy remarks)"
-    },
-    {
-      "time": "15:13",
-      "ts": "2026-10-31T15:13:54+08:00",
-      "eventTime": "3:07 pm, 31 Oct (est.)",
-      "eventTs": "2026-10-31T15:07:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Civil Defense issued an emergency early-warning alert for Jazan (Jizan) at about 3:07 pm SGT and lifted it three minutes later; small accounts say the Houthis claim a ballistic missile hit Aramco energy facilities in Jizan, home to a 400,000 b/d refinery and export terminal",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Saudi Civil Defense (alert, confirmed); Houthi strike claim via World Conflict and Raaz News (unconfirmed)"
-    },
-    {
-      "time": "13:56",
-      "ts": "2026-10-31T13:56:12+08:00",
-      "eventTime": "12:39 pm, 31 Oct (est.)",
-      "eventTs": "2026-10-31T12:39:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones hit Ufa's industrial zone in Bashkortostan; explosions confirmed by Kyiv Independent citing Russian media, and locals report a fire at an oil refinery",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Kyiv Independent; Ateo Breaking (Russian); local reports via Exilenova+"
-    },
-    {
-      "time": "09:04",
-      "ts": "2026-10-31T09:04:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Al Hadath: CENTCOM's briefing to Trump included options to hit Iran's nuclear sites, energy facilities and infrastructure, but excluded oil facilities",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Al Hadath correspondent Hussein al-Toud (Arabic)"
-    },
-    {
-      "time": "07:38",
-      "ts": "2026-10-31T07:38:00+08:00",
-      "eventTime": "Thu 29 Oct, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "India's shipping minister says the ADNOC-managed, Liberia-flagged VLCC ARZANAH was hit by a projectile near Hormuz on 29 Oct (2 Indian crew safe); likely not separately reported by UKMTO",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "India's shipping minister, relayed by Open Source Intel and Bering Report"
-    },
-    {
-      "time": "04:20",
-      "ts": "2026-10-31T04:20:00+08:00",
-      "eventTime": "Not stated (late report; UKMTO notice issued 4:13 am, 31 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO: a crude oil tanker was struck by an unknown projectile while transiting out of the Strait of Hormuz, per a verified source",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice relayed by CGTN Europe"
-    },
-    {
-      "time": "04:01",
-      "ts": "2026-10-31T04:01:00+08:00",
-      "eventTime": "Fri 30 Oct afternoon Iran time (~7:30 pm SGT, est.)",
-      "eventTs": "2026-10-30T19:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy claims a fourth tanker, a supertanker that ignored its warnings, exploded in the Strait of Hormuz this afternoon",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy statement relayed by CGTN Europe"
-    },
-    {
-      "time": "03:35",
-      "ts": "2026-10-31T03:35:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israel's Channel 14 reports Israel has raised defensive and offensive readiness to high levels and finalized military preparations for an attack on Iran",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Israeli Channel 14 report, via Post Open Source"
-    },
-    {
-      "time": "03:35",
-      "ts": "2026-10-31T03:35:00+08:00",
-      "eventTime": "2:00 am, 31 Oct",
-      "eventTs": "2026-10-31T02:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "OSINT tracking suggests the vessel hit by a projectile south of Lavan Island is the Qatari-owned LNG tanker AL MAYEDA, which slowed and turned around at the time of the strike",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint ship-tracking analysis of the UKMTO notice"
-    },
-    {
-      "time": "03:09",
-      "ts": "2026-10-31T03:09:00+08:00",
-      "eventTime": "2:00 am, 31 Oct (UKMTO, 18:00 UTC)",
-      "eventTs": "2026-10-31T02:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: a vessel was hit on its port side by an unknown projectile 40 nm south of Iran's Lavan Island in the central Gulf, causing a fire onboard; crew safe, no environmental impact reported",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice, via ILRedAlert, Faytuks Network and CGTN"
-    },
-    {
-      "time": "23:36",
-      "ts": "2026-10-30T23:36:00+08:00",
-      "eventTime": "Not stated (shutdown follows Houthi attacks about 3 days ago, ~27 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Bloomberg: Aramco has shut the main crude distillation unit at its 550,000 b/d Ras Tanura refinery, Saudi Arabia's largest, after damage from Houthi attacks; the unit is expected to stay offline",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Bloomberg report, via The Hormuz Letter and Conflict Alarm"
-    },
-    {
-      "time": "21:57",
-      "ts": "2026-10-30T21:57:00+08:00",
-      "eventTime": "~6:00 am, 30 Oct (est., pumping halted around midnight Libya time)",
-      "eventTs": "2026-10-30T06:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Libya's NOC says an armed group shut the valve on the main Hamada-Zawiya crude pipeline at Al-Riyayna, forcing a halt to pumping to the Zawiya refinery",
-      "theme": "Libya",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Libya NOC statement, via Giovanni Staunovo, CGTN and Libyan outlets"
-    },
-    {
-      "time": "21:17",
-      "ts": "2026-10-30T21:17:00+08:00",
-      "eventTime": "Friday 30 Oct; Oman notice posted ~9:09 pm",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Oman says a Panama-flagged vessel was attacked and caught fire 1.6 nm off Musandam; all 25 crew evacuated. IRGC separately claims a third tanker today, a supertanker with over 2M barrels, exploded on a mine",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Oman Maritime Security Centre, via Open Source Intel and Al Mayadeen; IRGC claim via Press TV"
-    },
-    {
-      "time": "21:08",
-      "ts": "2026-10-30T21:08:00+08:00",
-      "eventTime": "Not stated (claim surfaced ~7:47 pm, 30 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's navy claims it destroyed a US unmanned vessel (drone boat) in the eastern Strait of Hormuz; no US confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian state media, via Sky News"
-    },
-    {
-      "time": "21:08",
-      "ts": "2026-10-30T21:08:00+08:00",
-      "eventTime": "7:40 pm, 30 Oct (est.)",
-      "eventTs": "2026-10-30T19:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump says the Iran war is 'going to get wrapped up soon' and Iran 'has to make a deal'; Qatari mediators brought revised proposals to Tehran, reply expected by the weekend",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Reuters, Sky News; CBS News via Open Source Intel"
-    },
-    {
-      "time": "15:41",
-      "ts": "2026-10-30T15:41:00+08:00",
-      "eventTime": "Not stated (Reuters report published ~12:05 am, 30 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters: Russia to extend its diesel export ban to year-end, using quotas only to meet its new export commitment to the US",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Reuters (two sources), via Kashish Parpiani"
-    },
-    {
-      "time": "14:39",
-      "ts": "2026-10-30T14:39:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US loans 40 million barrels of oil from the SPR, its last share of the global (IEA) release agreement",
-      "theme": "Strategic reserves",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Giovanni Staunovo, UBS, linking a news report"
-    },
-    {
-      "time": "13:59",
-      "ts": "2026-10-30T13:59:00+08:00",
-      "eventTime": "Not stated (letter sent last week per NYT; reports surfaced ~10:17 am, 30 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US VP Vance offers to meet Iran's security chief Rezaei for talks to end the war; Iran confirms the letter, hasn't replied, and dismisses a Qatari peace plan",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Iran International (WaPo report), Israel War Room, Mossadil; NYT and WSJ also cited"
-    },
-    {
-      "time": "11:36",
-      "ts": "2026-10-30T11:36:00+08:00",
-      "eventTime": "Not stated (just before the posts, est.)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Ukrainian drones hit Novokuybyshevsk (Samara) in Russia; refinery likely target, large fires reported",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping, Woofers, Mockingjay News UA"
-    },
-    {
-      "time": "11:23",
-      "ts": "2026-10-30T11:23:00+08:00",
-      "eventTime": "6:12 am, 30 Oct (UKMTO, 22:12 UTC)",
-      "eventTs": "2026-10-30T06:12:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: tanker leaving Hormuz hit by a small boat that attached two explosive devices; fire now out, crew safe",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO, First Squawk, RedboxGlobal"
-    },
-    {
-      "time": "11:19",
-      "ts": "2026-10-30T11:19:00+08:00",
-      "eventTime": "Not stated (the fire is likely the 6:12 am attack above)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran says 3 tankers hit mines near Hormuz; UKMTO reports a vessel on fire near Oman",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "X news, MarketPulse"
-    },
-    {
-      "time": "11:19",
-      "ts": "2026-10-30T11:19:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US reportedly struck an IRGC missile launcher on Qeshm Island; explosions near Bandar-e-Jask",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "X news, AUC3I"
-    },
-    {
-      "time": "11:19",
-      "ts": "2026-10-30T11:19:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC claims capture of an intact US MQM-170 drone; US-side reports call it false",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping"
-    },
-    {
-      "time": "11:19",
-      "ts": "2026-10-30T11:19:00+08:00",
-      "eventTime": "Price move in early Asia trade; attack time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi attacks on Saudi Arabia lift Brent to about $115.74 (+0.75%) in early Asia trade",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Iran International"
-    },
-    {
-      "time": "11:19",
-      "ts": "2026-10-30T11:19:00+08:00",
-      "eventTime": "Not stated (policy decision, timing unknown)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: Ukraine paused strikes on Russian refineries until after the Nov 3 US midterms",
-      "theme": "Russia refineries",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "X news (WSJ report)"
-    }
-  ],
-  "sources": [
-    {
-      "title": "Leaked draft US-Iran framework via Qatar (Arabic)",
-      "site": "Abdulrahman Al-Rashed",
-      "href": "https://x.com/aalrashed/status/2116551879349997836"
-    },
-    {
-      "title": "Draft terms: 440 kg uranium to third country, Hormuz reopens in 7 days (Persian)",
-      "site": "Mostafa Gorji",
-      "href": "https://x.com/M_gorji2/status/2116563840926187525"
-    },
-    {
-      "title": "Qatari mediation reaches preliminary draft deal (Arabic)",
-      "site": "Abdulaziz Al Oqab",
-      "href": "https://x.com/abdulaziz_a76/status/2116556053211128191"
-    },
-    {
-      "title": "Footage: 'violating ship' hit in Strait of Hormuz today",
-      "site": "Post Open Source",
-      "href": "https://x.com/CocoPostel/status/2116534925847584955"
-    },
-    {
-      "title": "Reports of Kuwaiti oil tanker targeted in Hormuz (Arabic)",
-      "site": "Iraq Al-Hadath TV",
-      "href": "https://x.com/iraqlhadath/status/2116534019114287441"
-    },
-    {
-      "title": "Araghchi: new proposal cuts Hormuz reopening plan to two days",
-      "site": "Al Jazeera Breaking News",
-      "href": "https://x.com/AJENews/status/2116525125499593171"
-    },
-    {
-      "title": "Iran and Qatari mediators reach two-day Hormuz reopening proposal",
-      "site": "Iran International English",
-      "href": "https://x.com/IranIntl_En/status/2116525993045192840"
-    },
-    {
-      "title": "Araghchi: recognize new Oman-agreed Hormuz lane, close other routes",
-      "site": "CGTN Africa",
-      "href": "https://x.com/cgtnafrica/status/2116519079930704067"
-    },
-    {
-      "title": "Araghchi: only Iran's proposal on table for reopening Hormuz",
-      "site": "FinSquawk",
-      "href": "https://x.com/finsquawk_/status/2116519186205933669"
-    },
-    {
-      "title": "Russia to extend diesel export ban to end of January 2027 (Novak)",
-      "site": "Tracy Shuchart",
-      "href": "https://x.com/chigrl/status/2116486929738842406"
-    },
-    {
-      "title": "Russia extends diesel export ban through January (Interfax)",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2116486050600346103"
-    },
-    {
-      "title": "Iran confirms US strike on fishing boats off Qeshm (Reuters)",
-      "site": "Post Open Source",
-      "href": "https://x.com/CocoPostel/status/2116484865122312633"
-    },
-    {
-      "title": "Tasnim: US Navy attacked Iranian fishing boats near Qeshm",
-      "site": "RedboxGlobal",
-      "href": "https://x.com/RedboxWire/status/2116479103369101390"
-    },
-    {
-      "title": "Khamenei orders response without geographical limits",
-      "site": "CGTN Europe",
-      "href": "https://x.com/CGTNEurope/status/2116477229681037809"
-    },
-    {
-      "title": "Al-Araby Al-Jadeed: US-Iran breakthrough, US delegation to Doha",
-      "site": "Faytuks Network",
-      "href": "https://x.com/FaytuksNetwork/status/2116435279833706662"
-    },
-    {
-      "title": "US delegation to join Doha talks with Iran (Arabic)",
-      "site": "Cairo 24",
-      "href": "https://x.com/cairo24_/status/2116433851530481738"
-    },
-    {
-      "title": "Zelenskyy says Ukraine can strike from Yamal to Western Siberia",
-      "site": "Visioner",
-      "href": "https://x.com/visionergeo/status/2116432484187447755"
-    },
-    {
-      "title": "Early-warning alert issued for Jazan Province",
-      "site": "Saudi Civil Defense",
-      "href": "https://x.com/SaudiDCD/status/2116426881721328087"
-    },
-    {
-      "title": "Houthis say ballistic missile hit Aramco facilities in Jizan",
-      "site": "World Conflict",
-      "href": "https://x.com/WorldConflict_X/status/2116427700219068491"
-    },
-    {
-      "title": "Explosions in Ufa amid drone alerts, Bashkortostan",
-      "site": "Kyiv Independent",
-      "href": "https://x.com/KyivIndependent/status/2116405701677629847"
-    },
-    {
-      "title": "Locals report fire at Ufa oil refinery after attack",
-      "site": "Exilenova+",
-      "href": "https://x.com/Exilenova_plus/status/2116408059253903798"
-    },
-    {
-      "title": "US strike options on Iran exclude oil facilities (Arabic)",
-      "site": "Al Hadath",
-      "href": "https://x.com/AlHadath/status/2116334995069419924"
-    },
-    {
-      "title": "India: ADNOC-managed VLCC ARZANAH hit near Hormuz",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2116313023736619388"
-    },
-    {
-      "title": "India's minister adds VLCC Arzanah, hit Oct 29",
-      "site": "Bering Report",
-      "href": "https://x.com/BeringReport/status/2116165795621355999"
-    },
-    {
-      "title": "UKMTO: crude tanker struck by projectile leaving Hormuz",
-      "site": "CGTN Europe",
-      "href": "https://x.com/CGTNEurope/status/2116263622229836057"
-    },
-    {
-      "title": "IRGC: fourth tanker, a supertanker, explodes in Hormuz",
-      "site": "CGTN Europe",
-      "href": "https://x.com/CGTNEurope/status/2116259178754777477"
-    },
-    {
-      "title": "Israel finalizes Iran strike preparations (Channel 14)",
-      "site": "Post Open Source",
-      "href": "https://x.com/CocoPostel/status/2116251207924592755"
-    },
-    {
-      "title": "Lavan Island vessel identified as LNG tanker AL MAYEDA",
-      "site": "MenchOsint",
-      "href": "https://x.com/MenchOsint/status/2116251704748392699"
-    },
-    {
-      "title": "UKMTO: vessel hit by projectile south of Lavan Island",
-      "site": "ILRedAlert",
-      "href": "https://x.com/ILRedAlert/status/2116245034538344775"
-    },
-    {
-      "title": "UKMTO Lavan Island incident",
-      "site": "Faytuks Network",
-      "href": "https://x.com/FaytuksNetwork/status/2116245036547383526"
-    },
-    {
-      "title": "Bloomberg: Aramco shuts main crude unit at Ras Tanura",
-      "site": "The Hormuz Letter",
-      "href": "https://x.com/HormuzLetter/status/2116191524765515807"
-    },
-    {
-      "title": "Ras Tanura distillation unit offline (Bloomberg)",
-      "site": "Conflict Alarm",
-      "href": "https://x.com/ConflictAlarm/status/2116191615031120228"
-    },
-    {
-      "title": "Libya NOC: armed group shuts Hamada-Zawiya pipeline valve",
-      "site": "Giovanni Staunovo",
-      "href": "https://x.com/staunovo/status/2116167343575339437"
-    },
-    {
-      "title": "NOC statement on the Hamada pipeline (Arabic)",
-      "site": "Wady Dinar",
-      "href": "https://x.com/wady_dynar/status/2116166880167682509"
-    },
-    {
-      "title": "Oman: vessel attacked off Musandam, 25 crew evacuated",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2116155411510317097"
-    },
-    {
-      "title": "Oman MSC statement on Musandam vessel",
-      "site": "Al Mayadeen English",
-      "href": "https://x.com/MayadeenEnglish/status/2116157173143044505"
-    },
-    {
-      "title": "IRGC: supertanker exploded on a mine",
-      "site": "Press TV",
-      "href": "https://x.com/PressTV/status/2116155659813286107"
-    },
-    {
-      "title": "Trump: Iran war to be wrapped up soon; Iran claims US vessel destroyed",
-      "site": "Sky News",
-      "href": "https://x.com/SkyNews/status/2116141413045854239"
-    },
-    {
-      "title": "Trump on Iran war (Reuters)",
-      "site": "PUKmedia",
-      "href": "https://x.com/pukmedia/status/2116141260276695342"
-    },
-    {
-      "title": "Qatari mediators' revised proposals (CBS)",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2116150395164615109"
-    },
-    {
-      "title": "Russia extends diesel export ban (Reuters)",
-      "site": "Kashish Parpiani",
-      "href": "https://x.com/kashishparpiani/status/2116071081060811083"
-    },
-    {
-      "title": "US loans 40M barrels from the SPR",
-      "site": "Giovanni Staunovo",
-      "href": "https://x.com/staunovo/status/2116054874542535067"
-    },
-    {
-      "title": "Vance offers to meet Rezaei (WaPo)",
-      "site": "Iran International",
-      "href": "https://x.com/IranIntl_En/status/2115991467369840910"
-    },
-    {
-      "title": "Iran got the letter, dismisses Qatari plan",
-      "site": "Israel War Room",
-      "href": "https://x.com/IsraelWarRoom/status/2116040476868346068"
-    },
-    {
-      "title": "Drone attack on Novokuybyshevsk refinery",
-      "site": "AMK Mapping",
-      "href": "https://x.com/AMK_Mapping_/status/2116011359284646235"
-    },
-    {
-      "title": "Multiple fires at Novokuibyshevsk refinery",
-      "site": "Woofers",
-      "href": "https://x.com/NotWoofers/status/2116010967242821735"
-    },
-    {
-      "title": "Tanker hit by explosives in Hormuz",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2116007373030711574"
-    },
-    {
-      "title": "UKMTO notice on the Hormuz tanker",
-      "site": "RedboxGlobal",
-      "href": "https://x.com/RedboxWire/status/2116007376855965915"
-    },
-    {
-      "title": "Iran says 3 tankers hit mines near Hormuz",
-      "site": "X news",
-      "href": "https://x.com/i/trending/2115704977024774468"
-    },
-    {
-      "title": "UK report of a vessel on fire near Oman",
-      "site": "MarketPulse",
-      "href": "https://x.com/MarketPulse24X/status/2116006502741762510"
-    },
-    {
-      "title": "US strike on Qeshm Island",
-      "site": "X news",
-      "href": "https://x.com/i/trending/2115908514724159987"
-    },
-    {
-      "title": "Briefing on the Qeshm strike",
-      "site": "AUC3I",
-      "href": "https://x.com/AUC31/status/2116005259185209449"
-    },
-    {
-      "title": "IRGC drone capture claim",
-      "site": "AMK Mapping",
-      "href": "https://x.com/AMK_Mapping_/status/2116004817852375510"
-    },
-    {
-      "title": "Houthi attacks lift Brent",
-      "site": "Iran International",
-      "href": "https://x.com/IranIntl_En/status/2116005910472712327"
-    },
-    {
-      "title": "Ukraine pauses refinery strikes",
-      "site": "X news",
-      "href": "https://x.com/i/trending/2115970424236577095"
-    }
-  ]
+  {
+   "time": "21:38",
+   "ts": "2026-10-31T21:38:00+08:00",
+   "eventTime": "9:10 pm, 31 Oct (est.)",
+   "eventTs": "2026-10-31T21:10:00+08:00",
+   "eventQual": "est.",
+   "headline": "Araghchi tells Al Jazeera that a new proposal reached with Qatari mediators cuts the time to implement Iran's plan to reopen the Strait of Hormuz to two days (down from five, and seven before that); Tehran's conditions include lifting sanctions, fewer US forces in the region and recognition of the new shipping route",
+   "theme": "Ceasefire / diplomacy",
+   "direction": "Down",
+   "confidence": "Confirmed",
+   "source": "Araghchi via Al Jazeera Breaking News, also Iran International English and Entekhab (Persian)"
+  },
+  {
+   "time": "21:14",
+   "ts": "2026-10-31T21:14:00+08:00",
+   "eventTime": "9:10 pm, 31 Oct (est.)",
+   "eventTs": "2026-10-31T21:10:00+08:00",
+   "eventQual": "est.",
+   "headline": "Iran's FM Araghchi tells Al Jazeera that Tehran wants recognition of a new Strait of Hormuz shipping lane agreed with Oman and the closure of alternative routes, says reopening Hormuz on Iran's terms would pave the way to resume talks with Washington, and that only Iran's proposal for reopening Hormuz is on the table",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Araghchi via Al Jazeera, relayed by CGTN Africa and FinSquawk"
+  },
+  {
+   "time": "19:07",
+   "ts": "2026-10-31T19:07:00+08:00",
+   "eventTime": "7:00 pm, 31 Oct (est.)",
+   "eventTs": "2026-10-31T19:00:00+08:00",
+   "eventQual": "est.",
+   "headline": "Russia's Deputy PM Novak says the government is preparing to extend its diesel export ban until the end of January 2027, with some exceptions (Interfax), pushing the curb past the earlier year-end date",
+   "theme": "Diesel / jet fuel shortage",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Novak via Interfax, relayed by First Squawk, RedboxGlobal and Tracy Shuchart"
+  },
+  {
+   "time": "19:00",
+   "ts": "2026-10-31T19:00:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Iran officially confirms US forces attacked fishing boats off Qeshm Island in the Strait of Hormuz, a provincial official tells state media (Reuters); Fars says two fishermen missing and two wounded",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Iranian provincial official via state media and Reuters, relayed by Post Open Source; earlier Tasnim and Fars via RedboxGlobal"
+  },
+  {
+   "time": "18:27",
+   "ts": "2026-10-31T18:27:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Iran's Supreme Leader Mojtaba Khamenei, meeting senior armed forces commanders, orders an immediate, effective response without geographical limitations to any potential enemy threat",
+   "theme": "Iran",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Supreme Leader's office statement, relayed by CGTN Europe"
+  },
+  {
+   "time": "15:44",
+   "ts": "2026-10-31T15:44:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Al-Araby Al-Jadeed reports a breakthrough in indirect US-Iran talks after Qatari mediation, with a US delegation expected to join Iranian negotiators in Doha for direct talks after preliminary understandings on the nuclear file and Hormuz",
+   "theme": "Ceasefire / diplomacy",
+   "direction": "Down",
+   "confidence": "Unconfirmed",
+   "source": "Al-Araby Al-Jadeed (unnamed sources), relayed by Faytuks Network, Cairo 24 and Kan via Akka"
+  },
+  {
+   "time": "15:33",
+   "ts": "2026-10-31T15:33:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Zelenskyy says Ukraine can now strike Russian targets from Yamal to Western Siberia, the core of Russia's oil and gas output, and is extending drone and missile reach with future strike directions identified",
+   "theme": "Russia refineries",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Visioner (single report of Zelenskyy remarks)"
+  },
+  {
+   "time": "15:13",
+   "ts": "2026-10-31T15:13:54+08:00",
+   "eventTime": "3:07 pm, 31 Oct (est.)",
+   "eventTs": "2026-10-31T15:07:00+08:00",
+   "eventQual": "est.",
+   "headline": "Saudi Civil Defense issued an emergency early-warning alert for Jazan (Jizan) at about 3:07 pm SGT and lifted it three minutes later; small accounts say the Houthis claim a ballistic missile hit Aramco energy facilities in Jizan, home to a 400,000 b/d refinery and export terminal",
+   "theme": "Saudi / Houthi",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Saudi Civil Defense (alert, confirmed); Houthi strike claim via World Conflict and Raaz News (unconfirmed)"
+  },
+  {
+   "time": "13:56",
+   "ts": "2026-10-31T13:56:12+08:00",
+   "eventTime": "12:39 pm, 31 Oct (est.)",
+   "eventTs": "2026-10-31T12:39:00+08:00",
+   "eventQual": "est.",
+   "headline": "Ukrainian drones hit Ufa's industrial zone in Bashkortostan; explosions confirmed by Kyiv Independent citing Russian media, and locals report a fire at an oil refinery",
+   "theme": "Russia refineries",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Kyiv Independent; Ateo Breaking (Russian); local reports via Exilenova+"
+  },
+  {
+   "time": "09:04",
+   "ts": "2026-10-31T09:04:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Al Hadath: CENTCOM's briefing to Trump included options to hit Iran's nuclear sites, energy facilities and infrastructure, but excluded oil facilities",
+   "theme": "Iran",
+   "direction": "Down",
+   "confidence": "Unconfirmed",
+   "source": "Al Hadath correspondent Hussein al-Toud (Arabic)"
+  },
+  {
+   "time": "07:38",
+   "ts": "2026-10-31T07:38:00+08:00",
+   "eventTime": "Thu 29 Oct, time not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "India's shipping minister says the ADNOC-managed, Liberia-flagged VLCC ARZANAH was hit by a projectile near Hormuz on 29 Oct (2 Indian crew safe); likely not separately reported by UKMTO",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "India's shipping minister, relayed by Open Source Intel and Bering Report"
+  },
+  {
+   "time": "04:20",
+   "ts": "2026-10-31T04:20:00+08:00",
+   "eventTime": "Not stated (late report; UKMTO notice issued 4:13 am, 31 Oct)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "UKMTO: a crude oil tanker was struck by an unknown projectile while transiting out of the Strait of Hormuz, per a verified source",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "UKMTO notice relayed by CGTN Europe"
+  },
+  {
+   "time": "04:01",
+   "ts": "2026-10-31T04:01:00+08:00",
+   "eventTime": "Fri 30 Oct afternoon Iran time (~7:30 pm SGT, est.)",
+   "eventTs": "2026-10-30T19:30:00+08:00",
+   "eventQual": "est.",
+   "headline": "IRGC Navy claims a fourth tanker, a supertanker that ignored its warnings, exploded in the Strait of Hormuz this afternoon",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "IRGC Navy statement relayed by CGTN Europe"
+  },
+  {
+   "time": "03:35",
+   "ts": "2026-10-31T03:35:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Israel's Channel 14 reports Israel has raised defensive and offensive readiness to high levels and finalized military preparations for an attack on Iran",
+   "theme": "Iran",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Israeli Channel 14 report, via Post Open Source"
+  },
+  {
+   "time": "03:35",
+   "ts": "2026-10-31T03:35:00+08:00",
+   "eventTime": "2:00 am, 31 Oct",
+   "eventTs": "2026-10-31T02:00:00+08:00",
+   "eventQual": "confirmed",
+   "headline": "OSINT tracking suggests the vessel hit by a projectile south of Lavan Island is the Qatari-owned LNG tanker AL MAYEDA, which slowed and turned around at the time of the strike",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "MenchOsint ship-tracking analysis of the UKMTO notice"
+  },
+  {
+   "time": "03:09",
+   "ts": "2026-10-31T03:09:00+08:00",
+   "eventTime": "2:00 am, 31 Oct (UKMTO, 18:00 UTC)",
+   "eventTs": "2026-10-31T02:00:00+08:00",
+   "eventQual": "confirmed",
+   "headline": "UKMTO: a vessel was hit on its port side by an unknown projectile 40 nm south of Iran's Lavan Island in the central Gulf, causing a fire onboard; crew safe, no environmental impact reported",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "UKMTO notice, via ILRedAlert, Faytuks Network and CGTN"
+  },
+  {
+   "time": "23:36",
+   "ts": "2026-10-30T23:36:00+08:00",
+   "eventTime": "Not stated (shutdown follows Houthi attacks about 3 days ago, ~27 Oct)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Bloomberg: Aramco has shut the main crude distillation unit at its 550,000 b/d Ras Tanura refinery, Saudi Arabia's largest, after damage from Houthi attacks; the unit is expected to stay offline",
+   "theme": "Saudi / Houthi",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Bloomberg report, via The Hormuz Letter and Conflict Alarm"
+  },
+  {
+   "time": "21:57",
+   "ts": "2026-10-30T21:57:00+08:00",
+   "eventTime": "~6:00 am, 30 Oct (est., pumping halted around midnight Libya time)",
+   "eventTs": "2026-10-30T06:00:00+08:00",
+   "eventQual": "est.",
+   "headline": "Libya's NOC says an armed group shut the valve on the main Hamada-Zawiya crude pipeline at Al-Riyayna, forcing a halt to pumping to the Zawiya refinery",
+   "theme": "Libya",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Libya NOC statement, via Giovanni Staunovo, CGTN and Libyan outlets"
+  },
+  {
+   "time": "21:17",
+   "ts": "2026-10-30T21:17:00+08:00",
+   "eventTime": "Friday 30 Oct; Oman notice posted ~9:09 pm",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Oman says a Panama-flagged vessel was attacked and caught fire 1.6 nm off Musandam; all 25 crew evacuated. IRGC separately claims a third tanker today, a supertanker with over 2M barrels, exploded on a mine",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Oman Maritime Security Centre, via Open Source Intel and Al Mayadeen; IRGC claim via Press TV"
+  },
+  {
+   "time": "21:08",
+   "ts": "2026-10-30T21:08:00+08:00",
+   "eventTime": "Not stated (claim surfaced ~7:47 pm, 30 Oct)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Iran's navy claims it destroyed a US unmanned vessel (drone boat) in the eastern Strait of Hormuz; no US confirmation",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Iranian state media, via Sky News"
+  },
+  {
+   "time": "21:08",
+   "ts": "2026-10-30T21:08:00+08:00",
+   "eventTime": "7:40 pm, 30 Oct (est.)",
+   "eventTs": "2026-10-30T19:40:00+08:00",
+   "eventQual": "est.",
+   "headline": "Trump says the Iran war is 'going to get wrapped up soon' and Iran 'has to make a deal'; Qatari mediators brought revised proposals to Tehran, reply expected by the weekend",
+   "theme": "Ceasefire / diplomacy",
+   "direction": "Down",
+   "confidence": "Confirmed",
+   "source": "Reuters, Sky News; CBS News via Open Source Intel"
+  },
+  {
+   "time": "15:41",
+   "ts": "2026-10-30T15:41:00+08:00",
+   "eventTime": "Not stated (Reuters report published ~12:05 am, 30 Oct)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Reuters: Russia to extend its diesel export ban to year-end, using quotas only to meet its new export commitment to the US",
+   "theme": "Diesel / jet fuel shortage",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "Reuters (two sources), via Kashish Parpiani"
+  },
+  {
+   "time": "14:39",
+   "ts": "2026-10-30T14:39:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "US loans 40 million barrels of oil from the SPR, its last share of the global (IEA) release agreement",
+   "theme": "Strategic reserves",
+   "direction": "Down",
+   "confidence": "Unconfirmed",
+   "source": "Giovanni Staunovo, UBS, linking a news report"
+  },
+  {
+   "time": "13:59",
+   "ts": "2026-10-30T13:59:00+08:00",
+   "eventTime": "Not stated (letter sent last week per NYT; reports surfaced ~10:17 am, 30 Oct)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "US VP Vance offers to meet Iran's security chief Rezaei for talks to end the war; Iran confirms the letter, hasn't replied, and dismisses a Qatari peace plan",
+   "theme": "Ceasefire / diplomacy",
+   "direction": "Down",
+   "confidence": "Confirmed",
+   "source": "Iran International (WaPo report), Israel War Room, Mossadil; NYT and WSJ also cited"
+  },
+  {
+   "time": "11:36",
+   "ts": "2026-10-30T11:36:00+08:00",
+   "eventTime": "Not stated (just before the posts, est.)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Ukrainian drones hit Novokuybyshevsk (Samara) in Russia; refinery likely target, large fires reported",
+   "theme": "Russia refineries",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "AMK Mapping, Woofers, Mockingjay News UA"
+  },
+  {
+   "time": "11:23",
+   "ts": "2026-10-30T11:23:00+08:00",
+   "eventTime": "6:12 am, 30 Oct (UKMTO, 22:12 UTC)",
+   "eventTs": "2026-10-30T06:12:00+08:00",
+   "eventQual": "confirmed",
+   "headline": "UKMTO: tanker leaving Hormuz hit by a small boat that attached two explosive devices; fire now out, crew safe",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "UKMTO, First Squawk, RedboxGlobal"
+  },
+  {
+   "time": "11:19",
+   "ts": "2026-10-30T11:19:00+08:00",
+   "eventTime": "Not stated (the fire is likely the 6:12 am attack above)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Iran says 3 tankers hit mines near Hormuz; UKMTO reports a vessel on fire near Oman",
+   "theme": "Hormuz",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "X news, MarketPulse"
+  },
+  {
+   "time": "11:19",
+   "ts": "2026-10-30T11:19:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "US reportedly struck an IRGC missile launcher on Qeshm Island; explosions near Bandar-e-Jask",
+   "theme": "Iran",
+   "direction": "Up",
+   "confidence": "Unconfirmed",
+   "source": "X news, AUC3I"
+  },
+  {
+   "time": "11:19",
+   "ts": "2026-10-30T11:19:00+08:00",
+   "eventTime": "Not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "IRGC claims capture of an intact US MQM-170 drone; US-side reports call it false",
+   "theme": "Iran",
+   "direction": "Neutral",
+   "confidence": "Unconfirmed",
+   "source": "AMK Mapping"
+  },
+  {
+   "time": "11:19",
+   "ts": "2026-10-30T11:19:00+08:00",
+   "eventTime": "Price move in early Asia trade; attack time not stated",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "Houthi attacks on Saudi Arabia lift Brent to about $115.74 (+0.75%) in early Asia trade",
+   "theme": "Saudi / Houthi",
+   "direction": "Up",
+   "confidence": "Confirmed",
+   "source": "Iran International"
+  },
+  {
+   "time": "11:19",
+   "ts": "2026-10-30T11:19:00+08:00",
+   "eventTime": "Not stated (policy decision, timing unknown)",
+   "eventTs": null,
+   "eventQual": "not stated",
+   "headline": "WSJ: Ukraine paused strikes on Russian refineries until after the Nov 3 US midterms",
+   "theme": "Russia refineries",
+   "direction": "Down",
+   "confidence": "Unconfirmed",
+   "source": "X news (WSJ report)"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Leaked draft US-Iran framework via Qatar (Arabic)",
+   "site": "Abdulrahman Al-Rashed",
+   "href": "https://x.com/aalrashed/status/2116551879349997836"
+  },
+  {
+   "title": "Draft terms: 440 kg uranium to third country, Hormuz reopens in 7 days (Persian)",
+   "site": "Mostafa Gorji",
+   "href": "https://x.com/M_gorji2/status/2116563840926187525"
+  },
+  {
+   "title": "Qatari mediation reaches preliminary draft deal (Arabic)",
+   "site": "Abdulaziz Al Oqab",
+   "href": "https://x.com/abdulaziz_a76/status/2116556053211128191"
+  },
+  {
+   "title": "Footage: 'violating ship' hit in Strait of Hormuz today",
+   "site": "Post Open Source",
+   "href": "https://x.com/CocoPostel/status/2116534925847584955"
+  },
+  {
+   "title": "Reports of Kuwaiti oil tanker targeted in Hormuz (Arabic)",
+   "site": "Iraq Al-Hadath TV",
+   "href": "https://x.com/iraqlhadath/status/2116534019114287441"
+  },
+  {
+   "title": "Araghchi: new proposal cuts Hormuz reopening plan to two days",
+   "site": "Al Jazeera Breaking News",
+   "href": "https://x.com/AJENews/status/2116525125499593171"
+  },
+  {
+   "title": "Iran and Qatari mediators reach two-day Hormuz reopening proposal",
+   "site": "Iran International English",
+   "href": "https://x.com/IranIntl_En/status/2116525993045192840"
+  },
+  {
+   "title": "Araghchi: recognize new Oman-agreed Hormuz lane, close other routes",
+   "site": "CGTN Africa",
+   "href": "https://x.com/cgtnafrica/status/2116519079930704067"
+  },
+  {
+   "title": "Araghchi: only Iran's proposal on table for reopening Hormuz",
+   "site": "FinSquawk",
+   "href": "https://x.com/finsquawk_/status/2116519186205933669"
+  },
+  {
+   "title": "Russia to extend diesel export ban to end of January 2027 (Novak)",
+   "site": "Tracy Shuchart",
+   "href": "https://x.com/chigrl/status/2116486929738842406"
+  },
+  {
+   "title": "Russia extends diesel export ban through January (Interfax)",
+   "site": "First Squawk",
+   "href": "https://x.com/FirstSquawk/status/2116486050600346103"
+  },
+  {
+   "title": "Iran confirms US strike on fishing boats off Qeshm (Reuters)",
+   "site": "Post Open Source",
+   "href": "https://x.com/CocoPostel/status/2116484865122312633"
+  },
+  {
+   "title": "Tasnim: US Navy attacked Iranian fishing boats near Qeshm",
+   "site": "RedboxGlobal",
+   "href": "https://x.com/RedboxWire/status/2116479103369101390"
+  },
+  {
+   "title": "Khamenei orders response without geographical limits",
+   "site": "CGTN Europe",
+   "href": "https://x.com/CGTNEurope/status/2116477229681037809"
+  },
+  {
+   "title": "Al-Araby Al-Jadeed: US-Iran breakthrough, US delegation to Doha",
+   "site": "Faytuks Network",
+   "href": "https://x.com/FaytuksNetwork/status/2116435279833706662"
+  },
+  {
+   "title": "US delegation to join Doha talks with Iran (Arabic)",
+   "site": "Cairo 24",
+   "href": "https://x.com/cairo24_/status/2116433851530481738"
+  },
+  {
+   "title": "Zelenskyy says Ukraine can strike from Yamal to Western Siberia",
+   "site": "Visioner",
+   "href": "https://x.com/visionergeo/status/2116432484187447755"
+  },
+  {
+   "title": "Early-warning alert issued for Jazan Province",
+   "site": "Saudi Civil Defense",
+   "href": "https://x.com/SaudiDCD/status/2116426881721328087"
+  },
+  {
+   "title": "Houthis say ballistic missile hit Aramco facilities in Jizan",
+   "site": "World Conflict",
+   "href": "https://x.com/WorldConflict_X/status/2116427700219068491"
+  },
+  {
+   "title": "Explosions in Ufa amid drone alerts, Bashkortostan",
+   "site": "Kyiv Independent",
+   "href": "https://x.com/KyivIndependent/status/2116405701677629847"
+  },
+  {
+   "title": "Locals report fire at Ufa oil refinery after attack",
+   "site": "Exilenova+",
+   "href": "https://x.com/Exilenova_plus/status/2116408059253903798"
+  },
+  {
+   "title": "US strike options on Iran exclude oil facilities (Arabic)",
+   "site": "Al Hadath",
+   "href": "https://x.com/AlHadath/status/2116334995069419924"
+  },
+  {
+   "title": "India: ADNOC-managed VLCC ARZANAH hit near Hormuz",
+   "site": "Open Source Intel",
+   "href": "https://x.com/Osint613/status/2116313023736619388"
+  },
+  {
+   "title": "India's minister adds VLCC Arzanah, hit Oct 29",
+   "site": "Bering Report",
+   "href": "https://x.com/BeringReport/status/2116165795621355999"
+  },
+  {
+   "title": "UKMTO: crude tanker struck by projectile leaving Hormuz",
+   "site": "CGTN Europe",
+   "href": "https://x.com/CGTNEurope/status/2116263622229836057"
+  },
+  {
+   "title": "IRGC: fourth tanker, a supertanker, explodes in Hormuz",
+   "site": "CGTN Europe",
+   "href": "https://x.com/CGTNEurope/status/2116259178754777477"
+  },
+  {
+   "title": "Israel finalizes Iran strike preparations (Channel 14)",
+   "site": "Post Open Source",
+   "href": "https://x.com/CocoPostel/status/2116251207924592755"
+  },
+  {
+   "title": "Lavan Island vessel identified as LNG tanker AL MAYEDA",
+   "site": "MenchOsint",
+   "href": "https://x.com/MenchOsint/status/2116251704748392699"
+  },
+  {
+   "title": "UKMTO: vessel hit by projectile south of Lavan Island",
+   "site": "ILRedAlert",
+   "href": "https://x.com/ILRedAlert/status/2116245034538344775"
+  },
+  {
+   "title": "UKMTO Lavan Island incident",
+   "site": "Faytuks Network",
+   "href": "https://x.com/FaytuksNetwork/status/2116245036547383526"
+  },
+  {
+   "title": "Bloomberg: Aramco shuts main crude unit at Ras Tanura",
+   "site": "The Hormuz Letter",
+   "href": "https://x.com/HormuzLetter/status/2116191524765515807"
+  },
+  {
+   "title": "Ras Tanura distillation unit offline (Bloomberg)",
+   "site": "Conflict Alarm",
+   "href": "https://x.com/ConflictAlarm/status/2116191615031120228"
+  },
+  {
+   "title": "Libya NOC: armed group shuts Hamada-Zawiya pipeline valve",
+   "site": "Giovanni Staunovo",
+   "href": "https://x.com/staunovo/status/2116167343575339437"
+  },
+  {
+   "title": "NOC statement on the Hamada pipeline (Arabic)",
+   "site": "Wady Dinar",
+   "href": "https://x.com/wady_dynar/status/2116166880167682509"
+  },
+  {
+   "title": "Oman: vessel attacked off Musandam, 25 crew evacuated",
+   "site": "Open Source Intel",
+   "href": "https://x.com/Osint613/status/2116155411510317097"
+  },
+  {
+   "title": "Oman MSC statement on Musandam vessel",
+   "site": "Al Mayadeen English",
+   "href": "https://x.com/MayadeenEnglish/status/2116157173143044505"
+  },
+  {
+   "title": "IRGC: supertanker exploded on a mine",
+   "site": "Press TV",
+   "href": "https://x.com/PressTV/status/2116155659813286107"
+  },
+  {
+   "title": "Trump: Iran war to be wrapped up soon; Iran claims US vessel destroyed",
+   "site": "Sky News",
+   "href": "https://x.com/SkyNews/status/2116141413045854239"
+  },
+  {
+   "title": "Trump on Iran war (Reuters)",
+   "site": "PUKmedia",
+   "href": "https://x.com/pukmedia/status/2116141260276695342"
+  },
+  {
+   "title": "Qatari mediators' revised proposals (CBS)",
+   "site": "Open Source Intel",
+   "href": "https://x.com/Osint613/status/2116150395164615109"
+  },
+  {
+   "title": "Russia extends diesel export ban (Reuters)",
+   "site": "Kashish Parpiani",
+   "href": "https://x.com/kashishparpiani/status/2116071081060811083"
+  },
+  {
+   "title": "US loans 40M barrels from the SPR",
+   "site": "Giovanni Staunovo",
+   "href": "https://x.com/staunovo/status/2116054874542535067"
+  },
+  {
+   "title": "Vance offers to meet Rezaei (WaPo)",
+   "site": "Iran International",
+   "href": "https://x.com/IranIntl_En/status/2115991467369840910"
+  },
+  {
+   "title": "Iran got the letter, dismisses Qatari plan",
+   "site": "Israel War Room",
+   "href": "https://x.com/IsraelWarRoom/status/2116040476868346068"
+  },
+  {
+   "title": "Drone attack on Novokuybyshevsk refinery",
+   "site": "AMK Mapping",
+   "href": "https://x.com/AMK_Mapping_/status/2116011359284646235"
+  },
+  {
+   "title": "Multiple fires at Novokuibyshevsk refinery",
+   "site": "Woofers",
+   "href": "https://x.com/NotWoofers/status/2116010967242821735"
+  },
+  {
+   "title": "Tanker hit by explosives in Hormuz",
+   "site": "First Squawk",
+   "href": "https://x.com/FirstSquawk/status/2116007373030711574"
+  },
+  {
+   "title": "UKMTO notice on the Hormuz tanker",
+   "site": "RedboxGlobal",
+   "href": "https://x.com/RedboxWire/status/2116007376855965915"
+  },
+  {
+   "title": "Iran says 3 tankers hit mines near Hormuz",
+   "site": "X news",
+   "href": "https://x.com/i/trending/2115704977024774468"
+  },
+  {
+   "title": "UK report of a vessel on fire near Oman",
+   "site": "MarketPulse",
+   "href": "https://x.com/MarketPulse24X/status/2116006502741762510"
+  },
+  {
+   "title": "US strike on Qeshm Island",
+   "site": "X news",
+   "href": "https://x.com/i/trending/2115908514724159987"
+  },
+  {
+   "title": "Briefing on the Qeshm strike",
+   "site": "AUC3I",
+   "href": "https://x.com/AUC31/status/2116005259185209449"
+  },
+  {
+   "title": "IRGC drone capture claim",
+   "site": "AMK Mapping",
+   "href": "https://x.com/AMK_Mapping_/status/2116004817852375510"
+  },
+  {
+   "title": "Houthi attacks lift Brent",
+   "site": "Iran International",
+   "href": "https://x.com/IranIntl_En/status/2116005910472712327"
+  },
+  {
+   "title": "Ukraine pauses refinery strikes",
+   "site": "X news",
+   "href": "https://x.com/i/trending/2115970424236577095"
+  }
+ ]
 }
