@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Sat 31 Oct 2026, 3:27 pm SGT",
-  "lastScannedTs": "2026-10-31T15:27:00+08:00",
-  "asOf": "Sat 31 Oct 2026, 3:13 pm SGT",
-  "asOfTs": "2026-10-31T15:13:54+08:00",
+  "lastScanned": "Sat 31 Oct 2026, 3:33 pm SGT",
+  "lastScannedTs": "2026-10-31T15:33:00+08:00",
+  "asOf": "Sat 31 Oct 2026, 3:33 pm SGT",
+  "asOfTs": "2026-10-31T15:33:51+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Eighteen of twenty-four alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack, a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
+    "text": "Nineteen of twenty-five alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, a tighter diesel market and a new Libyan pipeline shutdown by an armed group. The offsets are an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals and a 40 million barrel US SPR loan, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "15:33",
+      "ts": "2026-10-31T15:33:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Zelenskyy says Ukraine can now strike Russian targets from Yamal to Western Siberia, the core of Russia's oil and gas output, and is extending drone and missile reach with future strike directions identified",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Visioner (single report of Zelenskyy remarks)"
+    },
     {
       "time": "15:13",
       "ts": "2026-10-31T15:13:54+08:00",
@@ -303,6 +315,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Zelenskyy says Ukraine can strike from Yamal to Western Siberia",
+      "site": "Visioner",
+      "href": "https://x.com/visionergeo/status/2116432484187447755"
+    },
     {
       "title": "Early-warning alert issued for Jazan Province",
       "site": "Saudi Civil Defense",
