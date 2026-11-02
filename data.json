@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 11:57 pm SGT",
-  "lastScannedTs": "2026-11-02T23:57:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 12:04 am SGT",
+  "lastScannedTs": "2026-11-03T00:04:00+08:00",
   "asOf": "Mon 2 Nov 2026, 11:28 pm SGT",
   "asOfTs": "2026-11-02T23:28:14+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -829,10 +829,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Hormuz attacks keep mounting: Iran's navy says another tanker hit a mine and burned, the IRGC claims 11 tankers burned since Oct 25, and Saudi strikes hit the Houthi Ras Isa terminal.",
-      "Pezeshkian says Iran's leader authorized talks, pushing crude down about 6%, while Ukrainian drones hit Kstovo and Samara and Kazakhstan halted Atyrau-Samara pipeline flows."
+      "No new alerts yet today; the latest saw Kazakhstan halt oil flows on the Atyrau-Samara pipeline and unconfirmed reports of explosions at the British Embassy in Baghdad.",
+      "Late Monday, Iran's navy said another tanker hit a mine near Hormuz, while President Pezeshkian said the Supreme Leader authorized the government to negotiate with Washington."
     ],
-    "updated": "Mon 2 Nov 2026, 11:28 pm SGT",
-    "updatedTs": "2026-11-02T23:28:14+08:00"
+    "updated": "Tue 3 Nov 2026, 12:04 am SGT",
+    "updatedTs": "2026-11-03T00:04:00+08:00"
   }
 }
