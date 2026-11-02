@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 10:11 pm SGT",
-  "lastScannedTs": "2026-11-02T22:11:00+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 10:21 pm SGT",
+  "lastScannedTs": "2026-11-02T22:21:00+08:00",
   "asOf": "Mon 2 Nov 2026, 9:45 pm SGT",
   "asOfTs": "2026-11-02T21:45:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -9,8 +9,8 @@
     "text": "Thirteen of the fifteen alerts in the last 24 hours point to higher prices: an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
-    "value": "~$107",
-    "detail": "oil down more than 6% on the day on US-Iran diplomacy hopes (implying Brent around $106-107), per CGTN Africa and market posts on X around 9:48 pm SGT, 2 Nov; Reuters had Brent at $108.66, down 4.2%, at 8:50 pm SGT"
+    "value": "~$106.8",
+    "detail": "down about 6% on the day on US-Iran diplomacy hopes (Brent $106.76, -5.9%; WTI $97.51, -6.3%), per market posts on X citing Reuters around 10:21 pm SGT, 2 Nov"
   },
   "alerts": [
     {
