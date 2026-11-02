@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 1:12 am SGT",
-  "lastScannedTs": "2026-11-03T01:12:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 12:16 am SGT",
-  "asOfTs": "2026-11-03T00:16:10+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 1:16 am SGT",
+  "lastScannedTs": "2026-11-03T01:16:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 1:15 am SGT",
+  "asOfTs": "2026-11-03T01:15:53+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising, but diplomacy is pulling the other way.",
-    "text": "Sixteen of the eighteen alerts in the last 24 hours point to higher prices: a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Seventeen of the nineteen alerts in the last 24 hours point to higher prices: an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$104.4",
     "detail": "down about 8% on the day, below $105 for the first time since early October, as US-Iran diplomacy eased supply fears (Brent $104.40), per Anadolu around 1:04 am SGT, 3 Nov"
   },
   "alerts": [
+    {
+      "time": "00:36",
+      "ts": "2026-11-03T00:36:23+08:00",
+      "eventTime": "12:30 am, 3 Nov (est.)",
+      "eventTs": "2026-11-03T00:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Explosion and large fire at HPCL's Visakh refinery in Visakhapatnam, India; fire tenders rushed in, cause and damage not yet known",
+      "theme": "Refinery fire",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Deccan Chronicle and multiple local reports on X"
+    },
     {
       "time": "00:06",
       "ts": "2026-11-03T00:06:14+08:00",
@@ -480,21 +492,19 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "IRGC Navy statement relayed by CGTN Europe"
-    },
-    {
-      "time": "03:35",
-      "ts": "2026-10-31T03:35:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israel's Channel 14 reports Israel has raised defensive and offensive readiness to high levels and finalized military preparations for an attack on Iran",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Israeli Channel 14 report, via Post Open Source"
     }
   ],
   "sources": [
+    {
+      "title": "Massive fire at HPCL's Visakh refinery after explosion sounds",
+      "site": "Deccan Chronicle",
+      "href": "https://x.com/DeccanChronicle/status/2117303391860957372"
+    },
+    {
+      "title": "Major fire broke out at HPCL Visakhapatnam (first report)",
+      "site": "Vijayant Tyagi",
+      "href": "https://x.com/vijayanttyagi/status/2117294760998420566"
+    },
     {
       "title": "Houthi spokesman claims Dammam airport and Jizan drone strikes (Arabic)",
       "site": "Yahya Saree",
@@ -834,20 +844,15 @@
       "title": "Lavan Island vessel identified as LNG tanker AL MAYEDA",
       "site": "MenchOsint",
       "href": "https://x.com/MenchOsint/status/2116251704748392699"
-    },
-    {
-      "title": "UKMTO: vessel hit by projectile south of Lavan Island",
-      "site": "ILRedAlert",
-      "href": "https://x.com/ILRedAlert/status/2116245034538344775"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed drone strikes on Dammam airport in Saudi Arabia's oil-rich Eastern Province and on Jizan, and Saudi Arabia reportedly intercepted two drones over Riyadh.",
-      "Late Monday, Kazakhstan halted oil flows on the Atyrau-Samara pipeline, and Iran's president said the Supreme Leader had authorized talks with Washington."
+      "The Houthis claimed drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on Jizan, and Saudi Arabia reportedly intercepted two drones over Riyadh.",
+      "An explosion sparked a large fire at HPCL's Visakh refinery in India, while Kazakhstan halted oil flows on the Atyrau-Samara pipeline late Monday."
     ],
-    "updated": "Tue 3 Nov 2026, 12:16 am SGT",
-    "updatedTs": "2026-11-03T00:16:00+08:00"
+    "updated": "Tue 3 Nov 2026, 1:16 am SGT",
+    "updatedTs": "2026-11-03T01:16:00+08:00"
   }
 }
