@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 11:23 pm SGT",
-  "lastScannedTs": "2026-11-02T23:23:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 11:03 pm SGT",
-  "asOfTs": "2026-11-02T23:03:10+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 11:33 pm SGT",
+  "lastScannedTs": "2026-11-02T23:33:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 11:28 pm SGT",
+  "asOfTs": "2026-11-02T23:28:14+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising, but diplomacy is pulling the other way.",
-    "text": "Fourteen of the sixteen alerts in the last 24 hours point to higher prices: reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Fifteen of the seventeen alerts in the last 24 hours point to higher prices: Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$106.0",
     "detail": "down about 6.5% on the day after Iran said its Supreme Leader granted the government negotiation powers (Brent ~$106.01; WTI ~$97.99), per an X News market summary around 10:24 pm SGT, 2 Nov"
   },
   "alerts": [
+    {
+      "time": "23:24",
+      "ts": "2026-11-02T23:24:31+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kazakhstan says oil flows on the Atyrau-Samara pipeline have been halted, with some reports linking it to a drone attack; the line carries Kazakh crude into Russia's Transneft system via the Samara hub hit by Ukrainian drones earlier today.",
+      "theme": "Pipelines",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Walter Bloomberg, FinancialJuice, CGTN Europe (Kazakhstan statement; drone cause unconfirmed)"
+    },
     {
       "time": "22:38",
       "ts": "2026-11-02T22:38:14+08:00",
@@ -480,21 +492,19 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "MenchOsint ship-tracking analysis of the UKMTO notice"
-    },
-    {
-      "time": "03:09",
-      "ts": "2026-10-31T03:09:00+08:00",
-      "eventTime": "2:00 am, 31 Oct (UKMTO, 18:00 UTC)",
-      "eventTs": "2026-10-31T02:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: a vessel was hit on its port side by an unknown projectile 40 nm south of Iran's Lavan Island in the central Gulf, causing a fire onboard; crew safe, no environmental impact reported",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice, via ILRedAlert, Faytuks Network and CGTN"
     }
   ],
   "sources": [
+    {
+      "title": "Kazakhstan says Atyrau-Samara oil flows halted",
+      "site": "Walter Bloomberg",
+      "href": "https://x.com/DeItaone/status/2117276873587916969"
+    },
+    {
+      "title": "Kazakhstan: Atyrau-Samara oil flows halted",
+      "site": "FinancialJuice",
+      "href": "https://x.com/financialjuice/status/2117276676186911231"
+    },
     {
       "title": "Explosions and gunfire reported at British Embassy in Baghdad",
       "site": "War Radar",
@@ -820,9 +830,9 @@
     "title": "Today's key developments",
     "lines": [
       "Hormuz attacks keep mounting: Iran's navy says another tanker hit a mine and burned, the IRGC claims 11 tankers burned since Oct 25, and Saudi strikes hit the Houthi Ras Isa terminal.",
-      "Pezeshkian says Iran's leader authorized talks, pushing crude down about 6%, while Ukrainian drones hit Kstovo and Samara and Tasnim reports blasts at the British Embassy in Baghdad."
+      "Pezeshkian says Iran's leader authorized talks, pushing crude down about 6%, while Ukrainian drones hit Kstovo and Samara and Kazakhstan halted Atyrau-Samara pipeline flows."
     ],
-    "updated": "Mon 2 Nov 2026, 11:03 pm SGT",
-    "updatedTs": "2026-11-02T23:03:10+08:00"
+    "updated": "Mon 2 Nov 2026, 11:28 pm SGT",
+    "updatedTs": "2026-11-02T23:28:14+08:00"
   }
 }
