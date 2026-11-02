@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 8:30 am SGT",
-  "lastScannedTs": "2026-11-02T08:30:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 4:42 am SGT",
-  "asOfTs": "2026-11-02T04:42:30+08:00",
-  "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
+  "lastScanned": "Mon 2 Nov 2026, 9:02 am SGT",
+  "lastScannedTs": "2026-11-02T09:02:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 9:03 am SGT",
+  "asOfTs": "2026-11-02T09:03:13+08:00",
+  "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (2:00 am to 10:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
   "netRead": {
     "lead": "Net read: supply risk is rising.",
-    "text": "Thirty-one of forty alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including an IRGC Navy claim via IRNA that two oil tankers exploded on mines on an unauthorized Hormuz route with a supertanker ablaze, a UKMTO warning of a merchant vessel struck by an unknown projectile in Hormuz late on 1 Nov, Iran's blanket enforcement against Sinokor, the tanker owner moving about a third of Gulf crude, taking effect from 1 Nov, Iran's security chief Rezaei saying Hormuz stays closed until Tehran's seven conditions are met, an i24NEWS report that the IDF has raised its alert level and could join renewed US operations against Iran within hours, an Iranian navy claim via state media that an oil tanker caught fire in Hormuz after hitting naval mines, unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and Saudi Arabia, where an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a large fire at Lukoil's Kstovo refinery after an overnight Ukrainian drone attack on 1 Nov, a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, Ukrainian officials telling the Kyiv Independent the refinery strike campaign continues despite a US proposal for a 30-day halt, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals, a 40 million barrel US SPR loan and a sourced report that OPEC+ will hold December output targets steady, but Tehran hasn't answered yet."
+    "text": "Thirty-two of forty alerts point to higher prices, centered on Iran, the Gulf and the Strait of Hormuz (now including an IRGC Navy claim via IRNA that two oil tankers exploded on mines on an unauthorized Hormuz route with a supertanker ablaze, a UKMTO warning of a merchant vessel struck by an unknown projectile in Hormuz late on 1 Nov, Iran's blanket enforcement against Sinokor, the tanker owner moving about a third of Gulf crude, taking effect from 1 Nov, Iran's security chief Rezaei saying Hormuz stays closed until Tehran's seven conditions are met, an i24NEWS report that the IDF has raised its alert level and could join renewed US operations against Iran within hours, an Iranian navy claim via state media that an oil tanker caught fire in Hormuz after hitting naval mines, unconfirmed reports and footage of a Kuwaiti oil tanker targeted in Hormuz, Iran's foreign minister demanding recognition of a new Oman-agreed Hormuz shipping lane and closure of other routes as the price of reopening, Iran's official confirmation that US forces attacked fishing boats off Qeshm Island, Supreme Leader Mojtaba Khamenei ordering commanders to respond to any threat without geographical limits, India's confirmation that the ADNOC-managed VLCC ARZANAH was hit on 29 Oct, a new UKMTO report of a crude tanker hit by a projectile while leaving Hormuz, an IRGC claim that a fourth tanker, a supertanker, exploded in Hormuz, an Israeli TV report that strike preparations against Iran are complete, a projectile strike and fire on what appears to be a Qatari LNG tanker south of Lavan Island, a vessel set ablaze and evacuated off Musandam and an Iranian claim of a US drone boat destroyed) and the Saudi-Houthi war, where Saudi-led airstrikes overnight hit the Houthis' Ras Isa fuel terminal in Hodeidah, an emergency alert sounded in Jazan amid a Houthi claim of a missile strike on Aramco facilities there and Bloomberg reports the main crude unit at Ras Tanura is shut after Houthi damage, plus a large fire at Lukoil's Kstovo refinery after an overnight Ukrainian drone attack on 1 Nov, a reported refinery fire in Ufa after a Ukrainian drone attack and Zelenskyy saying Ukraine's strikes can now reach from Yamal to Western Siberia, Ukrainian officials telling the Kyiv Independent the refinery strike campaign continues despite a US proposal for a 30-day halt, a tighter diesel market with Russia now extending its diesel export ban through January and a new Libyan pipeline shutdown by an armed group. The offsets are a leaked, unconfirmed Qatari-brokered draft framework under which Iran would hand over its roughly 440 kg of highly enriched uranium and reopen Hormuz within seven days, Araghchi saying a new proposal with Qatari mediators would reopen Hormuz within two days of a deal, an unconfirmed Al-Araby Al-Jadeed report of a breakthrough that would bring a US delegation to Doha for direct talks with Iran, an Al Hadath report that US strike options for Iran leave out oil facilities, Trump saying the Iran war will wrap up soon, Qatar's revised proposals, a 40 million barrel US SPR loan and a sourced report that OPEC+ will hold December output targets steady, but Tehran hasn't answered yet."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "09:02",
+      "ts": "2026-11-02T09:02:00+08:00",
+      "eventTime": "Overnight 1–2 Nov, roughly 12–5 am SGT 2 Nov (est.)",
+      "eventTs": "2026-11-02T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition airstrikes hit Ras Isa, the Houthis' main fuel import terminal in Hodeidah, striking its pier and a docked ship plus an oil company station in Bajil; Houthi health ministry says 7 injured. Claims the port is out of service are unconfirmed",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Houthi health ministry via Al Jazeera Now, Middle East Observer and Yemeni media"
+    },
     {
       "time": "04:42",
       "ts": "2026-11-02T04:42:00+08:00",
@@ -480,21 +492,19 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "X news, AUC3I"
-    },
-    {
-      "time": "11:19",
-      "ts": "2026-10-30T11:19:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC claims capture of an intact US MQM-170 drone; US-side reports call it false",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping"
     }
   ],
   "sources": [
+    {
+      "title": "Houthi media: Saudi strikes on Ras Isa port pier injure 4 (Al Jazeera Now)",
+      "site": "Al Jazeera Now",
+      "href": "https://x.com/aljazeera_now/status/2117053406967710006"
+    },
+    {
+      "title": "Middle East roundup: Saudi strikes injure 3 in Bajil and 4 at Ras Issa port",
+      "site": "Middle East Observer",
+      "href": "https://x.com/ME_Observer_/status/2117055973672005716"
+    },
     {
       "title": "IRGC Navy: two tankers blown up by mines on unauthorized Hormuz route",
       "site": "IRNA",
