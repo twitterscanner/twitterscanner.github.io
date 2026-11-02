@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 3:51 pm SGT",
-  "lastScannedTs": "2026-11-02T15:51:30+08:00",
-  "asOf": "Mon 2 Nov 2026, 3:43 pm SGT",
-  "asOfTs": "2026-11-02T15:43:21+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 3:59 pm SGT",
+  "lastScannedTs": "2026-11-02T15:59:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 3:58 pm SGT",
+  "asOfTs": "2026-11-02T15:58:12+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Ten of the eleven alerts in the last 24 hours point to higher prices: Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (up from two earlier), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Eleven of the twelve alerts in the last 24 hours point to higher prices: a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (up from two earlier), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "15:53",
+      "ts": "2026-11-02T15:53:26+08:00",
+      "eventTime": "3:53 pm, 2 Nov (est.)",
+      "eventTs": "2026-11-02T15:53:00+08:00",
+      "eventQual": "est.",
+      "headline": "FirstSquawk: start of Iran-US negotiations depends on an end of the US naval blockade (speaker not named, apparently Iran's side), a further hardening of terms minutes after Iran said Hormuz cannot reopen before sanctions are lifted",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FirstSquawk (X)"
+    },
     {
       "time": "15:41",
       "ts": "2026-11-02T15:41:55+08:00",
@@ -480,21 +492,14 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "Iranian state media, via Sky News"
-    },
-    {
-      "time": "21:08",
-      "ts": "2026-10-30T21:08:00+08:00",
-      "eventTime": "7:40 pm, 30 Oct (est.)",
-      "eventTs": "2026-10-30T19:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump says the Iran war is 'going to get wrapped up soon' and Iran 'has to make a deal'; Qatari mediators brought revised proposals to Tehran, reply expected by the weekend",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Reuters, Sky News; CBS News via Open Source Intel"
     }
   ],
   "sources": [
+    {
+      "title": "Start of Iran-US negotiations depends on end of naval blockade",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117163157202538708"
+    },
     {
       "title": "Iran says Hormuz cannot be reopened before US sanctions are lifted",
       "site": "First Squawk",
