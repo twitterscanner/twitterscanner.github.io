@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 9:38 pm SGT",
-  "lastScannedTs": "2026-11-02T21:38:59+08:00",
-  "asOf": "Mon 2 Nov 2026, 9:09 pm SGT",
-  "asOfTs": "2026-11-02T21:09:38+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 9:45 pm SGT",
+  "lastScannedTs": "2026-11-02T21:45:53+08:00",
+  "asOf": "Mon 2 Nov 2026, 9:45 pm SGT",
+  "asOfTs": "2026-11-02T21:45:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Thirteen of the fourteen alerts in the last 24 hours point to higher prices: an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "lead": "Net read (last 24 hours): supply risk is rising, but diplomacy is pulling the other way.",
+    "text": "Thirteen of the fifteen alerts in the last 24 hours point to higher prices: an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$108",
     "detail": "about $108.3, down about 4.5% on hopes Iran may reopen the Strait of Hormuz, per market posts on X around 6:10 pm SGT, 2 Nov"
   },
   "alerts": [
+    {
+      "time": "21:35",
+      "ts": "2026-11-02T21:35:24+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's President Pezeshkian says the Supreme Leader has granted the government authority over negotiations, a step toward talks with Washington; posts report crude falling about 5% on the news",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Iranian President Pezeshkian, via IRNA, OSINT613 and Post Open Source"
+    },
     {
       "time": "21:02",
       "ts": "2026-11-02T21:02:50+08:00",
@@ -480,21 +492,19 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "Bloomberg report, via The Hormuz Letter and Conflict Alarm"
-    },
-    {
-      "time": "21:57",
-      "ts": "2026-10-30T21:57:00+08:00",
-      "eventTime": "~6:00 am, 30 Oct (est., pumping halted around midnight Libya time)",
-      "eventTs": "2026-10-30T06:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Libya's NOC says an armed group shut the valve on the main Hamada-Zawiya crude pipeline at Al-Riyayna, forcing a halt to pumping to the Zawiya refinery",
-      "theme": "Libya",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Libya NOC statement, via Giovanni Staunovo, CGTN and Libyan outlets"
     }
   ],
   "sources": [
+    {
+      "title": "Pezeshkian: Supreme Leader grants government powers over negotiations",
+      "site": "Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2117249217748238675"
+    },
+    {
+      "title": "Crude falls 5% after IRNA report on talks authority",
+      "site": "MarketPulse India",
+      "href": "https://x.com/MktPulseIndia/status/2117251008174993641"
+    },
     {
       "title": "Iran: tanker hits mine, catches fire in eastern Strait of Hormuz",
       "site": "FinancialJuice",
@@ -794,25 +804,15 @@
       "title": "UKMTO: vessel hit by projectile south of Lavan Island",
       "site": "ILRedAlert",
       "href": "https://x.com/ILRedAlert/status/2116245034538344775"
-    },
-    {
-      "title": "UKMTO Lavan Island incident",
-      "site": "Faytuks Network",
-      "href": "https://x.com/FaytuksNetwork/status/2116245036547383526"
-    },
-    {
-      "title": "Bloomberg: Aramco shuts main crude unit at Ras Tanura",
-      "site": "The Hormuz Letter",
-      "href": "https://x.com/HormuzLetter/status/2116191524765515807"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Hormuz attacks keep mounting: Iran's navy says another tanker hit a mine and burned, UKMTO reports limpet mines on the Louise 1, and the IRGC claims 11 tankers burned since Oct 25.",
-      "Iran ties reopening Hormuz to lifting US sanctions and the blockade, Saudi strikes hit the Houthi Ras Isa terminal, and Ukrainian drones hit Russia's Kstovo refinery and Samara crude hub."
+      "Diplomacy is stirring as Pezeshkian says Iran's leader gave the government authority for talks, while Saudi strikes hit the Houthi Ras Isa terminal and Ukrainian drones hit Kstovo and Samara."
     ],
-    "updated": "Mon 2 Nov 2026, 9:09 pm SGT",
-    "updatedTs": "2026-11-02T21:09:38+08:00"
+    "updated": "Mon 2 Nov 2026, 9:45 pm SGT",
+    "updatedTs": "2026-11-02T21:45:35+08:00"
   }
 }
