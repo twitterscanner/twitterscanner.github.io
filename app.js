@@ -187,7 +187,19 @@
     });
   }
 
-  function render() {
+  function labelCells() {
+    Array.prototype.forEach.call(document.querySelectorAll("table"), function (t) {
+      var heads = Array.prototype.map.call(t.querySelectorAll("thead th"), function (th) { return th.textContent; });
+      Array.prototype.forEach.call(t.querySelectorAll("tbody tr"), function (tr) {
+        Array.prototype.forEach.call(tr.children, function (td, i) {
+          if (td.colSpan > 1) td.classList.add("full"); else td.setAttribute("data-label", heads[i] || "");
+        });
+      });
+    });
+  }
+
+  function render() { renderInner(); try { labelCells(); } catch (e) { /* ignore */ } }
+  function renderInner() {
     if (!data) return;
     var z = currentZone();
     var hi = headerInfo(data, z);
