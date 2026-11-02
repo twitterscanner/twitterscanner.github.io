@@ -198,13 +198,17 @@
     });
   }
 
+  function alertMs(a) { var t = a && a.ts; if (typeof t === "number") return t < 1e12 ? t * 1000 : t; var m = Date.parse(t); return isNaN(m) ? NaN : m; }
+  function recent24(alerts, now) { return alerts.filter(function (a) { var m = alertMs(a); return !isNaN(m) && m <= now + 5 * 60000 && now - m <= 864e5; }); }
+  if (typeof window !== "undefined") window.__recent24 = recent24;
   function render() { renderInner(); try { labelCells(); } catch (e) { /* ignore */ } }
   function renderInner() {
     if (!data) return;
     var z = currentZone();
     var hi = headerInfo(data, z);
     var alerts = Array.isArray(data.alerts) ? data.alerts : [];
-    var count = function (d) { return alerts.filter(function (a) { return a.direction === d; }).length; };
+    var recent = recent24(alerts, Date.now());
+    var count = function (d) { return recent.filter(function (a) { return a.direction === d; }).length; };
     var themes = [];
     alerts.forEach(function (a) { if (themes.indexOf(a.theme) === -1) themes.push(a.theme); });
     if (themeFilter !== "All" && themes.indexOf(themeFilter) === -1) themeFilter = "All";
@@ -217,7 +221,9 @@
     setText("asof", asof ? "Alerts as of " + asof : "");
     setText("netread-lead", (data.netRead && data.netRead.lead) || "");
     setText("netread-text", (data.netRead && data.netRead.text) || "");
-    setText("m-total", alerts.length);
+    setText("m-total", recent.length);
+    setText("m-neutral", recent.length - count("Up") - count("Down"));
+    setText("m-window", "Rolling last 24 hours: " + recent.length + " of " + alerts.length + " stored alerts (" + count("Up") + " up, " + count("Down") + " down, " + (recent.length - count("Up") - count("Down")) + " neutral). The feed below shows all stored alerts.");
     setText("m-up", count("Up"));
     setText("m-down", count("Down"));
     setText("m-brent", (data.brent && data.brent.value) || "–");
@@ -306,5 +312,6 @@
   buildTzSelect();
   load();
   setInterval(load, REFRESH_MS);
+  setInterval(function () { if (data) render(); }, 60000);
   document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
 })();
