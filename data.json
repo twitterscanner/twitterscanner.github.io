@@ -1,18 +1,42 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 3:31 am SGT",
-  "lastScannedTs": "2026-11-03T03:31:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 2:58 am SGT",
-  "asOfTs": "2026-11-03T02:58:38+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-03T04:05:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 4:01 am SGT",
+  "asOfTs": "2026-11-03T04:01:56+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "lead": "Net read (last 24 hours): supply risk is still rising, with a fresh ship strike in Hormuz and Trump's tough blockade line pushing back against the diplomacy hopes.",
-    "text": "Nineteen of the twenty-two alerts in the last 24 hours point to higher prices: a ship struck in the Strait of Hormuz off Oman (UKMTO 193-26), President Trump saying he is in no hurry to end the US naval blockade and economic pressure on Iran, an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The three offsets are a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "lead": "Net read (last 24 hours): supply risk is still rising, with a fresh ship strike in Hormuz, though Trump's upbeat Iran-deal talk drove a sharp price drop.",
+    "text": "Twenty of the twenty-four alerts in the last 24 hours point to higher prices: President Zelenskyy warning that Russia is preparing a new massive attack on Ukraine's energy and logistics, a ship struck in the Strait of Hormuz off Oman (UKMTO 193-26), President Trump saying he is in no hurry to end the US naval blockade and economic pressure on Iran, an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The four offsets are President Trump saying an Iran deal is coming together nicely and that's why oil is down, a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
-    "value": "~$104.4",
-    "detail": "down about 8% on the day, below $105 for the first time since early October, as US-Iran diplomacy eased supply fears (Brent $104.40), per Anadolu around 1:04 am SGT, 3 Nov"
+    "value": "$104.77",
+    "detail": "Brent futures settled at $104.77/bbl, down $8.66 (7.63%), as US-Iran diplomacy eased supply fears, per LiveSquawk around 3:53 am SGT, 3 Nov"
   },
   "alerts": [
+    {
+      "time": "03:55",
+      "ts": "2026-11-03T03:55:42+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "President Zelenskyy says Ukraine has intel that Russia is preparing a new massive attack primarily targeting Ukraine's energy and logistics, timed for the US midterms",
+      "theme": "Russia-Ukraine energy",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Volodymyr Zelenskyy (official account)"
+    },
+    {
+      "time": "03:53",
+      "ts": "2026-11-03T03:53:10+08:00",
+      "eventTime": "3:50 am, 3 Nov (est.)",
+      "eventTs": "2026-11-03T03:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "President Trump says an Iran deal is 'coming together nicely, that's why oil is down', adding that Iran asked the US to stop killing its leaders and 'we will'",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Zerohedge and Giovanni Staunovo relaying Trump remarks"
+    },
     {
       "time": "02:55",
       "ts": "2026-11-03T02:55:35+08:00",
@@ -468,33 +492,24 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "Saudi Civil Defense (alert, confirmed); Houthi strike claim via World Conflict and Raaz News (unconfirmed)"
-    },
-    {
-      "time": "13:56",
-      "ts": "2026-10-31T13:56:12+08:00",
-      "eventTime": "12:39 pm, 31 Oct (est.)",
-      "eventTs": "2026-10-31T12:39:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones hit Ufa's industrial zone in Bashkortostan; explosions confirmed by Kyiv Independent citing Russian media, and locals report a fire at an oil refinery",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Kyiv Independent; Ateo Breaking (Russian); local reports via Exilenova+"
-    },
-    {
-      "time": "09:04",
-      "ts": "2026-10-31T09:04:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Al Hadath: CENTCOM's briefing to Trump included options to hit Iran's nuclear sites, energy facilities and infrastructure, but excluded oil facilities",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Al Hadath correspondent Hussein al-Toud (Arabic)"
     }
   ],
   "sources": [
+    {
+      "title": "Trump: Iran 'coming together nicely, that's why oil down'",
+      "site": "zerohedge",
+      "href": "https://x.com/zerohedge/status/2117344285096112425"
+    },
+    {
+      "title": "Trump: Iran asked to stop killing its leaders, we will",
+      "site": "zerohedge",
+      "href": "https://x.com/zerohedge/status/2117344025103434032"
+    },
+    {
+      "title": "Zelenskyy: intel Russia preparing new massive attack on energy and logistics",
+      "site": "Volodymyr Zelenskyy",
+      "href": "https://x.com/ZelenskyyUa/status/2117344923808616887"
+    },
     {
       "title": "UKMTO Warning 193-26: ship struck in Strait of Hormuz off Oman",
       "site": "UKMTO Operations Centre",
@@ -779,100 +794,15 @@
       "title": "Araghchi: only Iran's proposal on table for reopening Hormuz",
       "site": "FinSquawk",
       "href": "https://x.com/finsquawk_/status/2116519186205933669"
-    },
-    {
-      "title": "Russia to extend diesel export ban to end of January 2027 (Novak)",
-      "site": "Tracy Shuchart",
-      "href": "https://x.com/chigrl/status/2116486929738842406"
-    },
-    {
-      "title": "Russia extends diesel export ban through January (Interfax)",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2116486050600346103"
-    },
-    {
-      "title": "Khamenei orders response without geographical limits",
-      "site": "CGTN Europe",
-      "href": "https://x.com/CGTNEurope/status/2116477229681037809"
-    },
-    {
-      "title": "Al-Araby Al-Jadeed: US-Iran breakthrough, US delegation to Doha",
-      "site": "Faytuks Network",
-      "href": "https://x.com/FaytuksNetwork/status/2116435279833706662"
-    },
-    {
-      "title": "US delegation to join Doha talks with Iran (Arabic)",
-      "site": "Cairo 24",
-      "href": "https://x.com/cairo24_/status/2116433851530481738"
-    },
-    {
-      "title": "Zelenskyy says Ukraine can strike from Yamal to Western Siberia",
-      "site": "Visioner",
-      "href": "https://x.com/visionergeo/status/2116432484187447755"
-    },
-    {
-      "title": "Early-warning alert issued for Jazan Province",
-      "site": "Saudi Civil Defense",
-      "href": "https://x.com/SaudiDCD/status/2116426881721328087"
-    },
-    {
-      "title": "Houthis say ballistic missile hit Aramco facilities in Jizan",
-      "site": "World Conflict",
-      "href": "https://x.com/WorldConflict_X/status/2116427700219068491"
-    },
-    {
-      "title": "Explosions in Ufa amid drone alerts, Bashkortostan",
-      "site": "Kyiv Independent",
-      "href": "https://x.com/KyivIndependent/status/2116405701677629847"
-    },
-    {
-      "title": "Locals report fire at Ufa oil refinery after attack",
-      "site": "Exilenova+",
-      "href": "https://x.com/Exilenova_plus/status/2116408059253903798"
-    },
-    {
-      "title": "US strike options on Iran exclude oil facilities (Arabic)",
-      "site": "Al Hadath",
-      "href": "https://x.com/AlHadath/status/2116334995069419924"
-    },
-    {
-      "title": "India: ADNOC-managed VLCC ARZANAH hit near Hormuz",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2116313023736619388"
-    },
-    {
-      "title": "India's minister adds VLCC Arzanah, hit Oct 29",
-      "site": "Bering Report",
-      "href": "https://x.com/BeringReport/status/2116165795621355999"
-    },
-    {
-      "title": "UKMTO: crude tanker struck by projectile leaving Hormuz",
-      "site": "CGTN Europe",
-      "href": "https://x.com/CGTNEurope/status/2116263622229836057"
-    },
-    {
-      "title": "IRGC: fourth tanker, a supertanker, explodes in Hormuz",
-      "site": "CGTN Europe",
-      "href": "https://x.com/CGTNEurope/status/2116259178754777477"
-    },
-    {
-      "title": "Israel finalizes Iran strike preparations (Channel 14)",
-      "site": "Post Open Source",
-      "href": "https://x.com/CocoPostel/status/2116251207924592755"
-    },
-    {
-      "title": "Lavan Island vessel identified as LNG tanker AL MAYEDA",
-      "site": "MenchOsint",
-      "href": "https://x.com/MenchOsint/status/2116251704748392699"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "UKMTO reported a new ship strike in the Strait of Hormuz off Oman, and the Houthis claimed drone strikes on Saudi Arabia's Dammam airport and Jizan.",
-      "An explosion sparked a large fire at India's HPCL Visakh refinery, while a reported US-Iran talks breakthrough was tempered by Trump's no-hurry blockade stance."
+      "Trump said an Iran deal is coming together nicely as Brent settled down nearly 8%, while Zelenskyy warned of a massive Russian attack on Ukraine's energy."
     ],
-    "updated": "Tue 3 Nov 2026, 2:59 am SGT",
-    "updatedTs": "2026-11-03T02:59:00+08:00"
+    "updated": "Tue 3 Nov 2026, 4:05 am SGT",
+    "updatedTs": "2026-11-03T04:05:00+08:00"
   }
 }
