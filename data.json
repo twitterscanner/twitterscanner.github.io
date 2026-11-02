@@ -1,9 +1,9 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 3:45 pm SGT",
-  "lastScannedTs": "2026-11-02T15:45:00+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 3:51 pm SGT",
+  "lastScannedTs": "2026-11-02T15:51:30+08:00",
   "asOf": "Mon 2 Nov 2026, 3:43 pm SGT",
   "asOfTs": "2026-11-02T15:43:21+08:00",
-  "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (2:00 am to 10:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
+  "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
     "text": "Ten of the eleven alerts in the last 24 hours point to higher prices: Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (up from two earlier), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
