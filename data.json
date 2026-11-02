@@ -805,5 +805,14 @@
       "site": "Wady Dinar",
       "href": "https://x.com/wady_dynar/status/2116166880167682509"
     }
-  ]
+  ],
+  "dayNote": {
+    "title": "Today's key developments",
+    "lines": [
+      "Hormuz attacks continue: UKMTO says limpet mines disabled tanker Louise 1, IRGC claims four tankers exploded, and Iran ties reopening to lifting US sanctions and ending the blockade.",
+      "Saudi strikes hit Houthi Ras Isa terminal amid Saudi civil-defense warnings, Ukrainian drones hit Russia's Kstovo refinery and Samara pumping station, and OPEC+ holds December output."
+    ],
+    "updated": "Mon 2 Nov 2026, 5:49 pm SGT",
+    "updatedTs": "2026-11-02T17:49:53+08:00"
+  }
 }

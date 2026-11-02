@@ -76,3 +76,8 @@ h1{font-size:1.25rem}
 .tiles{grid-template-columns:1fr}
 .tablewrap td{grid-template-columns:1fr;gap:2px}
 }
+
+.daynote{background:#eef4ff;border-left:4px solid #2c6bd6;padding:8px 12px;border-radius:6px;margin:0 0 10px;max-width:100%;box-sizing:border-box;overflow-wrap:anywhere}
+.daynote p{margin:2px 0;font-size:14px;line-height:1.35}
+.daynote strong{font-size:14px}
+.daynote-upd{color:#6a7385;font-size:12px}

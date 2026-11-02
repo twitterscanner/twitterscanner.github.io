@@ -216,6 +216,17 @@
     Array.prototype.forEach.call(document.querySelectorAll(".th-rep"), function (th) { th.textContent = "Reported (" + hi.zone + ")"; });
     Array.prototype.forEach.call(document.querySelectorAll(".th-evt"), function (th) { th.textContent = "Event time (" + hi.zone + ")"; });
 
+    var dn = data.dayNote, dnBox = $("daynote");
+    if (dnBox) {
+      var dl = dn && Array.isArray(dn.lines) ? dn.lines : [];
+      if (!dn || !dl.length) { dnBox.hidden = true; } else {
+        dnBox.hidden = false;
+        setText("daynote-title", dn.title || "Today's key developments");
+        setText("daynote-l1", dl[0] || ""); setText("daynote-l2", dl[1] || "");
+        var dd = dn.updatedTs ? parseTs(dn.updatedTs) : null;
+        setText("daynote-upd", dd && !isNaN(dd) ? "Updated " + fullStamp(dd, z) : (dn.updated ? "Updated " + dn.updated : ""));
+      }
+    }
     setText("summary", data.summary || "");
     var asof = asOfText(data, z);
     setText("asof", asof ? "Alerts as of " + asof : "");
