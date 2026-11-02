@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 3:41 pm SGT",
-  "lastScannedTs": "2026-11-02T15:41:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 2:52 pm SGT",
-  "asOfTs": "2026-11-02T14:52:12+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 3:45 pm SGT",
+  "lastScannedTs": "2026-11-02T15:45:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 3:43 pm SGT",
+  "asOfTs": "2026-11-02T15:43:21+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (2:00 am to 10:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Nine of the ten alerts in the last 24 hours point to higher prices: an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (up from two earlier), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Ten of the eleven alerts in the last 24 hours point to higher prices: Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (up from two earlier), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "15:41",
+      "ts": "2026-11-02T15:41:55+08:00",
+      "eventTime": "3:41 pm, 2 Nov (est.)",
+      "eventTs": "2026-11-02T15:41:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran says the Strait of Hormuz cannot be reopened before US sanctions are lifted, hardening its terms just as oil fell on hopes for Qatar-led talks and a two-day reopening plan",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk and FinancialJuice headlines"
+    },
     {
       "time": "14:50",
       "ts": "2026-11-02T14:50:00+08:00",
@@ -480,21 +492,14 @@
       "direction": "Down",
       "confidence": "Confirmed",
       "source": "Reuters, Sky News; CBS News via Open Source Intel"
-    },
-    {
-      "time": "15:41",
-      "ts": "2026-10-30T15:41:00+08:00",
-      "eventTime": "Not stated (Reuters report published ~12:05 am, 30 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters: Russia to extend its diesel export ban to year-end, using quotas only to meet its new export commitment to the US",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Reuters (two sources), via Kashish Parpiani"
     }
   ],
   "sources": [
+    {
+      "title": "Iran says Hormuz cannot be reopened before US sanctions are lifted",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117160364546957716"
+    },
     {
       "title": "Tanker in Strait of Hormuz hit by limpet mines, named as Louise 1",
       "site": "Adi Imsirovic",
