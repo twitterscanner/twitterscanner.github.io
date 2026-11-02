@@ -1,18 +1,42 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 4:33 am SGT",
-  "lastScannedTs": "2026-11-03T04:33:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 4:33 am SGT",
-  "asOfTs": "2026-11-03T04:33:59+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 5:08 am SGT",
+  "lastScannedTs": "2026-11-03T05:08:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 5:04 am SGT",
+  "asOfTs": "2026-11-03T05:04:46+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "lead": "Net read (last 24 hours): supply risk is still elevated after a fresh Hormuz ship strike, but Trump's 'no rush' on resuming Iran strikes and a reported Saudi pledge to Tehran point to de-escalation.",
-    "text": "Twenty of the twenty-six alerts in the last 24 hours point to higher prices: President Zelenskyy warning that Russia is preparing a new massive attack on Ukraine's energy and logistics, a ship struck in the Strait of Hormuz off Oman (UKMTO 193-26), President Trump saying he is in no hurry to end the US naval blockade and economic pressure on Iran, an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The six offsets are President Trump telling Axios he is in no rush to decide whether to resume fighting in Iran (with VP Vance saying no deadline is set to resume strikes), a Kan News report that Saudi Arabia told Tehran no attacks on Iran will be launched from its territory or airspace (unconfirmed), President Trump saying an Iran deal is coming together nicely and that's why oil is down, a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "lead": "Net read (last 24 hours): supply risk jumped again with reported explosions on Iran's Qeshm Island and an IRGC drone shootdown claim in Hormuz, even as Trump and Vance signal no rush to resume strikes.",
+    "text": "Nineteen of the twenty-five alerts in the last 24 hours point to higher prices: IRNA reports of five loud explosions on Iran's Qeshm Island and blasts in Bandar Abbas, with unconfirmed reports of US strikes on Iranian air defenses, an IRGC claim that it shot down a US MQ-9 Reaper over the eastern Strait of Hormuz and two MQM-170 drones near Qeshm, President Zelenskyy warning that Russia is preparing a new massive attack on Ukraine's energy and logistics, a ship struck in the Strait of Hormuz off Oman (UKMTO 193-26), President Trump saying he is in no hurry to end the US naval blockade and economic pressure on Iran, an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route, a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, and a reported Ukrainian drone strike on Transneft's Samara crude hub. The six offsets are President Trump telling Axios he is in no rush to decide whether to resume fighting in Iran (with VP Vance saying no deadline is set to resume strikes), a Kan News report that Saudi Arabia told Tehran no attacks on Iran will be launched from its territory or airspace (unconfirmed), President Trump saying an Iran deal is coming together nicely and that's why oil is down, a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "$104.77",
     "detail": "Brent futures settled at $104.77/bbl, down $8.66 (7.63%), as US-Iran diplomacy eased supply fears, per LiveSquawk around 3:53 am SGT, 3 Nov"
   },
   "alerts": [
+    {
+      "time": "04:49",
+      "ts": "2026-11-03T04:49:52+08:00",
+      "eventTime": "4:44 am, 3 Nov (est.)",
+      "eventTs": "2026-11-03T04:44:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's IRNA reports five loud explosions on Qeshm Island near the Strait of Hormuz, with residents seeing two aircraft overhead and more blasts reported in Bandar Abbas; unconfirmed reports say US strikes hit Iranian air defenses",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FaytuksNetwork, Visioner and War Monitor, citing IRNA and local witnesses"
+    },
+    {
+      "time": "04:40",
+      "ts": "2026-11-03T04:40:16+08:00",
+      "eventTime": "4:35 am, 3 Nov (est.)",
+      "eventTs": "2026-11-03T04:35:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC claims it shot down a US MQ-9 Reaper drone (its 55th) over the eastern Strait of Hormuz and brought down two US MQM-170 reconnaissance drones near Qeshm Island using electronic warfare",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC claim, relayed by MenchOsint, Open Source Intel and Iran Nuances"
+    },
     {
       "time": "04:15",
       "ts": "2026-11-03T04:15:50+08:00",
@@ -468,33 +492,34 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "Iranian provincial official via state media and Reuters, relayed by Post Open Source; earlier Tasnim and Fars via RedboxGlobal"
-    },
-    {
-      "time": "18:27",
-      "ts": "2026-10-31T18:27:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's Supreme Leader Mojtaba Khamenei, meeting senior armed forces commanders, orders an immediate, effective response without geographical limitations to any potential enemy threat",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Supreme Leader's office statement, relayed by CGTN Europe"
-    },
-    {
-      "time": "15:44",
-      "ts": "2026-10-31T15:44:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Al-Araby Al-Jadeed reports a breakthrough in indirect US-Iran talks after Qatari mediation, with a US delegation expected to join Iranian negotiators in Doha for direct talks after preliminary understandings on the nuclear file and Hormuz",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Al-Araby Al-Jadeed (unnamed sources), relayed by Faytuks Network, Cairo 24 and Kan via Akka"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC claims MQ-9 and two MQM-170 drones downed over Hormuz",
+      "site": "MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2117356139117699272"
+    },
+    {
+      "title": "IRGC drone claim relay",
+      "site": "Open Source Intel",
+      "href": "https://x.com/Osint613/status/2117358097962274901"
+    },
+    {
+      "title": "Multiple heavy explosions reported across Qeshm Island",
+      "site": "FaytuksNetwork",
+      "href": "https://x.com/FaytuksNetwork/status/2117358552469721339"
+    },
+    {
+      "title": "Reported US strike on Iranian air defense on Qeshm",
+      "site": "Visioner",
+      "href": "https://x.com/visionergeo/status/2117361547697611144"
+    },
+    {
+      "title": "Heavy explosions on Qeshm, air defences believed hit",
+      "site": "War Monitor",
+      "href": "https://x.com/WarMonitor3/status/2117361601863106921"
+    },
     {
       "title": "Trump to Axios: 'in no rush' to decide on resuming Iran fighting",
       "site": "Barak Ravid",
@@ -769,40 +794,15 @@
       "title": "Leaked draft US-Iran framework via Qatar (Arabic)",
       "site": "Abdulrahman Al-Rashed",
       "href": "https://x.com/aalrashed/status/2116551879349997836"
-    },
-    {
-      "title": "Draft terms: 440 kg uranium to third country, Hormuz reopens in 7 days (Persian)",
-      "site": "Mostafa Gorji",
-      "href": "https://x.com/M_gorji2/status/2116563840926187525"
-    },
-    {
-      "title": "Qatari mediation reaches preliminary draft deal (Arabic)",
-      "site": "Abdulaziz Al Oqab",
-      "href": "https://x.com/abdulaziz_a76/status/2116556053211128191"
-    },
-    {
-      "title": "Footage: 'violating ship' hit in Strait of Hormuz today",
-      "site": "Post Open Source",
-      "href": "https://x.com/CocoPostel/status/2116534925847584955"
-    },
-    {
-      "title": "Reports of Kuwaiti oil tanker targeted in Hormuz (Arabic)",
-      "site": "Iraq Al-Hadath TV",
-      "href": "https://x.com/iraqlhadath/status/2116534019114287441"
-    },
-    {
-      "title": "Araghchi: new proposal cuts Hormuz reopening plan to two days",
-      "site": "Al Jazeera Breaking News",
-      "href": "https://x.com/AJENews/status/2116525125499593171"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO reported a new ship strike in Hormuz off Oman, the Houthis claimed drone strikes on Saudi Arabia, and Zelenskyy warned of a massive Russian energy attack.",
-      "Oil fell sharply as Trump said an Iran deal is coming together and he is in no rush to resume strikes, while Saudi Arabia reportedly reassured Tehran."
+      "Iran's IRNA reported explosions on Qeshm Island near Hormuz after the IRGC claimed downing US drones, and UKMTO reported a new ship strike off Oman.",
+      "Oil still fell sharply as Trump said an Iran deal is coming together and he is in no rush to resume strikes, while Zelenskyy warned of a Russian energy attack."
     ],
-    "updated": "Tue 3 Nov 2026, 4:33 am SGT",
-    "updatedTs": "2026-11-03T04:33:00+08:00"
+    "updated": "Tue 3 Nov 2026, 5:07 am SGT",
+    "updatedTs": "2026-11-03T05:07:00+08:00"
   }
 }
