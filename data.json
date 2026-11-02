@@ -1,12 +1,12 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 4:49 pm SGT",
-  "lastScannedTs": "2026-11-02T16:49:00+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 4:55 pm SGT",
+  "lastScannedTs": "2026-11-02T16:55:55+08:00",
   "asOf": "Mon 2 Nov 2026, 3:58 pm SGT",
   "asOfTs": "2026-11-02T15:58:12+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Eight of the nine alerts in the last 24 hours point to higher prices: a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route, a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Eleven of the twelve alerts in the last 24 hours point to higher prices: a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$117",
