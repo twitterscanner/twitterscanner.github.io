@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 2:01 pm SGT",
-  "lastScannedTs": "2026-11-02T14:01:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 12:12 pm SGT",
-  "asOfTs": "2026-11-02T12:12:33+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 2:08 pm SGT",
+  "lastScannedTs": "2026-11-02T14:08:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 2:07 pm SGT",
+  "asOfTs": "2026-11-02T14:07:18+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (2:00 am to 10:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Six of the seven alerts in the last 24 hours point to higher prices: two oil tankers reported exploding on mines on an unauthorized Hormuz route (IRGC claim), a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Seven of the eight alerts in the last 24 hours point to higher prices: two oil tankers reported exploding on mines on an unauthorized Hormuz route (IRGC claim), a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "14:06",
+      "ts": "2026-11-02T14:06:00+08:00",
+      "eventTime": "2:00 pm, 2 Nov (est.)",
+      "eventTs": "2026-11-02T14:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Civil Defense sounds early warnings of possible danger in Abha, Khamis Mushait and Taif in southwest Saudi Arabia amid a reported Yemeni (Houthi) attack; small-account claims that oil facilities were targeted are unverified",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Saudi Civil Defense via Al-Araby Al-Jadeed and Al Mayadeen"
+    },
     {
       "time": "12:14",
       "ts": "2026-11-02T12:14:00+08:00",
@@ -480,21 +492,19 @@
       "direction": "Down",
       "confidence": "Confirmed",
       "source": "Iran International (WaPo report), Israel War Room, Mossadil; NYT and WSJ also cited"
-    },
-    {
-      "time": "11:36",
-      "ts": "2026-10-30T11:36:00+08:00",
-      "eventTime": "Not stated (just before the posts, est.)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Ukrainian drones hit Novokuybyshevsk (Samara) in Russia; refinery likely target, large fires reported",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping, Woofers, Mockingjay News UA"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense warning in Abha, Khamis Mushait and Taif (Arabic)",
+      "site": "Al-Araby Al-Jadeed",
+      "href": "https://x.com/alaraby_ar/status/2117136259680526550"
+    },
+    {
+      "title": "Saudi Civil Defense warns of possible danger in Khamis Mushait (Arabic)",
+      "site": "Al Mayadeen",
+      "href": "https://x.com/AlMayadeenNews/status/2117136235642659245"
+    },
     {
       "title": "Samara LPDS in Prosvet attacked for third time",
       "site": "Exilenova+",
