@@ -1,18 +1,42 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 2:44 pm SGT",
-  "lastScannedTs": "2026-11-02T14:44:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 2:07 pm SGT",
-  "asOfTs": "2026-11-02T14:07:18+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 2:52 pm SGT",
+  "lastScannedTs": "2026-11-02T14:52:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 2:52 pm SGT",
+  "asOfTs": "2026-11-02T14:52:12+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (2:00 am to 10:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Seven of the eight alerts in the last 24 hours point to higher prices: two oil tankers reported exploding on mines on an unauthorized Hormuz route (IRGC claim), a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Nine of the ten alerts in the last 24 hours point to higher prices: an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (up from two earlier), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a large fire at Lukoil's Kstovo refinery and a reported Ukrainian drone strike on Transneft's Samara crude hub. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$117",
     "detail": "hit $117 on the Hormuz tanker fires, per OilPrice.com"
   },
   "alerts": [
+    {
+      "time": "14:50",
+      "ts": "2026-11-02T14:50:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO says a tanker in the Strait of Hormuz was hit by limpet mines, sparking an engine-room fire and temporarily disabling it; crew safe, no spill. Three maritime security sources name it as the Panama-flagged Louise 1",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Adi Imsirovic, relaying UKMTO and maritime security sources"
+    },
+    {
+      "time": "14:45",
+      "ts": "2026-11-02T14:45:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy now claims four oil tankers caught fire and exploded in the Strait of Hormuz after using what it calls unauthorised routes, up from the two it reported earlier; no independent confirmation of the extra vessels",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Ships & Ports, relaying an IRGC Navy claim"
+    },
     {
       "time": "14:06",
       "ts": "2026-11-02T14:06:00+08:00",
@@ -468,33 +492,19 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "Reuters (two sources), via Kashish Parpiani"
-    },
-    {
-      "time": "14:39",
-      "ts": "2026-10-30T14:39:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US loans 40 million barrels of oil from the SPR, its last share of the global (IEA) release agreement",
-      "theme": "Strategic reserves",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Giovanni Staunovo, UBS, linking a news report"
-    },
-    {
-      "time": "13:59",
-      "ts": "2026-10-30T13:59:00+08:00",
-      "eventTime": "Not stated (letter sent last week per NYT; reports surfaced ~10:17 am, 30 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US VP Vance offers to meet Iran's security chief Rezaei for talks to end the war; Iran confirms the letter, hasn't replied, and dismisses a Qatari peace plan",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Iran International (WaPo report), Israel War Room, Mossadil; NYT and WSJ also cited"
     }
   ],
   "sources": [
+    {
+      "title": "Tanker in Strait of Hormuz hit by limpet mines, named as Louise 1",
+      "site": "Adi Imsirovic",
+      "href": "https://x.com/AdiSurreyEnergy/status/2117147320106000669"
+    },
+    {
+      "title": "Iran says four tankers ablaze in Strait of Hormuz",
+      "site": "Ships & Ports",
+      "href": "https://x.com/ShipsandPorts/status/2117145935146832039"
+    },
     {
       "title": "Saudi Civil Defense warning in Abha, Khamis Mushait and Taif (Arabic)",
       "site": "Al-Araby Al-Jadeed",
@@ -784,91 +794,6 @@
       "title": "NOC statement on the Hamada pipeline (Arabic)",
       "site": "Wady Dinar",
       "href": "https://x.com/wady_dynar/status/2116166880167682509"
-    },
-    {
-      "title": "Oman: vessel attacked off Musandam, 25 crew evacuated",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2116155411510317097"
-    },
-    {
-      "title": "Oman MSC statement on Musandam vessel",
-      "site": "Al Mayadeen English",
-      "href": "https://x.com/MayadeenEnglish/status/2116157173143044505"
-    },
-    {
-      "title": "IRGC: supertanker exploded on a mine",
-      "site": "Press TV",
-      "href": "https://x.com/PressTV/status/2116155659813286107"
-    },
-    {
-      "title": "Trump: Iran war to be wrapped up soon; Iran claims US vessel destroyed",
-      "site": "Sky News",
-      "href": "https://x.com/SkyNews/status/2116141413045854239"
-    },
-    {
-      "title": "Trump on Iran war (Reuters)",
-      "site": "PUKmedia",
-      "href": "https://x.com/pukmedia/status/2116141260276695342"
-    },
-    {
-      "title": "Qatari mediators' revised proposals (CBS)",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2116150395164615109"
-    },
-    {
-      "title": "Russia extends diesel export ban (Reuters)",
-      "site": "Kashish Parpiani",
-      "href": "https://x.com/kashishparpiani/status/2116071081060811083"
-    },
-    {
-      "title": "US loans 40M barrels from the SPR",
-      "site": "Giovanni Staunovo",
-      "href": "https://x.com/staunovo/status/2116054874542535067"
-    },
-    {
-      "title": "Vance offers to meet Rezaei (WaPo)",
-      "site": "Iran International",
-      "href": "https://x.com/IranIntl_En/status/2115991467369840910"
-    },
-    {
-      "title": "Iran got the letter, dismisses Qatari plan",
-      "site": "Israel War Room",
-      "href": "https://x.com/IsraelWarRoom/status/2116040476868346068"
-    },
-    {
-      "title": "Drone attack on Novokuybyshevsk refinery",
-      "site": "AMK Mapping",
-      "href": "https://x.com/AMK_Mapping_/status/2116011359284646235"
-    },
-    {
-      "title": "Multiple fires at Novokuibyshevsk refinery",
-      "site": "Woofers",
-      "href": "https://x.com/NotWoofers/status/2116010967242821735"
-    },
-    {
-      "title": "Tanker hit by explosives in Hormuz",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2116007373030711574"
-    },
-    {
-      "title": "UKMTO notice on the Hormuz tanker",
-      "site": "RedboxGlobal",
-      "href": "https://x.com/RedboxWire/status/2116007376855965915"
-    },
-    {
-      "title": "Iran says 3 tankers hit mines near Hormuz",
-      "site": "X news",
-      "href": "https://x.com/i/trending/2115704977024774468"
-    },
-    {
-      "title": "UK report of a vessel on fire near Oman",
-      "site": "MarketPulse",
-      "href": "https://x.com/MarketPulse24X/status/2116006502741762510"
-    },
-    {
-      "title": "IRGC drone capture claim",
-      "site": "AMK Mapping",
-      "href": "https://x.com/AMK_Mapping_/status/2116004817852375510"
     }
   ]
 }
