@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 1:56 am SGT",
-  "lastScannedTs": "2026-11-03T01:56:32+08:00",
-  "asOf": "Tue 3 Nov 2026, 1:15 am SGT",
-  "asOfTs": "2026-11-03T01:15:53+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 2:00 am SGT",
+  "lastScannedTs": "2026-11-03T02:00:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 2:01 am SGT",
+  "asOfTs": "2026-11-03T02:01:00+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "lead": "Net read (last 24 hours): supply risk is rising, but diplomacy is pulling the other way.",
-    "text": "Seventeen of the nineteen alerts in the last 24 hours point to higher prices: an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "lead": "Net read (last 24 hours): supply risk is still rising, but diplomacy is pulling harder the other way.",
+    "text": "Seventeen of the twenty alerts in the last 24 hours point to higher prices: an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The three offsets are a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$104.4",
     "detail": "down about 8% on the day, below $105 for the first time since early October, as US-Iran diplomacy eased supply fears (Brent $104.40), per Anadolu around 1:04 am SGT, 3 Nov"
   },
   "alerts": [
+    {
+      "time": "01:52",
+      "ts": "2026-11-03T01:52:58+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Diplomatic sources tell Lebanon's Al Jadeed a breakthrough has been reached in US-Iran negotiations after Qatari mediation overcame procedural obstacles (single-outlet report, no official confirmation)",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "Al Jadeed via LiveSquawk and Amena Bakr on X"
+    },
     {
       "time": "00:36",
       "ts": "2026-11-03T00:36:23+08:00",
@@ -480,21 +492,19 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "UKMTO notice relayed by CGTN Europe"
-    },
-    {
-      "time": "04:01",
-      "ts": "2026-10-31T04:01:00+08:00",
-      "eventTime": "Fri 30 Oct afternoon Iran time (~7:30 pm SGT, est.)",
-      "eventTs": "2026-10-30T19:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy claims a fourth tanker, a supertanker that ignored its warnings, exploded in the Strait of Hormuz this afternoon",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy statement relayed by CGTN Europe"
     }
   ],
   "sources": [
+    {
+      "title": "Diplomatic sources: breakthrough in US-Iran talks after Qatari mediation (Al Jadeed)",
+      "site": "LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2117314037411102829"
+    },
+    {
+      "title": "Al Jadeed: breakthrough in US-Iran negotiations after Qatari mediation",
+      "site": "Amena Bakr",
+      "href": "https://x.com/Amena__Bakr/status/2117315455337759052"
+    },
     {
       "title": "Massive fire at HPCL's Visakh refinery after explosion sounds",
       "site": "Deccan Chronicle",
@@ -849,10 +859,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on Jizan, and Saudi Arabia reportedly intercepted two drones over Riyadh.",
-      "An explosion sparked a large fire at HPCL's Visakh refinery in India, while Kazakhstan halted oil flows on the Atyrau-Samara pipeline late Monday."
+      "The Houthis claimed drone strikes on Saudi Arabia's Dammam airport and Jizan, while an explosion sparked a large fire at HPCL's Visakh refinery in India.",
+      "Kazakhstan halted Atyrau-Samara pipeline flows late Monday, and Lebanon's Al Jadeed reported an unconfirmed breakthrough in US-Iran talks after Qatari mediation."
     ],
-    "updated": "Tue 3 Nov 2026, 1:16 am SGT",
-    "updatedTs": "2026-11-03T01:16:00+08:00"
+    "updated": "Tue 3 Nov 2026, 2:00 am SGT",
+    "updatedTs": "2026-11-03T02:00:00+08:00"
   }
 }
