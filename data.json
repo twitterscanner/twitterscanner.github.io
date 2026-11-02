@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 12:04 am SGT",
-  "lastScannedTs": "2026-11-03T00:04:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 11:28 pm SGT",
-  "asOfTs": "2026-11-02T23:28:14+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 12:20 am SGT",
+  "lastScannedTs": "2026-11-03T00:20:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 12:16 am SGT",
+  "asOfTs": "2026-11-03T00:16:10+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising, but diplomacy is pulling the other way.",
-    "text": "Fifteen of the seventeen alerts in the last 24 hours point to higher prices: Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Sixteen of the eighteen alerts in the last 24 hours point to higher prices: a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The two offsets are President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$106.0",
     "detail": "down about 6.5% on the day after Iran said its Supreme Leader granted the government negotiation powers (Brent ~$106.01; WTI ~$97.99), per an X News market summary around 10:24 pm SGT, 2 Nov"
   },
   "alerts": [
+    {
+      "time": "00:06",
+      "ts": "2026-11-03T00:06:14+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthi military spokesman Yahya Saree claims drone strikes on Saudi Arabia's Dammam airport in the oil-rich Eastern Province (two drones, saying air traffic was disrupted), plus an early-warning radar and a military transport aircraft in Jizan, over the past 48 hours; separately, Saudi Arabia reportedly said it intercepted two drones over Riyadh just after midnight. Damage unverified.",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic statement), via Open Source Intel and MenchOsint"
+    },
     {
       "time": "23:24",
       "ts": "2026-11-02T23:24:31+08:00",
@@ -480,21 +492,24 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "Israeli Channel 14 report, via Post Open Source"
-    },
-    {
-      "time": "03:35",
-      "ts": "2026-10-31T03:35:00+08:00",
-      "eventTime": "2:00 am, 31 Oct",
-      "eventTs": "2026-10-31T02:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "OSINT tracking suggests the vessel hit by a projectile south of Lavan Island is the Qatari-owned LNG tanker AL MAYEDA, which slowed and turned around at the time of the strike",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint ship-tracking analysis of the UKMTO notice"
     }
   ],
   "sources": [
+    {
+      "title": "Houthi spokesman claims Dammam airport and Jizan drone strikes (Arabic)",
+      "site": "Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2117287173707948497"
+    },
+    {
+      "title": "Houthis claim Dammam airport drone attack",
+      "site": "Open Source Intel",
+      "href": "https://x.com/Osint613/status/2117289219060023614"
+    },
+    {
+      "title": "Saudi says two drones intercepted over Riyadh",
+      "site": "MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2117288006461555096"
+    },
     {
       "title": "Kazakhstan says Atyrau-Samara oil flows halted",
       "site": "Walter Bloomberg",
@@ -829,10 +844,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "No new alerts yet today; the latest saw Kazakhstan halt oil flows on the Atyrau-Samara pipeline and unconfirmed reports of explosions at the British Embassy in Baghdad.",
-      "Late Monday, Iran's navy said another tanker hit a mine near Hormuz, while President Pezeshkian said the Supreme Leader authorized the government to negotiate with Washington."
+      "The Houthis claimed drone strikes on Dammam airport in Saudi Arabia's oil-rich Eastern Province and on Jizan, and Saudi Arabia reportedly intercepted two drones over Riyadh.",
+      "Late Monday, Kazakhstan halted oil flows on the Atyrau-Samara pipeline, and Iran's president said the Supreme Leader had authorized talks with Washington."
     ],
-    "updated": "Tue 3 Nov 2026, 12:04 am SGT",
-    "updatedTs": "2026-11-03T00:04:00+08:00"
+    "updated": "Tue 3 Nov 2026, 12:20 am SGT",
+    "updatedTs": "2026-11-03T00:20:00+08:00"
   }
 }
