@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 6:17 pm SGT",
-  "lastScannedTs": "2026-11-02T18:17:00+08:00",
-  "asOf": "Mon 2 Nov 2026, 3:58 pm SGT",
-  "asOfTs": "2026-11-02T15:58:12+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 6:24 pm SGT",
+  "lastScannedTs": "2026-11-02T18:24:00+08:00",
+  "asOf": "Mon 2 Nov 2026, 6:23 pm SGT",
+  "asOfTs": "2026-11-02T18:23:48+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "lead": "Net read (last 24 hours): supply risk is rising.",
-    "text": "Eleven of the twelve alerts in the last 24 hours point to higher prices: a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "text": "Twelve of the thirteen alerts in the last 24 hours point to higher prices: an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route (after its earlier claim of two tankers hitting mines), a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a merchant vessel struck by a projectile in Hormuz (UKMTO 191-26), a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi-led airstrikes on the Houthis' Ras Isa fuel terminal, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, a reported Ukrainian drone strike on Transneft's Samara crude hub, and a large fire at Lukoil's Kstovo refinery after a drone attack. The one offset is a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "~$108",
     "detail": "about $108.3, down about 4.5% on hopes Iran may reopen the Strait of Hormuz, per market posts on X around 6:10 pm SGT, 2 Nov"
   },
   "alerts": [
+    {
+      "time": "18:23",
+      "ts": "2026-11-02T18:23:40+08:00",
+      "eventTime": "6:17 pm, 2 Nov (est.)",
+      "eventTs": "2026-11-02T18:17:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC claims 11 tankers have burned in the Strait of Hormuz since Oct 25, a much larger tally than the four it claimed earlier today; no independent confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FirstSquawk (X)"
+    },
     {
       "time": "15:53",
       "ts": "2026-11-02T15:53:26+08:00",
@@ -480,21 +492,14 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "Oman Maritime Security Centre, via Open Source Intel and Al Mayadeen; IRGC claim via Press TV"
-    },
-    {
-      "time": "21:08",
-      "ts": "2026-10-30T21:08:00+08:00",
-      "eventTime": "Not stated (claim surfaced ~7:47 pm, 30 Oct)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's navy claims it destroyed a US unmanned vessel (drone boat) in the eastern Strait of Hormuz; no US confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian state media, via Sky News"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC: 11 tankers burned in Hormuz Strait since Oct 25",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117199435793117639"
+    },
     {
       "title": "Start of Iran-US negotiations depends on end of naval blockade",
       "site": "First Squawk",
@@ -789,21 +794,6 @@
       "title": "Bloomberg: Aramco shuts main crude unit at Ras Tanura",
       "site": "The Hormuz Letter",
       "href": "https://x.com/HormuzLetter/status/2116191524765515807"
-    },
-    {
-      "title": "Ras Tanura distillation unit offline (Bloomberg)",
-      "site": "Conflict Alarm",
-      "href": "https://x.com/ConflictAlarm/status/2116191615031120228"
-    },
-    {
-      "title": "Libya NOC: armed group shuts Hamada-Zawiya pipeline valve",
-      "site": "Giovanni Staunovo",
-      "href": "https://x.com/staunovo/status/2116167343575339437"
-    },
-    {
-      "title": "NOC statement on the Hamada pipeline (Arabic)",
-      "site": "Wady Dinar",
-      "href": "https://x.com/wady_dynar/status/2116166880167682509"
     }
   ],
   "dayNote": {
