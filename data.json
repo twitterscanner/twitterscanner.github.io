@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 7:30 am SGT",
-  "lastScannedTs": "2026-11-02T07:30:00+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 8:05 am SGT",
+  "lastScannedTs": "2026-11-02T08:05:00+08:00",
   "asOf": "Mon 2 Nov 2026, 4:42 am SGT",
   "asOfTs": "2026-11-02T04:42:30+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes, 24 hours a day, every day. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it.",
