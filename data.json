@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 2 Nov 2026, 2:57 pm SGT",
-  "lastScannedTs": "2026-11-02T14:57:35+08:00",
+  "lastScanned": "Mon 2 Nov 2026, 3:00 pm SGT",
+  "lastScannedTs": "2026-11-02T15:00:56+08:00",
   "asOf": "Mon 2 Nov 2026, 2:52 pm SGT",
   "asOfTs": "2026-11-02T14:52:12+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (2:00 am to 10:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
