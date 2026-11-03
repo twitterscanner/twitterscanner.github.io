@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 1:05 am SGT",
-  "lastScannedTs": "2026-11-04T01:05:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 10:27 pm SGT",
-  "asOfTs": "2026-11-03T22:27:35+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 1:30 am SGT",
+  "lastScannedTs": "2026-11-04T01:30:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 1:28 am SGT",
+  "asOfTs": "2026-11-04T01:28:19+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
-    "lead": "Net read (last 24 hours): Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
+    "bottom": "Hormuz closure, Qeshm strikes and Iraqi field protests keep supply risk high, while the reported Qatari MOU and mediation pull prices the other way.",
+    "lead": "Net read (last 24 hours): Hormuz closure, Qeshm strikes and Iraqi field protests keep supply risk high, while the reported Qatari MOU and mediation pull prices the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "24 of 34 alerts point higher, 10 lower",
-    "text": "24 of 34 alerts point higher, 10 lower.",
+    "count": "25 of 35 alerts point higher, 10 lower",
+    "text": "25 of 35 alerts point higher, 10 lower.",
     "hawkish": [
+      {
+        "text": "Basra protesters shut West Qurna 1 Station 8, threaten all fields in 3 days",
+        "confidence": "confirmed",
+        "theme": "Iraq",
+        "ts": "2026-11-04T01:20:07+08:00"
+      },
       {
         "text": "Iran's Rezaee rejects US response; Hormuz closed until seven conditions met",
         "confidence": "confirmed",
@@ -225,6 +231,19 @@
     "detail": "Brent pared losses to trade near $103.50/bbl around 10:45 pm SGT, 3 Nov, after an earlier dip to about $102 on Qatari MOU reports (per zerohedge on X); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "01:20",
+      "ts": "2026-11-04T01:20:07+08:00",
+      "eventTime": "11:30 pm, 3 Nov (est.)",
+      "eventTs": "2026-11-03T23:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Protesting Basra tribes shut Station 8 at Iraq's West Qurna 1 oil field, give government 3 days before closing all fields.",
+      "theme": "Iraq",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "964 English / 964 (Arabic) / Miqat News",
+      "url": "https://x.com/964English/status/2117668157397582334"
+    },
     {
       "time": "22:25",
       "ts": "2026-11-03T22:25:54+08:00",
@@ -731,22 +750,14 @@
       "confidence": "Confirmed",
       "source": "Iranian President Pezeshkian, via IRNA, OSINT613 and Post Open Source",
       "url": "https://x.com/CocoPostel/status/2117249217748238675"
-    },
-    {
-      "time": "21:02",
-      "ts": "2026-11-02T21:02:50+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's navy says an oil tanker that had switched off its navigation and identification systems struck a naval mine in a restricted, unsafe area of the eastern Strait of Hormuz and caught fire; the vessel is not named and there is no independent confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian state media (IRIB), via FinancialJuice, LiveSquawk and CGTN",
-      "url": "https://x.com/financialjuice/status/2117241777141026836"
     }
   ],
   "sources": [
+    {
+      "title": "Protesters shut Station 8 at West Qurna 1 oil field, Basra",
+      "site": "964 English",
+      "href": "https://x.com/964English/status/2117668157397582334"
+    },
     {
       "title": "US approved draft MOU presented by Qatari delegation for Iran; Saudi Arabia and UAE briefed and approved",
       "site": "First Squawk",
@@ -1161,10 +1172,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "No new alerts yet today; overnight, US officials confirmed limited strikes on Iran's Qeshm Island, and Iran's Rezaee said Hormuz stays shut until seven conditions are met.",
-      "Reports say the US approved a Qatari draft MOU for Iran backed by Saudi Arabia and the UAE, while Russia said it struck a cargo ship off Odesa."
+      "Protesting tribes in northern Basra shut Station 8 at Iraq's West Qurna 1 oil field and gave Baghdad three days before closing all fields.",
+      "Overnight, US officials confirmed limited strikes on Iran's Qeshm Island, while Iran's Rezaee said Hormuz stays shut until seven conditions are met."
     ],
-    "updated": "Wed 4 Nov 2026, 12:09 am SGT",
-    "updatedTs": "2026-11-04T00:09:00+08:00"
+    "updated": "Wed 4 Nov 2026, 1:30 am SGT",
+    "updatedTs": "2026-11-04T01:30:00+08:00"
   }
 }
