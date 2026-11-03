@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 10:29 pm SGT",
-  "lastScannedTs": "2026-11-03T22:29:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 10:47 pm SGT",
+  "lastScannedTs": "2026-11-03T22:47:00+08:00",
   "asOf": "Tue 3 Nov 2026, 10:27 pm SGT",
   "asOfTs": "2026-11-03T22:27:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
     "lead": "Net read (last 24 hours): Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "28 of 38 alerts point higher, 10 lower",
-    "text": "28 of 38 alerts point higher, 10 lower.",
+    "count": "27 of 37 alerts point higher, 10 lower",
+    "text": "27 of 37 alerts point higher, 10 lower.",
     "hawkish": [
       {
         "text": "Iran's Rezaee rejects US response; Hormuz closed until seven conditions met",
@@ -172,12 +172,6 @@
         "confidence": "confirmed",
         "theme": "Pipelines",
         "ts": "2026-11-02T23:24:31+08:00"
-      },
-      {
-        "text": "Explosions and gunfire reported at British Embassy in Baghdad",
-        "confidence": "unconfirmed",
-        "theme": "Iraq",
-        "ts": "2026-11-02T22:38:14+08:00"
       }
     ],
     "dovish": [
@@ -245,8 +239,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$102",
-    "detail": "Brent dropped about $3 to near $102/bbl around 9:32 pm SGT, 3 Nov, after reports the US approved a Qatari draft MOU for Iran (per Mike Zaccardi on X); Brent settled $104.77 on Monday"
+    "value": "~$103.50",
+    "detail": "Brent pared losses to trade near $103.50/bbl around 10:45 pm SGT, 3 Nov, after an earlier dip to about $102 on Qatari MOU reports (per zerohedge on X); Brent settled $104.77 on Monday"
   },
   "alerts": [
     {
