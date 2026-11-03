@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 1:05 pm SGT",
-  "lastScannedTs": "2026-11-03T13:05:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 9:45 am SGT",
-  "asOfTs": "2026-11-03T09:45:58+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 1:12 pm SGT",
+  "lastScannedTs": "2026-11-03T13:12:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 1:12 pm SGT",
+  "asOfTs": "2026-11-03T13:12:22+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (2:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Supply risk dominates: US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
     "lead": "Net read (last 24 hours): supply risk dominates; US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
     "verdict": "Bullish",
-    "count": "23 of 29 alerts point higher, 6 lower",
-    "text": "23 of 29 alerts point higher, 6 lower.",
+    "count": "24 of 30 alerts point higher, 6 lower",
+    "text": "24 of 30 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "India: dhow struck by aerial object off Oman, one Indian sailor killed",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-03T12:29:58+08:00"
+      },
       {
         "text": "Ukrainian drones reportedly hit Yaroslavl refinery, fire in industrial zone",
         "confidence": "unconfirmed",
@@ -195,6 +201,18 @@
     "detail": "Brent rose 48 cents to $105.25/bbl in early Asian trade after the WSJ report of US strikes on Qeshm Island, per Reuters (relayed on X) around 9:49 am SGT, 3 Nov; it settled at $104.77 on Monday, down 7.63%"
   },
   "alerts": [
+    {
+      "time": "12:29",
+      "ts": "2026-11-03T12:29:58+08:00",
+      "eventTime": "2 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "India confirms Indian dhow MSV Al Jusufi was struck by an unidentified aerial object off Oman's coast on 2 Nov; one of 14 Indian crew killed, 13 rescued by Oman's coast guard",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "India's Shipping Minister Sarbananda Sonowal, via ANI"
+    },
     {
       "time": "09:38",
       "ts": "2026-11-03T09:38:28+08:00",
@@ -662,21 +680,14 @@
       "direction": "Up",
       "confidence": "Unconfirmed",
       "source": "i24NEWS, via Open Source Intel"
-    },
-    {
-      "time": "00:57",
-      "ts": "2026-11-01T00:57:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's navy says an oil tanker caught fire in the Strait of Hormuz after colliding with naval mines, per Iranian state media; vessel not named and it is unclear whether this is a new incident",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian state media, via FinancialJuice and CGTN Africa"
     }
   ],
   "sources": [
+    {
+      "title": "India confirms dhow Al Jusufi struck off Oman, sailor killed",
+      "site": "ANI",
+      "href": "https://x.com/ANI/status/2117474343420858459"
+    },
     {
       "title": "Ukrainian drones reportedly hit Yaroslavl oil refinery",
       "site": "Exilenova+",
@@ -1001,10 +1012,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, and the WSJ reports Washington told Gulf states to prepare for a short, focused operation against Iran after the midterms.",
+      "US officials confirmed limited strikes on Iran's Qeshm Island, and India said a dhow struck by an aerial object off Oman left one Indian sailor dead.",
       "Ukrainian drones reportedly hit Russia's Yaroslavl refinery in a large raid, while oil fell sharply on Trump's Iran deal talk and Russia-Ukraine talks are set for Abu Dhabi."
     ],
-    "updated": "Tue 3 Nov 2026, 9:45 am SGT",
-    "updatedTs": "2026-11-03T09:45:31+08:00"
+    "updated": "Tue 3 Nov 2026, 1:12 pm SGT",
+    "updatedTs": "2026-11-03T13:12:27+08:00"
   }
 }
