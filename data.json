@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 10:09 pm SGT",
-  "lastScannedTs": "2026-11-03T22:09:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 9:33 pm SGT",
-  "asOfTs": "2026-11-03T21:33:35+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 10:29 pm SGT",
+  "lastScannedTs": "2026-11-03T22:29:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 10:27 pm SGT",
+  "asOfTs": "2026-11-03T22:27:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk still high on Hormuz and Houthi claims, but a reported US-approved Qatari MOU with Iran and Wright's comments pull the other way.",
-    "lead": "Net read (last 24 hours): Supply risk still high on Hormuz and Houthi claims, but a reported US-approved Qatari MOU with Iran and Wright's comments pull the other way.",
+    "bottom": "Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
+    "lead": "Net read (last 24 hours): Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 36 alerts point higher, 10 lower",
-    "text": "26 of 36 alerts point higher, 10 lower.",
+    "count": "28 of 38 alerts point higher, 10 lower",
+    "text": "28 of 38 alerts point higher, 10 lower.",
     "hawkish": [
+      {
+        "text": "Iran's Rezaee rejects US response; Hormuz closed until seven conditions met",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-03T22:25:54+08:00"
+      },
+      {
+        "text": "Russia says it hit a cargo ship south of Odesa",
+        "confidence": "unconfirmed",
+        "theme": "Tankers / shipping",
+        "ts": "2026-11-03T22:23:30+08:00"
+      },
       {
         "text": "Houthis claim drone hit on Abha airport and missile on Khamis Mushait base",
         "confidence": "unconfirmed",
@@ -237,6 +249,32 @@
     "detail": "Brent dropped about $3 to near $102/bbl around 9:32 pm SGT, 3 Nov, after reports the US approved a Qatari draft MOU for Iran (per Mike Zaccardi on X); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "22:25",
+      "ts": "2026-11-03T22:25:54+08:00",
+      "eventTime": "10:25 pm, 3 Nov (est.)",
+      "eventTs": "2026-11-03T22:25:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's Rezaee: US response to Iran's demands not convincing; Hormuz stays closed until all seven Iranian conditions are met.",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk / Walter Bloomberg",
+      "url": "https://x.com/FirstSquawk/status/2117624418763673939"
+    },
+    {
+      "time": "22:23",
+      "ts": "2026-11-03T22:23:30+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russia says it struck a cargo ship 24 km south of Odesa, raising Black Sea shipping risk.",
+      "theme": "Tankers / shipping",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk / LiveSquawk (citing Interfax)",
+      "url": "https://x.com/FirstSquawk/status/2117623710593298768"
+    },
     {
       "time": "21:28",
       "ts": "2026-11-03T21:28:18+08:00",
@@ -730,32 +768,6 @@
       "confidence": "Unconfirmed",
       "source": "Iranian state media (IRIB), via FinancialJuice, LiveSquawk and CGTN",
       "url": "https://x.com/financialjuice/status/2117241777141026836"
-    },
-    {
-      "time": "18:23",
-      "ts": "2026-11-02T18:23:40+08:00",
-      "eventTime": "6:17 pm, 2 Nov (est.)",
-      "eventTs": "2026-11-02T18:17:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC claims 11 tankers have burned in the Strait of Hormuz since Oct 25, a much larger tally than the four it claimed earlier today; no independent confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FirstSquawk (X)",
-      "url": "https://x.com/FirstSquawk/status/2117199435793117639"
-    },
-    {
-      "time": "15:53",
-      "ts": "2026-11-02T15:53:26+08:00",
-      "eventTime": "3:53 pm, 2 Nov (est.)",
-      "eventTs": "2026-11-02T15:53:00+08:00",
-      "eventQual": "est.",
-      "headline": "FirstSquawk: start of Iran-US negotiations depends on an end of the US naval blockade (speaker not named, apparently Iran's side), a further hardening of terms minutes after Iran said Hormuz cannot reopen before sanctions are lifted",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FirstSquawk (X)",
-      "url": "https://x.com/FirstSquawk/status/2117163157202538708"
     }
   ],
   "sources": [
@@ -1153,15 +1165,30 @@
       "title": "Unite says Apache offshore workers to escalate strike action",
       "site": "X / Reuters headline",
       "href": "https://x.com/staunovo/status/2117570972316295407"
+    },
+    {
+      "title": "Iran: US response to its demands wasn't convincing",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117624418763673939"
+    },
+    {
+      "title": "Iran: Strait of Hormuz will remain closed until US meets seven conditions",
+      "site": "X / Walter Bloomberg",
+      "href": "https://x.com/DeItaone/status/2117624313310269750"
+    },
+    {
+      "title": "Russia says it hit cargo ship 24 km south of Odesa (Interfax)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117623710593298768"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, while the IRGC claims three tankers hit mines in Hormuz and Houthis claim strikes on Saudi Abha and Khamis Mushait.",
-      "Reports say the US approved a Qatari draft MOU for Iran backed by Saudi Arabia and the UAE, and Ukrainian drones hit Russia's Yaroslavl refinery."
+      "US officials confirmed limited strikes on Iran's Qeshm Island, the IRGC claims three tankers hit mines in Hormuz, and Iran's Rezaee says Hormuz stays shut until seven conditions are met.",
+      "Reports say the US approved a Qatari draft MOU for Iran backed by Saudi Arabia and the UAE, while Ukrainian drones hit Russia's Yaroslavl refinery and Russia hit a ship off Odesa."
     ],
-    "updated": "Tue 3 Nov 2026, 9:34 pm SGT",
-    "updatedTs": "2026-11-03T21:34:00+08:00"
+    "updated": "Tue 3 Nov 2026, 10:29 pm SGT",
+    "updatedTs": "2026-11-03T22:29:00+08:00"
   }
 }
