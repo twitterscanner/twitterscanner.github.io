@@ -202,30 +202,30 @@
   function recent24(alerts, now) { return alerts.filter(function (a) { var m = alertMs(a); return !isNaN(m) && m <= now + 5 * 60000 && now - m <= 864e5; }); }
   if (typeof window !== "undefined") window.__recent24 = recent24;
   function renderNetRead(nr) {
-    var rows = Array.isArray(nr.rows) ? nr.rows : [];
-    var tbl = $("netread-table"), tb = $("netread-rows"), off = $("netread-off");
-    if (!rows.length || !tbl || !tb) {
-      if (tbl) tbl.hidden = true; if (off) off.hidden = true; setText("netread-verdict", "");
-      setText("netread-lead", nr.lead || ""); setText("netread-text", nr.text || ""); return;
-    }
+    var H = Array.isArray(nr.hawkish) ? nr.hawkish : [], Dv = Array.isArray(nr.dovish) ? nr.dovish : [], Ne = Array.isArray(nr.neutral) ? nr.neutral : [];
+    var cols = $("netread-cols"), neu = $("netread-neu");
     var v = nr.verdict || "", vb = $("netread-verdict");
+    if (!H.length && !Dv.length || !cols) {
+      if (cols) cols.hidden = true; if (neu) neu.hidden = true; setText("netread-verdict", "");
+      setText("netread-lead", nr.lead || nr.bottom || ""); setText("netread-text", nr.text || nr.count || ""); return;
+    }
     if (vb) { vb.textContent = v; vb.className = "nr-verdict " + (/^bull/i.test(v) ? "b-up" : /^bear/i.test(v) ? "b-down" : "b-mixed"); }
     setText("netread-lead", nr.bottom || nr.lead || "");
     setText("netread-text", nr.count || "");
-    var f = document.createDocumentFragment();
-    var lab = { higher: "\u2191 Higher price", lower: "\u2193 Lower price", mixed: "\u2195 Mixed" };
-    rows.forEach(function (r) {
-      var tr = el("tr");
-      [["Theme", r.theme, "nr-theme"], ["Bias", lab[r.bias] || r.bias || "", "bias-" + (r.bias || "mixed")],
-       ["Alerts", "\u2191 " + (r.up || 0) + " / \u2193 " + (r.down || 0), "nr-n"], ["Driver", r.driver || "", "nr-drv"],
-       ["Confidence", r.confidence || "", "nr-conf"]].forEach(function (c) {
-        var td = el("td", c[2], String(c[1])); td.setAttribute("data-label", c[0]); tr.appendChild(td);
+    function fill(id, list) {
+      var ul = $(id); if (!ul) return; var f = document.createDocumentFragment();
+      list.forEach(function (b) {
+        var li = el("li", "", b.text || "");
+        var tag = [b.confidence === "unconfirmed" ? "unconfirmed" : "", b.theme || ""].filter(Boolean).join(" \u00b7 ");
+        if (tag) li.appendChild(el("span", "nr-tag", " (" + tag + ")"));
+        f.appendChild(li);
       });
-      f.appendChild(tr);
-    });
-    tb.replaceChildren(f); tbl.hidden = false;
-    var o = Array.isArray(nr.offsets) ? nr.offsets : [];
-    if (off) { off.hidden = !o.length; setText("netread-offlist", o.join(" \u00b7 ")); }
+      ul.replaceChildren(f);
+    }
+    fill("netread-hawk", H); fill("netread-dove", Dv);
+    setText("netread-hn", "(" + H.length + ")"); setText("netread-dn", "(" + Dv.length + ")");
+    cols.hidden = false;
+    if (neu) { neu.hidden = !Ne.length; neu.textContent = Ne.length ? "Neutral: " + Ne.map(function (b) { return b.text; }).join(" \u00b7 ") : ""; }
   }
   function render() { renderInner(); try { labelCells(); } catch (e) { /* ignore */ } }
   function renderInner() {

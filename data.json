@@ -7,57 +7,194 @@
   "netRead": {
     "bottom": "Supply risk dominates: US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
     "lead": "Net read (last 24 hours): supply risk dominates; US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
-    "rows": [
-      {
-        "theme": "Iran / Hormuz",
-        "bias": "higher",
-        "up": 13,
-        "down": 0,
-        "confidence": "mixed",
-        "driver": "US strikes on Qeshm Island; tankers struck; Hormuz stays shut pending sanctions relief"
-      },
-      {
-        "theme": "Russia-Ukraine refineries & pipelines",
-        "bias": "higher",
-        "up": 5,
-        "down": 0,
-        "confidence": "mixed",
-        "driver": "Drones hit Yaroslavl refinery, Samara pump station; Atyrau-Samara flows halted"
-      },
-      {
-        "theme": "Houthi / Red Sea & Saudi",
-        "bias": "higher",
-        "up": 2,
-        "down": 0,
-        "confidence": "unconfirmed",
-        "driver": "Houthis claim drone strikes on Dammam; Saudi air-raid warnings"
-      },
-      {
-        "theme": "Iraq / other supply",
-        "bias": "higher",
-        "up": 2,
-        "down": 0,
-        "confidence": "mixed",
-        "driver": "Fire at India's Visakh refinery; blasts at UK embassy in Baghdad"
-      },
-      {
-        "theme": "Diplomacy / de-escalation",
-        "bias": "lower",
-        "up": 2,
-        "down": 6,
-        "confidence": "mixed",
-        "driver": "Trump says Iran deal coming together, no rush; Abu Dhabi talks set"
-      }
-    ],
-    "offsets": [
-      "Trump: Iran deal 'coming together', in no rush to fight",
-      "Second Ukraine-Russia meeting in Abu Dhabi",
-      "Reported US-Iran breakthrough via Qatar (unconfirmed)",
-      "Saudi tells Tehran no attacks from its soil"
-    ],
     "verdict": "Bullish",
     "count": "24 of 30 alerts point higher, 6 lower",
-    "text": "24 of 30 alerts point higher, 6 lower."
+    "text": "24 of 30 alerts point higher, 6 lower.",
+    "hawkish": [
+      {
+        "text": "Ukrainian drones reportedly hit Yaroslavl refinery, fire in industrial zone",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-03T09:38:28+08:00"
+      },
+      {
+        "text": "WSJ: US readying wider Iran strikes; Gulf told to expect post-midterm op",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T09:14:35+08:00"
+      },
+      {
+        "text": "Large Ukrainian drone raid heading deep into western Russia oil sites",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-03T09:03:16+08:00"
+      },
+      {
+        "text": "US confirms limited strikes on Iran's Qeshm Island to protect Hormuz shipping",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T08:48:07+08:00"
+      },
+      {
+        "text": "Axios: CIA urges Trump to keep 'no war, no deal' pressure on Iran",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T06:54:46+08:00"
+      },
+      {
+        "text": "Blasts off Bandar Lengeh; US tankers, AWACS, P-8 massed over Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T05:40:00+08:00"
+      },
+      {
+        "text": "Explosion at sea near Qeshm; IRGC said to be attacking ships in strait",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T05:33:22+08:00"
+      },
+      {
+        "text": "IRNA: five blasts on Qeshm Island, more in Bandar Abbas; US strikes suspected",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T04:49:52+08:00"
+      },
+      {
+        "text": "IRGC claims it downed a US MQ-9 Reaper and two drones over Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T04:40:16+08:00"
+      },
+      {
+        "text": "Zelenskyy: Russia preparing massive strike on Ukraine energy, timed to midterms",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine energy",
+        "ts": "2026-11-03T03:55:42+08:00"
+      },
+      {
+        "text": "UKMTO: ship struck in Strait of Hormuz off Oman",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-03T02:55:35+08:00"
+      },
+      {
+        "text": "Trump in no hurry to lift US naval blockade on Iran",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T02:10:09+08:00"
+      },
+      {
+        "text": "Explosion and big fire at HPCL's Visakh refinery, India",
+        "confidence": "confirmed",
+        "theme": "Refinery fire",
+        "ts": "2026-11-03T00:36:23+08:00"
+      },
+      {
+        "text": "Houthis claim drone strikes on Saudi Dammam airport; drones intercepted over Riyadh",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-03T00:06:14+08:00"
+      },
+      {
+        "text": "Kazakhstan halts Atyrau-Samara pipeline flows, possibly after drone attack",
+        "confidence": "confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-02T23:24:31+08:00"
+      },
+      {
+        "text": "Explosions and gunfire reported at British Embassy in Baghdad",
+        "confidence": "unconfirmed",
+        "theme": "Iraq",
+        "ts": "2026-11-02T22:38:14+08:00"
+      },
+      {
+        "text": "Iran navy: dark tanker hit a mine in eastern Hormuz, caught fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-02T21:02:50+08:00"
+      },
+      {
+        "text": "IRGC claims 11 tankers burned in Hormuz since Oct 25",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-02T18:23:40+08:00"
+      },
+      {
+        "text": "Iran ties start of US talks to ending the naval blockade",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-02T15:53:26+08:00"
+      },
+      {
+        "text": "Iran: Hormuz cannot reopen before US sanctions are lifted",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-02T15:41:55+08:00"
+      },
+      {
+        "text": "UKMTO: limpet mines hit tanker Louise 1 in Hormuz, engine-room fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-02T14:50:00+08:00"
+      },
+      {
+        "text": "IRGC claims four tankers exploded in Hormuz on 'unauthorised routes'",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-02T14:45:00+08:00"
+      },
+      {
+        "text": "Saudi early warnings in Abha, Taif amid Houthi attack; oil-site claims unverified",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-02T14:06:00+08:00"
+      },
+      {
+        "text": "Ukrainian drones hit Transneft's Samara crude hub; fire, third attack in weeks",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-02T12:14:00+08:00"
+      }
+    ],
+    "dovish": [
+      {
+        "text": "US to host second Ukraine-Russia talks in Abu Dhabi, Nov 10-11",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T07:02:17+08:00"
+      },
+      {
+        "text": "Saudi tells Tehran no attacks on Iran will launch from its soil",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T04:15:50+08:00"
+      },
+      {
+        "text": "Trump 'in no rush' to resume Iran fighting; Vance cites progress",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T04:07:04+08:00"
+      },
+      {
+        "text": "Trump: Iran deal 'coming together nicely, that's why oil is down'",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T03:53:10+08:00"
+      },
+      {
+        "text": "Al Jadeed: US-Iran breakthrough via Qatari mediation (single source)",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T01:52:58+08:00"
+      },
+      {
+        "text": "Pezeshkian: Supreme Leader hands government authority over US talks",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-02T21:35:24+08:00"
+      }
+    ],
+    "neutral": []
   },
   "brent": {
     "value": "$105.25",
