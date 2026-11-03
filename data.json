@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 1:55 am SGT",
-  "lastScannedTs": "2026-11-04T01:55:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 1:55 am SGT",
-  "asOfTs": "2026-11-04T01:55:18+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 2:07 am SGT",
+  "lastScannedTs": "2026-11-04T02:07:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 2:04 am SGT",
+  "asOfTs": "2026-11-04T02:04:48+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz closure, Qeshm strikes, Iraqi field protests and talk of renewed US combat keep risk high; the Qatari MOU and mediation pull lower.",
-    "lead": "Net read (last 24 hours): Hormuz closure, Qeshm strikes, Iraqi field protests and talk of renewed US combat keep risk high; the Qatari MOU and mediation pull lower.",
+    "bottom": "Hormuz closure, Qeshm strikes, Iraqi field protests, Houthi threats to Aramco and talk of renewed US combat keep risk high; Qatari mediation pulls lower.",
+    "lead": "Net read (last 24 hours): Hormuz closure, Qeshm strikes, Iraqi field protests, Houthi threats to Aramco and talk of renewed US combat keep risk high; Qatari mediation pulls lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 35 alerts point higher, 9 lower",
-    "text": "26 of 35 alerts point higher, 9 lower.",
+    "count": "27 of 36 alerts point higher, 9 lower",
+    "text": "27 of 36 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "Houthi source says Aramco facilities are within direct firing range",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-04T02:03:56+08:00"
+      },
       {
         "text": "NYT: Israel tells US Iran weighs chemical weapons, pressing for renewed combat",
         "confidence": "confirmed",
@@ -231,6 +237,19 @@
     "detail": "Brent pared losses to trade near $103.50/bbl around 10:45 pm SGT, 3 Nov, after an earlier dip to about $102 on Qatari MOU reports (per zerohedge on X); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "02:03",
+      "ts": "2026-11-04T02:03:56+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthi military source tells Tasnim that Saudi Aramco facilities are within direct firing range, a fresh threat amid Saudi-Houthi fighting.",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "LiveSquawk (citing Tasnim)",
+      "url": "https://x.com/LiveSquawk/status/2117679181756543386"
+    },
     {
       "time": "01:53",
       "ts": "2026-11-04T01:53:44+08:00",
@@ -737,19 +756,6 @@
       "confidence": "Confirmed",
       "source": "Walter Bloomberg, FinancialJuice, CGTN Europe (Kazakhstan statement; drone cause unconfirmed)",
       "url": "https://x.com/DeItaone/status/2117276873587916969"
-    },
-    {
-      "time": "22:38",
-      "ts": "2026-11-02T22:38:14+08:00",
-      "eventTime": "10:35 pm, 2 Nov (est.)",
-      "eventTs": "2026-11-02T22:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions and gunfire reported at the British Embassy in Baghdad, per Iran's Tasnim news agency, a day after Iran designated the UK Royal Navy and RAF as terrorist organizations; cause and casualties unknown, no UK or Iraqi confirmation yet",
-      "theme": "Iraq",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Tasnim report, via War Radar, Walter Bloomberg (DeItaone) and UK_REPT",
-      "url": "https://x.com/War_Radar2/status/2117270545540546882"
     }
   ],
   "sources": [
@@ -1172,15 +1178,20 @@
       "title": "NYT: Israel tells US Iran weighing chemical weapons use (First Squawk)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2117676615425798574"
+    },
+    {
+      "title": "Houthi source: Aramco facilities in direct firing range (LiveSquawk, citing Tasnim)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2117679181756543386"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Protesting tribes in northern Basra shut Station 8 at Iraq's West Qurna 1 oil field and gave Baghdad three days before closing all fields.",
+      "Protesting tribes in northern Basra shut Station 8 at Iraq's West Qurna 1 oil field, and a Houthi source warned Saudi Aramco facilities are within firing range.",
       "US officials confirmed limited strikes on Iran's Qeshm Island, and the NYT says Israel told Washington Iran is weighing chemical weapons use."
     ],
-    "updated": "Wed 4 Nov 2026, 1:55 am SGT",
-    "updatedTs": "2026-11-04T01:55:00+08:00"
+    "updated": "Wed 4 Nov 2026, 2:07 am SGT",
+    "updatedTs": "2026-11-04T02:07:00+08:00"
   }
 }
