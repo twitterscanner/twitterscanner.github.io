@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 2:35 pm SGT",
-  "lastScannedTs": "2026-11-03T14:35:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 2:32 pm SGT",
-  "asOfTs": "2026-11-03T14:32:56+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 2:43 pm SGT",
+  "lastScannedTs": "2026-11-03T14:43:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 2:43 pm SGT",
+  "asOfTs": "2026-11-03T14:43:19+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (2:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk still dominates: US strikes near Hormuz, tanker attacks and Trump's Pickaxe threat outweigh Iran talks and a restarted Kazakh pipeline.",
-    "lead": "Net read (last 24 hours): supply risk still dominates: US strikes near Hormuz, tanker attacks and Trump's Pickaxe threat outweigh Iran talks and a restarted Kazakh pipeline.",
+    "bottom": "Supply risk still dominates: US strikes near Hormuz, tanker attacks, Trump's Pickaxe threat and Iran denying a near deal outweigh a restarted Kazakh pipeline.",
+    "lead": "Net read (last 24 hours): Supply risk still dominates: US strikes near Hormuz, tanker attacks, Trump's Pickaxe threat and Iran denying a near deal outweigh a restarted Kazakh pipeline.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 7 lower",
-    "text": "24 of 31 alerts point higher, 7 lower.",
+    "count": "25 of 32 alerts point higher, 7 lower",
+    "text": "25 of 32 alerts point higher, 7 lower.",
     "hawkish": [
+      {
+        "text": "Senior Iranian official to Reuters: Iran and US far from a deal",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T14:42:37+08:00"
+      },
       {
         "text": "Trump on Fox: US may strike Iran's Pickaxe Mountain nuclear site 'within an hour'",
         "confidence": "unconfirmed",
@@ -207,6 +213,18 @@
     "detail": "Brent rose 48 cents to $105.25/bbl in early Asian trade after the WSJ report of US strikes on Qeshm Island, per Reuters (relayed on X) around 9:49 am SGT, 3 Nov; it settled at $104.77 on Monday, down 7.63%"
   },
   "alerts": [
+    {
+      "time": "14:42",
+      "ts": "2026-11-03T14:42:37+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Senior Iranian official tells Reuters Iran and the US are far from a deal to end the war, saying Tehran will not accept excessive US demands",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk, citing Reuters"
+    },
     {
       "time": "14:30",
       "ts": "2026-11-03T14:30:06+08:00",
@@ -674,21 +692,14 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "UNN (Ukrainian, translated) and local footage"
-    },
-    {
-      "time": "05:11",
-      "ts": "2026-11-01T05:11:00+08:00",
-      "eventTime": "4:30 am, 1 Nov (est.)",
-      "eventTs": "2026-11-01T04:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Hormuz authority (PGSA) blanket enforcement against South Korean owner Sinokor's entire tanker fleet takes effect from 1 Nov; Sinokor carried about 37% of Hormuz oil transits in September and over half of VLCC traffic in early October",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Persian Gulf Strait Authority notice of 27 Oct, via ZeroHedge (Lloyd's List data)"
     }
   ],
   "sources": [
+    {
+      "title": "Senior Iranian official to Reuters: Iran and US far from a deal",
+      "site": "LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2117507724695204343"
+    },
     {
       "title": "Atyrau-Samara pipeline oil transit resumes, Kazakhstan says",
       "site": "Giovanni Staunovo",
@@ -1028,10 +1039,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island and Trump said Pickaxe Mountain could be hit within an hour, while India said a dhow struck off Oman left a sailor dead.",
-      "Ukrainian drones hit Russia's Yaroslavl refinery, Kazakhstan restarted Atyrau-Samara pipeline flows after a drone-attack halt, and oil eased on Trump's Iran deal talk."
+      "US officials confirmed limited strikes on Iran's Qeshm Island, Trump said Pickaxe Mountain could be hit within an hour, and a senior Iranian official said a deal is far off.",
+      "Ukrainian drones hit Russia's Yaroslavl refinery, Kazakhstan restarted Atyrau-Samara pipeline flows after a drone-attack halt, and India said a dhow struck off Oman left a sailor dead."
     ],
-    "updated": "Tue 3 Nov 2026, 2:35 pm SGT",
-    "updatedTs": "2026-11-03T14:35:00+08:00"
+    "updated": "Tue 3 Nov 2026, 2:45 pm SGT",
+    "updatedTs": "2026-11-03T14:45:00+08:00"
   }
 }
