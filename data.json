@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 2:08 pm SGT",
-  "lastScannedTs": "2026-11-03T14:08:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 1:12 pm SGT",
-  "asOfTs": "2026-11-03T13:12:22+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 2:35 pm SGT",
+  "lastScannedTs": "2026-11-03T14:35:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 2:32 pm SGT",
+  "asOfTs": "2026-11-03T14:32:56+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (2:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk dominates: US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
-    "lead": "Net read (last 24 hours): supply risk dominates; US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
+    "bottom": "Supply risk still dominates: US strikes near Hormuz, tanker attacks and Trump's Pickaxe threat outweigh Iran talks and a restarted Kazakh pipeline.",
+    "lead": "Net read (last 24 hours): supply risk still dominates: US strikes near Hormuz, tanker attacks and Trump's Pickaxe threat outweigh Iran talks and a restarted Kazakh pipeline.",
     "verdict": "Bullish",
-    "count": "23 of 29 alerts point higher, 6 lower",
-    "text": "23 of 29 alerts point higher, 6 lower.",
+    "count": "24 of 31 alerts point higher, 7 lower",
+    "text": "24 of 31 alerts point higher, 7 lower.",
     "hawkish": [
+      {
+        "text": "Trump on Fox: US may strike Iran's Pickaxe Mountain nuclear site 'within an hour'",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T14:30:06+08:00"
+      },
       {
         "text": "India: dhow struck by aerial object off Oman, one Indian sailor killed",
         "confidence": "confirmed",
@@ -152,6 +158,12 @@
     ],
     "dovish": [
       {
+        "text": "Kazakhstan: Atyrau-Samara pipeline oil transit resumes after drone-attack halt",
+        "confidence": "confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-03T14:31:05+08:00"
+      },
+      {
         "text": "US to host second Ukraine-Russia talks in Abu Dhabi, Nov 10-11",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -195,6 +207,30 @@
     "detail": "Brent rose 48 cents to $105.25/bbl in early Asian trade after the WSJ report of US strikes on Qeshm Island, per Reuters (relayed on X) around 9:49 am SGT, 3 Nov; it settled at $104.77 on Monday, down 7.63%"
   },
   "alerts": [
+    {
+      "time": "14:30",
+      "ts": "2026-11-03T14:30:06+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump tells Fox News the US may need to strike Iran's Pickaxe Mountain nuclear site, saying it would not be a problem and could be done within an hour",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel, citing Trump on Fox News"
+    },
+    {
+      "time": "14:31",
+      "ts": "2026-11-03T14:31:05+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kazakhstan says oil transit on the Atyrau-Samara pipeline has resumed after a drone attack halted flows on 2 Nov, restoring Kazakh crude flows into Russia's Transneft system",
+      "theme": "Pipelines",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Kazakhstan statement, via Giovanni Staunovo (#OOTT)"
+    },
     {
       "time": "12:29",
       "ts": "2026-11-03T12:29:58+08:00",
@@ -650,33 +686,19 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "Persian Gulf Strait Authority notice of 27 Oct, via ZeroHedge (Lloyd's List data)"
-    },
-    {
-      "time": "03:02",
-      "ts": "2026-11-01T03:02:00+08:00",
-      "eventTime": "3:00 am, 1 Nov (est.)",
-      "eventTs": "2026-11-01T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's security chief Rezaei says the Strait of Hormuz will stay closed until Tehran's conditions are fulfilled; Tehran has sent Washington seven conditions and says there will be no negotiation until they are met",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Fars News, via FinancialJuice and Open Source Intel"
-    },
-    {
-      "time": "02:45",
-      "ts": "2026-11-01T02:45:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "i24NEWS: the IDF has raised its alert level ahead of a possible resumption of joint US-Israeli military operations against Iran and is ready to enter the war within hours if a decision is made, though readiness has not peaked",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "i24NEWS, via Open Source Intel"
     }
   ],
   "sources": [
+    {
+      "title": "Atyrau-Samara pipeline oil transit resumes, Kazakhstan says",
+      "site": "Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2117504820626006044"
+    },
+    {
+      "title": "Trump: US may strike Pickaxe Mountain within an hour (Fox News)",
+      "site": "Open Source Intel",
+      "href": "https://x.com/Osint613/status/2117504572516073525"
+    },
     {
       "title": "India confirms dhow Al Jusufi struck off Oman, sailor killed",
       "site": "ANI",
@@ -1006,10 +1028,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, and India said a dhow struck by an aerial object off Oman left one Indian sailor dead.",
-      "Ukrainian drones reportedly hit Russia's Yaroslavl refinery in a large raid, while oil fell sharply on Trump's Iran deal talk and Russia-Ukraine talks are set for Abu Dhabi."
+      "US officials confirmed limited strikes on Iran's Qeshm Island and Trump said Pickaxe Mountain could be hit within an hour, while India said a dhow struck off Oman left a sailor dead.",
+      "Ukrainian drones hit Russia's Yaroslavl refinery, Kazakhstan restarted Atyrau-Samara pipeline flows after a drone-attack halt, and oil eased on Trump's Iran deal talk."
     ],
-    "updated": "Tue 3 Nov 2026, 1:12 pm SGT",
-    "updatedTs": "2026-11-03T13:12:27+08:00"
+    "updated": "Tue 3 Nov 2026, 2:35 pm SGT",
+    "updatedTs": "2026-11-03T14:35:00+08:00"
   }
 }
