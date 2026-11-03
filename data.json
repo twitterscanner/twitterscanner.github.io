@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 6:15 pm SGT",
-  "lastScannedTs": "2026-11-03T18:15:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 6:24 pm SGT",
+  "lastScannedTs": "2026-11-03T18:24:00+08:00",
   "asOf": "Tue 3 Nov 2026, 6:14 pm SGT",
   "asOfTs": "2026-11-03T18:14:13+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Supply risk dominates: IRGC says three more tankers hit Hormuz mines, plus Qeshm strikes, lost refining capacity and Iran rejecting direct US talks.",
     "lead": "Net read (last 24 hours): Supply risk dominates: IRGC says three more tankers hit Hormuz mines, plus Qeshm strikes, lost refining capacity and Iran rejecting direct US talks.",
-    "verdict": "Bullish",
-    "count": "25 of 33 alerts point higher, 8 lower",
-    "text": "25 of 33 alerts point higher, 8 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "24 of 32 alerts point higher, 8 lower",
+    "text": "24 of 32 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "IRGC says three tankers hit mines on unauthorised Hormuz routes, now burning",
@@ -154,12 +154,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-02T21:02:50+08:00"
-      },
-      {
-        "text": "IRGC claims 11 tankers burned in Hormuz since Oct 25",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-02T18:23:40+08:00"
       }
     ],
     "dovish": [
