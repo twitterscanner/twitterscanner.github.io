@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 4:03 pm SGT",
-  "lastScannedTs": "2026-11-03T16:03:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 2:43 pm SGT",
-  "asOfTs": "2026-11-03T14:43:19+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 4:14 pm SGT",
+  "lastScannedTs": "2026-11-03T16:14:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 4:13 pm SGT",
+  "asOfTs": "2026-11-03T16:13:27+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (2:00 am to 9:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk still dominates: US strikes near Hormuz, tanker attacks, Trump's Pickaxe threat and Iran denying a near deal outweigh a restarted Kazakh pipeline.",
-    "lead": "Net read (last 24 hours): Supply risk still dominates: US strikes near Hormuz, tanker attacks, Trump's Pickaxe threat and Iran denying a near deal outweigh a restarted Kazakh pipeline.",
+    "bottom": "Supply risk still dominates: Qeshm strikes, tanker attacks and Iran denying a near deal outweigh Aramco's fast-restart pledge and a restarted Kazakh pipeline.",
+    "lead": "Net read (last 24 hours): Supply risk still dominates: Qeshm strikes, tanker attacks and Iran denying a near deal outweigh Aramco's fast-restart pledge and a restarted Kazakh pipeline.",
     "verdict": "Mixed, leaning bullish",
-    "count": "21 of 28 alerts point higher, 7 lower",
-    "text": "21 of 28 alerts point higher, 7 lower.",
+    "count": "21 of 29 alerts point higher, 8 lower",
+    "text": "21 of 29 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Senior Iranian official to Reuters: Iran and US far from a deal",
@@ -140,6 +140,12 @@
     ],
     "dovish": [
       {
+        "text": "Aramco says it can restore pre-conflict output in days, 12 mb/d in under three weeks",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-03T16:12:06+08:00"
+      },
+      {
         "text": "Kazakhstan: Atyrau-Samara pipeline oil transit resumes after drone-attack halt",
         "confidence": "confirmed",
         "theme": "Pipelines",
@@ -189,6 +195,19 @@
     "detail": "Brent about $107, up roughly 2%, per market relays on X around 3:18 pm SGT, 3 Nov; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "16:12",
+      "ts": "2026-11-03T16:12:06+08:00",
+      "eventTime": "4:10 pm, 3 Nov (est.)",
+      "eventTs": "2026-11-03T16:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Aramco CEO Nasser says Saudi output can return to pre-conflict levels within days and reach 12 mb/d max capacity in under three weeks; warns of winter pressure on energy markets",
+      "theme": "Saudi / Houthi",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Nader Itayim; First Squawk",
+      "url": "https://x.com/ncitayim/status/2117530243489747203"
+    },
     {
       "time": "14:42",
       "ts": "2026-11-03T14:42:37+08:00",
@@ -695,19 +714,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO Warning 191-26, via DC Global News",
       "url": "https://x.com/DC_Global_News/status/2116992661168988523"
-    },
-    {
-      "time": "04:42",
-      "ts": "2026-11-02T04:42:00+08:00",
-      "eventTime": "~8:00 am, 1 Nov (est., overnight Moscow time)",
-      "eventTs": "2026-11-01T08:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Large fire at Lukoil's Kstovo refinery (NORSI, about 17 million tonnes a year) in Nizhny Novgorod region after an overnight Ukrainian drone attack, the third Russian refinery hit in three days; local fuel queues reported",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UNN (Ukrainian, translated) and local footage",
-      "url": "https://x.com/unn_inc/status/2116808697863118933"
     }
   ],
   "sources": [
@@ -1050,15 +1056,20 @@
       "title": "Kstovo refinery hit on 1 Nov, third in three days (Ukrainian)",
       "site": "Tanya Boyko",
       "href": "https://x.com/Ukraine_2024_/status/2116874200212291635"
+    },
+    {
+      "title": "Aramco CEO: pre-conflict output within days, 12 mb/d in under three weeks",
+      "site": "X / Nader Itayim",
+      "href": "https://x.com/ncitayim/status/2117530243489747203"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "US officials confirmed limited strikes on Iran's Qeshm Island, Trump said Pickaxe Mountain could be hit within an hour, and a senior Iranian official said a deal is far off.",
-      "Ukrainian drones hit Russia's Yaroslavl refinery, Kazakhstan restarted Atyrau-Samara pipeline flows after a drone-attack halt, and India said a dhow struck off Oman left a sailor dead."
+      "Ukrainian drones hit Russia's Yaroslavl refinery, Kazakhstan restarted Atyrau-Samara flows, and Aramco said it can restore pre-conflict Saudi output within days."
     ],
-    "updated": "Tue 3 Nov 2026, 2:45 pm SGT",
-    "updatedTs": "2026-11-03T14:45:00+08:00"
+    "updated": "Tue 3 Nov 2026, 4:14 pm SGT",
+    "updatedTs": "2026-11-03T16:14:00+08:00"
   }
 }
