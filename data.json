@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 2:04 pm SGT",
-  "lastScannedTs": "2026-11-03T14:04:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 2:08 pm SGT",
+  "lastScannedTs": "2026-11-03T14:08:00+08:00",
   "asOf": "Tue 3 Nov 2026, 1:12 pm SGT",
   "asOfTs": "2026-11-03T13:12:22+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (2:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Supply risk dominates: US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
     "lead": "Net read (last 24 hours): supply risk dominates; US strikes near Hormuz, tanker attacks and Russian refinery hits outweigh Iran and Ukraine talks.",
     "verdict": "Bullish",
-    "count": "24 of 30 alerts point higher, 6 lower",
-    "text": "24 of 30 alerts point higher, 6 lower.",
+    "count": "23 of 29 alerts point higher, 6 lower",
+    "text": "23 of 29 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "India: dhow struck by aerial object off Oman, one Indian sailor killed",
@@ -148,12 +148,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-02T14:45:00+08:00"
-      },
-      {
-        "text": "Saudi early warnings in Abha, Taif amid Houthi attack; oil-site claims unverified",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-02T14:06:00+08:00"
       }
     ],
     "dovish": [
