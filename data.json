@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 3:42 pm SGT",
-  "lastScannedTs": "2026-11-03T15:42:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 3:54 pm SGT",
+  "lastScannedTs": "2026-11-03T15:54:00+08:00",
   "asOf": "Tue 3 Nov 2026, 2:43 pm SGT",
   "asOfTs": "2026-11-03T14:43:19+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (2:00 am to 9:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Supply risk still dominates: US strikes near Hormuz, tanker attacks, Trump's Pickaxe threat and Iran denying a near deal outweigh a restarted Kazakh pipeline.",
     "lead": "Net read (last 24 hours): Supply risk still dominates: US strikes near Hormuz, tanker attacks, Trump's Pickaxe threat and Iran denying a near deal outweigh a restarted Kazakh pipeline.",
-    "verdict": "Bullish",
-    "count": "22 of 29 alerts point higher, 7 lower",
-    "text": "22 of 29 alerts point higher, 7 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "21 of 28 alerts point higher, 7 lower",
+    "text": "21 of 28 alerts point higher, 7 lower.",
     "hawkish": [
       {
         "text": "Senior Iranian official to Reuters: Iran and US far from a deal",
@@ -136,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-02T18:23:40+08:00"
-      },
-      {
-        "text": "Iran ties start of US talks to ending the naval blockade",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-02T15:53:26+08:00"
       }
     ],
     "dovish": [
