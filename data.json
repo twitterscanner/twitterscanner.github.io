@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 8:30 pm SGT",
-  "lastScannedTs": "2026-11-03T20:30:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 8:29 pm SGT",
-  "asOfTs": "2026-11-03T20:29:30+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 8:59 pm SGT",
+  "lastScannedTs": "2026-11-03T20:59:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 8:59 pm SGT",
+  "asOfTs": "2026-11-03T20:59:38+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes and drone clashes, lost refining capacity, though Qatar awaits US-Iran replies within 36 hours.",
-    "lead": "Net read (last 24 hours): Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes and drone clashes, lost refining capacity, though Qatar awaits US-Iran replies within 36 hours.",
+    "bottom": "Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes, Houthi claims on Saudi targets, though Qatar awaits US-Iran replies within 36 hours.",
+    "lead": "Net read (last 24 hours): Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes, Houthi claims on Saudi targets, though Qatar awaits US-Iran replies within 36 hours.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 35 alerts point higher, 9 lower",
-    "text": "26 of 35 alerts point higher, 9 lower.",
+    "count": "27 of 36 alerts point higher, 9 lower",
+    "text": "27 of 36 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim drone hit on Abha airport and missile on Khamis Mushait base",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-03T20:57:40+08:00"
+      },
       {
         "text": "IRGC claims two US LUCAS drones downed over Bandar Khamir, near Hormuz",
         "confidence": "unconfirmed",
@@ -227,10 +233,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$106.6",
-    "detail": "Brent up 1.76% at $106.61 by 07:44 GMT (3:44 pm SGT, 3 Nov), per a Reuters-based market relay on X; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
+    "value": "~$105",
+    "detail": "Brent slipped to lows under $105/bbl around 8:55 pm SGT, 3 Nov, per a FinSquawk headline on X; earlier up 1.76% at $106.61 (3:44 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "20:57",
+      "ts": "2026-11-03T20:57:40+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthi spokesman Saree claims a drone strike on Saudi Arabia's Abha airport, halting air traffic, and a ballistic missile hit on Khamis Mushait air base; no Saudi confirmation yet.",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree, Houthi military spokesman (Arabic)",
+      "url": "https://x.com/Yah_Saree/status/2117602108602024037"
+    },
     {
       "time": "20:29",
       "ts": "2026-11-03T20:29:30+08:00",
@@ -737,22 +756,14 @@
       "confidence": "Unconfirmed",
       "source": "Adi Imsirovic, relaying UKMTO and maritime security sources",
       "url": "https://x.com/AdiSurreyEnergy/status/2117147320106000669"
-    },
-    {
-      "time": "14:45",
-      "ts": "2026-11-02T14:45:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy now claims four oil tankers caught fire and exploded in the Strait of Hormuz after using what it calls unauthorised routes, up from the two it reported earlier; no independent confirmation of the extra vessels",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Ships & Ports, relaying an IRGC Navy claim",
-      "url": "https://x.com/ShipsandPorts/status/2117145935146832039"
     }
   ],
   "sources": [
+    {
+      "title": "Houthi spokesman Saree: drone strike on Abha airport, ballistic missile on Khamis Mushait air base (Arabic)",
+      "site": "Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2117602108602024037"
+    },
     {
       "title": "Qatari mediators expect US and Iran feedback within 36 hours on new proposal (Reuters)",
       "site": "LiveSquawk",
@@ -1137,10 +1148,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, the IRGC says three tankers hit mines in Hormuz and claims two US drones downed near Bandar Khamir.",
+      "US officials confirmed limited strikes on Iran's Qeshm Island, the IRGC says three tankers hit mines in Hormuz, and the Houthis claim strikes on Saudi Abha airport and Khamis Mushait.",
       "Ukrainian drones hit Russia's Yaroslavl refinery, Aramco warned of 5 mb/d lost refining supply, and Qatari mediators expect US and Iran replies to a new proposal within 36 hours."
     ],
-    "updated": "Tue 3 Nov 2026, 8:30 pm SGT",
-    "updatedTs": "2026-11-03T20:30:00+08:00"
+    "updated": "Tue 3 Nov 2026, 8:59 pm SGT",
+    "updatedTs": "2026-11-03T20:59:00+08:00"
   }
 }
