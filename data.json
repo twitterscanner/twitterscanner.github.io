@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 8:01 pm SGT",
-  "lastScannedTs": "2026-11-03T20:01:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 7:17 pm SGT",
-  "asOfTs": "2026-11-03T19:17:27+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 8:30 pm SGT",
+  "lastScannedTs": "2026-11-03T20:30:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 8:29 pm SGT",
+  "asOfTs": "2026-11-03T20:29:30+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes and drone clashes, lost refining capacity and stalled US-Iran talks, plus a North Sea strike.",
-    "lead": "Net read (last 24 hours): Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes and drone clashes, lost refining capacity and stalled US-Iran talks, plus a North Sea strike.",
-    "verdict": "Bullish",
-    "count": "26 of 34 alerts point higher, 8 lower",
-    "text": "26 of 34 alerts point higher, 8 lower.",
+    "bottom": "Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes and drone clashes, lost refining capacity, though Qatar awaits US-Iran replies within 36 hours.",
+    "lead": "Net read (last 24 hours): Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes and drone clashes, lost refining capacity, though Qatar awaits US-Iran replies within 36 hours.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "26 of 35 alerts point higher, 9 lower",
+    "text": "26 of 35 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "IRGC claims two US LUCAS drones downed over Bandar Khamir, near Hormuz",
@@ -170,6 +170,12 @@
     ],
     "dovish": [
       {
+        "text": "Qatari mediators expect US and Iran replies to a new proposal within 36 hours",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T20:29:30+08:00"
+      },
+      {
         "text": "Aramco says it can restore pre-conflict output in days, 12 mb/d in under three weeks",
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
@@ -225,6 +231,19 @@
     "detail": "Brent up 1.76% at $106.61 by 07:44 GMT (3:44 pm SGT, 3 Nov), per a Reuters-based market relay on X; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "20:29",
+      "ts": "2026-11-03T20:29:30+08:00",
+      "eventTime": "8:20 pm, 3 Nov (est.)",
+      "eventTs": "2026-11-03T20:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Qatari mediators expect the US and Iran to answer a new proposal to advance talks within 36 hours, an official told Reuters.",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk citing Reuters",
+      "url": "https://x.com/LiveSquawk/status/2117592843703435763"
+    },
     {
       "time": "19:17",
       "ts": "2026-11-03T19:17:27+08:00",
@@ -731,22 +750,14 @@
       "confidence": "Unconfirmed",
       "source": "Ships & Ports, relaying an IRGC Navy claim",
       "url": "https://x.com/ShipsandPorts/status/2117145935146832039"
-    },
-    {
-      "time": "14:06",
-      "ts": "2026-11-02T14:06:00+08:00",
-      "eventTime": "2:00 pm, 2 Nov (est.)",
-      "eventTs": "2026-11-02T14:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Civil Defense sounds early warnings of possible danger in Abha, Khamis Mushait and Taif in southwest Saudi Arabia amid a reported Yemeni (Houthi) attack; small-account claims that oil facilities were targeted are unverified",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Saudi Civil Defense via Al-Araby Al-Jadeed and Al Mayadeen",
-      "url": "https://x.com/alaraby_ar/status/2117136259680526550"
     }
   ],
   "sources": [
+    {
+      "title": "Qatari mediators expect US and Iran feedback within 36 hours on new proposal (Reuters)",
+      "site": "LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2117592843703435763"
+    },
     {
       "title": "IRGC: two US LUCAS attack drones shot down over Bandar Khamir, Hormozgan",
       "site": "Mario Nawfal",
@@ -1127,9 +1138,9 @@
     "title": "Today's key developments",
     "lines": [
       "US officials confirmed limited strikes on Iran's Qeshm Island, the IRGC says three tankers hit mines in Hormuz and claims two US drones downed near Bandar Khamir.",
-      "Ukrainian drones hit Russia's Yaroslavl refinery, Aramco warned refining has lost 5 mb/d of supply, and UK union Unite said Apache North Sea workers will escalate strikes."
+      "Ukrainian drones hit Russia's Yaroslavl refinery, Aramco warned of 5 mb/d lost refining supply, and Qatari mediators expect US and Iran replies to a new proposal within 36 hours."
     ],
-    "updated": "Tue 3 Nov 2026, 7:19 pm SGT",
-    "updatedTs": "2026-11-03T19:19:00+08:00"
+    "updated": "Tue 3 Nov 2026, 8:30 pm SGT",
+    "updatedTs": "2026-11-03T20:30:00+08:00"
   }
 }
