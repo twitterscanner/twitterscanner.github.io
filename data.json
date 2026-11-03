@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 5:00 pm SGT",
-  "lastScannedTs": "2026-11-03T17:00:44+08:00",
-  "asOf": "Tue 3 Nov 2026, 4:35 pm SGT",
-  "asOfTs": "2026-11-03T16:35:50+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 5:17 pm SGT",
+  "lastScannedTs": "2026-11-03T17:17:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 5:15 pm SGT",
+  "asOfTs": "2026-11-03T17:15:21+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk still dominates: Qeshm strikes, tanker attacks, lost refining capacity and Iran denying a near deal outweigh Aramco's fast-restart pledge.",
-    "lead": "Net read (last 24 hours): Supply risk still dominates: Qeshm strikes, tanker attacks, lost refining capacity and Iran denying a near deal outweigh Aramco's fast-restart pledge.",
+    "bottom": "Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and no near deal outweigh Aramco's restart pledge.",
+    "lead": "Net read (last 24 hours): Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and no near deal outweigh Aramco's restart pledge.",
     "verdict": "Mixed, leaning bullish",
-    "count": "22 of 30 alerts point higher, 8 lower",
-    "text": "22 of 30 alerts point higher, 8 lower.",
+    "count": "23 of 31 alerts point higher, 8 lower",
+    "text": "23 of 31 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Iran sees war return increasingly likely; leaders urge military to engage Qatar plan",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T17:09:25+08:00"
+      },
       {
         "text": "Aramco CEO: refining lost 5 mb/d, tanker attacks cut 15% of effective capacity",
         "confidence": "confirmed",
@@ -201,6 +207,19 @@
     "detail": "Brent up 1.76% at $106.61 by 07:44 GMT (3:44 pm SGT, 3 Nov), per a Reuters-based market relay on X; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "17:09",
+      "ts": "2026-11-03T17:09:25+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iranian assessments reportedly see a return to war as increasingly likely, as President Pezeshkian, Speaker Qalibaf and FM Araghchi urge the military to engage with Qatar's proposal",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2117544669110481266"
+    },
     {
       "time": "16:28",
       "ts": "2026-11-03T16:28:30+08:00",
@@ -707,22 +726,14 @@
       "confidence": "Confirmed",
       "source": "Houthi health ministry via Al Jazeera Now, Middle East Observer and Yemeni media",
       "url": "https://x.com/aljazeera_now/status/2117053406967710006"
-    },
-    {
-      "time": "04:42",
-      "ts": "2026-11-02T04:42:00+08:00",
-      "eventTime": "Not stated (IRGC says 'today', 1 Nov Iran time)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy says two oil tankers exploded after hitting naval mines while using an unauthorized route through the Strait of Hormuz with AIS off; it says one, a supertanker, is ablaze. UKMTO has not confirmed the blasts",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRNA (Iranian state news agency), relayed by Reuters and Roya News",
-      "url": "https://x.com/IrnaEnglish/status/2116993677558010166"
     }
   ],
   "sources": [
+    {
+      "title": "Iranian assessments view return to war as increasingly likely; leaders urge military to engage Qatar proposal",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117544669110481266"
+    },
     {
       "title": "Senior Iranian official to Reuters: Iran and US far from a deal",
       "site": "LiveSquawk",
@@ -1077,10 +1088,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, Trump said Pickaxe Mountain could be hit within an hour, and a senior Iranian official said a deal is far off.",
+      "US officials confirmed limited strikes on Iran's Qeshm Island, Trump floated hitting Pickaxe Mountain, and Iranian assessments reportedly now see a return to war as likelier.",
       "Ukrainian drones hit Russia's Yaroslavl refinery, while Aramco said it can restore Saudi output within days but warned refining has lost 5 mb/d of supply."
     ],
-    "updated": "Tue 3 Nov 2026, 4:38 pm SGT",
-    "updatedTs": "2026-11-03T16:38:00+08:00"
+    "updated": "Tue 3 Nov 2026, 5:17 pm SGT",
+    "updatedTs": "2026-11-03T17:17:00+08:00"
   }
 }
