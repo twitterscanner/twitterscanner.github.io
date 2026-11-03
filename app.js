@@ -201,6 +201,32 @@
   function alertMs(a) { var t = a && a.ts; if (typeof t === "number") return t < 1e12 ? t * 1000 : t; var m = Date.parse(t); return isNaN(m) ? NaN : m; }
   function recent24(alerts, now) { return alerts.filter(function (a) { var m = alertMs(a); return !isNaN(m) && m <= now + 5 * 60000 && now - m <= 864e5; }); }
   if (typeof window !== "undefined") window.__recent24 = recent24;
+  function renderNetRead(nr) {
+    var rows = Array.isArray(nr.rows) ? nr.rows : [];
+    var tbl = $("netread-table"), tb = $("netread-rows"), off = $("netread-off");
+    if (!rows.length || !tbl || !tb) {
+      if (tbl) tbl.hidden = true; if (off) off.hidden = true; setText("netread-verdict", "");
+      setText("netread-lead", nr.lead || ""); setText("netread-text", nr.text || ""); return;
+    }
+    var v = nr.verdict || "", vb = $("netread-verdict");
+    if (vb) { vb.textContent = v; vb.className = "nr-verdict " + (/^bull/i.test(v) ? "b-up" : /^bear/i.test(v) ? "b-down" : "b-mixed"); }
+    setText("netread-lead", nr.bottom || nr.lead || "");
+    setText("netread-text", nr.count || "");
+    var f = document.createDocumentFragment();
+    var lab = { higher: "\u2191 Higher price", lower: "\u2193 Lower price", mixed: "\u2195 Mixed" };
+    rows.forEach(function (r) {
+      var tr = el("tr");
+      [["Theme", r.theme, "nr-theme"], ["Bias", lab[r.bias] || r.bias || "", "bias-" + (r.bias || "mixed")],
+       ["Alerts", "\u2191 " + (r.up || 0) + " / \u2193 " + (r.down || 0), "nr-n"], ["Driver", r.driver || "", "nr-drv"],
+       ["Confidence", r.confidence || "", "nr-conf"]].forEach(function (c) {
+        var td = el("td", c[2], String(c[1])); td.setAttribute("data-label", c[0]); tr.appendChild(td);
+      });
+      f.appendChild(tr);
+    });
+    tb.replaceChildren(f); tbl.hidden = false;
+    var o = Array.isArray(nr.offsets) ? nr.offsets : [];
+    if (off) { off.hidden = !o.length; setText("netread-offlist", o.join(" \u00b7 ")); }
+  }
   function render() { renderInner(); try { labelCells(); } catch (e) { /* ignore */ } }
   function renderInner() {
     if (!data) return;
@@ -230,8 +256,7 @@
     setText("summary", data.summary || "");
     var asof = asOfText(data, z);
     setText("asof", asof ? "Alerts as of " + asof : "");
-    setText("netread-lead", (data.netRead && data.netRead.lead) || "");
-    setText("netread-text", (data.netRead && data.netRead.text) || "");
+    renderNetRead(data.netRead || {});
     setText("m-total", recent.length);
     setText("m-neutral", recent.length - count("Up") - count("Down"));
     setText("m-window", "Rolling last 24 hours: " + recent.length + " of " + alerts.length + " stored alerts (" + count("Up") + " up, " + count("Down") + " down, " + (recent.length - count("Up") - count("Down")) + " neutral). The feed below shows all stored alerts.");
