@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 1:30 am SGT",
-  "lastScannedTs": "2026-11-04T01:30:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 1:28 am SGT",
-  "asOfTs": "2026-11-04T01:28:19+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 1:55 am SGT",
+  "lastScannedTs": "2026-11-04T01:55:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 1:55 am SGT",
+  "asOfTs": "2026-11-04T01:55:18+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz closure, Qeshm strikes and Iraqi field protests keep supply risk high, while the reported Qatari MOU and mediation pull prices the other way.",
-    "lead": "Net read (last 24 hours): Hormuz closure, Qeshm strikes and Iraqi field protests keep supply risk high, while the reported Qatari MOU and mediation pull prices the other way.",
+    "bottom": "Hormuz closure, Qeshm strikes, Iraqi field protests and talk of renewed US combat keep risk high; the Qatari MOU and mediation pull lower.",
+    "lead": "Net read (last 24 hours): Hormuz closure, Qeshm strikes, Iraqi field protests and talk of renewed US combat keep risk high; the Qatari MOU and mediation pull lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "25 of 35 alerts point higher, 10 lower",
-    "text": "25 of 35 alerts point higher, 10 lower.",
+    "count": "26 of 35 alerts point higher, 9 lower",
+    "text": "26 of 35 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "NYT: Israel tells US Iran weighs chemical weapons, pressing for renewed combat",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-04T01:53:44+08:00"
+      },
       {
         "text": "Basra protesters shut West Qurna 1 Station 8, threaten all fields in 3 days",
         "confidence": "confirmed",
@@ -216,12 +222,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-03T03:53:10+08:00"
-      },
-      {
-        "text": "Al Jadeed: US-Iran breakthrough via Qatari mediation (single source)",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T01:52:58+08:00"
       }
     ],
     "neutral": []
@@ -231,6 +231,19 @@
     "detail": "Brent pared losses to trade near $103.50/bbl around 10:45 pm SGT, 3 Nov, after an earlier dip to about $102 on Qatari MOU reports (per zerohedge on X); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "01:53",
+      "ts": "2026-11-04T01:53:44+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "NYT: Israel told US Iran is weighing chemical weapons use; some US officials see it as pressure to resume major combat against Iran.",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk / LiveSquawk (citing NYT)",
+      "url": "https://x.com/FirstSquawk/status/2117676615425798574"
+    },
     {
       "time": "01:20",
       "ts": "2026-11-04T01:20:07+08:00",
@@ -737,19 +750,6 @@
       "confidence": "Unconfirmed",
       "source": "Tasnim report, via War Radar, Walter Bloomberg (DeItaone) and UK_REPT",
       "url": "https://x.com/War_Radar2/status/2117270545540546882"
-    },
-    {
-      "time": "21:35",
-      "ts": "2026-11-02T21:35:24+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's President Pezeshkian says the Supreme Leader has granted the government authority over negotiations, a step toward talks with Washington; posts report crude falling about 5% on the news",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Iranian President Pezeshkian, via IRNA, OSINT613 and Post Open Source",
-      "url": "https://x.com/CocoPostel/status/2117249217748238675"
     }
   ],
   "sources": [
@@ -1167,15 +1167,20 @@
       "title": "Russia says it hit cargo ship 24 km south of Odesa (Interfax)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2117623710593298768"
+    },
+    {
+      "title": "NYT: Israel tells US Iran weighing chemical weapons use (First Squawk)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117676615425798574"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Protesting tribes in northern Basra shut Station 8 at Iraq's West Qurna 1 oil field and gave Baghdad three days before closing all fields.",
-      "Overnight, US officials confirmed limited strikes on Iran's Qeshm Island, while Iran's Rezaee said Hormuz stays shut until seven conditions are met."
+      "US officials confirmed limited strikes on Iran's Qeshm Island, and the NYT says Israel told Washington Iran is weighing chemical weapons use."
     ],
-    "updated": "Wed 4 Nov 2026, 1:30 am SGT",
-    "updatedTs": "2026-11-04T01:30:00+08:00"
+    "updated": "Wed 4 Nov 2026, 1:55 am SGT",
+    "updatedTs": "2026-11-04T01:55:00+08:00"
   }
 }
