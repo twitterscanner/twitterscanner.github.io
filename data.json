@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 3:08 am SGT",
-  "lastScannedTs": "2026-11-04T03:08:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-04T04:05:00+08:00",
   "asOf": "Wed 4 Nov 2026, 3:04 am SGT",
   "asOfTs": "2026-11-04T03:04:39+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Hormuz closure, Iraqi field protests, Houthi threats to Aramco and a reported Pentagon push for renewed Iran strikes keep risk high; Qatari mediation pulls lower.",
     "lead": "Net read (last 24 hours): Hormuz closure, Iraqi field protests, Houthi threats to Aramco and a reported Pentagon push for renewed Iran strikes keep risk high; Qatari mediation pulls lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "26 of 35 alerts point higher, 9 lower",
-    "text": "26 of 35 alerts point higher, 9 lower.",
+    "verdict": "Bullish",
+    "count": "25 of 33 alerts point higher, 8 lower",
+    "text": "25 of 33 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "NYT: Pentagon readies options for renewed major US strike on Iran as soon as Nov 4.",
@@ -160,12 +160,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-03T04:40:16+08:00"
-      },
-      {
-        "text": "Zelenskyy: Russia preparing massive strike on Ukraine energy, timed to midterms",
-        "confidence": "confirmed",
-        "theme": "Russia-Ukraine energy",
-        "ts": "2026-11-03T03:55:42+08:00"
       }
     ],
     "dovish": [
@@ -216,19 +210,13 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-03T04:07:04+08:00"
-      },
-      {
-        "text": "Trump: Iran deal 'coming together nicely, that's why oil is down'",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T03:53:10+08:00"
       }
     ],
     "neutral": []
   },
   "brent": {
-    "value": "~$103.50",
-    "detail": "Brent pared losses to trade near $103.50/bbl around 10:45 pm SGT, 3 Nov, after an earlier dip to about $102 on Qatari MOU reports (per zerohedge on X); Brent settled $104.77 on Monday"
+    "value": "$103.60",
+    "detail": "Brent futures settled $103.60/bbl, down $1.17 (-1.12%), around 3:47 am SGT, 4 Nov (per FirstSquawk and LiveSquawk on X); WTI settled $96.09"
   },
   "alerts": [
     {
