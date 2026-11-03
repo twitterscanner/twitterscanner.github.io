@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 6:05 pm SGT",
-  "lastScannedTs": "2026-11-03T18:05:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 6:02 pm SGT",
-  "asOfTs": "2026-11-03T18:02:56+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 6:15 pm SGT",
+  "lastScannedTs": "2026-11-03T18:15:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 6:14 pm SGT",
+  "asOfTs": "2026-11-03T18:14:13+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and rejecting direct US talks outweigh Aramco's restart pledge.",
-    "lead": "Net read (last 24 hours): Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and rejecting direct US talks outweigh Aramco's restart pledge.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "24 of 32 alerts point higher, 8 lower",
-    "text": "24 of 32 alerts point higher, 8 lower.",
+    "bottom": "Supply risk dominates: IRGC says three more tankers hit Hormuz mines, plus Qeshm strikes, lost refining capacity and Iran rejecting direct US talks.",
+    "lead": "Net read (last 24 hours): Supply risk dominates: IRGC says three more tankers hit Hormuz mines, plus Qeshm strikes, lost refining capacity and Iran rejecting direct US talks.",
+    "verdict": "Bullish",
+    "count": "25 of 33 alerts point higher, 8 lower",
+    "text": "25 of 33 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says three tankers hit mines on unauthorised Hormuz routes, now burning",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-03T18:12:26+08:00"
+      },
       {
         "text": "Iran rejects Qatari plan for direct US talks in Doha; mediation stays indirect",
         "confidence": "unconfirmed",
@@ -213,6 +219,19 @@
     "detail": "Brent up 1.76% at $106.61 by 07:44 GMT (3:44 pm SGT, 3 Nov), per a Reuters-based market relay on X; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "18:12",
+      "ts": "2026-11-03T18:12:26+08:00",
+      "eventTime": "Early hours of 3 Nov, Iran time (~9:00 am SGT, est.)",
+      "eventTs": "2026-11-03T09:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's IRGC Navy says three oil tankers that switched off tracking and used unauthorised Strait of Hormuz routes struck naval mines and are burning, abandoned on the southern shore; vessels not named, no independent confirmation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CGTN Europe (IRGC Navy statement)",
+      "url": "https://x.com/CGTNEurope/status/2117560528289616232"
+    },
     {
       "time": "18:00",
       "ts": "2026-11-03T18:00:45+08:00",
@@ -719,22 +738,14 @@
       "confidence": "Confirmed",
       "source": "WSJ report, relayed by LiveSquawk, First Squawk, RedboxGlobal and FinancialJuice",
       "url": "https://x.com/LiveSquawk/status/2117074740653461830"
-    },
-    {
-      "time": "10:06",
-      "ts": "2026-11-02T10:06:00+08:00",
-      "eventTime": "7:47 am, 2 Nov",
-      "eventTs": "2026-11-02T07:47:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO warning 192-26: a tanker heading southeast through the northern Gulf was struck on its port side by two unknown projectiles 72 nm east of Ras Al Khafji, Saudi Arabia; crew accounted for, no spill. OSINT accounts blame the IRGC, which is unconfirmed",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO, relayed by Iran International English and NTC Report; IRGC attribution from AMK Mapping",
-      "url": "https://x.com/IranIntl_En/status/2117071759555936535"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC Navy: three rogue oil tankers struck mines and are ablaze in the Strait of Hormuz",
+      "site": "CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2117560528289616232"
+    },
     {
       "title": "Iranian assessments view return to war as increasingly likely; leaders urge military to engage Qatar proposal",
       "site": "First Squawk",
@@ -1099,10 +1110,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, Iranian assessments reportedly see war as likelier, and Tehran reportedly rejected direct talks with US diplomats in Doha.",
+      "US officials confirmed limited strikes on Iran's Qeshm Island, Iran's IRGC says three tankers hit mines and are burning in Hormuz, and Tehran reportedly rejected direct US talks in Doha.",
       "Ukrainian drones hit Russia's Yaroslavl refinery, while Aramco said it can restore Saudi output within days but warned refining has lost 5 mb/d of supply."
     ],
-    "updated": "Tue 3 Nov 2026, 6:05 pm SGT",
-    "updatedTs": "2026-11-03T18:05:00+08:00"
+    "updated": "Tue 3 Nov 2026, 6:15 pm SGT",
+    "updatedTs": "2026-11-03T18:15:00+08:00"
   }
 }
