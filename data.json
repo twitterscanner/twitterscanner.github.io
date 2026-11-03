@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-04T04:05:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 3:04 am SGT",
-  "asOfTs": "2026-11-04T03:04:39+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 5:08 am SGT",
+  "lastScannedTs": "2026-11-04T05:08:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 5:05 am SGT",
+  "asOfTs": "2026-11-04T05:05:26+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz closure, Iraqi field protests, Houthi threats to Aramco and a reported Pentagon push for renewed Iran strikes keep risk high; Qatari mediation pulls lower.",
-    "lead": "Net read (last 24 hours): Hormuz closure, Iraqi field protests, Houthi threats to Aramco and a reported Pentagon push for renewed Iran strikes keep risk high; Qatari mediation pulls lower.",
+    "bottom": "A tanker strike in southern Hormuz, Iraqi field protests, Houthi threats to Aramco and reported US strike plans keep risk high; Qatari mediation pulls lower.",
+    "lead": "Net read (last 24 hours): A tanker strike in southern Hormuz, Iraqi field protests, Houthi threats to Aramco and reported US strike plans keep risk high; Qatari mediation pulls lower.",
     "verdict": "Bullish",
-    "count": "25 of 33 alerts point higher, 8 lower",
-    "text": "25 of 33 alerts point higher, 8 lower.",
+    "count": "24 of 30 alerts point higher, 6 lower",
+    "text": "24 of 30 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: tanker hit by two projectiles NE of Lima, Oman, in southern Hormuz",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-04T04:53:00+08:00"
+      },
       {
         "text": "NYT: Pentagon readies options for renewed major US strike on Iran as soon as Nov 4.",
         "confidence": "confirmed",
@@ -148,18 +154,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-03T05:33:22+08:00"
-      },
-      {
-        "text": "IRNA: five blasts on Qeshm Island, more in Bandar Abbas; US strikes suspected",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-03T04:49:52+08:00"
-      },
-      {
-        "text": "IRGC claims it downed a US MQ-9 Reaper and two drones over Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-03T04:40:16+08:00"
       }
     ],
     "dovish": [
@@ -198,18 +192,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-03T07:02:17+08:00"
-      },
-      {
-        "text": "Saudi tells Tehran no attacks on Iran will launch from its soil",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T04:15:50+08:00"
-      },
-      {
-        "text": "Trump 'in no rush' to resume Iran fighting; Vance cites progress",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T04:07:04+08:00"
       }
     ],
     "neutral": []
@@ -219,6 +201,19 @@
     "detail": "Brent futures settled $103.60/bbl, down $1.17 (-1.12%), around 3:47 am SGT, 4 Nov (per FirstSquawk and LiveSquawk on X); WTI settled $96.09"
   },
   "alerts": [
+    {
+      "time": "04:53",
+      "ts": "2026-11-04T04:53:00+08:00",
+      "eventTime": "3:00 am, 4 Nov",
+      "eventTs": "2026-11-04T03:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO 195-26: tanker struck by two unknown projectiles in engine room 14 nm NE of Lima, Oman, in the southern Strait of Hormuz corridor; no casualties.",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO via First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2117721776654524588"
+    },
     {
       "time": "03:00",
       "ts": "2026-11-04T03:00:01+08:00",
@@ -725,22 +720,14 @@
       "confidence": "Confirmed",
       "source": "Deccan Chronicle and multiple local reports on X",
       "url": "https://x.com/DeccanChronicle/status/2117303391860957372"
-    },
-    {
-      "time": "00:06",
-      "ts": "2026-11-03T00:06:14+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi military spokesman Yahya Saree claims drone strikes on Saudi Arabia's Dammam airport in the oil-rich Eastern Province (two drones, saying air traffic was disrupted), plus an early-warning radar and a military transport aircraft in Jizan, over the past 48 hours; separately, Saudi Arabia reportedly said it intercepted two drones over Riyadh just after midnight. Damage unverified.",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic statement), via Open Source Intel and MenchOsint",
-      "url": "https://x.com/Yah_Saree/status/2117287173707948497"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO 195-26: tanker struck by two projectiles 14 nm NE of Lima, Oman",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117721776654524588"
+    },
     {
       "title": "NYT: Pentagon preparing options for renewed major attack on Iran, possibly as early as Nov 4",
       "site": "Mario Nawfal",
@@ -1175,10 +1162,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Protesting tribes in northern Basra shut Station 8 at Iraq's West Qurna 1 oil field, and a Houthi source warned Saudi Aramco facilities are within firing range.",
-      "The NYT says the Pentagon is readying options for renewed major strikes on Iran as soon as Nov 4, after Israel warned of possible Iranian chemical weapons use."
+      "A tanker was struck by two projectiles near Lima, Oman, in the southern Strait of Hormuz, and protesting tribes shut Station 8 at Iraq's West Qurna 1 field.",
+      "The NYT says the Pentagon is readying renewed major strikes on Iran as soon as Nov 4, while a Houthi source warned Aramco facilities are within firing range."
     ],
-    "updated": "Wed 4 Nov 2026, 3:08 am SGT",
-    "updatedTs": "2026-11-04T03:08:00+08:00"
+    "updated": "Wed 4 Nov 2026, 5:08 am SGT",
+    "updatedTs": "2026-11-04T05:08:00+08:00"
   }
 }
