@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 5:17 pm SGT",
-  "lastScannedTs": "2026-11-03T17:17:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 5:15 pm SGT",
-  "asOfTs": "2026-11-03T17:15:21+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 6:05 pm SGT",
+  "lastScannedTs": "2026-11-03T18:05:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 6:02 pm SGT",
+  "asOfTs": "2026-11-03T18:02:56+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and no near deal outweigh Aramco's restart pledge.",
-    "lead": "Net read (last 24 hours): Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and no near deal outweigh Aramco's restart pledge.",
+    "bottom": "Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and rejecting direct US talks outweigh Aramco's restart pledge.",
+    "lead": "Net read (last 24 hours): Supply risk still dominates: Qeshm strikes, lost refining capacity, Iran seeing war as likelier and rejecting direct US talks outweigh Aramco's restart pledge.",
     "verdict": "Mixed, leaning bullish",
-    "count": "23 of 31 alerts point higher, 8 lower",
-    "text": "23 of 31 alerts point higher, 8 lower.",
+    "count": "24 of 32 alerts point higher, 8 lower",
+    "text": "24 of 32 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Iran rejects Qatari plan for direct US talks in Doha; mediation stays indirect",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T18:00:45+08:00"
+      },
       {
         "text": "Iran sees war return increasingly likely; leaders urge military to engage Qatar plan",
         "confidence": "unconfirmed",
@@ -207,6 +213,19 @@
     "detail": "Brent up 1.76% at $106.61 by 07:44 GMT (3:44 pm SGT, 3 Nov), per a Reuters-based market relay on X; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "18:00",
+      "ts": "2026-11-03T18:00:45+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's security council chief Mohsen Rezaei reportedly rejected a Qatari plan for direct contact between US diplomats and Iran's delegation in Doha; mediation by Qatar and Pakistan stays indirect, focused on reopening Hormuz",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel",
+      "url": "https://x.com/Osint613/status/2117557585414918299"
+    },
     {
       "time": "17:09",
       "ts": "2026-11-03T17:09:25+08:00",
@@ -713,19 +732,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO, relayed by Iran International English and NTC Report; IRGC attribution from AMK Mapping",
       "url": "https://x.com/IranIntl_En/status/2117071759555936535"
-    },
-    {
-      "time": "09:02",
-      "ts": "2026-11-02T09:02:00+08:00",
-      "eventTime": "Overnight 1–2 Nov, roughly 12–5 am SGT 2 Nov (est.)",
-      "eventTs": "2026-11-02T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition airstrikes hit Ras Isa, the Houthis' main fuel import terminal in Hodeidah, striking its pier and a docked ship plus an oil company station in Bajil; Houthi health ministry says 7 injured. Claims the port is out of service are unconfirmed",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Houthi health ministry via Al Jazeera Now, Middle East Observer and Yemeni media",
-      "url": "https://x.com/aljazeera_now/status/2117053406967710006"
     }
   ],
   "sources": [
@@ -1083,15 +1089,20 @@
       "title": "Aramco CEO: refining market lost 5 mb/d; tanker attacks cut 15% of effective capacity",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2117534369200115743"
+    },
+    {
+      "title": "Iran's Rezaei rejects Qatari plan for direct US-Iran contact in Doha",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2117557585414918299"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, Trump floated hitting Pickaxe Mountain, and Iranian assessments reportedly now see a return to war as likelier.",
+      "US officials confirmed limited strikes on Iran's Qeshm Island, Iranian assessments reportedly see war as likelier, and Tehran reportedly rejected direct talks with US diplomats in Doha.",
       "Ukrainian drones hit Russia's Yaroslavl refinery, while Aramco said it can restore Saudi output within days but warned refining has lost 5 mb/d of supply."
     ],
-    "updated": "Tue 3 Nov 2026, 5:17 pm SGT",
-    "updatedTs": "2026-11-03T17:17:00+08:00"
+    "updated": "Tue 3 Nov 2026, 6:05 pm SGT",
+    "updatedTs": "2026-11-03T18:05:00+08:00"
   }
 }
