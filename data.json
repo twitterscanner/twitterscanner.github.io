@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 11:27 pm SGT",
-  "lastScannedTs": "2026-11-03T23:27:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 12:09 am SGT",
+  "lastScannedTs": "2026-11-04T00:09:00+08:00",
   "asOf": "Tue 3 Nov 2026, 10:27 pm SGT",
   "asOfTs": "2026-11-03T22:27:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
     "lead": "Net read (last 24 hours): Iran rejecting the US response and keeping Hormuz shut keeps supply risk high, though the reported Qatari MOU and Wright's comments pull the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 36 alerts point higher, 10 lower",
-    "text": "26 of 36 alerts point higher, 10 lower.",
+    "count": "25 of 35 alerts point higher, 10 lower",
+    "text": "25 of 35 alerts point higher, 10 lower.",
     "hawkish": [
       {
         "text": "Iran's Rezaee rejects US response; Hormuz closed until seven conditions met",
@@ -160,12 +160,6 @@
         "confidence": "confirmed",
         "theme": "Refinery fire",
         "ts": "2026-11-03T00:36:23+08:00"
-      },
-      {
-        "text": "Houthis claim drone strikes on Saudi Dammam airport; drones intercepted over Riyadh",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-03T00:06:14+08:00"
       }
     ],
     "dovish": [
@@ -1173,10 +1167,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, the IRGC claims three tankers hit mines in Hormuz, and Iran's Rezaee says Hormuz stays shut until seven conditions are met.",
-      "Reports say the US approved a Qatari draft MOU for Iran backed by Saudi Arabia and the UAE, while Ukrainian drones hit Russia's Yaroslavl refinery and Russia hit a ship off Odesa."
+      "No new alerts yet today; overnight, US officials confirmed limited strikes on Iran's Qeshm Island, and Iran's Rezaee said Hormuz stays shut until seven conditions are met.",
+      "Reports say the US approved a Qatari draft MOU for Iran backed by Saudi Arabia and the UAE, while Russia said it struck a cargo ship off Odesa."
     ],
-    "updated": "Tue 3 Nov 2026, 10:29 pm SGT",
-    "updatedTs": "2026-11-03T22:29:00+08:00"
+    "updated": "Wed 4 Nov 2026, 12:09 am SGT",
+    "updatedTs": "2026-11-04T00:09:00+08:00"
   }
 }
