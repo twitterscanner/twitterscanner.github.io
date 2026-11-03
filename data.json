@@ -217,7 +217,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "LiveSquawk, citing Reuters"
+      "source": "LiveSquawk, citing Reuters",
+      "url": "https://x.com/LiveSquawk/status/2117507724695204343"
     },
     {
       "time": "14:30",
@@ -229,7 +230,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Open Source Intel, citing Trump on Fox News"
+      "source": "Open Source Intel, citing Trump on Fox News",
+      "url": "https://x.com/Osint613/status/2117504572516073525"
     },
     {
       "time": "14:31",
@@ -241,7 +243,8 @@
       "theme": "Pipelines",
       "direction": "Down",
       "confidence": "Confirmed",
-      "source": "Kazakhstan statement, via Giovanni Staunovo (#OOTT)"
+      "source": "Kazakhstan statement, via Giovanni Staunovo (#OOTT)",
+      "url": "https://x.com/staunovo/status/2117504820626006044"
     },
     {
       "time": "12:29",
@@ -253,7 +256,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "India's Shipping Minister Sarbananda Sonowal, via ANI"
+      "source": "India's Shipping Minister Sarbananda Sonowal, via ANI",
+      "url": "https://x.com/ANI/status/2117474343420858459"
     },
     {
       "time": "09:38",
@@ -265,7 +269,8 @@
       "theme": "Russia refineries",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Several OSINT accounts incl. Exilenova+, WW3 Monitor and Russian-language channels (translated)"
+      "source": "Several OSINT accounts incl. Exilenova+, WW3 Monitor and Russian-language channels (translated)",
+      "url": "https://x.com/Exilenova_plus/status/2117432212434092070"
     },
     {
       "time": "09:14",
@@ -277,7 +282,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Wall Street Journal via Post Open Source"
+      "source": "Wall Street Journal via Post Open Source",
+      "url": "https://x.com/WorldConflict_X/status/2117425171472748627"
     },
     {
       "time": "09:03",
@@ -289,7 +295,8 @@
       "theme": "Russia refineries",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "OSINTtechnical"
+      "source": "OSINTtechnical",
+      "url": "https://x.com/Osinttechnical/status/2117422323871432739"
     },
     {
       "time": "08:48",
@@ -301,7 +308,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Open Source Intel, AMK Mapping and Post Open Source, citing the WSJ and US officials"
+      "source": "Open Source Intel, AMK Mapping and Post Open Source, citing the WSJ and US officials",
+      "url": "https://x.com/Osint613/status/2117418510766707004"
     },
     {
       "time": "07:02",
@@ -313,7 +321,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Confirmed",
-      "source": "Barak Ravid (Axios) and FirstSquawk, citing a senior US official and envoy Witkoff"
+      "source": "Barak Ravid (Axios) and FirstSquawk, citing a senior US official and envoy Witkoff",
+      "url": "https://x.com/BarakRavid/status/2117394089390022890"
     },
     {
       "time": "06:54",
@@ -325,7 +334,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Barak Ravid (Axios), citing sources"
+      "source": "Barak Ravid (Axios), citing sources",
+      "url": "https://x.com/BarakRavid/status/2117389986605507013"
     },
     {
       "time": "05:40",
@@ -337,7 +347,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Fars via Visioner; BashaReport and UK Report flight tracking"
+      "source": "Fars via Visioner; BashaReport and UK Report flight tracking",
+      "url": "https://x.com/visionergeo/status/2117371337538666536"
     },
     {
       "time": "05:33",
@@ -349,7 +360,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "AMK Mapping and FromIran via local reports"
+      "source": "AMK Mapping and FromIran via local reports",
+      "url": "https://x.com/AMK_Mapping_/status/2117369499339153715"
     },
     {
       "time": "04:49",
@@ -361,7 +373,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "FaytuksNetwork, Visioner and War Monitor, citing IRNA and local witnesses"
+      "source": "FaytuksNetwork, Visioner and War Monitor, citing IRNA and local witnesses",
+      "url": "https://x.com/FaytuksNetwork/status/2117358552469721339"
     },
     {
       "time": "04:40",
@@ -373,7 +386,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "IRGC claim, relayed by MenchOsint, Open Source Intel and Iran Nuances"
+      "source": "IRGC claim, relayed by MenchOsint, Open Source Intel and Iran Nuances",
+      "url": "https://x.com/MenchOsint/status/2117356139117699272"
     },
     {
       "time": "04:15",
@@ -385,7 +399,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Unconfirmed",
-      "source": "Open Source Intel and Post Open Source citing Kan News"
+      "source": "Open Source Intel and Post Open Source citing Kan News",
+      "url": "https://x.com/Osint613/status/2117349990460973558"
     },
     {
       "time": "04:07",
@@ -397,7 +412,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Confirmed",
-      "source": "Barak Ravid (Axios), OSINTdefender and LiveSquawk"
+      "source": "Barak Ravid (Axios), OSINTdefender and LiveSquawk",
+      "url": "https://x.com/BarakRavid/status/2117347783841878268"
     },
     {
       "time": "03:55",
@@ -409,7 +425,8 @@
       "theme": "Russia-Ukraine energy",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Volodymyr Zelenskyy (official account)"
+      "source": "Volodymyr Zelenskyy (official account)",
+      "url": "https://x.com/ZelenskyyUa/status/2117344923808616887"
     },
     {
       "time": "03:53",
@@ -421,7 +438,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Confirmed",
-      "source": "Zerohedge and Giovanni Staunovo relaying Trump remarks"
+      "source": "Zerohedge and Giovanni Staunovo relaying Trump remarks",
+      "url": "https://x.com/zerohedge/status/2117344285096112425"
     },
     {
       "time": "02:55",
@@ -433,7 +451,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "UKMTO Operations Centre on X, relayed by Israel War Room and Post Open Source"
+      "source": "UKMTO Operations Centre on X, relayed by Israel War Room and Post Open Source",
+      "url": "https://x.com/UK_MTO/status/2117329793800622309"
     },
     {
       "time": "02:10",
@@ -445,7 +464,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Trump remarks via Open Source Intel (Osint613) on X"
+      "source": "Trump remarks via Open Source Intel (Osint613) on X",
+      "url": "https://x.com/Osint613/status/2117318357829423156"
     },
     {
       "time": "01:52",
@@ -457,7 +477,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Unconfirmed",
-      "source": "Al Jadeed via LiveSquawk and Amena Bakr on X"
+      "source": "Al Jadeed via LiveSquawk and Amena Bakr on X",
+      "url": "https://x.com/LiveSquawk/status/2117314037411102829"
     },
     {
       "time": "00:36",
@@ -469,7 +490,8 @@
       "theme": "Refinery fire",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Deccan Chronicle and multiple local reports on X"
+      "source": "Deccan Chronicle and multiple local reports on X",
+      "url": "https://x.com/DeccanChronicle/status/2117303391860957372"
     },
     {
       "time": "00:06",
@@ -481,7 +503,8 @@
       "theme": "Saudi / Houthi",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic statement), via Open Source Intel and MenchOsint"
+      "source": "Houthi military spokesman Yahya Saree (Arabic statement), via Open Source Intel and MenchOsint",
+      "url": "https://x.com/Yah_Saree/status/2117287173707948497"
     },
     {
       "time": "23:24",
@@ -493,7 +516,8 @@
       "theme": "Pipelines",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Walter Bloomberg, FinancialJuice, CGTN Europe (Kazakhstan statement; drone cause unconfirmed)"
+      "source": "Walter Bloomberg, FinancialJuice, CGTN Europe (Kazakhstan statement; drone cause unconfirmed)",
+      "url": "https://x.com/DeItaone/status/2117276873587916969"
     },
     {
       "time": "22:38",
@@ -505,7 +529,8 @@
       "theme": "Iraq",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Tasnim report, via War Radar, Walter Bloomberg (DeItaone) and UK_REPT"
+      "source": "Tasnim report, via War Radar, Walter Bloomberg (DeItaone) and UK_REPT",
+      "url": "https://x.com/War_Radar2/status/2117270545540546882"
     },
     {
       "time": "21:35",
@@ -517,7 +542,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Confirmed",
-      "source": "Iranian President Pezeshkian, via IRNA, OSINT613 and Post Open Source"
+      "source": "Iranian President Pezeshkian, via IRNA, OSINT613 and Post Open Source",
+      "url": "https://x.com/CocoPostel/status/2117249217748238675"
     },
     {
       "time": "21:02",
@@ -529,7 +555,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Iranian state media (IRIB), via FinancialJuice, LiveSquawk and CGTN"
+      "source": "Iranian state media (IRIB), via FinancialJuice, LiveSquawk and CGTN",
+      "url": "https://x.com/financialjuice/status/2117241777141026836"
     },
     {
       "time": "18:23",
@@ -541,7 +568,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "FirstSquawk (X)"
+      "source": "FirstSquawk (X)",
+      "url": "https://x.com/FirstSquawk/status/2117199435793117639"
     },
     {
       "time": "15:53",
@@ -553,7 +581,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "FirstSquawk (X)"
+      "source": "FirstSquawk (X)",
+      "url": "https://x.com/FirstSquawk/status/2117163157202538708"
     },
     {
       "time": "15:41",
@@ -565,7 +594,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "First Squawk and FinancialJuice headlines"
+      "source": "First Squawk and FinancialJuice headlines",
+      "url": "https://x.com/FirstSquawk/status/2117160364546957716"
     },
     {
       "time": "14:50",
@@ -577,7 +607,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Adi Imsirovic, relaying UKMTO and maritime security sources"
+      "source": "Adi Imsirovic, relaying UKMTO and maritime security sources",
+      "url": "https://x.com/AdiSurreyEnergy/status/2117147320106000669"
     },
     {
       "time": "14:45",
@@ -589,7 +620,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Ships & Ports, relaying an IRGC Navy claim"
+      "source": "Ships & Ports, relaying an IRGC Navy claim",
+      "url": "https://x.com/ShipsandPorts/status/2117145935146832039"
     },
     {
       "time": "14:06",
@@ -601,7 +633,8 @@
       "theme": "Saudi / Houthi",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Saudi Civil Defense via Al-Araby Al-Jadeed and Al Mayadeen"
+      "source": "Saudi Civil Defense via Al-Araby Al-Jadeed and Al Mayadeen",
+      "url": "https://x.com/alaraby_ar/status/2117136259680526550"
     },
     {
       "time": "12:14",
@@ -613,7 +646,8 @@
       "theme": "Russia refineries",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "Exilenova+, Charter97 (Russian), Mockingjay News UA; claim attributed to Ukraine's Unmanned Systems Forces"
+      "source": "Exilenova+, Charter97 (Russian), Mockingjay News UA; claim attributed to Ukraine's Unmanned Systems Forces",
+      "url": "https://x.com/Exilenova_plus/status/2117089597717106887"
     },
     {
       "time": "10:02",
@@ -625,7 +659,8 @@
       "theme": "Ceasefire / diplomacy",
       "direction": "Down",
       "confidence": "Confirmed",
-      "source": "WSJ report, relayed by LiveSquawk, First Squawk, RedboxGlobal and FinancialJuice"
+      "source": "WSJ report, relayed by LiveSquawk, First Squawk, RedboxGlobal and FinancialJuice",
+      "url": "https://x.com/LiveSquawk/status/2117074740653461830"
     },
     {
       "time": "10:06",
@@ -637,7 +672,8 @@
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "UKMTO, relayed by Iran International English and NTC Report; IRGC attribution from AMK Mapping"
+      "source": "UKMTO, relayed by Iran International English and NTC Report; IRGC attribution from AMK Mapping",
+      "url": "https://x.com/IranIntl_En/status/2117071759555936535"
     },
     {
       "time": "09:02",
@@ -649,7 +685,8 @@
       "theme": "Saudi / Houthi",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Houthi health ministry via Al Jazeera Now, Middle East Observer and Yemeni media"
+      "source": "Houthi health ministry via Al Jazeera Now, Middle East Observer and Yemeni media",
+      "url": "https://x.com/aljazeera_now/status/2117053406967710006"
     },
     {
       "time": "04:42",
@@ -661,7 +698,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "IRNA (Iranian state news agency), relayed by Reuters and Roya News"
+      "source": "IRNA (Iranian state news agency), relayed by Reuters and Roya News",
+      "url": "https://x.com/IrnaEnglish/status/2116993677558010166"
     },
     {
       "time": "04:42",
@@ -673,7 +711,8 @@
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "UKMTO Warning 191-26, via DC Global News"
+      "source": "UKMTO Warning 191-26, via DC Global News",
+      "url": "https://x.com/DC_Global_News/status/2116992661168988523"
     },
     {
       "time": "04:42",
@@ -685,7 +724,8 @@
       "theme": "Russia refineries",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "UNN (Ukrainian, translated) and local footage"
+      "source": "UNN (Ukrainian, translated) and local footage",
+      "url": "https://x.com/unn_inc/status/2116808697863118933"
     }
   ],
   "sources": [

@@ -89,3 +89,8 @@ h1{font-size:1.25rem}
 .nr-cols{display:grid;grid-template-columns:1fr 1fr;gap:10px}.nr-col{background:#fff;border-radius:6px;padding:8px 10px;border-top:4px solid;min-width:0}.nr-hawk{border-color:#c0392b}.nr-dove{border-color:#27ae60}
 .nr-col h4{margin:0 0 6px;font-size:.92rem}.nr-hawk h4{color:#b42318}.nr-dove h4{color:#1e7a46}.nr-col ul{margin:0;padding-left:18px;font-size:.86rem}.nr-col li{margin:3px 0;overflow-wrap:anywhere}.nr-tag{color:#888;font-size:.78rem}
 @media (max-width:640px){.nr-cols{grid-template-columns:1fr}}
+
+details.netread>summary{cursor:pointer;list-style:none}details.netread>summary::-webkit-details-marker{display:none}
+.nr-toggle::after{content:"\25B8  Show details";font-size:.8rem;color:#2563eb;white-space:nowrap}details[open] .nr-toggle::after{content:"\25BE  Hide details"}
+details.netread[open]>summary{margin-bottom:8px}details.netread>summary:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
+.src-link{color:#2563eb;overflow-wrap:anywhere}

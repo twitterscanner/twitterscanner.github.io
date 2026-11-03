@@ -122,6 +122,19 @@
   function dirTag(d) { return tag(d, d === "Up" ? "up" : d === "Down" ? "down" : "neutral"); }
   function confTag(c) { return tag(c, c === "Confirmed" ? "confirmed" : "unconfirmed"); }
   function safeHref(h) { return /^https?:\/\//i.test(h || "") ? h : "#"; }
+  function srcCell(a) {
+    var u = a.url;
+    if (typeof u === "string" && /^https:\/\/(x|twitter)\.com\//i.test(u)) {
+      var l = el("a", "src-link", a.source || "Source"); l.href = u; l.target = "_blank"; l.rel = "noopener noreferrer"; return l;
+    }
+    return a.source || "";
+  }
+  function initNetReadToggle() {
+    var d = $("netread"); if (!d || d.tagName !== "DETAILS") return;
+    try { if (localStorage.getItem("oilwatch.netreadOpen") === "0") d.open = false; } catch (e) {}
+    d.addEventListener("toggle", function () { try { localStorage.setItem("oilwatch.netreadOpen", d.open ? "1" : "0"); } catch (e) {} });
+  }
+  initNetReadToggle();
   function eventCell(a, z, hz, ref) {
     var s = el("span", "", eventText(a, z, hz, ref));
     if (a.eventTs && a.eventTime) s.title = "Source note: " + String(a.eventTime);
@@ -272,7 +285,7 @@
     var shown = alerts.filter(function (a) { return confFilter === "All" || a.confidence === confFilter; });
     shown.forEach(function (a) {
       frag.appendChild(row([reportedText(a, z, hi.dayKey, hi.zone), eventCell(a, z, hi.zone, hi.dayKey), a.headline, a.theme,
-        dirTag(a.direction), confTag(a.confidence), a.source]));
+        dirTag(a.direction), confTag(a.confidence), srcCell(a)]));
     });
     if (!shown.length) { var tr = el("tr"); var td = el("td", "empty", "No alerts match."); td.colSpan = 7; tr.appendChild(td); frag.appendChild(tr); }
     body.replaceChildren(frag);
