@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 9:13 pm SGT",
-  "lastScannedTs": "2026-11-03T21:13:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 9:12 pm SGT",
-  "asOfTs": "2026-11-03T21:12:05+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 9:34 pm SGT",
+  "lastScannedTs": "2026-11-03T21:34:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 9:33 pm SGT",
+  "asOfTs": "2026-11-03T21:33:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk dominates: Hormuz tanker mine claims, Houthi claims on Saudi targets, though Wright says Iran strikes haven't hit oil flows and Qatar awaits replies.",
-    "lead": "Net read (last 24 hours): Supply risk dominates: Hormuz tanker mine claims, Houthi claims on Saudi targets, though Wright says Iran strikes haven't hit oil flows and Qatar awaits replies.",
+    "bottom": "Supply risk still high on Hormuz and Houthi claims, but a reported US-approved Qatari MOU with Iran and Wright's comments pull the other way.",
+    "lead": "Net read (last 24 hours): Supply risk still high on Hormuz and Houthi claims, but a reported US-approved Qatari MOU with Iran and Wright's comments pull the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 36 alerts point higher, 10 lower",
-    "text": "26 of 36 alerts point higher, 10 lower.",
+    "count": "26 of 37 alerts point higher, 11 lower",
+    "text": "26 of 37 alerts point higher, 11 lower.",
     "hawkish": [
       {
         "text": "Houthis claim drone hit on Abha airport and missile on Khamis Mushait base",
@@ -170,6 +170,12 @@
     ],
     "dovish": [
       {
+        "text": "US reportedly approves Qatar's draft Iran MOU; Saudi and UAE on board",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-03T21:28:18+08:00"
+      },
+      {
         "text": "Energy Secretary Wright says overnight Iran strikes haven't impacted oil flows",
         "confidence": "confirmed",
         "theme": "Iran",
@@ -233,10 +239,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$105",
-    "detail": "Brent slipped to lows under $105/bbl around 8:55 pm SGT, 3 Nov, per a FinSquawk headline on X; earlier up 1.76% at $106.61 (3:44 pm SGT); Brent settled $104.77 on Monday"
+    "value": "~$102",
+    "detail": "Brent dropped about $3 to near $102/bbl around 9:32 pm SGT, 3 Nov, after reports the US approved a Qatari draft MOU for Iran (per Mike Zaccardi on X); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "21:28",
+      "ts": "2026-11-03T21:28:18+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "US reportedly approves Qatar's draft MOU for Iran; Saudi Arabia and UAE briefed and approve; both sides said to make nuclear and frozen-asset concessions.",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk (citing sources close to mediation team)",
+      "url": "https://x.com/FirstSquawk/status/2117609818991329647"
+    },
     {
       "time": "21:08",
       "ts": "2026-11-03T21:08:08+08:00",
@@ -743,22 +762,14 @@
       "confidence": "Unconfirmed",
       "source": "FirstSquawk (X)",
       "url": "https://x.com/FirstSquawk/status/2117163157202538708"
-    },
-    {
-      "time": "15:41",
-      "ts": "2026-11-02T15:41:55+08:00",
-      "eventTime": "3:41 pm, 2 Nov (est.)",
-      "eventTs": "2026-11-02T15:41:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran says the Strait of Hormuz cannot be reopened before US sanctions are lifted, hardening its terms just as oil fell on hopes for Qatar-led talks and a two-day reopening plan",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk and FinancialJuice headlines",
-      "url": "https://x.com/FirstSquawk/status/2117160364546957716"
     }
   ],
   "sources": [
+    {
+      "title": "US approved draft MOU presented by Qatari delegation for Iran; Saudi Arabia and UAE briefed and approved",
+      "site": "First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2117609818991329647"
+    },
     {
       "title": "US Energy Secretary Wright: overnight Iran strikes haven't impacted oil flow",
       "site": "First Squawk",
@@ -1153,10 +1164,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island, though Energy Secretary Wright says oil flows were not affected; the IRGC claims three tankers hit mines in Hormuz.",
-      "The Houthis claim strikes on Saudi Abha airport and Khamis Mushait, Ukrainian drones hit Russia's Yaroslavl refinery, and Qatar expects US and Iran replies within 36 hours."
+      "US officials confirmed limited strikes on Iran's Qeshm Island, while the IRGC claims three tankers hit mines in Hormuz and Houthis claim strikes on Saudi Abha and Khamis Mushait.",
+      "Reports say the US approved a Qatari draft MOU for Iran backed by Saudi Arabia and the UAE, and Ukrainian drones hit Russia's Yaroslavl refinery."
     ],
-    "updated": "Tue 3 Nov 2026, 9:13 pm SGT",
-    "updatedTs": "2026-11-03T21:13:00+08:00"
+    "updated": "Tue 3 Nov 2026, 9:34 pm SGT",
+    "updatedTs": "2026-11-03T21:34:00+08:00"
   }
 }
