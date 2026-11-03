@@ -1,18 +1,30 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 9:23 am SGT",
-  "lastScannedTs": "2026-11-03T09:23:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 9:10 am SGT",
-  "asOfTs": "2026-11-03T09:10:11+08:00",
-  "summary": "Alerts from the scan of X, which runs every 5 minutes by day and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
+  "lastScanned": "Tue 3 Nov 2026, 9:42 am SGT",
+  "lastScannedTs": "2026-11-03T09:42:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 9:40 am SGT",
+  "asOfTs": "2026-11-03T09:40:09+08:00",
+  "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "lead": "Net read (last 24 hours): supply risk stays elevated as US officials confirm strikes on Iran's Qeshm Island near Hormuz and a large Ukrainian drone raid targets western Russia, even as Trump signals no rush to resume fighting and the US sets new Russia-Ukraine talks in Abu Dhabi.",
-    "text": "Twenty-three of the thirty alerts in the last 24 hours point to higher prices: a large Ukrainian drone raid under way deep into western Russia after four straight nights of hits on Russian oil sites (unconfirmed, targets not yet known), US officials confirming to the WSJ that the US carried out limited strikes on Iran's Qeshm Island to curb threats to Hormuz shipping, an Axios report that CIA Director Ratcliffe is advising Trump to keep the \"no war, no deal\" status quo and let economic pressure on Iran continue (unconfirmed), Fars reporting explosions off Bandar Lengeh as seven USAF aerial refueling tankers, an AWACS and a P-8 operate over Hormuz, a reported explosion at sea southwest of Qeshm Island with an unconfirmed OSINT claim that the IRGC is attacking vessels in the Strait of Hormuz with anti-ship missiles or drones, IRNA reports of five loud explosions on Iran's Qeshm Island and blasts in Bandar Abbas, an IRGC claim that it shot down a US MQ-9 Reaper over the eastern Strait of Hormuz and two MQM-170 drones near Qeshm, President Zelenskyy warning that Russia is preparing a new massive attack on Ukraine's energy and logistics, a ship struck in the Strait of Hormuz off Oman (UKMTO 193-26), President Trump saying he is in no hurry to end the US naval blockade and economic pressure on Iran, an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route, a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, and a reported Ukrainian drone strike on Transneft's Samara crude hub. The seven offsets are the US announcing a second trilateral Ukraine-Russia meeting in Abu Dhabi on Nov 10-11 to discuss de-escalation and ending the war, President Trump telling Axios he is in no rush to decide whether to resume fighting in Iran (with VP Vance saying no deadline is set to resume strikes), a Kan News report that Saudi Arabia told Tehran no attacks on Iran will be launched from its territory or airspace (unconfirmed), President Trump saying an Iran deal is coming together nicely and that's why oil is down, a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
+    "lead": "Net read (last 24 hours): supply risk is rising as a WSJ report says the US has told Gulf states to prepare for a short, focused operation against Iran after the midterms, on top of confirmed US strikes on Qeshm Island near Hormuz and a large Ukrainian drone raid on western Russia, even as Trump signals no rush and new Russia-Ukraine talks are set for Abu Dhabi.",
+    "text": "Twenty-four of the thirty-one alerts in the last 24 hours point to higher prices: a WSJ report that CENTCOM has been moving more missile defenses and munitions into the region to lay the groundwork for wider strikes on Iran and that Washington told Gulf states to prepare for a short, focused operation after the US midterms (unconfirmed), a large Ukrainian drone raid under way deep into western Russia after four straight nights of hits on Russian oil sites (unconfirmed, targets not yet known), US officials confirming to the WSJ that the US carried out limited strikes on Iran's Qeshm Island to curb threats to Hormuz shipping, an Axios report that CIA Director Ratcliffe is advising Trump to keep the \"no war, no deal\" status quo and let economic pressure on Iran continue (unconfirmed), Fars reporting explosions off Bandar Lengeh as seven USAF aerial refueling tankers, an AWACS and a P-8 operate over Hormuz, a reported explosion at sea southwest of Qeshm Island with an unconfirmed OSINT claim that the IRGC is attacking vessels in the Strait of Hormuz with anti-ship missiles or drones, IRNA reports of five loud explosions on Iran's Qeshm Island and blasts in Bandar Abbas, an IRGC claim that it shot down a US MQ-9 Reaper over the eastern Strait of Hormuz and two MQM-170 drones near Qeshm, President Zelenskyy warning that Russia is preparing a new massive attack on Ukraine's energy and logistics, a ship struck in the Strait of Hormuz off Oman (UKMTO 193-26), President Trump saying he is in no hurry to end the US naval blockade and economic pressure on Iran, an explosion and large fire at HPCL's Visakh refinery in India, a Houthi claim of drone strikes on Dammam airport in Saudi Arabia's Eastern Province and on targets in Jizan (unverified), Kazakhstan halting oil flows on the Atyrau-Samara pipeline (some reports cite a drone attack), reported explosions and gunfire at the British Embassy in Baghdad (per Tasnim, unconfirmed), an Iranian navy report that a tanker with its navigation systems off hit a mine and caught fire in the eastern Strait of Hormuz, an IRGC claim that 11 tankers have burned in Hormuz since Oct 25, a headline that the start of Iran-US negotiations depends on ending the US naval blockade, Iran saying Hormuz cannot reopen before US sanctions are lifted, an IRGC claim that four oil tankers exploded on an unauthorized Hormuz route, a tanker in Hormuz disabled by limpet mines that sources name as the Louise 1, a tanker struck in the northern Gulf east of Ras Al Khafji, Saudi civil defense warnings in Abha, Khamis Mushait and Taif amid a reported Houthi attack, and a reported Ukrainian drone strike on Transneft's Samara crude hub. The seven offsets are the US announcing a second trilateral Ukraine-Russia meeting in Abu Dhabi on Nov 10-11 to discuss de-escalation and ending the war, President Trump telling Axios he is in no rush to decide whether to resume fighting in Iran (with VP Vance saying no deadline is set to resume strikes), a Kan News report that Saudi Arabia told Tehran no attacks on Iran will be launched from its territory or airspace (unconfirmed), President Trump saying an Iran deal is coming together nicely and that's why oil is down, a report from diplomatic sources to Lebanon's Al Jadeed of a breakthrough in US-Iran talks after Qatari mediation (unconfirmed), President Pezeshkian saying the Supreme Leader has given the government authority over negotiations, and a WSJ report that Washington is pushing to restore Russian gas flows to Europe via Ukraine as part of an energy truce."
   },
   "brent": {
     "value": "$104.77",
     "detail": "Brent futures settled at $104.77/bbl, down $8.66 (7.63%), as US-Iran diplomacy eased supply fears, per LiveSquawk around 3:53 am SGT, 3 Nov"
   },
   "alerts": [
+    {
+      "time": "09:14",
+      "ts": "2026-11-03T09:14:35+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "WSJ: CENTCOM has been laying the groundwork for wider strikes on Iran, moving more missile defenses and munitions into the region, and Washington has told Gulf states to prepare for a short, focused operation shortly after the US midterm elections",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Wall Street Journal via Post Open Source"
+    },
     {
       "time": "09:03",
       "ts": "2026-11-03T09:03:16+08:00",
@@ -480,21 +492,19 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "The Kyiv Independent (citing Ukrainian officials)"
-    },
-    {
-      "time": "00:36",
-      "ts": "2026-11-01T00:36:00+08:00",
-      "eventTime": "Not stated (first reports ~12:34 am, 1 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "OPEC+ agrees in principle to keep its December production targets unchanged, a source says",
-      "theme": "OPEC+",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "FinancialJuice, CGTN Europe, NodeWire (citing a source)"
     }
   ],
   "sources": [
+    {
+      "title": "WSJ: US told Gulf states to prepare for short, focused Iran operation after midterms",
+      "site": "Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2117429845475160324"
+    },
+    {
+      "title": "WSJ: CENTCOM laying groundwork for broader Iran strikes",
+      "site": "World Conflict",
+      "href": "https://x.com/WorldConflict_X/status/2117425171472748627"
+    },
     {
       "title": "Large Ukrainian drone raid under way into western Russia",
       "site": "OSINTtechnical",
@@ -799,10 +809,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "US officials confirmed limited strikes on Iran's Qeshm Island after blasts there and off Bandar Lengeh, amid IRGC claims of downed drones and attacks on Hormuz shipping.",
+      "US officials confirmed limited strikes on Iran's Qeshm Island, and the WSJ reports Washington told Gulf states to prepare for a short, focused operation against Iran after the midterms.",
       "Oil fell sharply on Trump's Iran deal talk, while a large Ukrainian drone raid hits western Russia and the US sets Russia-Ukraine talks in Abu Dhabi for Nov 10-11."
     ],
-    "updated": "Tue 3 Nov 2026, 9:12 am SGT",
-    "updatedTs": "2026-11-03T09:12:00+08:00"
+    "updated": "Tue 3 Nov 2026, 9:42 am SGT",
+    "updatedTs": "2026-11-03T09:42:00+08:00"
   }
 }
