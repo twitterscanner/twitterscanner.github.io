@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 9:34 pm SGT",
-  "lastScannedTs": "2026-11-03T21:34:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 9:36 pm SGT",
+  "lastScannedTs": "2026-11-03T21:36:59+08:00",
   "asOf": "Tue 3 Nov 2026, 9:33 pm SGT",
   "asOfTs": "2026-11-03T21:33:35+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Supply risk still high on Hormuz and Houthi claims, but a reported US-approved Qatari MOU with Iran and Wright's comments pull the other way.",
     "lead": "Net read (last 24 hours): Supply risk still high on Hormuz and Houthi claims, but a reported US-approved Qatari MOU with Iran and Wright's comments pull the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 37 alerts point higher, 11 lower",
-    "text": "26 of 37 alerts point higher, 11 lower.",
+    "count": "26 of 36 alerts point higher, 10 lower",
+    "text": "26 of 36 alerts point higher, 10 lower.",
     "hawkish": [
       {
         "text": "Houthis claim drone hit on Abha airport and missile on Khamis Mushait base",
@@ -228,12 +228,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-03T01:52:58+08:00"
-      },
-      {
-        "text": "Pezeshkian: Supreme Leader hands government authority over US talks",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-02T21:35:24+08:00"
       }
     ],
     "neutral": []
