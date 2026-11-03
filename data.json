@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 6:24 pm SGT",
-  "lastScannedTs": "2026-11-03T18:24:00+08:00",
-  "asOf": "Tue 3 Nov 2026, 6:14 pm SGT",
-  "asOfTs": "2026-11-03T18:14:13+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 6:55 pm SGT",
+  "lastScannedTs": "2026-11-03T18:55:00+08:00",
+  "asOf": "Tue 3 Nov 2026, 6:55 pm SGT",
+  "asOfTs": "2026-11-03T18:55:24+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Supply risk dominates: IRGC says three more tankers hit Hormuz mines, plus Qeshm strikes, lost refining capacity and Iran rejecting direct US talks.",
-    "lead": "Net read (last 24 hours): Supply risk dominates: IRGC says three more tankers hit Hormuz mines, plus Qeshm strikes, lost refining capacity and Iran rejecting direct US talks.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "24 of 32 alerts point higher, 8 lower",
-    "text": "24 of 32 alerts point higher, 8 lower.",
+    "bottom": "Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes, lost refining capacity and Iran rejecting direct US talks, plus a North Sea strike.",
+    "lead": "Net read (last 24 hours): Supply risk dominates: Hormuz tanker mine claims, Qeshm strikes, lost refining capacity and Iran rejecting direct US talks, plus a North Sea strike.",
+    "verdict": "Bullish",
+    "count": "25 of 33 alerts point higher, 8 lower",
+    "text": "25 of 33 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Unite says Apache North Sea offshore workers will escalate strike, risking Forties/Beryl output",
+        "confidence": "confirmed",
+        "theme": "Oil fields",
+        "ts": "2026-11-03T18:53:57+08:00"
+      },
       {
         "text": "IRGC says three tankers hit mines on unauthorised Hormuz routes, now burning",
         "confidence": "unconfirmed",
@@ -213,6 +219,19 @@
     "detail": "Brent up 1.76% at $106.61 by 07:44 GMT (3:44 pm SGT, 3 Nov), per a Reuters-based market relay on X; WTI futures up $2.14 at $98.60 per First Squawk (3:15 pm SGT); Brent settled $104.77 on Monday"
   },
   "alerts": [
+    {
+      "time": "18:53",
+      "ts": "2026-11-03T18:53:57+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UK union Unite says Apache's North Sea offshore workers will escalate strike action, a risk to Forties/Beryl output feeding the Brent benchmark",
+      "theme": "Oil fields",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo (Reuters headline)",
+      "url": "https://x.com/staunovo/status/2117570972316295407"
+    },
     {
       "time": "18:12",
       "ts": "2026-11-03T18:12:26+08:00",
@@ -719,19 +738,6 @@
       "confidence": "Unconfirmed",
       "source": "Exilenova+, Charter97 (Russian), Mockingjay News UA; claim attributed to Ukraine's Unmanned Systems Forces",
       "url": "https://x.com/Exilenova_plus/status/2117089597717106887"
-    },
-    {
-      "time": "10:02",
-      "ts": "2026-11-02T10:02:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: Washington is pushing to restore Russian gas flows to Europe via Ukraine, aiming to secure an energy truce between Moscow and Kyiv that could pause strikes on energy sites",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "WSJ report, relayed by LiveSquawk, First Squawk, RedboxGlobal and FinancialJuice",
-      "url": "https://x.com/LiveSquawk/status/2117074740653461830"
     }
   ],
   "sources": [
@@ -1099,15 +1105,20 @@
       "title": "Iran's Rezaei rejects Qatari plan for direct US-Iran contact in Doha",
       "site": "X / Open Source Intel",
       "href": "https://x.com/Osint613/status/2117557585414918299"
+    },
+    {
+      "title": "Unite says Apache offshore workers to escalate strike action",
+      "site": "X / Reuters headline",
+      "href": "https://x.com/staunovo/status/2117570972316295407"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "US officials confirmed limited strikes on Iran's Qeshm Island, Iran's IRGC says three tankers hit mines and are burning in Hormuz, and Tehran reportedly rejected direct US talks in Doha.",
-      "Ukrainian drones hit Russia's Yaroslavl refinery, while Aramco said it can restore Saudi output within days but warned refining has lost 5 mb/d of supply."
+      "Ukrainian drones hit Russia's Yaroslavl refinery, Aramco warned refining has lost 5 mb/d of supply, and UK union Unite said Apache North Sea workers will escalate strikes."
     ],
-    "updated": "Tue 3 Nov 2026, 6:15 pm SGT",
-    "updatedTs": "2026-11-03T18:15:00+08:00"
+    "updated": "Tue 3 Nov 2026, 6:55 pm SGT",
+    "updatedTs": "2026-11-03T18:55:00+08:00"
   }
 }
