@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 3 Nov 2026, 9:53 am SGT",
-  "lastScannedTs": "2026-11-03T09:53:00+08:00",
+  "lastScanned": "Tue 3 Nov 2026, 10:02 am SGT",
+  "lastScannedTs": "2026-11-03T10:02:00+08:00",
   "asOf": "Tue 3 Nov 2026, 9:45 am SGT",
   "asOfTs": "2026-11-03T09:45:58+08:00",
   "summary": "Alerts from the scan of X, which runs every 5 minutes by day, every 10 minutes late evening and every 30 minutes overnight (3:00 am to 9:00 am Singapore time). Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -44,7 +44,7 @@
         "theme": "Diplomacy / de-escalation",
         "bias": "lower",
         "up": 2,
-        "down": 7,
+        "down": 6,
         "confidence": "mixed",
         "driver": "Trump says Iran deal coming together, no rush; Abu Dhabi talks set"
       }
@@ -53,12 +53,11 @@
       "Trump: Iran deal 'coming together', in no rush to fight",
       "Second Ukraine-Russia meeting in Abu Dhabi",
       "Reported US-Iran breakthrough via Qatar (unconfirmed)",
-      "Saudi tells Tehran no attacks from its soil",
-      "US pushes to restore Russian gas to Europe via Ukraine"
+      "Saudi tells Tehran no attacks from its soil"
     ],
     "verdict": "Bullish",
-    "count": "25 of 32 alerts point higher, 7 lower",
-    "text": "25 of 32 alerts point higher, 7 lower."
+    "count": "25 of 31 alerts point higher, 6 lower",
+    "text": "25 of 31 alerts point higher, 6 lower."
   },
   "brent": {
     "value": "$105.25",
