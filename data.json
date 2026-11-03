@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 6:03 am SGT",
-  "lastScannedTs": "2026-11-04T06:03:28+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 7:04 am SGT",
+  "lastScannedTs": "2026-11-04T07:04:00+08:00",
   "asOf": "Wed 4 Nov 2026, 5:05 am SGT",
   "asOfTs": "2026-11-04T05:05:26+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "A tanker strike in southern Hormuz, Iraqi field protests, Houthi threats to Aramco and reported US strike plans keep risk high; Qatari mediation pulls lower.",
     "lead": "Net read (last 24 hours): A tanker strike in southern Hormuz, Iraqi field protests, Houthi threats to Aramco and reported US strike plans keep risk high; Qatari mediation pulls lower.",
     "verdict": "Bullish",
-    "count": "22 of 28 alerts point higher, 6 lower",
-    "text": "22 of 28 alerts point higher, 6 lower.",
+    "count": "21 of 26 alerts point higher, 5 lower",
+    "text": "21 of 26 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "UKMTO: tanker hit by two projectiles NE of Lima, Oman, in southern Hormuz",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-03T08:48:07+08:00"
-      },
-      {
-        "text": "Axios: CIA urges Trump to keep 'no war, no deal' pressure on Iran",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T06:54:46+08:00"
       }
     ],
     "dovish": [
@@ -174,12 +168,6 @@
         "confidence": "confirmed",
         "theme": "Pipelines",
         "ts": "2026-11-03T14:31:05+08:00"
-      },
-      {
-        "text": "US to host second Ukraine-Russia talks in Abu Dhabi, Nov 10-11",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T07:02:17+08:00"
       }
     ],
     "neutral": []
