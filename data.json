@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 7:19 pm SGT",
-  "lastScannedTs": "2026-11-04T19:19:39+08:00",
-  "asOf": "Wed 4 Nov 2026, 6:38 pm SGT",
-  "asOfTs": "2026-11-04T18:38:16+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 7:47 pm SGT",
+  "lastScannedTs": "2026-11-04T19:47:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 7:45 pm SGT",
+  "asOfTs": "2026-11-04T19:45:13+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC tanker mine claims, Saudi missile alerts and Khamenei's threat of a far wider response keep risk high; Hormuz talks and Aramco bypass pull lower.",
-    "lead": "Net read (last 24 hours): IRGC tanker mine claims, Saudi missile alerts and Khamenei's threat of a far wider response keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "bottom": "IRGC tanker mine claims, a doubled Iranian tanker target list and Khamenei's threats keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "lead": "Net read (last 24 hours): IRGC tanker mine claims, a doubled Iranian tanker target list and Khamenei's threats keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 21 alerts point higher, 6 lower",
-    "text": "15 of 21 alerts point higher, 6 lower.",
+    "count": "16 of 22 alerts point higher, 6 lower",
+    "text": "16 of 22 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Iran doubles Hormuz tanker target list to 240; ~30% of listed cargo is Iraqi",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-04T19:38:36+08:00"
+      },
       {
         "text": "Khamenei warns further US attacks will bring a 'far wider' response; owns Hormuz action",
         "confidence": "confirmed",
@@ -147,6 +153,19 @@
     "detail": "Brent near $104.60/bbl around 4:01 pm SGT, 4 Nov (per a forex-news account on X); AA Finans put it at $103.96 earlier this afternoon"
   },
   "alerts": [
+    {
+      "time": "19:38",
+      "ts": "2026-11-04T19:38:36+08:00",
+      "eventTime": "Mon 2 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "TankerTrackers: Iran's Hormuz authority doubled its 'non-compliant' tanker target list to 240 ships; about 30% of cargo on listed tankers is Iraqi crude.",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "TankerTrackers; Seatrade via Sal Mercogliano",
+      "url": "https://x.com/TankerTrackers/status/2117944598702219510"
+    },
     {
       "time": "18:35",
       "ts": "2026-11-04T18:35:00+08:00",
@@ -653,19 +672,6 @@
       "confidence": "Unconfirmed",
       "source": "Fars via Visioner; BashaReport and UK Report flight tracking",
       "url": "https://x.com/visionergeo/status/2117371337538666536"
-    },
-    {
-      "time": "05:33",
-      "ts": "2026-11-03T05:33:22+08:00",
-      "eventTime": "5:30 am, 3 Nov (est.)",
-      "eventTs": "2026-11-03T05:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosion reported at sea southwest of Iran's Qeshm Island in the Strait of Hormuz; an OSINT account says the IRGC is attacking vessels in the strait with anti-ship cruise missiles or drones",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping and FromIran via local reports",
-      "url": "https://x.com/AMK_Mapping_/status/2117369499339153715"
     }
   ],
   "sources": [
@@ -1168,15 +1174,20 @@
       "title": "Saudi Civil Defense: danger passed in Najran after early warning (First Squawk)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2117877356480328174"
+    },
+    {
+      "title": "Iran's PGSA tanker target list doubled; ~30% of cargo Iraqi (TankerTrackers)",
+      "site": "X / TankerTrackers",
+      "href": "https://x.com/TankerTrackers/status/2117944598702219510"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz, Riyadh, Najran and Jazan briefly went on missile alert, and Khamenei warned further US attacks bring a far wider response.",
-      "Trump tells Politico he is open to striking Iran as Tehran brings China and Russia into Hormuz talks, and Aramco says it has begun expanding its Hormuz-bypassing East-West Pipeline."
+      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz, Iran's doubled tanker target list puts Iraqi crude at risk, and Khamenei warned of a far wider response.",
+      "Riyadh, Najran and Jazan briefly went on missile alert, Trump says he is open to striking Iran as Tehran brings China and Russia into Hormuz talks, and Aramco is expanding its bypass pipeline."
     ],
-    "updated": "Wed 4 Nov 2026, 6:39 pm SGT",
-    "updatedTs": "2026-11-04T18:39:00+08:00"
+    "updated": "Wed 4 Nov 2026, 7:47 pm SGT",
+    "updatedTs": "2026-11-04T19:47:00+08:00"
   }
 }
