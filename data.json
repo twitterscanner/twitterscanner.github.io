@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 10:20 pm SGT",
-  "lastScannedTs": "2026-11-04T22:20:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 10:25 pm SGT",
+  "lastScannedTs": "2026-11-04T22:25:00+08:00",
   "asOf": "Wed 4 Nov 2026, 10:17 pm SGT",
   "asOfTs": "2026-11-04T22:17:06+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi strike claims on Riyadh, IRGC tanker mine and drone shootdown claims, and Iran's doubled tanker target list keep risk high; Hormuz talks pull lower.",
     "lead": "Net read (last 24 hours): Houthi strike claims on Riyadh, IRGC tanker mine and drone shootdown claims, and Iran's doubled tanker target list keep risk high; Hormuz talks pull lower.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 3 lower",
-    "text": "17 of 20 alerts point higher, 3 lower.",
+    "count": "16 of 19 alerts point higher, 3 lower",
+    "text": "16 of 19 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "IRGC claims US MQ-1 drone shot down over Qeshm Island in Hormuz",
@@ -106,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-03T22:25:54+08:00"
-      },
-      {
-        "text": "Russia says it hit a cargo ship south of Odesa",
-        "confidence": "unconfirmed",
-        "theme": "Tankers / shipping",
-        "ts": "2026-11-03T22:23:30+08:00"
       }
     ],
     "dovish": [
