@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 9:29 pm SGT",
-  "lastScannedTs": "2026-11-04T21:29:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 9:43 pm SGT",
+  "lastScannedTs": "2026-11-04T21:43:00+08:00",
   "asOf": "Wed 4 Nov 2026, 7:45 pm SGT",
   "asOfTs": "2026-11-04T19:45:13+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -125,8 +125,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$104.60",
-    "detail": "Brent near $104.60/bbl around 4:01 pm SGT, 4 Nov (per a forex-news account on X); AA Finans put it at $103.96 earlier this afternoon"
+    "value": "Down >$2",
+    "detail": "Brent and US crude futures extended declines, down over $2/bbl, around 9:39 pm SGT, 4 Nov (FirstSquawk); was near $104.60 at 4:01 pm SGT"
   },
   "alerts": [
     {
@@ -1155,6 +1155,11 @@
       "title": "Iran's PGSA tanker target list doubled; ~30% of cargo Iraqi (TankerTrackers)",
       "site": "X / TankerTrackers",
       "href": "https://x.com/TankerTrackers/status/2117944598702219510"
+    },
+    {
+      "title": "FirstSquawk: Brent and US crude futures extend decline, down over $2 a barrel",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2117974909192417734"
     }
   ],
   "dayNote": {
