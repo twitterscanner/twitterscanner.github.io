@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 5:16 pm SGT",
-  "lastScannedTs": "2026-11-04T17:16:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 4:25 pm SGT",
-  "asOfTs": "2026-11-04T16:25:13+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 5:28 pm SGT",
+  "lastScannedTs": "2026-11-04T17:28:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 5:25 pm SGT",
+  "asOfTs": "2026-11-04T17:25:33+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC tanker mine claims, a tanker strike, Saudi missile alerts and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass expansion pull lower.",
-    "lead": "Net read (last 24 hours): IRGC tanker mine claims, a tanker strike, Saudi missile alerts and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass expansion pull lower.",
+    "bottom": "IRGC tanker mine claims, a tanker strike, Saudi missile alerts incl. Jazan and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "lead": "Net read (last 24 hours): IRGC tanker mine claims, a tanker strike, Saudi missile alerts incl. Jazan and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "17 of 23 alerts point higher, 6 lower",
-    "text": "17 of 23 alerts point higher, 6 lower.",
+    "count": "18 of 24 alerts point higher, 6 lower",
+    "text": "18 of 24 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Saudi early-warning alert in Jazan, near Aramco's 400k b/d refinery, lifted minutes later",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-04T17:18:25+08:00"
+      },
       {
         "text": "Saudi early-warning alert in Najran near Yemen border; all-clear minutes later",
         "confidence": "confirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent near $104.60/bbl around 4:01 pm SGT, 4 Nov (per a forex-news account on X); AA Finans put it at $103.96 earlier this afternoon"
   },
   "alerts": [
+    {
+      "time": "17:18",
+      "ts": "2026-11-04T17:18:25+08:00",
+      "eventTime": "5:15 pm, 4 Nov (est.)",
+      "eventTs": "2026-11-04T17:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Civil Defense sounds early-warning alert in Jazan, home to Aramco's 400,000 b/d Jazan refinery, over a possible threat; danger declared passed minutes later.",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel (citing Saudi Civil Defense); Iran International",
+      "url": "https://x.com/Osint613/status/2117909320801095931"
+    },
     {
       "time": "16:14",
       "ts": "2026-11-04T16:14:52+08:00",
@@ -665,22 +684,19 @@
       "confidence": "Unconfirmed",
       "source": "FaytuksNetwork, Visioner and War Monitor, citing IRNA and local witnesses",
       "url": "https://x.com/FaytuksNetwork/status/2117358552469721339"
-    },
-    {
-      "time": "04:40",
-      "ts": "2026-11-03T04:40:16+08:00",
-      "eventTime": "4:35 am, 3 Nov (est.)",
-      "eventTs": "2026-11-03T04:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC claims it shot down a US MQ-9 Reaper drone (its 55th) over the eastern Strait of Hormuz and brought down two US MQM-170 reconnaissance drones near Qeshm Island using electronic warfare",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC claim, relayed by MenchOsint, Open Source Intel and Iran Nuances",
-      "url": "https://x.com/MenchOsint/status/2117356139117699272"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense early warning in Jazan, then all-clear (Open Source Intel)",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2117909320801095931"
+    },
+    {
+      "title": "Iran International: Jazan danger passed; Aramco refinery 400k b/d",
+      "site": "x.com",
+      "href": "https://x.com/IranIntl_En/status/2117910865017983231"
+    },
     {
       "title": "Reuters via Adi Imsirovic: Aramco expanding East-West Pipeline that avoids Hormuz",
       "site": "x.com",
@@ -1165,10 +1181,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz after a tanker was hit near Lima, Oman, while Riyadh and Najran briefly went on missile alert.",
+      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz after a tanker was hit near Lima, Oman, while Riyadh, Najran and Jazan briefly went on missile alert.",
       "Trump tells Politico he is open to striking Iran as Tehran brings China and Russia into Hormuz talks, and Aramco says it has begun expanding its Hormuz-bypassing East-West Pipeline."
     ],
-    "updated": "Wed 4 Nov 2026, 4:25 pm SGT",
-    "updatedTs": "2026-11-04T16:25:00+08:00"
+    "updated": "Wed 4 Nov 2026, 5:27 pm SGT",
+    "updatedTs": "2026-11-04T17:27:00+08:00"
   }
 }
