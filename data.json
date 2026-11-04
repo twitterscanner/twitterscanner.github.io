@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-05T04:05:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 4:01 am SGT",
-  "asOfTs": "2026-11-05T04:01:32+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 5:05 am SGT",
+  "lastScannedTs": "2026-11-05T05:05:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 5:01 am SGT",
+  "asOfTs": "2026-11-05T05:01:29+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz attacks, Iran-strike risk, shadow-fleet sanctions and a faltering US-Russia diesel deal keep risk high; US-Iran talks progress and Brent's slide ease it.",
-    "lead": "Net read (last 24 hours): Hormuz attacks, Iran-strike risk, shadow-fleet sanctions and a faltering US-Russia diesel deal keep risk high; US-Iran talks progress and Brent's slide ease it.",
+    "bottom": "Hormuz attacks, Iran-strike fears, a Norway platform outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
+    "lead": "Net read (last 24 hours): Hormuz attacks, Iran-strike fears, a Norway platform outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 22 alerts point higher, 6 lower",
-    "text": "16 of 22 alerts point higher, 6 lower.",
+    "count": "17 of 23 alerts point higher, 6 lower",
+    "text": "17 of 23 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "i24: Israel on high security alert over possible Iranian strike",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-05T05:01:29+08:00"
+      },
+      {
+        "text": "Equinor halts Norway's Visund oil and gas platform after fire",
+        "confidence": "confirmed",
+        "theme": "Oil fields",
+        "ts": "2026-11-05T05:01:29+08:00"
+      },
       {
         "text": "FT: US-Russia diesel deal falters as tankers divert; US diesel stocks at 20-year low",
         "confidence": "confirmed",
@@ -100,12 +112,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-04T07:51:17+08:00"
-      },
-      {
-        "text": "UKMTO: tanker hit by two projectiles NE of Lima, Oman, in southern Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-04T04:53:00+08:00"
       }
     ],
     "dovish": [
@@ -153,6 +159,32 @@
     "detail": "Brent futures settled at $94.62/bbl, down $8.98 (8.67%), lowest since early September; WTI settled at $88.12, down 8.3%, around 3:45 am SGT, 5 Nov (First Squawk, LiveSquawk)"
   },
   "alerts": [
+    {
+      "time": "05:01",
+      "ts": "2026-11-05T05:01:29+08:00",
+      "eventTime": "4:00 am, 5 Nov (est.)",
+      "eventTs": "2026-11-05T04:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "i24 News: Israel on high security alert amid worries of a possible Iranian strike",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk citing i24 News",
+      "url": "https://x.com/FirstSquawk/status/2118071396295475491"
+    },
+    {
+      "time": "05:01",
+      "ts": "2026-11-05T05:01:29+08:00",
+      "eventTime": "Before 11:28 pm, 4 Nov (est.)",
+      "eventTs": "2026-11-04T23:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Equinor halts oil and gas output at Norway's Visund platform after an electrical-system fire; 70 evacuated, gas exports cut to zero, restart unclear",
+      "theme": "Oil fields",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Reuters via Giovanni Staunovo; OilPrice.com",
+      "url": "https://x.com/staunovo/status/2118014269165810103"
+    },
     {
       "time": "03:57",
       "ts": "2026-11-05T03:57:14+08:00",
@@ -646,32 +678,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk; LiveSquawk",
       "url": "https://x.com/FirstSquawk/status/2117534369200115743"
-    },
-    {
-      "time": "16:12",
-      "ts": "2026-11-03T16:12:06+08:00",
-      "eventTime": "4:10 pm, 3 Nov (est.)",
-      "eventTs": "2026-11-03T16:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Aramco CEO Nasser says Saudi output can return to pre-conflict levels within days and reach 12 mb/d max capacity in under three weeks; warns of winter pressure on energy markets",
-      "theme": "Saudi / Houthi",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Nader Itayim; First Squawk",
-      "url": "https://x.com/ncitayim/status/2117530243489747203"
-    },
-    {
-      "time": "14:42",
-      "ts": "2026-11-03T14:42:37+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Senior Iranian official tells Reuters Iran and the US are far from a deal to end the war, saying Tehran will not accept excessive US demands",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "LiveSquawk, citing Reuters",
-      "url": "https://x.com/LiveSquawk/status/2117507724695204343"
     }
   ],
   "sources": [
@@ -1244,15 +1250,25 @@
       "title": "First Squawk: Brent crude futures settle at $94.62, down 8.67%",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2118067594850865663"
+    },
+    {
+      "title": "Giovanni Staunovo: Equinor shuts Norway's Visund oil, gas platform due to fire (Reuters)",
+      "site": "x.com",
+      "href": "https://x.com/staunovo/status/2118014269165810103"
+    },
+    {
+      "title": "First Squawk: Israel on high security alert amid worries of possible Iranian strike (i24 News)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2118071396295475491"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Brent settled at $94.62, down nearly 9%, as Schumer vowed to end the Iran war and Al-Jadeed reported significant progress in US-Iran talks.",
-      "Yet Israel weighed strikes on Iranian energy sites, the US Treasury hit Iran's shadow fleet, and the FT said Trump's diesel deal with Russia is faltering."
+      "Brent settled at $94.62, down nearly 9%, as Democrats vowed to end the Iran war and Al-Jadeed reported significant progress in US-Iran talks.",
+      "Yet Israel went on high alert over a possible Iranian strike, the US hit Iran's shadow fleet, and a fire shut Equinor's Visund platform in Norway."
     ],
-    "updated": "Thu 5 Nov 2026, 4:05 am SGT",
-    "updatedTs": "2026-11-05T04:05:00+08:00"
+    "updated": "Thu 5 Nov 2026, 5:05 am SGT",
+    "updatedTs": "2026-11-05T05:05:00+08:00"
   }
 }
