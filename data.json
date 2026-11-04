@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 1:25 am SGT",
-  "lastScannedTs": "2026-11-05T01:25:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 12:39 am SGT",
-  "asOfTs": "2026-11-05T00:39:11+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 1:50 am SGT",
+  "lastScannedTs": "2026-11-05T01:50:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 1:47 am SGT",
+  "asOfTs": "2026-11-05T01:47:26+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz, Houthi and Iran-strike risks plus a 2003-low US diesel stock keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
-    "lead": "Net read (last 24 hours): Hormuz, Houthi and Iran-strike risks plus a 2003-low US diesel stock keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
+    "bottom": "Hormuz, Iran-strike risk, new OFAC shadow-fleet sanctions and 2003-low US diesel stocks keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
+    "lead": "Net read (last 24 hours): Hormuz, Iran-strike risk, new OFAC shadow-fleet sanctions and 2003-low US diesel stocks keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 5 lower",
-    "text": "16 of 21 alerts point higher, 5 lower.",
+    "count": "17 of 22 alerts point higher, 5 lower",
+    "text": "17 of 22 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "OFAC targets Iran shadow fleet false-flag registries, adds secondary-sanctions risk to tankers",
+        "confidence": "confirmed",
+        "theme": "Sanctions evasion",
+        "ts": "2026-11-05T01:40:22+08:00"
+      },
       {
         "text": "Netanyahu holds emergency Iran security meeting; Israel expects new US strike on energy sites",
         "confidence": "unconfirmed",
@@ -147,6 +153,19 @@
     "detail": "Brent near $94/bbl, down nearly 9% on the day, around 1:17 am SGT, 5 Nov (several market accounts incl. Kevin Gordon); first fell below $100 around 11:57 pm SGT, 4 Nov"
   },
   "alerts": [
+    {
+      "time": "01:40",
+      "ts": "2026-11-05T01:40:22+08:00",
+      "eventTime": "1:40 am, 5 Nov (est.)",
+      "eventTs": "2026-11-05T01:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "US Treasury (OFAC) issues new Iran sanctions on a false-flag ship registry network and an alert on the Iranian shadow fleet's use of false flags; secondary-sanctions risk added to many listed tankers.",
+      "theme": "Sanctions evasion",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk; OFAC",
+      "url": "https://x.com/LiveSquawk/status/2118035640138821863"
+    },
     {
       "time": "00:37",
       "ts": "2026-11-05T00:37:47+08:00",
@@ -653,22 +672,19 @@
       "confidence": "Confirmed",
       "source": "India's Shipping Minister Sarbananda Sonowal, via ANI",
       "url": "https://x.com/ANI/status/2117474343420858459"
-    },
-    {
-      "time": "09:38",
-      "ts": "2026-11-03T09:38:28+08:00",
-      "eventTime": "9:35 am, 3 Nov (est.)",
-      "eventTs": "2026-11-03T09:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones reportedly struck Russia's Yaroslavl oil refinery, setting off a fire in the industrial zone, as part of the large overnight drone raid on western Russia",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Several OSINT accounts incl. Exilenova+, WW3 Monitor and Russian-language channels (translated)",
-      "url": "https://x.com/Exilenova_plus/status/2117432212434092070"
     }
   ],
   "sources": [
+    {
+      "title": "OFAC issues Iran-related sanctions, shadow fleet false-flag alert (LiveSquawk)",
+      "site": "x.com",
+      "href": "https://x.com/LiveSquawk/status/2118035640138821863"
+    },
+    {
+      "title": "OFAC recent actions, 4 Nov 2026: Iran-related designations and shadow fleet false flags alert",
+      "site": "ofac.treasury.gov",
+      "href": "https://ofac.treasury.gov/recent-actions/20261104"
+    },
     {
       "title": "Netanyahu convenes emergency security meeting on Iran, per Channel 14 (War Radar)",
       "site": "x.com",
@@ -1214,9 +1230,9 @@
     "title": "Today's key developments",
     "lines": [
       "Brent fell below $100 for the first time since October 7, and Senate leader Schumer vowed the new Democratic Congress will end the Iran war.",
-      "Yet Israel's Channel 14 says Netanyahu convened an emergency Iran security meeting, expecting Trump to back a new strike possibly targeting energy facilities."
+      "Yet Israel weighed a new Iran strike on energy sites per Channel 14, and the US Treasury hit the Iranian shadow fleet's false-flag ship registries."
     ],
-    "updated": "Thu 5 Nov 2026, 12:40 am SGT",
-    "updatedTs": "2026-11-05T00:40:00+08:00"
+    "updated": "Thu 5 Nov 2026, 1:50 am SGT",
+    "updatedTs": "2026-11-05T01:50:00+08:00"
   }
 }
