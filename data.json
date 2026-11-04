@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 1:08 am SGT",
-  "lastScannedTs": "2026-11-05T01:08:28+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 1:25 am SGT",
+  "lastScannedTs": "2026-11-05T01:25:00+08:00",
   "asOf": "Thu 5 Nov 2026, 12:39 am SGT",
   "asOfTs": "2026-11-05T00:39:11+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz, Houthi and Iran-strike risks plus a 2003-low US diesel stock keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
     "lead": "Net read (last 24 hours): Hormuz, Houthi and Iran-strike risks plus a 2003-low US diesel stock keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 5 lower",
-    "text": "17 of 22 alerts point higher, 5 lower.",
+    "count": "16 of 21 alerts point higher, 5 lower",
+    "text": "16 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Netanyahu holds emergency Iran security meeting; Israel expects new US strike on energy sites",
@@ -106,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-04T01:53:44+08:00"
-      },
-      {
-        "text": "Basra protesters shut West Qurna 1 Station 8, threaten all fields in 3 days",
-        "confidence": "confirmed",
-        "theme": "Iraq",
-        "ts": "2026-11-04T01:20:07+08:00"
       }
     ],
     "dovish": [
@@ -149,8 +143,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "Below $100, down >$7",
-    "detail": "Brent futures down more than $7/bbl and US crude near $90 around 12:39 am SGT, 5 Nov (First Squawk); Brent first fell below $100 around 11:57 pm SGT, 4 Nov"
+    "value": "About $94, down ~9%",
+    "detail": "Brent near $94/bbl, down nearly 9% on the day, around 1:17 am SGT, 5 Nov (several market accounts incl. Kevin Gordon); first fell below $100 around 11:57 pm SGT, 4 Nov"
   },
   "alerts": [
     {
