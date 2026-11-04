@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 7:05 pm SGT",
-  "lastScannedTs": "2026-11-04T19:05:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 7:19 pm SGT",
+  "lastScannedTs": "2026-11-04T19:19:39+08:00",
   "asOf": "Wed 4 Nov 2026, 6:38 pm SGT",
   "asOfTs": "2026-11-04T18:38:16+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC tanker mine claims, Saudi missile alerts and Khamenei's threat of a far wider response keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "lead": "Net read (last 24 hours): IRGC tanker mine claims, Saudi missile alerts and Khamenei's threat of a far wider response keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 22 alerts point higher, 6 lower",
-    "text": "16 of 22 alerts point higher, 6 lower.",
+    "count": "15 of 21 alerts point higher, 6 lower",
+    "text": "15 of 21 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Khamenei warns further US attacks will bring a 'far wider' response; owns Hormuz action",
@@ -100,12 +100,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-03T20:57:40+08:00"
-      },
-      {
-        "text": "IRGC claims two US LUCAS drones downed over Bandar Khamir, near Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-03T19:17:27+08:00"
       }
     ],
     "dovish": [
