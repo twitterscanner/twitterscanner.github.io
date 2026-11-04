@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 11:47 pm SGT",
-  "lastScannedTs": "2026-11-04T23:47:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 11:45 pm SGT",
-  "asOfTs": "2026-11-04T23:45:42+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 12:10 am SGT",
+  "lastScannedTs": "2026-11-05T00:10:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 12:09 am SGT",
+  "asOfTs": "2026-11-05T00:09:18+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi Riyadh strike claims, IRGC tanker mine and drone claims, and US diesel stocks at a 2003 low keep risk high; Hormuz talks pull lower.",
-    "lead": "Net read (last 24 hours): Houthi Riyadh strike claims, IRGC tanker mine and drone claims, and US diesel stocks at a 2003 low keep risk high; Hormuz talks pull lower.",
+    "bottom": "Houthi Riyadh claims, IRGC tanker and drone claims and a 2003-low US diesel stock keep risk high; Brent below $100 shows easing Iran-strike fears.",
+    "lead": "Net read (last 24 hours): Houthi Riyadh claims, IRGC tanker and drone claims and a 2003-low US diesel stock keep risk high; Brent below $100 shows easing Iran-strike fears.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 3 lower",
-    "text": "16 of 19 alerts point higher, 3 lower.",
+    "count": "16 of 20 alerts point higher, 4 lower",
+    "text": "16 of 20 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "US diesel stocks below 100M bbl, lowest since 2003",
@@ -110,6 +110,12 @@
     ],
     "dovish": [
       {
+        "text": "Brent slips below $100, first time since Oct 7, as midterm rout cuts Iran-strike odds",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-04T23:57:13+08:00"
+      },
+      {
         "text": "Aramco CEO says work has begun to expand the East-West Pipeline that bypasses Hormuz",
         "confidence": "unconfirmed",
         "theme": "Saudi / Aramco",
@@ -131,10 +137,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "Down >$2",
-    "detail": "Brent and US crude extended declines; WTI down 3% to $93.25/bbl around 10:04 pm SGT, 4 Nov (FirstSquawk)"
+    "value": "Below $100",
+    "detail": "Brent fell below $100/bbl for the first time since Oct 7 around 11:57 pm SGT, 4 Nov; US and Brent futures down more than $4 (First Squawk, LiveSquawk)"
   },
   "alerts": [
+    {
+      "time": "23:57",
+      "ts": "2026-11-04T23:57:13+08:00",
+      "eventTime": "11:57 pm, 4 Nov (est.)",
+      "eventTs": "2026-11-04T23:57:13+08:00",
+      "eventQual": "est.",
+      "headline": "Brent crude falls below $100 for the first time since Oct 7; market prices a lower chance of a new US attack on Iran after the midterm rout.",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2118009682140995912"
+    },
     {
       "time": "23:43",
       "ts": "2026-11-04T23:43:47+08:00",
@@ -641,22 +660,14 @@
       "confidence": "Unconfirmed",
       "source": "OSINTtechnical",
       "url": "https://x.com/Osinttechnical/status/2117422323871432739"
-    },
-    {
-      "time": "08:48",
-      "ts": "2026-11-03T08:48:07+08:00",
-      "eventTime": "4:44 am, 3 Nov (est., from first IRNA blast reports)",
-      "eventTs": "2026-11-03T04:44:00+08:00",
-      "eventQual": "est.",
-      "headline": "US officials confirm to the Wall Street Journal that the US carried out limited strikes on Iran's Qeshm Island, reportedly a 'defensive' move to curb Iran's ability to strike Hormuz shipping; first US confirmation after Iranian reports of blasts",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel, AMK Mapping and Post Open Source, citing the WSJ and US officials",
-      "url": "https://x.com/Osint613/status/2117418510766707004"
     }
   ],
   "sources": [
+    {
+      "title": "Brent crude falls below $100 for first time since Oct 7 (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2118009682140995912"
+    },
     {
       "title": "EIA: US diesel stocks below 100M bbl, lowest since 2003 (First Squawk)",
       "site": "x.com",
@@ -1186,10 +1197,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz and claims downing a US MQ-1 drone over Qeshm, while Khamenei warned of a far wider response.",
-      "Houthis claim a missile hit Riyadh's main airport after Saudi missile alerts, Aramco expands its bypass pipeline, and US diesel stocks fell to their lowest since 2003."
+      "Brent crude fell below $100 a barrel for the first time since October 7 as markets priced a lower chance of a new US attack on Iran.",
+      "That follows a tense Wednesday of IRGC tanker-mine and drone claims, a Houthi strike claim on Riyadh's airport, and US diesel stocks at their lowest since 2003."
     ],
-    "updated": "Wed 4 Nov 2026, 11:47 pm SGT",
-    "updatedTs": "2026-11-04T23:47:00+08:00"
+    "updated": "Thu 5 Nov 2026, 12:10 am SGT",
+    "updatedTs": "2026-11-05T00:10:00+08:00"
   }
 }
