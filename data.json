@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 9:15 am SGT",
-  "lastScannedTs": "2026-11-04T09:15:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 8:03 am SGT",
-  "asOfTs": "2026-11-04T08:03:18+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 9:28 am SGT",
+  "lastScannedTs": "2026-11-04T09:28:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 9:25 am SGT",
+  "asOfTs": "2026-11-04T09:25:29+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Riyadh missile alert, a Hormuz tanker strike, Iraqi field protests and reported US strike plans keep risk high; Trump's no-strike comments pull lower.",
-    "lead": "Net read (last 24 hours): Riyadh missile alert, a Hormuz tanker strike, Iraqi field protests and reported US strike plans keep risk high; Trump's no-strike comments pull lower.",
+    "bottom": "Hormuz mine and drone attacks, a tanker strike, Riyadh missile alert and US strike plans keep risk high; Trump's no-strike comments pull lower.",
+    "lead": "Net read (last 24 hours): Hormuz mine and drone attacks, a tanker strike, Riyadh missile alert and US strike plans keep risk high; Trump's no-strike comments pull lower.",
     "verdict": "Bullish",
-    "count": "19 of 25 alerts point higher, 6 lower",
-    "text": "19 of 25 alerts point higher, 6 lower.",
+    "count": "20 of 26 alerts point higher, 6 lower",
+    "text": "20 of 26 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "WSJ: Iran escalating Hormuz ship attacks with underwater drones and limpet mines; flows ~45% of prewar",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-04T09:08:13+08:00"
+      },
       {
         "text": "Riyadh early-warning alert as missiles reportedly launched from Yemen; all-clear, no damage",
         "confidence": "confirmed",
@@ -171,6 +177,19 @@
     "detail": "Brent up $1.02 to $104.62/bbl in early Asian trade, around 9:05 am SGT, 4 Nov (per FirstSquawk and RedboxWire on X); prior settle $103.60"
   },
   "alerts": [
+    {
+      "time": "09:08",
+      "ts": "2026-11-04T09:08:13+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "WSJ: Iran escalating Hormuz ship attacks with underwater drones and limpet mines; Kpler says flows last week averaged 7.8M bpd, about 45% of prewar, after 35+ October incidents.",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Wall St Engine (citing WSJ, Kpler)",
+      "url": "https://x.com/wallstengine/status/2117785959433683252"
+    },
     {
       "time": "07:51",
       "ts": "2026-11-04T07:51:17+08:00",
@@ -677,22 +696,14 @@
       "confidence": "Confirmed",
       "source": "UKMTO Operations Centre on X, relayed by Israel War Room and Post Open Source",
       "url": "https://x.com/UK_MTO/status/2117329793800622309"
-    },
-    {
-      "time": "02:10",
-      "ts": "2026-11-03T02:10:09+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "President Trump says he is in no hurry to end the US naval blockade and economic pressure on Iran, saying 'we are paralyzing their economy' and that Iranian leaders lack urgency, tempering hopes of a quick deal",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Trump remarks via Open Source Intel (Osint613) on X",
-      "url": "https://x.com/Osint613/status/2117318357829423156"
     }
   ],
   "sources": [
+    {
+      "title": "WSJ: Iran escalating Hormuz ship attacks with underwater drones and limpet mines",
+      "site": "Wall St Engine",
+      "href": "https://x.com/wallstengine/status/2117785959433683252"
+    },
     {
       "title": "Saudi Civil Defense: early-warning alert issued for Riyadh",
       "site": "Arab News",
@@ -1147,10 +1158,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A tanker was hit by two projectiles near Lima, Oman, in southern Hormuz, Iraqi tribes shut a West Qurna 1 station, and Riyadh briefly went on missile alert.",
+      "A tanker was hit by two projectiles near Lima, Oman, the WSJ says Iran is escalating Hormuz attacks with mines and underwater drones, and Riyadh briefly went on missile alert.",
       "The NYT says the Pentagon is readying renewed strikes on Iran, but Trump told the FT there is no immediate plan to attack and called the standoff brilliant."
     ],
-    "updated": "Wed 4 Nov 2026, 8:07 am SGT",
-    "updatedTs": "2026-11-04T08:07:00+08:00"
+    "updated": "Wed 4 Nov 2026, 9:27 am SGT",
+    "updatedTs": "2026-11-04T09:27:00+08:00"
   }
 }
