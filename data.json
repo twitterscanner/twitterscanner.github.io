@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 1:50 am SGT",
-  "lastScannedTs": "2026-11-05T01:50:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 1:56 am SGT",
+  "lastScannedTs": "2026-11-05T01:56:00+08:00",
   "asOf": "Thu 5 Nov 2026, 1:47 am SGT",
   "asOfTs": "2026-11-05T01:47:26+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz, Iran-strike risk, new OFAC shadow-fleet sanctions and 2003-low US diesel stocks keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
     "lead": "Net read (last 24 hours): Hormuz, Iran-strike risk, new OFAC shadow-fleet sanctions and 2003-low US diesel stocks keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 5 lower",
-    "text": "17 of 22 alerts point higher, 5 lower.",
+    "count": "16 of 21 alerts point higher, 5 lower",
+    "text": "16 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "OFAC targets Iran shadow fleet false-flag registries, adds secondary-sanctions risk to tankers",
@@ -106,12 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-04T02:03:56+08:00"
-      },
-      {
-        "text": "NYT: Israel tells US Iran weighs chemical weapons, pressing for renewed combat",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-04T01:53:44+08:00"
       }
     ],
     "dovish": [
@@ -149,8 +143,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "About $94, down ~9%",
-    "detail": "Brent near $94/bbl, down nearly 9% on the day, around 1:17 am SGT, 5 Nov (several market accounts incl. Kevin Gordon); first fell below $100 around 11:57 pm SGT, 4 Nov"
+    "value": "About $93, down ~10%",
+    "detail": "Brent near $93/bbl, down about 10% on the day and its lowest in two months, around 1:52 am SGT, 5 Nov (First Squawk); first fell below $100 around 11:57 pm SGT, 4 Nov"
   },
   "alerts": [
     {
