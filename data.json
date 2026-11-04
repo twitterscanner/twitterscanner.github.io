@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 7:04 am SGT",
-  "lastScannedTs": "2026-11-04T07:04:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 5:05 am SGT",
-  "asOfTs": "2026-11-04T05:05:26+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 8:08 am SGT",
+  "lastScannedTs": "2026-11-04T08:08:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 8:03 am SGT",
+  "asOfTs": "2026-11-04T08:03:18+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "A tanker strike in southern Hormuz, Iraqi field protests, Houthi threats to Aramco and reported US strike plans keep risk high; Qatari mediation pulls lower.",
-    "lead": "Net read (last 24 hours): A tanker strike in southern Hormuz, Iraqi field protests, Houthi threats to Aramco and reported US strike plans keep risk high; Qatari mediation pulls lower.",
+    "bottom": "Riyadh missile alert, a Hormuz tanker strike, Iraqi field protests and reported US strike plans keep risk high; Trump's no-strike comments pull lower.",
+    "lead": "Net read (last 24 hours): Riyadh missile alert, a Hormuz tanker strike, Iraqi field protests and reported US strike plans keep risk high; Trump's no-strike comments pull lower.",
     "verdict": "Bullish",
-    "count": "21 of 26 alerts point higher, 5 lower",
-    "text": "21 of 26 alerts point higher, 5 lower.",
+    "count": "22 of 28 alerts point higher, 6 lower",
+    "text": "22 of 28 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Riyadh early-warning alert as missiles reportedly launched from Yemen; all-clear, no damage",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-04T07:51:17+08:00"
+      },
       {
         "text": "UKMTO: tanker hit by two projectiles NE of Lima, Oman, in southern Hormuz",
         "confidence": "confirmed",
@@ -140,6 +146,12 @@
     ],
     "dovish": [
       {
+        "text": "Trump tells FT no immediate plan to strike Iran; calls standoff 'brilliant'",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-04T07:41:10+08:00"
+      },
+      {
         "text": "US reportedly approves Qatar's draft Iran MOU; Saudi and UAE on board",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -177,6 +189,32 @@
     "detail": "Brent futures settled $103.60/bbl, down $1.17 (-1.12%), around 3:47 am SGT, 4 Nov (per FirstSquawk and LiveSquawk on X); WTI settled $96.09"
   },
   "alerts": [
+    {
+      "time": "07:51",
+      "ts": "2026-11-04T07:51:17+08:00",
+      "eventTime": "7:47 am, 4 Nov",
+      "eventTs": "2026-11-04T07:47:54+08:00",
+      "eventQual": "confirmed",
+      "headline": "Saudi Civil Defense issues early-warning alert for Riyadh as ballistic missiles reportedly launched from Yemen; all-clear about 10 minutes later, no damage reported.",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Arab News (citing Saudi Civil Defense)",
+      "url": "https://x.com/arabnews/status/2117766594675847477"
+    },
+    {
+      "time": "07:41",
+      "ts": "2026-11-04T07:41:10+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump tells the FT the US has no immediate plan to strike Iran, calling the standoff 'brilliant' and saying 'we're not really in a war'.",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Financial Times",
+      "url": "https://x.com/FT/status/2117764052436852976"
+    },
     {
       "time": "04:53",
       "ts": "2026-11-04T04:53:00+08:00",
@@ -670,35 +708,24 @@
       "confidence": "Unconfirmed",
       "source": "Trump remarks via Open Source Intel (Osint613) on X",
       "url": "https://x.com/Osint613/status/2117318357829423156"
-    },
-    {
-      "time": "01:52",
-      "ts": "2026-11-03T01:52:58+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Diplomatic sources tell Lebanon's Al Jadeed a breakthrough has been reached in US-Iran negotiations after Qatari mediation overcame procedural obstacles (single-outlet report, no official confirmation)",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Al Jadeed via LiveSquawk and Amena Bakr on X",
-      "url": "https://x.com/LiveSquawk/status/2117314037411102829"
-    },
-    {
-      "time": "00:36",
-      "ts": "2026-11-03T00:36:23+08:00",
-      "eventTime": "12:30 am, 3 Nov (est.)",
-      "eventTs": "2026-11-03T00:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosion and large fire at HPCL's Visakh refinery in Visakhapatnam, India; fire tenders rushed in, cause and damage not yet known",
-      "theme": "Refinery fire",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Deccan Chronicle and multiple local reports on X",
-      "url": "https://x.com/DeccanChronicle/status/2117303391860957372"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense: early-warning alert issued for Riyadh",
+      "site": "Arab News",
+      "href": "https://x.com/arabnews/status/2117766594675847477"
+    },
+    {
+      "title": "Saudi Civil Defense: danger for Riyadh has passed",
+      "site": "Arab News",
+      "href": "https://x.com/arabnews/status/2117769107823104451"
+    },
+    {
+      "title": "FT Exclusive: Trump content with Iran stand-off, no immediate plan to strike",
+      "site": "Financial Times",
+      "href": "https://x.com/FT/status/2117764052436852976"
+    },
     {
       "title": "UKMTO 195-26: tanker struck by two projectiles 14 nm NE of Lima, Oman",
       "site": "First Squawk",
@@ -1138,10 +1165,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A tanker was struck by two projectiles near Lima, Oman, in the southern Strait of Hormuz, and protesting tribes shut Station 8 at Iraq's West Qurna 1 field.",
-      "The NYT says the Pentagon is readying renewed major strikes on Iran as soon as Nov 4, while a Houthi source warned Aramco facilities are within firing range."
+      "A tanker was hit by two projectiles near Lima, Oman, in southern Hormuz, Iraqi tribes shut a West Qurna 1 station, and Riyadh briefly went on missile alert.",
+      "The NYT says the Pentagon is readying renewed strikes on Iran, but Trump told the FT there is no immediate plan to attack and called the standoff brilliant."
     ],
-    "updated": "Wed 4 Nov 2026, 5:08 am SGT",
-    "updatedTs": "2026-11-04T05:08:00+08:00"
+    "updated": "Wed 4 Nov 2026, 8:07 am SGT",
+    "updatedTs": "2026-11-04T08:07:00+08:00"
   }
 }
