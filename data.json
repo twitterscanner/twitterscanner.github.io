@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 10:36 pm SGT",
-  "lastScannedTs": "2026-11-04T22:36:57+08:00",
-  "asOf": "Wed 4 Nov 2026, 10:17 pm SGT",
-  "asOfTs": "2026-11-04T22:17:06+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 11:47 pm SGT",
+  "lastScannedTs": "2026-11-04T23:47:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 11:45 pm SGT",
+  "asOfTs": "2026-11-04T23:45:42+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strike claims on Riyadh, IRGC tanker mine and drone shootdown claims, and Iran's doubled tanker target list keep risk high; Hormuz talks pull lower.",
-    "lead": "Net read (last 24 hours): Houthi strike claims on Riyadh, IRGC tanker mine and drone shootdown claims, and Iran's doubled tanker target list keep risk high; Hormuz talks pull lower.",
+    "bottom": "Houthi Riyadh strike claims, IRGC tanker mine and drone claims, and US diesel stocks at a 2003 low keep risk high; Hormuz talks pull lower.",
+    "lead": "Net read (last 24 hours): Houthi Riyadh strike claims, IRGC tanker mine and drone claims, and US diesel stocks at a 2003 low keep risk high; Hormuz talks pull lower.",
     "verdict": "Bullish",
-    "count": "15 of 18 alerts point higher, 3 lower",
-    "text": "15 of 18 alerts point higher, 3 lower.",
+    "count": "16 of 19 alerts point higher, 3 lower",
+    "text": "16 of 19 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "US diesel stocks below 100M bbl, lowest since 2003",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-04T23:43:47+08:00"
+      },
       {
         "text": "IRGC claims US MQ-1 drone shot down over Qeshm Island in Hormuz",
         "confidence": "unconfirmed",
@@ -129,6 +135,19 @@
     "detail": "Brent and US crude extended declines; WTI down 3% to $93.25/bbl around 10:04 pm SGT, 4 Nov (FirstSquawk)"
   },
   "alerts": [
+    {
+      "time": "23:43",
+      "ts": "2026-11-04T23:43:47+08:00",
+      "eventTime": "11:30 pm, 4 Nov (est., EIA weekly release)",
+      "eventTs": "2026-11-04T23:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "EIA: US diesel (distillate) stocks fall below 100M bbl, lowest since 2003, after a 3.6M bbl weekly draw.",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk, citing US EIA weekly data; also LiveSquawk",
+      "url": "https://x.com/FirstSquawk/status/2118006300097544497"
+    },
     {
       "time": "22:11",
       "ts": "2026-11-04T22:11:42+08:00",
@@ -635,22 +654,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel, AMK Mapping and Post Open Source, citing the WSJ and US officials",
       "url": "https://x.com/Osint613/status/2117418510766707004"
-    },
-    {
-      "time": "07:02",
-      "ts": "2026-11-03T07:02:17+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US official says Washington will host a second high-level trilateral Ukraine-Russia meeting in Abu Dhabi on Nov 10-11, covering de-escalation, post-war security and ending the war; Witkoff says US negotiators meet European allies and NATO in Brussels this week",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Barak Ravid (Axios) and FirstSquawk, citing a senior US official and envoy Witkoff",
-      "url": "https://x.com/BarakRavid/status/2117394089390022890"
     }
   ],
   "sources": [
+    {
+      "title": "EIA: US diesel stocks below 100M bbl, lowest since 2003 (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2118006300097544497"
+    },
     {
       "title": "Yahya Saree (ar): ballistic missile strike claimed on Riyadh's King Khalid Airport",
       "site": "x.com",
@@ -1176,9 +1187,9 @@
     "title": "Today's key developments",
     "lines": [
       "Iran's IRGC says four tankers were destroyed by mines south of Hormuz and claims downing a US MQ-1 drone over Qeshm, while Khamenei warned of a far wider response.",
-      "Houthis claim a ballistic missile hit Riyadh's main airport after missile alerts in Najran and Jazan, while Trump says he is open to striking Iran and Aramco expands its bypass pipeline."
+      "Houthis claim a missile hit Riyadh's main airport after Saudi missile alerts, Aramco expands its bypass pipeline, and US diesel stocks fell to their lowest since 2003."
     ],
-    "updated": "Wed 4 Nov 2026, 10:19 pm SGT",
-    "updatedTs": "2026-11-04T22:19:00+08:00"
+    "updated": "Wed 4 Nov 2026, 11:47 pm SGT",
+    "updatedTs": "2026-11-04T23:47:00+08:00"
   }
 }
