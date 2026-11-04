@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 8:00 pm SGT",
-  "lastScannedTs": "2026-11-04T20:00:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 8:31 pm SGT",
+  "lastScannedTs": "2026-11-04T20:31:00+08:00",
   "asOf": "Wed 4 Nov 2026, 7:45 pm SGT",
   "asOfTs": "2026-11-04T19:45:13+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "IRGC tanker mine claims, a doubled Iranian tanker target list and Khamenei's threats keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "lead": "Net read (last 24 hours): IRGC tanker mine claims, a doubled Iranian tanker target list and Khamenei's threats keep risk high; Hormuz talks and Aramco bypass pull lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "16 of 22 alerts point higher, 6 lower",
-    "text": "16 of 22 alerts point higher, 6 lower.",
+    "verdict": "Bullish",
+    "count": "16 of 21 alerts point higher, 5 lower",
+    "text": "16 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Iran doubles Hormuz tanker target list to 240; ~30% of listed cargo is Iraqi",
@@ -138,12 +138,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-03T21:08:08+08:00"
-      },
-      {
-        "text": "Qatari mediators expect US and Iran replies to a new proposal within 36 hours",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T20:29:30+08:00"
       }
     ],
     "neutral": []
