@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 12:10 am SGT",
-  "lastScannedTs": "2026-11-05T00:10:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 12:09 am SGT",
-  "asOfTs": "2026-11-05T00:09:18+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 12:40 am SGT",
+  "lastScannedTs": "2026-11-05T00:40:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 12:39 am SGT",
+  "asOfTs": "2026-11-05T00:39:11+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi Riyadh claims, IRGC tanker and drone claims and a 2003-low US diesel stock keep risk high; Brent below $100 shows easing Iran-strike fears.",
-    "lead": "Net read (last 24 hours): Houthi Riyadh claims, IRGC tanker and drone claims and a 2003-low US diesel stock keep risk high; Brent below $100 shows easing Iran-strike fears.",
+    "bottom": "Hormuz, Houthi and Iran-strike risks plus a 2003-low US diesel stock keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
+    "lead": "Net read (last 24 hours): Hormuz, Houthi and Iran-strike risks plus a 2003-low US diesel stock keep risk high; Brent below $100 and Schumer's war-end vow ease it.",
     "verdict": "Bullish",
-    "count": "16 of 20 alerts point higher, 4 lower",
-    "text": "16 of 20 alerts point higher, 4 lower.",
+    "count": "17 of 22 alerts point higher, 5 lower",
+    "text": "17 of 22 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Netanyahu holds emergency Iran security meeting; Israel expects new US strike on energy sites",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-05T00:37:47+08:00"
+      },
       {
         "text": "US diesel stocks below 100M bbl, lowest since 2003",
         "confidence": "confirmed",
@@ -110,6 +116,12 @@
     ],
     "dovish": [
       {
+        "text": "Schumer vows Democrat-led Congress will end the Iran war, some Republicans on board",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-05T00:35:01+08:00"
+      },
+      {
         "text": "Brent slips below $100, first time since Oct 7, as midterm rout cuts Iran-strike odds",
         "confidence": "confirmed",
         "theme": "Iran",
@@ -141,6 +153,32 @@
     "detail": "Brent fell below $100/bbl for the first time since Oct 7 around 11:57 pm SGT, 4 Nov; US and Brent futures down more than $4 (First Squawk, LiveSquawk)"
   },
   "alerts": [
+    {
+      "time": "00:37",
+      "ts": "2026-11-05T00:37:47+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israel's Channel 14: Netanyahu convenes emergency security meeting on Iran with top military chiefs; Israel reportedly expects Trump to back a new large strike, likely on energy sites.",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "War Radar",
+      "url": "https://x.com/War_Radar2/status/2118019892473659576"
+    },
+    {
+      "time": "00:35",
+      "ts": "2026-11-05T00:35:01+08:00",
+      "eventTime": "12:29 am, 5 Nov (est.)",
+      "eventTs": "2026-11-05T00:29:00+08:00",
+      "eventQual": "est.",
+      "headline": "Senate Democratic leader Schumer, after Democrats won Congress: 'We will end the war' with Iran, says some Republicans have joined.",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2118019195770384457"
+    },
     {
       "time": "23:57",
       "ts": "2026-11-04T23:57:13+08:00",
@@ -634,35 +672,19 @@
       "confidence": "Unconfirmed",
       "source": "Several OSINT accounts incl. Exilenova+, WW3 Monitor and Russian-language channels (translated)",
       "url": "https://x.com/Exilenova_plus/status/2117432212434092070"
-    },
-    {
-      "time": "09:14",
-      "ts": "2026-11-03T09:14:35+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: CENTCOM has been laying the groundwork for wider strikes on Iran, moving more missile defenses and munitions into the region, and Washington has told Gulf states to prepare for a short, focused operation shortly after the US midterm elections",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Wall Street Journal via Post Open Source",
-      "url": "https://x.com/WorldConflict_X/status/2117425171472748627"
-    },
-    {
-      "time": "09:03",
-      "ts": "2026-11-03T09:03:16+08:00",
-      "eventTime": "9:00 am, 3 Nov (est., raid ongoing at time of post)",
-      "eventTs": "2026-11-03T09:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "OSINTtechnical says a large Ukrainian drone raid is under way deep into western Russia, with local reports of hundreds of drones heading for targets, after four straight nights of hits on Russian oil sites",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical",
-      "url": "https://x.com/Osinttechnical/status/2117422323871432739"
     }
   ],
   "sources": [
+    {
+      "title": "Netanyahu convenes emergency security meeting on Iran, per Channel 14 (War Radar)",
+      "site": "x.com",
+      "href": "https://x.com/War_Radar2/status/2118019892473659576"
+    },
+    {
+      "title": "Schumer: 'We will end the war, some Republicans have joined us' (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2118019195770384457"
+    },
     {
       "title": "Brent crude falls below $100 for first time since Oct 7 (First Squawk)",
       "site": "x.com",
@@ -1197,10 +1219,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Brent crude fell below $100 a barrel for the first time since October 7 as markets priced a lower chance of a new US attack on Iran.",
-      "That follows a tense Wednesday of IRGC tanker-mine and drone claims, a Houthi strike claim on Riyadh's airport, and US diesel stocks at their lowest since 2003."
+      "Brent fell below $100 for the first time since October 7, and Senate leader Schumer vowed the new Democratic Congress will end the Iran war.",
+      "Yet Israel's Channel 14 says Netanyahu convened an emergency Iran security meeting, expecting Trump to back a new strike possibly targeting energy facilities."
     ],
-    "updated": "Thu 5 Nov 2026, 12:10 am SGT",
-    "updatedTs": "2026-11-05T00:10:00+08:00"
+    "updated": "Thu 5 Nov 2026, 12:40 am SGT",
+    "updatedTs": "2026-11-05T00:40:00+08:00"
   }
 }
