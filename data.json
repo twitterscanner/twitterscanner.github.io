@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 5:28 pm SGT",
-  "lastScannedTs": "2026-11-04T17:28:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 6:01 pm SGT",
+  "lastScannedTs": "2026-11-04T18:01:00+08:00",
   "asOf": "Wed 4 Nov 2026, 5:25 pm SGT",
   "asOfTs": "2026-11-04T17:25:33+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC tanker mine claims, a tanker strike, Saudi missile alerts incl. Jazan and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "lead": "Net read (last 24 hours): IRGC tanker mine claims, a tanker strike, Saudi missile alerts incl. Jazan and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "18 of 24 alerts point higher, 6 lower",
-    "text": "18 of 24 alerts point higher, 6 lower.",
+    "count": "17 of 23 alerts point higher, 6 lower",
+    "text": "17 of 23 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Saudi early-warning alert in Jazan, near Aramco's 400k b/d refinery, lifted minutes later",
@@ -112,12 +112,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-03T18:12:26+08:00"
-      },
-      {
-        "text": "Iran rejects Qatari plan for direct US talks in Doha; mediation stays indirect",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-03T18:00:45+08:00"
       }
     ],
     "dovish": [
