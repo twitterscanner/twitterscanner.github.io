@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 6:14 pm SGT",
-  "lastScannedTs": "2026-11-04T18:14:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 5:25 pm SGT",
-  "asOfTs": "2026-11-04T17:25:33+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 6:39 pm SGT",
+  "lastScannedTs": "2026-11-04T18:39:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 6:38 pm SGT",
+  "asOfTs": "2026-11-04T18:38:16+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC tanker mine claims, a tanker strike, Saudi missile alerts incl. Jazan and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass pull lower.",
-    "lead": "Net read (last 24 hours): IRGC tanker mine claims, a tanker strike, Saudi missile alerts incl. Jazan and Trump's openness to Iran strikes keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "bottom": "IRGC tanker mine claims, Saudi missile alerts and Khamenei's threat of a far wider response keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "lead": "Net read (last 24 hours): IRGC tanker mine claims, Saudi missile alerts and Khamenei's threat of a far wider response keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 22 alerts point higher, 6 lower",
-    "text": "16 of 22 alerts point higher, 6 lower.",
+    "count": "17 of 23 alerts point higher, 6 lower",
+    "text": "17 of 23 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Khamenei warns further US attacks will bring a 'far wider' response; owns Hormuz action",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-04T18:35:00+08:00"
+      },
       {
         "text": "Saudi early-warning alert in Jazan, near Aramco's 400k b/d refinery, lifted minutes later",
         "confidence": "confirmed",
@@ -153,6 +159,19 @@
     "detail": "Brent near $104.60/bbl around 4:01 pm SGT, 4 Nov (per a forex-news account on X); AA Finans put it at $103.96 earlier this afternoon"
   },
   "alerts": [
+    {
+      "time": "18:35",
+      "ts": "2026-11-04T18:35:00+08:00",
+      "eventTime": "6:35 pm, 4 Nov (est.)",
+      "eventTs": "2026-11-04T18:35:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's Supreme Leader Mojtaba Khamenei says Hormuz action was a response to US 'aggression' and warns further US attacks will bring a 'far wider' response.",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk; Iran International, Al Arabiya, Al Mayadeen",
+      "url": "https://x.com/FirstSquawk/status/2117928593502421012"
+    },
     {
       "time": "17:18",
       "ts": "2026-11-04T17:18:25+08:00",
@@ -659,22 +678,19 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping and FromIran via local reports",
       "url": "https://x.com/AMK_Mapping_/status/2117369499339153715"
-    },
-    {
-      "time": "04:49",
-      "ts": "2026-11-03T04:49:52+08:00",
-      "eventTime": "4:44 am, 3 Nov (est.)",
-      "eventTs": "2026-11-03T04:44:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's IRNA reports five loud explosions on Qeshm Island near the Strait of Hormuz, with residents seeing two aircraft overhead and more blasts reported in Bandar Abbas; unconfirmed reports say US strikes hit Iranian air defenses",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FaytuksNetwork, Visioner and War Monitor, citing IRNA and local witnesses",
-      "url": "https://x.com/FaytuksNetwork/status/2117358552469721339"
     }
   ],
   "sources": [
+    {
+      "title": "Khamenei: further US attacks to bring 'far wider' response (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2117928593502421012"
+    },
+    {
+      "title": "Iran International (fa): Khamenei Aban 13 message on Hormuz and US bases",
+      "site": "x.com",
+      "href": "https://x.com/IranIntlbrk/status/2117929184790249701"
+    },
     {
       "title": "Saudi Civil Defense early warning in Jazan, then all-clear (Open Source Intel)",
       "site": "x.com",
@@ -1169,10 +1185,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz after a tanker was hit near Lima, Oman, while Riyadh, Najran and Jazan briefly went on missile alert.",
+      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz, Riyadh, Najran and Jazan briefly went on missile alert, and Khamenei warned further US attacks bring a far wider response.",
       "Trump tells Politico he is open to striking Iran as Tehran brings China and Russia into Hormuz talks, and Aramco says it has begun expanding its Hormuz-bypassing East-West Pipeline."
     ],
-    "updated": "Wed 4 Nov 2026, 5:27 pm SGT",
-    "updatedTs": "2026-11-04T17:27:00+08:00"
+    "updated": "Wed 4 Nov 2026, 6:39 pm SGT",
+    "updatedTs": "2026-11-04T18:39:00+08:00"
   }
 }
