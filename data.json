@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 11:01 am SGT",
-  "lastScannedTs": "2026-11-04T11:01:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 9:25 am SGT",
-  "asOfTs": "2026-11-04T09:25:29+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 11:46 am SGT",
+  "lastScannedTs": "2026-11-04T11:46:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 11:43 am SGT",
+  "asOfTs": "2026-11-04T11:43:48+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine and drone attacks, a tanker strike, Riyadh missile alert and US strike plans keep risk high; Trump's no-strike comments pull lower.",
-    "lead": "Net read (last 24 hours): Hormuz mine and drone attacks, a tanker strike, Riyadh missile alert and US strike plans keep risk high; Trump's no-strike comments pull lower.",
+    "bottom": "IRGC claims four tankers mined near Hormuz, plus a tanker strike, Riyadh missile alert and US strike plans keep risk high; Trump's no-strike comments pull lower.",
+    "lead": "Net read (last 24 hours): IRGC claims four tankers mined near Hormuz, plus a tanker strike, Riyadh missile alert and US strike plans keep risk high; Trump's no-strike comments pull lower.",
     "verdict": "Bullish",
-    "count": "19 of 25 alerts point higher, 6 lower",
-    "text": "19 of 25 alerts point higher, 6 lower.",
+    "count": "20 of 26 alerts point higher, 6 lower",
+    "text": "20 of 26 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says four tankers destroyed by mines south of Hormuz, two vessels detained",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-04T11:37:05+08:00"
+      },
       {
         "text": "WSJ: Iran escalating Hormuz ship attacks with underwater drones and limpet mines; flows ~45% of prewar",
         "confidence": "unconfirmed",
@@ -171,6 +177,19 @@
     "detail": "Brent down $1 to $102.60/bbl in Asian trade, around 10:48 am SGT, 4 Nov (per FirstSquawk and RedboxWire on X); earlier $104.62 around 9:05 am SGT"
   },
   "alerts": [
+    {
+      "time": "11:37",
+      "ts": "2026-11-04T11:37:05+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC now says four tankers destroyed by naval mines south of the Strait of Hormuz and still burning; two more vessels detained.",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FirstSquawk / RedboxWire / LiveSquawk citing IRGC (Sepah News)",
+      "url": "https://x.com/FirstSquawk/status/2117823423158374669"
+    },
     {
       "time": "09:08",
       "ts": "2026-11-04T09:08:13+08:00",
@@ -677,22 +696,14 @@
       "confidence": "Confirmed",
       "source": "Zerohedge and Giovanni Staunovo relaying Trump remarks",
       "url": "https://x.com/zerohedge/status/2117344285096112425"
-    },
-    {
-      "time": "02:55",
-      "ts": "2026-11-03T02:55:35+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO Warning 193-26: a ship has been struck in the Strait of Hormuz off the coast of Oman, the latest in a run of attacks on Gulf shipping; vessel and damage not yet stated",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO Operations Centre on X, relayed by Israel War Room and Post Open Source",
-      "url": "https://x.com/UK_MTO/status/2117329793800622309"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC: four tankers destroyed by mines south of Hormuz, two vessels detained (FirstSquawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2117823423158374669"
+    },
     {
       "title": "WSJ: Iran escalating Hormuz ship attacks with underwater drones and limpet mines",
       "site": "Wall St Engine",
@@ -1152,10 +1163,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A tanker was hit by two projectiles near Lima, Oman, the WSJ says Iran is escalating Hormuz attacks with mines and underwater drones, and Riyadh briefly went on missile alert.",
-      "The NYT says the Pentagon is readying renewed strikes on Iran, but Trump told the FT there is no immediate plan to attack and called the standoff brilliant."
+      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz and two vessels detained, after a tanker was hit near Lima, Oman, and Riyadh briefly went on missile alert.",
+      "The WSJ says Iran is escalating Hormuz attacks with mines and underwater drones, while the NYT reports renewed US strike plans but Trump told the FT there is no immediate plan."
     ],
-    "updated": "Wed 4 Nov 2026, 9:27 am SGT",
-    "updatedTs": "2026-11-04T09:27:00+08:00"
+    "updated": "Wed 4 Nov 2026, 11:46 am SGT",
+    "updatedTs": "2026-11-04T11:46:00+08:00"
   }
 }
