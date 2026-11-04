@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 2:05 pm SGT",
-  "lastScannedTs": "2026-11-04T14:05:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 2:31 pm SGT",
+  "lastScannedTs": "2026-11-04T14:31:00+08:00",
   "asOf": "Wed 4 Nov 2026, 12:35 pm SGT",
   "asOfTs": "2026-11-04T12:35:10+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "IRGC tanker mine claims, a tanker strike and Trump's renewed openness to Iran strikes keep risk high; China-backed Hormuz talks pull lower.",
     "lead": "Net read (last 24 hours): IRGC tanker mine claims, a tanker strike and Trump's renewed openness to Iran strikes keep risk high; China-backed Hormuz talks pull lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "20 of 27 alerts point higher, 7 lower",
-    "text": "20 of 27 alerts point higher, 7 lower.",
+    "verdict": "Bullish",
+    "count": "19 of 25 alerts point higher, 6 lower",
+    "text": "19 of 25 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Trump tells Politico he is again open to striking Iran if an opportunity arises",
@@ -124,12 +124,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-03T14:42:37+08:00"
-      },
-      {
-        "text": "Trump on Fox: US may strike Iran's Pickaxe Mountain nuclear site 'within an hour'",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-03T14:30:06+08:00"
       }
     ],
     "dovish": [
@@ -168,12 +162,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-03T16:12:06+08:00"
-      },
-      {
-        "text": "Kazakhstan: Atyrau-Samara pipeline oil transit resumes after drone-attack halt",
-        "confidence": "confirmed",
-        "theme": "Pipelines",
-        "ts": "2026-11-03T14:31:05+08:00"
       }
     ],
     "neutral": []
