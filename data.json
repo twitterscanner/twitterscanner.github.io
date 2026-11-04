@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 9:43 pm SGT",
-  "lastScannedTs": "2026-11-04T21:43:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 7:45 pm SGT",
-  "asOfTs": "2026-11-04T19:45:13+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 10:07 pm SGT",
+  "lastScannedTs": "2026-11-04T22:07:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 10:05 pm SGT",
+  "asOfTs": "2026-11-04T22:05:49+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC tanker mine claims, a doubled Iranian tanker target list and Khamenei's threats keep risk high; Hormuz talks and Aramco bypass pull lower.",
-    "lead": "Net read (last 24 hours): IRGC tanker mine claims, a doubled Iranian tanker target list and Khamenei's threats keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "bottom": "Houthi strike claims on Riyadh, IRGC tanker mine claims and Iran's doubled tanker target list keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "lead": "Net read (last 24 hours): Houthi strike claims on Riyadh, IRGC tanker mine claims and Iran's doubled tanker target list keep risk high; Hormuz talks and Aramco bypass pull lower.",
     "verdict": "Bullish",
-    "count": "15 of 18 alerts point higher, 3 lower",
-    "text": "15 of 18 alerts point higher, 3 lower.",
+    "count": "16 of 19 alerts point higher, 3 lower",
+    "text": "16 of 19 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim ballistic missile hit on Riyadh's King Khalid airport",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-04T22:00:03+08:00"
+      },
       {
         "text": "Iran doubles Hormuz tanker target list to 240; ~30% of listed cargo is Iraqi",
         "confidence": "confirmed",
@@ -126,9 +132,22 @@
   },
   "brent": {
     "value": "Down >$2",
-    "detail": "Brent and US crude futures extended declines, down over $2/bbl, around 9:39 pm SGT, 4 Nov (FirstSquawk); was near $104.60 at 4:01 pm SGT"
+    "detail": "Brent and US crude extended declines; WTI down 3% to $93.25/bbl around 10:04 pm SGT, 4 Nov (FirstSquawk)"
   },
   "alerts": [
+    {
+      "time": "22:00",
+      "ts": "2026-11-04T22:00:03+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthi spokesman Yahya Saree claims a ballistic missile hit Riyadh's King Khalid International Airport, causing major damage; urges airlines to avoid it.",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree (Houthi military spokesman, Arabic); First Squawk",
+      "url": "https://x.com/Yah_Saree/status/2117980195286356017"
+    },
     {
       "time": "19:38",
       "ts": "2026-11-04T19:38:36+08:00",
@@ -635,22 +654,14 @@
       "confidence": "Unconfirmed",
       "source": "Barak Ravid (Axios), citing sources",
       "url": "https://x.com/BarakRavid/status/2117389986605507013"
-    },
-    {
-      "time": "05:40",
-      "ts": "2026-11-03T05:40:00+08:00",
-      "eventTime": "5:40 am, 3 Nov (est.)",
-      "eventTs": "2026-11-03T05:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Fars reports explosions heard off the coast of Bandar Lengeh in the Strait of Hormuz, as trackers see seven USAF aerial refueling tankers, an AWACS and a P-8 patrol plane over Hormuz and the Gulf of Oman, fuelling talk of new US strikes",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Fars via Visioner; BashaReport and UK Report flight tracking",
-      "url": "https://x.com/visionergeo/status/2117371337538666536"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree (ar): ballistic missile strike claimed on Riyadh's King Khalid Airport",
+      "site": "x.com",
+      "href": "https://x.com/Yah_Saree/status/2117980195286356017"
+    },
     {
       "title": "Khamenei: further US attacks to bring 'far wider' response (First Squawk)",
       "site": "x.com",
@@ -1165,10 +1176,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz, Iran's doubled tanker target list puts Iraqi crude at risk, and Khamenei warned of a far wider response.",
-      "Riyadh, Najran and Jazan briefly went on missile alert, Trump says he is open to striking Iran as Tehran brings China and Russia into Hormuz talks, and Aramco is expanding its bypass pipeline."
+      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz, Iran doubled its tanker target list, and Khamenei warned of a far wider response.",
+      "Houthis claim a ballistic missile hit Riyadh's main airport after missile alerts in Najran and Jazan, while Trump says he is open to striking Iran and Aramco expands its bypass pipeline."
     ],
-    "updated": "Wed 4 Nov 2026, 7:47 pm SGT",
-    "updatedTs": "2026-11-04T19:47:00+08:00"
+    "updated": "Wed 4 Nov 2026, 10:06 pm SGT",
+    "updatedTs": "2026-11-04T22:06:00+08:00"
   }
 }
