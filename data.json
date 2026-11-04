@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 10:07 pm SGT",
-  "lastScannedTs": "2026-11-04T22:07:00+08:00",
-  "asOf": "Wed 4 Nov 2026, 10:05 pm SGT",
-  "asOfTs": "2026-11-04T22:05:49+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 10:20 pm SGT",
+  "lastScannedTs": "2026-11-04T22:20:00+08:00",
+  "asOf": "Wed 4 Nov 2026, 10:17 pm SGT",
+  "asOfTs": "2026-11-04T22:17:06+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strike claims on Riyadh, IRGC tanker mine claims and Iran's doubled tanker target list keep risk high; Hormuz talks and Aramco bypass pull lower.",
-    "lead": "Net read (last 24 hours): Houthi strike claims on Riyadh, IRGC tanker mine claims and Iran's doubled tanker target list keep risk high; Hormuz talks and Aramco bypass pull lower.",
+    "bottom": "Houthi strike claims on Riyadh, IRGC tanker mine and drone shootdown claims, and Iran's doubled tanker target list keep risk high; Hormuz talks pull lower.",
+    "lead": "Net read (last 24 hours): Houthi strike claims on Riyadh, IRGC tanker mine and drone shootdown claims, and Iran's doubled tanker target list keep risk high; Hormuz talks pull lower.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 3 lower",
-    "text": "16 of 19 alerts point higher, 3 lower.",
+    "count": "17 of 20 alerts point higher, 3 lower",
+    "text": "17 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims US MQ-1 drone shot down over Qeshm Island in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-04T22:11:42+08:00"
+      },
       {
         "text": "Houthis claim ballistic missile hit on Riyadh's King Khalid airport",
         "confidence": "unconfirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent and US crude extended declines; WTI down 3% to $93.25/bbl around 10:04 pm SGT, 4 Nov (FirstSquawk)"
   },
   "alerts": [
+    {
+      "time": "22:11",
+      "ts": "2026-11-04T22:11:42+08:00",
+      "eventTime": "10:05 pm, 4 Nov (est.)",
+      "eventTs": "2026-11-04T22:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC says its air defences destroyed a US MQ-1 drone over Qeshm Island in the Strait of Hormuz, its 15th MQ-1 claim.",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Iranian state media / IRGC; also CGTN, FinancialJuice",
+      "url": "https://x.com/FirstSquawk/status/2117983127310393520"
+    },
     {
       "time": "22:00",
       "ts": "2026-11-04T22:00:03+08:00",
@@ -641,19 +660,6 @@
       "confidence": "Confirmed",
       "source": "Barak Ravid (Axios) and FirstSquawk, citing a senior US official and envoy Witkoff",
       "url": "https://x.com/BarakRavid/status/2117394089390022890"
-    },
-    {
-      "time": "06:54",
-      "ts": "2026-11-03T06:54:46+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Axios: CIA Director Ratcliffe is advising Trump to keep the \"no war, no deal\" status quo with Iran and let the economic pressure campaign continue, arguing prolonged pain will force more Iranian concessions",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Barak Ravid (Axios), citing sources",
-      "url": "https://x.com/BarakRavid/status/2117389986605507013"
     }
   ],
   "sources": [
@@ -1171,15 +1177,20 @@
       "title": "FirstSquawk: Brent and US crude futures extend decline, down over $2 a barrel",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2117974909192417734"
+    },
+    {
+      "title": "IRGC claims US MQ-1 drone destroyed over Qeshm Island (FirstSquawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2117983127310393520"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz, Iran doubled its tanker target list, and Khamenei warned of a far wider response.",
+      "Iran's IRGC says four tankers were destroyed by mines south of Hormuz and claims downing a US MQ-1 drone over Qeshm, while Khamenei warned of a far wider response.",
       "Houthis claim a ballistic missile hit Riyadh's main airport after missile alerts in Najran and Jazan, while Trump says he is open to striking Iran and Aramco expands its bypass pipeline."
     ],
-    "updated": "Wed 4 Nov 2026, 10:06 pm SGT",
-    "updatedTs": "2026-11-04T22:06:00+08:00"
+    "updated": "Wed 4 Nov 2026, 10:19 pm SGT",
+    "updatedTs": "2026-11-04T22:19:00+08:00"
   }
 }
