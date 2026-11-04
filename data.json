@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 4 Nov 2026, 4:01 pm SGT",
-  "lastScannedTs": "2026-11-04T16:01:00+08:00",
+  "lastScanned": "Wed 4 Nov 2026, 4:16 pm SGT",
+  "lastScannedTs": "2026-11-04T16:16:00+08:00",
   "asOf": "Wed 4 Nov 2026, 3:15 pm SGT",
   "asOfTs": "2026-11-04T15:15:05+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC tanker mine claims, a tanker strike, Saudi missile alerts and Trump's openness to Iran strikes keep risk high; China-backed Hormuz talks pull lower.",
     "lead": "Net read (last 24 hours): IRGC tanker mine claims, a tanker strike, Saudi missile alerts and Trump's openness to Iran strikes keep risk high; China-backed Hormuz talks pull lower.",
     "verdict": "Bullish",
-    "count": "19 of 25 alerts point higher, 6 lower",
-    "text": "19 of 25 alerts point higher, 6 lower.",
+    "count": "19 of 24 alerts point higher, 5 lower",
+    "text": "19 of 24 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saudi early-warning alert in Najran near Yemen border; all-clear minutes later",
@@ -156,12 +156,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-03T20:29:30+08:00"
-      },
-      {
-        "text": "Aramco says it can restore pre-conflict output in days, 12 mb/d in under three weeks",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-03T16:12:06+08:00"
       }
     ],
     "neutral": []
