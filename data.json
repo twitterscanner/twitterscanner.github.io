@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 9:12 am SGT",
-  "lastScannedTs": "2026-11-05T09:12:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 9:56 am SGT",
+  "lastScannedTs": "2026-11-05T09:56:00+08:00",
   "asOf": "Thu 5 Nov 2026, 9:05 am SGT",
   "asOfTs": "2026-11-05T09:05:48+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -143,8 +143,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$94.62, down 8.7%",
-    "detail": "Brent futures settled at $94.62/bbl, down $8.98 (8.67%), lowest since early September; WTI settled at $88.12, down 8.3%, around 3:45 am SGT, 5 Nov (First Squawk, LiveSquawk)"
+    "value": "$93.61, down $1.01",
+    "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
     {
