@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 11:10 am SGT",
-  "lastScannedTs": "2026-11-05T11:10:12+08:00",
-  "asOf": "Thu 5 Nov 2026, 9:05 am SGT",
-  "asOfTs": "2026-11-05T09:05:48+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 11:46 am SGT",
+  "lastScannedTs": "2026-11-05T11:46:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 11:43 am SGT",
+  "asOfTs": "2026-11-05T11:43:54+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-strike fears, a Ryazan refinery hit, Norway's Visund outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
-    "lead": "Net read (last 24 hours): Iran-strike fears, a Ryazan refinery hit, Norway's Visund outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
-    "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 5 lower",
-    "text": "16 of 21 alerts point higher, 5 lower.",
+    "bottom": "Iran-strike fears, the Ryazan refinery hit, Visund outage and tight diesel keep risk high; US-Iran talk progress, Saudi-Houthi feelers and Brent's slide ease it.",
+    "lead": "Net read (last 24 hours): Iran-strike fears, the Ryazan refinery hit, Visund outage and tight diesel keep risk high; US-Iran talk progress, Saudi-Houthi feelers and Brent's slide ease it.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "15 of 21 alerts point higher, 6 lower",
+    "text": "15 of 21 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Ukrainian drones strike Ryazan refinery industrial zone; fires reported",
@@ -100,15 +100,15 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-04T12:31:01+08:00"
-      },
-      {
-        "text": "IRGC says four tankers destroyed by mines south of Hormuz, two vessels detained",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-04T11:37:05+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "WSJ: Saudi sounds out Houthis on ceasefire price; Houthis demand $51 billion",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-05T11:23:16+08:00"
+      },
       {
         "text": "Al-Jadeed: US-Iran talks made significant progress, clearer picture expected Friday",
         "confidence": "unconfirmed",
@@ -147,6 +147,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "11:23",
+      "ts": "2026-11-05T11:23:16+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "WSJ: Houthis demand $51 billion from Saudi Arabia to end hostilities after Riyadh asked what price would halt Red Sea tanker attacks",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "CN Wire citing WSJ",
+      "url": "https://x.com/Sino_Market/status/2118182332809290046"
+    },
     {
       "time": "09:05",
       "ts": "2026-11-05T09:05:48+08:00",
@@ -653,22 +666,14 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel",
       "url": "https://x.com/Osint613/status/2117557585414918299"
-    },
-    {
-      "time": "17:09",
-      "ts": "2026-11-03T17:09:25+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iranian assessments reportedly see a return to war as increasingly likely, as President Pezeshkian, Speaker Qalibaf and FM Araghchi urge the military to engage with Qatar's proposal",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2117544669110481266"
     }
   ],
   "sources": [
+    {
+      "title": "WSJ: Houthis demand $51 billion from Saudi Arabia for ceasefire (CN Wire)",
+      "site": "x.com",
+      "href": "https://x.com/Sino_Market/status/2118182332809290046"
+    },
     {
       "title": "Ukrainian drone attacks target Ryazan oil refinery industrial zone (First Squawk citing WSN)",
       "site": "x.com",
@@ -1258,10 +1263,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Brent settled at $94.62, down nearly 9%, as Democrats swept the midterms and Al-Jadeed reported significant progress in US-Iran talks.",
+      "Brent slid toward $93 after a near 9% drop as Democrats swept the midterms, US-Iran talks reportedly progressed and WSJ said Saudi Arabia sounded out Houthi ceasefire terms.",
       "Supply risks persisted: Ukrainian drones hit Russia's Ryazan refinery, Israel went on high alert over a possible Iranian strike, and a fire shut Equinor's Visund platform."
     ],
-    "updated": "Thu 5 Nov 2026, 9:08 am SGT",
-    "updatedTs": "2026-11-05T09:08:00+08:00"
+    "updated": "Thu 5 Nov 2026, 11:45 am SGT",
+    "updatedTs": "2026-11-05T11:45:00+08:00"
   }
 }
