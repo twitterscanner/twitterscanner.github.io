@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 11:57 pm SGT",
-  "lastScannedTs": "2026-11-05T23:57:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 12:08 am SGT",
+  "lastScannedTs": "2026-11-06T00:08:00+08:00",
   "asOf": "Thu 5 Nov 2026, 11:18 pm SGT",
   "asOfTs": "2026-11-05T23:18:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -1055,10 +1055,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran Navy reported more tankers hitting mines east of Hormuz, after overnight IRGC mine fires; UKMTO also logged a Qatar-area tanker strike.",
-      "Houthis claimed Saudi oil facilities as targets and a drone was intercepted over Saudi Eastern Province; Ryazan refinery burned again overnight."
+      "Iran Navy reported more tankers hitting mines east of Hormuz after overnight IRGC mine fires; UKMTO also logged a Qatar-area tanker strike.",
+      "Houthis said operations target Saudi oil facilities; coalition intercepted a drone over Eastern Province after a Yanbu civil-defense alert."
     ],
-    "updated": "Thu 5 Nov 2026, 11:17 pm SGT",
-    "updatedTs": "2026-11-05T23:17:00+08:00"
+    "updated": "Fri 6 Nov 2026, 12:08 am SGT",
+    "updatedTs": "2026-11-06T00:08:00+08:00"
   }
 }
