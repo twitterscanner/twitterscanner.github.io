@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 9:03 pm SGT",
-  "lastScannedTs": "2026-11-05T21:03:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 10:00 pm SGT",
+  "lastScannedTs": "2026-11-05T22:00:45+08:00",
   "asOf": "Thu 5 Nov 2026, 8:45 pm SGT",
   "asOfTs": "2026-11-05T20:45:28+08:00",
   "summary": "Geopolitical oil-risk scan every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Saree affirms Houthi strikes aim at Saudi oil sites; Hormuz and Yanbu risks still dominate.",
     "lead": "Net read (last 24 hours): Saree affirms Houthi strikes aim at Saudi oil sites; Hormuz and Yanbu risks still dominate.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 20 alerts point higher, 5 lower",
-    "text": "15 of 20 alerts point higher, 5 lower.",
+    "count": "14 of 19 alerts point higher, 5 lower",
+    "text": "14 of 19 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saree: ops target Saudi oil facilities, denies Medina hit",
@@ -94,12 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-04T22:11:42+08:00"
-      },
-      {
-        "text": "Houthis claim ballistic missile hit on Riyadh's King Khalid airport",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-04T22:00:03+08:00"
       }
     ],
     "dovish": [
