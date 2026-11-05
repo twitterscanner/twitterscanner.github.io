@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 6:00 pm SGT",
-  "lastScannedTs": "2026-11-05T18:00:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 5:28 pm SGT",
-  "asOfTs": "2026-11-05T17:28:08+08:00",
-  "summary": "Geopolitical oil-watch alerts, scanned every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
+  "lastScanned": "Thu 5 Nov 2026, 6:36 pm SGT",
+  "lastScannedTs": "2026-11-05T18:36:10+08:00",
+  "asOf": "Thu 5 Nov 2026, 6:34 pm SGT",
+  "asOfTs": "2026-11-05T18:34:57+08:00",
+  "summary": "Oil-moving geopolitical headline scan: every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Yanbu warning lifts Saudi Red Sea risk after Sharurah; Hormuz tanker hits keep a firm hawkish lean.",
-    "lead": "Net read (last 24 hours): Yanbu warning lifts Saudi Red Sea risk after Sharurah; Hormuz tanker hits keep a firm hawkish lean.",
+    "bottom": "Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
+    "lead": "Net read (last 24 hours): Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
     "verdict": "Bullish",
-    "count": "16 of 20 alerts point higher, 4 lower",
-    "text": "16 of 20 alerts point higher, 4 lower.",
+    "count": "16 of 21 alerts point higher, 5 lower",
+    "text": "16 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saudi Civil Defense early-warning in Yanbu Red Sea oil hub; no impact yet",
@@ -110,6 +110,12 @@
     ],
     "dovish": [
       {
+        "text": "Oman-Iran talks on resuming Hormuz navigation",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-05T18:28:00+08:00"
+      },
+      {
         "text": "WSJ: Saudi sounds out Houthis on ceasefire price; Houthis demand $51 billion",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -141,6 +147,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "18:28",
+      "ts": "2026-11-05T18:28:00+08:00",
+      "eventTime": "6:10 pm, 5 Nov (est.)",
+      "eventTs": "2026-11-05T18:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Oman and Iran discuss efforts to resume navigation in the Strait of Hormuz (ONA)",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk citing ONA",
+      "url": "https://x.com/FirstSquawk/status/2118289259706872045"
+    },
     {
       "time": "17:27",
       "ts": "2026-11-05T17:27:00+08:00",
@@ -647,22 +666,14 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree, Houthi military spokesman (Arabic)",
       "url": "https://x.com/Yah_Saree/status/2117602108602024037"
-    },
-    {
-      "time": "20:29",
-      "ts": "2026-11-03T20:29:30+08:00",
-      "eventTime": "8:20 pm, 3 Nov (est.)",
-      "eventTs": "2026-11-03T20:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Qatari mediators expect the US and Iran to answer a new proposal to advance talks within 36 hours, an official told Reuters.",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "LiveSquawk citing Reuters",
-      "url": "https://x.com/LiveSquawk/status/2117592843703435763"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Oman, Iran discuss efforts to resume navigation in Hormuz",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2118289259706872045"
+    },
     {
       "title": "Saudi Civil Defense early-warning alert in Yanbu (Red Sea oil hub) — First Squawk / Al Jazeera Breaking / Asharq",
       "site": "X",
@@ -1282,10 +1293,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Civil Defense briefly alerted Sharurah near Yemen and just sounded a new early warning in Yanbu, a Red Sea oil export hub.",
-      "UKMTO reported a tanker struck north of Qatar; IRGC claimed Hormuz tanker fires; Ukrainian drones hit Ryazan; Brent slid near $94."
+      "Oman and Iran discussed resuming Hormuz navigation; Saudi Civil Defense briefly alerted Yanbu and Sharurah near Yemen.",
+      "UKMTO reported a tanker strike north of Qatar; IRGC claimed Hormuz tanker fires; Ukrainian drones hit Ryazan; Brent near $94."
     ],
-    "updated": "Thu 5 Nov 2026, 5:27 pm SGT",
-    "updatedTs": "2026-11-05T17:27:00+08:00"
+    "updated": "Thu 5 Nov 2026, 6:34 pm SGT",
+    "updatedTs": "2026-11-05T18:34:57+08:00"
   }
 }
