@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 9:08 am SGT",
-  "lastScannedTs": "2026-11-05T09:08:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 9:12 am SGT",
+  "lastScannedTs": "2026-11-05T09:12:00+08:00",
   "asOf": "Thu 5 Nov 2026, 9:05 am SGT",
   "asOfTs": "2026-11-05T09:05:48+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran-strike fears, a Ryazan refinery hit, Norway's Visund outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
     "lead": "Net read (last 24 hours): Iran-strike fears, a Ryazan refinery hit, Norway's Visund outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 5 lower",
-    "text": "17 of 22 alerts point higher, 5 lower.",
+    "count": "16 of 21 alerts point higher, 5 lower",
+    "text": "16 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Ukrainian drones strike Ryazan refinery industrial zone; fires reported",
@@ -106,12 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-04T11:37:05+08:00"
-      },
-      {
-        "text": "WSJ: Iran escalating Hormuz ship attacks with underwater drones and limpet mines; flows ~45% of prewar",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-04T09:08:13+08:00"
       }
     ],
     "dovish": [
