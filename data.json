@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 3:12 pm SGT",
-  "lastScannedTs": "2026-11-05T15:12:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 12:07 pm SGT",
-  "asOfTs": "2026-11-05T12:07:16+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 3:51 pm SGT",
+  "lastScannedTs": "2026-11-05T15:51:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 3:56 pm SGT",
+  "asOfTs": "2026-11-05T15:56:08+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-strike fears, IRGC Hormuz tanker fires, Ryazan and Visund outages and tight diesel keep risk high; US-Iran talks and Saudi-Houthi feelers ease it.",
-    "lead": "Net read (last 24 hours): Iran-strike fears, IRGC Hormuz tanker fires, Ryazan and Visund outages and tight diesel keep risk high; US-Iran talks and Saudi-Houthi feelers ease it.",
+    "bottom": "Iran-strike fears, IRGC Hormuz tanker fires, Ryazan/Visund outages and Saudi border alerts keep risk high; US-Iran talks and Houthi feelers ease it.",
+    "lead": "Net read (last 24 hours): Iran-strike fears, IRGC Hormuz tanker fires, Ryazan/Visund outages and Saudi border alerts keep risk high; US-Iran talks and Houthi feelers ease it.",
     "verdict": "Mixed, leaning bullish",
-    "count": "14 of 19 alerts point higher, 5 lower",
-    "text": "14 of 19 alerts point higher, 5 lower.",
+    "count": "15 of 20 alerts point higher, 5 lower",
+    "text": "15 of 20 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Saudi Civil Defense early-warning in Sharurah near Yemen border; cleared in ~9 min",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-05T15:50:00+08:00"
+      },
       {
         "text": "IRGC says tanker hit mine, second supertanker and tug ablaze in Hormuz",
         "confidence": "unconfirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "15:50",
+      "ts": "2026-11-05T15:50:00+08:00",
+      "eventTime": "3:37 pm, 5 Nov",
+      "eventTs": "2026-11-05T15:37:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Saudi Civil Defense sounds early-warning alert in Sharurah (Najran province, Yemen border), then declares danger passed about 9 minutes later; no impact disclosed",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Civil Defense (official); Osint613; First Squawk; Arab News",
+      "url": "https://x.com/Osint613/status/2118249475315757338"
+    },
     {
       "time": "12:04",
       "ts": "2026-11-05T12:04:29+08:00",
@@ -641,22 +660,14 @@
       "confidence": "Confirmed",
       "source": "Giovanni Staunovo (Reuters headline)",
       "url": "https://x.com/staunovo/status/2117570972316295407"
-    },
-    {
-      "time": "18:12",
-      "ts": "2026-11-03T18:12:26+08:00",
-      "eventTime": "Early hours of 3 Nov, Iran time (~9:00 am SGT, est.)",
-      "eventTs": "2026-11-03T09:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's IRGC Navy says three oil tankers that switched off tracking and used unauthorised Strait of Hormuz routes struck naval mines and are burning, abandoned on the southern shore; vessels not named, no independent confirmation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "CGTN Europe (IRGC Navy statement)",
-      "url": "https://x.com/CGTNEurope/status/2117560528289616232"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense early-warning alert in Sharurah (Najran), danger passed ~9 min later (Osint613; SaudiDCD)",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2118249475315757338"
+    },
     {
       "title": "IRGC: two tankers and a tug caught fire in Strait of Hormuz; two Lucas drones seized (LiveSquawk)",
       "site": "x.com",
@@ -1256,10 +1267,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Supply risks rose as the IRGC said tankers and a tug caught fire in Hormuz, Ukrainian drones hit Russia's Ryazan refinery and a fire shut Equinor's Visund platform.",
+      "Supply risks rose as the IRGC said tankers and a tug caught fire in Hormuz, Ukrainian drones hit Russia's Ryazan refinery, and Saudi Civil Defense briefly alerted Sharurah near Yemen.",
       "Brent slid toward $93 after Democrats swept the midterms, with reported US-Iran talks progress and WSJ saying Saudi Arabia sounded out Houthi ceasefire terms."
     ],
-    "updated": "Thu 5 Nov 2026, 12:08 pm SGT",
-    "updatedTs": "2026-11-05T12:08:00+08:00"
+    "updated": "Thu 5 Nov 2026, 3:57 pm SGT",
+    "updatedTs": "2026-11-05T15:57:09+08:00"
   }
 }
