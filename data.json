@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 5:02 pm SGT",
-  "lastScannedTs": "2026-11-05T17:02:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 5:18 pm SGT",
+  "lastScannedTs": "2026-11-05T17:18:00+08:00",
   "asOf": "Thu 5 Nov 2026, 4:27 pm SGT",
   "asOfTs": "2026-11-05T16:27:22+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Gulf tanker strike near Qatar and Hormuz fire claims keep supply risk elevated as Brent holds near $93.",
     "lead": "Net read (last 24 hours): Gulf tanker strike near Qatar and Hormuz fire claims keep supply risk elevated as Brent holds near $93.",
     "verdict": "Bullish",
-    "count": "16 of 20 alerts point higher, 4 lower",
-    "text": "16 of 20 alerts point higher, 4 lower.",
+    "count": "15 of 19 alerts point higher, 4 lower",
+    "text": "15 of 19 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "UKMTO: tanker hit by two projectiles 50 nm north of Qatar",
@@ -100,12 +100,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-04T18:35:00+08:00"
-      },
-      {
-        "text": "Saudi early-warning alert in Jazan, near Aramco's 400k b/d refinery, lifted minutes later",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-04T17:18:25+08:00"
       }
     ],
     "dovish": [
