@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 11:17 pm SGT",
-  "lastScannedTs": "2026-11-05T23:17:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 11:47 pm SGT",
+  "lastScannedTs": "2026-11-05T23:47:00+08:00",
   "asOf": "Thu 5 Nov 2026, 11:18 pm SGT",
   "asOfTs": "2026-11-05T23:18:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker hits and Saudi Eastern Province drone keep supply risk elevated; mixed but leaning higher.",
     "lead": "Net read (last 24 hours): Hormuz tanker hits and Saudi Eastern Province drone keep supply risk elevated; mixed but leaning higher.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 20 alerts point higher, 5 lower",
-    "text": "15 of 20 alerts point higher, 5 lower.",
+    "count": "14 of 19 alerts point higher, 5 lower",
+    "text": "14 of 19 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Coalition downs drone over Saudi Eastern Province",
@@ -94,12 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-05T00:37:47+08:00"
-      },
-      {
-        "text": "US diesel stocks below 100M bbl, lowest since 2003",
-        "confidence": "confirmed",
-        "theme": "Diesel / jet fuel shortage",
-        "ts": "2026-11-04T23:43:47+08:00"
       }
     ],
     "dovish": [
