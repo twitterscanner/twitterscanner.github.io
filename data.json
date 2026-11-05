@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 1:09 am SGT",
-  "lastScannedTs": "2026-11-06T01:09:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 1:45 am SGT",
+  "lastScannedTs": "2026-11-06T01:45:17+08:00",
   "asOf": "Fri 6 Nov 2026, 1:10 am SGT",
   "asOfTs": "2026-11-06T01:10:39+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi claim of Dammam airport drone strike adds Eastern Province risk near Saudi oil hubs.",
     "lead": "Net read (last 24 hours): Houthi claim of Dammam airport drone strike adds Eastern Province risk near Saudi oil hubs.",
     "verdict": "Bullish",
-    "count": "15 of 18 alerts point higher, 3 lower",
-    "text": "15 of 18 alerts point higher, 3 lower.",
+    "count": "14 of 17 alerts point higher, 3 lower",
+    "text": "14 of 17 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Houthi claim: drone hit King Fahd Airport Dammam, air traffic disrupted",
@@ -94,12 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-05T02:21:30+08:00"
-      },
-      {
-        "text": "OFAC targets Iran shadow fleet false-flag registries, adds secondary-sanctions risk to tankers",
-        "confidence": "confirmed",
-        "theme": "Sanctions evasion",
-        "ts": "2026-11-05T01:40:22+08:00"
       }
     ],
     "dovish": [
