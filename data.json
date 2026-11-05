@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 11:11 pm SGT",
-  "lastScannedTs": "2026-11-05T23:11:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 10:57 pm SGT",
-  "asOfTs": "2026-11-05T22:57:13+08:00",
-  "summary": "Geopolitical oil-risk scan every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
+  "lastScanned": "Thu 5 Nov 2026, 11:17 pm SGT",
+  "lastScannedTs": "2026-11-05T23:17:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 11:18 pm SGT",
+  "asOfTs": "2026-11-05T23:18:21+08:00",
+  "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran reports more Hormuz tanker mine fires and Saree targets Saudi oil sites; Hormuz and Yanbu risks dominate.",
-    "lead": "Net read (last 24 hours): Iran reports more Hormuz tanker mine fires and Saree targets Saudi oil sites; Hormuz and Yanbu risks dominate.",
+    "bottom": "Hormuz tanker hits and Saudi Eastern Province drone keep supply risk elevated; mixed but leaning higher.",
+    "lead": "Net read (last 24 hours): Hormuz tanker hits and Saudi Eastern Province drone keep supply risk elevated; mixed but leaning higher.",
     "verdict": "Mixed, leaning bullish",
-    "count": "14 of 19 alerts point higher, 5 lower",
-    "text": "14 of 19 alerts point higher, 5 lower.",
+    "count": "15 of 20 alerts point higher, 5 lower",
+    "text": "15 of 20 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Coalition downs drone over Saudi Eastern Province",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-05T23:16:00+08:00"
+      },
       {
         "text": "Iran Navy: two more tankers ablaze after mines in eastern Hormuz",
         "confidence": "unconfirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "23:16",
+      "ts": "2026-11-05T23:16:00+08:00",
+      "eventTime": "11:15 pm, 5 Nov",
+      "eventTs": "2026-11-05T23:15:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Saudi-led coalition says it intercepted and destroyed a drone over Saudi Arabia's Eastern Province",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Al Jazeera Breaking",
+      "url": "https://x.com/AJABreaking/status/2118361893999939947"
+    },
     {
       "time": "22:57",
       "ts": "2026-11-05T22:57:13+08:00",
@@ -641,22 +660,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk / LiveSquawk (citing Interfax)",
       "url": "https://x.com/FirstSquawk/status/2117623710593298768"
-    },
-    {
-      "time": "21:28",
-      "ts": "2026-11-03T21:28:18+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US reportedly approves Qatar's draft MOU for Iran; Saudi Arabia and UAE briefed and approve; both sides said to make nuclear and frozen-asset concessions.",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk (citing sources close to mediation team)",
-      "url": "https://x.com/FirstSquawk/status/2117609818991329647"
     }
   ],
   "sources": [
+    {
+      "title": "Al Jazeera Breaking: coalition downs drone over Saudi Eastern Province",
+      "site": "X / Al Jazeera Breaking",
+      "href": "https://x.com/AJABreaking/status/2118361893999939947"
+    },
     {
       "title": "First Squawk: Iran says two tankers on fire in Strait after hitting mines",
       "site": "X / First Squawk",
@@ -1051,35 +1062,15 @@
       "title": "Major fire broke out at HPCL Visakhapatnam (first report)",
       "site": "Vijayant Tyagi",
       "href": "https://x.com/vijayanttyagi/status/2117294760998420566"
-    },
-    {
-      "title": "Houthi spokesman claims Dammam airport and Jizan drone strikes (Arabic)",
-      "site": "Yahya Saree",
-      "href": "https://x.com/Yah_Saree/status/2117287173707948497"
-    },
-    {
-      "title": "Houthis claim Dammam airport drone attack",
-      "site": "Open Source Intel",
-      "href": "https://x.com/Osint613/status/2117289219060023614"
-    },
-    {
-      "title": "Saudi says two drones intercepted over Riyadh",
-      "site": "MenchOsint",
-      "href": "https://x.com/MenchOsint/status/2117288006461555096"
-    },
-    {
-      "title": "Kazakhstan says Atyrau-Samara oil flows halted",
-      "site": "Walter Bloomberg",
-      "href": "https://x.com/DeItaone/status/2117276873587916969"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran says two more tankers caught fire after hitting mines in eastern Hormuz, adding to IRGC overnight claims; UKMTO flagged a Qatar tanker hit.",
-      "Houthi spokesman Saree said strikes target Saudi oil facilities after Yanbu and Sharurah alerts; Oman and Iran discussed Hormuz navigation; Brent near $94."
+      "Iran Navy reported more tankers hitting mines east of Hormuz, after overnight IRGC mine fires; UKMTO also logged a Qatar-area tanker strike.",
+      "Houthis claimed Saudi oil facilities as targets and a drone was intercepted over Saudi Eastern Province; Ryazan refinery burned again overnight."
     ],
-    "updated": "Thu 5 Nov 2026, 10:57 pm SGT",
-    "updatedTs": "2026-11-05T22:57:19+08:00"
+    "updated": "Thu 5 Nov 2026, 11:17 pm SGT",
+    "updatedTs": "2026-11-05T23:17:00+08:00"
   }
 }
