@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 12:08 am SGT",
-  "lastScannedTs": "2026-11-06T00:08:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 11:18 pm SGT",
-  "asOfTs": "2026-11-05T23:18:21+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 12:17 am SGT",
+  "lastScannedTs": "2026-11-06T00:17:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 12:18 am SGT",
+  "asOfTs": "2026-11-06T00:18:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker hits and Saudi Eastern Province drone keep supply risk elevated; now bullish.",
-    "lead": "Net read (last 24 hours): Hormuz tanker hits and Saudi Eastern Province drone keep supply risk elevated; now bullish.",
+    "bottom": "Second Sharurah warning and Hormuz tanker hits keep Saudi and Gulf supply risk elevated.",
+    "lead": "Net read (last 24 hours): Second Sharurah warning and Hormuz tanker hits keep Saudi and Gulf supply risk elevated.",
     "verdict": "Bullish",
-    "count": "14 of 18 alerts point higher, 4 lower",
-    "text": "14 of 18 alerts point higher, 4 lower.",
+    "count": "15 of 19 alerts point higher, 4 lower",
+    "text": "15 of 19 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Second Sharurah civil-defense early-warning; all-clear, no impact disclosed",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-06T00:17:00+08:00"
+      },
       {
         "text": "Coalition downs drone over Saudi Eastern Province",
         "confidence": "confirmed",
@@ -129,6 +135,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "00:17",
+      "ts": "2026-11-06T00:17:00+08:00",
+      "eventTime": "12:07 am, 6 Nov",
+      "eventTs": "2026-11-06T00:07:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Saudi Civil Defense issues a second early-warning in Sharurah (Najran/Yemen border); danger passed about six minutes later, no impact disclosed",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Civil Defense",
+      "url": "https://x.com/SaudiDCD/status/2118374754134749580"
+    },
     {
       "time": "23:16",
       "ts": "2026-11-05T23:16:00+08:00",
@@ -635,22 +654,29 @@
       "confidence": "Confirmed",
       "source": "First Squawk / Walter Bloomberg",
       "url": "https://x.com/FirstSquawk/status/2117624418763673939"
-    },
-    {
-      "time": "22:23",
-      "ts": "2026-11-03T22:23:30+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Russia says it struck a cargo ship 24 km south of Odesa, raising Black Sea shipping risk.",
-      "theme": "Tankers / shipping",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk / LiveSquawk (citing Interfax)",
-      "url": "https://x.com/FirstSquawk/status/2117623710593298768"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense — Sharurah second early-warning",
+      "site": "X / SaudiDCD",
+      "href": "https://x.com/SaudiDCD/status/2118374754134749580"
+    },
+    {
+      "title": "Saudi Civil Defense — Sharurah all-clear",
+      "site": "X / SaudiDCD",
+      "href": "https://x.com/SaudiDCD/status/2118376188896854074"
+    },
+    {
+      "title": "Al Jazeera Breaking — Sharurah Civil Defense alert (Arabic)",
+      "site": "X / AJABreaking",
+      "href": "https://x.com/AJABreaking/status/2118375886059643301"
+    },
+    {
+      "title": "MenchOsint — Ansarallah Sharurah second fire / early warning",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2118375951218147559"
+    },
     {
       "title": "Al Jazeera Breaking: coalition downs drone over Saudi Eastern Province",
       "site": "X / Al Jazeera Breaking",
@@ -1055,10 +1081,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran Navy reported more tankers hitting mines east of Hormuz after overnight IRGC mine fires; UKMTO also logged a Qatar-area tanker strike.",
-      "Houthis said operations target Saudi oil facilities; coalition intercepted a drone over Eastern Province after a Yanbu civil-defense alert."
+      "Saudi Civil Defense issued a second overnight early-warning in Sharurah on the Yemen border; danger passed within minutes with no impact disclosed.",
+      "Overnight, Iran Navy reported more tankers hitting mines east of Hormuz, and the coalition said it intercepted a drone over Saudi Eastern Province."
     ],
-    "updated": "Fri 6 Nov 2026, 12:08 am SGT",
-    "updatedTs": "2026-11-06T00:08:00+08:00"
+    "updated": "Fri 6 Nov 2026, 12:17 am SGT",
+    "updatedTs": "2026-11-06T00:17:00+08:00"
   }
 }
