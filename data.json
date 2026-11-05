@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 8:02 am SGT",
-  "lastScannedTs": "2026-11-05T08:02:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 5:01 am SGT",
-  "asOfTs": "2026-11-05T05:01:29+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 9:08 am SGT",
+  "lastScannedTs": "2026-11-05T09:08:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 9:05 am SGT",
+  "asOfTs": "2026-11-05T09:05:48+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz attacks, Iran-strike fears, a Norway platform outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
-    "lead": "Net read (last 24 hours): Hormuz attacks, Iran-strike fears, a Norway platform outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
+    "bottom": "Iran-strike fears, a Ryazan refinery hit, Norway's Visund outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
+    "lead": "Net read (last 24 hours): Iran-strike fears, a Ryazan refinery hit, Norway's Visund outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 5 lower",
-    "text": "16 of 21 alerts point higher, 5 lower.",
+    "count": "17 of 22 alerts point higher, 5 lower",
+    "text": "17 of 22 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drones strike Ryazan refinery industrial zone; fires reported",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-05T09:05:48+08:00"
+      },
       {
         "text": "i24: Israel on high security alert over possible Iranian strike",
         "confidence": "unconfirmed",
@@ -147,6 +153,19 @@
     "detail": "Brent futures settled at $94.62/bbl, down $8.98 (8.67%), lowest since early September; WTI settled at $88.12, down 8.3%, around 3:45 am SGT, 5 Nov (First Squawk, LiveSquawk)"
   },
   "alerts": [
+    {
+      "time": "09:05",
+      "ts": "2026-11-05T09:05:48+08:00",
+      "eventTime": "8:39 am, 5 Nov (est.)",
+      "eventTs": "2026-11-05T08:39:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones hit industrial zone of Russia's Ryazan oil refinery; fires and explosions reported",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk citing WSN; footage from multiple OSINT accounts",
+      "url": "https://x.com/FirstSquawk/status/2118144128013971954"
+    },
     {
       "time": "05:01",
       "ts": "2026-11-05T05:01:29+08:00",
@@ -653,22 +672,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk",
       "url": "https://x.com/FirstSquawk/status/2117544669110481266"
-    },
-    {
-      "time": "16:28",
-      "ts": "2026-11-03T16:28:30+08:00",
-      "eventTime": "4:28 pm, 3 Nov",
-      "eventTs": "2026-11-03T16:28:30+08:00",
-      "eventQual": "confirmed",
-      "headline": "Aramco CEO Nasser says the global refining market has lost 5 mb/d of supply and tanker attacks have eliminated 15% of effective tanker capacity; spot crude now trades above futures",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk; LiveSquawk",
-      "url": "https://x.com/FirstSquawk/status/2117534369200115743"
     }
   ],
   "sources": [
+    {
+      "title": "Ukrainian drone attacks target Ryazan oil refinery industrial zone (First Squawk citing WSN)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2118144128013971954"
+    },
     {
       "title": "Al-Jadeed: US-Iran negotiations made significant progress, clearer Friday (First Squawk)",
       "site": "x.com",
@@ -1253,10 +1264,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Brent settled at $94.62, down nearly 9%, as Democrats vowed to end the Iran war and Al-Jadeed reported significant progress in US-Iran talks.",
-      "Yet Israel went on high alert over a possible Iranian strike, the US hit Iran's shadow fleet, and a fire shut Equinor's Visund platform in Norway."
+      "Brent settled at $94.62, down nearly 9%, as Democrats swept the midterms and Al-Jadeed reported significant progress in US-Iran talks.",
+      "Supply risks persisted: Ukrainian drones hit Russia's Ryazan refinery, Israel went on high alert over a possible Iranian strike, and a fire shut Equinor's Visund platform."
     ],
-    "updated": "Thu 5 Nov 2026, 5:05 am SGT",
-    "updatedTs": "2026-11-05T05:05:00+08:00"
+    "updated": "Thu 5 Nov 2026, 9:08 am SGT",
+    "updatedTs": "2026-11-05T09:08:00+08:00"
   }
 }
