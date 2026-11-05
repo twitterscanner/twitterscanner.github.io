@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 12:44 am SGT",
-  "lastScannedTs": "2026-11-06T00:44:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 12:18 am SGT",
-  "asOfTs": "2026-11-06T00:18:45+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 1:09 am SGT",
+  "lastScannedTs": "2026-11-06T01:09:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 1:10 am SGT",
+  "asOfTs": "2026-11-06T01:10:39+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Second Sharurah warning and Hormuz tanker hits keep Saudi and Gulf supply risk elevated.",
-    "lead": "Net read (last 24 hours): Second Sharurah warning and Hormuz tanker hits keep Saudi and Gulf supply risk elevated.",
+    "bottom": "Houthi claim of Dammam airport drone strike adds Eastern Province risk near Saudi oil hubs.",
+    "lead": "Net read (last 24 hours): Houthi claim of Dammam airport drone strike adds Eastern Province risk near Saudi oil hubs.",
     "verdict": "Bullish",
-    "count": "14 of 17 alerts point higher, 3 lower",
-    "text": "14 of 17 alerts point higher, 3 lower.",
+    "count": "15 of 18 alerts point higher, 3 lower",
+    "text": "15 of 18 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Houthi claim: drone hit King Fahd Airport Dammam, air traffic disrupted",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-06T01:09:00+08:00"
+      },
       {
         "text": "Second Sharurah civil-defense early-warning; all-clear, no impact disclosed",
         "confidence": "confirmed",
@@ -123,6 +129,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "01:09",
+      "ts": "2026-11-06T01:09:00+08:00",
+      "eventTime": "12:54 am, 6 Nov (est.)",
+      "eventTs": "2026-11-06T00:54:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthi spokesman Yahya Saree claims a drone strike on King Fahd International Airport in Dammam disrupted air traffic; no immediate Saudi confirmation",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yah_Saree",
+      "url": "https://x.com/Yah_Saree/status/2118386611050414226"
+    },
     {
       "time": "00:17",
       "ts": "2026-11-06T00:17:00+08:00",
@@ -629,22 +648,24 @@
       "confidence": "Confirmed",
       "source": "964 English / 964 (Arabic) / Miqat News",
       "url": "https://x.com/964English/status/2117668157397582334"
-    },
-    {
-      "time": "22:25",
-      "ts": "2026-11-03T22:25:54+08:00",
-      "eventTime": "10:25 pm, 3 Nov (est.)",
-      "eventTs": "2026-11-03T22:25:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Rezaee: US response to Iran's demands not convincing; Hormuz stays closed until all seven Iranian conditions are met.",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk / Walter Bloomberg",
-      "url": "https://x.com/FirstSquawk/status/2117624418763673939"
     }
   ],
   "sources": [
+    {
+      "title": "Yah_Saree: Houthi claim drone strike King Fahd Airport Dammam",
+      "site": "X",
+      "href": "https://x.com/Yah_Saree/status/2118386611050414226"
+    },
+    {
+      "title": "AJABreaking: Houthis claim drone targeting King Fahd Airport Dammam",
+      "site": "X",
+      "href": "https://x.com/AJABreaking/status/2118388825982459919"
+    },
+    {
+      "title": "LiveSquawk: Houthis say attacked King Fahd Airport Dammam",
+      "site": "X",
+      "href": "https://x.com/LiveSquawk/status/2118388863265583114"
+    },
     {
       "title": "Saudi Civil Defense — Sharurah second early-warning",
       "site": "X / SaudiDCD",
@@ -1069,10 +1090,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Civil Defense issued a second overnight early-warning in Sharurah on the Yemen border; danger passed within minutes with no impact disclosed.",
-      "Overnight, Iran Navy reported more tankers hitting mines east of Hormuz, and the coalition said it intercepted a drone over Saudi Eastern Province."
+      "Houthi spokesman Yahya Saree claimed a drone strike on King Fahd Airport in Dammam disrupted air traffic; Saudi has not confirmed.",
+      "Earlier overnight, Saudi Civil Defense issued a second Sharurah early-warning that cleared within minutes with no impact disclosed."
     ],
-    "updated": "Fri 6 Nov 2026, 12:17 am SGT",
-    "updatedTs": "2026-11-06T00:17:00+08:00"
+    "updated": "Fri 6 Nov 2026, 1:09 am SGT",
+    "updatedTs": "2026-11-06T01:09:00+08:00"
   }
 }
