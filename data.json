@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 2:01 am SGT",
-  "lastScannedTs": "2026-11-06T02:01:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 1:10 am SGT",
-  "asOfTs": "2026-11-06T01:10:39+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 3:02 am SGT",
+  "lastScannedTs": "2026-11-06T03:02:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 3:02 am SGT",
+  "asOfTs": "2026-11-06T03:02:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi claim of Dammam airport drone strike adds Eastern Province risk near Saudi oil hubs.",
-    "lead": "Net read (last 24 hours): Houthi claim of Dammam airport drone strike adds Eastern Province risk near Saudi oil hubs.",
+    "bottom": "Hormuz mines, tanker hits and Houthi strikes on Saudi keep risks skewed higher, though Aramco's deep Asia price cut signals softer demand.",
+    "lead": "Net read (last 24 hours): Hormuz mines, tanker hits and Houthi strikes on Saudi keep risks skewed higher, though Aramco's deep Asia price cut signals softer demand.",
     "verdict": "Bullish",
-    "count": "14 of 17 alerts point higher, 3 lower",
-    "text": "14 of 17 alerts point higher, 3 lower.",
+    "count": "13 of 16 alerts point higher, 3 lower",
+    "text": "13 of 16 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Houthi claim: drone hit King Fahd Airport Dammam, air traffic disrupted",
@@ -88,15 +88,15 @@
         "confidence": "confirmed",
         "theme": "Diesel / jet fuel shortage",
         "ts": "2026-11-05T03:57:14+08:00"
-      },
-      {
-        "text": "Al-Jadeed: Trump may decide on Iran war before the new Congress takes office",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-05T02:21:30+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Aramco deepens December Arab Light discount to Asia to $7/bbl, signalling soft demand",
+        "confidence": "confirmed",
+        "theme": "Saudi / Aramco",
+        "ts": "2026-11-06T02:55:00+08:00"
+      },
       {
         "text": "Oman-Iran talks on resuming Hormuz navigation",
         "confidence": "confirmed",
@@ -108,12 +108,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-05T11:23:16+08:00"
-      },
-      {
-        "text": "Al-Jadeed: US-Iran talks made significant progress, clearer picture expected Friday",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-05T02:24:33+08:00"
       }
     ],
     "neutral": []
@@ -123,6 +117,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "02:55",
+      "ts": "2026-11-06T02:55:00+08:00",
+      "eventTime": "2:54 am, 6 Nov (est.)",
+      "eventTs": "2026-11-06T02:54:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Aramco cuts December Arab Light OSP to Asia to a $7/bbl discount, about $2 lower across Asia grades",
+      "theme": "Saudi / Aramco",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk",
+      "url": "https://x.com/LiveSquawk/status/2118416900619125162"
+    },
     {
       "time": "01:09",
       "ts": "2026-11-06T01:09:00+08:00",
@@ -629,22 +636,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk / LiveSquawk (citing NYT)",
       "url": "https://x.com/FirstSquawk/status/2117676615425798574"
-    },
-    {
-      "time": "01:20",
-      "ts": "2026-11-04T01:20:07+08:00",
-      "eventTime": "11:30 pm, 3 Nov (est.)",
-      "eventTs": "2026-11-03T23:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Protesting Basra tribes shut Station 8 at Iraq's West Qurna 1 oil field, give government 3 days before closing all fields.",
-      "theme": "Iraq",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "964 English / 964 (Arabic) / Miqat News",
-      "url": "https://x.com/964English/status/2117668157397582334"
     }
   ],
   "sources": [
+    {
+      "title": "LiveSquawk: Aramco cuts December Arab Light OSP to Asia to -$7/bbl",
+      "site": "X",
+      "href": "https://x.com/LiveSquawk/status/2118416900619125162"
+    },
     {
       "title": "Yah_Saree: Houthi claim drone strike King Fahd Airport Dammam",
       "site": "X",
@@ -1084,10 +1083,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi spokesman Yahya Saree claimed a drone strike on King Fahd Airport in Dammam disrupted air traffic; Saudi has not confirmed.",
-      "Earlier overnight, Saudi Civil Defense issued a second Sharurah early-warning that cleared within minutes with no impact disclosed."
+      "Saudi Aramco cut its December Arab Light price to Asia to a $7 per barrel discount, a roughly $2 cut signalling softer Asian demand.",
+      "Overnight, Houthi spokesman Yahya Saree claimed a drone strike on King Fahd Airport in Dammam, while Saudi Civil Defense issued another Sharurah early-warning."
     ],
-    "updated": "Fri 6 Nov 2026, 1:09 am SGT",
-    "updatedTs": "2026-11-06T01:09:00+08:00"
+    "updated": "Fri 6 Nov 2026, 3:05 am SGT",
+    "updatedTs": "2026-11-06T03:05:00+08:00"
   }
 }
