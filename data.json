@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 10:16 pm SGT",
-  "lastScannedTs": "2026-11-05T22:16:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 8:45 pm SGT",
-  "asOfTs": "2026-11-05T20:45:28+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 10:57 pm SGT",
+  "lastScannedTs": "2026-11-05T22:57:32+08:00",
+  "asOf": "Thu 5 Nov 2026, 10:57 pm SGT",
+  "asOfTs": "2026-11-05T22:57:13+08:00",
   "summary": "Geopolitical oil-risk scan every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Saree affirms Houthi strikes aim at Saudi oil sites; Hormuz and Yanbu risks still dominate.",
-    "lead": "Net read (last 24 hours): Saree affirms Houthi strikes aim at Saudi oil sites; Hormuz and Yanbu risks still dominate.",
+    "bottom": "Iran reports more Hormuz tanker mine fires and Saree targets Saudi oil sites; Hormuz and Yanbu risks dominate.",
+    "lead": "Net read (last 24 hours): Iran reports more Hormuz tanker mine fires and Saree targets Saudi oil sites; Hormuz and Yanbu risks dominate.",
     "verdict": "Mixed, leaning bullish",
-    "count": "13 of 18 alerts point higher, 5 lower",
-    "text": "13 of 18 alerts point higher, 5 lower.",
+    "count": "14 of 19 alerts point higher, 5 lower",
+    "text": "14 of 19 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Iran Navy: two more tankers ablaze after mines in eastern Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-05T22:57:13+08:00"
+      },
       {
         "text": "Saree: ops target Saudi oil facilities, denies Medina hit",
         "confidence": "confirmed",
@@ -129,6 +135,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "22:57",
+      "ts": "2026-11-05T22:57:13+08:00",
+      "eventTime": "Not stated (announced ~10:22 pm, 5 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran Navy says two more oil tankers caught fire after hitting naval mines in the eastern Strait of Hormuz, after defying warnings; reports put it at five tankers and a tug hit today",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk citing Iran Navy; MenchOsint; CGTN Europe",
+      "url": "https://x.com/FirstSquawk/status/2118348249019097342"
+    },
     {
       "time": "20:44",
       "ts": "2026-11-05T20:44:00+08:00",
@@ -635,22 +654,24 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk (citing sources close to mediation team)",
       "url": "https://x.com/FirstSquawk/status/2117609818991329647"
-    },
-    {
-      "time": "21:08",
-      "ts": "2026-11-03T21:08:08+08:00",
-      "eventTime": "9:08 pm, 3 Nov (est.)",
-      "eventTs": "2026-11-03T21:08:00+08:00",
-      "eventQual": "est.",
-      "headline": "US Energy Secretary Wright says the overnight US strikes on Iran, including Qeshm Island, have not impacted oil flows.",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk (Energy Secretary Wright remarks)",
-      "url": "https://x.com/FirstSquawk/status/2117604740930720082"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Iran says two tankers on fire in Strait after hitting mines",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2118348249019097342"
+    },
+    {
+      "title": "MenchOsint — two additional tankers ablaze in eastern Hormuz; fifth tanker hit today",
+      "site": "MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2118356059026866468"
+    },
+    {
+      "title": "CGTN Europe — Iran Navy: more tankers on fire after naval mines in eastern Hormuz",
+      "site": "CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2118356171526447293"
+    },
     {
       "title": "Yahya Saree — ops target Saudi oil facilities (Medina denial)",
       "site": "X",
@@ -1055,10 +1076,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi spokesman Saree said strikes target Saudi oil facilities; Civil Defense briefly alerted Yanbu and Sharurah.",
-      "Oman and Iran talked Hormuz navigation; UKMTO flagged a Qatar tanker hit; IRGC claimed Hormuz tanker fires; Brent near $94."
+      "Iran says two more tankers caught fire after hitting mines in eastern Hormuz, adding to IRGC overnight claims; UKMTO flagged a Qatar tanker hit.",
+      "Houthi spokesman Saree said strikes target Saudi oil facilities after Yanbu and Sharurah alerts; Oman and Iran discussed Hormuz navigation; Brent near $94."
     ],
-    "updated": "Thu 5 Nov 2026, 8:44 pm SGT",
-    "updatedTs": "2026-11-05T20:44:00+08:00"
+    "updated": "Thu 5 Nov 2026, 10:57 pm SGT",
+    "updatedTs": "2026-11-05T22:57:19+08:00"
   }
 }
