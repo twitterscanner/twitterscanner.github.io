@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 7:00 pm SGT",
-  "lastScannedTs": "2026-11-05T19:00:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 7:42 pm SGT",
+  "lastScannedTs": "2026-11-05T19:42:00+08:00",
   "asOf": "Thu 5 Nov 2026, 6:34 pm SGT",
   "asOfTs": "2026-11-05T18:34:57+08:00",
   "summary": "Oil-moving geopolitical headline scan: every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
     "lead": "Net read (last 24 hours): Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 20 alerts point higher, 5 lower",
-    "text": "15 of 20 alerts point higher, 5 lower.",
+    "count": "14 of 19 alerts point higher, 5 lower",
+    "text": "14 of 19 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saudi Civil Defense early-warning in Yanbu Red Sea oil hub; no impact yet",
@@ -94,12 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-04T22:00:03+08:00"
-      },
-      {
-        "text": "Iran doubles Hormuz tanker target list to 240; ~30% of listed cargo is Iraqi",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-04T19:38:36+08:00"
       }
     ],
     "dovish": [
