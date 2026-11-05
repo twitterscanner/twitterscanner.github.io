@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 5:18 pm SGT",
-  "lastScannedTs": "2026-11-05T17:18:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 4:27 pm SGT",
-  "asOfTs": "2026-11-05T16:27:22+08:00",
-  "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
+  "lastScanned": "Thu 5 Nov 2026, 5:27 pm SGT",
+  "lastScannedTs": "2026-11-05T17:27:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 5:28 pm SGT",
+  "asOfTs": "2026-11-05T17:28:08+08:00",
+  "summary": "Geopolitical oil-watch alerts, scanned every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Gulf tanker strike near Qatar and Hormuz fire claims keep supply risk elevated as Brent holds near $93.",
-    "lead": "Net read (last 24 hours): Gulf tanker strike near Qatar and Hormuz fire claims keep supply risk elevated as Brent holds near $93.",
+    "bottom": "Yanbu warning lifts Saudi Red Sea risk after Sharurah; Hormuz tanker hits keep a firm hawkish lean.",
+    "lead": "Net read (last 24 hours): Yanbu warning lifts Saudi Red Sea risk after Sharurah; Hormuz tanker hits keep a firm hawkish lean.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 4 lower",
-    "text": "15 of 19 alerts point higher, 4 lower.",
+    "count": "16 of 20 alerts point higher, 4 lower",
+    "text": "16 of 20 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Saudi Civil Defense early-warning in Yanbu Red Sea oil hub; no impact yet",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-05T17:27:00+08:00"
+      },
       {
         "text": "UKMTO: tanker hit by two projectiles 50 nm north of Qatar",
         "confidence": "confirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "17:27",
+      "ts": "2026-11-05T17:27:00+08:00",
+      "eventTime": "5:24 pm, 5 Nov",
+      "eventTs": "2026-11-05T17:24:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Saudi Civil Defense sounds early-warning alert in Yanbu (Red Sea oil export and refining hub); no impact disclosed yet",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk citing Saudi Civil Defense; Al Jazeera Breaking / Asharq Al-Awsat",
+      "url": "https://x.com/FirstSquawk/status/2118273417019633881"
+    },
     {
       "time": "16:22",
       "ts": "2026-11-05T16:22:00+08:00",
@@ -641,22 +660,14 @@
       "confidence": "Confirmed",
       "source": "LiveSquawk citing Reuters",
       "url": "https://x.com/LiveSquawk/status/2117592843703435763"
-    },
-    {
-      "time": "19:17",
-      "ts": "2026-11-03T19:17:27+08:00",
-      "eventTime": "6:30 pm, 3 Nov (est.)",
-      "eventTs": "2026-11-03T18:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC says it shot down two US LUCAS attack drones over Bandar Khamir near Hormuz; explosions also reported near Bandar Abbas",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Mario Nawfal (relaying IRGC statement)",
-      "url": "https://x.com/MarioNawfal/status/2117576271186235605"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense early-warning alert in Yanbu (Red Sea oil hub) — First Squawk / Al Jazeera Breaking / Asharq",
+      "site": "X",
+      "href": "https://x.com/FirstSquawk/status/2118273417019633881"
+    },
     {
       "title": "AMK: IRGC attacked tanker off Qatar with two projectiles",
       "site": "AMK Mapping / X",
@@ -1271,10 +1282,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO reported a tanker struck by two projectiles north of Qatar, after the IRGC said vessels burned in Hormuz and Ukraine hit Ryazan's refinery.",
-      "Saudi Civil Defense briefly alerted Sharurah near Yemen; Brent slid toward $93 as midterm results and ceasefire talk capped the war premium."
+      "Saudi Civil Defense briefly alerted Sharurah near Yemen and just sounded a new early warning in Yanbu, a Red Sea oil export hub.",
+      "UKMTO reported a tanker struck north of Qatar; IRGC claimed Hormuz tanker fires; Ukrainian drones hit Ryazan; Brent slid near $94."
     ],
-    "updated": "Thu 5 Nov 2026, 4:22 pm SGT",
-    "updatedTs": "2026-11-05T16:22:00+08:00"
+    "updated": "Thu 5 Nov 2026, 5:27 pm SGT",
+    "updatedTs": "2026-11-05T17:27:00+08:00"
   }
 }
