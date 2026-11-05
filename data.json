@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 12:17 am SGT",
-  "lastScannedTs": "2026-11-06T00:17:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 12:35 am SGT",
+  "lastScannedTs": "2026-11-06T00:35:00+08:00",
   "asOf": "Fri 6 Nov 2026, 12:18 am SGT",
   "asOfTs": "2026-11-06T00:18:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Second Sharurah warning and Hormuz tanker hits keep Saudi and Gulf supply risk elevated.",
     "lead": "Net read (last 24 hours): Second Sharurah warning and Hormuz tanker hits keep Saudi and Gulf supply risk elevated.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 4 lower",
-    "text": "15 of 19 alerts point higher, 4 lower.",
+    "count": "15 of 18 alerts point higher, 3 lower",
+    "text": "15 of 18 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Second Sharurah civil-defense early-warning; all-clear, no impact disclosed",
@@ -120,12 +120,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-05T02:24:33+08:00"
-      },
-      {
-        "text": "Schumer vows Democrat-led Congress will end the Iran war, some Republicans on board",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-05T00:35:01+08:00"
       }
     ],
     "neutral": []
