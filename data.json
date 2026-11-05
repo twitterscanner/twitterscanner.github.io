@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 7:01 am SGT",
-  "lastScannedTs": "2026-11-05T07:01:38+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 8:02 am SGT",
+  "lastScannedTs": "2026-11-05T08:02:00+08:00",
   "asOf": "Thu 5 Nov 2026, 5:01 am SGT",
   "asOfTs": "2026-11-05T05:01:29+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Hormuz attacks, Iran-strike fears, a Norway platform outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
     "lead": "Net read (last 24 hours): Hormuz attacks, Iran-strike fears, a Norway platform outage and tight US diesel keep risk high; US-Iran talks progress and Brent's slide ease it.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "17 of 23 alerts point higher, 6 lower",
-    "text": "17 of 23 alerts point higher, 6 lower.",
+    "verdict": "Bullish",
+    "count": "16 of 21 alerts point higher, 5 lower",
+    "text": "16 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "i24: Israel on high security alert over possible Iranian strike",
@@ -106,12 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-04T09:08:13+08:00"
-      },
-      {
-        "text": "Riyadh early-warning alert as missiles reportedly launched from Yemen; all-clear, no damage",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-04T07:51:17+08:00"
       }
     ],
     "dovish": [
@@ -144,12 +138,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-04T12:08:42+08:00"
-      },
-      {
-        "text": "Trump tells FT no immediate plan to strike Iran; calls standoff 'brilliant'",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-04T07:41:10+08:00"
       }
     ],
     "neutral": []
