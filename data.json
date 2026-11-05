@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 8:00 pm SGT",
-  "lastScannedTs": "2026-11-05T20:00:00+08:00",
-  "asOf": "Thu 5 Nov 2026, 6:34 pm SGT",
-  "asOfTs": "2026-11-05T18:34:57+08:00",
-  "summary": "Oil-moving geopolitical headline scan: every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
+  "lastScanned": "Thu 5 Nov 2026, 8:44 pm SGT",
+  "lastScannedTs": "2026-11-05T20:44:00+08:00",
+  "asOf": "Thu 5 Nov 2026, 8:45 pm SGT",
+  "asOfTs": "2026-11-05T20:45:28+08:00",
+  "summary": "Geopolitical oil-risk scan every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
-    "lead": "Net read (last 24 hours): Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
+    "bottom": "Saree affirms Houthi strikes aim at Saudi oil sites; Hormuz and Yanbu risks still dominate.",
+    "lead": "Net read (last 24 hours): Saree affirms Houthi strikes aim at Saudi oil sites; Hormuz and Yanbu risks still dominate.",
     "verdict": "Mixed, leaning bullish",
-    "count": "14 of 19 alerts point higher, 5 lower",
-    "text": "14 of 19 alerts point higher, 5 lower.",
+    "count": "15 of 20 alerts point higher, 5 lower",
+    "text": "15 of 20 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Saree: ops target Saudi oil facilities, denies Medina hit",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-05T20:44:00+08:00"
+      },
       {
         "text": "Saudi Civil Defense early-warning in Yanbu Red Sea oil hub; no impact yet",
         "confidence": "confirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
   },
   "alerts": [
+    {
+      "time": "20:44",
+      "ts": "2026-11-05T20:44:00+08:00",
+      "eventTime": "8:42 pm, 5 Nov",
+      "eventTs": "2026-11-05T20:42:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Houthi spokesman Yahya Saree denies Medina intercept claim; says operations target only Saudi oil facilities and military bases",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Yahya Saree",
+      "url": "https://x.com/Yah_Saree/status/2118323103025758676"
+    },
     {
       "time": "18:28",
       "ts": "2026-11-05T18:28:00+08:00",
@@ -641,22 +660,19 @@
       "confidence": "Confirmed",
       "source": "First Squawk (Energy Secretary Wright remarks)",
       "url": "https://x.com/FirstSquawk/status/2117604740930720082"
-    },
-    {
-      "time": "20:57",
-      "ts": "2026-11-03T20:57:40+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi spokesman Saree claims a drone strike on Saudi Arabia's Abha airport, halting air traffic, and a ballistic missile hit on Khamis Mushait air base; no Saudi confirmation yet.",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi military spokesman (Arabic)",
-      "url": "https://x.com/Yah_Saree/status/2117602108602024037"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree — ops target Saudi oil facilities (Medina denial)",
+      "site": "X",
+      "href": "https://x.com/Yah_Saree/status/2118323103025758676"
+    },
+    {
+      "title": "CGTN Europe — Houthi spokesperson on Medina / oil facilities",
+      "site": "X",
+      "href": "https://x.com/CGTNEurope/status/2118323487173386498"
+    },
     {
       "title": "First Squawk: Oman, Iran discuss efforts to resume navigation in Hormuz",
       "site": "X / First Squawk",
@@ -1046,245 +1062,15 @@
       "title": "Kazakhstan says Atyrau-Samara oil flows halted",
       "site": "Walter Bloomberg",
       "href": "https://x.com/DeItaone/status/2117276873587916969"
-    },
-    {
-      "title": "Kazakhstan: Atyrau-Samara oil flows halted",
-      "site": "FinancialJuice",
-      "href": "https://x.com/financialjuice/status/2117276676186911231"
-    },
-    {
-      "title": "Explosions and gunfire reported at British Embassy in Baghdad",
-      "site": "War Radar",
-      "href": "https://x.com/War_Radar2/status/2117270545540546882"
-    },
-    {
-      "title": "Explosion reported at British Embassy in Baghdad (Tasnim)",
-      "site": "Walter Bloomberg",
-      "href": "https://x.com/DeItaone/status/2117267706890367249"
-    },
-    {
-      "title": "Pezeshkian: Supreme Leader grants government powers over negotiations",
-      "site": "Post Open Source",
-      "href": "https://x.com/CocoPostel/status/2117249217748238675"
-    },
-    {
-      "title": "Crude falls 5% after IRNA report on talks authority",
-      "site": "MarketPulse India",
-      "href": "https://x.com/MktPulseIndia/status/2117251008174993641"
-    },
-    {
-      "title": "Iran: tanker hits mine, catches fire in eastern Strait of Hormuz",
-      "site": "FinancialJuice",
-      "href": "https://x.com/financialjuice/status/2117241777141026836"
-    },
-    {
-      "title": "Tanker catches fire after hitting mine in eastern Hormuz (IRIB)",
-      "site": "LiveSquawk",
-      "href": "https://x.com/LiveSquawk/status/2117241989666332796"
-    },
-    {
-      "title": "IRGC: 11 tankers burned in Hormuz Strait since Oct 25",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117199435793117639"
-    },
-    {
-      "title": "Start of Iran-US negotiations depends on end of naval blockade",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117163157202538708"
-    },
-    {
-      "title": "Iran says Hormuz cannot be reopened before US sanctions are lifted",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117160364546957716"
-    },
-    {
-      "title": "Tanker in Strait of Hormuz hit by limpet mines, named as Louise 1",
-      "site": "Adi Imsirovic",
-      "href": "https://x.com/AdiSurreyEnergy/status/2117147320106000669"
-    },
-    {
-      "title": "Iran says four tankers ablaze in Strait of Hormuz",
-      "site": "Ships & Ports",
-      "href": "https://x.com/ShipsandPorts/status/2117145935146832039"
-    },
-    {
-      "title": "Saudi Civil Defense warning in Abha, Khamis Mushait and Taif (Arabic)",
-      "site": "Al-Araby Al-Jadeed",
-      "href": "https://x.com/alaraby_ar/status/2117136259680526550"
-    },
-    {
-      "title": "Saudi Civil Defense warns of possible danger in Khamis Mushait (Arabic)",
-      "site": "Al Mayadeen",
-      "href": "https://x.com/AlMayadeenNews/status/2117136235642659245"
-    },
-    {
-      "title": "Samara LPDS in Prosvet attacked for third time",
-      "site": "Exilenova+",
-      "href": "https://x.com/Exilenova_plus/status/2117089597717106887"
-    },
-    {
-      "title": "LPDS Samara attacked in Prosvet (Russian)",
-      "site": "Charter97",
-      "href": "https://x.com/charter_97/status/2117105437409419421"
-    },
-    {
-      "title": "Fire at Samara pumping and dispatch station",
-      "site": "Mockingjay News UA",
-      "href": "https://x.com/Mockingjay_ua/status/2117105189572194323"
-    },
-    {
-      "title": "WSJ: US pushes to restore Russian gas sales to Europe via Ukraine",
-      "site": "LiveSquawk",
-      "href": "https://x.com/LiveSquawk/status/2117074740653461830"
-    },
-    {
-      "title": "WSJ: Washington seeks energy truce between Moscow and Kyiv",
-      "site": "First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117075344926892035"
-    },
-    {
-      "title": "UKMTO: tanker struck by two projectiles 72 nm east of Ras Al Khafji",
-      "site": "Iran International English",
-      "href": "https://x.com/IranIntl_En/status/2117071759555936535"
-    },
-    {
-      "title": "UKMTO 192-26: tanker hit on port side in the Arabian Gulf",
-      "site": "NTC Report",
-      "href": "https://x.com/NTC_Report/status/2117072689047224454"
-    },
-    {
-      "title": "IRGC attacked an oil tanker in the Gulf with two projectiles",
-      "site": "AMK Mapping",
-      "href": "https://x.com/AMK_Mapping_/status/2117071599635673454"
-    },
-    {
-      "title": "Houthi media: Saudi strikes on Ras Isa port pier injure 4 (Al Jazeera Now)",
-      "site": "Al Jazeera Now",
-      "href": "https://x.com/aljazeera_now/status/2117053406967710006"
-    },
-    {
-      "title": "Middle East roundup: Saudi strikes injure 3 in Bajil and 4 at Ras Issa port",
-      "site": "Middle East Observer",
-      "href": "https://x.com/ME_Observer_/status/2117055973672005716"
-    },
-    {
-      "title": "IRGC Navy: two tankers blown up by mines on unauthorized Hormuz route",
-      "site": "IRNA",
-      "href": "https://x.com/IrnaEnglish/status/2116993677558010166"
-    },
-    {
-      "title": "IRGC says two tankers exploded in Hormuz",
-      "site": "Roya News English",
-      "href": "https://x.com/RoyaNewsEnglish/status/2116993026480361509"
-    },
-    {
-      "title": "UKMTO: ship hit by unknown projectile in Hormuz",
-      "site": "DC Global News",
-      "href": "https://x.com/DC_Global_News/status/2116992661168988523"
-    },
-    {
-      "title": "Drones hit Lukoil's Kstovo refinery, large fire (Ukrainian)",
-      "site": "UNN",
-      "href": "https://x.com/unn_inc/status/2116808697863118933"
-    },
-    {
-      "title": "Kstovo refinery hit on 1 Nov, third in three days (Ukrainian)",
-      "site": "Tanya Boyko",
-      "href": "https://x.com/Ukraine_2024_/status/2116874200212291635"
-    },
-    {
-      "title": "Aramco CEO: pre-conflict output within days, 12 mb/d in under three weeks",
-      "site": "X / Nader Itayim",
-      "href": "https://x.com/ncitayim/status/2117530243489747203"
-    },
-    {
-      "title": "Aramco CEO: refining market lost 5 mb/d; tanker attacks cut 15% of effective capacity",
-      "site": "X / First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117534369200115743"
-    },
-    {
-      "title": "Iran's Rezaei rejects Qatari plan for direct US-Iran contact in Doha",
-      "site": "X / Open Source Intel",
-      "href": "https://x.com/Osint613/status/2117557585414918299"
-    },
-    {
-      "title": "Unite says Apache offshore workers to escalate strike action",
-      "site": "X / Reuters headline",
-      "href": "https://x.com/staunovo/status/2117570972316295407"
-    },
-    {
-      "title": "Iran: US response to its demands wasn't convincing",
-      "site": "X / First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117624418763673939"
-    },
-    {
-      "title": "Iran: Strait of Hormuz will remain closed until US meets seven conditions",
-      "site": "X / Walter Bloomberg",
-      "href": "https://x.com/DeItaone/status/2117624313310269750"
-    },
-    {
-      "title": "Russia says it hit cargo ship 24 km south of Odesa (Interfax)",
-      "site": "X / First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117623710593298768"
-    },
-    {
-      "title": "NYT: Israel tells US Iran weighing chemical weapons use (First Squawk)",
-      "site": "X / First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117676615425798574"
-    },
-    {
-      "title": "Houthi source: Aramco facilities in direct firing range (LiveSquawk, citing Tasnim)",
-      "site": "X / LiveSquawk",
-      "href": "https://x.com/LiveSquawk/status/2117679181756543386"
-    },
-    {
-      "title": "Saudi Civil Defense: danger passed in Najran after early warning (First Squawk)",
-      "site": "X / First Squawk",
-      "href": "https://x.com/FirstSquawk/status/2117877356480328174"
-    },
-    {
-      "title": "Iran's PGSA tanker target list doubled; ~30% of cargo Iraqi (TankerTrackers)",
-      "site": "X / TankerTrackers",
-      "href": "https://x.com/TankerTrackers/status/2117944598702219510"
-    },
-    {
-      "title": "FirstSquawk: Brent and US crude futures extend decline, down over $2 a barrel",
-      "site": "x.com",
-      "href": "https://x.com/FirstSquawk/status/2117974909192417734"
-    },
-    {
-      "title": "IRGC claims US MQ-1 drone destroyed over Qeshm Island (FirstSquawk)",
-      "site": "x.com",
-      "href": "https://x.com/FirstSquawk/status/2117983127310393520"
-    },
-    {
-      "title": "FT Energy: Trump diesel deal with Russia falters as US fuel supplies hit 20-year low",
-      "site": "x.com",
-      "href": "https://x.com/ftenergy/status/2118070084354670656"
-    },
-    {
-      "title": "First Squawk: Brent crude futures settle at $94.62, down 8.67%",
-      "site": "x.com",
-      "href": "https://x.com/FirstSquawk/status/2118067594850865663"
-    },
-    {
-      "title": "Giovanni Staunovo: Equinor shuts Norway's Visund oil, gas platform due to fire (Reuters)",
-      "site": "x.com",
-      "href": "https://x.com/staunovo/status/2118014269165810103"
-    },
-    {
-      "title": "First Squawk: Israel on high security alert amid worries of possible Iranian strike (i24 News)",
-      "site": "x.com",
-      "href": "https://x.com/FirstSquawk/status/2118071396295475491"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Oman and Iran discussed resuming Hormuz navigation; Saudi Civil Defense briefly alerted Yanbu and Sharurah near Yemen.",
-      "UKMTO reported a tanker strike north of Qatar; IRGC claimed Hormuz tanker fires; Ukrainian drones hit Ryazan; Brent near $94."
+      "Houthi spokesman Saree said strikes target Saudi oil facilities; Civil Defense briefly alerted Yanbu and Sharurah.",
+      "Oman and Iran talked Hormuz navigation; UKMTO flagged a Qatar tanker hit; IRGC claimed Hormuz tanker fires; Brent near $94."
     ],
-    "updated": "Thu 5 Nov 2026, 6:34 pm SGT",
-    "updatedTs": "2026-11-05T18:34:57+08:00"
+    "updated": "Thu 5 Nov 2026, 8:44 pm SGT",
+    "updatedTs": "2026-11-05T20:44:00+08:00"
   }
 }
