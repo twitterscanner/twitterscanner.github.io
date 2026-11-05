@@ -7,9 +7,9 @@
   "netRead": {
     "bottom": "Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
     "lead": "Net read (last 24 hours): Oman-Iran Hormuz reopen talk softens the lean; Yanbu warning and tanker hits still dominate the hawkish column.",
-    "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 5 lower",
-    "text": "16 of 21 alerts point higher, 5 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "15 of 20 alerts point higher, 5 lower",
+    "text": "15 of 20 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saudi Civil Defense early-warning in Yanbu Red Sea oil hub; no impact yet",
@@ -100,12 +100,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-04T19:38:36+08:00"
-      },
-      {
-        "text": "Khamenei warns further US attacks will bring a 'far wider' response; owns Hormuz action",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-04T18:35:00+08:00"
       }
     ],
     "dovish": [
