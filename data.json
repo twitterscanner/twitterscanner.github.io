@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 5 Nov 2026, 12:15 pm SGT",
-  "lastScannedTs": "2026-11-05T12:15:00+08:00",
+  "lastScanned": "Thu 5 Nov 2026, 12:35 pm SGT",
+  "lastScannedTs": "2026-11-05T12:35:00+08:00",
   "asOf": "Thu 5 Nov 2026, 12:07 pm SGT",
   "asOfTs": "2026-11-05T12:07:16+08:00",
   "summary": "Alerts from the scan of X, which runs every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Event time is when the incident happened, which can differ from when it was reported; it says not stated when sources don't give it. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Iran-strike fears, IRGC Hormuz tanker fires, Ryazan and Visund outages and tight diesel keep risk high; US-Iran talks and Saudi-Houthi feelers ease it.",
     "lead": "Net read (last 24 hours): Iran-strike fears, IRGC Hormuz tanker fires, Ryazan and Visund outages and tight diesel keep risk high; US-Iran talks and Saudi-Houthi feelers ease it.",
-    "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 5 lower",
-    "text": "16 of 21 alerts point higher, 5 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "15 of 20 alerts point higher, 5 lower",
+    "text": "15 of 20 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "IRGC says tanker hit mine, second supertanker and tug ablaze in Hormuz",
@@ -100,12 +100,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-04T15:11:24+08:00"
-      },
-      {
-        "text": "Trump tells Politico he is again open to striking Iran if an opportunity arises",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-04T12:31:01+08:00"
       }
     ],
     "dovish": [
