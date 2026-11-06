@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 11:18 pm SGT",
-  "lastScannedTs": "2026-11-06T23:18:00+08:00",
+  "lastScanned": "Sat 07 Nov 2026, 12:19 AM SGT",
+  "lastScannedTs": "2026-11-07T00:19:00+08:00",
   "asOf": "Fri 6 Nov 2026, 8:10 pm SGT",
   "asOfTs": "2026-11-06T20:10:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker blasts and mine hits, Aramco gas-site fire claim, Afipsky and Yanos strikes, Houthi attacks lean higher; Aramco's Asia cut points lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker blasts and mine hits, Aramco gas-site fire claim, Afipsky and Yanos strikes, Houthi attacks lean higher; Aramco's Asia cut points lower.",
+    "bottom": "Hormuz tanker hits and mine claims, Aramco fire report, Afipsky and Yanos, Houthi intercepts lean higher; Aramco's Asia OSP cut points lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker hits and mine claims, Aramco fire report, Afipsky and Yanos, Houthi intercepts lean higher; Aramco's Asia OSP cut points lower.",
     "verdict": "Bullish",
-    "count": "12 of 14 alerts point higher, 2 lower",
-    "text": "12 of 14 alerts point higher, 2 lower.",
+    "count": "11 of 13 alerts point higher, 2 lower",
+    "text": "11 of 13 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "UKMTO: Hormuz tanker hit by waterline explosion 16 nm east of Khasab; crew safe, vessel continues",
@@ -76,12 +76,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-06T01:09:00+08:00"
-      },
-      {
-        "text": "Second Sharurah civil-defense early-warning; all-clear, no impact disclosed",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-06T00:17:00+08:00"
       }
     ],
     "dovish": [
@@ -1111,10 +1105,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukraine reportedly confirmed its drone strike on Russia's Afipsky refinery, Yanos refinery reportedly halted, and UKMTO logged another Hormuz tanker hit by a waterline explosion off Khasab.",
-      "Fox News reported CENTCOM is finalizing options against Iran as Trump weighs resuming the war, while an unconfirmed satellite report shows a fire at an Aramco gas facility in Saudi Arabia's Eastern Province."
+      "UKMTO reported another Hormuz tanker hit by a waterline explosion off Khasab, while Iran's IRGC claimed more mine strikes on tankers and Ukraine's Afipsky hit plus a Yanos halt kept Russian supply risk elevated.",
+      "Unconfirmed reports of an Aramco Eastern Province gas-facility fire and Fox CENTCOM options for renewed Iran strikes lean higher, offset by Aramco's deeper Asia OSP cut and talk of a US-Iran deal via Qatar."
     ],
-    "updated": "Fri 6 Nov 2026, 8:12 pm SGT",
-    "updatedTs": "2026-11-06T20:12:00+08:00"
+    "updated": "Sat 07 Nov 2026, 12:19 AM SGT",
+    "updatedTs": "2026-11-07T00:19:00+08:00"
   }
 }
