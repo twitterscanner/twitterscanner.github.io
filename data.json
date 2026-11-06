@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 6:02 pm SGT",
-  "lastScannedTs": "2026-11-06T18:02:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 5:20 pm SGT",
-  "asOfTs": "2026-11-06T17:20:06+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 6:19 pm SGT",
+  "lastScannedTs": "2026-11-06T18:19:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 6:19 pm SGT",
+  "asOfTs": "2026-11-06T18:19:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker mine hits, Ukraine's Afipsky strike and Yanos refinery halt, plus Houthi missiles at Najran, lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker mine hits, Ukraine's Afipsky strike and Yanos refinery halt, plus Houthi missiles at Najran, lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "bottom": "Hormuz mine hits, Afipsky and Yanos refinery strikes, Houthi missiles at Najran and Fox's report of CENTCOM Iran options lean higher; Aramco's Asia cut and deal talks point lower.",
+    "lead": "Net read (last 24 hours): Hormuz mine hits, Afipsky and Yanos refinery strikes, Houthi missiles at Najran and Fox's report of CENTCOM Iran options lean higher; Aramco's Asia cut and deal talks point lower.",
     "verdict": "Bullish",
-    "count": "11 of 14 alerts point higher, 3 lower",
-    "text": "11 of 14 alerts point higher, 3 lower.",
+    "count": "12 of 15 alerts point higher, 3 lower",
+    "text": "12 of 15 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Fox: CENTCOM finalizing Iran options; Trump to decide soon on resuming war",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-06T18:19:00+08:00"
+      },
       {
         "text": "Yanos refinery, Yaroslavl, reportedly halted after 3 Nov drone attack",
         "confidence": "unconfirmed",
@@ -105,6 +111,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:19",
+      "ts": "2026-11-06T18:19:00+08:00",
+      "eventTime": "Meetings Wed-Thu (4-5 Nov, US); report ~6:10 pm, 6 Nov (est.)",
+      "eventTs": "2026-11-06T18:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Fox News reports US Central Command is finalizing options for renewed operations against Iran after Trump met his national security team; Trump says a decision on resuming the war will come soon",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X, citing Fox News; several outlets relay Trump's 'decide soon' remark",
+      "url": "https://x.com/Osint613/status/2118648503157055748"
+    },
     {
       "time": "17:20",
       "ts": "2026-11-06T17:20:00+08:00",
@@ -611,19 +630,6 @@
       "confidence": "Unconfirmed",
       "source": "Iran International English",
       "url": "https://x.com/IranIntl_En/status/2117831379274674413"
-    },
-    {
-      "time": "11:37",
-      "ts": "2026-11-04T11:37:05+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC now says four tankers destroyed by naval mines south of the Strait of Hormuz and still burning; two more vessels detained.",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FirstSquawk / RedboxWire / LiveSquawk citing IRGC (Sepah News)",
-      "url": "https://x.com/FirstSquawk/status/2117823423158374669"
     }
   ],
   "sources": [
@@ -1106,10 +1112,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukraine reportedly confirmed its drone strike on Russia's Afipsky refinery, and Russia's Yanos refinery reportedly halted operations, while Iran's IRGC Navy said two more tankers hit Hormuz mines.",
-      "The Saudi-led coalition said it intercepted two Houthi ballistic missiles aimed at Najran, while the FT reported negotiators working toward a deal to end the Iran war."
+      "Ukraine reportedly confirmed its drone strike on Russia's Afipsky refinery, Yanos refinery reportedly halted, and Iran's IRGC Navy said two more tankers hit Hormuz mines.",
+      "Fox News reported CENTCOM is finalizing options against Iran as Trump weighs resuming the war, while the FT reported negotiators working toward a deal to end it."
     ],
-    "updated": "Fri 6 Nov 2026, 5:22 pm SGT",
-    "updatedTs": "2026-11-06T17:22:00+08:00"
+    "updated": "Fri 6 Nov 2026, 6:19 pm SGT",
+    "updatedTs": "2026-11-06T18:19:00+08:00"
   }
 }
