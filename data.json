@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 1:06 pm SGT",
-  "lastScannedTs": "2026-11-06T13:06:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 11:33 am SGT",
-  "asOfTs": "2026-11-06T11:33:22+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 1:14 pm SGT",
+  "lastScannedTs": "2026-11-06T13:14:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 1:12 pm SGT",
+  "asOfTs": "2026-11-06T13:12:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker hits, Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia cut and Oman-Iran talks point lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker hits, Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia cut and Oman-Iran talks point lower.",
-    "verdict": "Bullish",
-    "count": "9 of 11 alerts point higher, 2 lower",
-    "text": "9 of 11 alerts point higher, 2 lower.",
+    "bottom": "Hormuz tanker hits, Russian refinery strikes and Houthi attacks on Saudi lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal-progress report point lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker hits, Russian refinery strikes and Houthi attacks on Saudi lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal-progress report point lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "9 of 12 alerts point higher, 3 lower",
+    "text": "9 of 12 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Drones reportedly hit Afipsky refinery, Krasnodar Krai; fires reported",
@@ -68,6 +68,12 @@
     ],
     "dovish": [
       {
+        "text": "FT: negotiators working toward deal to end Iran war",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-06T13:13:00+08:00"
+      },
+      {
         "text": "Aramco deepens December Arab Light discount to Asia to $7/bbl, signalling soft demand",
         "confidence": "confirmed",
         "theme": "Saudi / Aramco",
@@ -87,6 +93,19 @@
     "detail": "Brent futures gained more than $2 to cross $100/bbl around 11:41 am SGT, 6 Nov (First Squawk); US crude was up $1 to $91.52 at 11:28 am SGT"
   },
   "alerts": [
+    {
+      "time": "13:13",
+      "ts": "2026-11-06T13:13:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: FT reports negotiators are working toward an agreement to end the Iran war, though Iran's security chief earlier said Hormuz stays shut until seven conditions are met",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk relaying the Financial Times (wire headline; no official confirmation)",
+      "url": "https://x.com/FirstSquawk/status/2118570917609771067"
+    },
     {
       "time": "11:34",
       "ts": "2026-11-06T11:34:00+08:00",
@@ -593,19 +612,6 @@
       "confidence": "Confirmed",
       "source": "Mario Nawfal (citing New York Times)",
       "url": "https://x.com/MarioNawfal/status/2117693298907164967"
-    },
-    {
-      "time": "02:03",
-      "ts": "2026-11-04T02:03:56+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi military source tells Tasnim that Saudi Aramco facilities are within direct firing range, a fresh threat amid Saudi-Houthi fighting.",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "LiveSquawk (citing Tasnim)",
-      "url": "https://x.com/LiveSquawk/status/2117679181756543386"
     }
   ],
   "sources": [
@@ -1059,9 +1065,9 @@
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai, with fires reported, while Saudi Aramco cut its December Arab Light price to Asia to a $7 discount.",
-      "Overnight, Houthi spokesman Yahya Saree claimed a drone strike on King Fahd Airport in Dammam, and Saudi Civil Defense issued another Sharurah early-warning."
+      "Houthis claimed a drone strike on Dammam airport and Saudi Civil Defense issued another Sharurah warning, while the FT reported negotiators working toward a deal to end the Iran war."
     ],
-    "updated": "Fri 6 Nov 2026, 11:35 am SGT",
-    "updatedTs": "2026-11-06T11:35:00+08:00"
+    "updated": "Fri 6 Nov 2026, 1:14 pm SGT",
+    "updatedTs": "2026-11-06T13:14:00+08:00"
   }
 }
