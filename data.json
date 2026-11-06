@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 3:30 pm SGT",
-  "lastScannedTs": "2026-11-06T15:30:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 3:29 pm SGT",
-  "asOfTs": "2026-11-06T15:29:08+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 3:42 pm SGT",
+  "lastScannedTs": "2026-11-06T15:42:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 3:40 pm SGT",
+  "asOfTs": "2026-11-06T15:40:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker mine hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker mine hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "bottom": "Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "verdict": "Bullish",
-    "count": "11 of 14 alerts point higher, 3 lower",
-    "text": "11 of 14 alerts point higher, 3 lower.",
+    "count": "12 of 15 alerts point higher, 3 lower",
+    "text": "12 of 15 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-06T15:41:00+08:00"
+      },
       {
         "text": "IRGC Navy: two more tankers hit mines, ablaze in Hormuz (via IRNA)",
         "confidence": "unconfirmed",
@@ -105,6 +111,19 @@
     "detail": "Brent futures gained more than $2 to cross $100/bbl around 11:41 am SGT, 6 Nov (First Squawk); US crude was up $1 to $91.52 at 11:28 am SGT"
   },
   "alerts": [
+    {
+      "time": "15:41",
+      "ts": "2026-11-06T15:41:00+08:00",
+      "eventTime": "3:35 pm, 6 Nov (est.)",
+      "eventTs": "2026-11-06T15:35:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran; debris fell and damage is being assessed (possibly the same attack as the 3:01 pm warning)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition via Arab News; First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2118608621995254105"
+    },
     {
       "time": "15:29",
       "ts": "2026-11-06T15:29:00+08:00",
@@ -611,19 +630,6 @@
       "confidence": "Confirmed",
       "source": "Arab News (citing Saudi Civil Defense)",
       "url": "https://x.com/arabnews/status/2117766594675847477"
-    },
-    {
-      "time": "07:41",
-      "ts": "2026-11-04T07:41:10+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump tells the FT the US has no immediate plan to strike Iran, calling the standoff 'brilliant' and saying 'we're not really in a war'.",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Financial Times",
-      "url": "https://x.com/FT/status/2117764052436852976"
     }
   ],
   "sources": [
@@ -1086,10 +1092,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai, while Iran's IRGC Navy said two more tankers caught fire after hitting mines in the Strait of Hormuz.",
-      "Saudi Civil Defense issued another Najran warning and Houthis claimed a drone strike on Dammam airport, while the FT reported negotiators working toward a deal to end the Iran war."
+      "Iran's IRGC Navy said two more tankers caught fire after hitting mines in Hormuz, while Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai.",
+      "The Saudi-led coalition said it intercepted two Houthi ballistic missiles aimed at Najran, while the FT reported negotiators working toward a deal to end the Iran war."
     ],
-    "updated": "Fri 6 Nov 2026, 3:30 pm SGT",
-    "updatedTs": "2026-11-06T15:30:00+08:00"
+    "updated": "Fri 6 Nov 2026, 3:42 pm SGT",
+    "updatedTs": "2026-11-06T15:42:00+08:00"
   }
 }
