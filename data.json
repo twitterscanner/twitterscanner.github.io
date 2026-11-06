@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 9:04 am SGT",
-  "lastScannedTs": "2026-11-06T09:04:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 9:12 am SGT",
+  "lastScannedTs": "2026-11-06T09:12:00+08:00",
   "asOf": "Fri 6 Nov 2026, 3:02 am SGT",
   "asOfTs": "2026-11-06T03:02:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Hormuz mines, tanker hits and Houthi strikes on Saudi keep risks skewed higher, though Aramco's deep Asia cut signals soft demand.",
     "lead": "Net read (last 24 hours): Hormuz mines, tanker hits and Houthi strikes on Saudi keep risks skewed higher, though Aramco's deep Asia cut signals soft demand.",
-    "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 3 lower",
-    "text": "10 of 13 alerts point higher, 3 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "9 of 12 alerts point higher, 3 lower",
+    "text": "9 of 12 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Houthi claim: drone hit King Fahd Airport Dammam, air traffic disrupted",
@@ -64,12 +64,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-05T12:04:29+08:00"
-      },
-      {
-        "text": "Ukrainian drones strike Ryazan refinery industrial zone; fires reported",
-        "confidence": "unconfirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-05T09:05:48+08:00"
       }
     ],
     "dovish": [
