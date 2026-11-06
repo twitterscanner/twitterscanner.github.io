@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 4:23 pm SGT",
-  "lastScannedTs": "2026-11-06T16:23:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 3:40 pm SGT",
-  "asOfTs": "2026-11-06T15:40:15+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 4:29 pm SGT",
+  "lastScannedTs": "2026-11-06T16:29:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 4:27 pm SGT",
+  "asOfTs": "2026-11-06T16:27:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "bottom": "Hormuz tanker mine hits, Ukraine's confirmed Afipsky refinery strike and Houthi missiles at Najran lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker mine hits, Ukraine's confirmed Afipsky refinery strike and Houthi missiles at Najran lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 3 lower",
-    "text": "10 of 13 alerts point higher, 3 lower.",
+    "count": "11 of 14 alerts point higher, 3 lower",
+    "text": "11 of 14 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Ukraine reportedly confirms Afipsky refinery strike, Krasnodar Krai; Russia cites only debris fire",
+        "confidence": "confirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-06T16:27:00+08:00"
+      },
       {
         "text": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran",
         "confidence": "confirmed",
@@ -99,6 +105,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:27",
+      "ts": "2026-11-06T16:27:00+08:00",
+      "eventTime": "10:55 am, 6 Nov (est.)",
+      "eventTs": "2026-11-06T10:55:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine reportedly confirms its strike on Russia's Afipsky refinery in Krasnodar Krai (about 7 million tonnes a year), upgrading earlier OSINT reports; Russia had cited only a debris fire at an industrial site",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "FinancialJuice headline (relayed by several wire-style accounts)",
+      "url": "https://x.com/financialjuice/status/2118620725330456695"
+    },
     {
       "time": "15:41",
       "ts": "2026-11-06T15:41:00+08:00",
@@ -605,22 +624,14 @@
       "confidence": "Unconfirmed",
       "source": "Wall St Engine (citing WSJ, Kpler)",
       "url": "https://x.com/wallstengine/status/2117785959433683252"
-    },
-    {
-      "time": "07:51",
-      "ts": "2026-11-04T07:51:17+08:00",
-      "eventTime": "7:47 am, 4 Nov",
-      "eventTs": "2026-11-04T07:47:54+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi Civil Defense issues early-warning alert for Riyadh as ballistic missiles reportedly launched from Yemen; all-clear about 10 minutes later, no damage reported.",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Arab News (citing Saudi Civil Defense)",
-      "url": "https://x.com/arabnews/status/2117766594675847477"
     }
   ],
   "sources": [
+    {
+      "title": "FinancialJuice: Ukraine said to confirm strike on Russia's Afipsky refinery",
+      "site": "X / FinancialJuice",
+      "href": "https://x.com/financialjuice/status/2118620725330456695"
+    },
     {
       "title": "First Squawk: Saudi-led coalition intercepts 2 missiles targeting Najran",
       "site": "X / First Squawk",
@@ -1090,10 +1101,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy said two more tankers caught fire after hitting mines in Hormuz, while Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai.",
+      "Iran's IRGC Navy said two more tankers caught fire after hitting mines in Hormuz, while Ukraine reportedly confirmed its drone strike on Russia's Afipsky refinery in Krasnodar Krai.",
       "The Saudi-led coalition said it intercepted two Houthi ballistic missiles aimed at Najran, while the FT reported negotiators working toward a deal to end the Iran war."
     ],
-    "updated": "Fri 6 Nov 2026, 3:42 pm SGT",
-    "updatedTs": "2026-11-06T15:42:00+08:00"
+    "updated": "Fri 6 Nov 2026, 4:29 pm SGT",
+    "updatedTs": "2026-11-06T16:29:00+08:00"
   }
 }
