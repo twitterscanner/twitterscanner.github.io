@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 3:07 pm SGT",
-  "lastScannedTs": "2026-11-06T15:07:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 3:06 pm SGT",
-  "asOfTs": "2026-11-06T15:06:31+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 3:30 pm SGT",
+  "lastScannedTs": "2026-11-06T15:30:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 3:29 pm SGT",
+  "asOfTs": "2026-11-06T15:29:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "bottom": "Hormuz tanker mine hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker mine hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 3 lower",
-    "text": "10 of 13 alerts point higher, 3 lower.",
+    "count": "11 of 14 alerts point higher, 3 lower",
+    "text": "11 of 14 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "IRGC Navy: two more tankers hit mines, ablaze in Hormuz (via IRNA)",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-06T15:29:00+08:00"
+      },
       {
         "text": "Second Najran civil-defense early-warning in six hours; no impact disclosed",
         "confidence": "confirmed",
@@ -99,6 +105,19 @@
     "detail": "Brent futures gained more than $2 to cross $100/bbl around 11:41 am SGT, 6 Nov (First Squawk); US crude was up $1 to $91.52 at 11:28 am SGT"
   },
   "alerts": [
+    {
+      "time": "15:29",
+      "ts": "2026-11-06T15:29:00+08:00",
+      "eventTime": "3:25 pm, 6 Nov (est.)",
+      "eventTs": "2026-11-06T15:25:03+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Iran's IRGC Navy says two more tankers struck mines and caught fire while trying to transit the Strait of Hormuz (via IRNA); unclear if this is a new incident or a restatement of earlier ones",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk citing IRGC Navy / IRNA; FinSquawk (Iranian state media claim, no independent confirmation)",
+      "url": "https://x.com/FirstSquawk/status/2118606192125866173"
+    },
     {
       "time": "15:06",
       "ts": "2026-11-06T15:06:00+08:00",
@@ -605,22 +624,14 @@
       "confidence": "Confirmed",
       "source": "Financial Times",
       "url": "https://x.com/FT/status/2117764052436852976"
-    },
-    {
-      "time": "04:53",
-      "ts": "2026-11-04T04:53:00+08:00",
-      "eventTime": "3:00 am, 4 Nov",
-      "eventTs": "2026-11-04T03:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO 195-26: tanker struck by two unknown projectiles in engine room 14 nm NE of Lima, Oman, in the southern Strait of Hormuz corridor; no casualties.",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO via First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2117721776654524588"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: IRGC Navy says two tankers struck mines, causing fires in Hormuz Strait",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2118606192125866173"
+    },
     {
       "title": "Saudi Civil Defense: early-warning alert in Najran province (Yemen border)",
       "site": "X / Saudi Civil Defense",
@@ -1075,10 +1086,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai, with fires reported, while Saudi Aramco cut its December Arab Light price to Asia to a $7 discount.",
+      "Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai, while Iran's IRGC Navy said two more tankers caught fire after hitting mines in the Strait of Hormuz.",
       "Saudi Civil Defense issued another Najran warning and Houthis claimed a drone strike on Dammam airport, while the FT reported negotiators working toward a deal to end the Iran war."
     ],
-    "updated": "Fri 6 Nov 2026, 3:07 pm SGT",
-    "updatedTs": "2026-11-06T15:07:00+08:00"
+    "updated": "Fri 6 Nov 2026, 3:30 pm SGT",
+    "updatedTs": "2026-11-06T15:30:00+08:00"
   }
 }
