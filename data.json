@@ -5,8 +5,8 @@
   "asOfTs": "2026-11-06T11:33:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut and Oman-Iran Hormuz talks point lower.",
-    "lead": "Net read (last 24 hours): Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut and Oman-Iran Hormuz talks point lower.",
+    "bottom": "Hormuz tanker hits, Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia cut and Oman-Iran talks point lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker hits, Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia cut and Oman-Iran talks point lower.",
     "verdict": "Bullish",
     "count": "9 of 11 alerts point higher, 2 lower",
     "text": "9 of 11 alerts point higher, 2 lower.",
