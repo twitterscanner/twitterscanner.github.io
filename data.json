@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 3:42 pm SGT",
-  "lastScannedTs": "2026-11-06T15:42:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 3:53 pm SGT",
+  "lastScannedTs": "2026-11-06T15:53:00+08:00",
   "asOf": "Fri 6 Nov 2026, 3:40 pm SGT",
   "asOfTs": "2026-11-06T15:40:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "lead": "Net read (last 24 hours): Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "verdict": "Bullish",
-    "count": "12 of 15 alerts point higher, 3 lower",
-    "text": "12 of 15 alerts point higher, 3 lower.",
+    "count": "11 of 14 alerts point higher, 3 lower",
+    "text": "11 of 14 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran",
@@ -76,12 +76,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-05T16:22:00+08:00"
-      },
-      {
-        "text": "Saudi Civil Defense early-warning in Sharurah near Yemen border; cleared in ~9 min",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-05T15:50:00+08:00"
       }
     ],
     "dovish": [
