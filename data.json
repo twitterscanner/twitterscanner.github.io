@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 11:35 am SGT",
-  "lastScannedTs": "2026-11-06T11:35:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 11:54 am SGT",
+  "lastScannedTs": "2026-11-06T11:54:00+08:00",
   "asOf": "Fri 6 Nov 2026, 11:33 am SGT",
   "asOfTs": "2026-11-06T11:33:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -89,8 +89,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "About $99.5, up about 1%",
-    "detail": "Brent about $99.4 to $100/bbl in Asian morning market wraps (GIFT Nifty Live, Moneycontrol), around 11:30 am SGT, 6 Nov; US crude up $1 to $91.52 (First Squawk, 11:28 am SGT)"
+    "value": "Above $100, up more than $2",
+    "detail": "Brent futures gained more than $2 to cross $100/bbl around 11:41 am SGT, 6 Nov (First Squawk); US crude was up $1 to $91.52 at 11:28 am SGT"
   },
   "alerts": [
     {
@@ -615,6 +615,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "AMK Mapping: Ukrainian long-range drones struck Afipsky refinery, Krasnodar Krai; large fire",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2118551657214878176"
+    },
     {
       "title": "LiveSquawk: Aramco cuts December Arab Light OSP to Asia to -$7/bbl",
       "site": "X",
