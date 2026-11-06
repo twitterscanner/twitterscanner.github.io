@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 12:05 pm SGT",
-  "lastScannedTs": "2026-11-06T12:05:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 12:08 pm SGT",
+  "lastScannedTs": "2026-11-06T12:08:00+08:00",
   "asOf": "Fri 6 Nov 2026, 11:33 am SGT",
   "asOfTs": "2026-11-06T11:33:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Russian refinery strike claims, Hormuz tanker fires and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut signals soft demand.",
-    "lead": "Net read (last 24 hours): Russian refinery strike claims, Hormuz tanker fires and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut signals soft demand.",
+    "bottom": "Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut and Oman-Iran Hormuz talks point lower.",
+    "lead": "Net read (last 24 hours): Russian refinery strike claims and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut and Oman-Iran Hormuz talks point lower.",
     "verdict": "Bullish",
-    "count": "10 of 12 alerts point higher, 2 lower",
-    "text": "10 of 12 alerts point higher, 2 lower.",
+    "count": "9 of 11 alerts point higher, 2 lower",
+    "text": "9 of 11 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Drones reportedly hit Afipsky refinery, Krasnodar Krai; fires reported",
@@ -64,12 +64,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-05T15:50:00+08:00"
-      },
-      {
-        "text": "IRGC says tanker hit mine, second supertanker and tug ablaze in Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-05T12:04:29+08:00"
       }
     ],
     "dovish": [
