@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 6:59 pm SGT",
-  "lastScannedTs": "2026-11-06T18:59:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 6:58 pm SGT",
-  "asOfTs": "2026-11-06T18:58:20+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 8:03 pm SGT",
+  "lastScannedTs": "2026-11-06T20:03:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 8:02 pm SGT",
+  "asOfTs": "2026-11-06T20:02:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine hits, Afipsky and Yanos refinery strikes, Houthi attacks on Najran and Mecca, and CENTCOM Iran options lean higher; Aramco's Asia cut points lower.",
-    "lead": "Net read (last 24 hours): Hormuz mine hits, Afipsky and Yanos refinery strikes, Houthi attacks on Najran and Mecca, and CENTCOM Iran options lean higher; Aramco's Asia cut points lower.",
+    "bottom": "Aramco gas-site fire claim, Hormuz mine hits, Afipsky and Yanos strikes, Houthi attacks and CENTCOM options lean higher; Aramco's Asia cut points lower.",
+    "lead": "Net read (last 24 hours): Aramco gas-site fire claim, Hormuz mine hits, Afipsky and Yanos strikes, Houthi attacks and CENTCOM options lean higher; Aramco's Asia cut points lower.",
     "verdict": "Bullish",
-    "count": "13 of 15 alerts point higher, 2 lower",
-    "text": "13 of 15 alerts point higher, 2 lower.",
+    "count": "14 of 16 alerts point higher, 2 lower",
+    "text": "14 of 16 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Satellite imagery shows unusual fire at Aramco gas facility, Eastern Province; cause unknown",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Aramco",
+        "ts": "2026-11-06T20:02:16+08:00"
+      },
       {
         "text": "Coalition downs drone over Saudi Mecca region (Jeddah area); launcher not named",
         "confidence": "confirmed",
@@ -111,6 +117,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:02",
+      "ts": "2026-11-06T20:02:16+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Satellite imagery reportedly shows an unusual fire at an Aramco gas facility in Saudi Arabia's Eastern Province; no cause, site name or official confirmation yet (single OSINT claim)",
+      "theme": "Saudi / Aramco",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (CocoPostel), citing AB4_Ali3",
+      "url": "https://x.com/CocoPostel/status/2118674672124637262"
+    },
     {
       "time": "18:58",
       "ts": "2026-11-06T18:58:20+08:00",
@@ -617,19 +636,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk (citing Saudi Civil Defense)",
       "url": "https://x.com/FirstSquawk/status/2117877356480328174"
-    },
-    {
-      "time": "12:31",
-      "ts": "2026-11-04T12:31:01+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump tells Politico he is again open to striking Iran: 'if we see any opportunity to do one thing or another, we're going to do it'",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical (citing Politico interview)",
-      "url": "https://x.com/Osinttechnical/status/2117836995393175868"
     }
   ],
   "sources": [
@@ -1118,9 +1124,9 @@
     "title": "Today's key developments",
     "lines": [
       "Ukraine reportedly confirmed its drone strike on Russia's Afipsky refinery, Yanos refinery reportedly halted, and Iran's IRGC Navy said two more tankers hit Hormuz mines.",
-      "Fox News reported CENTCOM is finalizing options against Iran as Trump weighs resuming the war, while the Saudi-led coalition intercepted Houthi missiles at Najran and a drone over Mecca."
+      "Fox News reported CENTCOM is finalizing options against Iran as Trump weighs resuming the war, while an unconfirmed satellite report shows a fire at an Aramco gas facility in Saudi Arabia's Eastern Province."
     ],
-    "updated": "Fri 6 Nov 2026, 6:59 pm SGT",
-    "updatedTs": "2026-11-06T18:59:00+08:00"
+    "updated": "Fri 6 Nov 2026, 8:03 pm SGT",
+    "updatedTs": "2026-11-06T20:03:00+08:00"
   }
 }
