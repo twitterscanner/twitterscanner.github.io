@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 8:12 pm SGT",
-  "lastScannedTs": "2026-11-06T20:12:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 8:50 pm SGT",
+  "lastScannedTs": "2026-11-06T20:50:00+08:00",
   "asOf": "Fri 6 Nov 2026, 8:10 pm SGT",
   "asOfTs": "2026-11-06T20:10:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker blasts and mine hits, Aramco gas-site fire claim, Afipsky and Yanos strikes, Houthi attacks lean higher; Aramco's Asia cut points lower.",
     "lead": "Net read (last 24 hours): Hormuz tanker blasts and mine hits, Aramco gas-site fire claim, Afipsky and Yanos strikes, Houthi attacks lean higher; Aramco's Asia cut points lower.",
     "verdict": "Bullish",
-    "count": "15 of 17 alerts point higher, 2 lower",
-    "text": "15 of 17 alerts point higher, 2 lower.",
+    "count": "14 of 16 alerts point higher, 2 lower",
+    "text": "14 of 16 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "UKMTO: Hormuz tanker hit by waterline explosion 16 nm east of Khasab; crew safe, vessel continues",
@@ -94,12 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-05T22:57:13+08:00"
-      },
-      {
-        "text": "Saree: ops target Saudi oil facilities, denies Medina hit",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-05T20:44:00+08:00"
       }
     ],
     "dovish": [
