@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 11:21 am SGT",
-  "lastScannedTs": "2026-11-06T11:21:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 3:02 am SGT",
-  "asOfTs": "2026-11-06T03:02:16+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 11:35 am SGT",
+  "lastScannedTs": "2026-11-06T11:35:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 11:33 am SGT",
+  "asOfTs": "2026-11-06T11:33:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mines, tanker hits and Houthi strikes on Saudi keep risks skewed higher, though Aramco's deep Asia cut signals soft demand.",
-    "lead": "Net read (last 24 hours): Hormuz mines, tanker hits and Houthi strikes on Saudi keep risks skewed higher, though Aramco's deep Asia cut signals soft demand.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "9 of 12 alerts point higher, 3 lower",
-    "text": "9 of 12 alerts point higher, 3 lower.",
+    "bottom": "Russian refinery strike claims, Hormuz tanker fires and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut signals soft demand.",
+    "lead": "Net read (last 24 hours): Russian refinery strike claims, Hormuz tanker fires and Houthi attacks on Saudi lean higher, though Aramco's deep Asia price cut signals soft demand.",
+    "verdict": "Bullish",
+    "count": "10 of 12 alerts point higher, 2 lower",
+    "text": "10 of 12 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Drones reportedly hit Afipsky refinery, Krasnodar Krai; fires reported",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-06T11:34:00+08:00"
+      },
       {
         "text": "Houthi claim: drone hit King Fahd Airport Dammam, air traffic disrupted",
         "confidence": "unconfirmed",
@@ -78,21 +84,28 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-05T18:28:00+08:00"
-      },
-      {
-        "text": "WSJ: Saudi sounds out Houthis on ceasefire price; Houthis demand $51 billion",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-05T11:23:16+08:00"
       }
     ],
     "neutral": []
   },
   "brent": {
-    "value": "$93.61, down $1.01",
-    "detail": "Brent crude down $1.01 to $93.61/bbl and US crude down $1.05 to $87.07 in Asian trading, around 9:44 am SGT, 5 Nov (First Squawk); settled $94.62 on Wednesday"
+    "value": "About $99.5, up about 1%",
+    "detail": "Brent about $99.4 to $100/bbl in Asian morning market wraps (GIFT Nifty Live, Moneycontrol), around 11:30 am SGT, 6 Nov; US crude up $1 to $91.52 (First Squawk, 11:28 am SGT)"
   },
   "alerts": [
+    {
+      "time": "11:34",
+      "ts": "2026-11-06T11:34:00+08:00",
+      "eventTime": "10:55 am, 6 Nov (est.)",
+      "eventTs": "2026-11-06T10:55:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Ukrainian drones reportedly hit the Afipsky oil refinery in Russia's Krasnodar Krai (about 7 million tonnes a year); fires and explosions reported in Krasnodar",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "LetsArmUKR and several OSINT accounts (Ukrainian OSINT; no official confirmation yet)",
+      "url": "https://x.com/LetsArmUKR/status/2118539440553328747"
+    },
     {
       "time": "02:55",
       "ts": "2026-11-06T02:55:00+08:00",
@@ -599,19 +612,6 @@
       "confidence": "Unconfirmed",
       "source": "LiveSquawk (citing Tasnim)",
       "url": "https://x.com/LiveSquawk/status/2117679181756543386"
-    },
-    {
-      "time": "01:53",
-      "ts": "2026-11-04T01:53:44+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "NYT: Israel told US Iran is weighing chemical weapons use; some US officials see it as pressure to resume major combat against Iran.",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk / LiveSquawk (citing NYT)",
-      "url": "https://x.com/FirstSquawk/status/2117676615425798574"
     }
   ],
   "sources": [
@@ -1059,10 +1059,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Aramco cut its December Arab Light price to Asia to a $7 per barrel discount, a roughly $2 cut signalling softer Asian demand.",
-      "Overnight, Houthi spokesman Yahya Saree claimed a drone strike on King Fahd Airport in Dammam, while Saudi Civil Defense issued another Sharurah early-warning."
+      "Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai, with fires reported, while Saudi Aramco cut its December Arab Light price to Asia to a $7 discount.",
+      "Overnight, Houthi spokesman Yahya Saree claimed a drone strike on King Fahd Airport in Dammam, and Saudi Civil Defense issued another Sharurah early-warning."
     ],
-    "updated": "Fri 6 Nov 2026, 3:05 am SGT",
-    "updatedTs": "2026-11-06T03:05:00+08:00"
+    "updated": "Fri 6 Nov 2026, 11:35 am SGT",
+    "updatedTs": "2026-11-06T11:35:00+08:00"
   }
 }
