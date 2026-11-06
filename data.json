@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 3:01 pm SGT",
-  "lastScannedTs": "2026-11-06T15:01:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 1:12 pm SGT",
-  "asOfTs": "2026-11-06T13:12:38+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 3:07 pm SGT",
+  "lastScannedTs": "2026-11-06T15:07:00+08:00",
+  "asOf": "Fri 6 Nov 2026, 3:06 pm SGT",
+  "asOfTs": "2026-11-06T15:06:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker hits, Russian refinery strikes and Houthi attacks on Saudi lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal-progress report point lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker hits, Russian refinery strikes and Houthi attacks on Saudi lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal-progress report point lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "9 of 12 alerts point higher, 3 lower",
-    "text": "9 of 12 alerts point higher, 3 lower.",
+    "bottom": "Hormuz tanker hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "lead": "Net read (last 24 hours): Hormuz tanker hits, Russian refinery strikes and repeated Saudi border warnings lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
+    "verdict": "Bullish",
+    "count": "10 of 13 alerts point higher, 3 lower",
+    "text": "10 of 13 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Second Najran civil-defense early-warning in six hours; no impact disclosed",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-06T15:06:00+08:00"
+      },
       {
         "text": "Drones reportedly hit Afipsky refinery, Krasnodar Krai; fires reported",
         "confidence": "unconfirmed",
@@ -93,6 +99,19 @@
     "detail": "Brent futures gained more than $2 to cross $100/bbl around 11:41 am SGT, 6 Nov (First Squawk); US crude was up $1 to $91.52 at 11:28 am SGT"
   },
   "alerts": [
+    {
+      "time": "15:06",
+      "ts": "2026-11-06T15:06:00+08:00",
+      "eventTime": "3:01 pm, 6 Nov",
+      "eventTs": "2026-11-06T15:01:54+08:00",
+      "eventQual": "confirmed",
+      "headline": "Saudi Civil Defense issues another early-warning alert in Najran province (Yemen border), the second there in about six hours; no impact disclosed yet",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Civil Defense (official); First Squawk; MenchOsint",
+      "url": "https://x.com/SaudiDCD/status/2118599742305321449"
+    },
     {
       "time": "13:13",
       "ts": "2026-11-06T13:13:00+08:00",
@@ -599,22 +618,14 @@
       "confidence": "Confirmed",
       "source": "UKMTO via First Squawk",
       "url": "https://x.com/FirstSquawk/status/2117721776654524588"
-    },
-    {
-      "time": "03:00",
-      "ts": "2026-11-04T03:00:01+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "NYT: Pentagon readying options for a renewed major US attack on Iran, possibly as early as Nov 4, right after the midterms.",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Mario Nawfal (citing New York Times)",
-      "url": "https://x.com/MarioNawfal/status/2117693298907164967"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense: early-warning alert in Najran province (Yemen border)",
+      "site": "X / Saudi Civil Defense",
+      "href": "https://x.com/SaudiDCD/status/2118599742305321449"
+    },
     {
       "title": "AMK Mapping: Ukrainian long-range drones struck Afipsky refinery, Krasnodar Krai; large fire",
       "site": "X / AMK Mapping",
@@ -1065,9 +1076,9 @@
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones reportedly struck Russia's Afipsky refinery in Krasnodar Krai, with fires reported, while Saudi Aramco cut its December Arab Light price to Asia to a $7 discount.",
-      "Houthis claimed a drone strike on Dammam airport and Saudi Civil Defense issued another Sharurah warning, while the FT reported negotiators working toward a deal to end the Iran war."
+      "Saudi Civil Defense issued another Najran warning and Houthis claimed a drone strike on Dammam airport, while the FT reported negotiators working toward a deal to end the Iran war."
     ],
-    "updated": "Fri 6 Nov 2026, 1:14 pm SGT",
-    "updatedTs": "2026-11-06T13:14:00+08:00"
+    "updated": "Fri 6 Nov 2026, 3:07 pm SGT",
+    "updatedTs": "2026-11-06T15:07:00+08:00"
   }
 }
