@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 6 Nov 2026, 4:02 pm SGT",
-  "lastScannedTs": "2026-11-06T16:02:00+08:00",
+  "lastScanned": "Fri 6 Nov 2026, 4:23 pm SGT",
+  "lastScannedTs": "2026-11-06T16:23:00+08:00",
   "asOf": "Fri 6 Nov 2026, 3:40 pm SGT",
   "asOfTs": "2026-11-06T15:40:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "lead": "Net read (last 24 hours): Hormuz tanker mine hits, a Houthi missile attack on Najran and Russian refinery strikes lean higher; Aramco's Asia cut, Oman-Iran talks and FT deal report point lower.",
     "verdict": "Bullish",
-    "count": "11 of 14 alerts point higher, 3 lower",
-    "text": "11 of 14 alerts point higher, 3 lower.",
+    "count": "10 of 13 alerts point higher, 3 lower",
+    "text": "10 of 13 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran",
@@ -70,12 +70,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-05T17:27:00+08:00"
-      },
-      {
-        "text": "UKMTO: tanker hit by two projectiles 50 nm north of Qatar",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-05T16:22:00+08:00"
       }
     ],
     "dovish": [
@@ -101,8 +95,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "Above $100, up more than $2",
-    "detail": "Brent futures gained more than $2 to cross $100/bbl around 11:41 am SGT, 6 Nov (First Squawk); US crude was up $1 to $91.52 at 11:28 am SGT"
+    "value": "$99.42 (WTI $91.24)",
+    "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
     {
