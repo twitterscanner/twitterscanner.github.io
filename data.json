@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 07 Nov 2026, 2:00 am SGT",
-  "lastScannedTs": "2026-11-07T02:00:00+08:00",
-  "asOf": "Fri 6 Nov 2026, 8:10 pm SGT",
-  "asOfTs": "2026-11-06T20:10:44+08:00",
+  "lastScanned": "Sat 07 Nov 2026, 5:55 am SGT",
+  "lastScannedTs": "2026-11-07T05:55:00+08:00",
+  "asOf": "Sat 7 Nov 2026, 5:55 am SGT",
+  "asOfTs": "2026-11-07T05:55:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker hits and mine claims, Aramco fire report, Afipsky and Yanos, Houthi intercepts lean higher; FT Iran deal talk points lower.",
-    "lead": "Net read (last 24 hours): Hormuz tanker hits and mine claims, Aramco fire report, Afipsky and Yanos, Houthi intercepts lean higher; FT Iran deal talk points lower.",
+    "bottom": "US Qeshm SAM strike reports, Hormuz tanker hits and Russian refinery risk lean higher; FT Iran deal talk still points lower.",
+    "lead": "Net read (last 24 hours): US Qeshm SAM strike reports, Hormuz tanker hits and Russian refinery risk lean higher; FT Iran deal talk still points lower.",
     "verdict": "Bullish",
-    "count": "10 of 11 alerts point higher, 1 lower",
-    "text": "10 of 11 alerts point higher, 1 lower.",
+    "count": "11 of 12 alerts point higher, 1 lower",
+    "text": "11 of 12 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Unconfirmed: US forces reportedly conducted two airstrikes on an Iranian surface-to-air missile launcher near…",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-07T05:55:00+08:00"
+      },
       {
         "text": "UKMTO: Hormuz tanker hit by waterline explosion 16 nm east of Khasab; crew safe, vessel continues",
         "confidence": "confirmed",
@@ -87,6 +93,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:55",
+      "ts": "2026-11-07T05:55:00+08:00",
+      "eventTime": "5:09 am, 7 Nov (est.)",
+      "eventTs": "2026-11-07T05:09:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: US forces reportedly conducted two airstrikes on an Iranian surface-to-air missile launcher near Quza/Suza on Qeshm Island after it allegedly fired at a US FA-18 over the Strait of Hormuz; explosions and air-defence activity reported locally.",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping",
+      "url": "https://x.com/AMK_Mapping_/status/2118823809918882014"
+    },
     {
       "time": "20:10",
       "ts": "2026-11-06T20:10:44+08:00",
@@ -593,22 +612,24 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel (citing Saudi Civil Defense); Iran International",
       "url": "https://x.com/Osint613/status/2117909320801095931"
-    },
-    {
-      "time": "16:14",
-      "ts": "2026-11-04T16:14:52+08:00",
-      "eventTime": "Not stated (told analysts today)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Aramco CEO says work has begun to expand the East-West Pipeline that bypasses Hormuz; engineering underway on other export routes and more storage abroad (per Reuters).",
-      "theme": "Saudi / Aramco",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Adi Imsirovic (relaying Reuters)",
-      "url": "https://x.com/AdiSurreyEnergy/status/2117893325781127426"
     }
   ],
   "sources": [
+    {
+      "title": "Visioner: two US strikes reported against Iranian missile launchers on Qeshm",
+      "site": "x.com",
+      "href": "https://x.com/visionergeo/status/2118822141785182460"
+    },
+    {
+      "title": "Osint613: explosions and SAM launch reported on Qeshm Island",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2118813031257780467"
+    },
+    {
+      "title": "AMK Mapping: US airstrikes on Iranian SAM near Quza, Qeshm Island",
+      "site": "x.com",
+      "href": "https://x.com/AMK_Mapping_/status/2118823809918882014"
+    },
     {
       "title": "Arab News: Saudi-led coalition intercepts drone in Makkah region",
       "site": "X / Arab News",
@@ -1093,10 +1114,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO logged another Hormuz tanker waterline hit off Khasab; IRGC mine claims and Ukraine's Afipsky hit plus a Yanos halt keep Russian supply risk high.",
-      "Unconfirmed Aramco Eastern Province gas-facility fire and Fox CENTCOM Iran options lean higher, tempered by FT Iran deal talk via Qatar."
+      "Overnight OSINT reports US retaliatory airstrikes on an Iranian SAM launcher on Qeshm Island after alleged fire at a US jet over Hormuz.",
+      "UKMTO's Khasab waterline tanker hit, IRGC mine claims and Ukraine's Afipsky/Yanos hits still frame the supply-risk backdrop."
     ],
-    "updated": "Sat 7 Nov 2026, 2:59 am SGT",
-    "updatedTs": "2026-11-07T02:59:26+08:00"
+    "updated": "Sat 7 Nov 2026, 5:55 am SGT",
+    "updatedTs": "2026-11-07T05:55:00+08:00"
   }
 }
