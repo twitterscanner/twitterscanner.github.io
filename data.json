@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 07 Nov 2026, 5:58 pm SGT",
-  "lastScannedTs": "2026-11-07T17:58:11+08:00",
-  "asOf": "Sat 7 Nov 2026, 2:55 pm SGT",
-  "asOfTs": "2026-11-07T14:55:11+08:00",
+  "lastScanned": "Sat 07 Nov 2026, 8:58 pm SGT",
+  "lastScannedTs": "2026-11-07T20:58:00+08:00",
+  "asOf": "Sat 7 Nov 2026, 8:56 pm SGT",
+  "asOfTs": "2026-11-07T20:56:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Saratov hit, confirmed Qeshm strikes, Riyadh cruise-missile intercept, Hormuz tanker hits lean higher; no dovish items in 24h.",
-    "lead": "Net read (last 24 hours): Saratov hit, confirmed Qeshm strikes, Riyadh cruise-missile intercept, Hormuz tanker hits lean higher; no dovish items in 24h.",
+    "bottom": "Hormuz mine claim, confirmed Qeshm strikes, Saratov refinery hit and Riyadh missile intercept all lean higher; no dovish items in 24h.",
+    "lead": "Net read (last 24 hours): Hormuz mine claim, confirmed Qeshm strikes, Saratov refinery hit and Riyadh missile intercept all lean higher; no dovish items in 24h.",
     "verdict": "Bullish",
-    "count": "8 of 8 alerts point higher, 0 lower",
-    "text": "8 of 8 alerts point higher, 0 lower.",
+    "count": "5 of 5 alerts point higher, 0 lower",
+    "text": "5 of 5 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Iran Navy says tanker hit mine east of Hormuz, caught fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-07T20:58:00+08:00"
+      },
       {
         "text": "Coalition intercepts Houthi cruise missile targeting Riyadh",
         "confidence": "confirmed",
@@ -34,30 +40,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-07T05:55:00+08:00"
-      },
-      {
-        "text": "UKMTO: Hormuz tanker hit by waterline explosion 16 nm east of Khasab; crew safe, vessel continues",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-06T20:10:44+08:00"
-      },
-      {
-        "text": "Satellite imagery shows unusual fire at Aramco gas facility, Eastern Province; cause unknown",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Aramco",
-        "ts": "2026-11-06T20:02:16+08:00"
-      },
-      {
-        "text": "Coalition downs drone over Saudi Mecca region (Jeddah area); launcher not named",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-06T18:58:20+08:00"
-      },
-      {
-        "text": "Fox: CENTCOM finalizing Iran options; Trump to decide soon on resuming war",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-06T18:19:00+08:00"
       }
     ],
     "dovish": [],
@@ -68,6 +50,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:58",
+      "ts": "2026-11-07T20:58:00+08:00",
+      "eventTime": "Sat 7 Nov ~1:30 pm SGT (est., 'this morning' Iran time)",
+      "eventTs": "2026-11-07T13:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Iran's Navy says a 'non-compliant' oil tanker hit a naval mine east of the Strait of Hormuz, caught fire and stopped; no ship name, no UKMTO confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FirstSquawk (via Fars/IRNA)",
+      "url": "https://x.com/FirstSquawk/status/2119011112998039815"
+    },
     {
       "time": "14:55",
       "ts": "2026-11-07T14:55:00+08:00",
@@ -574,22 +569,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Iranian state media / IRGC; also CGTN, FinancialJuice",
       "url": "https://x.com/FirstSquawk/status/2117983127310393520"
-    },
-    {
-      "time": "22:00",
-      "ts": "2026-11-04T22:00:03+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi spokesman Yahya Saree claims a ballistic missile hit Riyadh's King Khalid International Airport, causing major damage; urges airlines to avoid it.",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree (Houthi military spokesman, Arabic); First Squawk",
-      "url": "https://x.com/Yah_Saree/status/2117980195286356017"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Iran Navy claims oil tanker hit mine in Hormuz Saturday (Fars)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119011112998039815"
+    },
     {
       "title": "OSINTtechnical: pillars of smoke and flame from Russia's Saratov oil refinery after Ukrainian drone raid",
       "site": "X / OSINTtechnical",
@@ -1124,11 +1111,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Trump and AP confirmed US small-scale strikes on Iranian anti-aircraft on Qeshm near Hormuz; Ukrainian drones hit Saratov (Rosneft) with fires.",
-      "Saudi-led coalition intercepted a Houthi cruise missile targeting Riyadh, extending the Houthi campaign beyond Najran and Mecca."
+      "Trump and AP confirmed US strikes on Iranian anti-aircraft on Qeshm near Hormuz, and Iran's Navy claims a tanker hit a mine east of the strait.",
+      "Ukrainian drones set fires at Russia's Saratov refinery, while the Saudi-led coalition intercepted a Houthi cruise missile aimed at Riyadh."
     ],
-    "updated": "Sat 7 Nov 2026, 2:55 pm SGT",
-    "updatedTs": "2026-11-07T14:55:21+08:00"
+    "updated": "Sat 7 Nov 2026, 8:58 pm SGT",
+    "updatedTs": "2026-11-07T20:58:00+08:00"
   },
   "last24Count": 13
 }
