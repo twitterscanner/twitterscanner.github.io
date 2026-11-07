@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Sat 07 Nov 2026, 2:55 pm SGT",
-  "lastScannedTs": "2026-11-07T14:55:00+08:00",
+  "lastScanned": "Sat 07 Nov 2026, 5:58 pm SGT",
+  "lastScannedTs": "2026-11-07T17:58:11+08:00",
   "asOf": "Sat 7 Nov 2026, 2:55 pm SGT",
   "asOfTs": "2026-11-07T14:55:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Saratov hit, confirmed Qeshm strikes, Riyadh cruise-missile intercept, Hormuz tanker hits lean higher; no dovish items in 24h.",
     "lead": "Net read (last 24 hours): Saratov hit, confirmed Qeshm strikes, Riyadh cruise-missile intercept, Hormuz tanker hits lean higher; no dovish items in 24h.",
     "verdict": "Bullish",
-    "count": "13 of 13 alerts point higher, 0 lower",
-    "text": "13 of 13 alerts point higher, 0 lower.",
+    "count": "8 of 8 alerts point higher, 0 lower",
+    "text": "8 of 8 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Coalition intercepts Houthi cruise missile targeting Riyadh",
@@ -58,36 +58,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-06T18:19:00+08:00"
-      },
-      {
-        "text": "Yanos refinery, Yaroslavl, reportedly halted after 3 Nov drone attack",
-        "confidence": "unconfirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-06T17:20:00+08:00"
-      },
-      {
-        "text": "Ukraine reportedly confirms Afipsky refinery strike, Krasnodar Krai; Russia cites only debris fire",
-        "confidence": "confirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-06T16:27:00+08:00"
-      },
-      {
-        "text": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-06T15:41:00+08:00"
-      },
-      {
-        "text": "IRGC Navy: two more tankers hit mines, ablaze in Hormuz (via IRNA)",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-06T15:29:00+08:00"
-      },
-      {
-        "text": "Second Najran civil-defense early-warning in six hours; no impact disclosed",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-06T15:06:00+08:00"
       }
     ],
     "dovish": [],
