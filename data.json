@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 07 Nov 2026, 11:57 am SGT",
-  "lastScannedTs": "2026-11-07T11:57:00+08:00",
-  "asOf": "Sat 7 Nov 2026, 11:58 am SGT",
-  "asOfTs": "2026-11-07T11:58:40+08:00",
+  "lastScanned": "Sat 07 Nov 2026, 2:55 pm SGT",
+  "lastScannedTs": "2026-11-07T14:55:00+08:00",
+  "asOf": "Sat 7 Nov 2026, 2:55 pm SGT",
+  "asOfTs": "2026-11-07T14:55:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Saratov refinery hit and confirmed US Qeshm strikes lean higher; FT Iran deal talk still points lower.",
-    "lead": "Net read (last 24 hours): Saratov refinery hit and confirmed US Qeshm strikes lean higher; FT Iran deal talk still points lower.",
+    "bottom": "Saratov hit, confirmed Qeshm strikes, Riyadh cruise-missile intercept, Hormuz tanker hits lean higher; no dovish items in 24h.",
+    "lead": "Net read (last 24 hours): Saratov hit, confirmed Qeshm strikes, Riyadh cruise-missile intercept, Hormuz tanker hits lean higher; no dovish items in 24h.",
     "verdict": "Bullish",
-    "count": "12 of 13 alerts point higher, 1 lower",
-    "text": "12 of 13 alerts point higher, 1 lower.",
+    "count": "13 of 13 alerts point higher, 0 lower",
+    "text": "13 of 13 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Coalition intercepts Houthi cruise missile targeting Riyadh",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-07T14:55:00+08:00"
+      },
       {
         "text": "Ukrainian drones hit Saratov (Rosneft) refinery; fires, ~140 kbpd",
         "confidence": "unconfirmed",
@@ -84,14 +90,7 @@
         "ts": "2026-11-06T15:06:00+08:00"
       }
     ],
-    "dovish": [
-      {
-        "text": "FT: negotiators working toward deal to end Iran war",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-06T13:13:00+08:00"
-      }
-    ],
+    "dovish": [],
     "neutral": []
   },
   "brent": {
@@ -99,6 +98,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:55",
+      "ts": "2026-11-07T14:55:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says it intercepted a Houthi cruise missile targeting Riyadh",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "FirstSquawk",
+      "url": "https://x.com/FirstSquawk/status/2118933691670184200"
+    },
     {
       "time": "11:18",
       "ts": "2026-11-07T11:18:00+08:00",
@@ -605,19 +617,6 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree (Houthi military spokesman, Arabic); First Squawk",
       "url": "https://x.com/Yah_Saree/status/2117980195286356017"
-    },
-    {
-      "time": "19:38",
-      "ts": "2026-11-04T19:38:36+08:00",
-      "eventTime": "Mon 2 Nov, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "TankerTrackers: Iran's Hormuz authority doubled its 'non-compliant' tanker target list to 240 ships; about 30% of cargo on listed tankers is Iraqi crude.",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "TankerTrackers; Seatrade via Sal Mercogliano",
-      "url": "https://x.com/TankerTrackers/status/2117944598702219510"
     }
   ],
   "sources": [
@@ -1155,10 +1154,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Trump and AP confirmed US small-scale strikes on Iranian anti-aircraft on Qeshm near Hormuz, after overnight OSINT reports.",
-      "Ukrainian drones hit Russia's Saratov (Rosneft) oil refinery on the Volga with multiple fires; seventh Russian plant hit in days."
+      "Trump and AP confirmed US small-scale strikes on Iranian anti-aircraft on Qeshm near Hormuz; Ukrainian drones hit Saratov (Rosneft) with fires.",
+      "Saudi-led coalition intercepted a Houthi cruise missile targeting Riyadh, extending the Houthi campaign beyond Najran and Mecca."
     ],
-    "updated": "Sat 7 Nov 2026, 11:57 am SGT",
-    "updatedTs": "2026-11-07T11:57:00+08:00"
-  }
+    "updated": "Sat 7 Nov 2026, 2:55 pm SGT",
+    "updatedTs": "2026-11-07T14:55:21+08:00"
+  },
+  "last24Count": 13
 }
