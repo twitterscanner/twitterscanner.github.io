@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sat 07 Nov 2026, 8:56 am SGT",
-  "lastScannedTs": "2026-11-07T08:56:33+08:00",
-  "asOf": "Sat 7 Nov 2026, 5:55 am SGT",
-  "asOfTs": "2026-11-07T05:55:14+08:00",
+  "lastScanned": "Sat 07 Nov 2026, 11:57 am SGT",
+  "lastScannedTs": "2026-11-07T11:57:00+08:00",
+  "asOf": "Sat 7 Nov 2026, 11:58 am SGT",
+  "asOfTs": "2026-11-07T11:58:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "US Qeshm SAM strike reports, Hormuz tanker hits and Russian refinery risk lean higher; FT Iran deal talk still points lower.",
-    "lead": "Net read (last 24 hours): US Qeshm SAM strike reports, Hormuz tanker hits and Russian refinery risk lean higher; FT Iran deal talk still points lower.",
+    "bottom": "Saratov refinery hit and confirmed US Qeshm strikes lean higher; FT Iran deal talk still points lower.",
+    "lead": "Net read (last 24 hours): Saratov refinery hit and confirmed US Qeshm strikes lean higher; FT Iran deal talk still points lower.",
     "verdict": "Bullish",
-    "count": "11 of 12 alerts point higher, 1 lower",
-    "text": "11 of 12 alerts point higher, 1 lower.",
+    "count": "12 of 13 alerts point higher, 1 lower",
+    "text": "12 of 13 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drones hit Saratov (Rosneft) refinery; fires, ~140 kbpd",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-07T11:18:00+08:00"
+      },
+      {
+        "text": "Trump/AP confirm US Qeshm anti-aircraft strikes near Hormuz",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-07T11:09:00+08:00"
+      },
       {
         "text": "US reportedly hit Iranian SAM on Qeshm after alleged fire at FA-18 over Hormuz",
         "confidence": "unconfirmed",
@@ -70,12 +82,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-06T15:06:00+08:00"
-      },
-      {
-        "text": "Drones reportedly hit Afipsky refinery, Krasnodar Krai; fires reported",
-        "confidence": "unconfirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-06T11:34:00+08:00"
       }
     ],
     "dovish": [
@@ -93,6 +99,32 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:09",
+      "ts": "2026-11-07T11:09:00+08:00",
+      "eventTime": "5:09 am, 7 Nov (est.)",
+      "eventTs": "2026-11-07T05:09:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump and AP confirm US carried out small-scale / targeted strikes on Iranian anti-aircraft on Qeshm Island near Hormuz (upgrade of earlier OSINT reports)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Amena Bakr (AP) / First Squawk / OSINTdefender",
+      "url": "https://x.com/Amena__Bakr/status/2118903567419576648"
+    },
+    {
+      "time": "11:18",
+      "ts": "2026-11-07T11:18:00+08:00",
+      "eventTime": "10:30 am, 7 Nov (est.)",
+      "eventTs": "2026-11-07T10:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Ukrainian drones hit Russia's Saratov (Rosneft) oil refinery on the Volga; multiple fires reported, ~140 kbpd capacity; seventh Russian refinery hit in about eight days",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTtechnical / OSINTdefender / Kyiv Independent",
+      "url": "https://x.com/Osinttechnical/status/2118900360219693499"
+    },
     {
       "time": "05:55",
       "ts": "2026-11-07T05:55:00+08:00",
@@ -586,32 +618,6 @@
       "confidence": "Confirmed",
       "source": "TankerTrackers; Seatrade via Sal Mercogliano",
       "url": "https://x.com/TankerTrackers/status/2117944598702219510"
-    },
-    {
-      "time": "18:35",
-      "ts": "2026-11-04T18:35:00+08:00",
-      "eventTime": "6:35 pm, 4 Nov (est.)",
-      "eventTs": "2026-11-04T18:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Supreme Leader Mojtaba Khamenei says Hormuz action was a response to US 'aggression' and warns further US attacks will bring a 'far wider' response.",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk; Iran International, Al Arabiya, Al Mayadeen",
-      "url": "https://x.com/FirstSquawk/status/2117928593502421012"
-    },
-    {
-      "time": "17:18",
-      "ts": "2026-11-04T17:18:25+08:00",
-      "eventTime": "5:15 pm, 4 Nov (est.)",
-      "eventTs": "2026-11-04T17:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Civil Defense sounds early-warning alert in Jazan, home to Aramco's 400,000 b/d Jazan refinery, over a possible threat; danger declared passed minutes later.",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel (citing Saudi Civil Defense); Iran International",
-      "url": "https://x.com/Osint613/status/2117909320801095931"
     }
   ],
   "sources": [
@@ -1114,10 +1120,10 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight OSINT reports US retaliatory airstrikes on an Iranian SAM launcher on Qeshm Island after alleged fire at a US jet over Hormuz.",
-      "UKMTO's Khasab waterline tanker hit, IRGC mine claims and Ukraine's Afipsky/Yanos hits still frame the supply-risk backdrop."
+      "Trump and AP confirmed US small-scale strikes on Iranian anti-aircraft on Qeshm near Hormuz, after overnight OSINT reports.",
+      "Ukrainian drones hit Russia's Saratov (Rosneft) oil refinery on the Volga with multiple fires; seventh Russian plant hit in days."
     ],
-    "updated": "Sat 7 Nov 2026, 5:55 am SGT",
-    "updatedTs": "2026-11-07T05:55:00+08:00"
+    "updated": "Sat 7 Nov 2026, 11:57 am SGT",
+    "updatedTs": "2026-11-07T11:57:00+08:00"
   }
 }
