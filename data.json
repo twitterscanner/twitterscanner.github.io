@@ -100,19 +100,6 @@
   },
   "alerts": [
     {
-      "time": "11:09",
-      "ts": "2026-11-07T11:09:00+08:00",
-      "eventTime": "5:09 am, 7 Nov (est.)",
-      "eventTs": "2026-11-07T05:09:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump and AP confirm US carried out small-scale / targeted strikes on Iranian anti-aircraft on Qeshm Island near Hormuz (upgrade of earlier OSINT reports)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Amena Bakr (AP) / First Squawk / OSINTdefender",
-      "url": "https://x.com/Amena__Bakr/status/2118903567419576648"
-    },
-    {
       "time": "11:18",
       "ts": "2026-11-07T11:18:00+08:00",
       "eventTime": "10:30 am, 7 Nov (est.)",
@@ -124,6 +111,19 @@
       "confidence": "Unconfirmed",
       "source": "OSINTtechnical / OSINTdefender / Kyiv Independent",
       "url": "https://x.com/Osinttechnical/status/2118900360219693499"
+    },
+    {
+      "time": "11:09",
+      "ts": "2026-11-07T11:09:00+08:00",
+      "eventTime": "5:09 am, 7 Nov (est.)",
+      "eventTs": "2026-11-07T05:09:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump and AP confirm US carried out small-scale / targeted strikes on Iranian anti-aircraft on Qeshm Island near Hormuz (upgrade of earlier OSINT reports)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Amena Bakr (AP) / First Squawk / OSINTdefender",
+      "url": "https://x.com/Amena__Bakr/status/2118903567419576648"
     },
     {
       "time": "05:55",
@@ -621,6 +621,41 @@
     }
   ],
   "sources": [
+    {
+      "title": "OSINTtechnical: pillars of smoke and flame from Russia's Saratov oil refinery after Ukrainian drone raid",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2118900360219693499"
+    },
+    {
+      "title": "OSINTdefender: multiple fires at Saratov Oil Refinery after large-scale drone attack",
+      "site": "X / OSINTdefender",
+      "href": "https://x.com/sentdefender/status/2118905829751419121"
+    },
+    {
+      "title": "Kyiv Independent: Ukraine strikes Saratov Oil Refinery in mass attack",
+      "site": "X / Kyiv Independent",
+      "href": "https://x.com/KyivIndependent/status/2118904799068315783"
+    },
+    {
+      "title": "Amena Bakr: US military carries out new targeted strikes on Iran (AP)",
+      "site": "X / Amena Bakr",
+      "href": "https://x.com/Amena__Bakr/status/2118903567419576648"
+    },
+    {
+      "title": "Amena Bakr: US military carried out strikes on Qeshm Island (AP)",
+      "site": "X / Amena Bakr",
+      "href": "https://x.com/Amena__Bakr/status/2118903659451097380"
+    },
+    {
+      "title": "First Squawk: Trump says Iran built new anti-aircraft system, US disabled it",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2118891108071878687"
+    },
+    {
+      "title": "OSINTdefender: Trump on rumored Qeshm strikes — minor strikes on anti-aircraft device",
+      "site": "X / OSINTdefender",
+      "href": "https://x.com/sentdefender/status/2118900500846322008"
+    },
     {
       "title": "Visioner: two US strikes reported against Iranian missile launchers on Qeshm",
       "site": "x.com",
