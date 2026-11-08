@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Mon 09 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-09T04:05:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 4:05 am SGT",
-  "asOfTs": "2026-11-09T04:05:29+08:00",
+  "lastScanned": "Mon 09 Nov 2026, 5:04 am SGT",
+  "lastScannedTs": "2026-11-09T05:04:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 5:01 am SGT",
+  "asOfTs": "2026-11-09T05:01:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "A third night of reported US strikes near Qeshm adds to Hormuz risk, outweighing Trump's dovish CNN remarks.",
-    "lead": "Net read (last 24 hours): A third night of reported US strikes near Qeshm adds to Hormuz risk, outweighing Trump's dovish CNN remarks.",
+    "bottom": "Iran's missile fire at Hormuz ships, a Khor Mor gas field strike and Qeshm blasts keep risk skewed up despite Trump's dovish talk.",
+    "lead": "Net read (last 24 hours): Iran's missile fire at Hormuz ships, a Khor Mor gas field strike and Qeshm blasts keep risk skewed up despite Trump's dovish talk.",
     "verdict": "Bullish",
-    "count": "4 of 5 alerts point higher, 1 lower",
-    "text": "A third night of reported US strikes near Qeshm adds to Hormuz risk, outweighing Trump's dovish CNN remarks.",
+    "count": "6 of 7 alerts point higher, 1 lower",
+    "text": "6 of 7 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Drone strike halts Iraq's Khor Mor gas field in Kurdistan",
+        "confidence": "confirmed",
+        "theme": "Oil fields",
+        "ts": "2026-11-09T05:04:00+08:00"
+      },
+      {
+        "text": "Iran says missiles fired from Sirik at 'non-compliant' Hormuz ships",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T05:04:00+08:00"
+      },
       {
         "text": "Explosions on Qeshm Island tonight; OSINT attributes a third night of US strikes",
         "confidence": "unconfirmed",
@@ -51,6 +63,32 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:04",
+      "ts": "2026-11-09T05:04:00+08:00",
+      "eventTime": "4:15 am, 9 Nov (est.)",
+      "eventTs": "2026-11-09T04:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Drone attack hits Iraq's Khor Mor gas field in Kurdistan; production halted and power cuts reported in Erbil and Duhok (Reuters, security sources)",
+      "theme": "Oil fields",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo, citing Reuters; also Open Source Intel; Post Open Source",
+      "url": "https://x.com/staunovo/status/2119528357343694898"
+    },
+    {
+      "time": "05:04",
+      "ts": "2026-11-09T05:04:00+08:00",
+      "eventTime": "3:40 am, 9 Nov (est.)",
+      "eventTs": "2026-11-09T03:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian state TV says three missiles were launched from Sirik toward 'non-compliant' vessels in the Strait of Hormuz; no hits or ship names reported",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Basha Report, citing Iranian state TV; also Open Source Intel; Post Open Source",
+      "url": "https://x.com/BashaReport/status/2119526070852657649"
+    },
     {
       "time": "04:05",
       "ts": "2026-11-09T04:05:00+08:00",
@@ -544,32 +582,6 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Al-Jadeed",
       "url": "https://x.com/FirstSquawk/status/2118046760497230248"
-    },
-    {
-      "time": "02:21",
-      "ts": "2026-11-05T02:21:30+08:00",
-      "eventTime": "2:15 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T02:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Al-Jadeed, citing US diplomatic sources: Trump may decide on war with Iran before the new Democratic Congress takes office",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "LiveSquawk, citing Al-Jadeed",
-      "url": "https://x.com/LiveSquawk/status/2118045991551054308"
-    },
-    {
-      "time": "01:40",
-      "ts": "2026-11-05T01:40:22+08:00",
-      "eventTime": "1:40 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T01:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "US Treasury (OFAC) issues new Iran sanctions on a false-flag ship registry network and an alert on the Iranian shadow fleet's use of false flags; secondary-sanctions risk added to many listed tankers.",
-      "theme": "Sanctions evasion",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "LiveSquawk; OFAC",
-      "url": "https://x.com/LiveSquawk/status/2118035640138821863"
     }
   ],
   "sources": [
@@ -1147,16 +1159,26 @@
       "title": "Major fire broke out at HPCL Visakhapatnam (first report)",
       "site": "Vijayant Tyagi",
       "href": "https://x.com/vijayanttyagi/status/2117294760998420566"
+    },
+    {
+      "title": "Production halted at Iraq's Khor Mor gas field after drone attack",
+      "site": "Giovanni Staunovo (Reuters)",
+      "href": "https://x.com/staunovo/status/2119528357343694898"
+    },
+    {
+      "title": "Iranian state TV: missiles launched from Sirik at vessels in Hormuz",
+      "site": "Basha Report",
+      "href": "https://x.com/BashaReport/status/2119526070852657649"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Explosions were reported tonight on Qeshm Island and near Bandar Abbas; IRNA said sites appear struck, and OSINT attributed a third night of US strikes near Hormuz.",
-      "Trump said war with Iran is highly unlikely if talks progress; Sunday's Houthi strike damaged an Aramco building in Riyadh, and tanker Navig8 Messi was identified burning near Khasab."
+      "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, and a drone strike halted Iraq's Khor Mor gas field, cutting Kurdistan power.",
+      "Blasts hit Qeshm and Bandar Abbas for a third night, while Trump called renewed war unlikely; a Houthi strike damaged an Aramco building in Riyadh."
     ],
-    "updated": "Mon 09 Nov 2026, 4:05 am SGT",
-    "updatedTs": "2026-11-09T04:05:00+08:00"
+    "updated": "Mon 09 Nov 2026, 5:04 am SGT",
+    "updatedTs": "2026-11-09T05:04:00+08:00"
   },
   "last24Count": 13
 }
