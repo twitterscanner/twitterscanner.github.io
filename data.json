@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 09 Nov 2026, 3:08 am SGT",
-  "lastScannedTs": "2026-11-09T03:08:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 3:09 am SGT",
-  "asOfTs": "2026-11-09T03:09:24+08:00",
+  "lastScanned": "Mon 09 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-09T04:05:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 4:05 am SGT",
+  "asOfTs": "2026-11-09T04:05:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump's dovish CNN remarks are outweighed by the Riyadh Aramco-building hit, a burning Hormuz products tanker, and Israel's preemption warning.",
-    "lead": "Net read (last 24 hours): Trump's dovish CNN remarks are outweighed by the Riyadh Aramco-building hit, a burning Hormuz products tanker, and Israel's preemption warning.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "3 of 4 alerts point higher, 1 lower",
-    "text": "Trump's dovish CNN remarks are outweighed by the Riyadh Aramco-building hit, a burning Hormuz products tanker, and Israel's preemption warning.",
+    "bottom": "A third night of reported US strikes near Qeshm adds to Hormuz risk, outweighing Trump's dovish CNN remarks.",
+    "lead": "Net read (last 24 hours): A third night of reported US strikes near Qeshm adds to Hormuz risk, outweighing Trump's dovish CNN remarks.",
+    "verdict": "Bullish",
+    "count": "4 of 5 alerts point higher, 1 lower",
+    "text": "A third night of reported US strikes near Qeshm adds to Hormuz risk, outweighing Trump's dovish CNN remarks.",
     "hawkish": [
+      {
+        "text": "Explosions on Qeshm Island tonight; OSINT attributes a third night of US strikes",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T04:05:00+08:00"
+      },
       {
         "text": "Israel's defense minister says Iran mission is not complete and vows preemption",
         "confidence": "confirmed",
@@ -45,6 +51,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "04:05",
+      "ts": "2026-11-09T04:05:00+08:00",
+      "eventTime": "3:15 am, 9 Nov (est.)",
+      "eventTs": "2026-11-09T03:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Explosions reported tonight on Iran's Qeshm Island and near Bandar Abbas; IRNA says sites appear struck, and OSINT attributes a third night of US air-defense strikes near the Strait of Hormuz",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTtechnical; also First Squawk, citing IRNA; OSINTdefender; Open Source Intel",
+      "url": "https://x.com/Osinttechnical/status/2119519674463568114"
+    },
     {
       "time": "03:08",
       "ts": "2026-11-09T03:08:00+08:00",
@@ -551,22 +570,29 @@
       "confidence": "Confirmed",
       "source": "LiveSquawk; OFAC",
       "url": "https://x.com/LiveSquawk/status/2118035640138821863"
-    },
-    {
-      "time": "00:37",
-      "ts": "2026-11-05T00:37:47+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israel's Channel 14: Netanyahu convenes emergency security meeting on Iran with top military chiefs; Israel reportedly expects Trump to back a new large strike, likely on energy sites.",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "War Radar",
-      "url": "https://x.com/War_Radar2/status/2118019892473659576"
     }
   ],
   "sources": [
+    {
+      "title": "OSINTtechnical: explosions and an airstrike reported in Bandar Abbas and on Qeshm Island tonight, a third night of US-Iran fire",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2119519674463568114"
+    },
+    {
+      "title": "First Squawk: IRNA reports blasts heard on Iran's Qeshm Island; no official confirmation from Tehran",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119516401799205034"
+    },
+    {
+      "title": "Open Source Intel: initial reports of a US airstrike on an Iranian air-defence site in Nariman, Qeshm Island; explosions also heard in Bandar Abbas",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2119511667096879591"
+    },
+    {
+      "title": "OSINTdefender: at least four explosions near Qeshm Island; Iranian state media confirm air-defense activity and possible US missile strikes around Hormuz",
+      "site": "X / OSINTdefender",
+      "href": "https://x.com/sentdefender/status/2119515575365800352"
+    },
     {
       "title": "First Squawk: Trump tells CNN another Iran war is 'highly unlikely' if talks progress",
       "site": "X / First Squawk",
@@ -1126,11 +1152,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Trump told CNN war with Iran is highly unlikely if nuclear and Hormuz talks progress; Israel's defense minister said the Iran mission is not complete.",
-      "Sunday's Houthi attack damaged an Aramco building in Riyadh's financial district, and the ADNOC-linked tanker Navig8 Messi was identified on fire near Khasab."
+      "Explosions were reported tonight on Qeshm Island and near Bandar Abbas; IRNA said sites appear struck, and OSINT attributed a third night of US strikes near Hormuz.",
+      "Trump said war with Iran is highly unlikely if talks progress; Sunday's Houthi strike damaged an Aramco building in Riyadh, and tanker Navig8 Messi was identified burning near Khasab."
     ],
-    "updated": "Mon 9 Nov 2026, 3:08 am SGT",
-    "updatedTs": "2026-11-09T03:08:00+08:00"
+    "updated": "Mon 09 Nov 2026, 4:05 am SGT",
+    "updatedTs": "2026-11-09T04:05:00+08:00"
   },
   "last24Count": 13
 }
