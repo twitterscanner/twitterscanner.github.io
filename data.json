@@ -1,48 +1,43 @@
 {
-  "lastScanned": "Sat 07 Nov 2026, 8:58 pm SGT",
-  "lastScannedTs": "2026-11-07T20:58:00+08:00",
-  "asOf": "Sat 7 Nov 2026, 8:56 pm SGT",
-  "asOfTs": "2026-11-07T20:56:20+08:00",
+  "lastScanned": "Mon 09 Nov 2026, 3:08 am SGT",
+  "lastScannedTs": "2026-11-09T03:08:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 3:09 am SGT",
+  "asOfTs": "2026-11-09T03:09:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine claim, confirmed Qeshm strikes, Saratov refinery hit and Riyadh missile intercept all lean higher; no dovish items in 24h.",
-    "lead": "Net read (last 24 hours): Hormuz mine claim, confirmed Qeshm strikes, Saratov refinery hit and Riyadh missile intercept all lean higher; no dovish items in 24h.",
-    "verdict": "Bullish",
-    "count": "5 of 5 alerts point higher, 0 lower",
-    "text": "5 of 5 alerts point higher, 0 lower.",
+    "bottom": "Trump's dovish CNN remarks are outweighed by the Riyadh Aramco-building hit, a burning Hormuz products tanker, and Israel's preemption warning.",
+    "lead": "Net read (last 24 hours): Trump's dovish CNN remarks are outweighed by the Riyadh Aramco-building hit, a burning Hormuz products tanker, and Israel's preemption warning.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "3 of 4 alerts point higher, 1 lower",
+    "text": "Trump's dovish CNN remarks are outweighed by the Riyadh Aramco-building hit, a burning Hormuz products tanker, and Israel's preemption warning.",
     "hawkish": [
       {
-        "text": "Iran Navy says tanker hit mine east of Hormuz, caught fire",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-07T20:58:00+08:00"
+        "text": "Israel's defense minister says Iran mission is not complete and vows preemption",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-09T03:08:00+08:00"
       },
       {
-        "text": "Coalition intercepts Houthi cruise missile targeting Riyadh",
+        "text": "ADNOC-linked tanker Navig8 Messi on fire after an IRGC hit near Khasab",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T03:08:00+08:00"
+      },
+      {
+        "text": "Houthi missiles hit Riyadh's financial district and damaged an Aramco building",
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
-        "ts": "2026-11-07T14:55:00+08:00"
-      },
-      {
-        "text": "Ukrainian drones hit Saratov (Rosneft) refinery; fires, ~140 kbpd",
-        "confidence": "unconfirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-07T11:18:00+08:00"
-      },
-      {
-        "text": "Trump/AP confirm US Qeshm anti-aircraft strikes near Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-07T11:09:00+08:00"
-      },
-      {
-        "text": "US reportedly hit Iranian SAM on Qeshm after alleged fire at FA-18 over Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-07T05:55:00+08:00"
+        "ts": "2026-11-09T03:08:00+08:00"
       }
     ],
-    "dovish": [],
+    "dovish": [
+      {
+        "text": "Trump tells CNN another Iran war is highly unlikely if talks progress",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-09T03:08:00+08:00"
+      }
+    ],
     "neutral": []
   },
   "brent": {
@@ -50,6 +45,58 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:08",
+      "ts": "2026-11-09T03:08:00+08:00",
+      "eventTime": "Sun 8 Nov 2026 (est., CNN interview; clock time not specified)",
+      "eventTs": "2026-11-08T12:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump tells CNN it is 'highly unlikely' the US will return to war with Iran if negotiations on a nuclear deal and reopening the Strait of Hormuz progress",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk, citing CNN",
+      "url": "https://x.com/FirstSquawk/status/2119502716263432381"
+    },
+    {
+      "time": "03:08",
+      "ts": "2026-11-09T03:08:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israeli Defense Minister Katz says Israel's mission against Iran is not complete, that Iran is trying to renew its nuclear program, and that Israel will take preemptive action",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "The Hormuz Letter; also Mario Nawfal",
+      "url": "https://x.com/HormuzLetter/status/2119497700676698157"
+    },
+    {
+      "time": "03:08",
+      "ts": "2026-11-09T03:08:00+08:00",
+      "eventTime": "Sun 8 Nov 2026 (est., 'yesterday' / past 24 hours)",
+      "eventTs": "2026-11-08T12:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: ADNOC-linked products tanker Navig8 Messi identified as the vessel hit by Iran's IRGC northwest of Khasab, Oman; the ship is on fire",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel; also MenchOsint",
+      "url": "https://x.com/Osint613/status/2119500763508392053"
+    },
+    {
+      "time": "03:08",
+      "ts": "2026-11-09T03:08:00+08:00",
+      "eventTime": "Sun 8 Nov, ~12:00 pm SGT (est., Riyadh morning rush hour)",
+      "eventTs": "2026-11-08T12:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthi missiles targeted Riyadh on Sunday, including the King Abdullah Financial District; AFP witnesses and Bloomberg report damage to an Aramco building, while the Saudi-led coalition says it intercepted the missiles",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel, citing Bloomberg; also AFP",
+      "url": "https://x.com/Osint613/status/2119499027267961009"
+    },
     {
       "time": "20:58",
       "ts": "2026-11-07T20:58:00+08:00",
@@ -517,61 +564,29 @@
       "confidence": "Unconfirmed",
       "source": "War Radar",
       "url": "https://x.com/War_Radar2/status/2118019892473659576"
-    },
-    {
-      "time": "00:35",
-      "ts": "2026-11-05T00:35:01+08:00",
-      "eventTime": "12:29 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T00:29:00+08:00",
-      "eventQual": "est.",
-      "headline": "Senate Democratic leader Schumer, after Democrats won Congress: 'We will end the war' with Iran, says some Republicans have joined.",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2118019195770384457"
-    },
-    {
-      "time": "23:57",
-      "ts": "2026-11-04T23:57:13+08:00",
-      "eventTime": "11:57 pm, 4 Nov (est.)",
-      "eventTs": "2026-11-04T23:57:13+08:00",
-      "eventQual": "est.",
-      "headline": "Brent crude falls below $100 for the first time since Oct 7; market prices a lower chance of a new US attack on Iran after the midterm rout.",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2118009682140995912"
-    },
-    {
-      "time": "23:43",
-      "ts": "2026-11-04T23:43:47+08:00",
-      "eventTime": "11:30 pm, 4 Nov (est., EIA weekly release)",
-      "eventTs": "2026-11-04T23:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "EIA: US diesel (distillate) stocks fall below 100M bbl, lowest since 2003, after a 3.6M bbl weekly draw.",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing US EIA weekly data; also LiveSquawk",
-      "url": "https://x.com/FirstSquawk/status/2118006300097544497"
-    },
-    {
-      "time": "22:11",
-      "ts": "2026-11-04T22:11:42+08:00",
-      "eventTime": "10:05 pm, 4 Nov (est.)",
-      "eventTs": "2026-11-04T22:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC says its air defences destroyed a US MQ-1 drone over Qeshm Island in the Strait of Hormuz, its 15th MQ-1 claim.",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Iranian state media / IRGC; also CGTN, FinancialJuice",
-      "url": "https://x.com/FirstSquawk/status/2117983127310393520"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Trump tells CNN another Iran war is 'highly unlikely' if talks progress",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119502716263432381"
+    },
+    {
+      "title": "The Hormuz Letter: Israel's Katz says Iran mission is not complete and vows preemptive action",
+      "site": "X / The Hormuz Letter",
+      "href": "https://x.com/HormuzLetter/status/2119497700676698157"
+    },
+    {
+      "title": "Open Source Intel: ADNOC-linked products tanker Navig8 Messi identified on fire after IRGC hit near Khasab",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2119500763508392053"
+    },
+    {
+      "title": "Open Source Intel, citing Bloomberg: Houthi strike on Riyadh's KAFD; AFP reports Aramco building damage",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2119499027267961009"
+    },
     {
       "title": "First Squawk: Iran Navy claims oil tanker hit mine in Hormuz Saturday (Fars)",
       "site": "X / First Squawk",
@@ -1111,11 +1126,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Trump and AP confirmed US strikes on Iranian anti-aircraft on Qeshm near Hormuz, and Iran's Navy claims a tanker hit a mine east of the strait.",
-      "Ukrainian drones set fires at Russia's Saratov refinery, while the Saudi-led coalition intercepted a Houthi cruise missile aimed at Riyadh."
+      "Trump told CNN war with Iran is highly unlikely if nuclear and Hormuz talks progress; Israel's defense minister said the Iran mission is not complete.",
+      "Sunday's Houthi attack damaged an Aramco building in Riyadh's financial district, and the ADNOC-linked tanker Navig8 Messi was identified on fire near Khasab."
     ],
-    "updated": "Sat 7 Nov 2026, 8:58 pm SGT",
-    "updatedTs": "2026-11-07T20:58:00+08:00"
+    "updated": "Mon 9 Nov 2026, 3:08 am SGT",
+    "updatedTs": "2026-11-09T03:08:00+08:00"
   },
   "last24Count": 13
 }
