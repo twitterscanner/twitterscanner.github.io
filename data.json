@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 2:18 pm SGT",
-  "lastScannedTs": "2026-11-09T14:18:00+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 2:22 pm SGT",
+  "lastScannedTs": "2026-11-09T14:22:00+08:00",
   "asOf": "Mon 9 Nov 2026, 2:19 pm SGT",
   "asOfTs": "2026-11-09T14:19:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -12,7 +12,7 @@
     "text": "13 of 15 alerts point higher, 2 lower.",
     "hawkish": [
       {
-        "text": "Fresh Houthi ballistic missile launch at Riyadh; Saudi Civil Defense issues danger warning",
+        "text": "Houthi ballistic missile launched at Riyadh; Saudi danger warning lifted within minutes",
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-09T14:18:00+08:00"
@@ -117,11 +117,11 @@
       "eventTime": "2:15 pm, 9 Nov (est.)",
       "eventTs": "2026-11-09T14:15:00+08:00",
       "eventQual": "est.",
-      "headline": "Saudi Civil Defense issues a danger warning in Riyadh as at least one ballistic missile is reported launched from Yemen toward the capital, a day after Houthi fire damaged Aramco's tower",
+      "headline": "Saudi Civil Defense issues a danger warning in Riyadh after a ballistic missile is reported launched from Yemen toward the capital; officials declared the danger over about two minutes later, no impact reported",
       "theme": "Saudi / Houthi",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "AMK Mapping (OSINT) on the launch; First Squawk on the Saudi Civil Defense warning; no interception or impact reported yet",
+      "source": "AMK Mapping (OSINT) on the launch and all-clear; First Squawk on the Saudi Civil Defense warning and all-clear; no interception or impact reported",
       "url": "https://x.com/AMK_Mapping_/status/2119675333377130574"
     },
     {
@@ -642,6 +642,11 @@
       "title": "First Squawk: Saudi Arabia issues warning of possible danger in Riyadh through Civil Defense",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2119675605532991743"
+    },
+    {
+      "title": "First Squawk: Saudi officials say Riyadh is no longer facing potential danger",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119676062783385979"
     },
     {
       "title": "First Squawk: Israeli and American military officials support military action against Iran (Kan)",
