@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 8:31 pm SGT",
-  "lastScannedTs": "2026-11-09T20:31:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 8:30 pm SGT",
-  "asOfTs": "2026-11-09T20:30:42+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 8:59 pm SGT",
+  "lastScannedTs": "2026-11-09T20:59:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 8:59 pm SGT",
+  "asOfTs": "2026-11-09T20:59:19+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz blasts, tanker fires, Saudi-Houthi escalation and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
-    "lead": "Net read (last 24 hours): Hormuz blasts, tanker fires, Saudi-Houthi escalation and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
+    "bottom": "Hormuz attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
+    "lead": "Net read (last 24 hours): Hormuz attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
     "verdict": "Bullish",
-    "count": "16 of 20 alerts point higher, 4 lower",
-    "text": "16 of 20 alerts point higher, 4 lower.",
+    "count": "16 of 22 alerts point higher, 5 lower",
+    "text": "16 of 22 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saudi airstrikes reportedly hit Hodeidah airport, escalating the Saudi-Houthi war on the Red Sea coast",
@@ -110,6 +110,12 @@
     ],
     "dovish": [
       {
+        "text": "Trump asks Iraq's PM to relay war-ending proposals to Tehran",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-09T20:55:00+08:00"
+      },
+      {
         "text": "Iran reportedly drops demand to control Hormuz and charge transit fees (Israel Hayom)",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -134,13 +140,46 @@
         "ts": "2026-11-09T03:08:00+08:00"
       }
     ],
-    "neutral": []
+    "neutral": [
+      {
+        "text": "Pezeshkian says Khamenei ordered an end to 'neither war nor peace' with the US",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-09T20:56:00+08:00"
+      }
+    ]
   },
   "brent": {
-    "value": "~$95.9",
-    "detail": "Brent crude fell to an intraday low below $96/bbl on Mon 9 Nov after reports Iran dropped its Hormuz transit-fee demand, per FinSquawk on X, ~7:17 pm SGT"
+    "value": "<$95",
+    "detail": "Brent fell about 4% to below $95/bbl on Mon 9 Nov on hopes of diplomatic progress to end the Iran war, per Anas Alhajji on X, ~8:39 pm SGT"
   },
   "alerts": [
+    {
+      "time": "20:55",
+      "ts": "2026-11-09T20:55:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump asked Iraq's prime minister to relay proposals to Tehran aimed at ending the Iran war, after approving the Iraqi leader's ideas in a phone call (Al Hadath sources)",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk on X (citing Al Hadath)",
+      "url": "https://x.com/FirstSquawk/status/2119775985218556280"
+    },
+    {
+      "time": "20:56",
+      "ts": "2026-11-09T20:56:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: Iranian President Pezeshkian says Supreme Leader Khamenei has ordered an end to the state of 'neither war nor peace' with the US, while saying Iran is open to dialogue",
+      "theme": "Iran",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X",
+      "url": "https://x.com/Osint613/status/2119776037953274122"
+    },
     {
       "time": "20:17",
       "ts": "2026-11-09T20:17:00+08:00",
@@ -634,35 +673,24 @@
       "confidence": "Unconfirmed",
       "source": "Yah_Saree",
       "url": "https://x.com/Yah_Saree/status/2118386611050414226"
-    },
-    {
-      "time": "00:17",
-      "ts": "2026-11-06T00:17:00+08:00",
-      "eventTime": "12:07 am, 6 Nov",
-      "eventTs": "2026-11-06T00:07:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi Civil Defense issues a second early-warning in Sharurah (Najran/Yemen border); danger passed about six minutes later, no impact disclosed",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Civil Defense",
-      "url": "https://x.com/SaudiDCD/status/2118374754134749580"
-    },
-    {
-      "time": "23:16",
-      "ts": "2026-11-05T23:16:00+08:00",
-      "eventTime": "11:15 pm, 5 Nov",
-      "eventTs": "2026-11-05T23:15:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi-led coalition says it intercepted and destroyed a drone over Saudi Arabia's Eastern Province",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Jazeera Breaking",
-      "url": "https://x.com/AJABreaking/status/2118361893999939947"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Trump asked Iraq's PM to convey proposals to Tehran aimed at ending the war",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119775985218556280"
+    },
+    {
+      "title": "Open Source Intel: Pezeshkian says Khamenei ordered an end to 'neither war nor peace'",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2119776037953274122"
+    },
+    {
+      "title": "Anas Alhajji: oil down about 4%, Brent below $95",
+      "site": "X / Anas Alhajji",
+      "href": "https://x.com/anasalhajji/status/2119771836594708870"
+    },
     {
       "title": "LiveSquawk: Iran apparently drops demand to control Hormuz and collect transit fees (Israel Hayom)",
       "site": "X / LiveSquawk",
@@ -1357,11 +1385,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control with missile fire and destroyed navigation aids and more tanker fires were reported, though Israel Hayom says Tehran dropped its Hormuz transit-fee demand.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft limited fuel sales, while Houthis hit Riyadh, Saudi jets reportedly struck Hodeidah airport and a drone halted Iraq's Khor Mor."
+      "Iran tightened Hormuz control with missile fire and destroyed navigation aids amid more tanker fires, while Trump asked Iraq's PM to relay war-ending proposals to Tehran.",
+      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft limited fuel sales, while Houthis hit Riyadh, Saudi jets reportedly struck Hodeidah airport and a drone halted Khor Mor."
     ],
-    "updated": "Mon 9 Nov 2026, 8:31 pm SGT",
-    "updatedTs": "2026-11-09T20:31:00+08:00"
+    "updated": "Mon 9 Nov 2026, 8:59 pm SGT",
+    "updatedTs": "2026-11-09T20:59:00+08:00"
   },
   "last24Count": 13
 }
