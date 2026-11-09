@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 12:09 am SGT",
-  "lastScannedTs": "2026-11-10T00:09:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 12:10 am SGT",
-  "asOfTs": "2026-11-10T00:10:16+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 12:15 am SGT",
+  "lastScannedTs": "2026-11-10T00:15:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 12:16 am SGT",
+  "asOfTs": "2026-11-10T00:16:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits dominate; Tehran's denial of Doha talks cools hopes for a quick US-Iran deal.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits dominate; Tehran's denial of Doha talks cools hopes for a quick US-Iran deal.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "18 of 26 alerts point higher, 6 lower",
-    "text": "18 of 26 alerts point higher, 6 lower.",
+    "bottom": "Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, plus Tehran's denial of Doha talks keep supply risks tilted higher.",
+    "lead": "Net read (last 24 hours): Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, plus Tehran's denial of Doha talks keep supply risks tilted higher.",
+    "verdict": "Bullish",
+    "count": "19 of 27 alerts point higher, 6 lower",
+    "text": "19 of 27 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Saudi East-West pipeline, the Hormuz bypass, targeted near Medina; small fire, operations unaffected",
+        "confidence": "confirmed",
+        "theme": "Saudi / Aramco",
+        "ts": "2026-11-10T00:12:00+08:00"
+      },
       {
         "text": "Tasnim denies Rezaei-Vance Doha meeting; Tehran says no talks until US meets seven conditions",
         "confidence": "confirmed",
@@ -178,6 +184,19 @@
     "detail": "Brent spot down more than 5% on the day, near $93/bbl (intraday low reported at $92.98), its lowest since late August, on US-Iran deal hopes, per Matriks Haber on X (Turkish), ~10:24 pm SGT"
   },
   "alerts": [
+    {
+      "time": "00:12",
+      "ts": "2026-11-10T00:12:00+08:00",
+      "eventTime": "9 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi Press Agency: Saudi Arabia's East-West crude pipeline, the main route for bypassing Hormuz, was targeted in the Medina region on 9 Nov; a limited fire was put out with no injuries and no impact on operations",
+      "theme": "Saudi / Aramco",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk, citing the Saudi Press Agency (official)",
+      "url": "https://x.com/LiveSquawk/status/2119825653373804751"
+    },
     {
       "time": "00:03",
       "ts": "2026-11-10T00:03:00+08:00",
@@ -684,22 +703,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk citing IRGC Navy / IRNA; FinSquawk (Iranian state media claim, no independent confirmation)",
       "url": "https://x.com/FirstSquawk/status/2118606192125866173"
-    },
-    {
-      "time": "15:06",
-      "ts": "2026-11-06T15:06:00+08:00",
-      "eventTime": "3:01 pm, 6 Nov",
-      "eventTs": "2026-11-06T15:01:54+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi Civil Defense issues another early-warning alert in Najran province (Yemen border), the second there in about six hours; no impact disclosed yet",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Civil Defense (official); First Squawk; MenchOsint",
-      "url": "https://x.com/SaudiDCD/status/2118599742305321449"
     }
   ],
   "sources": [
+    {
+      "title": "LiveSquawk: SPA says East-West pipeline targeted in Medina region; limited fire, no impact on operations",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2119825653373804751"
+    },
     {
       "title": "Open Source Intel: Tasnim denies Rezaei-Vance Doha meeting; no talks until US meets seven conditions",
       "site": "X / Open Source Intel",
@@ -1429,11 +1440,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's Tasnim denied reports that security chief Rezaei met US VP Vance in Doha, and Tehran says no US talks until its seven conditions are met.",
-      "Late Monday, Turkey's intel chief said Qatar will host Vance-Rezaei talks next week, while Hormuz tanker fires, Houthi strikes on Riyadh and Ukraine's Kirishi refinery hit kept supply risks high."
+      "Saudi Arabia says its East-West crude pipeline, the main Hormuz bypass, was targeted near Medina with a small fire and no impact on operations.",
+      "Iran's Tasnim denied reports of a Rezaei-Vance meeting in Doha, and Tehran says it won't hold US talks until its seven conditions are met."
     ],
-    "updated": "Tue 10 Nov 2026, 12:09 am SGT",
-    "updatedTs": "2026-11-10T00:09:00+08:00"
+    "updated": "Tue 10 Nov 2026, 12:15 am SGT",
+    "updatedTs": "2026-11-10T00:15:00+08:00"
   },
   "last24Count": 13
 }
