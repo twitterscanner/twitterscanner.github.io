@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 6:06 pm SGT",
-  "lastScannedTs": "2026-11-09T18:06:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 5:52 pm SGT",
-  "asOfTs": "2026-11-09T17:52:25+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 6:20 pm SGT",
+  "lastScannedTs": "2026-11-09T18:20:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 6:18 pm SGT",
+  "asOfTs": "2026-11-09T18:18:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz enforcement, Houthi fire on Riyadh, Kirishi and Russian fuel rationing, and Khor Mor outweigh Trump diplomacy and Iraq's Asia price cuts.",
-    "lead": "Net read (last 24 hours): Hormuz enforcement, Houthi fire on Riyadh, Kirishi and Russian fuel rationing, and Khor Mor outweigh Trump diplomacy and Iraq's Asia price cuts.",
+    "bottom": "Fresh Hormuz blasts and tanker fire, Houthi fire on Riyadh, Kirishi and Russian fuel rationing outweigh Trump diplomacy and Iraq's Asia price cuts.",
+    "lead": "Net read (last 24 hours): Fresh Hormuz blasts and tanker fire, Houthi fire on Riyadh, Kirishi and Russian fuel rationing outweigh Trump diplomacy and Iraq's Asia price cuts.",
     "verdict": "Bullish",
-    "count": "14 of 17 alerts point higher, 3 lower",
-    "text": "14 of 17 alerts point higher, 3 lower.",
+    "count": "15 of 18 alerts point higher, 3 lower",
+    "text": "15 of 18 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Explosions reported in Hormuz; Fars says another tanker ablaze after hitting a mine",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T18:16:00+08:00"
+      },
       {
         "text": "Rosneft reimposes nationwide fuel purchase limits after Ukrainian refinery strikes",
         "confidence": "confirmed",
@@ -123,6 +129,19 @@
     "detail": "Brent futures ~$96.6-96.8 (down ~1.7%) on Mon 9 Nov as Iran talks hopes weigh, per several market accounts on X, ~2:45 pm SGT"
   },
   "alerts": [
+    {
+      "time": "18:16",
+      "ts": "2026-11-09T18:16:00+08:00",
+      "eventTime": "5:58 pm, 9 Nov (est.)",
+      "eventTs": "2026-11-09T17:58:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: several explosions reported in the Strait of Hormuz, possibly IRGC Navy anti-ship missile launches; Iran's Fars says another oil tanker is ablaze after hitting a mine",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (OSINT); Fars News Agency (Iranian state-linked); not confirmed by UKMTO",
+      "url": "https://x.com/CocoPostel/status/2119735805300142479"
+    },
     {
       "time": "17:49",
       "ts": "2026-11-09T17:49:00+08:00",
@@ -629,22 +648,19 @@
       "confidence": "Confirmed",
       "source": "Yahya Saree",
       "url": "https://x.com/Yah_Saree/status/2118323103025758676"
-    },
-    {
-      "time": "18:28",
-      "ts": "2026-11-05T18:28:00+08:00",
-      "eventTime": "6:10 pm, 5 Nov (est.)",
-      "eventTs": "2026-11-05T18:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Oman and Iran discuss efforts to resume navigation in the Strait of Hormuz (ONA)",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk citing ONA",
-      "url": "https://x.com/FirstSquawk/status/2118289259706872045"
     }
   ],
   "sources": [
+    {
+      "title": "Post Open Source: several explosions heard in the Strait of Hormuz",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2119735805300142479"
+    },
+    {
+      "title": "Fars News Agency: another oil tanker set ablaze after striking mine in Hormuz",
+      "site": "X / Fars News Agency",
+      "href": "https://x.com/EnglishFars/status/2119734750399095010"
+    },
     {
       "title": "OSINTtechnical: Russian regions ration fuel; Rosneft caps sales at 30 L after refinery strikes",
       "site": "X / OSINTtechnical",
@@ -1319,11 +1335,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control with missile fire and destroyed navigation aids, a drone halted Iraq's Khor Mor gas field, and Houthis launched fresh missiles at Riyadh.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft reimposed fuel purchase limits across Russia, while Iraq cut December Basrah prices to Asia."
+      "Iran tightened Hormuz control with missile fire and destroyed navigation aids, fresh blasts and another tanker fire were reported this evening, and Houthis fired more missiles at Riyadh.",
+      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft reimposed fuel purchase limits across Russia, while a drone halted Iraq's Khor Mor gas field."
     ],
-    "updated": "Mon 9 Nov 2026, 5:53 pm SGT",
-    "updatedTs": "2026-11-09T17:53:00+08:00"
+    "updated": "Mon 9 Nov 2026, 6:20 pm SGT",
+    "updatedTs": "2026-11-09T18:20:00+08:00"
   },
   "last24Count": 13
 }
