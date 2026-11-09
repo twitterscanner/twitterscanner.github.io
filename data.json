@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 9:59 pm SGT",
-  "lastScannedTs": "2026-11-09T21:59:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 9:29 pm SGT",
-  "asOfTs": "2026-11-09T21:29:32+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 10:09 pm SGT",
+  "lastScannedTs": "2026-11-09T22:09:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 10:09 pm SGT",
+  "asOfTs": "2026-11-09T22:09:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
-    "verdict": "Bullish",
-    "count": "17 of 24 alerts point higher, 5 lower",
-    "text": "17 of 24 alerts point higher, 5 lower.",
+    "bottom": "Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits still dominate, but a planned Vance-Rezaei Doha meeting adds to diplomacy hopes.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits still dominate, but a planned Vance-Rezaei Doha meeting adds to diplomacy hopes.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "17 of 25 alerts point higher, 6 lower",
+    "text": "17 of 25 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "UKMTO reclassifies 7 Nov Khasab tanker fire as an attack; crew evacuated",
@@ -116,6 +116,12 @@
     ],
     "dovish": [
       {
+        "text": "Qatar to host Vance and Iran's Rezaei in Doha next week, Turkey's intel chief says",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-09T21:29:00+08:00"
+      },
+      {
         "text": "Trump asks Iraq's PM to relay war-ending proposals to Tehran",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -166,6 +172,19 @@
     "detail": "Brent fell about 4% to below $95/bbl on Mon 9 Nov on hopes of diplomatic progress to end the Iran war, per Anas Alhajji on X, ~8:39 pm SGT"
   },
   "alerts": [
+    {
+      "time": "21:29",
+      "ts": "2026-11-09T21:29:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Turkish intelligence chief Kalın says Qatar will host US VP JD Vance and Iran's security chief Mohsen Rezaei in Doha next week to try to break the stalled US-Iran talks; Tehran has not confirmed",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "Tzvi Joffre, citing Turkish intelligence chief İbrahim Kalın (also reported by Mehr)",
+      "url": "https://x.com/TzviJoffre/status/2119794129685090811"
+    },
     {
       "time": "21:27",
       "ts": "2026-11-09T21:27:00+08:00",
@@ -672,22 +691,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk relaying the Financial Times (wire headline; no official confirmation)",
       "url": "https://x.com/FirstSquawk/status/2118570917609771067"
-    },
-    {
-      "time": "11:34",
-      "ts": "2026-11-06T11:34:00+08:00",
-      "eventTime": "10:55 am, 6 Nov (est.)",
-      "eventTs": "2026-11-06T10:55:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Ukrainian drones reportedly hit the Afipsky oil refinery in Russia's Krasnodar Krai (about 7 million tonnes a year); fires and explosions reported in Krasnodar",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "LetsArmUKR and several OSINT accounts (Ukrainian OSINT; no official confirmation yet)",
-      "url": "https://x.com/LetsArmUKR/status/2118539440553328747"
     }
   ],
   "sources": [
+    {
+      "title": "Tzvi Joffre: Kalın says Qatar to host Vance and Rezaei next week",
+      "site": "X / Tzvi Joffre",
+      "href": "https://x.com/TzviJoffre/status/2119794129685090811"
+    },
     {
       "title": "FinancialJuice: UKMTO reclassifies 7 Nov Khasab tanker incident as an attack",
       "site": "X / FinancialJuice",
@@ -1407,11 +1418,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control amid more tanker fires, UKMTO confirmed a 7 Nov Khasab tanker attack, and Trump asked Iraq's PM to relay war-ending proposals to Tehran.",
+      "Iran tightened Hormuz control amid more tanker fires, UKMTO confirmed a 7 Nov Khasab tanker attack, and Turkey's intel chief said Qatar will host Vance-Rezaei talks next week.",
       "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft limited fuel sales, while Houthis hit Riyadh, Saudi jets reportedly struck Hodeidah airport and a drone halted Khor Mor."
     ],
-    "updated": "Mon 9 Nov 2026, 9:31 pm SGT",
-    "updatedTs": "2026-11-09T21:31:00+08:00"
+    "updated": "Mon 9 Nov 2026, 10:09 pm SGT",
+    "updatedTs": "2026-11-09T22:09:00+08:00"
   },
   "last24Count": 13
 }
