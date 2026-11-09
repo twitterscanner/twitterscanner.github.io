@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 3:05 am SGT",
-  "lastScannedTs": "2026-11-10T03:05:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 1:25 am SGT",
-  "asOfTs": "2026-11-10T01:25:56+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-10T04:05:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 4:03 am SGT",
+  "asOfTs": "2026-11-10T04:03:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Attacks on Hormuz shipping and Saudi oil sites, an IRGC threat to shut the southern corridor and a US cold snap keep risks tilted higher.",
-    "lead": "Net read (last 24 hours): Attacks on Hormuz shipping and Saudi oil sites, an IRGC threat to shut the southern corridor and a US cold snap keep risks tilted higher.",
-    "verdict": "Bullish",
-    "count": "21 of 29 alerts point higher, 6 lower",
-    "text": "21 of 29 alerts point higher, 6 lower.",
+    "bottom": "Attacks on Hormuz shipping and Saudi pipelines keep risk tilted higher, but fresh US-Iran deal reports sent Brent down nearly 6%.",
+    "lead": "Net read (last 24 hours): Attacks on Hormuz shipping and Saudi pipelines keep risk tilted higher, but fresh US-Iran deal reports sent Brent down nearly 6%.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "18 of 27 alerts point higher, 7 lower",
+    "text": "18 of 27 alerts point higher, 7 lower.",
     "hawkish": [
       {
         "text": "Iran reportedly hits Oman's Didamar Island radar; IRGC threatens to shut the southern Hormuz corridor",
@@ -118,27 +118,21 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-09T04:05:00+08:00"
-      },
-      {
-        "text": "Israel's defense minister says Iran mission is not complete and vows preemption",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-09T03:08:00+08:00"
-      },
-      {
-        "text": "ADNOC-linked tanker Navig8 Messi on fire after an IRGC hit near Khasab",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-09T03:08:00+08:00"
-      },
-      {
-        "text": "Houthi missiles hit Riyadh's financial district and damaged an Aramco building",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-09T03:08:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Al Arabiya: preliminary US-Iran enrichment deal likely; Hormuz reopening and blockade lift floated",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-10T04:03:44+08:00"
+      },
+      {
+        "text": "Reuters survey: OPEC October output back near 90% of pre-war levels",
+        "confidence": "confirmed",
+        "theme": "OPEC",
+        "ts": "2026-11-10T04:03:44+08:00"
+      },
       {
         "text": "Qatar to host Vance and Iran's Rezaei in Doha next week, Turkey's intel chief says",
         "confidence": "unconfirmed",
@@ -168,12 +162,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-09T12:06:00+08:00"
-      },
-      {
-        "text": "Trump tells CNN another Iran war is highly unlikely if talks progress",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-09T03:08:00+08:00"
       }
     ],
     "neutral": [
@@ -192,10 +180,36 @@
     ]
   },
   "brent": {
-    "value": "~$93",
-    "detail": "Brent spot down more than 5% on the day, near $93/bbl (intraday low reported at $92.98), its lowest since late August, on US-Iran deal hopes, per Matriks Haber on X (Turkish), ~10:24 pm SGT"
+    "value": "$92.57",
+    "detail": "Brent futures settled down 5.85% ($5.75) at $92.57/bbl on US-Iran deal reports, per First Squawk on X, ~3:46 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "04:03",
+      "ts": "2026-11-10T04:03:44+08:00",
+      "eventTime": "3:38 am, 10 Nov (time of report)",
+      "eventTs": "2026-11-10T03:38:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Al Arabiya sources: a preliminary US-Iran deal on cutting uranium enrichment is likely; the reported framework would reopen Hormuz and lift the naval blockade immediately, return IAEA inspectors and free $6-9 billion of Iranian assets. Brent settled down 5.85% at $92.57 on the reports",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk and Open Source Intel, citing Al Arabiya",
+      "url": "https://x.com/FirstSquawk/status/2119881789942776087"
+    },
+    {
+      "time": "04:03",
+      "ts": "2026-11-10T04:03:44+08:00",
+      "eventTime": "October output (survey; time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Reuters survey: OPEC oil output rose in October to about 90% of its pre-war rate, led by gains in Saudi Arabia, Kuwait and Iraq, though exports are still held back by the Iran war and the US blockade on Iranian shipments",
+      "theme": "OPEC",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Post Open Source, citing a Reuters survey",
+      "url": "https://x.com/CocoPostel/status/2119881406721466709"
+    },
     {
       "time": "01:25",
       "ts": "2026-11-10T01:25:00+08:00",
@@ -689,35 +703,24 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel on X, citing Fox News; several outlets relay Trump's 'decide soon' remark",
       "url": "https://x.com/Osint613/status/2118648503157055748"
-    },
-    {
-      "time": "17:20",
-      "ts": "2026-11-06T17:20:00+08:00",
-      "eventTime": "Not stated (attack 3 Nov; halt reported 5:17 pm, 6 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: Russia's Yanos (Slavneft-YANOS) refinery in Yaroslavl has halted operations after the 3 Nov Ukrainian drone attack, per wire-style headlines; no restart date given",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FinSquawk headline (#OOTT); also World in Motion",
-      "url": "https://x.com/finsquawk_/status/2118633827090432469"
-    },
-    {
-      "time": "16:27",
-      "ts": "2026-11-06T16:27:00+08:00",
-      "eventTime": "10:55 am, 6 Nov (est.)",
-      "eventTs": "2026-11-06T10:55:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine reportedly confirms its strike on Russia's Afipsky refinery in Krasnodar Krai (about 7 million tonnes a year), upgrading earlier OSINT reports; Russia had cited only a debris fire at an industrial site",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FinancialJuice headline (relayed by several wire-style accounts)",
-      "url": "https://x.com/financialjuice/status/2118620725330456695"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Al Arabiya sources say Hormuz to reopen and blockade lifted under proposed US-Iran framework",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119881789942776087"
+    },
+    {
+      "title": "First Squawk: Al Arabiya sources say preliminary agreement on reducing Iran enrichment likely",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119878069909660133"
+    },
+    {
+      "title": "Post Open Source: Reuters survey shows OPEC October output near 90% of pre-war rate",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2119881406721466709"
+    },
     {
       "title": "LiveSquawk: SPA says East-West pipeline targeted in Medina region; limited fire, no impact on operations",
       "site": "X / LiveSquawk",
@@ -1452,11 +1455,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia says its East-West pipeline, the main Hormuz bypass, was targeted near Medina, and Iran reportedly hit radar on Oman's Didamar Island in southern Hormuz.",
-      "The IRGC now threatens to shut the southern shipping corridor, Tehran rules out US talks until its seven conditions are met, and a US cold snap looms."
+      "Saudi Arabia says its East-West pipeline was targeted near Medina, and Iran reportedly struck radar on Oman's Didamar Island in southern Hormuz.",
+      "Al Arabiya reports a preliminary US-Iran enrichment deal is likely, with Hormuz reopening floated, sending Brent down nearly 6% to $92.57."
     ],
-    "updated": "Tue 10 Nov 2026, 1:25 am SGT",
-    "updatedTs": "2026-11-10T01:25:00+08:00"
+    "updated": "Tue 10 Nov 2026, 4:05 am SGT",
+    "updatedTs": "2026-11-10T04:05:00+08:00"
   },
   "last24Count": 13
 }
