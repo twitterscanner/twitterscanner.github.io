@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-10T04:05:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 4:03 am SGT",
-  "asOfTs": "2026-11-10T04:03:44+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 5:05 am SGT",
+  "lastScannedTs": "2026-11-10T05:05:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 5:04 am SGT",
+  "asOfTs": "2026-11-10T05:04:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Attacks on Hormuz shipping and Saudi pipelines keep risk tilted higher, but fresh US-Iran deal reports sent Brent down nearly 6%.",
-    "lead": "Net read (last 24 hours): Attacks on Hormuz shipping and Saudi pipelines keep risk tilted higher, but fresh US-Iran deal reports sent Brent down nearly 6%.",
+    "bottom": "Hormuz and Saudi pipeline attacks keep risk tilted higher, but US-Iran deal reports and Gulf pressure for restraint pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Hormuz and Saudi pipeline attacks keep risk tilted higher, but US-Iran deal reports and Gulf pressure for restraint pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "18 of 27 alerts point higher, 7 lower",
-    "text": "18 of 27 alerts point higher, 7 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Iran reportedly hits Oman's Didamar Island radar; IRGC threatens to shut the southern Hormuz corridor",
@@ -100,27 +100,15 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-09T08:00:00+08:00"
-      },
-      {
-        "text": "Drone strike halts Iraq's Khor Mor gas field in Kurdistan",
-        "confidence": "confirmed",
-        "theme": "Oil fields",
-        "ts": "2026-11-09T05:04:00+08:00"
-      },
-      {
-        "text": "Iran says missiles fired from Sirik at 'non-compliant' Hormuz ships",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-09T05:04:00+08:00"
-      },
-      {
-        "text": "Explosions on Qeshm Island tonight; OSINT attributes a third night of US strikes",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-09T04:05:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "FT: Arab and Muslim leaders press Trump not to reignite the Iran war",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-10T05:00:58+08:00"
+      },
       {
         "text": "Al Arabiya: preliminary US-Iran enrichment deal likely; Hormuz reopening and blockade lift floated",
         "confidence": "unconfirmed",
@@ -180,10 +168,23 @@
     ]
   },
   "brent": {
-    "value": "$92.57",
-    "detail": "Brent futures settled down 5.85% ($5.75) at $92.57/bbl on US-Iran deal reports, per First Squawk on X, ~3:46 am SGT 10 Nov"
+    "value": "~$91.7",
+    "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "05:00",
+      "ts": "2026-11-10T05:00:58+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "FT: Arab and Muslim leaders are pushing to stop Trump from reigniting the Iran war, after Trump told Reuters the US is 'ready to go anytime'",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Financial Times via LiveSquawk",
+      "url": "https://x.com/LiveSquawk/status/2119898060755275783"
+    },
     {
       "time": "04:03",
       "ts": "2026-11-10T04:03:44+08:00",
@@ -690,19 +691,6 @@
       "confidence": "Confirmed",
       "source": "Saudi-led coalition spokesman, via Arab News; also Al Arabiya English, Anadolu",
       "url": "https://x.com/arabnews/status/2118652237849264176"
-    },
-    {
-      "time": "18:19",
-      "ts": "2026-11-06T18:19:00+08:00",
-      "eventTime": "Meetings Wed-Thu (4-5 Nov, US); report ~6:10 pm, 6 Nov (est.)",
-      "eventTs": "2026-11-06T18:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Fox News reports US Central Command is finalizing options for renewed operations against Iran after Trump met his national security team; Trump says a decision on resuming the war will come soon",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X, citing Fox News; several outlets relay Trump's 'decide soon' remark",
-      "url": "https://x.com/Osint613/status/2118648503157055748"
     }
   ],
   "sources": [
@@ -1450,16 +1438,26 @@
       "title": "Al Mayadeen: Saudi airstrikes target Hodeidah International Airport, western Yemen",
       "site": "Al Mayadeen",
       "href": "https://x.com/AlMayadeenLive/status/2119766377913303134"
+    },
+    {
+      "title": "FT: Arab and Muslim leaders in push to stop Trump from reigniting Iran war",
+      "site": "Financial Times via LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2119898060755275783"
+    },
+    {
+      "title": "Brent fell ~7% on unconfirmed Al Arabiya reports of US-Iran enrichment deal",
+      "site": "OilPrice.com",
+      "href": "https://x.com/OilandEnergy/status/2119891978477342759"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia says its East-West pipeline was targeted near Medina, and Iran reportedly struck radar on Oman's Didamar Island in southern Hormuz.",
-      "Al Arabiya reports a preliminary US-Iran enrichment deal is likely, with Hormuz reopening floated, sending Brent down nearly 6% to $92.57."
+      "Al Arabiya reports a preliminary US-Iran enrichment deal is likely and Arab leaders are pressing Trump not to restart the war, pushing Brent down about 7%."
     ],
-    "updated": "Tue 10 Nov 2026, 4:05 am SGT",
-    "updatedTs": "2026-11-10T04:05:00+08:00"
+    "updated": "Tue 10 Nov 2026, 5:05 am SGT",
+    "updatedTs": "2026-11-10T05:05:00+08:00"
   },
   "last24Count": 13
 }
