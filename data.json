@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 2:22 pm SGT",
-  "lastScannedTs": "2026-11-09T14:22:00+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 2:50 pm SGT",
+  "lastScannedTs": "2026-11-09T14:50:00+08:00",
   "asOf": "Mon 9 Nov 2026, 2:19 pm SGT",
   "asOfTs": "2026-11-09T14:19:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -107,8 +107,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$98.3",
-    "detail": "Brent $98.28 (WTI $91.24) on Mon 9 Nov after Trump said new Iran strikes are 'highly unlikely', per OilPrice.com on X, ~2:02 pm SGT"
+    "value": "~$96.7",
+    "detail": "Brent futures ~$96.6-96.8 (down ~1.7%) on Mon 9 Nov as Iran talks hopes weigh, per several market accounts on X, ~2:45 pm SGT"
   },
   "alerts": [
     {
