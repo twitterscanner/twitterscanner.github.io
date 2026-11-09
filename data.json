@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 2:00 pm SGT",
-  "lastScannedTs": "2026-11-09T14:00:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 1:07 pm SGT",
-  "asOfTs": "2026-11-09T13:07:20+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 2:18 pm SGT",
+  "lastScannedTs": "2026-11-09T14:18:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 2:19 pm SGT",
+  "asOfTs": "2026-11-09T14:19:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Kirishi fire, Hormuz lane enforcement, Khor Mor strike and reported US-Israeli preparations for new Iran strikes outweigh Trump's diplomacy push.",
-    "lead": "Net read (last 24 hours): Kirishi fire, Hormuz lane enforcement, Khor Mor strike and reported US-Israeli preparations for new Iran strikes outweigh Trump's diplomacy push.",
+    "bottom": "Fresh Houthi fire on Riyadh, Kirishi fire, Hormuz lane enforcement and Khor Mor strike outweigh Trump's diplomacy push.",
+    "lead": "Net read (last 24 hours): Fresh Houthi fire on Riyadh, Kirishi fire, Hormuz lane enforcement and Khor Mor strike outweigh Trump's diplomacy push.",
     "verdict": "Bullish",
-    "count": "12 of 14 alerts point higher, 2 lower",
-    "text": "12 of 14 alerts point higher, 2 lower.",
+    "count": "13 of 15 alerts point higher, 2 lower",
+    "text": "13 of 15 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Fresh Houthi ballistic missile launch at Riyadh; Saudi Civil Defense issues danger warning",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-09T14:18:00+08:00"
+      },
       {
         "text": "CENTCOM reportedly told Israel to prepare for a third US strike wave, possibly on Iranian power and energy sites",
         "confidence": "unconfirmed",
@@ -101,10 +107,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$97.5",
-    "detail": "Brent about $97.5 (below $98) in early Asian trade Mon 9 Nov, extending last week's 16%+ slide, per Bloomberg as relayed in market posts on X, ~11:35-11:46 am SGT"
+    "value": "~$98.3",
+    "detail": "Brent $98.28 (WTI $91.24) on Mon 9 Nov after Trump said new Iran strikes are 'highly unlikely', per OilPrice.com on X, ~2:02 pm SGT"
   },
   "alerts": [
+    {
+      "time": "14:18",
+      "ts": "2026-11-09T14:18:00+08:00",
+      "eventTime": "2:15 pm, 9 Nov (est.)",
+      "eventTs": "2026-11-09T14:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Civil Defense issues a danger warning in Riyadh as at least one ballistic missile is reported launched from Yemen toward the capital, a day after Houthi fire damaged Aramco's tower",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping (OSINT) on the launch; First Squawk on the Saudi Civil Defense warning; no interception or impact reported yet",
+      "url": "https://x.com/AMK_Mapping_/status/2119675333377130574"
+    },
     {
       "time": "13:07",
       "ts": "2026-11-09T13:07:00+08:00",
@@ -611,22 +630,19 @@
       "confidence": "Confirmed",
       "source": "UKMTO via Live Squawk; AMK Mapping",
       "url": "https://x.com/LiveSquawk/status/2118256357027524625"
-    },
-    {
-      "time": "15:50",
-      "ts": "2026-11-05T15:50:00+08:00",
-      "eventTime": "3:37 pm, 5 Nov",
-      "eventTs": "2026-11-05T15:37:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi Civil Defense sounds early-warning alert in Sharurah (Najran province, Yemen border), then declares danger passed about 9 minutes later; no impact disclosed",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Civil Defense (official); Osint613; First Squawk; Arab News",
-      "url": "https://x.com/Osint613/status/2118249475315757338"
     }
   ],
   "sources": [
+    {
+      "title": "AMK Mapping: Ballistic missile launches from Yemen to Riyadh",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2119675333377130574"
+    },
+    {
+      "title": "First Squawk: Saudi Arabia issues warning of possible danger in Riyadh through Civil Defense",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119675605532991743"
+    },
     {
       "title": "First Squawk: Israeli and American military officials support military action against Iran (Kan)",
       "site": "X / First Squawk",
@@ -1266,11 +1282,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran fired missiles at non-compliant Hormuz ships and says it destroyed southern-route navigation aids, while a drone strike halted Iraq's Khor Mor gas field.",
+      "Iran tightened Hormuz control with missile fire and destroyed navigation aids, a drone halted Iraq's Khor Mor gas field, and Houthis launched fresh missiles at Riyadh.",
       "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli media report US-Israeli preparation for a possible third wave of Iran strikes, and Trump plans talks with Xi and Putin."
     ],
-    "updated": "Mon 9 Nov 2026, 1:07 pm SGT",
-    "updatedTs": "2026-11-09T13:07:00+08:00"
+    "updated": "Mon 9 Nov 2026, 2:18 pm SGT",
+    "updatedTs": "2026-11-09T14:18:00+08:00"
   },
   "last24Count": 13
 }
