@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 9:01 am SGT",
-  "lastScannedTs": "2026-11-09T09:01:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 8:00 am SGT",
-  "asOfTs": "2026-11-09T08:00:52+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 9:15 am SGT",
+  "lastScannedTs": "2026-11-09T09:15:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 9:15 am SGT",
+  "asOfTs": "2026-11-09T09:15:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz missile fire, the Khor Mor strike and a large Ukrainian drone raid near Kirishi keep risk skewed up despite Trump's dovish talk.",
-    "lead": "Net read (last 24 hours): Hormuz missile fire, the Khor Mor strike and a large Ukrainian drone raid near Kirishi keep risk skewed up despite Trump's dovish talk.",
+    "bottom": "Fires at Russia's Kirishi refinery, Hormuz missile fire and the Khor Mor strike keep risk skewed up despite Trump's dovish talk.",
+    "lead": "Net read (last 24 hours): Fires at Russia's Kirishi refinery, Hormuz missile fire and the Khor Mor strike keep risk skewed up despite Trump's dovish talk.",
     "verdict": "Bullish",
-    "count": "7 of 8 alerts point higher, 1 lower",
-    "text": "7 of 8 alerts point higher, 1 lower.",
+    "count": "8 of 9 alerts point higher, 1 lower",
+    "text": "8 of 9 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Fires reported at Kirishi oil refinery after Ukrainian drones break through",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-09T09:15:00+08:00"
+      },
       {
         "text": "Ukrainian mass drone raid near St. Petersburg; drones spotted near Kirishi refinery",
         "confidence": "unconfirmed",
@@ -69,6 +75,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:15",
+      "ts": "2026-11-09T09:15:00+08:00",
+      "eventTime": "8:55 am, 9 Nov (est.)",
+      "eventTs": "2026-11-09T08:55:00+08:00",
+      "eventQual": "est.",
+      "headline": "Large fires reported at Russia's Kirishi (KINEF) oil refinery after Ukrainian drones apparently broke through; residents report smoke and glow over the city",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Woofers; also residents via medoyid_ua",
+      "url": "https://x.com/NotWoofers/status/2119598086729179514"
+    },
     {
       "time": "08:00",
       "ts": "2026-11-09T08:00:00+08:00",
@@ -575,22 +594,19 @@
       "confidence": "Confirmed",
       "source": "Reuters via Giovanni Staunovo; OilPrice.com",
       "url": "https://x.com/staunovo/status/2118014269165810103"
-    },
-    {
-      "time": "03:57",
-      "ts": "2026-11-05T03:57:14+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "FT: Trump's diesel deal with Russia falters as tankers with Russian diesel veer off course (one diverted to Brazil), while US distillate stocks sit at a 20-year low",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FT Energy; tanker tracking by Russian Oil & Gas Monitor",
-      "url": "https://x.com/ftenergy/status/2118070084354670656"
     }
   ],
   "sources": [
+    {
+      "title": "Woofers: large fires burn at Russia's Kirishi oil refinery following a Ukrainian drone attack",
+      "site": "X / Woofers",
+      "href": "https://x.com/NotWoofers/status/2119598086729179514"
+    },
+    {
+      "title": "medoyid_ua: Kirishi residents report attack on the KINEF refinery, thick smoke and orange glow",
+      "site": "X / medoyid_ua",
+      "href": "https://x.com/LetsArmUKR/status/2119597903513616825"
+    },
     {
       "title": "OSINTtechnical: explosions and an airstrike reported in Bandar Abbas and on Qeshm Island tonight, a third night of US-Iran fire",
       "site": "X / OSINTtechnical",
@@ -1181,10 +1197,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, and a drone strike halted Iraq's Khor Mor gas field, cutting Kurdistan power.",
-      "Blasts hit Qeshm and Bandar Abbas, Trump called renewed war unlikely, and a Houthi strike damaged an Aramco building in Riyadh, while a Ukrainian drone raid neared St. Petersburg's Kirishi refinery."
+      "Blasts hit Qeshm and Bandar Abbas, a Houthi strike damaged an Aramco building in Riyadh, and fires broke out at Russia's Kirishi refinery after a Ukrainian drone raid."
     ],
-    "updated": "Mon 09 Nov 2026, 8:00 am SGT",
-    "updatedTs": "2026-11-09T08:00:00+08:00"
+    "updated": "Mon 9 Nov 2026, 9:15 am SGT",
+    "updatedTs": "2026-11-09T09:15:00+08:00"
   },
   "last24Count": 13
 }
