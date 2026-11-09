@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 12:00 pm SGT",
-  "lastScannedTs": "2026-11-09T12:00:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 10:25 am SGT",
-  "asOfTs": "2026-11-09T10:25:24+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 12:06 pm SGT",
+  "lastScannedTs": "2026-11-09T12:06:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 12:07 pm SGT",
+  "asOfTs": "2026-11-09T12:07:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "The Kirishi refinery fire, Hormuz missile fire, the Khor Mor strike and a Houthi Abqaiq claim keep risk skewed up despite Trump's dovish talk.",
-    "lead": "Net read (last 24 hours): The Kirishi refinery fire, Hormuz missile fire, the Khor Mor strike and a Houthi Abqaiq claim keep risk skewed up despite Trump's dovish talk.",
+    "bottom": "Kirishi refinery fire, Hormuz missile fire, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
+    "lead": "Net read (last 24 hours): Kirishi refinery fire, Hormuz missile fire, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
     "verdict": "Bullish",
-    "count": "9 of 10 alerts point higher, 1 lower",
-    "text": "9 of 10 alerts point higher, 1 lower.",
+    "count": "9 of 11 alerts point higher, 2 lower",
+    "text": "9 of 11 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Houthis claim strike on Aramco's Abqaiq site; Saudi Arabia and Aramco have not confirmed",
@@ -68,6 +68,12 @@
     ],
     "dovish": [
       {
+        "text": "Trump plans to discuss ending the Iran war with Xi and Putin at APEC next week",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-09T12:06:00+08:00"
+      },
+      {
         "text": "Trump tells CNN another Iran war is highly unlikely if talks progress",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -81,6 +87,19 @@
     "detail": "Brent about $97.5 (below $98) in early Asian trade Mon 9 Nov, extending last week's 16%+ slide, per Bloomberg as relayed in market posts on X, ~11:35-11:46 am SGT"
   },
   "alerts": [
+    {
+      "time": "12:06",
+      "ts": "2026-11-09T12:06:00+08:00",
+      "eventTime": "Not stated (reported ~12:03 pm SGT, 9 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump says he expects to meet Xi and Putin at the APEC summit in China next week to discuss ending the Iran war and denuclearisation",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Post Open Source, citing Reuters",
+      "url": "https://x.com/CocoPostel/status/2119642098450276660"
+    },
     {
       "time": "10:25",
       "ts": "2026-11-09T10:25:00+08:00",
@@ -587,22 +606,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk citing WSN; footage from multiple OSINT accounts",
       "url": "https://x.com/FirstSquawk/status/2118144128013971954"
-    },
-    {
-      "time": "05:01",
-      "ts": "2026-11-05T05:01:29+08:00",
-      "eventTime": "4:00 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T04:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "i24 News: Israel on high security alert amid worries of a possible Iranian strike",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing i24 News",
-      "url": "https://x.com/FirstSquawk/status/2118071396295475491"
     }
   ],
   "sources": [
+    {
+      "title": "Post Open Source (via Reuters): Trump expects to meet Xi and Putin at APEC next week to discuss ending the Iran war",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2119642098450276660"
+    },
     {
       "title": "AMK Mapping: Ansarallah claims attacks on King Khalid airport, Aramco oil tanks and financial centre in Riyadh, and Aramco Abqaiq",
       "site": "X / AMK Mapping",
@@ -1222,11 +1233,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, a drone strike halted Iraq's Khor Mor gas field, and the Houthis claimed a strike on Aramco's Abqaiq site.",
-      "Blasts hit Qeshm and Bandar Abbas, a Houthi strike damaged an Aramco building in Riyadh, and Ukrainian drones set Russia's Kirishi refinery ablaze, confirmed by the regional governor."
+      "Iran fired missiles at non-compliant ships in Hormuz, a drone strike halted Iraq's Khor Mor gas field, and the Houthis claimed a strike on Aramco's Abqaiq site.",
+      "Ukrainian drones set Russia's Kirishi refinery ablaze and a Houthi strike damaged an Aramco building in Riyadh, while Trump plans Iran-war talks with Xi and Putin at APEC."
     ],
-    "updated": "Mon 9 Nov 2026, 10:25 am SGT",
-    "updatedTs": "2026-11-09T10:25:00+08:00"
+    "updated": "Mon 9 Nov 2026, 12:06 pm SGT",
+    "updatedTs": "2026-11-09T12:06:00+08:00"
   },
   "last24Count": 13
 }
