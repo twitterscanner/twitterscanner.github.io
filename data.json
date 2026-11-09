@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 11:06 pm SGT",
-  "lastScannedTs": "2026-11-09T23:06:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 10:09 pm SGT",
-  "asOfTs": "2026-11-09T22:09:20+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 12:09 am SGT",
+  "lastScannedTs": "2026-11-10T00:09:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 12:10 am SGT",
+  "asOfTs": "2026-11-10T00:10:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits still dominate, but a planned Vance-Rezaei Doha meeting adds to diplomacy hopes.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits still dominate, but a planned Vance-Rezaei Doha meeting adds to diplomacy hopes.",
+    "bottom": "Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits dominate; Tehran's denial of Doha talks cools hopes for a quick US-Iran deal.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks, Saudi-Houthi strikes and Russian refinery hits dominate; Tehran's denial of Doha talks cools hopes for a quick US-Iran deal.",
     "verdict": "Mixed, leaning bullish",
-    "count": "17 of 25 alerts point higher, 6 lower",
-    "text": "17 of 25 alerts point higher, 6 lower.",
+    "count": "18 of 26 alerts point higher, 6 lower",
+    "text": "18 of 26 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Tasnim denies Rezaei-Vance Doha meeting; Tehran says no talks until US meets seven conditions",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-10T00:03:00+08:00"
+      },
       {
         "text": "UKMTO reclassifies 7 Nov Khasab tanker fire as an attack; crew evacuated",
         "confidence": "confirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent spot down more than 5% on the day, near $93/bbl (intraday low reported at $92.98), its lowest since late August, on US-Iran deal hopes, per Matriks Haber on X (Turkish), ~10:24 pm SGT"
   },
   "alerts": [
+    {
+      "time": "00:03",
+      "ts": "2026-11-10T00:03:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's Tasnim denies reports that security chief Mohsen Rezaei met US VP Vance in Doha; a senior Tehran official says no talks are planned until the US acts on Iran's seven conditions",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel, citing Tasnim News and Iranian state media",
+      "url": "https://x.com/Osint613/status/2119823099206013088"
+    },
     {
       "time": "21:29",
       "ts": "2026-11-09T21:29:00+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Confirmed",
       "source": "Saudi Civil Defense (official); First Squawk; MenchOsint",
       "url": "https://x.com/SaudiDCD/status/2118599742305321449"
-    },
-    {
-      "time": "13:13",
-      "ts": "2026-11-06T13:13:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: FT reports negotiators are working toward an agreement to end the Iran war, though Iran's security chief earlier said Hormuz stays shut until seven conditions are met",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk relaying the Financial Times (wire headline; no official confirmation)",
-      "url": "https://x.com/FirstSquawk/status/2118570917609771067"
     }
   ],
   "sources": [
+    {
+      "title": "Open Source Intel: Tasnim denies Rezaei-Vance Doha meeting; no talks until US meets seven conditions",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2119823099206013088"
+    },
     {
       "title": "Tzvi Joffre: Kalın says Qatar to host Vance and Rezaei next week",
       "site": "X / Tzvi Joffre",
@@ -1418,11 +1429,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control amid more tanker fires, UKMTO confirmed a 7 Nov Khasab tanker attack, and Turkey's intel chief said Qatar will host Vance-Rezaei talks next week.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft limited fuel sales, while Houthis hit Riyadh, Saudi jets reportedly struck Hodeidah airport and a drone halted Khor Mor."
+      "Iran's Tasnim denied reports that security chief Rezaei met US VP Vance in Doha, and Tehran says no US talks until its seven conditions are met.",
+      "Late Monday, Turkey's intel chief said Qatar will host Vance-Rezaei talks next week, while Hormuz tanker fires, Houthi strikes on Riyadh and Ukraine's Kirishi refinery hit kept supply risks high."
     ],
-    "updated": "Mon 9 Nov 2026, 10:09 pm SGT",
-    "updatedTs": "2026-11-09T22:09:00+08:00"
+    "updated": "Tue 10 Nov 2026, 12:09 am SGT",
+    "updatedTs": "2026-11-10T00:09:00+08:00"
   },
   "last24Count": 13
 }
