@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 12:16 pm SGT",
-  "lastScannedTs": "2026-11-09T12:16:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 12:16 pm SGT",
-  "asOfTs": "2026-11-09T12:16:38+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 12:33 pm SGT",
+  "lastScannedTs": "2026-11-09T12:33:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 12:33 pm SGT",
+  "asOfTs": "2026-11-09T12:33:50+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Kirishi refinery fire, Iran's Hormuz lane enforcement, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
-    "lead": "Net read (last 24 hours): Kirishi refinery fire, Iran's Hormuz lane enforcement, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
+    "bottom": "Kirishi fire, Iran's Hormuz lane enforcement, Khor Mor strike and Israeli-US military pressure for new Iran strikes outweigh Trump's diplomacy push.",
+    "lead": "Net read (last 24 hours): Kirishi fire, Iran's Hormuz lane enforcement, Khor Mor strike and Israeli-US military pressure for new Iran strikes outweigh Trump's diplomacy push.",
     "verdict": "Bullish",
-    "count": "10 of 12 alerts point higher, 2 lower",
-    "text": "10 of 12 alerts point higher, 2 lower.",
+    "count": "11 of 13 alerts point higher, 2 lower",
+    "text": "11 of 13 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Kan: Israeli and US military officials back renewed military action against Iran",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-09T12:33:00+08:00"
+      },
       {
         "text": "Iran state TV says southern Hormuz navigation aids destroyed; no ships used 'unauthorised' route",
         "confidence": "unconfirmed",
@@ -93,6 +99,19 @@
     "detail": "Brent about $97.5 (below $98) in early Asian trade Mon 9 Nov, extending last week's 16%+ slide, per Bloomberg as relayed in market posts on X, ~11:35-11:46 am SGT"
   },
   "alerts": [
+    {
+      "time": "12:33",
+      "ts": "2026-11-09T12:33:00+08:00",
+      "eventTime": "Not stated (reported ~12:32 pm SGT, 9 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israel's Kan: Israeli and American military officials support renewed military action against Iran; an Israeli official says a further attack would degrade Iran's capabilities",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Israel's Kan broadcaster; also RedboxGlobal",
+      "url": "https://x.com/FirstSquawk/status/2119649351182229629"
+    },
     {
       "time": "12:16",
       "ts": "2026-11-09T12:16:00+08:00",
@@ -599,22 +618,14 @@
       "confidence": "Unconfirmed",
       "source": "LiveSquawk citing IRGC statement; also Iran International",
       "url": "https://x.com/LiveSquawk/status/2118192704282587394"
-    },
-    {
-      "time": "11:23",
-      "ts": "2026-11-05T11:23:16+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: Houthis demand $51 billion from Saudi Arabia to end hostilities after Riyadh asked what price would halt Red Sea tanker attacks",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "CN Wire citing WSJ",
-      "url": "https://x.com/Sino_Market/status/2118182332809290046"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Israeli and American military officials support military action against Iran (Kan)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119649351182229629"
+    },
     {
       "title": "First Squawk: Iranian state TV reports destruction of navigation aids in southern Hormuz, no ships using unauthorised route overnight",
       "site": "X / First Squawk",
@@ -1244,11 +1255,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran fired missiles at non-compliant Hormuz ships and says it destroyed navigation aids on the southern route, while a drone strike halted Iraq's Khor Mor gas field.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze and a Houthi strike damaged an Aramco building in Riyadh, while Trump plans Iran-war talks with Xi and Putin at APEC."
+      "Iran fired missiles at non-compliant Hormuz ships and says it destroyed southern-route navigation aids, while a drone strike halted Iraq's Khor Mor gas field.",
+      "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli and US military officials reportedly back new Iran strikes, and Trump plans Iran-war talks with Xi and Putin."
     ],
-    "updated": "Mon 9 Nov 2026, 12:16 pm SGT",
-    "updatedTs": "2026-11-09T12:16:00+08:00"
+    "updated": "Mon 9 Nov 2026, 12:33 pm SGT",
+    "updatedTs": "2026-11-09T12:33:00+08:00"
   },
   "last24Count": 13
 }
