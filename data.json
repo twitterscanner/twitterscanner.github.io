@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 5:04 pm SGT",
-  "lastScannedTs": "2026-11-09T17:04:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 4:40 pm SGT",
-  "asOfTs": "2026-11-09T16:40:06+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 5:53 pm SGT",
+  "lastScannedTs": "2026-11-09T17:53:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 5:52 pm SGT",
+  "asOfTs": "2026-11-09T17:52:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi fire on Riyadh, Kirishi fire, Hormuz enforcement and Khor Mor strike outweigh Trump diplomacy and Iraq's deep Asia price cuts.",
-    "lead": "Net read (last 24 hours): Houthi fire on Riyadh, Kirishi fire, Hormuz enforcement and Khor Mor strike outweigh Trump diplomacy and Iraq's deep Asia price cuts.",
+    "bottom": "Hormuz enforcement, Houthi fire on Riyadh, Kirishi and Russian fuel rationing, and Khor Mor outweigh Trump diplomacy and Iraq's Asia price cuts.",
+    "lead": "Net read (last 24 hours): Hormuz enforcement, Houthi fire on Riyadh, Kirishi and Russian fuel rationing, and Khor Mor outweigh Trump diplomacy and Iraq's Asia price cuts.",
     "verdict": "Bullish",
-    "count": "13 of 16 alerts point higher, 3 lower",
-    "text": "13 of 16 alerts point higher, 3 lower.",
+    "count": "14 of 17 alerts point higher, 3 lower",
+    "text": "14 of 17 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Rosneft reimposes nationwide fuel purchase limits after Ukrainian refinery strikes",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-09T17:49:00+08:00"
+      },
       {
         "text": "Houthi ballistic missile launched at Riyadh; Saudi danger warning lifted within minutes",
         "confidence": "unconfirmed",
@@ -117,6 +123,19 @@
     "detail": "Brent futures ~$96.6-96.8 (down ~1.7%) on Mon 9 Nov as Iran talks hopes weigh, per several market accounts on X, ~2:45 pm SGT"
   },
   "alerts": [
+    {
+      "time": "17:49",
+      "ts": "2026-11-09T17:49:00+08:00",
+      "eventTime": "9:06 am, 9 Nov (est.)",
+      "eventTs": "2026-11-09T09:06:00+08:00",
+      "eventQual": "est.",
+      "headline": "Rosneft reimposes fuel purchase limits at Russian filling stations (30 L in cities, 50 L on highways, diesel capped) after Ukrainian refinery strikes; Karelia, Zabaykalsky, Buryatia, Novosibirsk and others confirm",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "OSINTtechnical; Zabaykalsky Krai and Karelia regional authorities (Russian)",
+      "url": "https://x.com/Osinttechnical/status/2119729098859721162"
+    },
     {
       "time": "16:38",
       "ts": "2026-11-09T16:38:00+08:00",
@@ -623,22 +642,19 @@
       "confidence": "Confirmed",
       "source": "First Squawk citing ONA",
       "url": "https://x.com/FirstSquawk/status/2118289259706872045"
-    },
-    {
-      "time": "17:27",
-      "ts": "2026-11-05T17:27:00+08:00",
-      "eventTime": "5:24 pm, 5 Nov",
-      "eventTs": "2026-11-05T17:24:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi Civil Defense sounds early-warning alert in Yanbu (Red Sea oil export and refining hub); no impact disclosed yet",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk citing Saudi Civil Defense; Al Jazeera Breaking / Asharq Al-Awsat",
-      "url": "https://x.com/FirstSquawk/status/2118273417019633881"
     }
   ],
   "sources": [
+    {
+      "title": "OSINTtechnical: Russian regions ration fuel; Rosneft caps sales at 30 L after refinery strikes",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2119729098859721162"
+    },
+    {
+      "title": "NOELreports: Zabaykalsky authorities say Rosneft limits fuel purchases across Russia",
+      "site": "X / NOELreports",
+      "href": "https://x.com/NOELreports/status/2119714216030412903"
+    },
     {
       "title": "First Squawk: Iraq sets December Basrah Medium/Heavy crude OSPs to Asia",
       "site": "X / First Squawk",
@@ -1304,10 +1320,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran tightened Hormuz control with missile fire and destroyed navigation aids, a drone halted Iraq's Khor Mor gas field, and Houthis launched fresh missiles at Riyadh.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli media report preparation for a possible third wave of Iran strikes, and Iraq cut December Basrah prices to Asia."
+      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft reimposed fuel purchase limits across Russia, while Iraq cut December Basrah prices to Asia."
     ],
-    "updated": "Mon 9 Nov 2026, 4:41 pm SGT",
-    "updatedTs": "2026-11-09T16:41:00+08:00"
+    "updated": "Mon 9 Nov 2026, 5:53 pm SGT",
+    "updatedTs": "2026-11-09T17:53:00+08:00"
   },
   "last24Count": 13
 }
