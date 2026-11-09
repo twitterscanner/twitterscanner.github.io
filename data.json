@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 10:00 am SGT",
-  "lastScannedTs": "2026-11-09T10:00:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 9:15 am SGT",
-  "asOfTs": "2026-11-09T09:15:11+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 10:25 am SGT",
+  "lastScannedTs": "2026-11-09T10:25:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 10:25 am SGT",
+  "asOfTs": "2026-11-09T10:25:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fires at Russia's Kirishi refinery, Hormuz missile fire and the Khor Mor strike keep risk skewed up despite Trump's dovish talk.",
-    "lead": "Net read (last 24 hours): Fires at Russia's Kirishi refinery, Hormuz missile fire and the Khor Mor strike keep risk skewed up despite Trump's dovish talk.",
+    "bottom": "The Kirishi refinery fire, Hormuz missile fire, the Khor Mor strike and a Houthi Abqaiq claim keep risk skewed up despite Trump's dovish talk.",
+    "lead": "Net read (last 24 hours): The Kirishi refinery fire, Hormuz missile fire, the Khor Mor strike and a Houthi Abqaiq claim keep risk skewed up despite Trump's dovish talk.",
     "verdict": "Bullish",
-    "count": "8 of 9 alerts point higher, 1 lower",
-    "text": "8 of 9 alerts point higher, 1 lower.",
+    "count": "9 of 10 alerts point higher, 1 lower",
+    "text": "9 of 10 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim strike on Aramco's Abqaiq site; Saudi Arabia and Aramco have not confirmed",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-09T10:25:00+08:00"
+      },
       {
         "text": "Ukrainian drones hit Kirishi oil refinery; large fire, governor confirms attack",
         "confidence": "confirmed",
@@ -75,6 +81,19 @@
     "detail": "Brent's Friday 6 Nov close at $98.32 and WTI near $90.83 after the biggest weekly drop since 2022, per market posts on X seen ~9:43-9:59 am SGT, 9 Nov"
   },
   "alerts": [
+    {
+      "time": "10:25",
+      "ts": "2026-11-09T10:25:00+08:00",
+      "eventTime": "Not stated (claim issued ~9:40 pm SGT, 8 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim they struck Aramco's Abqaiq oil processing site, plus Riyadh's airport, Aramco oil tanks and the financial centre; neither Riyadh nor Aramco confirms any Abqaiq hit",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping, citing Houthi statement; also CGTN Europe, MTV Lebanon",
+      "url": "https://x.com/AMK_Mapping_/status/2119615402515062864"
+    },
     {
       "time": "09:15",
       "ts": "2026-11-09T09:15:00+08:00",
@@ -581,22 +600,19 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk citing i24 News",
       "url": "https://x.com/FirstSquawk/status/2118071396295475491"
-    },
-    {
-      "time": "05:01",
-      "ts": "2026-11-05T05:01:29+08:00",
-      "eventTime": "Before 11:28 pm, 4 Nov (est.)",
-      "eventTs": "2026-11-04T23:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Equinor halts oil and gas output at Norway's Visund platform after an electrical-system fire; 70 evacuated, gas exports cut to zero, restart unclear",
-      "theme": "Oil fields",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Reuters via Giovanni Staunovo; OilPrice.com",
-      "url": "https://x.com/staunovo/status/2118014269165810103"
     }
   ],
   "sources": [
+    {
+      "title": "AMK Mapping: Ansarallah claims attacks on King Khalid airport, Aramco oil tanks and financial centre in Riyadh, and Aramco Abqaiq",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2119615402515062864"
+    },
+    {
+      "title": "CGTN Europe: Yemen's Houthis say they targeted Aramco in Abqaiq",
+      "site": "X / CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2119425001237426559"
+    },
     {
       "title": "First Squawk: Russia's Kirishi industrial area comes under drone attack, officials report",
       "site": "X / First Squawk",
@@ -1206,11 +1222,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, and a drone strike halted Iraq's Khor Mor gas field, cutting Kurdistan power.",
+      "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, a drone strike halted Iraq's Khor Mor gas field, and the Houthis claimed a strike on Aramco's Abqaiq site.",
       "Blasts hit Qeshm and Bandar Abbas, a Houthi strike damaged an Aramco building in Riyadh, and Ukrainian drones set Russia's Kirishi refinery ablaze, confirmed by the regional governor."
     ],
-    "updated": "Mon 9 Nov 2026, 10:00 am SGT",
-    "updatedTs": "2026-11-09T10:00:00+08:00"
+    "updated": "Mon 9 Nov 2026, 10:25 am SGT",
+    "updatedTs": "2026-11-09T10:25:00+08:00"
   },
   "last24Count": 13
 }
