@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 09 Nov 2026, 7:04 am SGT",
-  "lastScannedTs": "2026-11-09T07:04:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 5:01 am SGT",
-  "asOfTs": "2026-11-09T05:01:55+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 8:00 am SGT",
+  "lastScannedTs": "2026-11-09T08:00:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 8:00 am SGT",
+  "asOfTs": "2026-11-09T08:00:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran's missile fire at Hormuz ships, a Khor Mor gas field strike and Qeshm blasts keep risk skewed up despite Trump's dovish talk.",
-    "lead": "Net read (last 24 hours): Iran's missile fire at Hormuz ships, a Khor Mor gas field strike and Qeshm blasts keep risk skewed up despite Trump's dovish talk.",
+    "bottom": "Hormuz missile fire, the Khor Mor strike and a large Ukrainian drone raid near Kirishi keep risk skewed up despite Trump's dovish talk.",
+    "lead": "Net read (last 24 hours): Hormuz missile fire, the Khor Mor strike and a large Ukrainian drone raid near Kirishi keep risk skewed up despite Trump's dovish talk.",
     "verdict": "Bullish",
-    "count": "6 of 7 alerts point higher, 1 lower",
-    "text": "6 of 7 alerts point higher, 1 lower.",
+    "count": "7 of 8 alerts point higher, 1 lower",
+    "text": "7 of 8 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian mass drone raid near St. Petersburg; drones spotted near Kirishi refinery",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-09T08:00:00+08:00"
+      },
       {
         "text": "Drone strike halts Iraq's Khor Mor gas field in Kurdistan",
         "confidence": "confirmed",
@@ -63,6 +69,19 @@
     "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
   },
   "alerts": [
+    {
+      "time": "08:00",
+      "ts": "2026-11-09T08:00:00+08:00",
+      "eventTime": "7:30 am, 9 Nov (est.)",
+      "eventTs": "2026-11-09T07:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian mass drone raid (hundreds of drones reported) hits sites near St. Petersburg; drones spotted near Kirishi refinery, a Baltic export-linked plant (unconfirmed)",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTtechnical; Woofers; Open Source Intelligence",
+      "url": "https://x.com/Osinttechnical/status/2119578268688961853"
+    },
     {
       "time": "05:04",
       "ts": "2026-11-09T05:04:00+08:00",
@@ -569,19 +588,6 @@
       "confidence": "Confirmed",
       "source": "FT Energy; tanker tracking by Russian Oil & Gas Monitor",
       "url": "https://x.com/ftenergy/status/2118070084354670656"
-    },
-    {
-      "time": "02:24",
-      "ts": "2026-11-05T02:24:33+08:00",
-      "eventTime": "2:15 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T02:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Al-Jadeed, citing Arab diplomatic sources: US-Iran negotiations have made significant progress and their course will become clearer on Friday",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Al-Jadeed",
-      "url": "https://x.com/FirstSquawk/status/2118046760497230248"
     }
   ],
   "sources": [
@@ -1175,10 +1181,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, and a drone strike halted Iraq's Khor Mor gas field, cutting Kurdistan power.",
-      "Blasts hit Qeshm and Bandar Abbas for a third night, while Trump called renewed war unlikely; a Houthi strike damaged an Aramco building in Riyadh."
+      "Blasts hit Qeshm and Bandar Abbas, Trump called renewed war unlikely, and a Houthi strike damaged an Aramco building in Riyadh, while a Ukrainian drone raid neared St. Petersburg's Kirishi refinery."
     ],
-    "updated": "Mon 09 Nov 2026, 5:04 am SGT",
-    "updatedTs": "2026-11-09T05:04:00+08:00"
+    "updated": "Mon 09 Nov 2026, 8:00 am SGT",
+    "updatedTs": "2026-11-09T08:00:00+08:00"
   },
   "last24Count": 13
 }
