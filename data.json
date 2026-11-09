@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 12:15 am SGT",
-  "lastScannedTs": "2026-11-10T00:15:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 12:16 am SGT",
-  "asOfTs": "2026-11-10T00:16:03+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 1:03 am SGT",
+  "lastScannedTs": "2026-11-10T01:03:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 1:04 am SGT",
+  "asOfTs": "2026-11-10T01:04:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, plus Tehran's denial of Doha talks keep supply risks tilted higher.",
-    "lead": "Net read (last 24 hours): Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, plus Tehran's denial of Doha talks keep supply risks tilted higher.",
+    "bottom": "Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, Tehran's denial of Doha talks and a US cold snap keep risks tilted higher.",
+    "lead": "Net read (last 24 hours): Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, Tehran's denial of Doha talks and a US cold snap keep risks tilted higher.",
     "verdict": "Bullish",
-    "count": "19 of 27 alerts point higher, 6 lower",
-    "text": "19 of 27 alerts point higher, 6 lower.",
+    "count": "20 of 28 alerts point higher, 6 lower",
+    "text": "20 of 28 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "First snowstorm watch for US Mid-Atlantic and Northeast lifts heating-oil demand",
+        "confidence": "unconfirmed",
+        "theme": "Weather",
+        "ts": "2026-11-10T01:03:00+08:00"
+      },
       {
         "text": "Saudi East-West pipeline, the Hormuz bypass, targeted near Medina; small fire, operations unaffected",
         "confidence": "confirmed",
@@ -184,6 +190,19 @@
     "detail": "Brent spot down more than 5% on the day, near $93/bbl (intraday low reported at $92.98), its lowest since late August, on US-Iran deal hopes, per Matriks Haber on X (Turkish), ~10:24 pm SGT"
   },
   "alerts": [
+    {
+      "time": "01:03",
+      "ts": "2026-11-10T01:03:00+08:00",
+      "eventTime": "Forecast (timing not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Zero Hedge: a cold blast puts the US Mid-Atlantic and Northeast on watch for the season's first snowstorm, a boost to heating-oil and gas demand in the main US heating-oil region",
+      "theme": "Weather",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Zero Hedge",
+      "url": "https://x.com/zerohedge/status/2119831995849011360"
+    },
     {
       "time": "00:12",
       "ts": "2026-11-10T00:12:00+08:00",
@@ -690,19 +709,6 @@
       "confidence": "Confirmed",
       "source": "Saudi-led coalition via Arab News; First Squawk",
       "url": "https://x.com/FirstSquawk/status/2118608621995254105"
-    },
-    {
-      "time": "15:29",
-      "ts": "2026-11-06T15:29:00+08:00",
-      "eventTime": "3:25 pm, 6 Nov (est.)",
-      "eventTs": "2026-11-06T15:25:03+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Iran's IRGC Navy says two more tankers struck mines and caught fire while trying to transit the Strait of Hormuz (via IRNA); unclear if this is a new incident or a restatement of earlier ones",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing IRGC Navy / IRNA; FinSquawk (Iranian state media claim, no independent confirmation)",
-      "url": "https://x.com/FirstSquawk/status/2118606192125866173"
     }
   ],
   "sources": [
@@ -1441,10 +1447,10 @@
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia says its East-West crude pipeline, the main Hormuz bypass, was targeted near Medina with a small fire and no impact on operations.",
-      "Iran's Tasnim denied reports of a Rezaei-Vance meeting in Doha, and Tehran says it won't hold US talks until its seven conditions are met."
+      "Iran denied reports of Doha talks with the US pending its seven conditions, and a cold blast puts the US Northeast on watch for its first snowstorm."
     ],
-    "updated": "Tue 10 Nov 2026, 12:15 am SGT",
-    "updatedTs": "2026-11-10T00:15:00+08:00"
+    "updated": "Tue 10 Nov 2026, 1:03 am SGT",
+    "updatedTs": "2026-11-10T01:03:00+08:00"
   },
   "last24Count": 13
 }
