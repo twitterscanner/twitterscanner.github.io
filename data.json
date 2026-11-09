@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 5:05 am SGT",
-  "lastScannedTs": "2026-11-10T05:05:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 5:04 am SGT",
-  "asOfTs": "2026-11-10T05:04:46+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 6:07 am SGT",
+  "lastScannedTs": "2026-11-10T06:07:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 6:05 am SGT",
+  "asOfTs": "2026-11-10T06:05:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz and Saudi pipeline attacks keep risk tilted higher, but US-Iran deal reports and Gulf pressure for restraint pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Hormuz and Saudi pipeline attacks keep risk tilted higher, but US-Iran deal reports and Gulf pressure for restraint pushed Brent down about 7%.",
+    "bottom": "Trump keeps the Iran blockade after Qatar talks, and Hormuz and Saudi pipeline attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Trump keeps the Iran blockade after Qatar talks, and Hormuz and Saudi pipeline attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "16 of 26 alerts point higher, 8 lower",
+    "text": "16 of 26 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Trump says Gulf states prefer status quo; Iran blockade and Iron Gate continue",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-10T05:35:24+08:00"
+      },
       {
         "text": "Iran reportedly hits Oman's Didamar Island radar; IRGC threatens to shut the southern Hormuz corridor",
         "confidence": "unconfirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "05:35",
+      "ts": "2026-11-10T05:35:24+08:00",
+      "eventTime": "5:32 am, 10 Nov (est.)",
+      "eventTs": "2026-11-10T05:32:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump after Qatar PM talks: Gulf states prefer the status quo, so the Iran naval blockade and Operation Iron Gate continue; strikes 'locked and loaded' but unlikely",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Trump on Truth Social via FirstSquawk",
+      "url": "https://x.com/FirstSquawk/status/2119906727290405157"
+    },
     {
       "time": "05:00",
       "ts": "2026-11-10T05:00:58+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Unconfirmed",
       "source": "Post Open Source (CocoPostel), citing AB4_Ali3",
       "url": "https://x.com/CocoPostel/status/2118674672124637262"
-    },
-    {
-      "time": "18:58",
-      "ts": "2026-11-06T18:58:20+08:00",
-      "eventTime": "6:30 pm, 6 Nov (est.)",
-      "eventTs": "2026-11-06T18:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says it intercepted and destroyed a drone in Saudi Arabia's Mecca region (home to Jeddah and its oil facilities); it did not name the launcher or target, though Houthi attacks on the kingdom have been repeated",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition spokesman, via Arab News; also Al Arabiya English, Anadolu",
-      "url": "https://x.com/arabnews/status/2118652237849264176"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Trump says Gulf states prefer the status quo, Iran blockade and Iron Gate continue",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119906727290405157"
+    },
     {
       "title": "First Squawk: Al Arabiya sources say Hormuz to reopen and blockade lifted under proposed US-Iran framework",
       "site": "X / First Squawk",
@@ -1454,10 +1465,10 @@
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia says its East-West pipeline was targeted near Medina, and Iran reportedly struck radar on Oman's Didamar Island in southern Hormuz.",
-      "Al Arabiya reports a preliminary US-Iran enrichment deal is likely and Arab leaders are pressing Trump not to restart the war, pushing Brent down about 7%."
+      "Reports of a preliminary US-Iran deal pushed Brent down about 7%, but after Qatar talks Trump said the naval blockade on Iran will continue for now."
     ],
-    "updated": "Tue 10 Nov 2026, 5:05 am SGT",
-    "updatedTs": "2026-11-10T05:05:00+08:00"
+    "updated": "Tue 10 Nov 2026, 6:05 am SGT",
+    "updatedTs": "2026-11-10T06:05:00+08:00"
   },
   "last24Count": 13
 }
