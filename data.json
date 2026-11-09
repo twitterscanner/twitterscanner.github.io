@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 9:15 am SGT",
-  "lastScannedTs": "2026-11-09T09:15:00+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 10:00 am SGT",
+  "lastScannedTs": "2026-11-09T10:00:00+08:00",
   "asOf": "Mon 9 Nov 2026, 9:15 am SGT",
   "asOfTs": "2026-11-09T09:15:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -12,8 +12,8 @@
     "text": "8 of 9 alerts point higher, 1 lower.",
     "hawkish": [
       {
-        "text": "Fires reported at Kirishi oil refinery after Ukrainian drones break through",
-        "confidence": "unconfirmed",
+        "text": "Ukrainian drones hit Kirishi oil refinery; large fire, governor confirms attack",
+        "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-09T09:15:00+08:00"
       },
@@ -71,8 +71,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$99.42 (WTI $91.24)",
-    "detail": "Brent at $99.42 and WTI at $91.24, on course for a ~12% weekly loss after US midterms lifted hopes of a Middle East peace deal; still up on the day on Hormuz tanker attack reports (OilPrice.com, ~3:21 pm SGT, 6 Nov)"
+    "value": "$98.32 (WTI ~$90.8)",
+    "detail": "Brent's Friday 6 Nov close at $98.32 and WTI near $90.83 after the biggest weekly drop since 2022, per market posts on X seen ~9:43-9:59 am SGT, 9 Nov"
   },
   "alerts": [
     {
@@ -81,11 +81,11 @@
       "eventTime": "8:55 am, 9 Nov (est.)",
       "eventTs": "2026-11-09T08:55:00+08:00",
       "eventQual": "est.",
-      "headline": "Large fires reported at Russia's Kirishi (KINEF) oil refinery after Ukrainian drones apparently broke through; residents report smoke and glow over the city",
+      "headline": "Ukrainian drones hit Russia's Kirishi (KINEF) oil refinery, one of its largest; large fire burning, and Leningrad governor Drozdenko reports a successful attack on the refinery",
       "theme": "Russian refineries",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Woofers; also residents via medoyid_ua",
+      "confidence": "Confirmed",
+      "source": "Woofers; Leningrad governor via First Squawk; also OSINTtechnical, AMK Mapping",
       "url": "https://x.com/NotWoofers/status/2119598086729179514"
     },
     {
@@ -597,6 +597,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Russia's Kirishi industrial area comes under drone attack, officials report",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119608161472803249"
+    },
+    {
+      "title": "OSINTtechnical: Ukrainian attack drones hit Kirishi, Russia's second largest refinery, setting it ablaze",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2119600335413014875"
+    },
     {
       "title": "Woofers: large fires burn at Russia's Kirishi oil refinery following a Ukrainian drone attack",
       "site": "X / Woofers",
@@ -1197,10 +1207,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran said it fired missiles from Sirik at non-compliant ships in Hormuz, and a drone strike halted Iraq's Khor Mor gas field, cutting Kurdistan power.",
-      "Blasts hit Qeshm and Bandar Abbas, a Houthi strike damaged an Aramco building in Riyadh, and fires broke out at Russia's Kirishi refinery after a Ukrainian drone raid."
+      "Blasts hit Qeshm and Bandar Abbas, a Houthi strike damaged an Aramco building in Riyadh, and Ukrainian drones set Russia's Kirishi refinery ablaze, confirmed by the regional governor."
     ],
-    "updated": "Mon 9 Nov 2026, 9:15 am SGT",
-    "updatedTs": "2026-11-09T09:15:00+08:00"
+    "updated": "Mon 9 Nov 2026, 10:00 am SGT",
+    "updatedTs": "2026-11-09T10:00:00+08:00"
   },
   "last24Count": 13
 }
