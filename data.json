@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 4:04 pm SGT",
-  "lastScannedTs": "2026-11-09T16:04:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 2:19 pm SGT",
-  "asOfTs": "2026-11-09T14:19:13+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 4:41 pm SGT",
+  "lastScannedTs": "2026-11-09T16:41:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 4:40 pm SGT",
+  "asOfTs": "2026-11-09T16:40:06+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fresh Houthi fire on Riyadh, Kirishi fire, Hormuz lane enforcement and Khor Mor strike outweigh Trump's diplomacy push.",
-    "lead": "Net read (last 24 hours): Fresh Houthi fire on Riyadh, Kirishi fire, Hormuz lane enforcement and Khor Mor strike outweigh Trump's diplomacy push.",
+    "bottom": "Houthi fire on Riyadh, Kirishi fire, Hormuz enforcement and Khor Mor strike outweigh Trump diplomacy and Iraq's deep Asia price cuts.",
+    "lead": "Net read (last 24 hours): Houthi fire on Riyadh, Kirishi fire, Hormuz enforcement and Khor Mor strike outweigh Trump diplomacy and Iraq's deep Asia price cuts.",
     "verdict": "Bullish",
-    "count": "13 of 15 alerts point higher, 2 lower",
-    "text": "13 of 15 alerts point higher, 2 lower.",
+    "count": "13 of 16 alerts point higher, 3 lower",
+    "text": "13 of 16 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Houthi ballistic missile launched at Riyadh; Saudi danger warning lifted within minutes",
@@ -92,6 +92,12 @@
     ],
     "dovish": [
       {
+        "text": "Iraq sets deep December Basrah discounts to Asia ($8.80 Medium, $11.80 Heavy)",
+        "confidence": "confirmed",
+        "theme": "Iraq",
+        "ts": "2026-11-09T16:38:00+08:00"
+      },
+      {
         "text": "Trump plans to discuss ending the Iran war with Xi and Putin at APEC next week",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -111,6 +117,19 @@
     "detail": "Brent futures ~$96.6-96.8 (down ~1.7%) on Mon 9 Nov as Iran talks hopes weigh, per several market accounts on X, ~2:45 pm SGT"
   },
   "alerts": [
+    {
+      "time": "16:38",
+      "ts": "2026-11-09T16:38:00+08:00",
+      "eventTime": "4:37 pm, 9 Nov (est.)",
+      "eventTs": "2026-11-09T16:37:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iraq sets December Basrah Medium crude to Asia at an $8.80/bbl discount and Basrah Heavy at an $11.80/bbl discount",
+      "theme": "Iraq",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk; FinSquawk (#OOTT)",
+      "url": "https://x.com/FirstSquawk/status/2119711267661443319"
+    },
     {
       "time": "14:18",
       "ts": "2026-11-09T14:18:00+08:00",
@@ -617,22 +636,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk citing Saudi Civil Defense; Al Jazeera Breaking / Asharq Al-Awsat",
       "url": "https://x.com/FirstSquawk/status/2118273417019633881"
-    },
-    {
-      "time": "16:22",
-      "ts": "2026-11-05T16:22:00+08:00",
-      "eventTime": "4 Nov (est., UKMTO report date; clock not stated)",
-      "eventTs": "2026-11-04T12:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "UKMTO 196-26: tanker struck by two unidentified projectiles 50 nm north of Madinat ash Shamal, Qatar, in the Central Arabian Gulf; crew and damage unconfirmed",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO via Live Squawk; AMK Mapping",
-      "url": "https://x.com/LiveSquawk/status/2118256357027524625"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Iraq sets December Basrah Medium/Heavy crude OSPs to Asia",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119711267661443319"
+    },
     {
       "title": "Saudi Civil Defense: Riyadh early-warning alert, then danger has passed (Arabic/English)",
       "site": "X / Saudi Civil Defense",
@@ -1293,10 +1304,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran tightened Hormuz control with missile fire and destroyed navigation aids, a drone halted Iraq's Khor Mor gas field, and Houthis launched fresh missiles at Riyadh.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli media report US-Israeli preparation for a possible third wave of Iran strikes, and Trump plans talks with Xi and Putin."
+      "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli media report preparation for a possible third wave of Iran strikes, and Iraq cut December Basrah prices to Asia."
     ],
-    "updated": "Mon 9 Nov 2026, 2:18 pm SGT",
-    "updatedTs": "2026-11-09T14:18:00+08:00"
+    "updated": "Mon 9 Nov 2026, 4:41 pm SGT",
+    "updatedTs": "2026-11-09T16:41:00+08:00"
   },
   "last24Count": 13
 }
