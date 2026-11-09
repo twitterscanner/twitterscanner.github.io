@@ -114,14 +114,14 @@
     {
       "time": "14:18",
       "ts": "2026-11-09T14:18:00+08:00",
-      "eventTime": "2:15 pm, 9 Nov (est.)",
+      "eventTime": "2:15 pm, 9 Nov",
       "eventTs": "2026-11-09T14:15:00+08:00",
-      "eventQual": "est.",
+      "eventQual": "confirmed",
       "headline": "Saudi Civil Defense issues a danger warning in Riyadh after a ballistic missile is reported launched from Yemen toward the capital; officials declared the danger over about two minutes later, no impact reported",
       "theme": "Saudi / Houthi",
       "direction": "Up",
       "confidence": "Unconfirmed",
-      "source": "AMK Mapping (OSINT) on the launch and all-clear; First Squawk on the Saudi Civil Defense warning and all-clear; no interception or impact reported",
+      "source": "Saudi Civil Defense (official) on the warning and the all-clear; AMK Mapping (OSINT) on the missile launch; First Squawk; no interception or impact reported",
       "url": "https://x.com/AMK_Mapping_/status/2119675333377130574"
     },
     {
@@ -633,6 +633,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Civil Defense: Riyadh early-warning alert, then danger has passed (Arabic/English)",
+      "site": "X / Saudi Civil Defense",
+      "href": "https://x.com/SaudiDCD/status/2119675240661803317"
+    },
     {
       "title": "AMK Mapping: Ballistic missile launches from Yemen to Riyadh",
       "site": "X / AMK Mapping",
