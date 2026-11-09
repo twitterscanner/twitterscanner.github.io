@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 1:02 pm SGT",
-  "lastScannedTs": "2026-11-09T13:02:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 12:33 pm SGT",
-  "asOfTs": "2026-11-09T12:33:50+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 1:07 pm SGT",
+  "lastScannedTs": "2026-11-09T13:07:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 1:07 pm SGT",
+  "asOfTs": "2026-11-09T13:07:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Kirishi fire, Iran's Hormuz lane enforcement, Khor Mor strike and Israeli-US military pressure for new Iran strikes outweigh Trump's diplomacy push.",
-    "lead": "Net read (last 24 hours): Kirishi fire, Iran's Hormuz lane enforcement, Khor Mor strike and Israeli-US military pressure for new Iran strikes outweigh Trump's diplomacy push.",
+    "bottom": "Kirishi fire, Hormuz lane enforcement, Khor Mor strike and reported US-Israeli preparations for new Iran strikes outweigh Trump's diplomacy push.",
+    "lead": "Net read (last 24 hours): Kirishi fire, Hormuz lane enforcement, Khor Mor strike and reported US-Israeli preparations for new Iran strikes outweigh Trump's diplomacy push.",
     "verdict": "Bullish",
-    "count": "11 of 13 alerts point higher, 2 lower",
-    "text": "11 of 13 alerts point higher, 2 lower.",
+    "count": "12 of 14 alerts point higher, 2 lower",
+    "text": "12 of 14 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "CENTCOM reportedly told Israel to prepare for a third US strike wave, possibly on Iranian power and energy sites",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-09T13:07:00+08:00"
+      },
       {
         "text": "Kan: Israeli and US military officials back renewed military action against Iran",
         "confidence": "unconfirmed",
@@ -99,6 +105,19 @@
     "detail": "Brent about $97.5 (below $98) in early Asian trade Mon 9 Nov, extending last week's 16%+ slide, per Bloomberg as relayed in market posts on X, ~11:35-11:46 am SGT"
   },
   "alerts": [
+    {
+      "time": "13:07",
+      "ts": "2026-11-09T13:07:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israel's Channel 13: CENTCOM's Adm. Cooper told Israeli military leaders to prepare for a possible third wave of US strikes on Iran, which could extend to bridges, power stations and energy infrastructure",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "The Hormuz Report, citing Israel's Channel 13 (also carried by Al Arabiya, per relays); CENTCOM has not commented",
+      "url": "https://x.com/HormuzReport/status/2119656618120085839"
+    },
     {
       "time": "12:33",
       "ts": "2026-11-09T12:33:00+08:00",
@@ -605,19 +624,6 @@
       "confidence": "Confirmed",
       "source": "Saudi Civil Defense (official); Osint613; First Squawk; Arab News",
       "url": "https://x.com/Osint613/status/2118249475315757338"
-    },
-    {
-      "time": "12:04",
-      "ts": "2026-11-05T12:04:29+08:00",
-      "eventTime": "Overnight, ~5:00 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T05:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says a large tanker hit a mine and caught fire in Hormuz's southern passage, a second supertanker and a tug also caught fire; it also claims two US Lucas drones seized",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "LiveSquawk citing IRGC statement; also Iran International",
-      "url": "https://x.com/LiveSquawk/status/2118192704282587394"
     }
   ],
   "sources": [
@@ -1250,16 +1256,21 @@
       "title": "Iranian state TV: missiles launched from Sirik at vessels in Hormuz",
       "site": "Basha Report",
       "href": "https://x.com/BashaReport/status/2119526070852657649"
+    },
+    {
+      "title": "Israel's Channel 13: CENTCOM told Israel to prepare for possible third wave of US strikes on Iran",
+      "site": "The Hormuz Report",
+      "href": "https://x.com/HormuzReport/status/2119656618120085839"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Iran fired missiles at non-compliant Hormuz ships and says it destroyed southern-route navigation aids, while a drone strike halted Iraq's Khor Mor gas field.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli and US military officials reportedly back new Iran strikes, and Trump plans Iran-war talks with Xi and Putin."
+      "Ukrainian drones set Russia's Kirishi refinery ablaze, Israeli media report US-Israeli preparation for a possible third wave of Iran strikes, and Trump plans talks with Xi and Putin."
     ],
-    "updated": "Mon 9 Nov 2026, 12:33 pm SGT",
-    "updatedTs": "2026-11-09T12:33:00+08:00"
+    "updated": "Mon 9 Nov 2026, 1:07 pm SGT",
+    "updatedTs": "2026-11-09T13:07:00+08:00"
   },
   "last24Count": 13
 }
