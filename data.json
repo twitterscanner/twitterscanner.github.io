@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 8:59 pm SGT",
-  "lastScannedTs": "2026-11-09T20:59:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 8:59 pm SGT",
-  "asOfTs": "2026-11-09T20:59:19+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 9:31 pm SGT",
+  "lastScannedTs": "2026-11-09T21:31:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 9:29 pm SGT",
+  "asOfTs": "2026-11-09T21:29:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
-    "lead": "Net read (last 24 hours): Hormuz attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
+    "bottom": "Hormuz tanker attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks, Saudi-Houthi escalation and Russian refinery hits still outweigh new diplomacy via Qatar and Iraq, though oil is sliding.",
     "verdict": "Bullish",
-    "count": "16 of 22 alerts point higher, 5 lower",
-    "text": "16 of 22 alerts point higher, 5 lower.",
+    "count": "17 of 24 alerts point higher, 5 lower",
+    "text": "17 of 24 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO reclassifies 7 Nov Khasab tanker fire as an attack; crew evacuated",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T21:24:00+08:00"
+      },
       {
         "text": "Saudi airstrikes reportedly hit Hodeidah airport, escalating the Saudi-Houthi war on the Red Sea coast",
         "confidence": "unconfirmed",
@@ -142,6 +148,12 @@
     ],
     "neutral": [
       {
+        "text": "Oil spill closes a beach at UAE's Khor Fakkan; source not stated",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T21:27:00+08:00"
+      },
+      {
         "text": "Pezeshkian says Khamenei ordered an end to 'neither war nor peace' with the US",
         "confidence": "unconfirmed",
         "theme": "Iran",
@@ -154,6 +166,32 @@
     "detail": "Brent fell about 4% to below $95/bbl on Mon 9 Nov on hopes of diplomatic progress to end the Iran war, per Anas Alhajji on X, ~8:39 pm SGT"
   },
   "alerts": [
+    {
+      "time": "21:27",
+      "ts": "2026-11-09T21:27:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: UAE's Khor Fakkan closes Al Luluyah beach after an oil spill is spotted along the coast near the Gulf of Oman port; source of the spill not stated",
+      "theme": "Hormuz",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk citing a local notice; also Giovanni Staunovo",
+      "url": "https://x.com/FirstSquawk/status/2119783975170478163"
+    },
+    {
+      "time": "21:24",
+      "ts": "2026-11-09T21:24:00+08:00",
+      "eventTime": "7 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO reclassifies a 7 Nov incident near Khasab, Oman, as an attack: a tanker caught fire and its crew was evacuated (late report)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO via FinancialJuice and CGTN Europe",
+      "url": "https://x.com/financialjuice/status/2119783154995134498"
+    },
     {
       "time": "20:55",
       "ts": "2026-11-09T20:55:00+08:00",
@@ -647,35 +685,19 @@
       "confidence": "Unconfirmed",
       "source": "LetsArmUKR and several OSINT accounts (Ukrainian OSINT; no official confirmation yet)",
       "url": "https://x.com/LetsArmUKR/status/2118539440553328747"
-    },
-    {
-      "time": "02:55",
-      "ts": "2026-11-06T02:55:00+08:00",
-      "eventTime": "2:54 am, 6 Nov (est.)",
-      "eventTs": "2026-11-06T02:54:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Aramco cuts December Arab Light OSP to Asia to a $7/bbl discount, about $2 lower across Asia grades",
-      "theme": "Saudi / Aramco",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "LiveSquawk",
-      "url": "https://x.com/LiveSquawk/status/2118416900619125162"
-    },
-    {
-      "time": "01:09",
-      "ts": "2026-11-06T01:09:00+08:00",
-      "eventTime": "12:54 am, 6 Nov (est.)",
-      "eventTs": "2026-11-06T00:54:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthi spokesman Yahya Saree claims a drone strike on King Fahd International Airport in Dammam disrupted air traffic; no immediate Saudi confirmation",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yah_Saree",
-      "url": "https://x.com/Yah_Saree/status/2118386611050414226"
     }
   ],
   "sources": [
+    {
+      "title": "FinancialJuice: UKMTO reclassifies 7 Nov Khasab tanker incident as an attack",
+      "site": "X / FinancialJuice",
+      "href": "https://x.com/financialjuice/status/2119783154995134498"
+    },
+    {
+      "title": "First Squawk: UAE's Khor Fakkan shuts beach after spotting oil spill",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119783975170478163"
+    },
     {
       "title": "First Squawk: Trump asked Iraq's PM to convey proposals to Tehran aimed at ending the war",
       "site": "X / First Squawk",
@@ -1385,11 +1407,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control with missile fire and destroyed navigation aids amid more tanker fires, while Trump asked Iraq's PM to relay war-ending proposals to Tehran.",
+      "Iran tightened Hormuz control amid more tanker fires, UKMTO confirmed a 7 Nov Khasab tanker attack, and Trump asked Iraq's PM to relay war-ending proposals to Tehran.",
       "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft limited fuel sales, while Houthis hit Riyadh, Saudi jets reportedly struck Hodeidah airport and a drone halted Khor Mor."
     ],
-    "updated": "Mon 9 Nov 2026, 8:59 pm SGT",
-    "updatedTs": "2026-11-09T20:59:00+08:00"
+    "updated": "Mon 9 Nov 2026, 9:31 pm SGT",
+    "updatedTs": "2026-11-09T21:31:00+08:00"
   },
   "last24Count": 13
 }
