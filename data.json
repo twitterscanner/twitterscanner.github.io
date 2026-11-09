@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 1:03 am SGT",
-  "lastScannedTs": "2026-11-10T01:03:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 1:04 am SGT",
-  "asOfTs": "2026-11-10T01:04:05+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 1:25 am SGT",
+  "lastScannedTs": "2026-11-10T01:25:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 1:25 am SGT",
+  "asOfTs": "2026-11-10T01:25:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, Tehran's denial of Doha talks and a US cold snap keep risks tilted higher.",
-    "lead": "Net read (last 24 hours): Attacks on Hormuz tankers and Saudi oil sites, including the East-West pipeline, Tehran's denial of Doha talks and a US cold snap keep risks tilted higher.",
+    "bottom": "Attacks on Hormuz shipping and Saudi oil sites, an IRGC threat to shut the southern corridor and a US cold snap keep risks tilted higher.",
+    "lead": "Net read (last 24 hours): Attacks on Hormuz shipping and Saudi oil sites, an IRGC threat to shut the southern corridor and a US cold snap keep risks tilted higher.",
     "verdict": "Bullish",
-    "count": "20 of 28 alerts point higher, 6 lower",
-    "text": "20 of 28 alerts point higher, 6 lower.",
+    "count": "21 of 29 alerts point higher, 6 lower",
+    "text": "21 of 29 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Iran reportedly hits Oman's Didamar Island radar; IRGC threatens to shut the southern Hormuz corridor",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-10T01:25:00+08:00"
+      },
       {
         "text": "First snowstorm watch for US Mid-Atlantic and Northeast lifts heating-oil demand",
         "confidence": "unconfirmed",
@@ -190,6 +196,19 @@
     "detail": "Brent spot down more than 5% on the day, near $93/bbl (intraday low reported at $92.98), its lowest since late August, on US-Iran deal hopes, per Matriks Haber on X (Turkish), ~10:24 pm SGT"
   },
   "alerts": [
+    {
+      "time": "01:25",
+      "ts": "2026-11-10T01:25:00+08:00",
+      "eventTime": "9 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran reportedly struck Oman's Didamar Island in southern Hormuz, with footage showing smoke over radar and communications gear; the IRGC claims it disabled the navigation system used by US Navy-assisted ships and threatens to shut all shipping on the southern corridor (may be the same strike as the navigation aids reported at 12:16 pm)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel, citing IRGC claims and footage",
+      "url": "https://x.com/Osint613/status/2119842634240020760"
+    },
     {
       "time": "01:03",
       "ts": "2026-11-10T01:03:00+08:00",
@@ -696,19 +715,6 @@
       "confidence": "Confirmed",
       "source": "FinancialJuice headline (relayed by several wire-style accounts)",
       "url": "https://x.com/financialjuice/status/2118620725330456695"
-    },
-    {
-      "time": "15:41",
-      "ts": "2026-11-06T15:41:00+08:00",
-      "eventTime": "3:35 pm, 6 Nov (est.)",
-      "eventTs": "2026-11-06T15:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Najran; debris fell and damage is being assessed (possibly the same attack as the 3:01 pm warning)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition via Arab News; First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2118608621995254105"
     }
   ],
   "sources": [
@@ -1446,11 +1452,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia says its East-West crude pipeline, the main Hormuz bypass, was targeted near Medina with a small fire and no impact on operations.",
-      "Iran denied reports of Doha talks with the US pending its seven conditions, and a cold blast puts the US Northeast on watch for its first snowstorm."
+      "Saudi Arabia says its East-West pipeline, the main Hormuz bypass, was targeted near Medina, and Iran reportedly hit radar on Oman's Didamar Island in southern Hormuz.",
+      "The IRGC now threatens to shut the southern shipping corridor, Tehran rules out US talks until its seven conditions are met, and a US cold snap looms."
     ],
-    "updated": "Tue 10 Nov 2026, 1:03 am SGT",
-    "updatedTs": "2026-11-10T01:03:00+08:00"
+    "updated": "Tue 10 Nov 2026, 1:25 am SGT",
+    "updatedTs": "2026-11-10T01:25:00+08:00"
   },
   "last24Count": 13
 }
