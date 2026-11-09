@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 7:59 pm SGT",
-  "lastScannedTs": "2026-11-09T19:59:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 7:19 pm SGT",
-  "asOfTs": "2026-11-09T19:19:25+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 8:31 pm SGT",
+  "lastScannedTs": "2026-11-09T20:31:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 8:30 pm SGT",
+  "asOfTs": "2026-11-09T20:30:42+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz blasts, tanker fires, Houthi fire on Riyadh and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
-    "lead": "Net read (last 24 hours): Hormuz blasts, tanker fires, Houthi fire on Riyadh and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
+    "bottom": "Hormuz blasts, tanker fires, Saudi-Houthi escalation and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
+    "lead": "Net read (last 24 hours): Hormuz blasts, tanker fires, Saudi-Houthi escalation and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 4 lower",
-    "text": "15 of 19 alerts point higher, 4 lower.",
+    "count": "16 of 20 alerts point higher, 4 lower",
+    "text": "16 of 20 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Saudi airstrikes reportedly hit Hodeidah airport, escalating the Saudi-Houthi war on the Red Sea coast",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-09T20:17:00+08:00"
+      },
       {
         "text": "Explosions reported in Hormuz; Fars says another tanker ablaze after hitting a mine",
         "confidence": "unconfirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent crude fell to an intraday low below $96/bbl on Mon 9 Nov after reports Iran dropped its Hormuz transit-fee demand, per FinSquawk on X, ~7:17 pm SGT"
   },
   "alerts": [
+    {
+      "time": "20:17",
+      "ts": "2026-11-09T20:17:00+08:00",
+      "eventTime": "7:50 pm, 9 Nov (est.)",
+      "eventTs": "2026-11-09T19:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: Saudi airstrikes reportedly hit Hodeidah International Airport and the nearby town of Al-Eisi on Yemen's Red Sea coast, a new escalation after Houthi fire on Riyadh",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Al Mayadeen correspondent, also Houthi media via South24; no Saudi confirmation",
+      "url": "https://x.com/AlMayadeenLive/status/2119766377913303134"
+    },
     {
       "time": "19:16",
       "ts": "2026-11-09T19:16:00+08:00",
@@ -641,19 +660,6 @@
       "confidence": "Confirmed",
       "source": "Al Jazeera Breaking",
       "url": "https://x.com/AJABreaking/status/2118361893999939947"
-    },
-    {
-      "time": "22:57",
-      "ts": "2026-11-05T22:57:13+08:00",
-      "eventTime": "Not stated (announced ~10:22 pm, 5 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran Navy says two more oil tankers caught fire after hitting naval mines in the eastern Strait of Hormuz, after defying warnings; reports put it at five tankers and a tug hit today",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing Iran Navy; MenchOsint; CGTN Europe",
-      "url": "https://x.com/FirstSquawk/status/2118348249019097342"
     }
   ],
   "sources": [
@@ -1341,16 +1347,21 @@
       "title": "Israel's Channel 13: CENTCOM told Israel to prepare for possible third wave of US strikes on Iran",
       "site": "The Hormuz Report",
       "href": "https://x.com/HormuzReport/status/2119656618120085839"
+    },
+    {
+      "title": "Al Mayadeen: Saudi airstrikes target Hodeidah International Airport, western Yemen",
+      "site": "Al Mayadeen",
+      "href": "https://x.com/AlMayadeenLive/status/2119766377913303134"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control with missile fire and destroyed navigation aids, blasts and another tanker fire were reported, though Israel Hayom says Tehran dropped its Hormuz transit-fee demand.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft reimposed fuel purchase limits across Russia, while Houthis hit Riyadh and a drone halted Iraq's Khor Mor gas field."
+      "Iran tightened Hormuz control with missile fire and destroyed navigation aids and more tanker fires were reported, though Israel Hayom says Tehran dropped its Hormuz transit-fee demand.",
+      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft limited fuel sales, while Houthis hit Riyadh, Saudi jets reportedly struck Hodeidah airport and a drone halted Iraq's Khor Mor."
     ],
-    "updated": "Mon 9 Nov 2026, 7:20 pm SGT",
-    "updatedTs": "2026-11-09T19:20:00+08:00"
+    "updated": "Mon 9 Nov 2026, 8:31 pm SGT",
+    "updatedTs": "2026-11-09T20:31:00+08:00"
   },
   "last24Count": 13
 }
