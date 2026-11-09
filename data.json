@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 7:03 pm SGT",
-  "lastScannedTs": "2026-11-09T19:03:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 6:18 pm SGT",
-  "asOfTs": "2026-11-09T18:18:41+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 7:20 pm SGT",
+  "lastScannedTs": "2026-11-09T19:20:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 7:19 pm SGT",
+  "asOfTs": "2026-11-09T19:19:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fresh Hormuz blasts and tanker fire, Houthi fire on Riyadh, Kirishi and Russian fuel rationing outweigh Trump diplomacy and Iraq's Asia price cuts.",
-    "lead": "Net read (last 24 hours): Fresh Hormuz blasts and tanker fire, Houthi fire on Riyadh, Kirishi and Russian fuel rationing outweigh Trump diplomacy and Iraq's Asia price cuts.",
+    "bottom": "Hormuz blasts, tanker fires, Houthi fire on Riyadh and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
+    "lead": "Net read (last 24 hours): Hormuz blasts, tanker fires, Houthi fire on Riyadh and Russian refinery hits still outweigh Iranian softening on Hormuz and Trump diplomacy.",
     "verdict": "Bullish",
-    "count": "15 of 18 alerts point higher, 3 lower",
-    "text": "15 of 18 alerts point higher, 3 lower.",
+    "count": "15 of 19 alerts point higher, 4 lower",
+    "text": "15 of 19 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Explosions reported in Hormuz; Fars says another tanker ablaze after hitting a mine",
@@ -104,6 +104,12 @@
     ],
     "dovish": [
       {
+        "text": "Iran reportedly drops demand to control Hormuz and charge transit fees (Israel Hayom)",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-09T19:16:00+08:00"
+      },
+      {
         "text": "Iraq sets deep December Basrah discounts to Asia ($8.80 Medium, $11.80 Heavy)",
         "confidence": "confirmed",
         "theme": "Iraq",
@@ -125,10 +131,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$96.7",
-    "detail": "Brent futures ~$96.6-96.8 (down ~1.7%) on Mon 9 Nov as Iran talks hopes weigh, per several market accounts on X, ~2:45 pm SGT"
+    "value": "~$95.9",
+    "detail": "Brent crude fell to an intraday low below $96/bbl on Mon 9 Nov after reports Iran dropped its Hormuz transit-fee demand, per FinSquawk on X, ~7:17 pm SGT"
   },
   "alerts": [
+    {
+      "time": "19:16",
+      "ts": "2026-11-09T19:16:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: Iran has apparently dropped its demand to control the Strait of Hormuz and collect transit fees from passing ships, Israel Hayom reports; Brent dips below $96",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "LiveSquawk, citing Israel Hayom; no official Iranian or US confirmation",
+      "url": "https://x.com/LiveSquawk/status/2119750882417951164"
+    },
     {
       "time": "18:16",
       "ts": "2026-11-09T18:16:00+08:00",
@@ -635,22 +654,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk citing Iran Navy; MenchOsint; CGTN Europe",
       "url": "https://x.com/FirstSquawk/status/2118348249019097342"
-    },
-    {
-      "time": "20:44",
-      "ts": "2026-11-05T20:44:00+08:00",
-      "eventTime": "8:42 pm, 5 Nov",
-      "eventTs": "2026-11-05T20:42:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Houthi spokesman Yahya Saree denies Medina intercept claim; says operations target only Saudi oil facilities and military bases",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Yahya Saree",
-      "url": "https://x.com/Yah_Saree/status/2118323103025758676"
     }
   ],
   "sources": [
+    {
+      "title": "LiveSquawk: Iran apparently drops demand to control Hormuz and collect transit fees (Israel Hayom)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2119750882417951164"
+    },
     {
       "title": "Post Open Source: several explosions heard in the Strait of Hormuz",
       "site": "X / Post Open Source",
@@ -1335,11 +1346,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened Hormuz control with missile fire and destroyed navigation aids, fresh blasts and another tanker fire were reported this evening, and Houthis fired more missiles at Riyadh.",
-      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft reimposed fuel purchase limits across Russia, while a drone halted Iraq's Khor Mor gas field."
+      "Iran tightened Hormuz control with missile fire and destroyed navigation aids, blasts and another tanker fire were reported, though Israel Hayom says Tehran dropped its Hormuz transit-fee demand.",
+      "Ukrainian drones set Russia's Kirishi refinery ablaze and Rosneft reimposed fuel purchase limits across Russia, while Houthis hit Riyadh and a drone halted Iraq's Khor Mor gas field."
     ],
-    "updated": "Mon 9 Nov 2026, 6:20 pm SGT",
-    "updatedTs": "2026-11-09T18:20:00+08:00"
+    "updated": "Mon 9 Nov 2026, 7:20 pm SGT",
+    "updatedTs": "2026-11-09T19:20:00+08:00"
   },
   "last24Count": 13
 }
