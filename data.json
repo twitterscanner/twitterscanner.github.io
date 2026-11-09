@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 9 Nov 2026, 12:06 pm SGT",
-  "lastScannedTs": "2026-11-09T12:06:00+08:00",
-  "asOf": "Mon 9 Nov 2026, 12:07 pm SGT",
-  "asOfTs": "2026-11-09T12:07:14+08:00",
+  "lastScanned": "Mon 9 Nov 2026, 12:16 pm SGT",
+  "lastScannedTs": "2026-11-09T12:16:00+08:00",
+  "asOf": "Mon 9 Nov 2026, 12:16 pm SGT",
+  "asOfTs": "2026-11-09T12:16:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Kirishi refinery fire, Hormuz missile fire, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
-    "lead": "Net read (last 24 hours): Kirishi refinery fire, Hormuz missile fire, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
+    "bottom": "Kirishi refinery fire, Iran's Hormuz lane enforcement, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
+    "lead": "Net read (last 24 hours): Kirishi refinery fire, Iran's Hormuz lane enforcement, Khor Mor strike and the Houthi Abqaiq claim keep risk up despite Trump's diplomacy push.",
     "verdict": "Bullish",
-    "count": "9 of 11 alerts point higher, 2 lower",
-    "text": "9 of 11 alerts point higher, 2 lower.",
+    "count": "10 of 12 alerts point higher, 2 lower",
+    "text": "10 of 12 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Iran state TV says southern Hormuz navigation aids destroyed; no ships used 'unauthorised' route",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-09T12:16:00+08:00"
+      },
       {
         "text": "Houthis claim strike on Aramco's Abqaiq site; Saudi Arabia and Aramco have not confirmed",
         "confidence": "unconfirmed",
@@ -87,6 +93,19 @@
     "detail": "Brent about $97.5 (below $98) in early Asian trade Mon 9 Nov, extending last week's 16%+ slide, per Bloomberg as relayed in market posts on X, ~11:35-11:46 am SGT"
   },
   "alerts": [
+    {
+      "time": "12:16",
+      "ts": "2026-11-09T12:16:00+08:00",
+      "eventTime": "Overnight 8-9 Nov (est.)",
+      "eventTs": "2026-11-09T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian state TV says navigation aids in southern Hormuz were destroyed and no ships used the 'unauthorised' route overnight, tightening Iran's grip on transit lanes",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Iranian state TV",
+      "url": "https://x.com/FirstSquawk/status/2119644437601222755"
+    },
     {
       "time": "12:06",
       "ts": "2026-11-09T12:06:00+08:00",
@@ -593,22 +612,14 @@
       "confidence": "Unconfirmed",
       "source": "CN Wire citing WSJ",
       "url": "https://x.com/Sino_Market/status/2118182332809290046"
-    },
-    {
-      "time": "09:05",
-      "ts": "2026-11-05T09:05:48+08:00",
-      "eventTime": "8:39 am, 5 Nov (est.)",
-      "eventTs": "2026-11-05T08:39:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones hit industrial zone of Russia's Ryazan oil refinery; fires and explosions reported",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing WSN; footage from multiple OSINT accounts",
-      "url": "https://x.com/FirstSquawk/status/2118144128013971954"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Iranian state TV reports destruction of navigation aids in southern Hormuz, no ships using unauthorised route overnight",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119644437601222755"
+    },
     {
       "title": "Post Open Source (via Reuters): Trump expects to meet Xi and Putin at APEC next week to discuss ending the Iran war",
       "site": "X / Post Open Source",
@@ -1233,11 +1244,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran fired missiles at non-compliant ships in Hormuz, a drone strike halted Iraq's Khor Mor gas field, and the Houthis claimed a strike on Aramco's Abqaiq site.",
+      "Iran fired missiles at non-compliant Hormuz ships and says it destroyed navigation aids on the southern route, while a drone strike halted Iraq's Khor Mor gas field.",
       "Ukrainian drones set Russia's Kirishi refinery ablaze and a Houthi strike damaged an Aramco building in Riyadh, while Trump plans Iran-war talks with Xi and Putin at APEC."
     ],
-    "updated": "Mon 9 Nov 2026, 12:06 pm SGT",
-    "updatedTs": "2026-11-09T12:06:00+08:00"
+    "updated": "Mon 9 Nov 2026, 12:16 pm SGT",
+    "updatedTs": "2026-11-09T12:16:00+08:00"
   },
   "last24Count": 13
 }
