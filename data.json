@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 6:05 am SGT",
-  "lastScannedTs": "2026-11-11T06:05:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 4:03 am SGT",
-  "asOfTs": "2026-11-11T04:03:17+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 7:01 am SGT",
+  "lastScannedTs": "2026-11-11T07:01:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 7:01 am SGT",
+  "asOfTs": "2026-11-11T07:01:18+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine and tanker fires, the South Pars platform fire and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
-    "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, the South Pars platform fire and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
+    "bottom": "Hormuz mine and tanker fires, South Pars fire and a big drone raid on Russia's Ust-Luga terminal lift supply risk; Qatar-led diplomacy pulls the other way.",
+    "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, South Pars fire and a big drone raid on Russia's Ust-Luga terminal lift supply risk; Qatar-led diplomacy pulls the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 22 alerts point higher, 6 lower",
-    "text": "16 of 22 alerts point higher, 6 lower.",
+    "count": "17 of 23 alerts point higher, 6 lower",
+    "text": "17 of 23 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Massive Ukrainian drone raid on Leningrad region, Ust-Luga oil terminal reported main target",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-11T07:01:00+08:00"
+      },
       {
         "text": "Fire forces evacuation of South Pars SPD14D gas platform in Iran",
         "confidence": "confirmed",
@@ -153,6 +159,19 @@
     "detail": "Brent settled at $91.49/bbl, down $1.08 (1.17%), per First Squawk, 3:59 am SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "07:01",
+      "ts": "2026-11-11T07:01:00+08:00",
+      "eventTime": "6:30 am, 11 Nov (est.)",
+      "eventTs": "2026-11-11T06:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine launches a massive drone raid on Leningrad region; Russian monitors say Ust-Luga oil export terminal is the main target, St Petersburg port also targeted and Pulkovo airport restricted; no confirmed hit yet",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTtechnical / NOELreports",
+      "url": "https://x.com/Osinttechnical/status/2120286190683267431"
+    },
     {
       "time": "03:33",
       "ts": "2026-11-11T03:33:08+08:00",
@@ -659,22 +678,19 @@
       "confidence": "Confirmed",
       "source": "OSINTtechnical; Zabaykalsky Krai and Karelia regional authorities (Russian)",
       "url": "https://x.com/Osinttechnical/status/2119729098859721162"
-    },
-    {
-      "time": "16:38",
-      "ts": "2026-11-09T16:38:00+08:00",
-      "eventTime": "4:37 pm, 9 Nov (est.)",
-      "eventTs": "2026-11-09T16:37:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iraq sets December Basrah Medium crude to Asia at an $8.80/bbl discount and Basrah Heavy at an $11.80/bbl discount",
-      "theme": "Iraq",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk; FinSquawk (#OOTT)",
-      "url": "https://x.com/FirstSquawk/status/2119711267661443319"
     }
   ],
   "sources": [
+    {
+      "title": "OSINTtechnical: Ukraine mounts major drone raid toward St Petersburg area (11 Nov)",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2120286190683267431"
+    },
+    {
+      "title": "NOELreports: Ukrainian drone groups cross Gatchina heading for Ust-Luga and St Petersburg port (11 Nov)",
+      "site": "X / NOELreports",
+      "href": "https://x.com/NOELreports/status/2120283211800449139"
+    },
     {
       "title": "First Squawk: Fars says fire broke out on South Pars platform, cause under investigation (11 Nov)",
       "site": "X / First Squawk",
@@ -1579,11 +1595,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in Hormuz, and a fire later forced evacuation of a South Pars gas platform.",
-      "Qatar's PM reportedly told the G7 that Doha has secured at least two weeks for US-Iran diplomacy, while Brent settled about 1% lower at $91.49."
+      "Iran's IRGC says a tanker caught fire after hitting a naval mine in Hormuz, and a fire later forced evacuation of a South Pars gas platform.",
+      "Ukraine launched a massive drone raid on Leningrad region, reportedly targeting the Ust-Luga oil terminal, while Qatar says it secured two weeks for US-Iran diplomacy."
     ],
-    "updated": "Wed 11 Nov 2026, 4:06 am SGT",
-    "updatedTs": "2026-11-11T04:06:00+08:00"
+    "updated": "Wed 11 Nov 2026, 7:01 am SGT",
+    "updatedTs": "2026-11-11T07:01:00+08:00"
   },
   "last24Count": 13
 }
