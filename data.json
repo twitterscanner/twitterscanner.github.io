@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 7:00 pm SGT",
-  "lastScannedTs": "2026-11-10T19:00:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 7:18 pm SGT",
+  "lastScannedTs": "2026-11-10T19:18:00+08:00",
   "asOf": "Tue 10 Nov 2026, 6:29 pm SGT",
   "asOfTs": "2026-11-10T18:29:34+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 26 alerts point higher, 9 lower",
-    "text": "15 of 26 alerts point higher, 9 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "IRGC says two tankers on an unauthorised Hormuz route hit explosives and caught fire",
@@ -150,12 +150,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-09T20:55:00+08:00"
-      },
-      {
-        "text": "Iran reportedly drops demand to control Hormuz and charge transit fees (Israel Hayom)",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-09T19:16:00+08:00"
       }
     ],
     "neutral": [
