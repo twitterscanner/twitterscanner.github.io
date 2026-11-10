@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 8:22 pm SGT",
-  "lastScannedTs": "2026-11-10T20:22:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 8:14 pm SGT",
-  "asOfTs": "2026-11-10T20:14:13+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 8:40 pm SGT",
+  "lastScannedTs": "2026-11-10T20:40:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 8:39 pm SGT",
+  "asOfTs": "2026-11-10T20:39:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but deal hopes weigh on Brent.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but deal hopes weigh on Brent.",
+    "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but reported Iran nuclear concessions weigh on Brent.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but reported Iran nuclear concessions weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "15 of 26 alerts point higher, 9 lower",
+    "text": "15 of 26 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "Kirishi refinery reportedly fully shut, three main crude units damaged after 9 Nov drone attack",
@@ -104,6 +104,12 @@
     ],
     "dovish": [
       {
+        "text": "Al Hadath: Iran agreed to US demand to cut highly enriched uranium",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-10T20:35:21+08:00"
+      },
+      {
         "text": "ADNOC reportedly cuts December Murban price by $7/bbl, signalling softer demand for Gulf crude",
         "confidence": "unconfirmed",
         "theme": "Crude pricing",
@@ -172,6 +178,19 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "20:35",
+      "ts": "2026-11-10T20:35:21+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: Iran has agreed to US demands to cut its highly enriched uranium levels, according to Al Hadath sources, a step toward a deal that would reopen Hormuz",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Al Hadath sources",
+      "url": "https://x.com/FirstSquawk/status/2120133208432169208"
+    },
     {
       "time": "20:11",
       "ts": "2026-11-10T20:11:48+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Confirmed",
       "source": "Giovanni Staunovo, citing Reuters; also Open Source Intel; Post Open Source",
       "url": "https://x.com/staunovo/status/2119528357343694898"
-    },
-    {
-      "time": "05:04",
-      "ts": "2026-11-09T05:04:00+08:00",
-      "eventTime": "3:40 am, 9 Nov (est.)",
-      "eventTs": "2026-11-09T03:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian state TV says three missiles were launched from Sirik toward 'non-compliant' vessels in the Strait of Hormuz; no hits or ship names reported",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Basha Report, citing Iranian state TV; also Open Source Intel; Post Open Source",
-      "url": "https://x.com/BashaReport/status/2119526070852657649"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: sources say Iran agreed to US demands to cut highly enriched uranium levels (Al Hadath)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2120133208432169208"
+    },
     {
       "title": "First Squawk: IRGC says two tankers caught fire in Hormuz (Tasnim)",
       "site": "X / First Squawk",
@@ -1539,10 +1550,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthi missiles keep targeting Saudi Arabia, Ukrainian strikes reportedly halt Rostov-region ports, and Russia's Kirishi refinery is reportedly fully shut after the 9 Nov drone attack.",
-      "Brent slipped below $90 on deal hopes and ADNOC reportedly cut its December Murban price, but the IRGC says two tankers caught fire in Hormuz after hitting explosives."
+      "Brent slipped below $90 on deal hopes and Al Hadath says Iran agreed to cut enriched uranium, but the IRGC says two tankers caught fire in Hormuz."
     ],
-    "updated": "Tue 10 Nov 2026, 8:14 pm SGT",
-    "updatedTs": "2026-11-10T20:14:00+08:00"
+    "updated": "Tue 10 Nov 2026, 8:40 pm SGT",
+    "updatedTs": "2026-11-10T20:40:00+08:00"
   },
   "last24Count": 13
 }
