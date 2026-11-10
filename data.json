@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 9:31 pm SGT",
-  "lastScannedTs": "2026-11-10T21:31:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 8:39 pm SGT",
-  "asOfTs": "2026-11-10T20:39:05+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 9:48 pm SGT",
+  "lastScannedTs": "2026-11-10T21:48:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 9:46 pm SGT",
+  "asOfTs": "2026-11-10T21:46:35+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but reported Iran nuclear concessions weigh on Brent.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but reported Iran nuclear concessions weigh on Brent.",
+    "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and Rubio's 'not close' on an Iran deal keep risk high despite Brent below $90.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and Rubio's 'not close' on an Iran deal keep risk high despite Brent below $90.",
     "verdict": "Mixed, leaning bullish",
-    "count": "14 of 21 alerts point higher, 7 lower",
-    "text": "14 of 21 alerts point higher, 7 lower.",
+    "count": "15 of 22 alerts point higher, 7 lower",
+    "text": "15 of 22 alerts point higher, 7 lower.",
     "hawkish": [
+      {
+        "text": "Rubio says Iran's deal terms are absurd and the sides are not close",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-10T21:44:07+08:00"
+      },
       {
         "text": "Kirishi refinery reportedly fully shut, three main crude units damaged after 9 Nov drone attack",
         "confidence": "unconfirmed",
@@ -147,6 +153,19 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "21:44",
+      "ts": "2026-11-10T21:44:07+08:00",
+      "eventTime": "9:43 pm, 10 Nov (est.)",
+      "eventTs": "2026-11-10T21:43:00+08:00",
+      "eventQual": "est.",
+      "headline": "Rubio: Iran's deal conditions are 'absurd', sides 'not even close'; no reparations",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel (X), relaying Rubio remarks",
+      "url": "https://x.com/Osint613/status/2120150512884412811"
+    },
     {
       "time": "20:35",
       "ts": "2026-11-10T20:35:21+08:00",
@@ -653,22 +672,14 @@
       "confidence": "Unconfirmed",
       "source": "OSINTtechnical; Woofers; Open Source Intelligence",
       "url": "https://x.com/Osinttechnical/status/2119578268688961853"
-    },
-    {
-      "time": "05:04",
-      "ts": "2026-11-09T05:04:00+08:00",
-      "eventTime": "4:15 am, 9 Nov (est.)",
-      "eventTs": "2026-11-09T04:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Drone attack hits Iraq's Khor Mor gas field in Kurdistan; production halted and power cuts reported in Erbil and Duhok (Reuters, security sources)",
-      "theme": "Oil fields",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Giovanni Staunovo, citing Reuters; also Open Source Intel; Post Open Source",
-      "url": "https://x.com/staunovo/status/2119528357343694898"
     }
   ],
   "sources": [
+    {
+      "title": "Open Source Intel: Rubio says Iran's deal conditions are absurd, sides not even close",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2120150512884412811"
+    },
     {
       "title": "First Squawk: sources say Iran agreed to US demands to cut highly enriched uranium levels (Al Hadath)",
       "site": "X / First Squawk",
@@ -1519,10 +1530,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthi missiles keep targeting Saudi Arabia, Ukrainian strikes reportedly halt Rostov-region ports, and Russia's Kirishi refinery is reportedly fully shut after the 9 Nov drone attack.",
-      "Brent slipped below $90 on deal hopes and Al Hadath says Iran agreed to cut enriched uranium, but the IRGC says two tankers caught fire in Hormuz."
+      "Brent slipped below $90 on reports Iran agreed to cut enriched uranium, but Rubio called Iran's terms absurd and the IRGC says two tankers burned in Hormuz."
     ],
-    "updated": "Tue 10 Nov 2026, 8:40 pm SGT",
-    "updatedTs": "2026-11-10T20:40:00+08:00"
+    "updated": "Tue 10 Nov 2026, 9:47 pm SGT",
+    "updatedTs": "2026-11-10T21:47:00+08:00"
   },
   "last24Count": 13
 }
