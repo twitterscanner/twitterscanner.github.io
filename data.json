@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 1:08 am SGT",
-  "lastScannedTs": "2026-11-11T01:08:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 1:08 am SGT",
-  "asOfTs": "2026-11-11T01:08:41+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 1:17 am SGT",
+  "lastScannedTs": "2026-11-11T01:17:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 1:16 am SGT",
+  "asOfTs": "2026-11-11T01:16:01+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Unverified Hormuz blast reports, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Ukraine and Iran diplomacy pull the other way.",
-    "lead": "Net read (last 24 hours): Unverified Hormuz blast reports, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Ukraine and Iran diplomacy pull the other way.",
+    "bottom": "Iran's IRGC-reported tanker mine fire in Hormuz, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; diplomacy pulls the other way.",
+    "lead": "Net read (last 24 hours): Iran's IRGC-reported tanker mine fire in Hormuz, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; diplomacy pulls the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 24 alerts point higher, 8 lower",
-    "text": "16 of 24 alerts point higher, 8 lower.",
+    "count": "17 of 25 alerts point higher, 8 lower",
+    "text": "17 of 25 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says a tanker hit a naval mine and caught fire in Hormuz",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-11T01:17:00+08:00"
+      },
       {
         "text": "Reports of an explosion and Iranian missile launch in the Strait of Hormuz",
         "confidence": "unconfirmed",
@@ -165,6 +171,19 @@
     "detail": "Brent back above $90 (~$90.51/bbl), up about 1.2% since the Houthi statement on Saudi strikes, per Alpha Charts on X, 11:05 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "01:17",
+      "ts": "2026-11-11T01:17:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, state broadcaster IRIB reports; vessel name not given",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Walter Bloomberg (citing IRIB); also CGTN America",
+      "url": "https://x.com/DeItaone/status/2120203007337934853"
+    },
     {
       "time": "01:08",
       "ts": "2026-11-11T01:08:00+08:00",
@@ -671,19 +690,6 @@
       "confidence": "Unconfirmed",
       "source": "The Hormuz Report, citing Israel's Channel 13 (also carried by Al Arabiya, per relays); CENTCOM has not commented",
       "url": "https://x.com/HormuzReport/status/2119656618120085839"
-    },
-    {
-      "time": "12:33",
-      "ts": "2026-11-09T12:33:00+08:00",
-      "eventTime": "Not stated (reported ~12:32 pm SGT, 9 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israel's Kan: Israeli and American military officials support renewed military action against Iran; an Israeli official says a further attack would degrade Iran's capabilities",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Israel's Kan broadcaster; also RedboxGlobal",
-      "url": "https://x.com/FirstSquawk/status/2119649351182229629"
     }
   ],
   "sources": [
@@ -1566,16 +1572,21 @@
       "title": "Special Kherson Cat: Kirishi refinery reportedly fully shut after drone attack (citing Dosye Shpiona)",
       "site": "x.com",
       "href": "https://x.com/bayraktar_1love/status/2120127280840081611"
+    },
+    {
+      "title": "IRGC: oil tanker caught fire after hitting naval mine in Strait of Hormuz (IRIB)",
+      "site": "Walter Bloomberg",
+      "href": "https://x.com/DeItaone/status/2120203007337934853"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Early reports, not yet confirmed, describe an explosion and a possible Iranian missile launch in the Strait of Hormuz, after Iran said the strait stays shut until its conditions are met.",
+      "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, following early unconfirmed reports of an explosion there.",
       "This follows Tuesday's UKMTO-confirmed tanker strike off Oman, the attack on an ADNOC vessel in UAE waters and Houthi claims of strikes on Aramco's Abqaiq site."
     ],
-    "updated": "Wed 11 Nov 2026, 1:08 am SGT",
-    "updatedTs": "2026-11-11T01:08:00+08:00"
+    "updated": "Wed 11 Nov 2026, 1:17 am SGT",
+    "updatedTs": "2026-11-11T01:17:00+08:00"
   },
   "last24Count": 13
 }
