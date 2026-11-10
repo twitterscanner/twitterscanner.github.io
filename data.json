@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 2:02 am SGT",
-  "lastScannedTs": "2026-11-11T02:02:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 1:16 am SGT",
-  "asOfTs": "2026-11-11T01:16:01+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 3:05 am SGT",
+  "lastScannedTs": "2026-11-11T03:05:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 3:05 am SGT",
+  "asOfTs": "2026-11-11T03:05:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran's IRGC-reported tanker mine fire in Hormuz, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; diplomacy pulls the other way.",
-    "lead": "Net read (last 24 hours): Iran's IRGC-reported tanker mine fire in Hormuz, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; diplomacy pulls the other way.",
+    "bottom": "IRGC-reported Hormuz mine fire, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
+    "lead": "Net read (last 24 hours): IRGC-reported Hormuz mine fire, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 24 alerts point higher, 8 lower",
-    "text": "16 of 24 alerts point higher, 8 lower.",
+    "count": "16 of 25 alerts point higher, 9 lower",
+    "text": "16 of 25 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "IRGC says a tanker hit a naval mine and caught fire in Hormuz",
@@ -110,6 +110,12 @@
     ],
     "dovish": [
       {
+        "text": "Qatar says Doha secured at least two weeks for US-Iran diplomacy",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-11T02:40:18+08:00"
+      },
+      {
         "text": "US reportedly floats letting Russian oil and gas back into Europe in Ukraine deal",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -165,6 +171,19 @@
     "detail": "Brent back above $90 (~$90.51/bbl), up about 1.2% since the Houthi statement on Saudi strikes, per Alpha Charts on X, 11:05 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "02:40",
+      "ts": "2026-11-11T02:40:18+08:00",
+      "eventTime": "Not stated (G7 meeting, 10 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Qatar's PM reportedly told G7 foreign ministers in Paris that Doha has secured 'at least two weeks' for diplomacy toward a US-Iran understanding (Jerusalem Post).",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing the Jerusalem Post",
+      "url": "https://x.com/FirstSquawk/status/2120225050741846205"
+    },
     {
       "time": "01:17",
       "ts": "2026-11-11T01:17:00+08:00",
@@ -671,22 +690,14 @@
       "confidence": "Unconfirmed",
       "source": "Saudi Civil Defense (official) on the warning and the all-clear; AMK Mapping (OSINT) on the missile launch; First Squawk; no interception or impact reported",
       "url": "https://x.com/AMK_Mapping_/status/2119675333377130574"
-    },
-    {
-      "time": "13:07",
-      "ts": "2026-11-09T13:07:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israel's Channel 13: CENTCOM's Adm. Cooper told Israeli military leaders to prepare for a possible third wave of US strikes on Iran, which could extend to bridges, power stations and energy infrastructure",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "The Hormuz Report, citing Israel's Channel 13 (also carried by Al Arabiya, per relays); CENTCOM has not commented",
-      "url": "https://x.com/HormuzReport/status/2119656618120085839"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Qatar PM tells G7 Doha secured 'at least two weeks' for US-Iran diplomacy (11 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2120225050741846205"
+    },
     {
       "title": "UK Report: explosion heard in the Strait of Hormuz (unconfirmed, 11 Nov)",
       "site": "X / UK Report",
@@ -1577,10 +1588,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, following early unconfirmed reports of an explosion there.",
-      "This follows Tuesday's UKMTO-confirmed tanker strike off Oman, the attack on an ADNOC vessel in UAE waters and Houthi claims of strikes on Aramco's Abqaiq site."
+      "Qatar's PM reportedly told the G7 that Doha has secured at least two weeks for US-Iran diplomacy, after Tuesday's tanker strike off Oman and ADNOC vessel attack."
     ],
-    "updated": "Wed 11 Nov 2026, 1:17 am SGT",
-    "updatedTs": "2026-11-11T01:17:00+08:00"
+    "updated": "Wed 11 Nov 2026, 3:05 am SGT",
+    "updatedTs": "2026-11-11T03:05:00+08:00"
   },
   "last24Count": 13
 }
