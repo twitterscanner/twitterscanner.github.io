@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 9:05 pm SGT",
-  "lastScannedTs": "2026-11-10T21:05:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 9:25 pm SGT",
+  "lastScannedTs": "2026-11-10T21:25:00+08:00",
   "asOf": "Tue 10 Nov 2026, 8:39 pm SGT",
   "asOfTs": "2026-11-10T20:39:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but reported Iran nuclear concessions weigh on Brent.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but reported Iran nuclear concessions weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 24 alerts point higher, 8 lower",
-    "text": "15 of 24 alerts point higher, 8 lower.",
+    "count": "14 of 23 alerts point higher, 8 lower",
+    "text": "14 of 23 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Kirishi refinery reportedly fully shut, three main crude units damaged after 9 Nov drone attack",
@@ -94,12 +94,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-10T00:03:00+08:00"
-      },
-      {
-        "text": "UKMTO reclassifies 7 Nov Khasab tanker fire as an attack; crew evacuated",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-09T21:24:00+08:00"
       }
     ],
     "dovish": [
