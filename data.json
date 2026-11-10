@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 10:02 am SGT",
-  "lastScannedTs": "2026-11-10T10:02:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 10:31 am SGT",
+  "lastScannedTs": "2026-11-10T10:31:00+08:00",
   "asOf": "Tue 10 Nov 2026, 9:02 am SGT",
   "asOfTs": "2026-11-10T09:02:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Trump keeps the Iran blockade and Houthi strikes on Riyadh plus Saudi pipeline risk keep tension high, though deal hopes pushed Brent down about 7%.",
     "lead": "Net read (last 24 hours): Trump keeps the Iran blockade and Houthi strikes on Riyadh plus Saudi pipeline risk keep tension high, though deal hopes pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 26 alerts point higher, 8 lower",
-    "text": "16 of 26 alerts point higher, 8 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Houthi missiles fired at Riyadh; sirens, interceptions, no energy damage reported yet",
@@ -100,12 +100,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-09T12:16:00+08:00"
-      },
-      {
-        "text": "Houthis claim strike on Aramco's Abqaiq site; Saudi Arabia and Aramco have not confirmed",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-09T10:25:00+08:00"
       }
     ],
     "dovish": [
