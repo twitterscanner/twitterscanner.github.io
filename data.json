@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 12:06 pm SGT",
-  "lastScannedTs": "2026-11-10T12:06:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 12:04 pm SGT",
-  "asOfTs": "2026-11-10T12:04:11+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 12:20 pm SGT",
+  "lastScannedTs": "2026-11-10T12:20:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 12:18 pm SGT",
+  "asOfTs": "2026-11-10T12:18:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets and thinner Hormuz traffic keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and thinner Hormuz traffic keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
+    "bottom": "Houthi strikes and new threats against facilities in Saudi Arabia, plus thinner Hormuz traffic, keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Houthi strikes and new threats against facilities in Saudi Arabia, plus thinner Hormuz traffic, keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
     "count": "17 of 27 alerts point higher, 8 lower",
     "text": "17 of 27 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Houthis tell foreign firms in Saudi Arabia to disclose sites to avoid being bombed",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-10T12:16:18+08:00"
+      },
       {
         "text": "UKMTO: Hormuz transits reduced, most ships now on the northern route",
         "confidence": "confirmed",
@@ -106,12 +112,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-09T12:33:00+08:00"
-      },
-      {
-        "text": "Iran state TV says southern Hormuz navigation aids destroyed; no ships used 'unauthorised' route",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-09T12:16:00+08:00"
       }
     ],
     "dovish": [
@@ -184,6 +184,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "12:16",
+      "ts": "2026-11-10T12:16:18+08:00",
+      "eventTime": "Monday 9 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis urge foreign companies operating in Saudi Arabia to disclose their identities and investment locations so their facilities can be spared possible bombardment (Xinhua, translated from French)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Xinhua (French service)",
+      "url": "https://x.com/XHChineNouvelle/status/2120007618752299509"
+    },
     {
       "time": "12:00",
       "ts": "2026-11-10T12:00:59+08:00",
@@ -690,22 +703,14 @@
       "confidence": "Unconfirmed",
       "source": "FirstSquawk (via Fars/IRNA)",
       "url": "https://x.com/FirstSquawk/status/2119011112998039815"
-    },
-    {
-      "time": "14:55",
-      "ts": "2026-11-07T14:55:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says it intercepted a Houthi cruise missile targeting Riyadh",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FirstSquawk",
-      "url": "https://x.com/FirstSquawk/status/2118933691670184200"
     }
   ],
   "sources": [
+    {
+      "title": "Xinhua (French): Houthis urge foreign companies in Saudi Arabia to disclose locations to avoid strikes",
+      "site": "X / Xinhua",
+      "href": "https://x.com/XHChineNouvelle/status/2120007618752299509"
+    },
     {
       "title": "Gulf News: UKMTO notes reduced Hormuz transits, most vessels using northern route",
       "site": "X / Gulf News",
@@ -1500,11 +1505,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis fired missiles at Riyadh and a drone toward the oil-rich Eastern Region this morning, all intercepted, after Saudi said its East-West pipeline was targeted near Medina.",
+      "Houthi missiles and drones keep targeting Riyadh, the Eastern Region and southern Saudi Arabia, and the Houthis now warn foreign companies in the kingdom that their facilities could be bombed.",
       "Deal hopes pushed Brent down about 7% and Gulf product exports are rising, but Trump keeps the Iran blockade and UKMTO says Hormuz transits have thinned."
     ],
-    "updated": "Tue 10 Nov 2026, 12:06 pm SGT",
-    "updatedTs": "2026-11-10T12:06:00+08:00"
+    "updated": "Tue 10 Nov 2026, 12:20 pm SGT",
+    "updatedTs": "2026-11-10T12:20:00+08:00"
   },
   "last24Count": 13
 }
