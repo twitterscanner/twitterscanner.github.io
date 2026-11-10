@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 6:17 pm SGT",
-  "lastScannedTs": "2026-11-10T18:17:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 6:17 pm SGT",
-  "asOfTs": "2026-11-10T18:17:52+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 6:29 pm SGT",
+  "lastScannedTs": "2026-11-10T18:29:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 6:29 pm SGT",
+  "asOfTs": "2026-11-10T18:29:34+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "14 of 25 alerts point higher, 9 lower",
-    "text": "14 of 25 alerts point higher, 9 lower.",
+    "count": "15 of 26 alerts point higher, 9 lower",
+    "text": "15 of 26 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says two tankers on an unauthorised Hormuz route hit explosives and caught fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-10T18:25:54+08:00"
+      },
       {
         "text": "Ukrainian strikes reportedly halt Rostov, Taganrog and Azov ports, which ship Russian oil products",
         "confidence": "unconfirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "18:25",
+      "ts": "2026-11-10T18:25:54+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says two 'violating' tankers using an unauthorised route through the Strait of Hormuz hit explosives and caught fire, per Iranian state media (Tasnim, IRIB); no UKMTO confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Tasnim; also LiveSquawk, citing IRIB",
+      "url": "https://x.com/FirstSquawk/status/2120101226297819575"
+    },
     {
       "time": "18:12",
       "ts": "2026-11-10T18:12:19+08:00",
@@ -678,22 +697,19 @@
       "confidence": "Unconfirmed",
       "source": "OSINTtechnical; also First Squawk, citing IRNA; OSINTdefender; Open Source Intel",
       "url": "https://x.com/Osinttechnical/status/2119519674463568114"
-    },
-    {
-      "time": "03:08",
-      "ts": "2026-11-09T03:08:00+08:00",
-      "eventTime": "Sun 8 Nov 2026 (est., CNN interview; clock time not specified)",
-      "eventTs": "2026-11-08T12:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump tells CNN it is 'highly unlikely' the US will return to war with Iran if negotiations on a nuclear deal and reopening the Strait of Hormuz progress",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing CNN",
-      "url": "https://x.com/FirstSquawk/status/2119502716263432381"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: IRGC says two tankers caught fire in Hormuz (Tasnim)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2120101226297819575"
+    },
+    {
+      "title": "LiveSquawk: IRGC Navy says two tankers hit explosives in Strait of Hormuz (IRIB)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2120100631411384598"
+    },
     {
       "title": "Anushree Mukherjee: ADNOC cuts December Murban OSP to $4/bbl above Dubai from $11.1",
       "site": "X / Anushree Mukherjee",
@@ -1524,10 +1540,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthi missiles and drones keep targeting Saudi Arabia and threaten foreign firms' sites, while Ukrainian strikes reportedly halt Russia's Rostov-region ports and Russia says it hit a Black Sea tanker.",
-      "Deal hopes pushed Brent below $90, ADNOC reportedly slashed its December Murban price, and Saudi Bahri is moving tankers through Hormuz with US coordination."
+      "Brent slipped below $90 on deal hopes and ADNOC reportedly cut its December Murban price, but the IRGC now says two tankers caught fire in Hormuz after hitting explosives."
     ],
-    "updated": "Tue 10 Nov 2026, 6:17 pm SGT",
-    "updatedTs": "2026-11-10T18:17:00+08:00"
+    "updated": "Tue 10 Nov 2026, 6:29 pm SGT",
+    "updatedTs": "2026-11-10T18:29:00+08:00"
   },
   "last24Count": 13
 }
