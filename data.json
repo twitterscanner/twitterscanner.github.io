@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 10:05 pm SGT",
-  "lastScannedTs": "2026-11-10T22:05:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 9:46 pm SGT",
-  "asOfTs": "2026-11-10T21:46:35+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 10:17 pm SGT",
+  "lastScannedTs": "2026-11-10T22:17:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 10:14 pm SGT",
+  "asOfTs": "2026-11-10T22:14:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and Rubio's 'not close' on an Iran deal keep risk high despite Brent below $90.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and Rubio's 'not close' on an Iran deal keep risk high despite Brent below $90.",
+    "bottom": "Houthi claims of hits on Abqaiq and the East-West pipeline, plus an ADNOC vessel attack, sharply raise Gulf supply risk despite Brent below $90.",
+    "lead": "Net read (last 24 hours): Houthi claims of hits on Abqaiq and the East-West pipeline, plus an ADNOC vessel attack, sharply raise Gulf supply risk despite Brent below $90.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 22 alerts point higher, 7 lower",
-    "text": "15 of 22 alerts point higher, 7 lower.",
+    "count": "17 of 24 alerts point higher, 7 lower",
+    "text": "17 of 24 alerts point higher, 7 lower.",
     "hawkish": [
+      {
+        "text": "ADNOC L&S says one of its vessels was damaged in an attack in UAE waters",
+        "confidence": "unconfirmed",
+        "theme": "Tankers",
+        "ts": "2026-11-10T22:12:48+08:00"
+      },
+      {
+        "text": "Houthis claim strikes on Abqaiq, East-West pipeline pumping stations and Riyadh",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-10T22:10:00+08:00"
+      },
       {
         "text": "Rubio says Iran's deal terms are absurd and the sides are not close",
         "confidence": "confirmed",
@@ -153,6 +165,32 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "22:12",
+      "ts": "2026-11-10T22:12:48+08:00",
+      "eventTime": "Tue afternoon UAE time, ~7 pm SGT (est.)",
+      "eventTs": "2026-11-10T19:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "ADNOC Logistics & Services says one of its vessels was damaged in an attack in UAE territorial waters in the Gulf; response under way",
+      "theme": "Tankers",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "World Conflict, relaying an ADNOC L&S statement; also Middle East Brief",
+      "url": "https://x.com/WorldConflict_X/status/2120157732485689459"
+    },
+    {
+      "time": "22:10",
+      "ts": "2026-11-10T22:10:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim four strikes on Saudi Arabia: Aramco's Abqaiq facility, East-West pipeline pumping stations, Riyadh airport and financial district; no Saudi confirmation yet (translated from Arabic)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic); also Al Mayadeen, CGTN, FinancialJuice",
+      "url": "https://x.com/Yah_Saree/status/2120157026450047369"
+    },
     {
       "time": "21:44",
       "ts": "2026-11-10T21:44:07+08:00",
@@ -646,35 +684,19 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping, citing Houthi statement; also CGTN Europe, MTV Lebanon",
       "url": "https://x.com/AMK_Mapping_/status/2119615402515062864"
-    },
-    {
-      "time": "09:15",
-      "ts": "2026-11-09T09:15:00+08:00",
-      "eventTime": "8:55 am, 9 Nov (est.)",
-      "eventTs": "2026-11-09T08:55:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones hit Russia's Kirishi (KINEF) oil refinery, one of its largest; large fire burning, and Leningrad governor Drozdenko reports a successful attack on the refinery",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Woofers; Leningrad governor via First Squawk; also OSINTtechnical, AMK Mapping",
-      "url": "https://x.com/NotWoofers/status/2119598086729179514"
-    },
-    {
-      "time": "08:00",
-      "ts": "2026-11-09T08:00:00+08:00",
-      "eventTime": "7:30 am, 9 Nov (est.)",
-      "eventTs": "2026-11-09T07:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian mass drone raid (hundreds of drones reported) hits sites near St. Petersburg; drones spotted near Kirishi refinery, a Baltic export-linked plant (unconfirmed)",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical; Woofers; Open Source Intelligence",
-      "url": "https://x.com/Osinttechnical/status/2119578268688961853"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree: Houthi statement on four operations incl. Abqaiq, East-West pipeline pumping stations, Riyadh (Arabic)",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2120157026450047369"
+    },
+    {
+      "title": "World Conflict: ADNOC L&S says vessel damaged in attack in UAE territorial waters",
+      "site": "X / World Conflict",
+      "href": "https://x.com/WorldConflict_X/status/2120157732485689459"
+    },
     {
       "title": "Open Source Intel: Rubio says Iran's deal conditions are absurd, sides not even close",
       "site": "X / Open Source Intel",
@@ -1529,11 +1551,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missiles keep targeting Saudi Arabia, Ukrainian strikes reportedly halt Rostov-region ports, and Russia's Kirishi refinery is reportedly fully shut after the 9 Nov drone attack.",
-      "Brent slipped below $90 on reports Iran agreed to cut enriched uranium, but Rubio called Iran's terms absurd and the IRGC says two tankers burned in Hormuz."
+      "Houthis claim missile and drone strikes on Aramco's Abqaiq site and East-West pipeline pumping stations, and ADNOC says one of its vessels was attacked in UAE waters.",
+      "Brent slipped below $90 on Iran deal reports, but Rubio called Iran's terms absurd, the IRGC says two tankers burned in Hormuz, and Kirishi refinery is reportedly shut."
     ],
-    "updated": "Tue 10 Nov 2026, 9:47 pm SGT",
-    "updatedTs": "2026-11-10T21:47:00+08:00"
+    "updated": "Tue 10 Nov 2026, 10:16 pm SGT",
+    "updatedTs": "2026-11-10T22:16:00+08:00"
   },
   "last24Count": 13
 }
