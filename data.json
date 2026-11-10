@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 8:04 am SGT",
-  "lastScannedTs": "2026-11-10T08:04:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 8:01 am SGT",
-  "asOfTs": "2026-11-10T08:01:56+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 9:05 am SGT",
+  "lastScannedTs": "2026-11-10T09:05:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 9:02 am SGT",
+  "asOfTs": "2026-11-10T09:02:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump keeps the Iran blockade, and Hormuz, Saudi pipeline and new Houthi attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Trump keeps the Iran blockade, and Hormuz, Saudi pipeline and new Houthi attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
+    "bottom": "Trump keeps the Iran blockade and Houthi strikes on Riyadh plus Saudi pipeline risk keep tension high, though deal hopes pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Trump keeps the Iran blockade and Houthi strikes on Riyadh plus Saudi pipeline risk keep tension high, though deal hopes pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 26 alerts point higher, 8 lower",
-    "text": "16 of 26 alerts point higher, 8 lower.",
+    "count": "17 of 27 alerts point higher, 8 lower",
+    "text": "17 of 27 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Houthi missiles fired at Riyadh; sirens, interceptions, no energy damage reported yet",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-10T08:46:00+08:00"
+      },
       {
         "text": "Houthi launches toward Khamis Mushait and Abha in southern Saudi Arabia",
         "confidence": "unconfirmed",
@@ -178,6 +184,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "08:46",
+      "ts": "2026-11-10T08:46:00+08:00",
+      "eventTime": "8:40 am, 10 Nov (est.)",
+      "eventTs": "2026-11-10T08:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthi ballistic missiles fired at Riyadh: sirens and Saudi Civil Defense hazard warnings, two explosions heard in north Riyadh as air defences intercepted. No energy damage reported yet",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "FirstSquawk (Saudi Civil Defense), AMK Mapping, The Cradle",
+      "url": "https://x.com/FirstSquawk/status/2119954935861428732"
+    },
     {
       "time": "07:07",
       "ts": "2026-11-10T07:07:47+08:00",
@@ -684,22 +703,19 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping",
       "url": "https://x.com/AMK_Mapping_/status/2118823809918882014"
-    },
-    {
-      "time": "20:10",
-      "ts": "2026-11-06T20:10:44+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO: a tanker outbound through the Strait of Hormuz reported an explosion at the waterline, port side, 16 nm east of Khasab, Oman; crew safe, vessel kept power and continued its voyage. Time-late report, so incident time unknown",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice, via Live Squawk; also ILRedAlert",
-      "url": "https://x.com/LiveSquawk/status/2118676282716361110"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Saudi Civil Defense issues warning of potential hazard in Riyadh",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119954935861428732"
+    },
+    {
+      "title": "AMK Mapping: Ballistic missile launches from Yemen to Riyadh",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2119953293682344138"
+    },
     {
       "title": "First Squawk: Trump says Gulf states prefer the status quo, Iran blockade and Iron Gate continue",
       "site": "X / First Squawk",
@@ -1469,11 +1485,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia says its East-West pipeline was targeted near Medina, Iran reportedly struck radar on Oman's Didamar Island, and Houthi launches toward southern Saudi cities were reported.",
+      "Houthis fired ballistic missiles at Riyadh this morning after launches toward southern Saudi cities, while Saudi Arabia says its East-West pipeline was targeted near Medina.",
       "Reports of a preliminary US-Iran deal pushed Brent down about 7%, but after Qatar talks Trump said the naval blockade on Iran will continue for now."
     ],
-    "updated": "Tue 10 Nov 2026, 8:04 am SGT",
-    "updatedTs": "2026-11-10T08:04:00+08:00"
+    "updated": "Tue 10 Nov 2026, 9:05 am SGT",
+    "updatedTs": "2026-11-10T09:05:00+08:00"
   },
   "last24Count": 13
 }
