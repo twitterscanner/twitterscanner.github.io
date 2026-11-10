@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 7:05 am SGT",
-  "lastScannedTs": "2026-11-10T07:05:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 6:05 am SGT",
-  "asOfTs": "2026-11-10T06:05:57+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 8:04 am SGT",
+  "lastScannedTs": "2026-11-10T08:04:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 8:01 am SGT",
+  "asOfTs": "2026-11-10T08:01:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump keeps the Iran blockade after Qatar talks, and Hormuz and Saudi pipeline attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Trump keeps the Iran blockade after Qatar talks, and Hormuz and Saudi pipeline attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
+    "bottom": "Trump keeps the Iran blockade, and Hormuz, Saudi pipeline and new Houthi attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Trump keeps the Iran blockade, and Hormuz, Saudi pipeline and new Houthi attacks keep risk higher, though deal hopes pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
     "count": "16 of 26 alerts point higher, 8 lower",
     "text": "16 of 26 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Houthi launches toward Khamis Mushait and Abha in southern Saudi Arabia",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-10T07:07:47+08:00"
+      },
       {
         "text": "Trump says Gulf states prefer status quo; Iran blockade and Iron Gate continue",
         "confidence": "confirmed",
@@ -100,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-09T09:15:00+08:00"
-      },
-      {
-        "text": "Ukrainian mass drone raid near St. Petersburg; drones spotted near Kirishi refinery",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-09T08:00:00+08:00"
       }
     ],
     "dovish": [
@@ -178,6 +178,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "07:07",
+      "ts": "2026-11-10T07:07:47+08:00",
+      "eventTime": "7:07 am, 10 Nov (est.)",
+      "eventTs": "2026-11-10T07:07:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthi launches reported from Yemen toward Khamis Mushait and Abha in southern Saudi Arabia; Saudi early-warning platform issued an alert for Khamis Mushait. No impact or energy damage reported yet",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint, relayed by Post Open Source",
+      "url": "https://x.com/MenchOsint/status/2119929977529422054"
+    },
     {
       "time": "05:35",
       "ts": "2026-11-10T05:35:24+08:00",
@@ -684,19 +697,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO notice, via Live Squawk; also ILRedAlert",
       "url": "https://x.com/LiveSquawk/status/2118676282716361110"
-    },
-    {
-      "time": "20:02",
-      "ts": "2026-11-06T20:02:16+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Satellite imagery reportedly shows an unusual fire at an Aramco gas facility in Saudi Arabia's Eastern Province; no cause, site name or official confirmation yet (single OSINT claim)",
-      "theme": "Saudi / Aramco",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (CocoPostel), citing AB4_Ali3",
-      "url": "https://x.com/CocoPostel/status/2118674672124637262"
     }
   ],
   "sources": [
@@ -1459,16 +1459,21 @@
       "title": "Brent fell ~7% on unconfirmed Al Arabiya reports of US-Iran enrichment deal",
       "site": "OilPrice.com",
       "href": "https://x.com/OilandEnergy/status/2119891978477342759"
+    },
+    {
+      "title": "Launches from Yemen toward Khamis Mushait and Abha",
+      "site": "MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2119929977529422054"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia says its East-West pipeline was targeted near Medina, and Iran reportedly struck radar on Oman's Didamar Island in southern Hormuz.",
+      "Saudi Arabia says its East-West pipeline was targeted near Medina, Iran reportedly struck radar on Oman's Didamar Island, and Houthi launches toward southern Saudi cities were reported.",
       "Reports of a preliminary US-Iran deal pushed Brent down about 7%, but after Qatar talks Trump said the naval blockade on Iran will continue for now."
     ],
-    "updated": "Tue 10 Nov 2026, 6:05 am SGT",
-    "updatedTs": "2026-11-10T06:05:00+08:00"
+    "updated": "Tue 10 Nov 2026, 8:04 am SGT",
+    "updatedTs": "2026-11-10T08:04:00+08:00"
   },
   "last24Count": 13
 }
