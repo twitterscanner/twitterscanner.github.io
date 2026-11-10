@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 3:02 pm SGT",
-  "lastScannedTs": "2026-11-10T15:02:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 3:43 pm SGT",
+  "lastScannedTs": "2026-11-10T15:43:00+08:00",
   "asOf": "Tue 10 Nov 2026, 2:53 pm SGT",
   "asOfTs": "2026-11-10T14:53:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -174,8 +174,8 @@
     ]
   },
   "brent": {
-    "value": "~$91.7",
-    "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
+    "value": "$90.66",
+    "detail": "Brent futures fell another 2% to $90.66/bbl as Trump played down new Iran strikes, per First Squawk, 3:42 pm SGT 10 Nov"
   },
   "alerts": [
     {
