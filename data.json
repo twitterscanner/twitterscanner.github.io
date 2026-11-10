@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 5:53 pm SGT",
-  "lastScannedTs": "2026-11-10T17:53:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 2:53 pm SGT",
-  "asOfTs": "2026-11-10T14:53:40+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 6:03 pm SGT",
+  "lastScannedTs": "2026-11-10T18:03:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 6:04 pm SGT",
+  "asOfTs": "2026-11-10T18:04:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets and a Russian tanker strike keep risk high, but deal hopes and US-coordinated Saudi Hormuz transits weigh on Brent.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and a Russian tanker strike keep risk high, but deal hopes and US-coordinated Saudi Hormuz transits weigh on Brent.",
+    "bottom": "Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "14 of 24 alerts point higher, 8 lower",
-    "text": "14 of 24 alerts point higher, 8 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian strikes reportedly halt Rostov, Taganrog and Azov ports, which ship Russian oil products",
+        "confidence": "unconfirmed",
+        "theme": "Ports",
+        "ts": "2026-11-10T17:57:59+08:00"
+      },
       {
         "text": "Russia says it struck a cargo ship and a tanker in the Black Sea",
         "confidence": "confirmed",
@@ -166,6 +172,19 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "17:57",
+      "ts": "2026-11-10T17:57:59+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: Rostov-on-Don, Taganrog and Azov ports in Russia's Rostov region reportedly brought to a near standstill by Ukrainian strikes; Rostov governor warns of industry collapse. The Azov ports ship Russian oil products",
+      "theme": "Ports",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "NSTRIKE",
+      "url": "https://x.com/NSTRIKE1231/status/2120093605834432545"
+    },
     {
       "time": "14:50",
       "ts": "2026-11-10T14:50:03+08:00",
@@ -672,22 +691,14 @@
       "confidence": "Confirmed",
       "source": "The Hormuz Letter; also Mario Nawfal",
       "url": "https://x.com/HormuzLetter/status/2119497700676698157"
-    },
-    {
-      "time": "03:08",
-      "ts": "2026-11-09T03:08:00+08:00",
-      "eventTime": "Sun 8 Nov 2026 (est., 'yesterday' / past 24 hours)",
-      "eventTs": "2026-11-08T12:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: ADNOC-linked products tanker Navig8 Messi identified as the vessel hit by Iran's IRGC northwest of Khasab, Oman; the ship is on fire",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel; also MenchOsint",
-      "url": "https://x.com/Osint613/status/2119500763508392053"
     }
   ],
   "sources": [
+    {
+      "title": "NSTRIKE: Rostov-on-Don, Taganrog and Azov ports reportedly paralysed by Ukrainian strikes",
+      "site": "X / NSTRIKE",
+      "href": "https://x.com/NSTRIKE1231/status/2120093605834432545"
+    },
     {
       "title": "Brent falls below $90 a barrel for first time since August",
       "site": "First Squawk",
@@ -1502,11 +1513,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missiles and drones keep targeting Saudi Arabia and now threaten foreign firms' facilities, while Russia says it struck a cargo ship and a tanker in the Black Sea.",
-      "Deal hopes pushed Brent down about 7% and Saudi Bahri is moving tankers through Hormuz with US coordination, though Trump keeps the Iran blockade in place."
+      "Houthi missiles and drones keep targeting Saudi Arabia and threaten foreign firms' sites, while Ukrainian strikes reportedly halt Russia's Rostov-region ports and Russia says it hit a Black Sea tanker.",
+      "Deal hopes pushed Brent below $90 and Saudi Bahri is moving tankers through Hormuz with US coordination, though Trump keeps the Iran blockade in place."
     ],
-    "updated": "Tue 10 Nov 2026, 2:53 pm SGT",
-    "updatedTs": "2026-11-10T14:53:00+08:00"
+    "updated": "Tue 10 Nov 2026, 6:03 pm SGT",
+    "updatedTs": "2026-11-10T18:03:00+08:00"
   },
   "last24Count": 13
 }
