@@ -8,8 +8,8 @@
     "bottom": "Houthi strikes on Saudi targets and thinner Hormuz traffic keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and thinner Hormuz traffic keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "17 of 28 alerts point higher, 9 lower",
-    "text": "17 of 28 alerts point higher, 9 lower.",
+    "count": "17 of 27 alerts point higher, 8 lower",
+    "text": "17 of 27 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "UKMTO: Hormuz transits reduced, most ships now on the northern route",
@@ -162,12 +162,6 @@
         "confidence": "confirmed",
         "theme": "Iraq",
         "ts": "2026-11-09T16:38:00+08:00"
-      },
-      {
-        "text": "Trump plans to discuss ending the Iran war with Xi and Putin at APEC next week",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-09T12:06:00+08:00"
       }
     ],
     "neutral": [
