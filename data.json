@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 4:05 pm SGT",
-  "lastScannedTs": "2026-11-10T16:05:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 4:38 pm SGT",
+  "lastScannedTs": "2026-11-10T16:38:00+08:00",
   "asOf": "Tue 10 Nov 2026, 2:53 pm SGT",
   "asOfTs": "2026-11-10T14:53:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi strikes on Saudi targets and a Russian tanker strike keep risk high, but deal hopes and US-coordinated Saudi Hormuz transits weigh on Brent.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and a Russian tanker strike keep risk high, but deal hopes and US-coordinated Saudi Hormuz transits weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 26 alerts point higher, 9 lower",
-    "text": "15 of 26 alerts point higher, 9 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Russia says it struck a cargo ship and a tanker in the Black Sea",
@@ -150,12 +150,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-09T19:16:00+08:00"
-      },
-      {
-        "text": "Iraq sets deep December Basrah discounts to Asia ($8.80 Medium, $11.80 Heavy)",
-        "confidence": "confirmed",
-        "theme": "Iraq",
-        "ts": "2026-11-09T16:38:00+08:00"
       }
     ],
     "neutral": [
