@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 2:19 pm SGT",
-  "lastScannedTs": "2026-11-10T14:19:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 1:38 pm SGT",
-  "asOfTs": "2026-11-10T13:38:27+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 2:53 pm SGT",
+  "lastScannedTs": "2026-11-10T14:53:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 2:53 pm SGT",
+  "asOfTs": "2026-11-10T14:53:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets, thinner Hormuz traffic and a Russian strike on a Black Sea tanker keep supply risk high, though deal hopes pushed Brent lower.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, thinner Hormuz traffic and a Russian strike on a Black Sea tanker keep supply risk high, though deal hopes pushed Brent lower.",
+    "bottom": "Houthi strikes on Saudi targets and a Russian tanker strike keep risk high, but deal hopes and US-coordinated Saudi Hormuz transits weigh on Brent.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and a Russian tanker strike keep risk high, but deal hopes and US-coordinated Saudi Hormuz transits weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "15 of 26 alerts point higher, 9 lower",
+    "text": "15 of 26 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "Russia says it struck a cargo ship and a tanker in the Black Sea",
@@ -104,6 +104,12 @@
     ],
     "dovish": [
       {
+        "text": "Saudi Bahri sends tankers through Hormuz in coordination with the US military",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-10T14:50:03+08:00"
+      },
+      {
         "text": "Bloomberg: Gulf refined-product loadings up to ~3 mb/d, easing tight markets",
         "confidence": "confirmed",
         "theme": "Hormuz",
@@ -172,6 +178,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "14:50",
+      "ts": "2026-11-10T14:50:03+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bloomberg: Saudi Arabia's main shipping firm Bahri is sending some tankers through the Strait of Hormuz in coordination with the US military",
+      "theme": "Hormuz",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Bloomberg",
+      "url": "https://x.com/business/status/2120046308660490560"
+    },
     {
       "time": "13:34",
       "ts": "2026-11-10T13:34:38+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel; also MenchOsint",
       "url": "https://x.com/Osint613/status/2119500763508392053"
-    },
-    {
-      "time": "03:08",
-      "ts": "2026-11-09T03:08:00+08:00",
-      "eventTime": "Sun 8 Nov, ~12:00 pm SGT (est., Riyadh morning rush hour)",
-      "eventTs": "2026-11-08T12:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthi missiles targeted Riyadh on Sunday, including the King Abdullah Financial District; AFP witnesses and Bloomberg report damage to an Aramco building, while the Saudi-led coalition says it intercepted the missiles",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel, citing Bloomberg; also AFP",
-      "url": "https://x.com/Osint613/status/2119499027267961009"
     }
   ],
   "sources": [
+    {
+      "title": "Bloomberg: Saudi Arabia's main shipping firm sends some tankers through Hormuz in coordination with the US military",
+      "site": "X / Bloomberg",
+      "href": "https://x.com/business/status/2120046308660490560"
+    },
     {
       "title": "First Squawk: Russian Defence Ministry says forces struck a cargo ship and a tanker in the Black Sea",
       "site": "X / First Squawk",
@@ -1499,10 +1510,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthi missiles and drones keep targeting Saudi Arabia and now threaten foreign firms' facilities, while Russia says it struck a cargo ship and a tanker in the Black Sea.",
-      "Deal hopes pushed Brent down about 7% and Gulf product exports are rising, but Trump keeps the Iran blockade and UKMTO says Hormuz transits have thinned."
+      "Deal hopes pushed Brent down about 7% and Saudi Bahri is moving tankers through Hormuz with US coordination, though Trump keeps the Iran blockade in place."
     ],
-    "updated": "Tue 10 Nov 2026, 1:38 pm SGT",
-    "updatedTs": "2026-11-10T13:38:00+08:00"
+    "updated": "Tue 10 Nov 2026, 2:53 pm SGT",
+    "updatedTs": "2026-11-10T14:53:00+08:00"
   },
   "last24Count": 13
 }
