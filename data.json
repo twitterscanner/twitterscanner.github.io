@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 3:05 am SGT",
-  "lastScannedTs": "2026-11-11T03:05:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 3:05 am SGT",
-  "asOfTs": "2026-11-11T03:05:11+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 4:02 am SGT",
+  "lastScannedTs": "2026-11-11T04:02:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 4:03 am SGT",
+  "asOfTs": "2026-11-11T04:03:17+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC-reported Hormuz mine fire, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
-    "lead": "Net read (last 24 hours): IRGC-reported Hormuz mine fire, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
+    "bottom": "Hormuz mine and tanker fires, the South Pars platform fire and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
+    "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, the South Pars platform fire and Houthi Abqaiq claims lift Gulf risk; Qatar-led diplomacy pulls the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 25 alerts point higher, 9 lower",
-    "text": "16 of 25 alerts point higher, 9 lower.",
+    "count": "17 of 24 alerts point higher, 7 lower",
+    "text": "17 of 24 alerts point higher, 7 lower.",
     "hawkish": [
+      {
+        "text": "Fire forces evacuation of South Pars SPD14D gas platform in Iran",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-11T03:33:08+08:00"
+      },
       {
         "text": "IRGC says a tanker hit a naval mine and caught fire in Hormuz",
         "confidence": "confirmed",
@@ -150,27 +156,28 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-10T05:00:58+08:00"
-      },
-      {
-        "text": "Al Arabiya: preliminary US-Iran enrichment deal likely; Hormuz reopening and blockade lift floated",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-10T04:03:44+08:00"
-      },
-      {
-        "text": "Reuters survey: OPEC October output back near 90% of pre-war levels",
-        "confidence": "confirmed",
-        "theme": "OPEC",
-        "ts": "2026-11-10T04:03:44+08:00"
       }
     ],
     "neutral": []
   },
   "brent": {
-    "value": "~$90.5",
-    "detail": "Brent back above $90 (~$90.51/bbl), up about 1.2% since the Houthi statement on Saudi strikes, per Alpha Charts on X, 11:05 pm SGT 10 Nov"
+    "value": "$91.49",
+    "detail": "Brent settled at $91.49/bbl, down $1.08 (1.17%), per First Squawk, 3:59 am SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "03:33",
+      "ts": "2026-11-11T03:33:08+08:00",
+      "eventTime": "3:05 am, 11 Nov (est.)",
+      "eventTs": "2026-11-11T03:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "Fire breaks out on the SPD14D platform in Iran's South Pars gas field, forcing a full evacuation; Fars says about 14.5 mcm/d of gas is affected and the cause (gas leak or operational fault) is under investigation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Fars News via First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2120238344424866258"
+    },
     {
       "time": "02:40",
       "ts": "2026-11-11T02:40:18+08:00",
@@ -677,22 +684,19 @@
       "confidence": "Confirmed",
       "source": "First Squawk; FinSquawk (#OOTT)",
       "url": "https://x.com/FirstSquawk/status/2119711267661443319"
-    },
-    {
-      "time": "14:18",
-      "ts": "2026-11-09T14:18:00+08:00",
-      "eventTime": "2:15 pm, 9 Nov",
-      "eventTs": "2026-11-09T14:15:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Saudi Civil Defense issues a danger warning in Riyadh after a ballistic missile is reported launched from Yemen toward the capital; officials declared the danger over about two minutes later, no impact reported",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Saudi Civil Defense (official) on the warning and the all-clear; AMK Mapping (OSINT) on the missile launch; First Squawk; no interception or impact reported",
-      "url": "https://x.com/AMK_Mapping_/status/2119675333377130574"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Fars says fire broke out on South Pars platform, cause under investigation (11 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2120238344424866258"
+    },
+    {
+      "title": "Open Source Intel: SPD14D South Pars platform fire, workers evacuating (11 Nov)",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2120231909448200541"
+    },
     {
       "title": "First Squawk: Qatar PM tells G7 Doha secured 'at least two weeks' for US-Iran diplomacy (11 Nov)",
       "site": "X / First Squawk",
@@ -1587,11 +1591,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, following early unconfirmed reports of an explosion there.",
-      "Qatar's PM reportedly told the G7 that Doha has secured at least two weeks for US-Iran diplomacy, after Tuesday's tanker strike off Oman and ADNOC vessel attack."
+      "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in Hormuz, and a fire later forced evacuation of a South Pars gas platform.",
+      "Qatar's PM reportedly told the G7 that Doha has secured at least two weeks for US-Iran diplomacy, while Brent settled about 1% lower at $91.49."
     ],
-    "updated": "Wed 11 Nov 2026, 3:05 am SGT",
-    "updatedTs": "2026-11-11T03:05:00+08:00"
+    "updated": "Wed 11 Nov 2026, 4:06 am SGT",
+    "updatedTs": "2026-11-11T04:06:00+08:00"
   },
   "last24Count": 13
 }
