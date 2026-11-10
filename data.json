@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 2:05 pm SGT",
-  "lastScannedTs": "2026-11-10T14:05:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 2:19 pm SGT",
+  "lastScannedTs": "2026-11-10T14:19:00+08:00",
   "asOf": "Tue 10 Nov 2026, 1:38 pm SGT",
   "asOfTs": "2026-11-10T13:38:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi strikes on Saudi targets, thinner Hormuz traffic and a Russian strike on a Black Sea tanker keep supply risk high, though deal hopes pushed Brent lower.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, thinner Hormuz traffic and a Russian strike on a Black Sea tanker keep supply risk high, though deal hopes pushed Brent lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 26 alerts point higher, 8 lower",
-    "text": "16 of 26 alerts point higher, 8 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Russia says it struck a cargo ship and a tanker in the Black Sea",
@@ -100,12 +100,6 @@
         "confidence": "confirmed",
         "theme": "Diesel / jet fuel shortage",
         "ts": "2026-11-09T17:49:00+08:00"
-      },
-      {
-        "text": "Houthi ballistic missile launched at Riyadh; Saudi danger warning lifted within minutes",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-09T14:18:00+08:00"
       }
     ],
     "dovish": [
