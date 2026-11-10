@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 1:00 pm SGT",
-  "lastScannedTs": "2026-11-10T13:00:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 1:08 pm SGT",
+  "lastScannedTs": "2026-11-10T13:08:00+08:00",
   "asOf": "Tue 10 Nov 2026, 12:18 pm SGT",
   "asOfTs": "2026-11-10T12:18:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Houthi strikes and new threats against facilities in Saudi Arabia, plus thinner Hormuz traffic, keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
     "lead": "Net read (last 24 hours): Houthi strikes and new threats against facilities in Saudi Arabia, plus thinner Hormuz traffic, keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 26 alerts point higher, 8 lower",
-    "text": "16 of 26 alerts point higher, 8 lower.",
+    "count": "15 of 25 alerts point higher, 8 lower",
+    "text": "15 of 25 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Houthis tell foreign firms in Saudi Arabia to disclose sites to avoid being bombed",
@@ -100,12 +100,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-09T14:18:00+08:00"
-      },
-      {
-        "text": "CENTCOM reportedly told Israel to prepare for a third US strike wave, possibly on Iranian power and energy sites",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-09T13:07:00+08:00"
       }
     ],
     "dovish": [
