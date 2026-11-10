@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 12:06 am SGT",
-  "lastScannedTs": "2026-11-11T00:06:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 11:54 pm SGT",
-  "asOfTs": "2026-11-10T23:54:43+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 1:08 am SGT",
+  "lastScannedTs": "2026-11-11T01:08:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 1:08 am SGT",
+  "asOfTs": "2026-11-11T01:08:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "A UKMTO-confirmed tanker strike off Oman, the ADNOC vessel attack and Houthi Abqaiq claims lift Gulf risk; Ukraine and Iran diplomacy pull the other way.",
-    "lead": "Net read (last 24 hours): A UKMTO-confirmed tanker strike off Oman, the ADNOC vessel attack and Houthi Abqaiq claims lift Gulf risk; Ukraine and Iran diplomacy pull the other way.",
+    "bottom": "Unverified Hormuz blast reports, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Ukraine and Iran diplomacy pull the other way.",
+    "lead": "Net read (last 24 hours): Unverified Hormuz blast reports, the UKMTO-confirmed tanker strike off Oman and Houthi Abqaiq claims lift Gulf risk; Ukraine and Iran diplomacy pull the other way.",
     "verdict": "Mixed, leaning bullish",
-    "count": "18 of 26 alerts point higher, 8 lower",
-    "text": "18 of 26 alerts point higher, 8 lower.",
+    "count": "16 of 24 alerts point higher, 8 lower",
+    "text": "16 of 24 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Reports of an explosion and Iranian missile launch in the Strait of Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-11T01:08:00+08:00"
+      },
       {
         "text": "UKMTO: tanker struck by unknown projectile northeast of Lima, Oman, near Hormuz",
         "confidence": "confirmed",
@@ -100,24 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-10T01:25:00+08:00"
-      },
-      {
-        "text": "First snowstorm watch for US Mid-Atlantic and Northeast lifts heating-oil demand",
-        "confidence": "unconfirmed",
-        "theme": "Weather",
-        "ts": "2026-11-10T01:03:00+08:00"
-      },
-      {
-        "text": "Saudi East-West pipeline, the Hormuz bypass, targeted near Medina; small fire, operations unaffected",
-        "confidence": "confirmed",
-        "theme": "Saudi / Aramco",
-        "ts": "2026-11-10T00:12:00+08:00"
-      },
-      {
-        "text": "Tasnim denies Rezaei-Vance Doha meeting; Tehran says no talks until US meets seven conditions",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-10T00:03:00+08:00"
       }
     ],
     "dovish": [
@@ -177,6 +165,19 @@
     "detail": "Brent back above $90 (~$90.51/bbl), up about 1.2% since the Houthi statement on Saudi strikes, per Alpha Charts on X, 11:05 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "01:08",
+      "ts": "2026-11-11T01:08:00+08:00",
+      "eventTime": "about 12:56 am SGT, 11 Nov (first reports)",
+      "eventTs": "2026-11-11T00:56:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: several accounts report an explosion in the Strait of Hormuz, and one cites a local source on a missile launch from southern Iran toward the strait and two blasts; no official or wire confirmation yet",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "UK Report; also Interceptor News, Gulfion",
+      "url": "https://x.com/UK_REPT/status/2120198999885901857"
+    },
     {
       "time": "23:49",
       "ts": "2026-11-10T23:49:47+08:00",
@@ -683,22 +684,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Israel's Kan broadcaster; also RedboxGlobal",
       "url": "https://x.com/FirstSquawk/status/2119649351182229629"
-    },
-    {
-      "time": "12:16",
-      "ts": "2026-11-09T12:16:00+08:00",
-      "eventTime": "Overnight 8-9 Nov (est.)",
-      "eventTs": "2026-11-09T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian state TV says navigation aids in southern Hormuz were destroyed and no ships used the 'unauthorised' route overnight, tightening Iran's grip on transit lanes",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Iranian state TV",
-      "url": "https://x.com/FirstSquawk/status/2119644437601222755"
     }
   ],
   "sources": [
+    {
+      "title": "UK Report: explosion heard in the Strait of Hormuz (unconfirmed, 11 Nov)",
+      "site": "X / UK Report",
+      "href": "https://x.com/UK_REPT/status/2120198999885901857"
+    },
     {
       "title": "UKMTO: tanker struck by unknown projectile near Lima, Oman (10 Nov)",
       "site": "First Squawk",
@@ -1578,11 +1571,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis claim strikes on Aramco's Abqaiq site and East-West pipeline, ADNOC says one of its vessels was attacked in UAE waters, and UKMTO reports a tanker hit by a projectile off Oman.",
-      "Brent hovers near $90 as Rubio calls Iran's terms absurd, while US negotiators reportedly float letting Russian oil and gas back into Europe in Ukraine talks."
+      "Early reports, not yet confirmed, describe an explosion and a possible Iranian missile launch in the Strait of Hormuz, after Iran said the strait stays shut until its conditions are met.",
+      "This follows Tuesday's UKMTO-confirmed tanker strike off Oman, the attack on an ADNOC vessel in UAE waters and Houthi claims of strikes on Aramco's Abqaiq site."
     ],
-    "updated": "Tue 10 Nov 2026, 11:57 pm SGT",
-    "updatedTs": "2026-11-10T23:57:00+08:00"
+    "updated": "Wed 11 Nov 2026, 1:08 am SGT",
+    "updatedTs": "2026-11-11T01:08:00+08:00"
   },
   "last24Count": 13
 }
