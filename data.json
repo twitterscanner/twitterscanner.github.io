@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 8:00 pm SGT",
-  "lastScannedTs": "2026-11-10T20:00:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 6:29 pm SGT",
-  "asOfTs": "2026-11-10T18:29:34+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 8:14 pm SGT",
+  "lastScannedTs": "2026-11-10T20:14:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 8:14 pm SGT",
+  "asOfTs": "2026-11-10T20:14:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
+    "bottom": "Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but deal hopes weigh on Brent.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, Hormuz tanker fires and a reported Kirishi shutdown keep risk high, but deal hopes weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "16 of 26 alerts point higher, 8 lower",
+    "text": "16 of 26 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Kirishi refinery reportedly fully shut, three main crude units damaged after 9 Nov drone attack",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-10T20:11:48+08:00"
+      },
       {
         "text": "IRGC says two tankers on an unauthorised Hormuz route hit explosives and caught fire",
         "confidence": "unconfirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "20:11",
+      "ts": "2026-11-10T20:11:48+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: Russia's Kirishi (KINEF) refinery reportedly fully shut after the 9 Nov Ukrainian drone attack, with three main crude units (AVT-2, AT-1, AT-6) said to be damaged, per a Russian Telegram channel",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Special Kherson Cat, citing Russian Telegram channel Dosye Shpiona",
+      "url": "https://x.com/bayraktar_1love/status/2120127280840081611"
+    },
     {
       "time": "18:25",
       "ts": "2026-11-10T18:25:54+08:00",
@@ -678,19 +697,6 @@
       "confidence": "Unconfirmed",
       "source": "Basha Report, citing Iranian state TV; also Open Source Intel; Post Open Source",
       "url": "https://x.com/BashaReport/status/2119526070852657649"
-    },
-    {
-      "time": "04:05",
-      "ts": "2026-11-09T04:05:00+08:00",
-      "eventTime": "3:15 am, 9 Nov (est.)",
-      "eventTs": "2026-11-09T03:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Explosions reported tonight on Iran's Qeshm Island and near Bandar Abbas; IRNA says sites appear struck, and OSINT attributes a third night of US air-defense strikes near the Strait of Hormuz",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical; also First Squawk, citing IRNA; OSINTdefender; Open Source Intel",
-      "url": "https://x.com/Osinttechnical/status/2119519674463568114"
     }
   ],
   "sources": [
@@ -1528,16 +1534,21 @@
       "title": "Launches from Yemen toward Khamis Mushait and Abha",
       "site": "MenchOsint",
       "href": "https://x.com/MenchOsint/status/2119929977529422054"
+    },
+    {
+      "title": "Special Kherson Cat: Kirishi refinery reportedly fully shut after drone attack (citing Dosye Shpiona)",
+      "site": "x.com",
+      "href": "https://x.com/bayraktar_1love/status/2120127280840081611"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missiles and drones keep targeting Saudi Arabia and threaten foreign firms' sites, while Ukrainian strikes reportedly halt Russia's Rostov-region ports and Russia says it hit a Black Sea tanker.",
-      "Brent slipped below $90 on deal hopes and ADNOC reportedly cut its December Murban price, but the IRGC now says two tankers caught fire in Hormuz after hitting explosives."
+      "Houthi missiles keep targeting Saudi Arabia, Ukrainian strikes reportedly halt Rostov-region ports, and Russia's Kirishi refinery is reportedly fully shut after the 9 Nov drone attack.",
+      "Brent slipped below $90 on deal hopes and ADNOC reportedly cut its December Murban price, but the IRGC says two tankers caught fire in Hormuz after hitting explosives."
     ],
-    "updated": "Tue 10 Nov 2026, 6:29 pm SGT",
-    "updatedTs": "2026-11-10T18:29:00+08:00"
+    "updated": "Tue 10 Nov 2026, 8:14 pm SGT",
+    "updatedTs": "2026-11-10T20:14:00+08:00"
   },
   "last24Count": 13
 }
