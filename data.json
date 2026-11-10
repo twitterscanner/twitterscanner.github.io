@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 10:17 pm SGT",
-  "lastScannedTs": "2026-11-10T22:17:00+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 10:15 pm SGT",
+  "lastScannedTs": "2026-11-10T22:15:00+08:00",
   "asOf": "Tue 10 Nov 2026, 10:14 pm SGT",
   "asOfTs": "2026-11-10T22:14:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -1554,8 +1554,8 @@
       "Houthis claim missile and drone strikes on Aramco's Abqaiq site and East-West pipeline pumping stations, and ADNOC says one of its vessels was attacked in UAE waters.",
       "Brent slipped below $90 on Iran deal reports, but Rubio called Iran's terms absurd, the IRGC says two tankers burned in Hormuz, and Kirishi refinery is reportedly shut."
     ],
-    "updated": "Tue 10 Nov 2026, 10:16 pm SGT",
-    "updatedTs": "2026-11-10T22:16:00+08:00"
+    "updated": "Tue 10 Nov 2026, 10:15 pm SGT",
+    "updatedTs": "2026-11-10T22:15:00+08:00"
   },
   "last24Count": 13
 }
