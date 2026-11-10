@@ -7,7 +7,6 @@
     "Asia/Tokyo", "Asia/Hong_Kong", "UTC"];
   var data = null;
   var lastJson = "";
-  var confFilter = "All";
   var themeFilter = "All";
 
   /* ---------- time zone helpers (pure; no DOM) ---------- */
@@ -279,25 +278,16 @@
     setText("m-brent-detail", (data.brent && data.brent.detail) || "");
     setText("m-scanned", scannedText(data, z));
 
-    buttons("conf-filter", ["All", "Confirmed", "Unconfirmed"], confFilter, function (v) { confFilter = v; render(); });
+    buttons("theme-filter", ["All"].concat(themes), themeFilter, function (v) { themeFilter = v; render(); });
     var body = $("log-body");
     var frag = document.createDocumentFragment();
-    var shown = alerts.filter(function (a) { return confFilter === "All" || a.confidence === confFilter; });
+    var shown = alerts.filter(function (a) { return themeFilter === "All" || a.theme === themeFilter; });
     shown.forEach(function (a) {
       frag.appendChild(row([reportedText(a, z, hi.dayKey, hi.zone), eventCell(a, z, hi.zone, hi.dayKey), a.headline, a.theme,
         dirTag(a.direction), confTag(a.confidence), srcCell(a)]));
     });
     if (!shown.length) { var tr = el("tr"); var td = el("td", "empty", "No alerts match."); td.colSpan = 7; tr.appendChild(td); frag.appendChild(tr); }
     body.replaceChildren(frag);
-
-    buttons("theme-filter", ["All"].concat(themes), themeFilter, function (v) { themeFilter = v; render(); });
-    var tbody = $("theme-body");
-    var frag2 = document.createDocumentFragment();
-    alerts.filter(function (a) { return themeFilter === "All" || a.theme === themeFilter; }).forEach(function (a) {
-      frag2.appendChild(row([a.theme, reportedText(a, z, hi.dayKey, hi.zone), eventCell(a, z, hi.zone, hi.dayKey), a.headline,
-        dirTag(a.direction), confTag(a.confidence)]));
-    });
-    tbody.replaceChildren(frag2);
 
     var bars = $("bars");
     var frag3 = document.createDocumentFragment();

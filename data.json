@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 10:31 am SGT",
-  "lastScannedTs": "2026-11-10T10:31:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 9:02 am SGT",
-  "asOfTs": "2026-11-10T09:02:29+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 11:04 am SGT",
+  "lastScannedTs": "2026-11-10T11:04:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 11:03 am SGT",
+  "asOfTs": "2026-11-10T11:03:51+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump keeps the Iran blockade and Houthi strikes on Riyadh plus Saudi pipeline risk keep tension high, though deal hopes pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Trump keeps the Iran blockade and Houthi strikes on Riyadh plus Saudi pipeline risk keep tension high, though deal hopes pushed Brent down about 7%.",
+    "bottom": "Houthi missiles and a drone toward Riyadh and the Eastern Region keep Saudi supply risk high, though US-Iran deal hopes pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Houthi missiles and a drone toward Riyadh and the Eastern Region keep Saudi supply risk high, though US-Iran deal hopes pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "16 of 26 alerts point higher, 8 lower",
+    "text": "16 of 26 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Coalition intercepts drone over Saudi Eastern Region, the Aramco oil heartland",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-10T11:01:36+08:00"
+      },
       {
         "text": "Houthi missiles fired at Riyadh; sirens, interceptions, no energy damage reported yet",
         "confidence": "confirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "11:01",
+      "ts": "2026-11-10T11:01:36+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says it intercepted a drone over Saudi Arabia's Eastern Region, the Aramco oil heartland, widening Houthi attacks beyond Riyadh and the south",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk (coalition statement), also RedboxGlobal",
+      "url": "https://x.com/FirstSquawk/status/2119988820238377210"
+    },
     {
       "time": "08:46",
       "ts": "2026-11-10T08:46:00+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Confirmed",
       "source": "Amena Bakr (AP) / First Squawk / OSINTdefender",
       "url": "https://x.com/Amena__Bakr/status/2118903567419576648"
-    },
-    {
-      "time": "05:55",
-      "ts": "2026-11-07T05:55:00+08:00",
-      "eventTime": "5:09 am, 7 Nov (est.)",
-      "eventTs": "2026-11-07T05:09:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: US forces reportedly conducted two airstrikes on an Iranian surface-to-air missile launcher near Quza/Suza on Qeshm Island after it allegedly fired at a US FA-18 over the Strait of Hormuz; explosions and air-defence activity reported locally.",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping",
-      "url": "https://x.com/AMK_Mapping_/status/2118823809918882014"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Drone intercepted in Saudi Arabia's Eastern Region, coalition says",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2119988820238377210"
+    },
     {
       "title": "First Squawk: Saudi Civil Defense issues warning of potential hazard in Riyadh",
       "site": "X / First Squawk",
@@ -1473,11 +1484,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis fired ballistic missiles at Riyadh this morning after launches toward southern Saudi cities, while Saudi Arabia says its East-West pipeline was targeted near Medina.",
+      "Houthis fired missiles at Riyadh and a drone toward the oil-rich Eastern Region this morning, all intercepted, after Saudi said its East-West pipeline was targeted near Medina.",
       "Reports of a preliminary US-Iran deal pushed Brent down about 7%, but after Qatar talks Trump said the naval blockade on Iran will continue for now."
     ],
-    "updated": "Tue 10 Nov 2026, 9:05 am SGT",
-    "updatedTs": "2026-11-10T09:05:00+08:00"
+    "updated": "Tue 10 Nov 2026, 11:04 am SGT",
+    "updatedTs": "2026-11-10T11:04:00+08:00"
   },
   "last24Count": 13
 }
