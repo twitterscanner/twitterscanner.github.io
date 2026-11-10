@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 11:04 am SGT",
-  "lastScannedTs": "2026-11-10T11:04:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 11:03 am SGT",
-  "asOfTs": "2026-11-10T11:03:51+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 12:06 pm SGT",
+  "lastScannedTs": "2026-11-10T12:06:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 12:04 pm SGT",
+  "asOfTs": "2026-11-10T12:04:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi missiles and a drone toward Riyadh and the Eastern Region keep Saudi supply risk high, though US-Iran deal hopes pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Houthi missiles and a drone toward Riyadh and the Eastern Region keep Saudi supply risk high, though US-Iran deal hopes pushed Brent down about 7%.",
+    "bottom": "Houthi strikes on Saudi targets and thinner Hormuz traffic keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and thinner Hormuz traffic keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
     "verdict": "Mixed, leaning bullish",
-    "count": "16 of 26 alerts point higher, 8 lower",
-    "text": "16 of 26 alerts point higher, 8 lower.",
+    "count": "17 of 28 alerts point higher, 9 lower",
+    "text": "17 of 28 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: Hormuz transits reduced, most ships now on the northern route",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-10T12:00:59+08:00"
+      },
       {
         "text": "Coalition intercepts drone over Saudi Eastern Region, the Aramco oil heartland",
         "confidence": "confirmed",
@@ -110,6 +116,12 @@
     ],
     "dovish": [
       {
+        "text": "Bloomberg: Gulf refined-product loadings up to ~3 mb/d, easing tight markets",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-10T12:00:16+08:00"
+      },
+      {
         "text": "FT: Arab and Muslim leaders press Trump not to reignite the Iran war",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -178,6 +190,32 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "12:00",
+      "ts": "2026-11-10T12:00:59+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO notes reduced Strait of Hormuz transits, with most vessels using the northern route; this follows Iran's reported strike on Didamar Island navigation aids in the southern corridor",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Gulf News (UKMTO)",
+      "url": "https://x.com/gulf_news/status/2120003761280041165"
+    },
+    {
+      "time": "12:00",
+      "ts": "2026-11-10T12:00:16+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bloomberg: refined-product loadings in the Persian Gulf rose to about 3 million b/d in October from a 1 million b/d May trough, mostly exiting Hormuz and easing a tight market",
+      "theme": "Hormuz",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Bloomberg",
+      "url": "https://x.com/business/status/2120003583772918183"
+    },
     {
       "time": "11:01",
       "ts": "2026-11-10T11:01:36+08:00",
@@ -671,35 +709,19 @@
       "confidence": "Confirmed",
       "source": "FirstSquawk",
       "url": "https://x.com/FirstSquawk/status/2118933691670184200"
-    },
-    {
-      "time": "11:18",
-      "ts": "2026-11-07T11:18:00+08:00",
-      "eventTime": "10:30 am, 7 Nov (est.)",
-      "eventTs": "2026-11-07T10:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Ukrainian drones hit Russia's Saratov (Rosneft) oil refinery on the Volga; multiple fires reported, ~140 kbpd capacity; seventh Russian refinery hit in about eight days",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical / OSINTdefender / Kyiv Independent",
-      "url": "https://x.com/Osinttechnical/status/2118900360219693499"
-    },
-    {
-      "time": "11:09",
-      "ts": "2026-11-07T11:09:00+08:00",
-      "eventTime": "5:09 am, 7 Nov (est.)",
-      "eventTs": "2026-11-07T05:09:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump and AP confirm US carried out small-scale / targeted strikes on Iranian anti-aircraft on Qeshm Island near Hormuz (upgrade of earlier OSINT reports)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Amena Bakr (AP) / First Squawk / OSINTdefender",
-      "url": "https://x.com/Amena__Bakr/status/2118903567419576648"
     }
   ],
   "sources": [
+    {
+      "title": "Gulf News: UKMTO notes reduced Hormuz transits, most vessels using northern route",
+      "site": "X / Gulf News",
+      "href": "https://x.com/gulf_news/status/2120003761280041165"
+    },
+    {
+      "title": "Bloomberg: Rising refined-product flows through Hormuz ease tight market",
+      "site": "X / Bloomberg",
+      "href": "https://x.com/business/status/2120003583772918183"
+    },
     {
       "title": "First Squawk: Drone intercepted in Saudi Arabia's Eastern Region, coalition says",
       "site": "X / First Squawk",
@@ -1485,10 +1507,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthis fired missiles at Riyadh and a drone toward the oil-rich Eastern Region this morning, all intercepted, after Saudi said its East-West pipeline was targeted near Medina.",
-      "Reports of a preliminary US-Iran deal pushed Brent down about 7%, but after Qatar talks Trump said the naval blockade on Iran will continue for now."
+      "Deal hopes pushed Brent down about 7% and Gulf product exports are rising, but Trump keeps the Iran blockade and UKMTO says Hormuz transits have thinned."
     ],
-    "updated": "Tue 10 Nov 2026, 11:04 am SGT",
-    "updatedTs": "2026-11-10T11:04:00+08:00"
+    "updated": "Tue 10 Nov 2026, 12:06 pm SGT",
+    "updatedTs": "2026-11-10T12:06:00+08:00"
   },
   "last24Count": 13
 }
