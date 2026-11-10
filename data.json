@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 1:08 pm SGT",
-  "lastScannedTs": "2026-11-10T13:08:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 12:18 pm SGT",
-  "asOfTs": "2026-11-10T12:18:54+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 1:38 pm SGT",
+  "lastScannedTs": "2026-11-10T13:38:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 1:38 pm SGT",
+  "asOfTs": "2026-11-10T13:38:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes and new threats against facilities in Saudi Arabia, plus thinner Hormuz traffic, keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
-    "lead": "Net read (last 24 hours): Houthi strikes and new threats against facilities in Saudi Arabia, plus thinner Hormuz traffic, keep supply risk high, though deal hopes and rising Gulf product flows pushed Brent down about 7%.",
+    "bottom": "Houthi strikes on Saudi targets, thinner Hormuz traffic and a Russian strike on a Black Sea tanker keep supply risk high, though deal hopes pushed Brent lower.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets, thinner Hormuz traffic and a Russian strike on a Black Sea tanker keep supply risk high, though deal hopes pushed Brent lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "16 of 26 alerts point higher, 8 lower",
+    "text": "16 of 26 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Russia says it struck a cargo ship and a tanker in the Black Sea",
+        "confidence": "confirmed",
+        "theme": "Tankers",
+        "ts": "2026-11-10T13:34:38+08:00"
+      },
       {
         "text": "Houthis tell foreign firms in Saudi Arabia to disclose sites to avoid being bombed",
         "confidence": "confirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent extended losses to about 7% (~$91.7/bbl) in post-settlement trade on US-Iran deal hopes, per OilPrice.com and market data on X, ~4:40 am SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "13:34",
+      "ts": "2026-11-10T13:34:38+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russia's Defence Ministry says its forces struck a cargo ship and a tanker in the Black Sea; vessels and location not named",
+      "theme": "Tankers",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk (Russian Defence Ministry)",
+      "url": "https://x.com/FirstSquawk/status/2120027330261492135"
+    },
     {
       "time": "12:16",
       "ts": "2026-11-10T12:16:18+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel, citing Bloomberg; also AFP",
       "url": "https://x.com/Osint613/status/2119499027267961009"
-    },
-    {
-      "time": "20:58",
-      "ts": "2026-11-07T20:58:00+08:00",
-      "eventTime": "Sat 7 Nov ~1:30 pm SGT (est., 'this morning' Iran time)",
-      "eventTs": "2026-11-07T13:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Iran's Navy says a 'non-compliant' oil tanker hit a naval mine east of the Strait of Hormuz, caught fire and stopped; no ship name, no UKMTO confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FirstSquawk (via Fars/IRNA)",
-      "url": "https://x.com/FirstSquawk/status/2119011112998039815"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Russian Defence Ministry says forces struck a cargo ship and a tanker in the Black Sea",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2120027330261492135"
+    },
     {
       "title": "Xinhua (French): Houthis urge foreign companies in Saudi Arabia to disclose locations to avoid strikes",
       "site": "X / Xinhua",
@@ -1493,11 +1504,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missiles and drones keep targeting Riyadh, the Eastern Region and southern Saudi Arabia, and the Houthis now warn foreign companies in the kingdom that their facilities could be bombed.",
+      "Houthi missiles and drones keep targeting Saudi Arabia and now threaten foreign firms' facilities, while Russia says it struck a cargo ship and a tanker in the Black Sea.",
       "Deal hopes pushed Brent down about 7% and Gulf product exports are rising, but Trump keeps the Iran blockade and UKMTO says Hormuz transits have thinned."
     ],
-    "updated": "Tue 10 Nov 2026, 12:20 pm SGT",
-    "updatedTs": "2026-11-10T12:20:00+08:00"
+    "updated": "Tue 10 Nov 2026, 1:38 pm SGT",
+    "updatedTs": "2026-11-10T13:38:00+08:00"
   },
   "last24Count": 13
 }
