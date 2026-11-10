@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 10 Nov 2026, 6:03 pm SGT",
-  "lastScannedTs": "2026-11-10T18:03:00+08:00",
-  "asOf": "Tue 10 Nov 2026, 6:04 pm SGT",
-  "asOfTs": "2026-11-10T18:04:47+08:00",
+  "lastScanned": "Tue 10 Nov 2026, 6:17 pm SGT",
+  "lastScannedTs": "2026-11-10T18:17:00+08:00",
+  "asOf": "Tue 10 Nov 2026, 6:17 pm SGT",
+  "asOfTs": "2026-11-10T18:17:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "lead": "Net read (last 24 hours): Houthi strikes on Saudi targets and Ukrainian hits on Russian ports keep risk high, but deal hopes and Saudi Hormuz transits weigh on Brent.",
     "verdict": "Mixed, leaning bullish",
-    "count": "15 of 25 alerts point higher, 8 lower",
-    "text": "15 of 25 alerts point higher, 8 lower.",
+    "count": "14 of 25 alerts point higher, 9 lower",
+    "text": "14 of 25 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "Ukrainian strikes reportedly halt Rostov, Taganrog and Azov ports, which ship Russian oil products",
@@ -94,15 +94,15 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-09T20:17:00+08:00"
-      },
-      {
-        "text": "Explosions reported in Hormuz; Fars says another tanker ablaze after hitting a mine",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-09T18:16:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "ADNOC reportedly cuts December Murban price by $7/bbl, signalling softer demand for Gulf crude",
+        "confidence": "unconfirmed",
+        "theme": "Crude pricing",
+        "ts": "2026-11-10T18:12:19+08:00"
+      },
       {
         "text": "Saudi Bahri sends tankers through Hormuz in coordination with the US military",
         "confidence": "confirmed",
@@ -172,6 +172,19 @@
     "detail": "Brent fell below $90/bbl for the first time since August, per First Squawk, 4:52 pm SGT 10 Nov"
   },
   "alerts": [
+    {
+      "time": "18:12",
+      "ts": "2026-11-10T18:12:19+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Unconfirmed: ADNOC cuts December Murban official selling price to about $4/bbl above Dubai from $11.10 a month earlier (a $7 cut), with Das, Upper Zakum and Umm Lulu also lowered, days after Aramco's December cuts for Asia",
+      "theme": "Crude pricing",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "Anushree Mukherjee; also The Officials",
+      "url": "https://x.com/AnushreeReports/status/2120097211698868718"
+    },
     {
       "time": "17:57",
       "ts": "2026-11-10T17:57:59+08:00",
@@ -678,22 +691,19 @@
       "confidence": "Confirmed",
       "source": "First Squawk, citing CNN",
       "url": "https://x.com/FirstSquawk/status/2119502716263432381"
-    },
-    {
-      "time": "03:08",
-      "ts": "2026-11-09T03:08:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israeli Defense Minister Katz says Israel's mission against Iran is not complete, that Iran is trying to renew its nuclear program, and that Israel will take preemptive action",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "The Hormuz Letter; also Mario Nawfal",
-      "url": "https://x.com/HormuzLetter/status/2119497700676698157"
     }
   ],
   "sources": [
+    {
+      "title": "Anushree Mukherjee: ADNOC cuts December Murban OSP to $4/bbl above Dubai from $11.1",
+      "site": "X / Anushree Mukherjee",
+      "href": "https://x.com/AnushreeReports/status/2120097211698868718"
+    },
+    {
+      "title": "The Officials: ADNOC Dec OSPs, Murban -$7, Das -$4, Upper Zakum -$4.50, Umm Lulu -$1",
+      "site": "X / The Officials",
+      "href": "https://x.com/FluxOfficials/status/2120086042858455532"
+    },
     {
       "title": "NSTRIKE: Rostov-on-Don, Taganrog and Azov ports reportedly paralysed by Ukrainian strikes",
       "site": "X / NSTRIKE",
@@ -1514,10 +1524,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthi missiles and drones keep targeting Saudi Arabia and threaten foreign firms' sites, while Ukrainian strikes reportedly halt Russia's Rostov-region ports and Russia says it hit a Black Sea tanker.",
-      "Deal hopes pushed Brent below $90 and Saudi Bahri is moving tankers through Hormuz with US coordination, though Trump keeps the Iran blockade in place."
+      "Deal hopes pushed Brent below $90, ADNOC reportedly slashed its December Murban price, and Saudi Bahri is moving tankers through Hormuz with US coordination."
     ],
-    "updated": "Tue 10 Nov 2026, 6:03 pm SGT",
-    "updatedTs": "2026-11-10T18:03:00+08:00"
+    "updated": "Tue 10 Nov 2026, 6:17 pm SGT",
+    "updatedTs": "2026-11-10T18:17:00+08:00"
   },
   "last24Count": 13
 }
