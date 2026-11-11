@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 2:02 am SGT",
-  "lastScannedTs": "2026-11-12T02:02:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 1:56 am SGT",
-  "asOfTs": "2026-11-12T01:56:02+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 3:08 am SGT",
+  "lastScannedTs": "2026-11-12T03:08:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 3:05 am SGT",
+  "asOfTs": "2026-11-12T03:05:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine hits, Ust-Luga oil terminal and Novatek damage, Omsk fire and Houthi launches at Saudi Arabia skew risks higher; Saudi/OPEC+ output jump offsets.",
-    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga oil terminal and Novatek damage, Omsk fire and Houthi launches at Saudi Arabia skew risks higher; Saudi/OPEC+ output jump offsets.",
+    "bottom": "Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline and cities skew risks higher; Saudi output jump offsets.",
+    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline and cities skew risks higher; Saudi output jump offsets.",
     "verdict": "Bullish",
-    "count": "14 of 19 alerts point higher, 2 lower",
-    "text": "14 of 19 alerts point higher, 2 lower.",
+    "count": "15 of 19 alerts point higher, 1 lower",
+    "text": "15 of 19 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim drone hit on Yanbu-region Pumping Station 11 on Saudi East-West pipeline",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-12T02:32:44+08:00"
+      },
       {
         "text": "SBU says Novatek's Ust-Luga complex hit: 30,000-tonne tanks damaged, product spill",
         "confidence": "confirmed",
@@ -102,12 +108,6 @@
         "confidence": "confirmed",
         "theme": "OPEC",
         "ts": "2026-11-11T21:03:00+08:00"
-      },
-      {
-        "text": "Qatar says Doha secured at least two weeks for US-Iran diplomacy",
-        "confidence": "unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-11T02:40:18+08:00"
       }
     ],
     "neutral": [
@@ -136,6 +136,19 @@
     "detail": "Brent near $93/bbl, up about $3 on the day on Iran and Ukraine-talks uncertainty, per First Squawk on X, 11:36 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "02:32",
+      "ts": "2026-11-12T02:32:44+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim a drone strike on Pumping Station No. 11 in Saudi Arabia's Yanbu region (East-West crude pipeline) and deny targeting Makkah; Saudi early-warning alerts sounded in Yanbu, Taif and Khamis Mushait",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic), with First Squawk and Iran International (Reuters)",
+      "url": "https://x.com/Yah_Saree/status/2120585535689564622"
+    },
     {
       "time": "01:47",
       "ts": "2026-11-12T01:47:48+08:00",
@@ -642,22 +655,19 @@
       "confidence": "Unconfirmed",
       "source": "MenchOsint, relayed by Post Open Source",
       "url": "https://x.com/MenchOsint/status/2119929977529422054"
-    },
-    {
-      "time": "05:35",
-      "ts": "2026-11-10T05:35:24+08:00",
-      "eventTime": "5:32 am, 10 Nov (est.)",
-      "eventTs": "2026-11-10T05:32:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump after Qatar PM talks: Gulf states prefer the status quo, so the Iran naval blockade and Operation Iron Gate continue; strikes 'locked and loaded' but unlikely",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Trump on Truth Social via FirstSquawk",
-      "url": "https://x.com/FirstSquawk/status/2119906727290405157"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree (Houthi military spokesman, Arabic): drone strike on Pumping Station No. 11 in Yanbu region",
+      "site": "x.com/Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2120585535689564622"
+    },
+    {
+      "title": "First Squawk: Houthis say they attacked a pumping station in the Yanbu region with a drone, deny attack on Mecca region",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120590578635473075"
+    },
     {
       "title": "Meanwhile in Ukraine: SBU says Novatek-Ust-Luga tanks damaged in Ust-Luga strike",
       "site": "x.com/MeanwhileInUA",
@@ -1688,10 +1698,10 @@
     "title": "Today's key developments",
     "lines": [
       "Ukraine's General Staff and SBU say the Ust-Luga strike damaged fuel tanks, a hydrocracker, an export pier and Novatek's complex, while a fire hit Russia's Omsk refinery.",
-      "The Saudi-led coalition downed two Houthi drones aimed at Makkah, and Al Jazeera reports Iran reached a Hormuz shipping corridor and traffic separation deal with Oman."
+      "Houthis claim a drone hit on a Yanbu-region East-West pipeline pumping station after Saudi forces downed drones aimed at Makkah, and Iran reportedly agreed a Hormuz corridor with Oman."
     ],
-    "updated": "Thu 12 Nov 2026, 1:58 am SGT",
-    "updatedTs": "2026-11-12T01:58:00+08:00"
+    "updated": "Thu 12 Nov 2026, 3:08 am SGT",
+    "updatedTs": "2026-11-12T03:08:00+08:00"
   },
   "last24Count": 13
 }
