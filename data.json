@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 6:05 am SGT",
-  "lastScannedTs": "2026-11-12T06:05:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 4:06 am SGT",
-  "asOfTs": "2026-11-12T04:06:08+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 7:05 am SGT",
+  "lastScannedTs": "2026-11-12T07:05:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 7:03 am SGT",
+  "asOfTs": "2026-11-12T07:03:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline skew risks higher; Saudi output jump and Vance-Iran talk offset.",
-    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline skew risks higher; Saudi output jump and Vance-Iran talk offset.",
+    "bottom": "Israel's reported Iran strike preparations, Hormuz mine hits, Ust-Luga and Omsk damage and Houthi strikes skew risks higher; Saudi output and Vance-Iran talk offset.",
+    "lead": "Net read (last 24 hours): Israel's reported Iran strike preparations, Hormuz mine hits, Ust-Luga and Omsk damage and Houthi strikes skew risks higher; Saudi output and Vance-Iran talk offset.",
     "verdict": "Bullish",
     "count": "14 of 19 alerts point higher, 2 lower",
     "text": "14 of 19 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Kan: Netanyahu orders IDF to prepare possible major strike on Iran",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-12T07:02:01+08:00"
+      },
       {
         "text": "Houthis claim drone hit on Yanbu-region Pumping Station 11 on Saudi East-West pipeline",
         "confidence": "unconfirmed",
@@ -88,12 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-11T07:36:00+08:00"
-      },
-      {
-        "text": "Massive Ukrainian drone raid on Leningrad region, Ust-Luga oil terminal reported main target",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-11T07:01:00+08:00"
       }
     ],
     "dovish": [
@@ -136,6 +136,19 @@
     "detail": "Brent futures settled up $1.27 (1.39%) at $92.76/bbl, per First Squawk on X, 3:46 am SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "07:02",
+      "ts": "2026-11-12T07:02:01+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kan: Netanyahu orders IDF to step up preparations for a possible major strike on Iran; Israeli official warns it could trigger wide-scale war",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "The Hormuz Letter citing Kan (Israeli public broadcaster)",
+      "url": "https://x.com/HormuzLetter/status/2120653302560104544"
+    },
     {
       "time": "03:33",
       "ts": "2026-11-12T03:33:00+08:00",
@@ -642,22 +655,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk (coalition statement), also RedboxGlobal",
       "url": "https://x.com/FirstSquawk/status/2119988820238377210"
-    },
-    {
-      "time": "08:46",
-      "ts": "2026-11-10T08:46:00+08:00",
-      "eventTime": "8:40 am, 10 Nov (est.)",
-      "eventTs": "2026-11-10T08:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthi ballistic missiles fired at Riyadh: sirens and Saudi Civil Defense hazard warnings, two explosions heard in north Riyadh as air defences intercepted. No energy damage reported yet",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FirstSquawk (Saudi Civil Defense), AMK Mapping, The Cradle",
-      "url": "https://x.com/FirstSquawk/status/2119954935861428732"
     }
   ],
   "sources": [
+    {
+      "title": "The Hormuz Letter: Kan says Netanyahu ordered military to step up preparations for possible major strike on Iran",
+      "site": "x.com/HormuzLetter",
+      "href": "https://x.com/HormuzLetter/status/2120653302560104544"
+    },
     {
       "title": "Open Source Intel: WSJ says VP Vance is considering a face-to-face meeting with Iran's Rezaei; Trump open to Vance restarting talks",
       "site": "x.com/Osint613",
@@ -1707,11 +1712,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukraine says its Ust-Luga strike damaged fuel tanks, a hydrocracker, an export pier and Novatek's complex, while Houthis claim a missile hit on a Yanbu-region East-West pipeline pumping station.",
-      "The WSJ reports VP Vance is weighing face-to-face talks with Iran's Rezaei, after Iran reportedly agreed a Hormuz shipping corridor with Oman and Saudi forces downed drones aimed at Makkah."
+      "Kan reports Netanyahu ordered Israel's military to step up preparations for a possible major strike on Iran, with an official warning it could trigger wider war.",
+      "Earlier, Ukraine said its Ust-Luga strike damaged fuel tanks and an export pier, while the WSJ said VP Vance is weighing face-to-face talks with Iran's Rezaei."
     ],
-    "updated": "Thu 12 Nov 2026, 4:07 am SGT",
-    "updatedTs": "2026-11-12T04:07:00+08:00"
+    "updated": "Thu 12 Nov 2026, 7:05 am SGT",
+    "updatedTs": "2026-11-12T07:05:00+08:00"
   },
   "last24Count": 13
 }
