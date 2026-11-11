@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 11:36 am SGT",
-  "lastScannedTs": "2026-11-11T11:36:00+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 12:03 pm SGT",
+  "lastScannedTs": "2026-11-11T12:03:00+08:00",
   "asOf": "Wed 11 Nov 2026, 11:32 am SGT",
   "asOfTs": "2026-11-11T11:32:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
     "lead": "Net read (last 24 hours): New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "17 of 24 alerts point higher, 6 lower",
-    "text": "17 of 24 alerts point higher, 6 lower.",
+    "verdict": "Bullish",
+    "count": "16 of 22 alerts point higher, 5 lower",
+    "text": "16 of 22 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "UKMTO reports a new tanker incident in the Strait of Hormuz",
@@ -106,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-10T12:16:18+08:00"
-      },
-      {
-        "text": "UKMTO: Hormuz transits reduced, most ships now on the northern route",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-10T12:00:59+08:00"
       }
     ],
     "dovish": [
@@ -144,12 +138,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-10T14:50:03+08:00"
-      },
-      {
-        "text": "Bloomberg: Gulf refined-product loadings up to ~3 mb/d, easing tight markets",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-10T12:00:16+08:00"
       }
     ],
     "neutral": [
