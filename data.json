@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 6:12 pm SGT",
-  "lastScannedTs": "2026-11-11T18:12:57+08:00",
-  "asOf": "Wed 11 Nov 2026, 2:54 pm SGT",
-  "asOfTs": "2026-11-11T14:54:42+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 6:27 pm SGT",
+  "lastScannedTs": "2026-11-11T18:27:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 6:26 pm SGT",
+  "asOfTs": "2026-11-11T18:26:34+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran confirms another mine-hit tanker ablaze near Hormuz, adding to Ust-Luga and South Pars fires; Qatar diplomacy pulls lower.",
-    "lead": "Net read (last 24 hours): Iran confirms another mine-hit tanker ablaze near Hormuz, adding to Ust-Luga and South Pars fires; Qatar diplomacy pulls lower.",
+    "bottom": "Hormuz mine-hit tankers and the Ust-Luga and South Pars fires keep risks skewed higher; Qatar-led diplomacy is the main offset.",
+    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers and the Ust-Luga and South Pars fires keep risks skewed higher; Qatar-led diplomacy is the main offset.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 3 lower",
-    "text": "15 of 19 alerts point higher, 3 lower.",
+    "count": "15 of 20 alerts point higher, 3 lower",
+    "text": "15 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims two more tankers hit mines in Hormuz overnight, burning and abandoned",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-11T18:09:48+08:00"
+      },
       {
         "text": "Iran's army says another tanker hit a mine and caught fire east of Hormuz",
         "confidence": "confirmed",
@@ -94,12 +100,6 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-10T20:11:48+08:00"
-      },
-      {
-        "text": "IRGC says two tankers on an unauthorised Hormuz route hit explosives and caught fire",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-10T18:25:54+08:00"
       }
     ],
     "dovish": [
@@ -124,6 +124,12 @@
     ],
     "neutral": [
       {
+        "text": "Libya NOC: contained gas-line blast at Brega gas plant kills one worker",
+        "confidence": "confirmed",
+        "theme": "Libya",
+        "ts": "2026-11-11T18:19:09+08:00"
+      },
+      {
         "text": "Perdue says Trump offered China US oil in place of its Iranian imports",
         "confidence": "unconfirmed",
         "theme": "Iran",
@@ -132,10 +138,36 @@
     ]
   },
   "brent": {
-    "value": "~$92.4",
-    "detail": "Brent $92.43/bbl, rebounding from a two-month low, per OilPrice.com, ~2:05 pm SGT 11 Nov"
+    "value": "~$92.8",
+    "detail": "Brent $92.77/bbl, up $1.28 (1.4%) on Hormuz shipping attacks, per Reuters via The Cradle, 5:34 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "18:19",
+      "ts": "2026-11-11T18:19:09+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Libya's NOC says a fire at Sirte Oil Co's Marsa el-Brega gas plant caused a fuel-gas line explosion, killing one worker and injuring four; fire contained, lines shut",
+      "theme": "Libya",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Libya's National Oil Corporation via Al Marsad (Libyan daily); also Tanasuh TV, FinSquawk",
+      "url": "https://x.com/ObservatoryLY/status/2120461320327704879"
+    },
+    {
+      "time": "18:09",
+      "ts": "2026-11-11T18:09:48+08:00",
+      "eventTime": "Overnight 10-11 Nov (est.)",
+      "eventTs": "2026-11-11T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy (via Fars) claims two more tankers trying to exit Hormuz on an unauthorised route with US jet cover hit sea mines overnight, now burning and abandoned",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Navy statement via Fars; Open Source Intel, LiveSquawk, First Squawk",
+      "url": "https://x.com/Osint613/status/2120459262287860145"
+    },
     {
       "time": "14:54",
       "ts": "2026-11-11T14:54:42+08:00",
@@ -629,35 +661,29 @@
       "confidence": "Unconfirmed",
       "source": "Tzvi Joffre, citing Turkish intelligence chief İbrahim Kalın (also reported by Mehr)",
       "url": "https://x.com/TzviJoffre/status/2119794129685090811"
-    },
-    {
-      "time": "21:27",
-      "ts": "2026-11-09T21:27:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: UAE's Khor Fakkan closes Al Luluyah beach after an oil spill is spotted along the coast near the Gulf of Oman port; source of the spill not stated",
-      "theme": "Hormuz",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing a local notice; also Giovanni Staunovo",
-      "url": "https://x.com/FirstSquawk/status/2119783975170478163"
-    },
-    {
-      "time": "21:24",
-      "ts": "2026-11-09T21:24:00+08:00",
-      "eventTime": "7 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO reclassifies a 7 Nov incident near Khasab, Oman, as an attack: a tanker caught fire and its crew was evacuated (late report)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO via FinancialJuice and CGTN Europe",
-      "url": "https://x.com/financialjuice/status/2119783154995134498"
     }
   ],
   "sources": [
+    {
+      "title": "IRAN IRGC CLAIMS 2 TANKERS HIT MINES IN HORMUZ OVERNIGHT: FARS",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120460311274950836"
+    },
+    {
+      "title": "IRGC Navy: two tankers hit sea mines in Hormuz overnight, burning and abandoned (Fars)",
+      "site": "x.com/Osint613",
+      "href": "https://x.com/Osint613/status/2120459262287860145"
+    },
+    {
+      "title": "LIBYA GAS PIPELINE EXPLOSION KILLS WORKER: NOC HEAD",
+      "site": "x.com/finsquawk_",
+      "href": "https://x.com/finsquawk_/status/2120462557509234853"
+    },
+    {
+      "title": "Libya NOC: limited fire at Sirte Oil Co gas plant, Marsa el-Brega; fuel-gas line explosion kills one worker",
+      "site": "x.com/ObservatoryLY",
+      "href": "https://x.com/ObservatoryLY/status/2120461320327704879"
+    },
     {
       "title": "Oil tanker ablaze in Strait of Hormuz after hitting naval mine, Iran's army says (state media)",
       "site": "x.com/FirstSquawk",
@@ -1612,11 +1638,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, confirmed by Leningrad's governor, while UKMTO reported a new tanker incident in Hormuz.",
-      "Iran's army says another tanker hit a mine and caught fire east of Hormuz, after a South Pars platform fire and Trump's reported US oil offer to China."
+      "Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, while Iran's army and IRGC say three more tankers hit mines and burned near Hormuz.",
+      "UKMTO reported a new Hormuz tanker incident after a South Pars platform fire, and a contained gas-line blast at Libya's Brega plant killed one worker."
     ],
-    "updated": "Wed 11 Nov 2026, 2:56 pm SGT",
-    "updatedTs": "2026-11-11T14:56:00+08:00"
+    "updated": "Wed 11 Nov 2026, 6:26 pm SGT",
+    "updatedTs": "2026-11-11T18:26:00+08:00"
   },
   "last24Count": 13
 }
