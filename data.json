@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 8:01 am SGT",
-  "lastScannedTs": "2026-11-11T08:01:00+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 9:03 am SGT",
+  "lastScannedTs": "2026-11-11T09:03:00+08:00",
   "asOf": "Wed 11 Nov 2026, 8:01 am SGT",
   "asOfTs": "2026-11-11T08:01:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz mine and tanker fires, South Pars fire and a drone hit setting Russia's Ust-Luga port ablaze lift supply risk; Qatar diplomacy pulls lower.",
     "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, South Pars fire and a drone hit setting Russia's Ust-Luga port ablaze lift supply risk; Qatar diplomacy pulls lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "17 of 23 alerts point higher, 6 lower",
-    "text": "17 of 23 alerts point higher, 6 lower.",
+    "count": "16 of 22 alerts point higher, 6 lower",
+    "text": "16 of 22 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Ukrainian drones hit Ust-Luga oil export port; footage shows port infrastructure on fire",
@@ -106,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-10T11:01:36+08:00"
-      },
-      {
-        "text": "Houthi missiles fired at Riyadh; sirens, interceptions, no energy damage reported yet",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-10T08:46:00+08:00"
       }
     ],
     "dovish": [
@@ -155,8 +149,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$91.49",
-    "detail": "Brent settled at $91.49/bbl, down $1.08 (1.17%), per First Squawk, 3:59 am SGT 11 Nov"
+    "value": "~$92",
+    "detail": "Brent around $92/bbl, up slightly in Asian trade, per Anas Alhajji, 8:50 am SGT 11 Nov"
   },
   "alerts": [
     {
