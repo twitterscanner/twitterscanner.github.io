@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 8:36 pm SGT",
-  "lastScannedTs": "2026-11-11T20:36:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 8:20 pm SGT",
-  "asOfTs": "2026-11-11T20:20:07+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 9:04 pm SGT",
+  "lastScannedTs": "2026-11-11T21:04:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 9:03 pm SGT",
+  "asOfTs": "2026-11-11T21:03:39+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine-hit tankers, Ust-Luga and South Pars fires and new Houthi launches at Riyadh keep risks skewed higher; Qatar-led diplomacy is the main offset.",
-    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and South Pars fires and new Houthi launches at Riyadh keep risks skewed higher; Qatar-led diplomacy is the main offset.",
+    "bottom": "Hormuz mine-hit tankers, Ust-Luga fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump and diplomacy offset.",
+    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump and diplomacy offset.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 2 lower",
-    "text": "15 of 19 alerts point higher, 2 lower.",
+    "count": "15 of 20 alerts point higher, 3 lower",
+    "text": "15 of 20 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Houthi drone/missile launches toward Riyadh disrupt Saudi capital's airspace",
@@ -104,6 +104,12 @@
     ],
     "dovish": [
       {
+        "text": "Saudi October output jumps 26% to 10.56 mb/d; OPEC+ up 2.04 mb/d (OPEC report)",
+        "confidence": "confirmed",
+        "theme": "OPEC",
+        "ts": "2026-11-11T21:03:00+08:00"
+      },
+      {
         "text": "Qatar says Doha secured at least two weeks for US-Iran diplomacy",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -132,10 +138,23 @@
     ]
   },
   "brent": {
-    "value": "~$92.8",
-    "detail": "Brent $92.77/bbl, up $1.28 (1.4%) on Hormuz shipping attacks, per Reuters via The Cradle, 5:34 pm SGT 11 Nov"
+    "value": "~$93",
+    "detail": "Brent back above $93/bbl, up about 1-2% on Hormuz/Iran risk, per energy analyst Anas Alhajji on X, 8:59 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "21:03",
+      "ts": "2026-11-11T21:03:00+08:00",
+      "eventTime": "9:00 pm, 11 Nov (est.)",
+      "eventTs": "2026-11-11T21:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "OPEC November report: Saudi Arabia told OPEC its October crude output surged 26% to 10.56 mb/d (from 8.37 mb/d), a wartime high; OPEC+ output rose 2.04 mb/d to 41.23 mb/d; demand forecasts unchanged",
+      "theme": "OPEC",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk; OPEC monthly report via Giovanni Staunovo",
+      "url": "https://x.com/FirstSquawk/status/2120502155014709365"
+    },
     {
       "time": "20:19",
       "ts": "2026-11-11T20:19:00+08:00",
@@ -642,22 +661,19 @@
       "confidence": "Confirmed",
       "source": "LiveSquawk, citing the Saudi Press Agency (official)",
       "url": "https://x.com/LiveSquawk/status/2119825653373804751"
-    },
-    {
-      "time": "00:03",
-      "ts": "2026-11-10T00:03:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's Tasnim denies reports that security chief Mohsen Rezaei met US VP Vance in Doha; a senior Tehran official says no talks are planned until the US acts on Iran's seven conditions",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel, citing Tasnim News and Iranian state media",
-      "url": "https://x.com/Osint613/status/2119823099206013088"
     }
   ],
   "sources": [
+    {
+      "title": "SAUDIS TELL OPEC OUTPUT THEY SURGED 26% TO NEW WAR-TIME HIGH",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120502155014709365"
+    },
+    {
+      "title": "OPEC November oil market report: OPEC+ crude output +2.035 mb/d m/m to 41.23 mb/d in October",
+      "site": "x.com/staunovo",
+      "href": "https://x.com/staunovo/status/2120502484766527749"
+    },
     {
       "title": "MenchOsint: airspace disruption over Riyadh after drone/missile launches from Yemen",
       "site": "x.com/MenchOsint",
@@ -1637,11 +1653,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, while Iran's army and IRGC say three more tankers hit mines and burned near Hormuz.",
-      "UKMTO flagged a new Hormuz tanker incident, a Brega gas-line blast killed one in Libya, and Houthi launches disrupted Riyadh airspace this evening."
+      "Ukrainian drones set Russia's Ust-Luga oil export port ablaze, while Iran's army and IRGC say three more tankers hit mines and burned near Hormuz.",
+      "Houthi launches disrupted Riyadh airspace this evening, and OPEC's report showed Saudi October output jumping 26% to 10.56 mb/d, with OPEC+ up 2.04 mb/d."
     ],
-    "updated": "Wed 11 Nov 2026, 8:22 pm SGT",
-    "updatedTs": "2026-11-11T20:22:00+08:00"
+    "updated": "Wed 11 Nov 2026, 9:04 pm SGT",
+    "updatedTs": "2026-11-11T21:04:00+08:00"
   },
   "last24Count": 13
 }
