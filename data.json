@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 7:01 am SGT",
-  "lastScannedTs": "2026-11-11T07:01:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 7:01 am SGT",
-  "asOfTs": "2026-11-11T07:01:18+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 8:01 am SGT",
+  "lastScannedTs": "2026-11-11T08:01:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 8:01 am SGT",
+  "asOfTs": "2026-11-11T08:01:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine and tanker fires, South Pars fire and a big drone raid on Russia's Ust-Luga terminal lift supply risk; Qatar-led diplomacy pulls the other way.",
-    "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, South Pars fire and a big drone raid on Russia's Ust-Luga terminal lift supply risk; Qatar-led diplomacy pulls the other way.",
+    "bottom": "Hormuz mine and tanker fires, South Pars fire and a drone hit setting Russia's Ust-Luga port ablaze lift supply risk; Qatar diplomacy pulls lower.",
+    "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, South Pars fire and a drone hit setting Russia's Ust-Luga port ablaze lift supply risk; Qatar diplomacy pulls lower.",
     "verdict": "Mixed, leaning bullish",
     "count": "17 of 23 alerts point higher, 6 lower",
     "text": "17 of 23 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drones hit Ust-Luga oil export port; footage shows port infrastructure on fire",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-11T07:36:00+08:00"
+      },
       {
         "text": "Massive Ukrainian drone raid on Leningrad region, Ust-Luga oil terminal reported main target",
         "confidence": "unconfirmed",
@@ -106,12 +112,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-10T08:46:00+08:00"
-      },
-      {
-        "text": "Houthi launches toward Khamis Mushait and Abha in southern Saudi Arabia",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-10T07:07:47+08:00"
       }
     ],
     "dovish": [
@@ -159,6 +159,19 @@
     "detail": "Brent settled at $91.49/bbl, down $1.08 (1.17%), per First Squawk, 3:59 am SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "07:36",
+      "ts": "2026-11-11T07:36:00+08:00",
+      "eventTime": "7:30 am, 11 Nov (est.)",
+      "eventTs": "2026-11-11T07:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones hit Russia's Ust-Luga Baltic oil export port: footage shows port infrastructure on fire and multiple explosions; Leningrad governor reports dozens of drones downed, no official damage statement yet",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Maks_NAFO_FELLA / NotWoofers / markito0171 footage",
+      "url": "https://x.com/Maks_NAFO_FELLA/status/2120299499130077458"
+    },
     {
       "time": "07:01",
       "ts": "2026-11-11T07:01:00+08:00",
@@ -665,22 +678,19 @@
       "confidence": "Unconfirmed",
       "source": "Post Open Source (OSINT); Fars News Agency (Iranian state-linked); not confirmed by UKMTO",
       "url": "https://x.com/CocoPostel/status/2119735805300142479"
-    },
-    {
-      "time": "17:49",
-      "ts": "2026-11-09T17:49:00+08:00",
-      "eventTime": "9:06 am, 9 Nov (est.)",
-      "eventTs": "2026-11-09T09:06:00+08:00",
-      "eventQual": "est.",
-      "headline": "Rosneft reimposes fuel purchase limits at Russian filling stations (30 L in cities, 50 L on highways, diesel capped) after Ukrainian refinery strikes; Karelia, Zabaykalsky, Buryatia, Novosibirsk and others confirm",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "OSINTtechnical; Zabaykalsky Krai and Karelia regional authorities (Russian)",
-      "url": "https://x.com/Osinttechnical/status/2119729098859721162"
     }
   ],
   "sources": [
+    {
+      "title": "Maks_NAFO_FELLA: Ust-Luga port infrastructure on fire after attack (11 Nov)",
+      "site": "X / Maks_NAFO_FELLA",
+      "href": "https://x.com/Maks_NAFO_FELLA/status/2120299499130077458"
+    },
+    {
+      "title": "NotWoofers: footage of multiple explosions at Ust-Luga oil export terminal (11 Nov)",
+      "site": "X / NotWoofers",
+      "href": "https://x.com/NotWoofers/status/2120302668342325310"
+    },
     {
       "title": "OSINTtechnical: Ukraine mounts major drone raid toward St Petersburg area (11 Nov)",
       "site": "X / OSINTtechnical",
@@ -1596,10 +1606,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran's IRGC says a tanker caught fire after hitting a naval mine in Hormuz, and a fire later forced evacuation of a South Pars gas platform.",
-      "Ukraine launched a massive drone raid on Leningrad region, reportedly targeting the Ust-Luga oil terminal, while Qatar says it secured two weeks for US-Iran diplomacy."
+      "Ukrainian drones struck Russia's Ust-Luga Baltic oil export port, with footage showing fires, while Qatar says it secured two weeks for US-Iran diplomacy."
     ],
-    "updated": "Wed 11 Nov 2026, 7:01 am SGT",
-    "updatedTs": "2026-11-11T07:01:00+08:00"
+    "updated": "Wed 11 Nov 2026, 8:08 am SGT",
+    "updatedTs": "2026-11-11T08:08:00+08:00"
   },
   "last24Count": 13
 }
