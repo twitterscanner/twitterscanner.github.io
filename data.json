@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 3:08 am SGT",
-  "lastScannedTs": "2026-11-12T03:08:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 3:05 am SGT",
-  "asOfTs": "2026-11-12T03:05:11+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 4:08 am SGT",
+  "lastScannedTs": "2026-11-12T04:08:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 4:06 am SGT",
+  "asOfTs": "2026-11-12T04:06:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline and cities skew risks higher; Saudi output jump offsets.",
-    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline and cities skew risks higher; Saudi output jump offsets.",
+    "bottom": "Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline skew risks higher; Saudi output jump and Vance-Iran talk offset.",
+    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga and Novatek damage, Omsk fire and Houthi strikes on Saudi pipeline skew risks higher; Saudi output jump and Vance-Iran talk offset.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 1 lower",
-    "text": "15 of 19 alerts point higher, 1 lower.",
+    "count": "14 of 19 alerts point higher, 2 lower",
+    "text": "14 of 19 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Houthis claim drone hit on Yanbu-region Pumping Station 11 on Saudi East-West pipeline",
@@ -94,15 +94,15 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-11T07:01:00+08:00"
-      },
-      {
-        "text": "Fire forces evacuation of South Pars SPD14D gas platform in Iran",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-11T03:33:08+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "WSJ: VP JD Vance weighs face-to-face talks with Iran security chief Mohsen Rezaei",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-12T03:33:00+08:00"
+      },
       {
         "text": "Saudi October output jumps 26% to 10.56 mb/d; OPEC+ up 2.04 mb/d (OPEC report)",
         "confidence": "confirmed",
@@ -132,10 +132,23 @@
     ]
   },
   "brent": {
-    "value": "~$93",
-    "detail": "Brent near $93/bbl, up about $3 on the day on Iran and Ukraine-talks uncertainty, per First Squawk on X, 11:36 pm SGT 11 Nov"
+    "value": "$92.76",
+    "detail": "Brent futures settled up $1.27 (1.39%) at $92.76/bbl, per First Squawk on X, 3:46 am SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "03:33",
+      "ts": "2026-11-12T03:33:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "WSJ: VP JD Vance weighs face-to-face talks with Iran security chief Mohsen Rezaei; Trump open to Vance restarting US-Iran negotiations",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel citing the Wall Street Journal",
+      "url": "https://x.com/Osint613/status/2120600754041806996"
+    },
     {
       "time": "02:32",
       "ts": "2026-11-12T02:32:44+08:00",
@@ -642,22 +655,19 @@
       "confidence": "Confirmed",
       "source": "FirstSquawk (Saudi Civil Defense), AMK Mapping, The Cradle",
       "url": "https://x.com/FirstSquawk/status/2119954935861428732"
-    },
-    {
-      "time": "07:07",
-      "ts": "2026-11-10T07:07:47+08:00",
-      "eventTime": "7:07 am, 10 Nov (est.)",
-      "eventTs": "2026-11-10T07:07:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthi launches reported from Yemen toward Khamis Mushait and Abha in southern Saudi Arabia; Saudi early-warning platform issued an alert for Khamis Mushait. No impact or energy damage reported yet",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint, relayed by Post Open Source",
-      "url": "https://x.com/MenchOsint/status/2119929977529422054"
     }
   ],
   "sources": [
+    {
+      "title": "Open Source Intel: WSJ says VP Vance is considering a face-to-face meeting with Iran's Rezaei; Trump open to Vance restarting talks",
+      "site": "x.com/Osint613",
+      "href": "https://x.com/Osint613/status/2120600754041806996"
+    },
+    {
+      "title": "First Squawk: Brent crude futures settle 1.39% higher at $92.76/bbl",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120604102904488068"
+    },
     {
       "title": "Yahya Saree (Houthi military spokesman, Arabic): drone strike on Pumping Station No. 11 in Yanbu region",
       "site": "x.com/Yah_Saree",
@@ -1697,11 +1707,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukraine's General Staff and SBU say the Ust-Luga strike damaged fuel tanks, a hydrocracker, an export pier and Novatek's complex, while a fire hit Russia's Omsk refinery.",
-      "Houthis claim a drone hit on a Yanbu-region East-West pipeline pumping station after Saudi forces downed drones aimed at Makkah, and Iran reportedly agreed a Hormuz corridor with Oman."
+      "Ukraine says its Ust-Luga strike damaged fuel tanks, a hydrocracker, an export pier and Novatek's complex, while Houthis claim a missile hit on a Yanbu-region East-West pipeline pumping station.",
+      "The WSJ reports VP Vance is weighing face-to-face talks with Iran's Rezaei, after Iran reportedly agreed a Hormuz shipping corridor with Oman and Saudi forces downed drones aimed at Makkah."
     ],
-    "updated": "Thu 12 Nov 2026, 3:08 am SGT",
-    "updatedTs": "2026-11-12T03:08:00+08:00"
+    "updated": "Thu 12 Nov 2026, 4:07 am SGT",
+    "updatedTs": "2026-11-12T04:07:00+08:00"
   },
   "last24Count": 13
 }
