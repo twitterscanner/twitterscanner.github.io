@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 1:28 am SGT",
-  "lastScannedTs": "2026-11-12T01:28:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 1:05 am SGT",
-  "asOfTs": "2026-11-12T01:05:23+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 1:58 am SGT",
+  "lastScannedTs": "2026-11-12T01:58:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 1:56 am SGT",
+  "asOfTs": "2026-11-12T01:56:02+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine hits, Ust-Luga export-pier damage, Omsk fire and Houthi launches at Saudi Arabia keep risks skewed higher; Saudi/OPEC+ output jump offsets.",
-    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga export-pier damage, Omsk fire and Houthi launches at Saudi Arabia keep risks skewed higher; Saudi/OPEC+ output jump offsets.",
+    "bottom": "Hormuz mine hits, Ust-Luga oil terminal and Novatek damage, Omsk fire and Houthi launches at Saudi Arabia skew risks higher; Saudi/OPEC+ output jump offsets.",
+    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga oil terminal and Novatek damage, Omsk fire and Houthi launches at Saudi Arabia skew risks higher; Saudi/OPEC+ output jump offsets.",
     "verdict": "Bullish",
-    "count": "13 of 18 alerts point higher, 2 lower",
-    "text": "13 of 18 alerts point higher, 2 lower.",
+    "count": "14 of 19 alerts point higher, 2 lower",
+    "text": "14 of 19 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "SBU says Novatek's Ust-Luga complex hit: 30,000-tonne tanks damaged, product spill",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-12T01:47:48+08:00"
+      },
       {
         "text": "Ukraine says Ust-Luga strike hit five fuel tanks, a hydrocracker and an export pier",
         "confidence": "confirmed",
@@ -130,6 +136,19 @@
     "detail": "Brent near $93/bbl, up about $3 on the day on Iran and Ukraine-talks uncertainty, per First Squawk on X, 11:36 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "01:47",
+      "ts": "2026-11-12T01:47:48+08:00",
+      "eventTime": "7:30 am, 11 Nov (est.)",
+      "eventTs": "2026-11-11T07:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine's SBU says its Ust-Luga strike also damaged Novatek's Ust-Luga complex, including several 30,000-tonne storage tanks, with an oil product spill reported",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Meanwhile in Ukraine and Madmax OSINT, citing Ukraine's SBU",
+      "url": "https://x.com/MeanwhileInUA/status/2120574227476594770"
+    },
     {
       "time": "01:04",
       "ts": "2026-11-12T01:04:01+08:00",
@@ -636,22 +655,14 @@
       "confidence": "Confirmed",
       "source": "Trump on Truth Social via FirstSquawk",
       "url": "https://x.com/FirstSquawk/status/2119906727290405157"
-    },
-    {
-      "time": "05:00",
-      "ts": "2026-11-10T05:00:58+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "FT: Arab and Muslim leaders are pushing to stop Trump from reigniting the Iran war, after Trump told Reuters the US is 'ready to go anytime'",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Financial Times via LiveSquawk",
-      "url": "https://x.com/LiveSquawk/status/2119898060755275783"
     }
   ],
   "sources": [
+    {
+      "title": "Meanwhile in Ukraine: SBU says Novatek-Ust-Luga tanks damaged in Ust-Luga strike",
+      "site": "x.com/MeanwhileInUA",
+      "href": "https://x.com/MeanwhileInUA/status/2120574227476594770"
+    },
     {
       "title": "Kyiv Post: General Staff says Ust-Luga strike damaged five fuel tanks, a hydrocracker and an export tanker pier",
       "site": "x.com/KyivPost",
@@ -1676,11 +1687,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukraine's General Staff says its Ust-Luga strike damaged five fuel tanks, a hydrocracker and an export tanker pier, while a fire was reported at Russia's Omsk refinery.",
+      "Ukraine's General Staff and SBU say the Ust-Luga strike damaged fuel tanks, a hydrocracker, an export pier and Novatek's complex, while a fire hit Russia's Omsk refinery.",
       "The Saudi-led coalition downed two Houthi drones aimed at Makkah, and Al Jazeera reports Iran reached a Hormuz shipping corridor and traffic separation deal with Oman."
     ],
-    "updated": "Thu 12 Nov 2026, 1:08 am SGT",
-    "updatedTs": "2026-11-12T01:08:00+08:00"
+    "updated": "Thu 12 Nov 2026, 1:58 am SGT",
+    "updatedTs": "2026-11-12T01:58:00+08:00"
   },
   "last24Count": 13
 }
