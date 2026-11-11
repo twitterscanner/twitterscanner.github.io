@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 2:05 pm SGT",
-  "lastScannedTs": "2026-11-11T14:05:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 1:24 pm SGT",
-  "asOfTs": "2026-11-11T13:24:57+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 2:56 pm SGT",
+  "lastScannedTs": "2026-11-11T14:56:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 2:54 pm SGT",
+  "asOfTs": "2026-11-11T14:54:42+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fresh Hormuz ship fires, the confirmed Ust-Luga port blaze and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
-    "lead": "Net read (last 24 hours): Fresh Hormuz ship fires, the confirmed Ust-Luga port blaze and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "15 of 21 alerts point higher, 5 lower",
-    "text": "15 of 21 alerts point higher, 5 lower.",
+    "bottom": "Iran confirms another mine-hit tanker ablaze near Hormuz, adding to Ust-Luga and South Pars fires; Qatar diplomacy pulls lower.",
+    "lead": "Net read (last 24 hours): Iran confirms another mine-hit tanker ablaze near Hormuz, adding to Ust-Luga and South Pars fires; Qatar diplomacy pulls lower.",
+    "verdict": "Bullish",
+    "count": "16 of 21 alerts point higher, 4 lower",
+    "text": "16 of 21 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Iran's army says another tanker hit a mine and caught fire east of Hormuz",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-11T14:54:42+08:00"
+      },
       {
         "text": "Second ship reportedly burning in Hormuz per satellite thermal imagery",
         "confidence": "unconfirmed",
@@ -126,12 +132,6 @@
         "confidence": "unconfirmed",
         "theme": "Crude pricing",
         "ts": "2026-11-10T18:12:19+08:00"
-      },
-      {
-        "text": "Saudi Bahri sends tankers through Hormuz in coordination with the US military",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-10T14:50:03+08:00"
       }
     ],
     "neutral": [
@@ -144,10 +144,23 @@
     ]
   },
   "brent": {
-    "value": "~$92",
-    "detail": "Brent around $92/bbl, up slightly in Asian trade, per Anas Alhajji, 8:50 am SGT 11 Nov"
+    "value": "~$92.4",
+    "detail": "Brent $92.43/bbl, rebounding from a two-month low, per OilPrice.com, ~2:05 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "14:54",
+      "ts": "2026-11-11T14:54:42+08:00",
+      "eventTime": "Morning, 11 Nov (est.; likely the incident UKMTO flagged ~11:07 am)",
+      "eventTs": "2026-11-11T11:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian state media: Iran's army says another oil tanker caught fire this morning east of the Strait of Hormuz after hitting a naval mine; IRGC says two other tankers were intercepted; vessel not named",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk and LiveSquawk, citing Iranian state media (IRIB, Tasnim)",
+      "url": "https://x.com/FirstSquawk/status/2120409094557511822"
+    },
     {
       "time": "13:18",
       "ts": "2026-11-11T13:18:43+08:00",
@@ -654,22 +667,19 @@
       "confidence": "Confirmed",
       "source": "UKMTO via FinancialJuice and CGTN Europe",
       "url": "https://x.com/financialjuice/status/2119783154995134498"
-    },
-    {
-      "time": "20:56",
-      "ts": "2026-11-09T20:56:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: Iranian President Pezeshkian says Supreme Leader Khamenei has ordered an end to the state of 'neither war nor peace' with the US, while saying Iran is open to dialogue",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X",
-      "url": "https://x.com/Osint613/status/2119776037953274122"
     }
   ],
   "sources": [
+    {
+      "title": "Oil tanker ablaze in Strait of Hormuz after hitting naval mine, Iran's army says (state media)",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120409094557511822"
+    },
+    {
+      "title": "IRGC: tanker hit mine, caught fire east of Hormuz (IRIB)",
+      "site": "x.com/LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2120408626955485307"
+    },
     {
       "title": "Trump offered to swap China's oil from Iran with US oil: Perdue",
       "site": "x.com/zerohedge",
@@ -1615,10 +1625,10 @@
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, confirmed by Leningrad's governor, while UKMTO reported a new tanker incident in Hormuz.",
-      "Satellite imagery reportedly shows a second ship burning in Hormuz, unconfirmed, after a South Pars platform fire and Trump's reported offer of US oil to China."
+      "Iran's army says another tanker hit a mine and caught fire east of Hormuz, after a South Pars platform fire and Trump's reported US oil offer to China."
     ],
-    "updated": "Wed 11 Nov 2026, 1:25 pm SGT",
-    "updatedTs": "2026-11-11T13:25:00+08:00"
+    "updated": "Wed 11 Nov 2026, 2:56 pm SGT",
+    "updatedTs": "2026-11-11T14:56:00+08:00"
   },
   "last24Count": 13
 }
