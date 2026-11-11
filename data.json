@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 9:04 pm SGT",
-  "lastScannedTs": "2026-11-11T21:04:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 9:03 pm SGT",
-  "asOfTs": "2026-11-11T21:03:39+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 9:14 pm SGT",
+  "lastScannedTs": "2026-11-11T21:14:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 9:13 pm SGT",
+  "asOfTs": "2026-11-11T21:13:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine-hit tankers, Ust-Luga fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump and diplomacy offset.",
-    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump and diplomacy offset.",
+    "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk drone attacks and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
+    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk drone attacks and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
     "verdict": "Bullish",
-    "count": "15 of 20 alerts point higher, 3 lower",
-    "text": "15 of 20 alerts point higher, 3 lower.",
+    "count": "16 of 21 alerts point higher, 3 lower",
+    "text": "16 of 21 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Drone attack reported on Omsk, Russia's largest refinery; explosions heard, no damage confirmed",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-11T21:13:00+08:00"
+      },
       {
         "text": "Houthi drone/missile launches toward Riyadh disrupt Saudi capital's airspace",
         "confidence": "unconfirmed",
@@ -142,6 +148,19 @@
     "detail": "Brent back above $93/bbl, up about 1-2% on Hormuz/Iran risk, per energy analyst Anas Alhajji on X, 8:59 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "21:13",
+      "ts": "2026-11-11T21:13:00+08:00",
+      "eventTime": "~8:00 pm, 11 Nov (est.; drone alert since ~5:45 pm)",
+      "eventTs": "2026-11-11T20:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: drone attack reported on Russia's Omsk refinery, the country's largest; air defence active over the city with explosions heard for over an hour; no damage confirmed",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Exilenova+ via Maks_NAFO_FELLA; OSINT Intuit; C4H10FO2P (drone alert); RIA Novosti Sport (events cancelled over drone threat)",
+      "url": "https://x.com/Maks_NAFO_FELLA/status/2120504862509306111"
+    },
     {
       "time": "21:03",
       "ts": "2026-11-11T21:03:00+08:00",
@@ -648,22 +667,19 @@
       "confidence": "Unconfirmed",
       "source": "Zero Hedge",
       "url": "https://x.com/zerohedge/status/2119831995849011360"
-    },
-    {
-      "time": "00:12",
-      "ts": "2026-11-10T00:12:00+08:00",
-      "eventTime": "9 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi Press Agency: Saudi Arabia's East-West crude pipeline, the main route for bypassing Hormuz, was targeted in the Medina region on 9 Nov; a limited fire was put out with no injuries and no impact on operations",
-      "theme": "Saudi / Aramco",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "LiveSquawk, citing the Saudi Press Agency (official)",
-      "url": "https://x.com/LiveSquawk/status/2119825653373804751"
     }
   ],
   "sources": [
+    {
+      "title": "Exilenova (via Maks): attack on Omsk refinery ongoing for over an hour, explosions heard",
+      "site": "x.com/Maks_NAFO_FELLA",
+      "href": "https://x.com/Maks_NAFO_FELLA/status/2120504862509306111"
+    },
+    {
+      "title": "OSINT Intuit: large-scale strike underway in Omsk region since ~0945 UTC",
+      "site": "x.com/UKikaski",
+      "href": "https://x.com/UKikaski/status/2120500641412120688"
+    },
     {
       "title": "SAUDIS TELL OPEC OUTPUT THEY SURGED 26% TO NEW WAR-TIME HIGH",
       "site": "x.com/FirstSquawk",
@@ -1653,11 +1669,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Ust-Luga oil export port ablaze, while Iran's army and IRGC say three more tankers hit mines and burned near Hormuz.",
+      "Ukrainian drones set Russia's Ust-Luga oil port ablaze and reportedly attacked the Omsk refinery tonight, while Iran says three more tankers hit mines near Hormuz.",
       "Houthi launches disrupted Riyadh airspace this evening, and OPEC's report showed Saudi October output jumping 26% to 10.56 mb/d, with OPEC+ up 2.04 mb/d."
     ],
-    "updated": "Wed 11 Nov 2026, 9:04 pm SGT",
-    "updatedTs": "2026-11-11T21:04:00+08:00"
+    "updated": "Wed 11 Nov 2026, 9:14 pm SGT",
+    "updatedTs": "2026-11-11T21:14:00+08:00"
   },
   "last24Count": 13
 }
