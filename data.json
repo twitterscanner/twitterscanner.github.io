@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 11:58 pm SGT",
-  "lastScannedTs": "2026-11-11T23:58:00+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 12:09 am SGT",
+  "lastScannedTs": "2026-11-12T00:09:00+08:00",
   "asOf": "Wed 11 Nov 2026, 9:58 pm SGT",
   "asOfTs": "2026-11-11T21:58:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -121,7 +121,7 @@
   },
   "brent": {
     "value": "~$93",
-    "detail": "Brent back above $93/bbl, up about 1-2% on Hormuz/Iran risk, per energy analyst Anas Alhajji on X, 8:59 pm SGT 11 Nov"
+    "detail": "Brent near $93/bbl, up about $3 on the day on Iran and Ukraine-talks uncertainty, per First Squawk on X, 11:36 pm SGT 11 Nov"
   },
   "alerts": [
     {
@@ -1655,11 +1655,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Ust-Luga oil port ablaze and, after a three-hour attack tonight, a fire was reported at the Omsk refinery, while Iran says more tankers hit mines near Hormuz.",
-      "Houthi launches disrupted Riyadh airspace this evening, and OPEC's report showed Saudi October output jumping 26% to 10.56 mb/d, with OPEC+ up 2.04 mb/d."
+      "No new alerts yet today; late Wednesday, Ukrainian drones set Russia's Ust-Luga oil port ablaze and a fire was reported at the Omsk refinery after a multi-hour attack.",
+      "Iran says more tankers hit mines near Hormuz and Houthi launches targeted Riyadh, while OPEC data showed Saudi October output jumping 26% to 10.56 mb/d."
     ],
-    "updated": "Wed 11 Nov 2026, 9:59 pm SGT",
-    "updatedTs": "2026-11-11T21:59:00+08:00"
+    "updated": "Thu 12 Nov 2026, 12:09 am SGT",
+    "updatedTs": "2026-11-12T00:09:00+08:00"
   },
   "last24Count": 13
 }
