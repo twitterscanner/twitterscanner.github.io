@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 9:14 pm SGT",
-  "lastScannedTs": "2026-11-11T21:14:00+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 9:46 pm SGT",
+  "lastScannedTs": "2026-11-11T21:46:37+08:00",
   "asOf": "Wed 11 Nov 2026, 9:13 pm SGT",
   "asOfTs": "2026-11-11T21:13:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk drone attacks and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
     "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk drone attacks and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 3 lower",
-    "text": "16 of 21 alerts point higher, 3 lower.",
+    "count": "15 of 20 alerts point higher, 3 lower",
+    "text": "15 of 20 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Drone attack reported on Omsk, Russia's largest refinery; explosions heard, no damage confirmed",
@@ -100,12 +100,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-10T22:10:00+08:00"
-      },
-      {
-        "text": "Rubio says Iran's deal terms are absurd and the sides are not close",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-10T21:44:07+08:00"
       }
     ],
     "dovish": [
