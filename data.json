@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 11:16 am SGT",
-  "lastScannedTs": "2026-11-11T11:16:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 11:14 am SGT",
-  "asOfTs": "2026-11-11T11:14:19+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 11:36 am SGT",
+  "lastScannedTs": "2026-11-11T11:36:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 11:32 am SGT",
+  "asOfTs": "2026-11-11T11:32:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
     "lead": "Net read (last 24 hours): New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
     "verdict": "Mixed, leaning bullish",
-    "count": "17 of 23 alerts point higher, 6 lower",
-    "text": "17 of 23 alerts point higher, 6 lower.",
+    "count": "17 of 24 alerts point higher, 6 lower",
+    "text": "17 of 24 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "UKMTO reports a new tanker incident in the Strait of Hormuz",
@@ -152,7 +152,14 @@
         "ts": "2026-11-10T12:00:16+08:00"
       }
     ],
-    "neutral": []
+    "neutral": [
+      {
+        "text": "Perdue says Trump offered China US oil in place of its Iranian imports",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-11T10:59:40+08:00"
+      }
+    ]
   },
   "brent": {
     "value": "~$92",
@@ -184,6 +191,19 @@
       "confidence": "Confirmed",
       "source": "FinancialJuice, citing Leningrad region governor",
       "url": "https://x.com/financialjuice/status/2120351665740226778"
+    },
+    {
+      "time": "10:59",
+      "ts": "2026-11-11T10:59:40+08:00",
+      "eventTime": "Not stated (remarks reported ~10:59 am, 11 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "US ambassador to China David Perdue says Trump offered to swap China's Iranian oil imports for US oil",
+      "theme": "Iran",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "zerohedge headline citing Perdue",
+      "url": "https://x.com/zerohedge/status/2120350718767022471"
     },
     {
       "time": "07:36",
@@ -641,19 +661,6 @@
       "url": "https://x.com/financialjuice/status/2119783154995134498"
     },
     {
-      "time": "20:55",
-      "ts": "2026-11-09T20:55:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump asked Iraq's prime minister to relay proposals to Tehran aimed at ending the Iran war, after approving the Iraqi leader's ideas in a phone call (Al Hadath sources)",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk on X (citing Al Hadath)",
-      "url": "https://x.com/FirstSquawk/status/2119775985218556280"
-    },
-    {
       "time": "20:56",
       "ts": "2026-11-09T20:56:00+08:00",
       "eventTime": "Not stated",
@@ -667,20 +674,25 @@
       "url": "https://x.com/Osint613/status/2119776037953274122"
     },
     {
-      "time": "20:17",
-      "ts": "2026-11-09T20:17:00+08:00",
-      "eventTime": "7:50 pm, 9 Nov (est.)",
-      "eventTs": "2026-11-09T19:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: Saudi airstrikes reportedly hit Hodeidah International Airport and the nearby town of Al-Eisi on Yemen's Red Sea coast, a new escalation after Houthi fire on Riyadh",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
+      "time": "20:55",
+      "ts": "2026-11-09T20:55:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump asked Iraq's prime minister to relay proposals to Tehran aimed at ending the Iran war, after approving the Iraqi leader's ideas in a phone call (Al Hadath sources)",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
       "confidence": "Unconfirmed",
-      "source": "Al Mayadeen correspondent, also Houthi media via South24; no Saudi confirmation",
-      "url": "https://x.com/AlMayadeenLive/status/2119766377913303134"
+      "source": "First Squawk on X (citing Al Hadath)",
+      "url": "https://x.com/FirstSquawk/status/2119775985218556280"
     }
   ],
   "sources": [
+    {
+      "title": "Trump offered to swap China's oil from Iran with US oil: Perdue",
+      "site": "x.com/zerohedge",
+      "href": "https://x.com/zerohedge/status/2120350718767022471"
+    },
     {
       "title": "UKMTO Warning 202-26: tanker incident in the Strait of Hormuz",
       "site": "x.com/UK_MTO",
@@ -1616,10 +1628,10 @@
     "title": "Today's key developments",
     "lines": [
       "Leningrad's governor confirmed Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, and UKMTO reported a new tanker incident in Hormuz.",
-      "Iran's IRGC says a tanker hit a naval mine in Hormuz, a South Pars gas platform fire forced evacuation, and Qatar says it secured two weeks for diplomacy."
+      "Iran's IRGC says a tanker hit a naval mine in Hormuz, a South Pars platform fire forced evacuation, and Trump reportedly offered China US oil for Iranian barrels."
     ],
-    "updated": "Wed 11 Nov 2026, 11:16 am SGT",
-    "updatedTs": "2026-11-11T11:16:00+08:00"
+    "updated": "Wed 11 Nov 2026, 11:36 am SGT",
+    "updatedTs": "2026-11-11T11:36:00+08:00"
   },
   "last24Count": 13
 }
