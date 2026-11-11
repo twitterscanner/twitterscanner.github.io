@@ -7,9 +7,9 @@
   "netRead": {
     "bottom": "New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
     "lead": "Net read (last 24 hours): New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
-    "verdict": "Bullish",
-    "count": "16 of 22 alerts point higher, 5 lower",
-    "text": "16 of 22 alerts point higher, 5 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "15 of 21 alerts point higher, 5 lower",
+    "text": "15 of 21 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "UKMTO reports a new tanker incident in the Strait of Hormuz",
@@ -100,12 +100,6 @@
         "confidence": "confirmed",
         "theme": "Tankers",
         "ts": "2026-11-10T13:34:38+08:00"
-      },
-      {
-        "text": "Houthis tell foreign firms in Saudi Arabia to disclose sites to avoid being bombed",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-10T12:16:18+08:00"
       }
     ],
     "dovish": [
