@@ -1,16 +1,22 @@
 {
   "lastScanned": "Thu 12 Nov 2026, 12:09 am SGT",
   "lastScannedTs": "2026-11-12T00:09:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 9:58 pm SGT",
-  "asOfTs": "2026-11-11T21:58:38+08:00",
+  "asOf": "Thu 12 Nov 2026, 12:34 am SGT",
+  "asOfTs": "2026-11-12T00:34:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
-    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
+    "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and repeated Houthi launches at Saudi Arabia keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
+    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and repeated Houthi launches at Saudi Arabia keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
     "verdict": "Bullish",
-    "count": "13 of 17 alerts point higher, 2 lower",
-    "text": "13 of 17 alerts point higher, 2 lower.",
+    "count": "14 of 18 alerts point higher, 2 lower",
+    "text": "14 of 18 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Coalition intercepts two Houthi drones aimed at Makkah and southern Saudi regions",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-12T00:34:00+08:00"
+      },
       {
         "text": "Fire reported at Omsk, Russia's largest refinery, after 3-hour Ukrainian drone attack",
         "confidence": "unconfirmed",
@@ -124,6 +130,19 @@
     "detail": "Brent near $93/bbl, up about $3 on the day on Iran and Ukraine-talks uncertainty, per First Squawk on X, 11:36 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "00:34",
+      "ts": "2026-11-12T00:34:00+08:00",
+      "eventTime": "Not stated (announced ~12:28 am SGT, 12 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones launched toward the Makkah and southern regions, a fresh wave after three cruise missiles at Riyadh earlier; no damage reported",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Press Agency (coalition spokesperson); also LiveSquawk, Saudi Gazette, CGTN Europe",
+      "url": "https://x.com/Spa_Eng/status/2120555451133968503"
+    },
     {
       "time": "21:58",
       "ts": "2026-11-11T21:58:00+08:00",
@@ -630,22 +649,14 @@
       "confidence": "Confirmed",
       "source": "Post Open Source, citing a Reuters survey",
       "url": "https://x.com/CocoPostel/status/2119881406721466709"
-    },
-    {
-      "time": "01:25",
-      "ts": "2026-11-10T01:25:00+08:00",
-      "eventTime": "9 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran reportedly struck Oman's Didamar Island in southern Hormuz, with footage showing smoke over radar and communications gear; the IRGC claims it disabled the navigation system used by US Navy-assisted ships and threatens to shut all shipping on the southern corridor (may be the same strike as the navigation aids reported at 12:16 pm)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel, citing IRGC claims and footage",
-      "url": "https://x.com/Osint613/status/2119842634240020760"
     }
   ],
   "sources": [
+    {
+      "title": "SPA: Coalition intercepts and destroys two Houthi drones launched toward Makkah and southern regions",
+      "site": "x.com/Spa_Eng",
+      "href": "https://x.com/Spa_Eng/status/2120555451133968503"
+    },
     {
       "title": "Exilenova+: an oil refinery is on fire in Omsk",
       "site": "x.com/Exilenova_plus",
@@ -1655,11 +1666,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "No new alerts yet today; late Wednesday, Ukrainian drones set Russia's Ust-Luga oil port ablaze and a fire was reported at the Omsk refinery after a multi-hour attack.",
-      "Iran says more tankers hit mines near Hormuz and Houthi launches targeted Riyadh, while OPEC data showed Saudi October output jumping 26% to 10.56 mb/d."
+      "Shortly after midnight the Saudi-led coalition said it destroyed two Houthi drones aimed at the Makkah and southern regions, following three cruise missiles intercepted near Riyadh.",
+      "Late Wednesday, Ukrainian drones set Russia's Ust-Luga oil port ablaze and a fire was reported at the Omsk refinery, while Iran says more tankers hit mines near Hormuz."
     ],
-    "updated": "Thu 12 Nov 2026, 12:09 am SGT",
-    "updatedTs": "2026-11-12T00:09:00+08:00"
+    "updated": "Thu 12 Nov 2026, 12:38 am SGT",
+    "updatedTs": "2026-11-12T00:38:00+08:00"
   },
   "last24Count": 13
 }
