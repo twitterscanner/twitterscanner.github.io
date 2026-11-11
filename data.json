@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 1:02 pm SGT",
-  "lastScannedTs": "2026-11-11T13:02:34+08:00",
-  "asOf": "Wed 11 Nov 2026, 11:32 am SGT",
-  "asOfTs": "2026-11-11T11:32:14+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 1:25 pm SGT",
+  "lastScannedTs": "2026-11-11T13:25:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 1:24 pm SGT",
+  "asOfTs": "2026-11-11T13:24:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
-    "lead": "Net read (last 24 hours): New UKMTO Hormuz tanker incident, confirmed Ust-Luga port fire and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "15 of 21 alerts point higher, 5 lower",
-    "text": "15 of 21 alerts point higher, 5 lower.",
+    "bottom": "Fresh Hormuz ship fires, the confirmed Ust-Luga port blaze and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
+    "lead": "Net read (last 24 hours): Fresh Hormuz ship fires, the confirmed Ust-Luga port blaze and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
+    "verdict": "Bullish",
+    "count": "16 of 22 alerts point higher, 5 lower",
+    "text": "16 of 22 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Second ship reportedly burning in Hormuz per satellite thermal imagery",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-11T13:18:43+08:00"
+      },
       {
         "text": "UKMTO reports a new tanker incident in the Strait of Hormuz",
         "confidence": "confirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent around $92/bbl, up slightly in Asian trade, per Anas Alhajji, 8:50 am SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "13:18",
+      "ts": "2026-11-11T13:18:43+08:00",
+      "eventTime": "1:05 pm, 11 Nov (est.)",
+      "eventTs": "2026-11-11T13:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "Satellite thermal imagery reportedly shows a second ship burning in the Strait of Hormuz after this morning's tanker incident; OSINT accounts suspect an IRGC attack or mine, vessel and cause unconfirmed",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (CocoPostel), via AB4_Ali3; also AMK Mapping, WW3 Monitor",
+      "url": "https://x.com/CocoPostel/status/2120385712780628149"
+    },
     {
       "time": "11:11",
       "ts": "2026-11-11T11:11:04+08:00",
@@ -654,19 +673,6 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel on X",
       "url": "https://x.com/Osint613/status/2119776037953274122"
-    },
-    {
-      "time": "20:55",
-      "ts": "2026-11-09T20:55:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump asked Iraq's prime minister to relay proposals to Tehran aimed at ending the Iran war, after approving the Iraqi leader's ideas in a phone call (Al Hadath sources)",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk on X (citing Al Hadath)",
-      "url": "https://x.com/FirstSquawk/status/2119775985218556280"
     }
   ],
   "sources": [
@@ -1604,16 +1610,21 @@
       "title": "IRGC: oil tanker caught fire after hitting naval mine in Strait of Hormuz (IRIB)",
       "site": "Walter Bloomberg",
       "href": "https://x.com/DeItaone/status/2120203007337934853"
+    },
+    {
+      "title": "Second ship reportedly burning in Strait of Hormuz (satellite thermal imagery)",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2120385712780628149"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Leningrad's governor confirmed Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, and UKMTO reported a new tanker incident in Hormuz.",
-      "Iran's IRGC says a tanker hit a naval mine in Hormuz, a South Pars platform fire forced evacuation, and Trump reportedly offered China US oil for Iranian barrels."
+      "Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, confirmed by Leningrad's governor, while UKMTO reported a new tanker incident in Hormuz.",
+      "Satellite imagery reportedly shows a second ship burning in Hormuz, unconfirmed, after a South Pars platform fire and Trump's reported offer of US oil to China."
     ],
-    "updated": "Wed 11 Nov 2026, 11:36 am SGT",
-    "updatedTs": "2026-11-11T11:36:00+08:00"
+    "updated": "Wed 11 Nov 2026, 1:25 pm SGT",
+    "updatedTs": "2026-11-11T13:25:00+08:00"
   },
   "last24Count": 13
 }
