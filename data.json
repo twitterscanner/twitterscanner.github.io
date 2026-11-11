@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 8:03 pm SGT",
-  "lastScannedTs": "2026-11-11T20:03:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 6:26 pm SGT",
-  "asOfTs": "2026-11-11T18:26:34+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 8:22 pm SGT",
+  "lastScannedTs": "2026-11-11T20:22:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 8:20 pm SGT",
+  "asOfTs": "2026-11-11T20:20:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine-hit tankers and the Ust-Luga and South Pars fires keep risks skewed higher; Qatar-led diplomacy is the main offset.",
-    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers and the Ust-Luga and South Pars fires keep risks skewed higher; Qatar-led diplomacy is the main offset.",
+    "bottom": "Hormuz mine-hit tankers, Ust-Luga and South Pars fires and new Houthi launches at Riyadh keep risks skewed higher; Qatar-led diplomacy is the main offset.",
+    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and South Pars fires and new Houthi launches at Riyadh keep risks skewed higher; Qatar-led diplomacy is the main offset.",
     "verdict": "Bullish",
     "count": "15 of 20 alerts point higher, 3 lower",
     "text": "15 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Houthi drone/missile launches toward Riyadh disrupt Saudi capital's airspace",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-11T20:19:00+08:00"
+      },
       {
         "text": "IRGC claims two more tankers hit mines in Hormuz overnight, burning and abandoned",
         "confidence": "unconfirmed",
@@ -94,12 +100,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-10T21:44:07+08:00"
-      },
-      {
-        "text": "Kirishi refinery reportedly fully shut, three main crude units damaged after 9 Nov drone attack",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-10T20:11:48+08:00"
       }
     ],
     "dovish": [
@@ -142,6 +142,19 @@
     "detail": "Brent $92.77/bbl, up $1.28 (1.4%) on Hormuz shipping attacks, per Reuters via The Cradle, 5:34 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "20:19",
+      "ts": "2026-11-11T20:19:00+08:00",
+      "eventTime": "8:10 pm, 11 Nov (est.)",
+      "eventTs": "2026-11-11T20:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthi drone/missile launches from Yemen toward Riyadh disrupt airspace over the Saudi capital; USAF tanker supporting fighter jets, residents report a drone/missile; no impact reported yet",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint (OSINT monitor); Riyadh resident posts on X",
+      "url": "https://x.com/MenchOsint/status/2120491558889791877"
+    },
     {
       "time": "18:19",
       "ts": "2026-11-11T18:19:09+08:00",
@@ -648,22 +661,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel, citing Tasnim News and Iranian state media",
       "url": "https://x.com/Osint613/status/2119823099206013088"
-    },
-    {
-      "time": "21:29",
-      "ts": "2026-11-09T21:29:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Turkish intelligence chief Kalın says Qatar will host US VP JD Vance and Iran's security chief Mohsen Rezaei in Doha next week to try to break the stalled US-Iran talks; Tehran has not confirmed",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Tzvi Joffre, citing Turkish intelligence chief İbrahim Kalın (also reported by Mehr)",
-      "url": "https://x.com/TzviJoffre/status/2119794129685090811"
     }
   ],
   "sources": [
+    {
+      "title": "MenchOsint: airspace disruption over Riyadh after drone/missile launches from Yemen",
+      "site": "x.com/MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2120491558889791877"
+    },
     {
       "title": "IRAN IRGC CLAIMS 2 TANKERS HIT MINES IN HORMUZ OVERNIGHT: FARS",
       "site": "x.com/FirstSquawk",
@@ -1639,10 +1644,10 @@
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones set Russia's Ust-Luga Baltic oil export port ablaze, while Iran's army and IRGC say three more tankers hit mines and burned near Hormuz.",
-      "UKMTO reported a new Hormuz tanker incident after a South Pars platform fire, and a contained gas-line blast at Libya's Brega plant killed one worker."
+      "UKMTO flagged a new Hormuz tanker incident, a Brega gas-line blast killed one in Libya, and Houthi launches disrupted Riyadh airspace this evening."
     ],
-    "updated": "Wed 11 Nov 2026, 6:26 pm SGT",
-    "updatedTs": "2026-11-11T18:26:00+08:00"
+    "updated": "Wed 11 Nov 2026, 8:22 pm SGT",
+    "updatedTs": "2026-11-11T20:22:00+08:00"
   },
   "last24Count": 13
 }
