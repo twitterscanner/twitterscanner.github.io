@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 10:04 am SGT",
-  "lastScannedTs": "2026-11-11T10:04:00+08:00",
-  "asOf": "Wed 11 Nov 2026, 8:01 am SGT",
-  "asOfTs": "2026-11-11T08:01:26+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 11:06 am SGT",
+  "lastScannedTs": "2026-11-11T11:06:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 11:04 am SGT",
+  "asOfTs": "2026-11-11T11:04:59+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine and tanker fires, South Pars fire and a drone hit setting Russia's Ust-Luga port ablaze lift supply risk; Qatar diplomacy pulls lower.",
-    "lead": "Net read (last 24 hours): Hormuz mine and tanker fires, South Pars fire and a drone hit setting Russia's Ust-Luga port ablaze lift supply risk; Qatar diplomacy pulls lower.",
+    "bottom": "Officially confirmed Ust-Luga port fire, Hormuz mine and tanker fires and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
+    "lead": "Net read (last 24 hours): Officially confirmed Ust-Luga port fire, Hormuz mine and tanker fires and South Pars fire lift supply risk; Qatar diplomacy pulls lower.",
     "verdict": "Mixed, leaning bullish",
     "count": "16 of 22 alerts point higher, 6 lower",
     "text": "16 of 22 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Leningrad governor confirms drone strike and fire at Ust-Luga oil export port",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-11T11:03:25+08:00"
+      },
       {
         "text": "Ukrainian drones hit Ust-Luga oil export port; footage shows port infrastructure on fire",
         "confidence": "unconfirmed",
@@ -100,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-10T12:00:59+08:00"
-      },
-      {
-        "text": "Coalition intercepts drone over Saudi Eastern Region, the Aramco oil heartland",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-10T11:01:36+08:00"
       }
     ],
     "dovish": [
@@ -153,6 +153,19 @@
     "detail": "Brent around $92/bbl, up slightly in Asian trade, per Anas Alhajji, 8:50 am SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "11:03",
+      "ts": "2026-11-11T11:03:25+08:00",
+      "eventTime": "7:30 am, 11 Nov (est.)",
+      "eventTs": "2026-11-11T07:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Leningrad governor confirms drones struck Russia's Ust-Luga Baltic oil export port, with initial data pointing to a fire in the port area; damage to loadings not yet stated",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "FinancialJuice, citing Leningrad region governor",
+      "url": "https://x.com/financialjuice/status/2120351665740226778"
+    },
     {
       "time": "07:36",
       "ts": "2026-11-11T07:36:00+08:00",
@@ -659,22 +672,14 @@
       "confidence": "Unconfirmed",
       "source": "LiveSquawk, citing Israel Hayom; no official Iranian or US confirmation",
       "url": "https://x.com/LiveSquawk/status/2119750882417951164"
-    },
-    {
-      "time": "18:16",
-      "ts": "2026-11-09T18:16:00+08:00",
-      "eventTime": "5:58 pm, 9 Nov (est.)",
-      "eventTs": "2026-11-09T17:58:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: several explosions reported in the Strait of Hormuz, possibly IRGC Navy anti-ship missile launches; Iran's Fars says another oil tanker is ablaze after hitting a mine",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (OSINT); Fars News Agency (Iranian state-linked); not confirmed by UKMTO",
-      "url": "https://x.com/CocoPostel/status/2119735805300142479"
     }
   ],
   "sources": [
+    {
+      "title": "Drones strike Ust-Luga Baltic Sea port, governor cites initial data",
+      "site": "x.com/financialjuice",
+      "href": "https://x.com/financialjuice/status/2120351665740226778"
+    },
     {
       "title": "Maks_NAFO_FELLA: Ust-Luga port infrastructure on fire after attack (11 Nov)",
       "site": "X / Maks_NAFO_FELLA",
@@ -1599,11 +1604,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says a tanker caught fire after hitting a naval mine in Hormuz, and a fire later forced evacuation of a South Pars gas platform.",
-      "Ukrainian drones struck Russia's Ust-Luga Baltic oil export port, with footage showing fires, while Qatar says it secured two weeks for US-Iran diplomacy."
+      "Leningrad's governor confirmed Ukrainian drones struck Russia's Ust-Luga Baltic oil export port, setting the port area ablaze after an overnight raid.",
+      "Iran's IRGC says a tanker hit a naval mine in Hormuz, a South Pars gas platform fire forced evacuation, and Qatar says it secured two weeks for diplomacy."
     ],
-    "updated": "Wed 11 Nov 2026, 8:08 am SGT",
-    "updatedTs": "2026-11-11T08:08:00+08:00"
+    "updated": "Wed 11 Nov 2026, 11:06 am SGT",
+    "updatedTs": "2026-11-11T11:06:00+08:00"
   },
   "last24Count": 13
 }
