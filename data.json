@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 12:34 am SGT",
-  "lastScannedTs": "2026-11-12T00:34:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 12:34 am SGT",
-  "asOfTs": "2026-11-12T00:34:43+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 1:08 am SGT",
+  "lastScannedTs": "2026-11-12T01:08:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 1:05 am SGT",
+  "asOfTs": "2026-11-12T01:05:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and repeated Houthi launches at Saudi Arabia keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
-    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and repeated Houthi launches at Saudi Arabia keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
+    "bottom": "Hormuz mine hits, Ust-Luga export-pier damage, Omsk fire and Houthi launches at Saudi Arabia keep risks skewed higher; Saudi/OPEC+ output jump offsets.",
+    "lead": "Net read (last 24 hours): Hormuz mine hits, Ust-Luga export-pier damage, Omsk fire and Houthi launches at Saudi Arabia keep risks skewed higher; Saudi/OPEC+ output jump offsets.",
     "verdict": "Bullish",
-    "count": "14 of 18 alerts point higher, 2 lower",
-    "text": "14 of 18 alerts point higher, 2 lower.",
+    "count": "15 of 20 alerts point higher, 2 lower",
+    "text": "15 of 20 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Ukraine says Ust-Luga strike hit five fuel tanks, a hydrocracker and an export pier",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-12T01:04:01+08:00"
+      },
       {
         "text": "Coalition intercepts two Houthi drones aimed at Makkah and southern Saudi regions",
         "confidence": "confirmed",
@@ -112,6 +118,12 @@
     ],
     "neutral": [
       {
+        "text": "Iran and Oman reportedly agree a Hormuz shipping corridor and traffic separation scheme",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-12T00:44:29+08:00"
+      },
+      {
         "text": "Libya NOC: contained gas-line blast at Brega gas plant kills one worker",
         "confidence": "confirmed",
         "theme": "Libya",
@@ -130,6 +142,32 @@
     "detail": "Brent near $93/bbl, up about $3 on the day on Iran and Ukraine-talks uncertainty, per First Squawk on X, 11:36 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "01:04",
+      "ts": "2026-11-12T01:04:01+08:00",
+      "eventTime": "7:30 am, 11 Nov (est.)",
+      "eventTs": "2026-11-11T07:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine's General Staff says its Ust-Luga strike damaged five fuel tanks (150,000 m3), a hydrocracker unit and an export tanker pier at the Baltic oil port",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Kyiv Post, citing Ukraine's General Staff; also LiveSquawk",
+      "url": "https://x.com/KyivPost/status/2120563208289149425"
+    },
+    {
+      "time": "00:44",
+      "ts": "2026-11-12T00:44:29+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Al Jazeera: Iran reaches a Hormuz shipping corridor and traffic separation deal with Oman, while Qalibaf says the strait will not return to its pre-war state",
+      "theme": "Hormuz",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Al Jazeera",
+      "url": "https://x.com/FirstSquawk/status/2120558291248201731"
+    },
     {
       "time": "00:34",
       "ts": "2026-11-12T00:34:00+08:00",
@@ -623,35 +661,19 @@
       "confidence": "Confirmed",
       "source": "Financial Times via LiveSquawk",
       "url": "https://x.com/LiveSquawk/status/2119898060755275783"
-    },
-    {
-      "time": "04:03",
-      "ts": "2026-11-10T04:03:44+08:00",
-      "eventTime": "3:38 am, 10 Nov (time of report)",
-      "eventTs": "2026-11-10T03:38:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Al Arabiya sources: a preliminary US-Iran deal on cutting uranium enrichment is likely; the reported framework would reopen Hormuz and lift the naval blockade immediately, return IAEA inspectors and free $6-9 billion of Iranian assets. Brent settled down 5.85% at $92.57 on the reports",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk and Open Source Intel, citing Al Arabiya",
-      "url": "https://x.com/FirstSquawk/status/2119881789942776087"
-    },
-    {
-      "time": "04:03",
-      "ts": "2026-11-10T04:03:44+08:00",
-      "eventTime": "October output (survey; time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters survey: OPEC oil output rose in October to about 90% of its pre-war rate, led by gains in Saudi Arabia, Kuwait and Iraq, though exports are still held back by the Iran war and the US blockade on Iranian shipments",
-      "theme": "OPEC",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Post Open Source, citing a Reuters survey",
-      "url": "https://x.com/CocoPostel/status/2119881406721466709"
     }
   ],
   "sources": [
+    {
+      "title": "Kyiv Post: General Staff says Ust-Luga strike damaged five fuel tanks, a hydrocracker and an export tanker pier",
+      "site": "x.com/KyivPost",
+      "href": "https://x.com/KyivPost/status/2120563208289149425"
+    },
+    {
+      "title": "First Squawk: Iran reaches Hormuz shipping corridor, traffic separation deal with Oman (Al Jazeera)",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120558291248201731"
+    },
     {
       "title": "SPA: Coalition intercepts and destroys two Houthi drones launched toward Makkah and southern regions",
       "site": "x.com/Spa_Eng",
@@ -1666,11 +1688,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Shortly after midnight the Saudi-led coalition said it destroyed two Houthi drones aimed at the Makkah and southern regions, following three cruise missiles intercepted near Riyadh.",
-      "Late Wednesday, Ukrainian drones set Russia's Ust-Luga oil port ablaze and a fire was reported at the Omsk refinery, while Iran says more tankers hit mines near Hormuz."
+      "Ukraine's General Staff says its Ust-Luga strike damaged five fuel tanks, a hydrocracker and an export tanker pier, while a fire was reported at Russia's Omsk refinery.",
+      "The Saudi-led coalition downed two Houthi drones aimed at Makkah, and Al Jazeera reports Iran reached a Hormuz shipping corridor and traffic separation deal with Oman."
     ],
-    "updated": "Thu 12 Nov 2026, 12:38 am SGT",
-    "updatedTs": "2026-11-12T00:38:00+08:00"
+    "updated": "Thu 12 Nov 2026, 1:08 am SGT",
+    "updatedTs": "2026-11-12T01:08:00+08:00"
   },
   "last24Count": 13
 }
