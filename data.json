@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 11 Nov 2026, 9:46 pm SGT",
-  "lastScannedTs": "2026-11-11T21:46:37+08:00",
-  "asOf": "Wed 11 Nov 2026, 9:13 pm SGT",
-  "asOfTs": "2026-11-11T21:13:04+08:00",
+  "lastScanned": "Wed 11 Nov 2026, 9:59 pm SGT",
+  "lastScannedTs": "2026-11-11T21:59:00+08:00",
+  "asOf": "Wed 11 Nov 2026, 9:58 pm SGT",
+  "asOfTs": "2026-11-11T21:58:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk drone attacks and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
-    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk drone attacks and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
+    "bottom": "Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
+    "lead": "Net read (last 24 hours): Hormuz mine-hit tankers, Ust-Luga and Omsk refinery fires and Houthi launches at Riyadh keep risks skewed higher; a big Saudi/OPEC+ output jump offsets.",
     "verdict": "Bullish",
-    "count": "15 of 20 alerts point higher, 3 lower",
-    "text": "15 of 20 alerts point higher, 3 lower.",
+    "count": "16 of 21 alerts point higher, 3 lower",
+    "text": "16 of 21 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Fire reported at Omsk, Russia's largest refinery, after 3-hour Ukrainian drone attack",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-11T21:58:00+08:00"
+      },
       {
         "text": "Drone attack reported on Omsk, Russia's largest refinery; explosions heard, no damage confirmed",
         "confidence": "unconfirmed",
@@ -142,6 +148,19 @@
     "detail": "Brent back above $93/bbl, up about 1-2% on Hormuz/Iran risk, per energy analyst Anas Alhajji on X, 8:59 pm SGT 11 Nov"
   },
   "alerts": [
+    {
+      "time": "21:58",
+      "ts": "2026-11-11T21:58:00+08:00",
+      "eventTime": "9:40 pm, 11 Nov (est.)",
+      "eventTs": "2026-11-11T21:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: fire reported at Russia's Omsk refinery, the country's largest, after a 3-hour Ukrainian drone attack; governor says air defence repelling drones, no damage stated",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Exilenova+; Maks_NAFO_FELLA; NOELreports (footage); Omsk governor via Echo",
+      "url": "https://x.com/Exilenova_plus/status/2120516270454100428"
+    },
     {
       "time": "21:13",
       "ts": "2026-11-11T21:13:00+08:00",
@@ -648,22 +667,19 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel, citing IRGC claims and footage",
       "url": "https://x.com/Osint613/status/2119842634240020760"
-    },
-    {
-      "time": "01:03",
-      "ts": "2026-11-10T01:03:00+08:00",
-      "eventTime": "Forecast (timing not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Zero Hedge: a cold blast puts the US Mid-Atlantic and Northeast on watch for the season's first snowstorm, a boost to heating-oil and gas demand in the main US heating-oil region",
-      "theme": "Weather",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Zero Hedge",
-      "url": "https://x.com/zerohedge/status/2119831995849011360"
     }
   ],
   "sources": [
+    {
+      "title": "Exilenova+: an oil refinery is on fire in Omsk",
+      "site": "x.com/Exilenova_plus",
+      "href": "https://x.com/Exilenova_plus/status/2120516270454100428"
+    },
+    {
+      "title": "NOELreports: large fire ongoing in Omsk after Ukrainian drone attacks (footage)",
+      "site": "x.com/NOELreports",
+      "href": "https://x.com/NOELreports/status/2120512786539426179"
+    },
     {
       "title": "Exilenova (via Maks): attack on Omsk refinery ongoing for over an hour, explosions heard",
       "site": "x.com/Maks_NAFO_FELLA",
@@ -1663,11 +1679,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Ust-Luga oil port ablaze and reportedly attacked the Omsk refinery tonight, while Iran says three more tankers hit mines near Hormuz.",
+      "Ukrainian drones set Russia's Ust-Luga oil port ablaze and, after a three-hour attack tonight, a fire was reported at the Omsk refinery, while Iran says more tankers hit mines near Hormuz.",
       "Houthi launches disrupted Riyadh airspace this evening, and OPEC's report showed Saudi October output jumping 26% to 10.56 mb/d, with OPEC+ up 2.04 mb/d."
     ],
-    "updated": "Wed 11 Nov 2026, 9:14 pm SGT",
-    "updatedTs": "2026-11-11T21:14:00+08:00"
+    "updated": "Wed 11 Nov 2026, 9:59 pm SGT",
+    "updatedTs": "2026-11-11T21:59:00+08:00"
   },
   "last24Count": 13
 }
