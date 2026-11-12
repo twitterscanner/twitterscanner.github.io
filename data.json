@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 12:48 am SGT",
-  "lastScannedTs": "2026-11-13T00:48:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 12:46 am SGT",
-  "asOfTs": "2026-11-13T00:46:47+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 12:56 am SGT",
+  "lastScannedTs": "2026-11-13T00:56:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 12:55 am SGT",
+  "asOfTs": "2026-11-13T00:55:30+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Reported Iranian missile launches toward Hormuz, tanker mine claims, Trump's 'no Iran deal' stance, Houthi threats to Saudi-based firms and Russia sanctions skew higher.",
-    "lead": "Net read (last 24 hours): Reported Iranian missile launches toward Hormuz, tanker mine claims, Trump's 'no Iran deal' stance, Houthi threats to Saudi-based firms and Russia sanctions skew higher.",
+    "bottom": "Reported Iranian missile launches toward Hormuz, new Houthi claims on Saudi pipeline and Yanbu, tanker mine claims and Trump's 'no Iran deal' stance skew higher.",
+    "lead": "Net read (last 24 hours): Reported Iranian missile launches toward Hormuz, new Houthi claims on Saudi pipeline and Yanbu, tanker mine claims and Trump's 'no Iran deal' stance skew higher.",
     "verdict": "Bullish",
-    "count": "18 of 22 alerts point higher, 2 lower",
-    "text": "18 of 22 alerts point higher, 2 lower.",
+    "count": "19 of 23 alerts point higher, 2 lower",
+    "text": "19 of 23 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim new strikes on East-West pipeline Pumping Station 7 and Yanbu oil facility",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-13T00:54:00+08:00"
+      },
       {
         "text": "Over 10 anti-ship or air-defence missiles reportedly launched from Bandar Abbas toward Hormuz",
         "confidence": "unconfirmed",
@@ -154,6 +160,19 @@
     "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
+    {
+      "time": "00:54",
+      "ts": "2026-11-13T00:54:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim two new operations: a drone strike on Pumping Station No. 7 of Saudi Arabia's East-West crude pipeline and a strike on the Yanbu oil facility; they dispute a Saudi claim to have intercepted two missiles (translated from Arabic)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree, Houthi military spokesman (Arabic statement); no Saudi confirmation of damage",
+      "url": "https://x.com/Yah_Saree/status/2120923116721651818"
+    },
     {
       "time": "00:30",
       "ts": "2026-11-13T00:30:00+08:00",
@@ -660,22 +679,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing the Jerusalem Post",
       "url": "https://x.com/FirstSquawk/status/2120225050741846205"
-    },
-    {
-      "time": "01:17",
-      "ts": "2026-11-11T01:17:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's IRGC says an oil tanker caught fire after hitting a naval mine in the Strait of Hormuz, state broadcaster IRIB reports; vessel name not given",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Walter Bloomberg (citing IRIB); also CGTN America",
-      "url": "https://x.com/DeItaone/status/2120203007337934853"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree (Arabic): Houthi strikes on East-West pipeline Pumping Station 7 and Yanbu oil facility",
+      "site": "x.com/Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2120923116721651818"
+    },
     {
       "title": "BeamTracker: over 10 missiles reportedly launched from Bandar Abbas toward Hormuz",
       "site": "x.com/BeamTracker_",
@@ -1820,11 +1831,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Over 10 anti-ship or air-defence missiles were reportedly launched from Bandar Abbas toward the Strait of Hormuz just after midnight, though this is unconfirmed and targets are unknown.",
-      "Earlier, the Houthis reportedly warned foreign businesses in Saudi Arabia to register or face strikes, after Iranian claims that more tankers hit mines in Hormuz."
+      "Over 10 missiles were reportedly launched from Bandar Abbas toward the Strait of Hormuz just after midnight; this is unconfirmed and the targets are unknown.",
+      "The Houthis separately claim new strikes on a Saudi East-West pipeline pumping station and the Yanbu oil facility, after warning foreign firms in Saudi Arabia to register or be targeted."
     ],
-    "updated": "Fri 13 Nov 2026, 12:48 am SGT",
-    "updatedTs": "2026-11-13T00:48:00+08:00"
+    "updated": "Fri 13 Nov 2026, 12:56 am SGT",
+    "updatedTs": "2026-11-13T00:56:00+08:00"
   },
   "last24Count": 13
 }
