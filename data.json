@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 12:56 am SGT",
-  "lastScannedTs": "2026-11-13T00:56:00+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 1:05 am SGT",
+  "lastScannedTs": "2026-11-13T01:05:00+08:00",
   "asOf": "Fri 13 Nov 2026, 12:55 am SGT",
   "asOfTs": "2026-11-13T00:55:30+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Reported Iranian missile launches toward Hormuz, new Houthi claims on Saudi pipeline and Yanbu, tanker mine claims and Trump's 'no Iran deal' stance skew higher.",
     "lead": "Net read (last 24 hours): Reported Iranian missile launches toward Hormuz, new Houthi claims on Saudi pipeline and Yanbu, tanker mine claims and Trump's 'no Iran deal' stance skew higher.",
     "verdict": "Bullish",
-    "count": "19 of 23 alerts point higher, 2 lower",
-    "text": "19 of 23 alerts point higher, 2 lower.",
+    "count": "18 of 22 alerts point higher, 2 lower",
+    "text": "18 of 22 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Houthis claim new strikes on East-West pipeline Pumping Station 7 and Yanbu oil facility",
@@ -118,12 +118,6 @@
         "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-12T01:47:48+08:00"
-      },
-      {
-        "text": "Ukraine says Ust-Luga strike hit five fuel tanks, a hydrocracker and an export pier",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-12T01:04:01+08:00"
       }
     ],
     "dovish": [
