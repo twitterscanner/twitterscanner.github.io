@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 3:02 am SGT",
-  "lastScannedTs": "2026-11-13T03:02:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 3:02 am SGT",
-  "asOfTs": "2026-11-13T03:02:28+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 4:07 am SGT",
+  "lastScannedTs": "2026-11-13T04:07:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 4:06 am SGT",
+  "asOfTs": "2026-11-13T04:06:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Possible renewed US-Iran war, stalled talks, missile activity around Hormuz and Houthi claims on Aramco, Yanbu and the East-West pipeline skew higher.",
-    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, stalled talks, missile activity around Hormuz and Houthi claims on Aramco, Yanbu and the East-West pipeline skew higher.",
+    "bottom": "Possible renewed US-Iran war, an 'enemy' strike on Sirik, stalled talks and Houthi drones over Saudi oil regions skew risk higher.",
+    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, an 'enemy' strike on Sirik, stalled talks and Houthi drones over Saudi oil regions skew risk higher.",
     "verdict": "Bullish",
-    "count": "20 of 24 alerts point higher, 2 lower",
-    "text": "20 of 24 alerts point higher, 2 lower.",
+    "count": "22 of 25 alerts point higher, 1 lower",
+    "text": "22 of 25 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Coalition downs Houthi drones over Riyadh region and Eastern Province",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-13T04:06:54+08:00"
+      },
+      {
+        "text": "IRNA says Sirik on Iran's Hormuz coast hit by 'enemy' military attack",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-13T04:06:24+08:00"
+      },
       {
         "text": "US official says Iran added new demands and 'overreached' in talks",
         "confidence": "confirmed",
@@ -138,12 +150,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-12T08:00:02+08:00"
-      },
-      {
-        "text": "WSJ: VP JD Vance weighs face-to-face talks with Iran security chief Mohsen Rezaei",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-12T03:33:00+08:00"
       }
     ],
     "neutral": [
@@ -162,10 +168,36 @@
     ]
   },
   "brent": {
-    "value": "$93.90",
-    "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
+    "value": "$95.82",
+    "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
   },
   "alerts": [
+    {
+      "time": "04:06",
+      "ts": "2026-11-13T04:06:54+08:00",
+      "eventTime": "3:50 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T03:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones tonight, one over the Riyadh region and one over the oil-rich Eastern Province",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Al Arabiya (Arabic), citing the coalition",
+      "url": "https://x.com/AlArabiya/status/2120970776840925383"
+    },
+    {
+      "time": "04:06",
+      "ts": "2026-11-13T04:06:24+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's IRNA says Sirik in Hormozgan, on the Strait of Hormuz coast, was hit by 'enemy' fire in a military attack; attacker and damage not stated",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk and Open Source Intel, citing IRNA",
+      "url": "https://x.com/FirstSquawk/status/2120956440206803334"
+    },
     {
       "time": "03:02",
       "ts": "2026-11-13T03:02:28+08:00",
@@ -659,35 +691,24 @@
       "confidence": "Confirmed",
       "source": "UKMTO Operations Centre; also FinancialJuice, First Squawk",
       "url": "https://x.com/UK_MTO/status/2120353588933165514"
-    },
-    {
-      "time": "11:03",
-      "ts": "2026-11-11T11:03:25+08:00",
-      "eventTime": "7:30 am, 11 Nov (est.)",
-      "eventTs": "2026-11-11T07:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Leningrad governor confirms drones struck Russia's Ust-Luga Baltic oil export port, with initial data pointing to a fire in the port area; damage to loadings not yet stated",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FinancialJuice, citing Leningrad region governor",
-      "url": "https://x.com/financialjuice/status/2120351665740226778"
-    },
-    {
-      "time": "10:59",
-      "ts": "2026-11-11T10:59:40+08:00",
-      "eventTime": "Not stated (remarks reported ~10:59 am, 11 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US ambassador to China David Perdue says Trump offered to swap China's Iranian oil imports for US oil",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "zerohedge headline citing Perdue",
-      "url": "https://x.com/zerohedge/status/2120350718767022471"
     }
   ],
   "sources": [
+    {
+      "title": "Al Arabiya: coalition destroys drones over Riyadh region and Eastern Province",
+      "site": "x.com/AlArabiya",
+      "href": "https://x.com/AlArabiya/status/2120970776840925383"
+    },
+    {
+      "title": "First Squawk: IRNA says Sirik hit by 'enemy' fire, attack military in nature",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120956440206803334"
+    },
+    {
+      "title": "First Squawk: Brent settles 3.3% higher at $95.82",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120966476840739226"
+    },
     {
       "title": "LiveSquawk: US official says Iran added new demands, 'overreached' (i24)",
       "site": "x.com/LiveSquawk",
@@ -1857,11 +1878,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, and a US official says Iran 'overreached' with new demands in talks.",
-      "The Houthis claim drone strikes on Saudi Aramco in Riyadh, the Yanbu oil facility and an East-West pipeline pumping station, while explosions were reported near Sirik on Iran's Hormuz coast."
+      "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, and Iran's IRNA says Sirik on the Hormuz coast was hit by 'enemy' fire.",
+      "The Houthis claim drone strikes on Aramco in Riyadh, Yanbu and an East-West pipeline station, while the coalition says it downed drones over Riyadh and the Eastern Province."
     ],
-    "updated": "Fri 13 Nov 2026, 3:02 am SGT",
-    "updatedTs": "2026-11-13T03:02:00+08:00"
+    "updated": "Fri 13 Nov 2026, 4:07 am SGT",
+    "updatedTs": "2026-11-13T04:07:00+08:00"
   },
   "last24Count": 13
 }
