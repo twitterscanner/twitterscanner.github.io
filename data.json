@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 7:05 am SGT",
-  "lastScannedTs": "2026-11-12T07:05:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 7:03 am SGT",
-  "asOfTs": "2026-11-12T07:03:52+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 8:08 am SGT",
+  "lastScannedTs": "2026-11-12T08:08:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 8:03 am SGT",
+  "asOfTs": "2026-11-12T08:03:36+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Israel's reported Iran strike preparations, Hormuz mine hits, Ust-Luga and Omsk damage and Houthi strikes skew risks higher; Saudi output and Vance-Iran talk offset.",
-    "lead": "Net read (last 24 hours): Israel's reported Iran strike preparations, Hormuz mine hits, Ust-Luga and Omsk damage and Houthi strikes skew risks higher; Saudi output and Vance-Iran talk offset.",
+    "bottom": "Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage, falling Russian exports and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
+    "lead": "Net read (last 24 hours): Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage, falling Russian exports and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "14 of 19 alerts point higher, 2 lower",
-    "text": "14 of 19 alerts point higher, 2 lower.",
+    "count": "14 of 20 alerts point higher, 3 lower",
+    "text": "14 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Bloomberg: Russian seaborne crude exports fell ~700,000 b/d to 3.37m b/d in week to 8 Nov",
+        "confidence": "unconfirmed",
+        "theme": "Ports",
+        "ts": "2026-11-12T07:05:47+08:00"
+      },
       {
         "text": "Kan: Netanyahu orders IDF to prepare possible major strike on Iran",
         "confidence": "unconfirmed",
@@ -88,15 +94,15 @@
         "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-11T11:03:25+08:00"
-      },
-      {
-        "text": "Ukrainian drones hit Ust-Luga oil export port; footage shows port infrastructure on fire",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-11T07:36:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Israeli media: Trump resisted Netanyahu's push for renewed Iran strikes, favouring diplomacy",
+        "confidence": "unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-12T08:00:02+08:00"
+      },
       {
         "text": "WSJ: VP JD Vance weighs face-to-face talks with Iran security chief Mohsen Rezaei",
         "confidence": "confirmed",
@@ -136,6 +142,32 @@
     "detail": "Brent futures settled up $1.27 (1.39%) at $92.76/bbl, per First Squawk on X, 3:46 am SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "08:00",
+      "ts": "2026-11-12T08:00:02+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israeli media: Trump and Netanyahu clashed over Iran; Netanyahu pushed for renewed US strikes, Trump insisted on more time for diplomacy and sanctions",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "Mario Nawfal citing Israeli media",
+      "url": "https://x.com/MarioNawfal/status/2120667902508511639"
+    },
+    {
+      "time": "07:05",
+      "ts": "2026-11-12T07:05:47+08:00",
+      "eventTime": "Week to 8 Nov (no single time)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bloomberg: Russia's seaborne crude exports fell about 700,000 b/d (~17%) to 3.37m b/d in the week to 8 Nov",
+      "theme": "Ports",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FAB87F citing Bloomberg tanker tracking",
+      "url": "https://x.com/FAB87F/status/2120654248417296761"
+    },
     {
       "time": "07:02",
       "ts": "2026-11-12T07:02:01+08:00",
@@ -629,35 +661,19 @@
       "confidence": "Confirmed",
       "source": "Gulf News (UKMTO)",
       "url": "https://x.com/gulf_news/status/2120003761280041165"
-    },
-    {
-      "time": "12:00",
-      "ts": "2026-11-10T12:00:16+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Bloomberg: refined-product loadings in the Persian Gulf rose to about 3 million b/d in October from a 1 million b/d May trough, mostly exiting Hormuz and easing a tight market",
-      "theme": "Hormuz",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Bloomberg",
-      "url": "https://x.com/business/status/2120003583772918183"
-    },
-    {
-      "time": "11:01",
-      "ts": "2026-11-10T11:01:36+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says it intercepted a drone over Saudi Arabia's Eastern Region, the Aramco oil heartland, widening Houthi attacks beyond Riyadh and the south",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk (coalition statement), also RedboxGlobal",
-      "url": "https://x.com/FirstSquawk/status/2119988820238377210"
     }
   ],
   "sources": [
+    {
+      "title": "Mario Nawfal: Israeli media say Trump and Netanyahu clashed over Iran, Trump favouring diplomacy and sanctions over renewed strikes",
+      "site": "x.com/MarioNawfal",
+      "href": "https://x.com/MarioNawfal/status/2120667902508511639"
+    },
+    {
+      "title": "FAB87F citing Bloomberg: Russia's seaborne crude exports fell ~700,000 b/d to 3.37m b/d in week to 8 Nov",
+      "site": "x.com/FAB87F",
+      "href": "https://x.com/FAB87F/status/2120654248417296761"
+    },
     {
       "title": "The Hormuz Letter: Kan says Netanyahu ordered military to step up preparations for possible major strike on Iran",
       "site": "x.com/HormuzLetter",
@@ -1712,11 +1728,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kan reports Netanyahu ordered Israel's military to step up preparations for a possible major strike on Iran, with an official warning it could trigger wider war.",
-      "Earlier, Ukraine said its Ust-Luga strike damaged fuel tanks and an export pier, while the WSJ said VP Vance is weighing face-to-face talks with Iran's Rezaei."
+      "Kan reports Netanyahu ordered Israel's military to prepare for a possible major Iran strike, though Israeli media say Trump resisted his push for renewed US strikes.",
+      "Bloomberg data show Russia's seaborne crude exports fell about 700,000 b/d last week, after Ukraine said its Ust-Luga strike damaged fuel tanks and an export pier."
     ],
-    "updated": "Thu 12 Nov 2026, 7:05 am SGT",
-    "updatedTs": "2026-11-12T07:05:00+08:00"
+    "updated": "Thu 12 Nov 2026, 8:08 am SGT",
+    "updatedTs": "2026-11-12T08:08:00+08:00"
   },
   "last24Count": 13
 }
