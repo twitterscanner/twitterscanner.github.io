@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 7:02 pm SGT",
-  "lastScannedTs": "2026-11-12T19:02:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 6:39 pm SGT",
-  "asOfTs": "2026-11-12T18:39:20+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 7:10 pm SGT",
+  "lastScannedTs": "2026-11-12T19:10:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 7:09 pm SGT",
+  "asOfTs": "2026-11-12T19:09:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep and new EU Russia sanctions skew higher; Saudi output and diplomacy offset.",
-    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep and new EU Russia sanctions skew higher; Saudi output and diplomacy offset.",
+    "bottom": "IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep, Ukraine's refinery campaign and EU Russia sanctions skew higher; Saudi output offsets.",
+    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep, Ukraine's refinery campaign and EU Russia sanctions skew higher; Saudi output offsets.",
     "verdict": "Bullish",
-    "count": "15 of 20 alerts point higher, 3 lower",
-    "text": "15 of 20 alerts point higher, 3 lower.",
+    "count": "16 of 21 alerts point higher, 3 lower",
+    "text": "16 of 21 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Ukraine's SOF officially claims Nov 11 Omsk refinery strike; five big refineries hit since Oct 30",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-12T19:01:45+08:00"
+      },
       {
         "text": "EU envoys reportedly agree new Russia listings hitting shadow fleet enablers and energy firms",
         "confidence": "unconfirmed",
@@ -142,6 +148,19 @@
     "detail": "Brent futures down 0.3% at $92.44/bbl as prices swing, per FinSquawk on X, 5:39 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "19:01",
+      "ts": "2026-11-12T19:01:45+08:00",
+      "eventTime": "9:00 pm, 11 Nov (est.)",
+      "eventTs": "2026-11-11T21:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine's Special Operations Forces officially claim their Nov 11 drone strike on Russia's Omsk refinery (Gazprom Neft, 21+ Mt/yr), the third on the site; General Staff says five major Russian refineries have been hit since Oct 30",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Special Operations Forces of Ukraine (official); General Staff via First Squawk",
+      "url": "https://x.com/SOF_UKR/status/2120834428004167849"
+    },
     {
       "time": "18:37",
       "ts": "2026-11-12T18:37:55+08:00",
@@ -648,22 +667,19 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Al Hadath sources",
       "url": "https://x.com/FirstSquawk/status/2120133208432169208"
-    },
-    {
-      "time": "20:11",
-      "ts": "2026-11-10T20:11:48+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: Russia's Kirishi (KINEF) refinery reportedly fully shut after the 9 Nov Ukrainian drone attack, with three main crude units (AVT-2, AT-1, AT-6) said to be damaged, per a Russian Telegram channel",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Special Kherson Cat, citing Russian Telegram channel Dosye Shpiona",
-      "url": "https://x.com/bayraktar_1love/status/2120127280840081611"
     }
   ],
   "sources": [
+    {
+      "title": "Ukraine SOF: third strike on Omsk oil refinery on Nov 11",
+      "site": "x.com/SOF_UKR",
+      "href": "https://x.com/SOF_UKR/status/2120834428004167849"
+    },
+    {
+      "title": "First Squawk: General Staff says five major Russian refineries struck since Oct 30",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120835065467019378"
+    },
     {
       "title": "Abominable: EU envoys agree 145 new Russia sanctions listings incl. shadow fleet enablers",
       "site": "x.com/Abom1nabl3",
@@ -1769,10 +1785,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran's IRGC Navy says two supertankers exploded on an unauthorised Hormuz route overnight and a third hit a naval mine this afternoon, sharply raising Gulf shipping risk.",
-      "Saudi Yanbu and Shedgum sites show fires, Israel reportedly preps an Iran strike, Russian drones reportedly hit Kremenchuk, and EU envoys reportedly agreed new Russia shadow-fleet sanctions."
+      "Saudi Yanbu and Shedgum sites show fires, Israel reportedly preps an Iran strike, Ukraine officially claims its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
     ],
-    "updated": "Thu 12 Nov 2026, 6:40 pm SGT",
-    "updatedTs": "2026-11-12T18:40:00+08:00"
+    "updated": "Thu 12 Nov 2026, 7:10 pm SGT",
+    "updatedTs": "2026-11-12T19:10:00+08:00"
   },
   "last24Count": 13
 }
