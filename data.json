@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 10:05 pm SGT",
-  "lastScannedTs": "2026-11-12T22:05:00+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 10:38 pm SGT",
+  "lastScannedTs": "2026-11-12T22:38:00+08:00",
   "asOf": "Thu 12 Nov 2026, 9:37 pm SGT",
   "asOfTs": "2026-11-12T21:37:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -144,8 +144,8 @@
     ]
   },
   "brent": {
-    "value": "$92.34",
-    "detail": "Brent erased earlier losses and rose about 1% after Trump's 'no Iran deal' comments (FinSquawk on X, 9:12 pm SGT 12 Nov); new level not stated, last quoted $92.34 at 7:52 pm SGT"
+    "value": "$93.90",
+    "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
     {
