@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 9:05 pm SGT",
-  "lastScannedTs": "2026-11-12T21:05:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 7:43 pm SGT",
-  "asOfTs": "2026-11-12T19:43:41+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 9:15 pm SGT",
+  "lastScannedTs": "2026-11-12T21:15:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 9:14 pm SGT",
+  "asOfTs": "2026-11-12T21:14:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; US-Iran diplomacy offsets.",
-    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; US-Iran diplomacy offsets.",
+    "bottom": "Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk and Ukraine's refinery strikes skew higher; diplomacy hopes fade.",
+    "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk and Ukraine's refinery strikes skew higher; diplomacy hopes fade.",
     "verdict": "Bullish",
     "count": "16 of 21 alerts point higher, 2 lower",
     "text": "16 of 21 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Trump: 'We don't need a deal with Iran'; says US has Iran's money and its Strait",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-12T21:15:00+08:00"
+      },
       {
         "text": "Iran calls reviewing NPT exit an 'unavoidable necessity' and 'national demand' (Fars)",
         "confidence": "confirmed",
@@ -100,12 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-11T21:58:00+08:00"
-      },
-      {
-        "text": "Drone attack reported on Omsk, Russia's largest refinery; explosions heard, no damage confirmed",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-11T21:13:00+08:00"
       }
     ],
     "dovish": [
@@ -145,9 +145,22 @@
   },
   "brent": {
     "value": "$92.34",
-    "detail": "Brent down 0.5% on the day at $92.34/bbl, 18.6% below its 30 Oct high, per Invezz on X, 7:52 pm SGT 12 Nov"
+    "detail": "Brent erased earlier losses and rose about 1% after Trump's 'no Iran deal' comments (FinSquawk on X, 9:12 pm SGT 12 Nov); new level not stated, last quoted $92.34 at 7:52 pm SGT"
   },
   "alerts": [
+    {
+      "time": "21:15",
+      "ts": "2026-11-12T21:15:00+08:00",
+      "eventTime": "9:08 pm, 12 Nov (est.)",
+      "eventTs": "2026-11-12T21:08:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump on Truth Social: 'We don't need a deal with Iran... We've got their money and we've got their Strait'; also redirects VP Vance to domestic crime, clouding the Vance-Rezaei talks idea; Brent erases losses, up ~1%",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Trump (Truth Social) via First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2120866441620828225"
+    },
     {
       "time": "19:40",
       "ts": "2026-11-12T19:40:56+08:00",
@@ -654,22 +667,14 @@
       "confidence": "Confirmed",
       "source": "ADNOC L&S statement via UAE state agency WAM; also World Conflict, Middle East Brief",
       "url": "https://x.com/WAMNEWS_ENG/status/2120166416540463299"
-    },
-    {
-      "time": "22:10",
-      "ts": "2026-11-10T22:10:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim four strikes on Saudi Arabia: Aramco's Abqaiq facility, East-West pipeline pumping stations, Riyadh airport and financial district; no Saudi confirmation yet (translated from Arabic)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic); also Al Mayadeen, CGTN, FinancialJuice",
-      "url": "https://x.com/Yah_Saree/status/2120157026450047369"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Trump says 'We don't need a deal with Iran'",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120866441620828225"
+    },
     {
       "title": "First Squawk: Iran says NPT exit review a 'national demand' (Fars)",
       "site": "x.com/FirstSquawk",
@@ -1794,11 +1799,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy says three tankers exploded on an unauthorised Hormuz route, Oman convened an emergency committee over a grounded tanker, and Iran called NPT exit review a 'national demand'.",
-      "Saudi Yanbu and Shedgum sites show fires, Israel reportedly preps an Iran strike, Ukraine officially claims its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
+      "Trump said the US doesn't need a deal with Iran, while the IRGC claims three tankers exploded on an unauthorised Hormuz route and Iran called NPT exit a 'national demand'.",
+      "Saudi Yanbu and Shedgum sites show fires, Oman convened an emergency committee over a grounded tanker, Ukraine claimed its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
     ],
-    "updated": "Thu 12 Nov 2026, 7:45 pm SGT",
-    "updatedTs": "2026-11-12T19:45:00+08:00"
+    "updated": "Thu 12 Nov 2026, 9:15 pm SGT",
+    "updatedTs": "2026-11-12T21:15:00+08:00"
   },
   "last24Count": 13
 }
