@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 1:27 am SGT",
-  "lastScannedTs": "2026-11-13T01:27:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 1:27 am SGT",
-  "asOfTs": "2026-11-13T01:27:05+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 1:59 am SGT",
+  "lastScannedTs": "2026-11-13T01:59:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 1:58 am SGT",
+  "asOfTs": "2026-11-13T01:58:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Reported Iranian missile launches and explosions on the Hormuz coast, new Houthi claims on Saudi pipeline and Yanbu, and Trump's 'no Iran deal' stance skew higher.",
-    "lead": "Net read (last 24 hours): Reported Iranian missile launches and explosions on the Hormuz coast, new Houthi claims on Saudi pipeline and Yanbu, and Trump's 'no Iran deal' stance skew higher.",
+    "bottom": "Possible renewed US-Iran war, missile activity around Hormuz, Houthi claims on Aramco, Yanbu and the East-West pipeline, and Trump's 'no deal' skew higher.",
+    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, missile activity around Hormuz, Houthi claims on Aramco, Yanbu and the East-West pipeline, and Trump's 'no deal' skew higher.",
     "verdict": "Bullish",
-    "count": "19 of 23 alerts point higher, 2 lower",
-    "text": "19 of 23 alerts point higher, 2 lower.",
+    "count": "20 of 24 alerts point higher, 2 lower",
+    "text": "20 of 24 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Kan: CENTCOM tells Israel and Gulf states to prepare for possible renewed Iran war",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-13T01:59:30+08:00"
+      },
+      {
+        "text": "Houthis claim drone strike on Saudi Aramco in Riyadh",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-13T01:59:00+08:00"
+      },
       {
         "text": "Explosions reported near Sirik on Iran's Hormuz coast after Bandar Abbas missile launches",
         "confidence": "unconfirmed",
@@ -118,12 +130,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-12T02:32:44+08:00"
-      },
-      {
-        "text": "SBU says Novatek's Ust-Luga complex hit: 30,000-tonne tanks damaged, product spill",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-12T01:47:48+08:00"
       }
     ],
     "dovish": [
@@ -160,6 +166,32 @@
     "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
+    {
+      "time": "01:59",
+      "ts": "2026-11-13T01:59:30+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kan: a US official says CENTCOM has told Israel to prepare for a possible resumption of war with Iran; the US reportedly sent similar messages to Gulf states",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Kan News (Israeli public broadcaster) and a US official",
+      "url": "https://x.com/FirstSquawk/status/2120938393207234726"
+    },
+    {
+      "time": "01:59",
+      "ts": "2026-11-13T01:59:00+08:00",
+      "eventTime": "1:50 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T01:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis claim a drone strike on Saudi Aramco in Riyadh 'a short while ago', saying it hit its target (translated from Arabic); no Saudi confirmation of damage",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree, Houthi military spokesman (Arabic statement); also CGTN Europe",
+      "url": "https://x.com/Yah_Saree/status/2120937832487473439"
+    },
     {
       "time": "01:27",
       "ts": "2026-11-13T01:27:00+08:00",
@@ -653,35 +685,19 @@
       "confidence": "Unconfirmed",
       "source": "Maks_NAFO_FELLA / NotWoofers / markito0171 footage",
       "url": "https://x.com/Maks_NAFO_FELLA/status/2120299499130077458"
-    },
-    {
-      "time": "07:01",
-      "ts": "2026-11-11T07:01:00+08:00",
-      "eventTime": "6:30 am, 11 Nov (est.)",
-      "eventTs": "2026-11-11T06:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine launches a massive drone raid on Leningrad region; Russian monitors say Ust-Luga oil export terminal is the main target, St Petersburg port also targeted and Pulkovo airport restricted; no confirmed hit yet",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical / NOELreports",
-      "url": "https://x.com/Osinttechnical/status/2120286190683267431"
-    },
-    {
-      "time": "03:33",
-      "ts": "2026-11-11T03:33:08+08:00",
-      "eventTime": "3:05 am, 11 Nov (est.)",
-      "eventTs": "2026-11-11T03:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "Fire breaks out on the SPD14D platform in Iran's South Pars gas field, forcing a full evacuation; Fars says about 14.5 mcm/d of gas is affected and the cause (gas leak or operational fault) is under investigation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Fars News via First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2120238344424866258"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Kan says CENTCOM told Israel to prepare for possible war resumption",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120938393207234726"
+    },
+    {
+      "title": "Yahya Saree (Arabic): Houthi drone strike on Aramco in Riyadh",
+      "site": "x.com/Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2120937832487473439"
+    },
     {
       "title": "Open Source Intel: explosions reported near Sirik, southern Iran, after Bandar Abbas launches",
       "site": "x.com/Osint613",
@@ -1836,11 +1852,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Over 10 missiles were reportedly launched from Bandar Abbas toward the Strait of Hormuz after midnight, followed by reported explosions near Sirik; both are unconfirmed and targets unknown.",
-      "The Houthis separately claim new strikes on a Saudi East-West pipeline pumping station and the Yanbu oil facility, after warning foreign firms in Saudi Arabia to register or be targeted."
+      "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, after unconfirmed missile launches from Bandar Abbas and explosions near Sirik.",
+      "The Houthis claim new drone and missile strikes on Saudi Aramco in Riyadh, the Yanbu oil facility and an East-West pipeline pumping station; Saudi damage is unconfirmed."
     ],
-    "updated": "Fri 13 Nov 2026, 1:27 am SGT",
-    "updatedTs": "2026-11-13T01:27:00+08:00"
+    "updated": "Fri 13 Nov 2026, 1:59 am SGT",
+    "updatedTs": "2026-11-13T01:59:00+08:00"
   },
   "last24Count": 13
 }
