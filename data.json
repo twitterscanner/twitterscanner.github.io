@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 5:31 pm SGT",
-  "lastScannedTs": "2026-11-12T17:31:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 5:29 pm SGT",
-  "asOfTs": "2026-11-12T17:29:48+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 6:04 pm SGT",
+  "lastScannedTs": "2026-11-12T18:04:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 6:04 pm SGT",
+  "asOfTs": "2026-11-12T18:04:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "A third IRGC-claimed tanker blast, earlier supertanker hits, Saudi facility fires and Israel's Iran strike prep skew higher; Saudi output and diplomacy offset.",
     "lead": "Net read (last 24 hours): A third IRGC-claimed tanker blast, earlier supertanker hits, Saudi facility fires and Israel's Iran strike prep skew higher; Saudi output and diplomacy offset.",
     "verdict": "Bullish",
-    "count": "15 of 20 alerts point higher, 3 lower",
-    "text": "15 of 20 alerts point higher, 3 lower.",
+    "count": "15 of 21 alerts point higher, 3 lower",
+    "text": "15 of 21 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "IRGC says a third tanker hit a naval mine in Hormuz this afternoon",
@@ -124,6 +124,12 @@
     ],
     "neutral": [
       {
+        "text": "Russian jet-drones reportedly hit Ukraine's Kremenchuk refinery; mainly a Ukrainian fuel-supply risk",
+        "confidence": "unconfirmed",
+        "theme": "Refineries",
+        "ts": "2026-11-12T17:58:11+08:00"
+      },
+      {
         "text": "Iran and Oman reportedly agree a Hormuz shipping corridor and traffic separation scheme",
         "confidence": "unconfirmed",
         "theme": "Hormuz",
@@ -138,10 +144,23 @@
     ]
   },
   "brent": {
-    "value": "$91.72",
-    "detail": "Brent down 1.11% at $91.72/bbl on US-Iran peace-talk hopes, per Moneycontrol on X, 1:34 pm SGT 12 Nov"
+    "value": "$92.44",
+    "detail": "Brent futures down 0.3% at $92.44/bbl as prices swing, per FinSquawk on X, 5:39 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "17:58",
+      "ts": "2026-11-12T17:58:11+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russian Geran-4 jet-drone strikes reported on Ukraine's Kremenchuk oil refinery, its largest, plus a logistics centre and a 110 kV substation; damage not stated",
+      "theme": "Refineries",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping (OSINT, strike footage); also relayed by other OSINT accounts",
+      "url": "https://x.com/AMK_Mapping_/status/2120818430068863358"
+    },
     {
       "time": "17:24",
       "ts": "2026-11-12T17:24:30+08:00",
@@ -648,22 +667,19 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Tasnim; also LiveSquawk, citing IRIB",
       "url": "https://x.com/FirstSquawk/status/2120101226297819575"
-    },
-    {
-      "time": "18:12",
-      "ts": "2026-11-10T18:12:19+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: ADNOC cuts December Murban official selling price to about $4/bbl above Dubai from $11.10 a month earlier (a $7 cut), with Das, Upper Zakum and Umm Lulu also lowered, days after Aramco's December cuts for Asia",
-      "theme": "Crude pricing",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Anushree Mukherjee; also The Officials",
-      "url": "https://x.com/AnushreeReports/status/2120097211698868718"
     }
   ],
   "sources": [
+    {
+      "title": "FinSquawk: Brent crude futures fall 0.3% to $92.44/bbl",
+      "site": "x.com/finsquawk_",
+      "href": "https://x.com/finsquawk_/status/2120813791432831265"
+    },
+    {
+      "title": "AMK Mapping: Russian Geran-4 jet-drone strikes on Ukraine's Kremenchuk oil refinery",
+      "site": "x.com/AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2120818430068863358"
+    },
     {
       "title": "CGTN Europe: IRGC Navy says a third tanker violating Hormuz rules exploded this afternoon after hitting a naval mine",
       "site": "x.com/CGTNEurope",
@@ -1753,11 +1769,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy says two supertankers carrying over 4 million barrels exploded on an unauthorised Hormuz route overnight, and a third tanker hit a naval mine this afternoon.",
-      "Satellite imagery shows fires at Saudi Arabia's Yanbu and Shedgum sites, while Kan reports Israel is preparing a possible Iran strike and Russia's seaborne crude exports fell about 700,000 b/d."
+      "Iran's IRGC Navy says two supertankers exploded on an unauthorised Hormuz route overnight and a third hit a naval mine this afternoon, sharply raising Gulf shipping risk.",
+      "Satellite imagery shows fires at Saudi Yanbu and Shedgum sites, Israel is reportedly preparing a possible Iran strike, and Russian drones reportedly hit Ukraine's Kremenchuk refinery."
     ],
-    "updated": "Thu 12 Nov 2026, 5:31 pm SGT",
-    "updatedTs": "2026-11-12T17:31:00+08:00"
+    "updated": "Thu 12 Nov 2026, 6:04 pm SGT",
+    "updatedTs": "2026-11-12T18:04:00+08:00"
   },
   "last24Count": 13
 }
