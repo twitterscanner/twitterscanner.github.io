@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 2:06 am SGT",
-  "lastScannedTs": "2026-11-13T02:06:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 1:58 am SGT",
-  "asOfTs": "2026-11-13T01:58:47+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 3:02 am SGT",
+  "lastScannedTs": "2026-11-13T03:02:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 3:02 am SGT",
+  "asOfTs": "2026-11-13T03:02:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Possible renewed US-Iran war, missile activity around Hormuz, Houthi claims on Aramco, Yanbu and the East-West pipeline, and Trump's 'no deal' skew higher.",
-    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, missile activity around Hormuz, Houthi claims on Aramco, Yanbu and the East-West pipeline, and Trump's 'no deal' skew higher.",
+    "bottom": "Possible renewed US-Iran war, stalled talks, missile activity around Hormuz and Houthi claims on Aramco, Yanbu and the East-West pipeline skew higher.",
+    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, stalled talks, missile activity around Hormuz and Houthi claims on Aramco, Yanbu and the East-West pipeline skew higher.",
     "verdict": "Bullish",
     "count": "20 of 24 alerts point higher, 2 lower",
     "text": "20 of 24 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "US official says Iran added new demands and 'overreached' in talks",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-13T03:02:28+08:00"
+      },
       {
         "text": "Kan: CENTCOM tells Israel and Gulf states to prepare for possible renewed Iran war",
         "confidence": "unconfirmed",
@@ -124,12 +130,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-12T07:02:01+08:00"
-      },
-      {
-        "text": "Houthis claim drone hit on Yanbu-region Pumping Station 11 on Saudi East-West pipeline",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-12T02:32:44+08:00"
       }
     ],
     "dovish": [
@@ -166,6 +166,19 @@
     "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
+    {
+      "time": "03:02",
+      "ts": "2026-11-13T03:02:28+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "i24: a US official says Iran added new demands and 'overreached' in talks; sticking points are enrichment, shipping out the stockpile and sequencing",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk and First Squawk, citing i24 News and a US official",
+      "url": "https://x.com/LiveSquawk/status/2120943277252005964"
+    },
     {
       "time": "01:59",
       "ts": "2026-11-13T01:59:30+08:00",
@@ -672,22 +685,14 @@
       "confidence": "Unconfirmed",
       "source": "zerohedge headline citing Perdue",
       "url": "https://x.com/zerohedge/status/2120350718767022471"
-    },
-    {
-      "time": "07:36",
-      "ts": "2026-11-11T07:36:00+08:00",
-      "eventTime": "7:30 am, 11 Nov (est.)",
-      "eventTs": "2026-11-11T07:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones hit Russia's Ust-Luga Baltic oil export port: footage shows port infrastructure on fire and multiple explosions; Leningrad governor reports dozens of drones downed, no official damage statement yet",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Maks_NAFO_FELLA / NotWoofers / markito0171 footage",
-      "url": "https://x.com/Maks_NAFO_FELLA/status/2120299499130077458"
     }
   ],
   "sources": [
+    {
+      "title": "LiveSquawk: US official says Iran added new demands, 'overreached' (i24)",
+      "site": "x.com/LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2120943277252005964"
+    },
     {
       "title": "First Squawk: Kan says CENTCOM told Israel to prepare for possible war resumption",
       "site": "x.com/FirstSquawk",
@@ -1852,11 +1857,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, after unconfirmed missile launches from Bandar Abbas and explosions near Sirik.",
-      "The Houthis claim new drone and missile strikes on Saudi Aramco in Riyadh, the Yanbu oil facility and an East-West pipeline pumping station; Saudi damage is unconfirmed."
+      "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, and a US official says Iran 'overreached' with new demands in talks.",
+      "The Houthis claim drone strikes on Saudi Aramco in Riyadh, the Yanbu oil facility and an East-West pipeline pumping station, while explosions were reported near Sirik on Iran's Hormuz coast."
     ],
-    "updated": "Fri 13 Nov 2026, 1:59 am SGT",
-    "updatedTs": "2026-11-13T01:59:00+08:00"
+    "updated": "Fri 13 Nov 2026, 3:02 am SGT",
+    "updatedTs": "2026-11-13T03:02:00+08:00"
   },
   "last24Count": 13
 }
