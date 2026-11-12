@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 5:06 am SGT",
-  "lastScannedTs": "2026-11-13T05:06:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 5:06 am SGT",
-  "asOfTs": "2026-11-13T05:06:03+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 6:02 am SGT",
+  "lastScannedTs": "2026-11-13T06:02:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 6:02 am SGT",
+  "asOfTs": "2026-11-13T06:02:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Possible renewed US-Iran war, an 'enemy' strike on Sirik, Houthi drones over Saudi oil regions and a huge drone raid on Russia skew risk higher.",
-    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, an 'enemy' strike on Sirik, Houthi drones over Saudi oil regions and a huge drone raid on Russia skew risk higher.",
+    "bottom": "Possible renewed US-Iran war, strikes on Sirik, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
+    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, strikes on Sirik, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
     "verdict": "Bullish",
-    "count": "23 of 26 alerts point higher, 1 lower",
-    "text": "23 of 26 alerts point higher, 1 lower.",
+    "count": "24 of 27 alerts point higher, 1 lower",
+    "text": "24 of 27 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drones reportedly hit Russia's Volgograd refinery amid the mass drone wave",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-13T06:02:30+08:00"
+      },
       {
         "text": "Record-scale Ukrainian drone wave (reportedly 600-850) heads for Moscow and central Russia",
         "confidence": "unconfirmed",
@@ -178,6 +184,19 @@
     "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
   },
   "alerts": [
+    {
+      "time": "06:02",
+      "ts": "2026-11-13T06:02:30+08:00",
+      "eventTime": "5:50 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T05:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones reportedly hit Russia's Volgograd oil refinery (Lukoil) as the mass drone wave continues; footage shows fire, no official confirmation yet",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "markito0171 on X, plus UK_REPT, Illia Ponomarenko and others",
+      "url": "https://x.com/markito0171/status/2121000291990487379"
+    },
     {
       "time": "05:06",
       "ts": "2026-11-13T05:06:03+08:00",
@@ -684,22 +703,19 @@
       "confidence": "Confirmed",
       "source": "First Squawk and LiveSquawk, citing Iranian state media (IRIB, Tasnim)",
       "url": "https://x.com/FirstSquawk/status/2120409094557511822"
-    },
-    {
-      "time": "13:18",
-      "ts": "2026-11-11T13:18:43+08:00",
-      "eventTime": "1:05 pm, 11 Nov (est.)",
-      "eventTs": "2026-11-11T13:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "Satellite thermal imagery reportedly shows a second ship burning in the Strait of Hormuz after this morning's tanker incident; OSINT accounts suspect an IRGC attack or mine, vessel and cause unconfirmed",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (CocoPostel), via AB4_Ali3; also AMK Mapping, WW3 Monitor",
-      "url": "https://x.com/CocoPostel/status/2120385712780628149"
     }
   ],
   "sources": [
+    {
+      "title": "markito0171: footage of Volgograd refinery after drone attack",
+      "site": "x.com/markito0171",
+      "href": "https://x.com/markito0171/status/2121000291990487379"
+    },
+    {
+      "title": "UK Report: Volgograd oil refinery hit",
+      "site": "x.com/UK_REPT",
+      "href": "https://x.com/UK_REPT/status/2120999025356796172"
+    },
     {
       "title": "Al Arabiya: coalition destroys drones over Riyadh region and Eastern Province",
       "site": "x.com/AlArabiya",
@@ -1895,10 +1911,10 @@
     "title": "Today's key developments",
     "lines": [
       "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, and Iran's IRNA says Sirik on the Hormuz coast was hit by 'enemy' fire.",
-      "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukraine reportedly launches a record drone wave on Russia."
+      "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukrainian drones reportedly hit Russia's Volgograd refinery."
     ],
-    "updated": "Fri 13 Nov 2026, 5:06 am SGT",
-    "updatedTs": "2026-11-13T05:06:00+08:00"
+    "updated": "Fri 13 Nov 2026, 6:02 am SGT",
+    "updatedTs": "2026-11-13T06:02:00+08:00"
   },
   "last24Count": 13
 }
