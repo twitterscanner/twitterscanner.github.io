@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 7:10 pm SGT",
-  "lastScannedTs": "2026-11-12T19:10:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 7:09 pm SGT",
-  "asOfTs": "2026-11-12T19:09:14+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 7:45 pm SGT",
+  "lastScannedTs": "2026-11-12T19:45:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 7:43 pm SGT",
+  "asOfTs": "2026-11-12T19:43:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep, Ukraine's refinery campaign and EU Russia sanctions skew higher; Saudi output offsets.",
-    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep, Ukraine's refinery campaign and EU Russia sanctions skew higher; Saudi output offsets.",
+    "bottom": "IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; Saudi output and diplomacy offset.",
+    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; Saudi output and diplomacy offset.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 3 lower",
-    "text": "16 of 21 alerts point higher, 3 lower.",
+    "count": "17 of 23 alerts point higher, 3 lower",
+    "text": "17 of 23 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Iran calls reviewing NPT exit an 'unavoidable necessity' and 'national demand' (Fars)",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-12T19:40:56+08:00"
+      },
       {
         "text": "Ukraine's SOF officially claims Nov 11 Omsk refinery strike; five big refineries hit since Oct 30",
         "confidence": "confirmed",
@@ -130,6 +136,12 @@
     ],
     "neutral": [
       {
+        "text": "Oman emergency committee meets on oil tanker aground off Al Qibliyah Island",
+        "confidence": "confirmed",
+        "theme": "Tankers",
+        "ts": "2026-11-12T19:39:25+08:00"
+      },
+      {
         "text": "Russian jet-drones reportedly hit Ukraine's Kremenchuk refinery; mainly a Ukrainian fuel-supply risk",
         "confidence": "unconfirmed",
         "theme": "Refineries",
@@ -148,6 +160,32 @@
     "detail": "Brent futures down 0.3% at $92.44/bbl as prices swing, per FinSquawk on X, 5:39 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "19:40",
+      "ts": "2026-11-12T19:40:56+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran says reviewing an exit from the nuclear NPT is an 'unavoidable necessity' and has become a 'national demand' (Fars); Assembly of Experts also urged NPT exit and a 'war economy' HQ",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Fars via First Squawk / Bloomberg",
+      "url": "https://x.com/FirstSquawk/status/2120844288942825714"
+    },
+    {
+      "time": "19:39",
+      "ts": "2026-11-12T19:39:25+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Oman state TV: national emergency committee convenes on response to an oil tanker that ran aground off Al Qibliyah Island; vessel, cargo and any spill not stated",
+      "theme": "Tankers",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Oman state TV via First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2120843908276228461"
+    },
     {
       "time": "19:01",
       "ts": "2026-11-12T19:01:45+08:00",
@@ -641,35 +679,19 @@
       "confidence": "Unconfirmed",
       "source": "Houthi military spokesman Yahya Saree (Arabic); also Al Mayadeen, CGTN, FinancialJuice",
       "url": "https://x.com/Yah_Saree/status/2120157026450047369"
-    },
-    {
-      "time": "21:44",
-      "ts": "2026-11-10T21:44:07+08:00",
-      "eventTime": "9:43 pm, 10 Nov (est.)",
-      "eventTs": "2026-11-10T21:43:00+08:00",
-      "eventQual": "est.",
-      "headline": "Rubio: Iran's deal conditions are 'absurd', sides 'not even close'; no reparations",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel (X), relaying Rubio remarks",
-      "url": "https://x.com/Osint613/status/2120150512884412811"
-    },
-    {
-      "time": "20:35",
-      "ts": "2026-11-10T20:35:21+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: Iran has agreed to US demands to cut its highly enriched uranium levels, according to Al Hadath sources, a step toward a deal that would reopen Hormuz",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Al Hadath sources",
-      "url": "https://x.com/FirstSquawk/status/2120133208432169208"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Iran says NPT exit review a 'national demand' (Fars)",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120844288942825714"
+    },
+    {
+      "title": "First Squawk: Oman emergency committee on tanker aground off Al Qibliyah Island",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120843908276228461"
+    },
     {
       "title": "Ukraine SOF: third strike on Omsk oil refinery on Nov 11",
       "site": "x.com/SOF_UKR",
@@ -1784,11 +1806,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy says two supertankers exploded on an unauthorised Hormuz route overnight and a third hit a naval mine this afternoon, sharply raising Gulf shipping risk.",
+      "Iran's IRGC Navy says three tankers exploded on an unauthorised Hormuz route, Oman convened an emergency committee over a grounded tanker, and Iran called NPT exit review a 'national demand'.",
       "Saudi Yanbu and Shedgum sites show fires, Israel reportedly preps an Iran strike, Ukraine officially claims its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
     ],
-    "updated": "Thu 12 Nov 2026, 7:10 pm SGT",
-    "updatedTs": "2026-11-12T19:10:00+08:00"
+    "updated": "Thu 12 Nov 2026, 7:45 pm SGT",
+    "updatedTs": "2026-11-12T19:45:00+08:00"
   },
   "last24Count": 13
 }
