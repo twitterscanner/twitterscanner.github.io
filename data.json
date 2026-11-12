@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 10:06 am SGT",
-  "lastScannedTs": "2026-11-12T10:06:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 9:03 am SGT",
-  "asOfTs": "2026-11-12T09:03:49+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 10:48 am SGT",
+  "lastScannedTs": "2026-11-12T10:48:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 10:45 am SGT",
+  "asOfTs": "2026-11-12T10:45:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
-    "lead": "Net read (last 24 hours): Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
+    "bottom": "Saudi facility fire reports, Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
+    "lead": "Net read (last 24 hours): Saudi facility fire reports, Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "15 of 21 alerts point higher, 3 lower",
-    "text": "15 of 21 alerts point higher, 3 lower.",
+    "count": "16 of 22 alerts point higher, 3 lower",
+    "text": "16 of 22 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Satellite imagery reportedly shows fires at Yanbu Industrial City and Aramco's Shedgum gas plant",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-12T10:39:00+08:00"
+      },
       {
         "text": "Reports of Iraqi forces clashing in Baghdad's Green Zone as PMF elements near US Embassy",
         "confidence": "unconfirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent futures settled up $1.27 (1.39%) at $92.76/bbl, per First Squawk on X, 3:46 am SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "10:39",
+      "ts": "2026-11-12T10:39:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Satellite imagery reportedly shows fires at Yanbu Industrial City (Red Sea) and Aramco's Shedgum gas plant (Eastern Province); no official Saudi word on cause, routine flaring not ruled out",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (OSINT), relayed by Arabic accounts; no official Saudi confirmation",
+      "url": "https://x.com/CocoPostel/status/2120708084968427685"
+    },
     {
       "time": "08:06",
       "ts": "2026-11-12T08:06:23+08:00",
@@ -654,22 +673,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk (Russian Defence Ministry)",
       "url": "https://x.com/FirstSquawk/status/2120027330261492135"
-    },
-    {
-      "time": "12:16",
-      "ts": "2026-11-10T12:16:18+08:00",
-      "eventTime": "Monday 9 Nov, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis urge foreign companies operating in Saudi Arabia to disclose their identities and investment locations so their facilities can be spared possible bombardment (Xinhua, translated from French)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Xinhua (French service)",
-      "url": "https://x.com/XHChineNouvelle/status/2120007618752299509"
     }
   ],
   "sources": [
+    {
+      "title": "Post Open Source: satellite imagery shows fires at Yanbu Industrial City and the Shedgum gas plant; no official Saudi word on cause",
+      "site": "x.com/CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2120708084968427685"
+    },
     {
       "title": "OSINTdefender: initial reports of clashes in Baghdad's Green Zone as Iran-backed PMF elements attempt to storm area near the US Embassy",
       "site": "x.com/sentdefender",
@@ -1739,11 +1750,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Initial reports say Iraqi forces clashed in Baghdad's Green Zone as Iran-backed PMF elements neared the US Embassy, while Kan reports Israel is preparing a possible Iran strike.",
-      "Israeli media say Trump resisted Netanyahu's push for renewed strikes, and Bloomberg data show Russia's seaborne crude exports fell about 700,000 b/d after the Ust-Luga attack."
+      "Satellite imagery reportedly shows fires at Saudi Arabia's Yanbu Industrial City and Shedgum gas plant, while initial reports describe clashes in Baghdad's Green Zone near the US Embassy.",
+      "Kan reports Israel is preparing a possible Iran strike, though Israeli media say Trump resisted Netanyahu's push, and Russia's seaborne crude exports fell about 700,000 b/d last week."
     ],
-    "updated": "Thu 12 Nov 2026, 9:10 am SGT",
-    "updatedTs": "2026-11-12T09:10:00+08:00"
+    "updated": "Thu 12 Nov 2026, 10:48 am SGT",
+    "updatedTs": "2026-11-12T10:48:00+08:00"
   },
   "last24Count": 13
 }
