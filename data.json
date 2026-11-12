@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 11:01 am SGT",
-  "lastScannedTs": "2026-11-12T11:01:00+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 11:11 am SGT",
+  "lastScannedTs": "2026-11-12T11:11:00+08:00",
   "asOf": "Thu 12 Nov 2026, 10:45 am SGT",
   "asOfTs": "2026-11-12T10:45:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Saudi facility fire reports, Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
     "lead": "Net read (last 24 hours): Saudi facility fire reports, Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 3 lower",
-    "text": "16 of 21 alerts point higher, 3 lower.",
+    "count": "14 of 19 alerts point higher, 3 lower",
+    "text": "14 of 19 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Satellite imagery reportedly shows fires at Yanbu Industrial City and Aramco's Shedgum gas plant",
@@ -94,18 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-11T13:18:43+08:00"
-      },
-      {
-        "text": "UKMTO reports a new tanker incident in the Strait of Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-11T11:11:04+08:00"
-      },
-      {
-        "text": "Leningrad governor confirms drone strike and fire at Ust-Luga oil export port",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-11T11:03:25+08:00"
       }
     ],
     "dovish": [
