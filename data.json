@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 2:17 pm SGT",
-  "lastScannedTs": "2026-11-12T14:17:00+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 2:59 pm SGT",
+  "lastScannedTs": "2026-11-12T14:59:06+08:00",
   "asOf": "Thu 12 Nov 2026, 2:15 pm SGT",
   "asOfTs": "2026-11-12T14:15:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "New Hormuz ship-fire report, Saudi facility fires, Iraq unrest, Israel's reported Iran strike prep and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
     "lead": "Net read (last 24 hours): New Hormuz ship-fire report, Saudi facility fires, Iraq unrest, Israel's reported Iran strike prep and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "14 of 19 alerts point higher, 3 lower",
-    "text": "14 of 19 alerts point higher, 3 lower.",
+    "count": "13 of 18 alerts point higher, 3 lower",
+    "text": "13 of 18 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Satellite thermal imagery reportedly shows a fresh ship fire in the Strait of Hormuz",
@@ -88,12 +88,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-11T18:09:48+08:00"
-      },
-      {
-        "text": "Iran's army says another tanker hit a mine and caught fire east of Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-11T14:54:42+08:00"
       }
     ],
     "dovish": [
