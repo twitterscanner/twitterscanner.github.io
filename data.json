@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 2:03 pm SGT",
-  "lastScannedTs": "2026-11-12T14:03:16+08:00",
-  "asOf": "Thu 12 Nov 2026, 10:45 am SGT",
-  "asOfTs": "2026-11-12T10:45:08+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 2:17 pm SGT",
+  "lastScannedTs": "2026-11-12T14:17:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 2:15 pm SGT",
+  "asOfTs": "2026-11-12T14:15:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Saudi facility fire reports, Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
-    "lead": "Net read (last 24 hours): Saudi facility fire reports, Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
+    "bottom": "New Hormuz ship-fire report, Saudi facility fires, Iraq unrest, Israel's reported Iran strike prep and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
+    "lead": "Net read (last 24 hours): New Hormuz ship-fire report, Saudi facility fires, Iraq unrest, Israel's reported Iran strike prep and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "13 of 18 alerts point higher, 3 lower",
-    "text": "13 of 18 alerts point higher, 3 lower.",
+    "count": "14 of 19 alerts point higher, 3 lower",
+    "text": "14 of 19 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Satellite thermal imagery reportedly shows a fresh ship fire in the Strait of Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-12T14:11:59+08:00"
+      },
       {
         "text": "Satellite imagery reportedly shows fires at Yanbu Industrial City and Aramco's Shedgum gas plant",
         "confidence": "unconfirmed",
@@ -126,10 +132,23 @@
     ]
   },
   "brent": {
-    "value": "$92.76",
-    "detail": "Brent futures settled up $1.27 (1.39%) at $92.76/bbl, per First Squawk on X, 3:46 am SGT 12 Nov"
+    "value": "$91.72",
+    "detail": "Brent down 1.11% at $91.72/bbl on US-Iran peace-talk hopes, per Moneycontrol on X, 1:34 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "14:11",
+      "ts": "2026-11-12T14:11:59+08:00",
+      "eventTime": "1:58 pm, 12 Nov (est.)",
+      "eventTs": "2026-11-12T13:58:00+08:00",
+      "eventQual": "est.",
+      "headline": "Satellite thermal imagery reportedly picks up a fresh fire in the Strait of Hormuz, possibly from a strike on a ship; vessel, cause and link to yesterday's burning ship unconfirmed",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (CocoPostel), via AB4_Ali3 (Arabic)",
+      "url": "https://x.com/CocoPostel/status/2120761506463658274"
+    },
     {
       "time": "10:39",
       "ts": "2026-11-12T10:39:00+08:00",
@@ -636,19 +655,6 @@
       "confidence": "Confirmed",
       "source": "Bloomberg",
       "url": "https://x.com/business/status/2120046308660490560"
-    },
-    {
-      "time": "13:34",
-      "ts": "2026-11-10T13:34:38+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Russia's Defence Ministry says its forces struck a cargo ship and a tanker in the Black Sea; vessels and location not named",
-      "theme": "Tankers",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk (Russian Defence Ministry)",
-      "url": "https://x.com/FirstSquawk/status/2120027330261492135"
     }
   ],
   "sources": [
@@ -1721,16 +1727,21 @@
       "title": "Second ship reportedly burning in Strait of Hormuz (satellite thermal imagery)",
       "site": "x.com",
       "href": "https://x.com/CocoPostel/status/2120385712780628149"
+    },
+    {
+      "title": "Fresh fire reportedly detected in Strait of Hormuz on satellite thermal imagery, possible ship strike",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2120761506463658274"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Satellite imagery reportedly shows fires at Saudi Arabia's Yanbu Industrial City and Shedgum gas plant, while initial reports describe clashes in Baghdad's Green Zone near the US Embassy.",
-      "Kan reports Israel is preparing a possible Iran strike, though Israeli media say Trump resisted Netanyahu's push, and Russia's seaborne crude exports fell about 700,000 b/d last week."
+      "Satellite imagery reportedly shows fires at Saudi Arabia's Yanbu Industrial City and Shedgum gas plant, and an unconfirmed fresh ship fire in the Strait of Hormuz this afternoon.",
+      "Kan reports Israel is preparing a possible Iran strike despite reported Trump resistance, initial reports describe Baghdad Green Zone clashes, and Russia's seaborne crude exports fell about 700,000 b/d."
     ],
-    "updated": "Thu 12 Nov 2026, 10:48 am SGT",
-    "updatedTs": "2026-11-12T10:48:00+08:00"
+    "updated": "Thu 12 Nov 2026, 2:17 pm SGT",
+    "updatedTs": "2026-11-12T14:17:00+08:00"
   },
   "last24Count": 13
 }
