@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 4:07 am SGT",
-  "lastScannedTs": "2026-11-13T04:07:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 4:06 am SGT",
-  "asOfTs": "2026-11-13T04:06:54+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 5:06 am SGT",
+  "lastScannedTs": "2026-11-13T05:06:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 5:06 am SGT",
+  "asOfTs": "2026-11-13T05:06:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Possible renewed US-Iran war, an 'enemy' strike on Sirik, stalled talks and Houthi drones over Saudi oil regions skew risk higher.",
-    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, an 'enemy' strike on Sirik, stalled talks and Houthi drones over Saudi oil regions skew risk higher.",
+    "bottom": "Possible renewed US-Iran war, an 'enemy' strike on Sirik, Houthi drones over Saudi oil regions and a huge drone raid on Russia skew risk higher.",
+    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, an 'enemy' strike on Sirik, Houthi drones over Saudi oil regions and a huge drone raid on Russia skew risk higher.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 1 lower",
-    "text": "22 of 25 alerts point higher, 1 lower.",
+    "count": "23 of 26 alerts point higher, 1 lower",
+    "text": "23 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Record-scale Ukrainian drone wave (reportedly 600-850) heads for Moscow and central Russia",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-13T05:06:03+08:00"
+      },
       {
         "text": "Coalition downs Houthi drones over Riyadh region and Eastern Province",
         "confidence": "confirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
   },
   "alerts": [
+    {
+      "time": "05:06",
+      "ts": "2026-11-13T05:06:03+08:00",
+      "eventTime": "4:10 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T04:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine launches one of its largest drone waves on Russia, reportedly 600-850 drones heading toward Moscow and central regions; Moscow airports reported closed",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "markito0171 on X, plus Russian sources cited by NSWOSINT and others",
+      "url": "https://x.com/markito0171/status/2120974123732246660"
+    },
     {
       "time": "04:06",
       "ts": "2026-11-13T04:06:54+08:00",
@@ -678,19 +697,6 @@
       "confidence": "Unconfirmed",
       "source": "Post Open Source (CocoPostel), via AB4_Ali3; also AMK Mapping, WW3 Monitor",
       "url": "https://x.com/CocoPostel/status/2120385712780628149"
-    },
-    {
-      "time": "11:11",
-      "ts": "2026-11-11T11:11:04+08:00",
-      "eventTime": "Not stated (UKMTO report ~11:07 am, 11 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO (warning 202-26) reports a new incident involving a tanker in the Strait of Hormuz; crew status, damage and environmental impact unknown, vessels told to transit with caution",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO Operations Centre; also FinancialJuice, First Squawk",
-      "url": "https://x.com/UK_MTO/status/2120353588933165514"
     }
   ],
   "sources": [
@@ -1873,16 +1879,26 @@
       "title": "Fresh fire reportedly detected in Strait of Hormuz on satellite thermal imagery, possible ship strike",
       "site": "x.com",
       "href": "https://x.com/CocoPostel/status/2120761506463658274"
+    },
+    {
+      "title": "Reports of 600-700 Ukrainian drones entering Russian airspace (central western regions)",
+      "site": "x.com",
+      "href": "https://x.com/markito0171/status/2120974123732246660"
+    },
+    {
+      "title": "Russian sources claim 750-850 Ukrainian drones launched in massive attack",
+      "site": "x.com",
+      "href": "https://x.com/NSWOSINT/status/2120978313716158790"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, and Iran's IRNA says Sirik on the Hormuz coast was hit by 'enemy' fire.",
-      "The Houthis claim drone strikes on Aramco in Riyadh, Yanbu and an East-West pipeline station, while the coalition says it downed drones over Riyadh and the Eastern Province."
+      "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukraine reportedly launches a record drone wave on Russia."
     ],
-    "updated": "Fri 13 Nov 2026, 4:07 am SGT",
-    "updatedTs": "2026-11-13T04:07:00+08:00"
+    "updated": "Fri 13 Nov 2026, 5:06 am SGT",
+    "updatedTs": "2026-11-13T05:06:00+08:00"
   },
   "last24Count": 13
 }
