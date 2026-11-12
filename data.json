@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 8:19 pm SGT",
-  "lastScannedTs": "2026-11-12T20:19:00+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 9:05 pm SGT",
+  "lastScannedTs": "2026-11-12T21:05:00+08:00",
   "asOf": "Thu 12 Nov 2026, 7:43 pm SGT",
   "asOfTs": "2026-11-12T19:43:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; Saudi output and diplomacy offset.",
-    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; Saudi output and diplomacy offset.",
+    "bottom": "IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; US-Iran diplomacy offsets.",
+    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Iran's NPT exit talk, Saudi facility fires and Ukraine's refinery strikes skew higher; US-Iran diplomacy offsets.",
     "verdict": "Bullish",
-    "count": "16 of 22 alerts point higher, 3 lower",
-    "text": "16 of 22 alerts point higher, 3 lower.",
+    "count": "16 of 21 alerts point higher, 2 lower",
+    "text": "16 of 21 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Iran calls reviewing NPT exit an 'unavoidable necessity' and 'national demand' (Fars)",
@@ -120,12 +120,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-12T03:33:00+08:00"
-      },
-      {
-        "text": "Saudi October output jumps 26% to 10.56 mb/d; OPEC+ up 2.04 mb/d (OPEC report)",
-        "confidence": "confirmed",
-        "theme": "OPEC",
-        "ts": "2026-11-11T21:03:00+08:00"
       }
     ],
     "neutral": [
