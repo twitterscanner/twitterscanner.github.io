@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 10:38 pm SGT",
-  "lastScannedTs": "2026-11-12T22:38:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 9:37 pm SGT",
-  "asOfTs": "2026-11-12T21:37:28+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 10:50 pm SGT",
+  "lastScannedTs": "2026-11-12T22:50:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 10:48 pm SGT",
+  "asOfTs": "2026-11-12T22:48:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
-    "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
+    "bottom": "Trump's 'no Iran deal' stance, Iranian claims of tankers hit by blasts and mines in Hormuz, NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
+    "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, Iranian claims of tankers hit by blasts and mines in Hormuz, NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 2 lower",
-    "text": "16 of 21 alerts point higher, 2 lower.",
+    "count": "17 of 22 alerts point higher, 2 lower",
+    "text": "17 of 22 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Iran's army says two more tankers hit naval mines in Hormuz this afternoon",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-12T22:42:00+08:00"
+      },
       {
         "text": "UK sanctions Russia's top ten oil producers, tightening pressure on Russian exports",
         "confidence": "confirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
+    {
+      "time": "22:42",
+      "ts": "2026-11-12T22:42:00+08:00",
+      "eventTime": "Afternoon of 12 Nov, Iran time (exact time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iranian Army says two more tankers caught fire after hitting naval mines in the eastern Strait of Hormuz this afternoon, after ignoring warnings; vessels not named, no UKMTO confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CGTN America, citing Iranian state TV; also flashed by FinancialJuice and other news accounts",
+      "url": "https://x.com/cgtnamerica/status/2120889986316652816"
+    },
     {
       "time": "21:34",
       "ts": "2026-11-12T21:34:00+08:00",
@@ -654,19 +673,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO via First Squawk; also Open Source Intel, Middle East Brief",
       "url": "https://x.com/FirstSquawk/status/2120182137601290537"
-    },
-    {
-      "time": "23:34",
-      "ts": "2026-11-10T23:34:24+08:00",
-      "eventTime": "Not stated (talks in Abu Dhabi, 10 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: US negotiators at the Abu Dhabi Ukraine talks reportedly floated letting Russian oil and gas back into the European market as part of a ceasefire deal, The Economist reports",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "War Monitor citing The Economist; also Chamberlain's Ghost",
-      "url": "https://x.com/WarMonitor3/status/2120125213379608883"
     }
   ],
   "sources": [
@@ -1804,11 +1810,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Trump said the US doesn't need a deal with Iran, while the IRGC claims tanker explosions on an unauthorised Hormuz route and Iran called NPT exit a 'national demand'.",
+      "Trump said the US doesn't need a deal with Iran, while Iran's army says two more tankers hit naval mines in Hormuz after IRGC-claimed blasts, and Iran called NPT exit a 'national demand'.",
       "The UK sanctioned Russia's top ten oil producers, Saudi Yanbu and Shedgum sites show fires, Ukraine claimed its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
     ],
-    "updated": "Thu 12 Nov 2026, 9:38 pm SGT",
-    "updatedTs": "2026-11-12T21:38:00+08:00"
+    "updated": "Thu 12 Nov 2026, 10:50 pm SGT",
+    "updatedTs": "2026-11-12T22:50:00+08:00"
   },
   "last24Count": 13
 }
