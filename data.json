@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 8:08 am SGT",
-  "lastScannedTs": "2026-11-12T08:08:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 8:03 am SGT",
-  "asOfTs": "2026-11-12T08:03:36+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 9:10 am SGT",
+  "lastScannedTs": "2026-11-12T09:10:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 9:03 am SGT",
+  "asOfTs": "2026-11-12T09:03:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage, falling Russian exports and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
-    "lead": "Net read (last 24 hours): Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage, falling Russian exports and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
+    "bottom": "Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
+    "lead": "Net read (last 24 hours): Iraq unrest, Israel's reported Iran strike prep, Hormuz mine hits, Ust-Luga damage and Houthi strikes skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "14 of 20 alerts point higher, 3 lower",
-    "text": "14 of 20 alerts point higher, 3 lower.",
+    "count": "15 of 21 alerts point higher, 3 lower",
+    "text": "15 of 21 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Reports of Iraqi forces clashing in Baghdad's Green Zone as PMF elements near US Embassy",
+        "confidence": "unconfirmed",
+        "theme": "Iraq",
+        "ts": "2026-11-12T08:06:23+08:00"
+      },
       {
         "text": "Bloomberg: Russian seaborne crude exports fell ~700,000 b/d to 3.37m b/d in week to 8 Nov",
         "confidence": "unconfirmed",
@@ -142,6 +148,19 @@
     "detail": "Brent futures settled up $1.27 (1.39%) at $92.76/bbl, per First Squawk on X, 3:46 am SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "08:06",
+      "ts": "2026-11-12T08:06:23+08:00",
+      "eventTime": "8:00 am, 12 Nov (est.)",
+      "eventTs": "2026-11-12T08:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Initial reports: Iraqi forces clash in Baghdad's Green Zone as Iran-backed PMF elements try to storm area near US Embassy, amid army/CTS push on Kataib Hezbollah's Jurf al-Sakhar",
+      "theme": "Iraq",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTdefender",
+      "url": "https://x.com/sentdefender/status/2120669497048875084"
+    },
     {
       "time": "08:00",
       "ts": "2026-11-12T08:00:02+08:00",
@@ -648,22 +667,14 @@
       "confidence": "Confirmed",
       "source": "Xinhua (French service)",
       "url": "https://x.com/XHChineNouvelle/status/2120007618752299509"
-    },
-    {
-      "time": "12:00",
-      "ts": "2026-11-10T12:00:59+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO notes reduced Strait of Hormuz transits, with most vessels using the northern route; this follows Iran's reported strike on Didamar Island navigation aids in the southern corridor",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Gulf News (UKMTO)",
-      "url": "https://x.com/gulf_news/status/2120003761280041165"
     }
   ],
   "sources": [
+    {
+      "title": "OSINTdefender: initial reports of clashes in Baghdad's Green Zone as Iran-backed PMF elements attempt to storm area near the US Embassy",
+      "site": "x.com/sentdefender",
+      "href": "https://x.com/sentdefender/status/2120669497048875084"
+    },
     {
       "title": "Mario Nawfal: Israeli media say Trump and Netanyahu clashed over Iran, Trump favouring diplomacy and sanctions over renewed strikes",
       "site": "x.com/MarioNawfal",
@@ -1728,11 +1739,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kan reports Netanyahu ordered Israel's military to prepare for a possible major Iran strike, though Israeli media say Trump resisted his push for renewed US strikes.",
-      "Bloomberg data show Russia's seaborne crude exports fell about 700,000 b/d last week, after Ukraine said its Ust-Luga strike damaged fuel tanks and an export pier."
+      "Initial reports say Iraqi forces clashed in Baghdad's Green Zone as Iran-backed PMF elements neared the US Embassy, while Kan reports Israel is preparing a possible Iran strike.",
+      "Israeli media say Trump resisted Netanyahu's push for renewed strikes, and Bloomberg data show Russia's seaborne crude exports fell about 700,000 b/d after the Ust-Luga attack."
     ],
-    "updated": "Thu 12 Nov 2026, 8:08 am SGT",
-    "updatedTs": "2026-11-12T08:08:00+08:00"
+    "updated": "Thu 12 Nov 2026, 9:10 am SGT",
+    "updatedTs": "2026-11-12T09:10:00+08:00"
   },
   "last24Count": 13
 }
