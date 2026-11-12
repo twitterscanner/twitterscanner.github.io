@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 12:36 am SGT",
-  "lastScannedTs": "2026-11-13T00:36:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 12:05 am SGT",
-  "asOfTs": "2026-11-13T00:05:38+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 12:48 am SGT",
+  "lastScannedTs": "2026-11-13T00:48:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 12:46 am SGT",
+  "asOfTs": "2026-11-13T00:46:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump's 'no Iran deal' stance, Iranian tanker mine claims in Hormuz, Houthi threats to Saudi-based firms, NPT exit talk and Russia sanctions skew higher.",
-    "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, Iranian tanker mine claims in Hormuz, Houthi threats to Saudi-based firms, NPT exit talk and Russia sanctions skew higher.",
+    "bottom": "Reported Iranian missile launches toward Hormuz, tanker mine claims, Trump's 'no Iran deal' stance, Houthi threats to Saudi-based firms and Russia sanctions skew higher.",
+    "lead": "Net read (last 24 hours): Reported Iranian missile launches toward Hormuz, tanker mine claims, Trump's 'no Iran deal' stance, Houthi threats to Saudi-based firms and Russia sanctions skew higher.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 2 lower",
-    "text": "17 of 22 alerts point higher, 2 lower.",
+    "count": "18 of 22 alerts point higher, 2 lower",
+    "text": "18 of 22 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Over 10 anti-ship or air-defence missiles reportedly launched from Bandar Abbas toward Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-13T00:30:00+08:00"
+      },
       {
         "text": "Houthis threaten foreign firms in Saudi Arabia unless they register with a Houthi body",
         "confidence": "unconfirmed",
@@ -140,12 +146,6 @@
         "confidence": "unconfirmed",
         "theme": "Refineries",
         "ts": "2026-11-12T17:58:11+08:00"
-      },
-      {
-        "text": "Iran and Oman reportedly agree a Hormuz shipping corridor and traffic separation scheme",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-12T00:44:29+08:00"
       }
     ]
   },
@@ -154,6 +154,19 @@
     "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
+    {
+      "time": "00:30",
+      "ts": "2026-11-13T00:30:00+08:00",
+      "eventTime": "12:26 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T00:26:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: more than 10 anti-ship cruise and/or surface-to-air missiles reportedly launched from Bandar Abbas toward the Strait of Hormuz; explosions reported in the city; targets unknown",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "BeamTracker (OSINT), widely amplified incl. Persian-language local accounts; traced to a single local-feed source, no official Iranian or US confirmation",
+      "url": "https://x.com/BeamTracker_/status/2120917265897951506"
+    },
     {
       "time": "00:02",
       "ts": "2026-11-13T00:02:00+08:00",
@@ -660,22 +673,14 @@
       "confidence": "Confirmed",
       "source": "Walter Bloomberg (citing IRIB); also CGTN America",
       "url": "https://x.com/DeItaone/status/2120203007337934853"
-    },
-    {
-      "time": "01:08",
-      "ts": "2026-11-11T01:08:00+08:00",
-      "eventTime": "about 12:56 am SGT, 11 Nov (first reports)",
-      "eventTs": "2026-11-11T00:56:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: several accounts report an explosion in the Strait of Hormuz, and one cites a local source on a missile launch from southern Iran toward the strait and two blasts; no official or wire confirmation yet",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "UK Report; also Interceptor News, Gulfion",
-      "url": "https://x.com/UK_REPT/status/2120198999885901857"
     }
   ],
   "sources": [
+    {
+      "title": "BeamTracker: over 10 missiles reportedly launched from Bandar Abbas toward Hormuz",
+      "site": "x.com/BeamTracker_",
+      "href": "https://x.com/BeamTracker_/status/2120917265897951506"
+    },
     {
       "title": "Naser al-Tamimi (SCMP): Houthis warn foreign businesses in Saudi Arabia to register",
       "site": "x.com/nasertamimi",
@@ -1815,11 +1820,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight, the Houthis reportedly warned foreign businesses in Saudi Arabia to register with a Houthi body in Yemen or risk being targeted by future strikes.",
-      "This follows Iranian claims of more tankers hitting naval mines in Hormuz, Trump saying the US doesn't need an Iran deal, and new UK sanctions on Russia's top oil producers."
+      "Over 10 anti-ship or air-defence missiles were reportedly launched from Bandar Abbas toward the Strait of Hormuz just after midnight, though this is unconfirmed and targets are unknown.",
+      "Earlier, the Houthis reportedly warned foreign businesses in Saudi Arabia to register or face strikes, after Iranian claims that more tankers hit mines in Hormuz."
     ],
-    "updated": "Fri 13 Nov 2026, 12:06 am SGT",
-    "updatedTs": "2026-11-13T00:06:00+08:00"
+    "updated": "Fri 13 Nov 2026, 12:48 am SGT",
+    "updatedTs": "2026-11-13T00:48:00+08:00"
   },
   "last24Count": 13
 }
