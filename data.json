@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 1:05 am SGT",
-  "lastScannedTs": "2026-11-13T01:05:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 12:55 am SGT",
-  "asOfTs": "2026-11-13T00:55:30+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 1:27 am SGT",
+  "lastScannedTs": "2026-11-13T01:27:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 1:27 am SGT",
+  "asOfTs": "2026-11-13T01:27:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Reported Iranian missile launches toward Hormuz, new Houthi claims on Saudi pipeline and Yanbu, tanker mine claims and Trump's 'no Iran deal' stance skew higher.",
-    "lead": "Net read (last 24 hours): Reported Iranian missile launches toward Hormuz, new Houthi claims on Saudi pipeline and Yanbu, tanker mine claims and Trump's 'no Iran deal' stance skew higher.",
+    "bottom": "Reported Iranian missile launches and explosions on the Hormuz coast, new Houthi claims on Saudi pipeline and Yanbu, and Trump's 'no Iran deal' stance skew higher.",
+    "lead": "Net read (last 24 hours): Reported Iranian missile launches and explosions on the Hormuz coast, new Houthi claims on Saudi pipeline and Yanbu, and Trump's 'no Iran deal' stance skew higher.",
     "verdict": "Bullish",
-    "count": "18 of 22 alerts point higher, 2 lower",
-    "text": "18 of 22 alerts point higher, 2 lower.",
+    "count": "19 of 23 alerts point higher, 2 lower",
+    "text": "19 of 23 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Explosions reported near Sirik on Iran's Hormuz coast after Bandar Abbas missile launches",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-13T01:27:00+08:00"
+      },
       {
         "text": "Houthis claim new strikes on East-West pipeline Pumping Station 7 and Yanbu oil facility",
         "confidence": "unconfirmed",
@@ -154,6 +160,19 @@
     "detail": "Brent up $1.14 (1.23%) and WTI $87.23 as of 9:31 pm SGT 12 Nov, rebounding after Trump's 'no Iran deal' post (market-update posts on X)"
   },
   "alerts": [
+    {
+      "time": "01:27",
+      "ts": "2026-11-13T01:27:00+08:00",
+      "eventTime": "1:20 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T01:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed: explosions reported at Sarkhor Taheroi, 6 km from Sirik on Iran's Hormuz coast, following the reported missile launches from Bandar Abbas; cause not stated",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel (Osint613), citing BeamTracker (OSINT); single source, no official confirmation",
+      "url": "https://x.com/Osint613/status/2120929681042190337"
+    },
     {
       "time": "00:54",
       "ts": "2026-11-13T00:54:00+08:00",
@@ -660,22 +679,14 @@
       "confidence": "Confirmed",
       "source": "Fars News via First Squawk",
       "url": "https://x.com/FirstSquawk/status/2120238344424866258"
-    },
-    {
-      "time": "02:40",
-      "ts": "2026-11-11T02:40:18+08:00",
-      "eventTime": "Not stated (G7 meeting, 10 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Qatar's PM reportedly told G7 foreign ministers in Paris that Doha has secured 'at least two weeks' for diplomacy toward a US-Iran understanding (Jerusalem Post).",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing the Jerusalem Post",
-      "url": "https://x.com/FirstSquawk/status/2120225050741846205"
     }
   ],
   "sources": [
+    {
+      "title": "Open Source Intel: explosions reported near Sirik, southern Iran, after Bandar Abbas launches",
+      "site": "x.com/Osint613",
+      "href": "https://x.com/Osint613/status/2120929681042190337"
+    },
     {
       "title": "Yahya Saree (Arabic): Houthi strikes on East-West pipeline Pumping Station 7 and Yanbu oil facility",
       "site": "x.com/Yah_Saree",
@@ -1825,11 +1836,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Over 10 missiles were reportedly launched from Bandar Abbas toward the Strait of Hormuz just after midnight; this is unconfirmed and the targets are unknown.",
+      "Over 10 missiles were reportedly launched from Bandar Abbas toward the Strait of Hormuz after midnight, followed by reported explosions near Sirik; both are unconfirmed and targets unknown.",
       "The Houthis separately claim new strikes on a Saudi East-West pipeline pumping station and the Yanbu oil facility, after warning foreign firms in Saudi Arabia to register or be targeted."
     ],
-    "updated": "Fri 13 Nov 2026, 12:56 am SGT",
-    "updatedTs": "2026-11-13T00:56:00+08:00"
+    "updated": "Fri 13 Nov 2026, 1:27 am SGT",
+    "updatedTs": "2026-11-13T01:27:00+08:00"
   },
   "last24Count": 13
 }
