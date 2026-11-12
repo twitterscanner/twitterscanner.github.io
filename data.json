@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 2:59 pm SGT",
-  "lastScannedTs": "2026-11-12T14:59:06+08:00",
-  "asOf": "Thu 12 Nov 2026, 2:15 pm SGT",
-  "asOfTs": "2026-11-12T14:15:20+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 3:06 pm SGT",
+  "lastScannedTs": "2026-11-12T15:06:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 3:03 pm SGT",
+  "asOfTs": "2026-11-12T15:03:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New Hormuz ship-fire report, Saudi facility fires, Iraq unrest, Israel's reported Iran strike prep and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
-    "lead": "Net read (last 24 hours): New Hormuz ship-fire report, Saudi facility fires, Iraq unrest, Israel's reported Iran strike prep and Ust-Luga damage skew higher; Saudi output and US diplomacy offset.",
+    "bottom": "New IRGC supertanker blast claims, Hormuz ship fires, Saudi facility fires, Iraq unrest and Israel's Iran strike prep skew higher; Saudi output and US diplomacy offset.",
+    "lead": "Net read (last 24 hours): New IRGC supertanker blast claims, Hormuz ship fires, Saudi facility fires, Iraq unrest and Israel's Iran strike prep skew higher; Saudi output and US diplomacy offset.",
     "verdict": "Bullish",
-    "count": "13 of 18 alerts point higher, 3 lower",
-    "text": "13 of 18 alerts point higher, 3 lower.",
+    "count": "14 of 19 alerts point higher, 3 lower",
+    "text": "14 of 19 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says two supertankers (4m+ bbl) hit by explosions on unauthorised Hormuz route",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-12T14:51:18+08:00"
+      },
       {
         "text": "Satellite thermal imagery reportedly shows a fresh ship fire in the Strait of Hormuz",
         "confidence": "unconfirmed",
@@ -130,6 +136,19 @@
     "detail": "Brent down 1.11% at $91.72/bbl on US-Iran peace-talk hopes, per Moneycontrol on X, 1:34 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "14:51",
+      "ts": "2026-11-12T14:51:18+08:00",
+      "eventTime": "Night of 11-12 Nov (est., 'Wednesday night')",
+      "eventTs": "2026-11-12T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy says two supertankers carrying over 4 million barrels were stopped after explosions on Wednesday night while using an 'unauthorised' southern route through Hormuz; vessels not named, no UKMTO confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, citing Sepah News and Iranian state media; also RedboxWire, Reuters via wires",
+      "url": "https://x.com/FirstSquawk/status/2120771399547789419"
+    },
     {
       "time": "14:11",
       "ts": "2026-11-12T14:11:59+08:00",
@@ -636,22 +655,14 @@
       "confidence": "Unconfirmed",
       "source": "NSTRIKE",
       "url": "https://x.com/NSTRIKE1231/status/2120093605834432545"
-    },
-    {
-      "time": "14:50",
-      "ts": "2026-11-10T14:50:03+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Bloomberg: Saudi Arabia's main shipping firm Bahri is sending some tankers through the Strait of Hormuz in coordination with the US military",
-      "theme": "Hormuz",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Bloomberg",
-      "url": "https://x.com/business/status/2120046308660490560"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: IRGC Navy claims two supertankers exploded in the Strait of Hormuz last night (Sepah News)",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120771399547789419"
+    },
     {
       "title": "Post Open Source: satellite imagery shows fires at Yanbu Industrial City and the Shedgum gas plant; no official Saudi word on cause",
       "site": "x.com/CocoPostel",
@@ -1731,11 +1742,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Satellite imagery reportedly shows fires at Saudi Arabia's Yanbu Industrial City and Shedgum gas plant, and an unconfirmed fresh ship fire in the Strait of Hormuz this afternoon.",
+      "Iran's IRGC Navy says two supertankers carrying over 4 million barrels were hit by explosions on an unauthorised Hormuz route, and satellite imagery shows fires at Yanbu and Shedgum.",
       "Kan reports Israel is preparing a possible Iran strike despite reported Trump resistance, initial reports describe Baghdad Green Zone clashes, and Russia's seaborne crude exports fell about 700,000 b/d."
     ],
-    "updated": "Thu 12 Nov 2026, 2:17 pm SGT",
-    "updatedTs": "2026-11-12T14:17:00+08:00"
+    "updated": "Thu 12 Nov 2026, 3:06 pm SGT",
+    "updatedTs": "2026-11-12T15:06:00+08:00"
   },
   "last24Count": 13
 }
