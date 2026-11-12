@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 5:05 pm SGT",
-  "lastScannedTs": "2026-11-12T17:05:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 3:03 pm SGT",
-  "asOfTs": "2026-11-12T15:03:49+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 5:31 pm SGT",
+  "lastScannedTs": "2026-11-12T17:31:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 5:29 pm SGT",
+  "asOfTs": "2026-11-12T17:29:48+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New IRGC supertanker blast claims, Hormuz ship fires, Saudi facility fires, Iraq unrest and Israel's Iran strike prep skew higher; Saudi output and US diplomacy offset.",
-    "lead": "Net read (last 24 hours): New IRGC supertanker blast claims, Hormuz ship fires, Saudi facility fires, Iraq unrest and Israel's Iran strike prep skew higher; Saudi output and US diplomacy offset.",
+    "bottom": "A third IRGC-claimed tanker blast, earlier supertanker hits, Saudi facility fires and Israel's Iran strike prep skew higher; Saudi output and diplomacy offset.",
+    "lead": "Net read (last 24 hours): A third IRGC-claimed tanker blast, earlier supertanker hits, Saudi facility fires and Israel's Iran strike prep skew higher; Saudi output and diplomacy offset.",
     "verdict": "Bullish",
-    "count": "14 of 19 alerts point higher, 3 lower",
-    "text": "14 of 19 alerts point higher, 3 lower.",
+    "count": "15 of 20 alerts point higher, 3 lower",
+    "text": "15 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says a third tanker hit a naval mine in Hormuz this afternoon",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-12T17:24:30+08:00"
+      },
       {
         "text": "IRGC says two supertankers (4m+ bbl) hit by explosions on unauthorised Hormuz route",
         "confidence": "unconfirmed",
@@ -136,6 +142,19 @@
     "detail": "Brent down 1.11% at $91.72/bbl on US-Iran peace-talk hopes, per Moneycontrol on X, 1:34 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "17:24",
+      "ts": "2026-11-12T17:24:30+08:00",
+      "eventTime": "Afternoon of 12 Nov, Iran time (est.)",
+      "eventTs": "2026-11-12T17:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy says a third tanker using an unauthorised Hormuz route exploded this afternoon after hitting a naval mine, after two supertankers overnight; vessel not named, no UKMTO confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CGTN Europe, citing IRGC Navy public relations; also relayed by other news accounts",
+      "url": "https://x.com/CGTNEurope/status/2120809953405382746"
+    },
     {
       "time": "14:51",
       "ts": "2026-11-12T14:51:18+08:00",
@@ -642,22 +661,14 @@
       "confidence": "Unconfirmed",
       "source": "Anushree Mukherjee; also The Officials",
       "url": "https://x.com/AnushreeReports/status/2120097211698868718"
-    },
-    {
-      "time": "17:57",
-      "ts": "2026-11-10T17:57:59+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Unconfirmed: Rostov-on-Don, Taganrog and Azov ports in Russia's Rostov region reportedly brought to a near standstill by Ukrainian strikes; Rostov governor warns of industry collapse. The Azov ports ship Russian oil products",
-      "theme": "Ports",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "NSTRIKE",
-      "url": "https://x.com/NSTRIKE1231/status/2120093605834432545"
     }
   ],
   "sources": [
+    {
+      "title": "CGTN Europe: IRGC Navy says a third tanker violating Hormuz rules exploded this afternoon after hitting a naval mine",
+      "site": "x.com/CGTNEurope",
+      "href": "https://x.com/CGTNEurope/status/2120809953405382746"
+    },
     {
       "title": "First Squawk: IRGC Navy claims two supertankers exploded in the Strait of Hormuz last night (Sepah News)",
       "site": "x.com/FirstSquawk",
@@ -1742,11 +1753,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy says two supertankers carrying over 4 million barrels were hit by explosions on an unauthorised Hormuz route, and satellite imagery shows fires at Yanbu and Shedgum.",
-      "Kan reports Israel is preparing a possible Iran strike despite reported Trump resistance, initial reports describe Baghdad Green Zone clashes, and Russia's seaborne crude exports fell about 700,000 b/d."
+      "Iran's IRGC Navy says two supertankers carrying over 4 million barrels exploded on an unauthorised Hormuz route overnight, and a third tanker hit a naval mine this afternoon.",
+      "Satellite imagery shows fires at Saudi Arabia's Yanbu and Shedgum sites, while Kan reports Israel is preparing a possible Iran strike and Russia's seaborne crude exports fell about 700,000 b/d."
     ],
-    "updated": "Thu 12 Nov 2026, 3:06 pm SGT",
-    "updatedTs": "2026-11-12T15:06:00+08:00"
+    "updated": "Thu 12 Nov 2026, 5:31 pm SGT",
+    "updatedTs": "2026-11-12T17:31:00+08:00"
   },
   "last24Count": 13
 }
