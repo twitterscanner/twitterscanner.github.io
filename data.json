@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 6:20 pm SGT",
-  "lastScannedTs": "2026-11-12T18:20:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 6:04 pm SGT",
-  "asOfTs": "2026-11-12T18:04:12+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 6:40 pm SGT",
+  "lastScannedTs": "2026-11-12T18:40:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 6:39 pm SGT",
+  "asOfTs": "2026-11-12T18:39:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "A third IRGC-claimed tanker blast, earlier supertanker hits, Saudi facility fires and Israel's Iran strike prep skew higher; Saudi output and diplomacy offset.",
-    "lead": "Net read (last 24 hours): A third IRGC-claimed tanker blast, earlier supertanker hits, Saudi facility fires and Israel's Iran strike prep skew higher; Saudi output and diplomacy offset.",
+    "bottom": "IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep and new EU Russia sanctions skew higher; Saudi output and diplomacy offset.",
+    "lead": "Net read (last 24 hours): IRGC-claimed tanker blasts, Saudi facility fires, Israel's Iran strike prep and new EU Russia sanctions skew higher; Saudi output and diplomacy offset.",
     "verdict": "Bullish",
-    "count": "14 of 19 alerts point higher, 3 lower",
-    "text": "14 of 19 alerts point higher, 3 lower.",
+    "count": "15 of 20 alerts point higher, 3 lower",
+    "text": "15 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "EU envoys reportedly agree new Russia listings hitting shadow fleet enablers and energy firms",
+        "confidence": "unconfirmed",
+        "theme": "Sanctions",
+        "ts": "2026-11-12T18:37:55+08:00"
+      },
       {
         "text": "IRGC says a third tanker hit a naval mine in Hormuz this afternoon",
         "confidence": "unconfirmed",
@@ -136,6 +142,19 @@
     "detail": "Brent futures down 0.3% at $92.44/bbl as prices swing, per FinSquawk on X, 5:39 pm SGT 12 Nov"
   },
   "alerts": [
+    {
+      "time": "18:37",
+      "ts": "2026-11-12T18:37:55+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "EU envoys reportedly agree 145 new Russia sanctions listings, including shadow fleet enablers, energy companies and 50 banks",
+      "theme": "Sanctions",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Abominable / Jan De Laet on X (citing a source)",
+      "url": "https://x.com/Abom1nabl3/status/2120790393738477924"
+    },
     {
       "time": "17:58",
       "ts": "2026-11-12T17:58:11+08:00",
@@ -642,22 +661,14 @@
       "confidence": "Unconfirmed",
       "source": "Special Kherson Cat, citing Russian Telegram channel Dosye Shpiona",
       "url": "https://x.com/bayraktar_1love/status/2120127280840081611"
-    },
-    {
-      "time": "18:25",
-      "ts": "2026-11-10T18:25:54+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy says two 'violating' tankers using an unauthorised route through the Strait of Hormuz hit explosives and caught fire, per Iranian state media (Tasnim, IRIB); no UKMTO confirmation yet",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Tasnim; also LiveSquawk, citing IRIB",
-      "url": "https://x.com/FirstSquawk/status/2120101226297819575"
     }
   ],
   "sources": [
+    {
+      "title": "Abominable: EU envoys agree 145 new Russia sanctions listings incl. shadow fleet enablers",
+      "site": "x.com/Abom1nabl3",
+      "href": "https://x.com/Abom1nabl3/status/2120790393738477924"
+    },
     {
       "title": "FinSquawk: Brent crude futures fall 0.3% to $92.44/bbl",
       "site": "x.com/finsquawk_",
@@ -1758,10 +1769,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran's IRGC Navy says two supertankers exploded on an unauthorised Hormuz route overnight and a third hit a naval mine this afternoon, sharply raising Gulf shipping risk.",
-      "Satellite imagery shows fires at Saudi Yanbu and Shedgum sites, Israel is reportedly preparing a possible Iran strike, and Russian drones reportedly hit Ukraine's Kremenchuk refinery."
+      "Saudi Yanbu and Shedgum sites show fires, Israel reportedly preps an Iran strike, Russian drones reportedly hit Kremenchuk, and EU envoys reportedly agreed new Russia shadow-fleet sanctions."
     ],
-    "updated": "Thu 12 Nov 2026, 6:04 pm SGT",
-    "updatedTs": "2026-11-12T18:04:00+08:00"
+    "updated": "Thu 12 Nov 2026, 6:40 pm SGT",
+    "updatedTs": "2026-11-12T18:40:00+08:00"
   },
   "last24Count": 13
 }
