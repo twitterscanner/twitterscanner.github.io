@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 9:38 pm SGT",
-  "lastScannedTs": "2026-11-12T21:38:00+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 9:59 pm SGT",
+  "lastScannedTs": "2026-11-12T21:59:00+08:00",
   "asOf": "Thu 12 Nov 2026, 9:37 pm SGT",
   "asOfTs": "2026-11-12T21:37:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
     "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 2 lower",
-    "text": "17 of 22 alerts point higher, 2 lower.",
+    "count": "16 of 21 alerts point higher, 2 lower",
+    "text": "16 of 21 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "UK sanctions Russia's top ten oil producers, tightening pressure on Russian exports",
@@ -106,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-12T00:34:00+08:00"
-      },
-      {
-        "text": "Fire reported at Omsk, Russia's largest refinery, after 3-hour Ukrainian drone attack",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-11T21:58:00+08:00"
       }
     ],
     "dovish": [
