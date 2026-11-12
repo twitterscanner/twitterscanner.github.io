@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 6:02 am SGT",
-  "lastScannedTs": "2026-11-13T06:02:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 6:02 am SGT",
-  "asOfTs": "2026-11-13T06:02:24+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 7:07 am SGT",
+  "lastScannedTs": "2026-11-13T07:07:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 7:06 am SGT",
+  "asOfTs": "2026-11-13T07:06:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Possible renewed US-Iran war, strikes on Sirik, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
-    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, strikes on Sirik, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
+    "bottom": "Possible renewed US-Iran war, strikes along Iran's Hormuz coast, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
+    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, strikes along Iran's Hormuz coast, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
     "verdict": "Bullish",
-    "count": "24 of 27 alerts point higher, 1 lower",
-    "text": "24 of 27 alerts point higher, 1 lower.",
+    "count": "23 of 26 alerts point higher, 1 lower",
+    "text": "23 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Reported US strikes widen along Iran's Hormuz coast, Bandar Lengeh air defence site hit",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-13T07:07:00+08:00"
+      },
       {
         "text": "Ukrainian drones reportedly hit Russia's Volgograd refinery amid the mass drone wave",
         "confidence": "unconfirmed",
@@ -142,18 +148,6 @@
         "confidence": "unconfirmed",
         "theme": "Iraq",
         "ts": "2026-11-12T08:06:23+08:00"
-      },
-      {
-        "text": "Bloomberg: Russian seaborne crude exports fell ~700,000 b/d to 3.37m b/d in week to 8 Nov",
-        "confidence": "unconfirmed",
-        "theme": "Ports",
-        "ts": "2026-11-12T07:05:47+08:00"
-      },
-      {
-        "text": "Kan: Netanyahu orders IDF to prepare possible major strike on Iran",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-12T07:02:01+08:00"
       }
     ],
     "dovish": [
@@ -184,6 +178,19 @@
     "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
   },
   "alerts": [
+    {
+      "time": "07:07",
+      "ts": "2026-11-13T07:07:00+08:00",
+      "eventTime": "6:20 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T06:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Explosions and smoke at Bandar Lengeh on Iran's Hormuz coast after reported US strikes on Sirik; an Iranian air defence site was reportedly targeted",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel (Osint613) on X, plus Post Open Source and Mario Nawfal (footage of drones along Hormozgan coast)",
+      "url": "https://x.com/Osint613/status/2121007278757167290"
+    },
     {
       "time": "06:02",
       "ts": "2026-11-13T06:02:30+08:00",
@@ -690,19 +697,6 @@
       "confidence": "Unconfirmed",
       "source": "IRGC Navy statement via Fars; Open Source Intel, LiveSquawk, First Squawk",
       "url": "https://x.com/Osint613/status/2120459262287860145"
-    },
-    {
-      "time": "14:54",
-      "ts": "2026-11-11T14:54:42+08:00",
-      "eventTime": "Morning, 11 Nov (est.; likely the incident UKMTO flagged ~11:07 am)",
-      "eventTs": "2026-11-11T11:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian state media: Iran's army says another oil tanker caught fire this morning east of the Strait of Hormuz after hitting a naval mine; IRGC says two other tankers were intercepted; vessel not named",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk and LiveSquawk, citing Iranian state media (IRIB, Tasnim)",
-      "url": "https://x.com/FirstSquawk/status/2120409094557511822"
     }
   ],
   "sources": [
@@ -1905,16 +1899,26 @@
       "title": "Russian sources claim 750-850 Ukrainian drones launched in massive attack",
       "site": "x.com",
       "href": "https://x.com/NSWOSINT/status/2120978313716158790"
+    },
+    {
+      "title": "Explosions at Bandar Lengeh after reported US strikes on Sirik; air defence site targeted",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2121007278757167290"
+    },
+    {
+      "title": "Columns of smoke over Bandar Lengeh, Hormozgan",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2121005968167440649"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kan reports CENTCOM told Israel and Gulf states to prepare for a possible renewed Iran war, and Iran's IRNA says Sirik on the Hormuz coast was hit by 'enemy' fire.",
+      "Kan reports CENTCOM told Gulf allies to prepare for a renewed Iran war, while reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast.",
       "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukrainian drones reportedly hit Russia's Volgograd refinery."
     ],
-    "updated": "Fri 13 Nov 2026, 6:02 am SGT",
-    "updatedTs": "2026-11-13T06:02:00+08:00"
+    "updated": "Fri 13 Nov 2026, 7:07 am SGT",
+    "updatedTs": "2026-11-13T07:07:00+08:00"
   },
   "last24Count": 13
 }
