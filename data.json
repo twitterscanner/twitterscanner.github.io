@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 12 Nov 2026, 9:15 pm SGT",
-  "lastScannedTs": "2026-11-12T21:15:00+08:00",
-  "asOf": "Thu 12 Nov 2026, 9:14 pm SGT",
-  "asOfTs": "2026-11-12T21:14:25+08:00",
+  "lastScanned": "Thu 12 Nov 2026, 9:38 pm SGT",
+  "lastScannedTs": "2026-11-12T21:38:00+08:00",
+  "asOf": "Thu 12 Nov 2026, 9:37 pm SGT",
+  "asOfTs": "2026-11-12T21:37:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk and Ukraine's refinery strikes skew higher; diplomacy hopes fade.",
-    "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk and Ukraine's refinery strikes skew higher; diplomacy hopes fade.",
+    "bottom": "Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
+    "lead": "Net read (last 24 hours): Trump's 'no Iran deal' stance, IRGC-claimed tanker blasts, Iran's NPT exit talk, new UK sanctions on Russian producers and refinery strikes skew higher.",
     "verdict": "Bullish",
-    "count": "16 of 21 alerts point higher, 2 lower",
-    "text": "16 of 21 alerts point higher, 2 lower.",
+    "count": "17 of 22 alerts point higher, 2 lower",
+    "text": "17 of 22 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "UK sanctions Russia's top ten oil producers, tightening pressure on Russian exports",
+        "confidence": "confirmed",
+        "theme": "Sanctions",
+        "ts": "2026-11-12T21:34:00+08:00"
+      },
       {
         "text": "Trump: 'We don't need a deal with Iran'; says US has Iran's money and its Strait",
         "confidence": "confirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent erased earlier losses and rose about 1% after Trump's 'no Iran deal' comments (FinSquawk on X, 9:12 pm SGT 12 Nov); new level not stated, last quoted $92.34 at 7:52 pm SGT"
   },
   "alerts": [
+    {
+      "time": "21:34",
+      "ts": "2026-11-12T21:34:00+08:00",
+      "eventTime": "9:34 pm, 12 Nov (est.)",
+      "eventTs": "2026-11-12T21:34:00+08:00",
+      "eventQual": "est.",
+      "headline": "UK government says it is sanctioning Russia's top ten oil producers, widening UK curbs beyond Rosneft and Lukoil; details not yet published",
+      "theme": "Sanctions",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UK government via First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2120872859266699313"
+    },
     {
       "time": "21:15",
       "ts": "2026-11-12T21:15:00+08:00",
@@ -654,22 +673,14 @@
       "confidence": "Unconfirmed",
       "source": "War Monitor citing The Economist; also Chamberlain's Ghost",
       "url": "https://x.com/WarMonitor3/status/2120125213379608883"
-    },
-    {
-      "time": "22:12",
-      "ts": "2026-11-10T22:12:48+08:00",
-      "eventTime": "Tue afternoon UAE time, ~7 pm SGT (est.)",
-      "eventTs": "2026-11-10T19:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "ADNOC Logistics & Services says one of its vessels was damaged in an attack in UAE territorial waters in the Gulf; response under way",
-      "theme": "Tankers",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "ADNOC L&S statement via UAE state agency WAM; also World Conflict, Middle East Brief",
-      "url": "https://x.com/WAMNEWS_ENG/status/2120166416540463299"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: UK sanctions Russia's top ten oil producers",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2120872859266699313"
+    },
     {
       "title": "First Squawk: Trump says 'We don't need a deal with Iran'",
       "site": "x.com/FirstSquawk",
@@ -1799,11 +1810,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Trump said the US doesn't need a deal with Iran, while the IRGC claims three tankers exploded on an unauthorised Hormuz route and Iran called NPT exit a 'national demand'.",
-      "Saudi Yanbu and Shedgum sites show fires, Oman convened an emergency committee over a grounded tanker, Ukraine claimed its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
+      "Trump said the US doesn't need a deal with Iran, while the IRGC claims tanker explosions on an unauthorised Hormuz route and Iran called NPT exit a 'national demand'.",
+      "The UK sanctioned Russia's top ten oil producers, Saudi Yanbu and Shedgum sites show fires, Ukraine claimed its Omsk refinery strike, and EU envoys reportedly agreed new Russia sanctions."
     ],
-    "updated": "Thu 12 Nov 2026, 9:15 pm SGT",
-    "updatedTs": "2026-11-12T21:15:00+08:00"
+    "updated": "Thu 12 Nov 2026, 9:38 pm SGT",
+    "updatedTs": "2026-11-12T21:38:00+08:00"
   },
   "last24Count": 13
 }
