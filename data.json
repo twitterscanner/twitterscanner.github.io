@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 5:05 pm SGT",
-  "lastScannedTs": "2026-11-13T17:05:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 5:04 pm SGT",
-  "asOfTs": "2026-11-13T17:04:16+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 5:15 pm SGT",
+  "lastScannedTs": "2026-11-13T17:15:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 5:14 pm SGT",
+  "asOfTs": "2026-11-13T17:14:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though the IEA now sees a surplus.",
-    "lead": "Net read (last 24 hours): Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though the IEA now sees a surplus.",
+    "bottom": "Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
+    "lead": "Net read (last 24 hours): Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
     "verdict": "Bullish",
-    "count": "24 of 29 alerts point higher, 3 lower",
-    "text": "24 of 29 alerts point higher, 3 lower.",
+    "count": "24 of 30 alerts point higher, 4 lower",
+    "text": "24 of 30 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "IAEA report: no verification of Iran's nuclear material, no Isfahan access since June 2025",
@@ -158,6 +158,12 @@
     ],
     "dovish": [
       {
+        "text": "IEA members to release a further 71m bbl of emergency stocks through February",
+        "confidence": "confirmed",
+        "theme": "Strategic reserves",
+        "ts": "2026-11-13T17:10:58+08:00"
+      },
+      {
         "text": "IEA: market back in surplus, 1.7m b/d Q4 glut as Gulf/Hormuz exports recover",
         "confidence": "confirmed",
         "theme": "Hormuz",
@@ -196,6 +202,19 @@
     "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "17:10",
+      "ts": "2026-11-13T17:10:58+08:00",
+      "eventTime": "5:00 pm, 13 Nov (est.)",
+      "eventTs": "2026-11-13T17:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IEA says member countries plan to release a further 71 million barrels of emergency crude and product stocks through end-February 2027, with about 15 million barrels of diesel; it also reports observed inventories rose 52 million barrels in October, the first build since June",
+      "theme": "Strategic reserves",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk, citing the IEA Oil Market Report",
+      "url": "https://x.com/FirstSquawk/status/2121168937975201812"
+    },
     {
       "time": "17:00",
       "ts": "2026-11-13T17:00:58+08:00",
@@ -702,22 +721,14 @@
       "confidence": "Confirmed",
       "source": "Meanwhile in Ukraine and Madmax OSINT, citing Ukraine's SBU",
       "url": "https://x.com/MeanwhileInUA/status/2120574227476594770"
-    },
-    {
-      "time": "01:04",
-      "ts": "2026-11-12T01:04:01+08:00",
-      "eventTime": "7:30 am, 11 Nov (est.)",
-      "eventTs": "2026-11-11T07:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine's General Staff says its Ust-Luga strike damaged five fuel tanks (150,000 m3), a hydrocracker unit and an export tanker pier at the Baltic oil port",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Kyiv Post, citing Ukraine's General Staff; also LiveSquawk",
-      "url": "https://x.com/KyivPost/status/2120563208289149425"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: IEA members plan further 71 million barrel emergency stock release through Feb 2027",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2121168937975201812"
+    },
     {
       "title": "FinancialJuice: IRGC Navy says liquefied gas tanker struck naval mine in Hormuz",
       "site": "x.com/financialjuice",
@@ -1988,10 +1999,10 @@
     "title": "Today's key developments",
     "lines": [
       "Reported US strikes hit Iran's Hormuz coast, the IRGC claims a Bahrain radar strike and an LNG tanker mine blast, and an IAEA report says Iran's nuclear material cannot be verified.",
-      "Houthis claim strikes on Saudi oil sites and Ukrainian drones hit Volgograd refinery, while the IEA says the oil market has swung back to surplus as Gulf exports recover."
+      "Houthis claim strikes on Saudi oil sites and Ukrainian drones hit Volgograd refinery, while the IEA sees the market back in surplus and plans a further 71 million barrel stock release."
     ],
-    "updated": "Fri 13 Nov 2026, 5:05 pm SGT",
-    "updatedTs": "2026-11-13T17:05:00+08:00"
+    "updated": "Fri 13 Nov 2026, 5:15 pm SGT",
+    "updatedTs": "2026-11-13T17:15:00+08:00"
   },
   "last24Count": 13
 }
