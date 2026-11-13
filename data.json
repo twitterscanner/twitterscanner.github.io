@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 8:05 am SGT",
-  "lastScannedTs": "2026-11-13T08:05:00+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 9:04 am SGT",
+  "lastScannedTs": "2026-11-13T09:04:00+08:00",
   "asOf": "Fri 13 Nov 2026, 7:06 am SGT",
   "asOfTs": "2026-11-13T07:06:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Possible renewed US-Iran war, strikes along Iran's Hormuz coast, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
     "lead": "Net read (last 24 hours): Possible renewed US-Iran war, strikes along Iran's Hormuz coast, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
     "verdict": "Bullish",
-    "count": "23 of 25 alerts point higher, 0 lower",
-    "text": "23 of 25 alerts point higher, 0 lower.",
+    "count": "22 of 24 alerts point higher, 0 lower",
+    "text": "22 of 24 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Reported US strikes widen along Iran's Hormuz coast, Bandar Lengeh air defence site hit",
@@ -142,12 +142,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-12T10:39:00+08:00"
-      },
-      {
-        "text": "Reports of Iraqi forces clashing in Baghdad's Green Zone as PMF elements near US Embassy",
-        "confidence": "unconfirmed",
-        "theme": "Iraq",
-        "ts": "2026-11-12T08:06:23+08:00"
       }
     ],
     "dovish": [],
