@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 7:04 pm SGT",
-  "lastScannedTs": "2026-11-13T19:04:00+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 7:45 pm SGT",
+  "lastScannedTs": "2026-11-13T19:45:00+08:00",
   "asOf": "Fri 13 Nov 2026, 6:09 pm SGT",
   "asOfTs": "2026-11-13T18:09:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
     "lead": "Net read (last 24 hours): Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
     "verdict": "Bullish",
-    "count": "22 of 27 alerts point higher, 4 lower",
-    "text": "22 of 27 alerts point higher, 4 lower.",
+    "count": "21 of 25 alerts point higher, 4 lower",
+    "text": "21 of 25 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Iran claims its navy shot down a US MQ-1 drone off Sirik near Hormuz",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-12T21:15:00+08:00"
-      },
-      {
-        "text": "Iran calls reviewing NPT exit an 'unavoidable necessity' and 'national demand' (Fars)",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-12T19:40:56+08:00"
       }
     ],
     "dovish": [
@@ -170,14 +164,7 @@
         "ts": "2026-11-13T10:05:00+08:00"
       }
     ],
-    "neutral": [
-      {
-        "text": "Oman emergency committee meets on oil tanker aground off Al Qibliyah Island",
-        "confidence": "confirmed",
-        "theme": "Tankers",
-        "ts": "2026-11-12T19:39:25+08:00"
-      }
-    ]
+    "neutral": []
   },
   "brent": {
     "value": "$95.41",
