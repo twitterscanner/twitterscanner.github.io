@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 10:05 am SGT",
-  "lastScannedTs": "2026-11-13T10:05:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 10:05 am SGT",
-  "asOfTs": "2026-11-13T10:05:23+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 10:15 am SGT",
+  "lastScannedTs": "2026-11-13T10:15:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 10:14 am SGT",
+  "asOfTs": "2026-11-13T10:14:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz-coast strikes, CENTCOM war warnings, Houthi drones on Saudi oil and a Volgograd refinery hit keep risk skewed higher despite Gulf calls for restraint.",
-    "lead": "Net read (last 24 hours): Hormuz-coast strikes, CENTCOM war warnings, Houthi drones on Saudi oil and a Volgograd refinery hit keep risk skewed higher despite Gulf calls for restraint.",
+    "bottom": "IRGC's claimed strike on a US radar in Bahrain, Hormuz-coast strikes, Houthi drones on Saudi oil and the Volgograd hit keep risk skewed higher.",
+    "lead": "Net read (last 24 hours): IRGC's claimed strike on a US radar in Bahrain, Hormuz-coast strikes, Houthi drones on Saudi oil and the Volgograd hit keep risk skewed higher.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 1 lower",
-    "text": "22 of 25 alerts point higher, 1 lower.",
+    "count": "23 of 26 alerts point higher, 1 lower",
+    "text": "23 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims strike on US early-warning radar in Bahrain, retaliating for Sirik",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-13T10:15:00+08:00"
+      },
       {
         "text": "Reported US strikes widen along Iran's Hormuz coast, Bandar Lengeh air defence site hit",
         "confidence": "unconfirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
   },
   "alerts": [
+    {
+      "time": "10:15",
+      "ts": "2026-11-13T10:15:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC says it targeted a US early-warning radar in Bahrain in retaliation for an attack on a telecommunications tower in Sirik; no US or Bahraini confirmation yet",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk, plus RedboxWire, FinancialJuice and TPObserver (citing IRGC statement)",
+      "url": "https://x.com/FirstSquawk/status/2121063834584760599"
+    },
     {
       "time": "10:05",
       "ts": "2026-11-13T10:05:00+08:00",
@@ -678,19 +697,6 @@
       "confidence": "Unconfirmed",
       "source": "MenchOsint (OSINT monitor); Riyadh resident posts on X",
       "url": "https://x.com/MenchOsint/status/2120491558889791877"
-    },
-    {
-      "time": "18:19",
-      "ts": "2026-11-11T18:19:09+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Libya's NOC says a fire at Sirte Oil Co's Marsa el-Brega gas plant caused a fuel-gas line explosion, killing one worker and injuring four; fire contained, lines shut",
-      "theme": "Libya",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Libya's National Oil Corporation via Al Marsad (Libyan daily); also Tanasuh TV, FinSquawk",
-      "url": "https://x.com/ObservatoryLY/status/2120461320327704879"
     }
   ],
   "sources": [
@@ -1908,16 +1914,21 @@
       "title": "OSINTtechnical: Trump says Gulf nations asked US not to strike Iran",
       "site": "x.com",
       "href": "https://x.com/Osinttechnical/status/2121060424355340605"
+    },
+    {
+      "title": "First Squawk: IRGC says it targeted US early-warning radar in Bahrain",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2121063834584760599"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast after Kan said CENTCOM told allies to prepare for renewed war, though Trump says Gulf states urged restraint.",
+      "Reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast, and the IRGC says it retaliated against a US early-warning radar in Bahrain, though Trump says Gulf states urged restraint.",
       "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukrainian drones reportedly hit Russia's Volgograd refinery."
     ],
-    "updated": "Fri 13 Nov 2026, 10:05 am SGT",
-    "updatedTs": "2026-11-13T10:05:00+08:00"
+    "updated": "Fri 13 Nov 2026, 10:15 am SGT",
+    "updatedTs": "2026-11-13T10:15:00+08:00"
   },
   "last24Count": 13
 }
