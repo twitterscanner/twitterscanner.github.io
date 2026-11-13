@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 10:15 am SGT",
-  "lastScannedTs": "2026-11-13T10:15:00+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 10:42 am SGT",
+  "lastScannedTs": "2026-11-13T10:42:00+08:00",
   "asOf": "Fri 13 Nov 2026, 10:14 am SGT",
   "asOfTs": "2026-11-13T10:14:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC's claimed strike on a US radar in Bahrain, Hormuz-coast strikes, Houthi drones on Saudi oil and the Volgograd hit keep risk skewed higher.",
     "lead": "Net read (last 24 hours): IRGC's claimed strike on a US radar in Bahrain, Hormuz-coast strikes, Houthi drones on Saudi oil and the Volgograd hit keep risk skewed higher.",
     "verdict": "Bullish",
-    "count": "23 of 26 alerts point higher, 1 lower",
-    "text": "23 of 26 alerts point higher, 1 lower.",
+    "count": "22 of 25 alerts point higher, 1 lower",
+    "text": "22 of 25 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "IRGC claims strike on US early-warning radar in Bahrain, retaliating for Sirik",
@@ -142,12 +142,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-12T14:11:59+08:00"
-      },
-      {
-        "text": "Satellite imagery reportedly shows fires at Yanbu Industrial City and Aramco's Shedgum gas plant",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-12T10:39:00+08:00"
       }
     ],
     "dovish": [
