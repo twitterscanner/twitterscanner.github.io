@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 4:00 pm SGT",
-  "lastScannedTs": "2026-11-13T16:00:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 2:34 pm SGT",
-  "asOfTs": "2026-11-13T14:34:12+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 4:20 pm SGT",
+  "lastScannedTs": "2026-11-13T16:20:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 4:19 pm SGT",
+  "asOfTs": "2026-11-13T16:19:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery damage keep risk higher.",
-    "lead": "Net read (last 24 hours): IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery damage keep risk higher.",
+    "bottom": "IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil, Russian refinery damage and a damning IAEA report keep risk higher.",
+    "lead": "Net read (last 24 hours): IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil, Russian refinery damage and a damning IAEA report keep risk higher.",
     "verdict": "Bullish",
-    "count": "23 of 27 alerts point higher, 2 lower",
-    "text": "23 of 27 alerts point higher, 2 lower.",
+    "count": "24 of 28 alerts point higher, 2 lower",
+    "text": "24 of 28 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "IAEA report: no verification of Iran's nuclear material, no Isfahan access since June 2025",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-13T16:18:33+08:00"
+      },
       {
         "text": "IRGC says an LNG tanker hit a naval mine in Hormuz and exploded",
         "confidence": "unconfirmed",
@@ -184,6 +190,19 @@
     "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "16:18",
+      "ts": "2026-11-13T16:18:33+08:00",
+      "eventTime": "4:15 pm, 13 Nov (est.)",
+      "eventTs": "2026-11-13T16:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "IAEA's confidential quarterly report says it cannot conclude Iran has not diverted nuclear material, has had access only to Bushehr since June 2025, and has no clarity on the Isfahan enrichment plant",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk, citing the IAEA report circulated to member states",
+      "url": "https://x.com/FirstSquawk/status/2121155686658957399"
+    },
     {
       "time": "14:28",
       "ts": "2026-11-13T14:28:00+08:00",
@@ -690,19 +709,6 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Al Jazeera",
       "url": "https://x.com/FirstSquawk/status/2120558291248201731"
-    },
-    {
-      "time": "00:34",
-      "ts": "2026-11-12T00:34:00+08:00",
-      "eventTime": "Not stated (announced ~12:28 am SGT, 12 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones launched toward the Makkah and southern regions, a fresh wave after three cruise missiles at Riyadh earlier; no damage reported",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Press Agency (coalition spokesperson); also LiveSquawk, Saudi Gazette, CGTN Europe",
-      "url": "https://x.com/Spa_Eng/status/2120555451133968503"
     }
   ],
   "sources": [
@@ -1955,16 +1961,21 @@
       "title": "Mario Nawfal: CENTCOM calls Israeli reports of new Iran strikes 'pure speculation', no change in force posture",
       "site": "x.com",
       "href": "https://x.com/MarioNawfal/status/2121104221386813754"
+    },
+    {
+      "title": "First Squawk: IAEA quarterly report says no conclusion Iran has not diverted nuclear material",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2121155686658957399"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Reported US strikes hit Iran's Hormuz coast, the IRGC claims a strike on a US radar in Bahrain, and says an LNG tanker exploded on a Hormuz mine.",
+      "Reported US strikes hit Iran's Hormuz coast, the IRGC claims a Bahrain radar strike and an LNG tanker mine blast, and an IAEA report says Iran's nuclear material cannot be verified.",
       "Houthis claim drone strikes on Saudi oil sites, while Ukrainian drones reportedly knocked out about 70% of Volgograd refinery's primary capacity and hit Transneft's Samara pumping station."
     ],
-    "updated": "Fri 13 Nov 2026, 2:33 pm SGT",
-    "updatedTs": "2026-11-13T14:33:00+08:00"
+    "updated": "Fri 13 Nov 2026, 4:20 pm SGT",
+    "updatedTs": "2026-11-13T16:20:00+08:00"
   },
   "last24Count": 13
 }
