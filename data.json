@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 5:00 pm SGT",
-  "lastScannedTs": "2026-11-13T17:00:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 4:19 pm SGT",
-  "asOfTs": "2026-11-13T16:19:32+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 5:05 pm SGT",
+  "lastScannedTs": "2026-11-13T17:05:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 5:04 pm SGT",
+  "asOfTs": "2026-11-13T17:04:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil, Russian refinery damage and a damning IAEA report keep risk higher.",
-    "lead": "Net read (last 24 hours): IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil, Russian refinery damage and a damning IAEA report keep risk higher.",
+    "bottom": "Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though the IEA now sees a surplus.",
+    "lead": "Net read (last 24 hours): Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though the IEA now sees a surplus.",
     "verdict": "Bullish",
-    "count": "24 of 28 alerts point higher, 2 lower",
-    "text": "24 of 28 alerts point higher, 2 lower.",
+    "count": "24 of 29 alerts point higher, 3 lower",
+    "text": "24 of 29 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "IAEA report: no verification of Iran's nuclear material, no Isfahan access since June 2025",
@@ -158,6 +158,12 @@
     ],
     "dovish": [
       {
+        "text": "IEA: market back in surplus, 1.7m b/d Q4 glut as Gulf/Hormuz exports recover",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-13T17:00:58+08:00"
+      },
+      {
         "text": "CENTCOM reportedly calls Israeli talk of imminent new Iran strikes speculation; posture unchanged",
         "confidence": "unconfirmed",
         "theme": "Iran",
@@ -190,6 +196,19 @@
     "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "17:00",
+      "ts": "2026-11-13T17:00:58+08:00",
+      "eventTime": "5:00 pm, 13 Nov (est.)",
+      "eventTs": "2026-11-13T17:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IEA monthly report: global oil market swings back to surplus as Gulf exports recover, with supply above demand for the first time since the Iran war began; it sees a 1.7 million b/d Q4 2026 surplus (previously a deficit), and Hormuz flows rose 440k b/d to 11.8 million b/d in October",
+      "theme": "Hormuz",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "FinancialJuice and FinSquawk, citing the IEA Oil Market Report",
+      "url": "https://x.com/financialjuice/status/2121166769582923788"
+    },
     {
       "time": "16:18",
       "ts": "2026-11-13T16:18:33+08:00",
@@ -696,19 +715,6 @@
       "confidence": "Confirmed",
       "source": "Kyiv Post, citing Ukraine's General Staff; also LiveSquawk",
       "url": "https://x.com/KyivPost/status/2120563208289149425"
-    },
-    {
-      "time": "00:44",
-      "ts": "2026-11-12T00:44:29+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Al Jazeera: Iran reaches a Hormuz shipping corridor and traffic separation deal with Oman, while Qalibaf says the strait will not return to its pre-war state",
-      "theme": "Hormuz",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Al Jazeera",
-      "url": "https://x.com/FirstSquawk/status/2120558291248201731"
     }
   ],
   "sources": [
@@ -1966,16 +1972,26 @@
       "title": "First Squawk: IAEA quarterly report says no conclusion Iran has not diverted nuclear material",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2121155686658957399"
+    },
+    {
+      "title": "FinancialJuice: IEA sees 1.7m b/d Q4 2026 surplus vs previous deficit forecast",
+      "site": "x.com",
+      "href": "https://x.com/financialjuice/status/2121166769582923788"
+    },
+    {
+      "title": "FinancialJuice: IEA says Hormuz oil flows rose 440k b/d to 11.8m b/d in October",
+      "site": "x.com",
+      "href": "https://x.com/financialjuice/status/2121166804559294949"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Reported US strikes hit Iran's Hormuz coast, the IRGC claims a Bahrain radar strike and an LNG tanker mine blast, and an IAEA report says Iran's nuclear material cannot be verified.",
-      "Houthis claim drone strikes on Saudi oil sites, while Ukrainian drones reportedly knocked out about 70% of Volgograd refinery's primary capacity and hit Transneft's Samara pumping station."
+      "Houthis claim strikes on Saudi oil sites and Ukrainian drones hit Volgograd refinery, while the IEA says the oil market has swung back to surplus as Gulf exports recover."
     ],
-    "updated": "Fri 13 Nov 2026, 4:20 pm SGT",
-    "updatedTs": "2026-11-13T16:20:00+08:00"
+    "updated": "Fri 13 Nov 2026, 5:05 pm SGT",
+    "updatedTs": "2026-11-13T17:05:00+08:00"
   },
   "last24Count": 13
 }
