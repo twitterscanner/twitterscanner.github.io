@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 2:33 pm SGT",
-  "lastScannedTs": "2026-11-13T14:33:00+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 2:52 pm SGT",
+  "lastScannedTs": "2026-11-13T14:52:00+08:00",
   "asOf": "Fri 13 Nov 2026, 2:34 pm SGT",
   "asOfTs": "2026-11-13T14:34:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery damage keep risk higher.",
     "lead": "Net read (last 24 hours): IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery damage keep risk higher.",
     "verdict": "Bullish",
-    "count": "24 of 28 alerts point higher, 2 lower",
-    "text": "24 of 28 alerts point higher, 2 lower.",
+    "count": "23 of 27 alerts point higher, 2 lower",
+    "text": "23 of 27 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "IRGC says an LNG tanker hit a naval mine in Hormuz and exploded",
@@ -148,12 +148,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-12T17:24:30+08:00"
-      },
-      {
-        "text": "IRGC says two supertankers (4m+ bbl) hit by explosions on unauthorised Hormuz route",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-12T14:51:18+08:00"
       }
     ],
     "dovish": [
