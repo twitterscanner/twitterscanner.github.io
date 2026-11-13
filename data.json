@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 1:36 am SGT",
-  "lastScannedTs": "2026-11-14T01:36:00+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 2:53 am SGT",
+  "lastScannedTs": "2026-11-14T02:53:00+08:00",
   "asOf": "Fri 13 Nov 2026, 8:56 pm SGT",
   "asOfTs": "2026-11-13T20:56:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran's drone launch at Bahrain, Hormuz mine claims, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and stock releases.",
     "lead": "Net read (last 24 hours): Iran's drone launch at Bahrain, Hormuz mine claims, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and stock releases.",
     "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 4 lower",
-    "text": "15 of 19 alerts point higher, 4 lower.",
+    "count": "13 of 17 alerts point higher, 4 lower",
+    "text": "13 of 17 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "CENTCOM confirms two IRGC drones fired at Bahrain, both shot down, no damage",
@@ -88,18 +88,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-13T03:02:28+08:00"
-      },
-      {
-        "text": "Kan: CENTCOM tells Israel and Gulf states to prepare for possible renewed Iran war",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-13T01:59:30+08:00"
-      },
-      {
-        "text": "Houthis claim drone strike on Saudi Aramco in Riyadh",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-13T01:59:00+08:00"
       }
     ],
     "dovish": [
@@ -131,8 +119,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$95.41",
-    "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
+    "value": "$96.09",
+    "detail": "Brent at $96.09, WTI $89.00 as US oil rigs held at 463 (Oil & Energy Online, 2:51 am SGT 14 Nov); traded $95.41 at 2:22 pm SGT 13 Nov"
   },
   "alerts": [
     {
