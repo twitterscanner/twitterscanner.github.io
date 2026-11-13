@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 2:22 pm SGT",
-  "lastScannedTs": "2026-11-13T14:22:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 2:23 pm SGT",
-  "asOfTs": "2026-11-13T14:23:14+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 2:33 pm SGT",
+  "lastScannedTs": "2026-11-13T14:33:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 2:34 pm SGT",
+  "asOfTs": "2026-11-13T14:34:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and heavy Ukrainian damage to Russian refining keep risk higher.",
-    "lead": "Net read (last 24 hours): Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and heavy Ukrainian damage to Russian refining keep risk higher.",
+    "bottom": "IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery damage keep risk higher.",
+    "lead": "Net read (last 24 hours): IRGC mine claims on Hormuz tankers, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery damage keep risk higher.",
     "verdict": "Bullish",
-    "count": "23 of 27 alerts point higher, 2 lower",
-    "text": "23 of 27 alerts point higher, 2 lower.",
+    "count": "24 of 28 alerts point higher, 2 lower",
+    "text": "24 of 28 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says an LNG tanker hit a naval mine in Hormuz and exploded",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-13T14:28:00+08:00"
+      },
       {
         "text": "Volgograd strike reportedly damaged units holding ~70% of the refinery's primary capacity",
         "confidence": "unconfirmed",
@@ -184,6 +190,19 @@
     "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "14:28",
+      "ts": "2026-11-13T14:28:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says a liquefied gas tanker that ignored repeated warnings struck a naval mine on the southern (unauthorised) route through the Strait of Hormuz, causing a large explosion and fire; vessel not named",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FinancialJuice, citing Iran's IRGC Navy; also MarketNews Feed and others",
+      "url": "https://x.com/financialjuice/status/2121128083663016201"
+    },
     {
       "time": "14:22",
       "ts": "2026-11-13T14:22:00+08:00",
@@ -690,22 +709,14 @@
       "confidence": "Confirmed",
       "source": "Saudi Press Agency (coalition spokesperson); also LiveSquawk, Saudi Gazette, CGTN Europe",
       "url": "https://x.com/Spa_Eng/status/2120555451133968503"
-    },
-    {
-      "time": "21:58",
-      "ts": "2026-11-11T21:58:00+08:00",
-      "eventTime": "9:40 pm, 11 Nov (est.)",
-      "eventTs": "2026-11-11T21:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: fire reported at Russia's Omsk refinery, the country's largest, after a 3-hour Ukrainian drone attack; governor says air defence repelling drones, no damage stated",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Exilenova+; Maks_NAFO_FELLA; NOELreports (footage); Omsk governor via Echo",
-      "url": "https://x.com/Exilenova_plus/status/2120516270454100428"
     }
   ],
   "sources": [
+    {
+      "title": "FinancialJuice: IRGC Navy says liquefied gas tanker struck naval mine in Hormuz",
+      "site": "x.com/financialjuice",
+      "href": "https://x.com/financialjuice/status/2121128083663016201"
+    },
     {
       "title": "Military Summary: Volgograd refinery ELOU-AVT-1 and AVT-6 hit, ~70% of primary capacity",
       "site": "x.com/MilitarySummary",
@@ -1955,11 +1966,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast and the IRGC claims a strike on a US radar in Bahrain, though CENTCOM reportedly calls talk of imminent new strikes speculation.",
+      "Reported US strikes hit Iran's Hormuz coast, the IRGC claims a strike on a US radar in Bahrain, and says an LNG tanker exploded on a Hormuz mine.",
       "Houthis claim drone strikes on Saudi oil sites, while Ukrainian drones reportedly knocked out about 70% of Volgograd refinery's primary capacity and hit Transneft's Samara pumping station."
     ],
-    "updated": "Fri 13 Nov 2026, 2:22 pm SGT",
-    "updatedTs": "2026-11-13T14:22:00+08:00"
+    "updated": "Fri 13 Nov 2026, 2:33 pm SGT",
+    "updatedTs": "2026-11-13T14:33:00+08:00"
   },
   "last24Count": 13
 }
