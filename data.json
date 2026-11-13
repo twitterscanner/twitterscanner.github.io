@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 9:04 am SGT",
-  "lastScannedTs": "2026-11-13T09:04:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 7:06 am SGT",
-  "asOfTs": "2026-11-13T07:06:11+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 10:05 am SGT",
+  "lastScannedTs": "2026-11-13T10:05:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 10:05 am SGT",
+  "asOfTs": "2026-11-13T10:05:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Possible renewed US-Iran war, strikes along Iran's Hormuz coast, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
-    "lead": "Net read (last 24 hours): Possible renewed US-Iran war, strikes along Iran's Hormuz coast, Houthi drones over Saudi oil regions and a Volgograd refinery hit skew risk higher.",
+    "bottom": "Hormuz-coast strikes, CENTCOM war warnings, Houthi drones on Saudi oil and a Volgograd refinery hit keep risk skewed higher despite Gulf calls for restraint.",
+    "lead": "Net read (last 24 hours): Hormuz-coast strikes, CENTCOM war warnings, Houthi drones on Saudi oil and a Volgograd refinery hit keep risk skewed higher despite Gulf calls for restraint.",
     "verdict": "Bullish",
-    "count": "22 of 24 alerts point higher, 0 lower",
-    "text": "22 of 24 alerts point higher, 0 lower.",
+    "count": "22 of 25 alerts point higher, 1 lower",
+    "text": "22 of 25 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Reported US strikes widen along Iran's Hormuz coast, Bandar Lengeh air defence site hit",
@@ -144,7 +144,14 @@
         "ts": "2026-11-12T10:39:00+08:00"
       }
     ],
-    "dovish": [],
+    "dovish": [
+      {
+        "text": "Trump says Gulf states asked the US not to strike Iran, prefer waiting",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-13T10:05:00+08:00"
+      }
+    ],
     "neutral": [
       {
         "text": "Oman emergency committee meets on oil tanker aground off Al Qibliyah Island",
@@ -165,6 +172,19 @@
     "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
   },
   "alerts": [
+    {
+      "time": "10:05",
+      "ts": "2026-11-13T10:05:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump tells Stephen A. Smith that Gulf nations have asked the US not to strike Iran, saying they 'would much prefer the waiting period'",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "OSINTtechnical on X (clip of Trump interview with Stephen A. Smith)",
+      "url": "https://x.com/Osinttechnical/status/2121060424355340605"
+    },
     {
       "time": "07:07",
       "ts": "2026-11-13T07:07:00+08:00",
@@ -671,19 +691,6 @@
       "confidence": "Confirmed",
       "source": "Libya's National Oil Corporation via Al Marsad (Libyan daily); also Tanasuh TV, FinSquawk",
       "url": "https://x.com/ObservatoryLY/status/2120461320327704879"
-    },
-    {
-      "time": "18:09",
-      "ts": "2026-11-11T18:09:48+08:00",
-      "eventTime": "Overnight 10-11 Nov (est.)",
-      "eventTs": "2026-11-11T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy (via Fars) claims two more tankers trying to exit Hormuz on an unauthorised route with US jet cover hit sea mines overnight, now burning and abandoned",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy statement via Fars; Open Source Intel, LiveSquawk, First Squawk",
-      "url": "https://x.com/Osint613/status/2120459262287860145"
     }
   ],
   "sources": [
@@ -1896,16 +1903,21 @@
       "title": "Columns of smoke over Bandar Lengeh, Hormozgan",
       "site": "x.com",
       "href": "https://x.com/CocoPostel/status/2121005968167440649"
+    },
+    {
+      "title": "OSINTtechnical: Trump says Gulf nations asked US not to strike Iran",
+      "site": "x.com",
+      "href": "https://x.com/Osinttechnical/status/2121060424355340605"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kan reports CENTCOM told Gulf allies to prepare for a renewed Iran war, while reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast.",
+      "Reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast after Kan said CENTCOM told allies to prepare for renewed war, though Trump says Gulf states urged restraint.",
       "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukrainian drones reportedly hit Russia's Volgograd refinery."
     ],
-    "updated": "Fri 13 Nov 2026, 7:07 am SGT",
-    "updatedTs": "2026-11-13T07:07:00+08:00"
+    "updated": "Fri 13 Nov 2026, 10:05 am SGT",
+    "updatedTs": "2026-11-13T10:05:00+08:00"
   },
   "last24Count": 13
 }
