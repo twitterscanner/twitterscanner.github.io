@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 1:04 pm SGT",
-  "lastScannedTs": "2026-11-13T13:04:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 12:55 pm SGT",
-  "asOfTs": "2026-11-13T12:55:40+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 2:07 pm SGT",
+  "lastScannedTs": "2026-11-13T14:07:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 2:05 pm SGT",
+  "asOfTs": "2026-11-13T14:05:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz-coast strikes, IRGC's Bahrain radar claim and Houthi drones on Saudi oil keep risk higher, though CENTCOM reportedly downplays imminent new strikes.",
-    "lead": "Net read (last 24 hours): Hormuz-coast strikes, IRGC's Bahrain radar claim and Houthi drones on Saudi oil keep risk higher, though CENTCOM reportedly downplays imminent new strikes.",
+    "bottom": "Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and Ukraine's hits on Russian oil sites keep risk higher.",
+    "lead": "Net read (last 24 hours): Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and Ukraine's hits on Russian oil sites keep risk higher.",
     "verdict": "Bullish",
-    "count": "22 of 26 alerts point higher, 2 lower",
-    "text": "22 of 26 alerts point higher, 2 lower.",
+    "count": "23 of 27 alerts point higher, 2 lower",
+    "text": "23 of 27 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drones reportedly hit Transneft's Samara oil pumping station at Prosvet again",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-13T13:40:10+08:00"
+      },
       {
         "text": "IRGC claims strike on US early-warning radar in Bahrain, retaliating for Sirik",
         "confidence": "unconfirmed",
@@ -174,10 +180,23 @@
     ]
   },
   "brent": {
-    "value": "$95.82",
-    "detail": "Brent settled up $3.06 (3.3%) at $95.82; WTI settled $88.74 (+$2.21), posted 3:47 am SGT 13 Nov (Redbox and First Squawk)"
+    "value": "$95.87",
+    "detail": "Brent trading at $95.87, WTI $88.49, on course for a second weekly loss (PiQ, 1:58 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "13:40",
+      "ts": "2026-11-13T13:40:10+08:00",
+      "eventTime": "~9:00 am, 13 Nov (est., 'early morning' local)",
+      "eventTs": "2026-11-13T09:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones reportedly hit Transneft's Samara oil pumping and dispatch station (LPDS) at Prosvet, a major Russian crude pipeline and storage hub, for the second time this month",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Exilenova+ (also Military Summary, Russian-language local posts)",
+      "url": "https://x.com/Exilenova_plus/status/2121115885285077048"
+    },
     {
       "time": "12:53",
       "ts": "2026-11-13T12:53:49+08:00",
@@ -684,22 +703,19 @@
       "confidence": "Unconfirmed",
       "source": "Exilenova+ via Maks_NAFO_FELLA; OSINT Intuit; C4H10FO2P (drone alert); RIA Novosti Sport (events cancelled over drone threat)",
       "url": "https://x.com/Maks_NAFO_FELLA/status/2120504862509306111"
-    },
-    {
-      "time": "21:03",
-      "ts": "2026-11-11T21:03:00+08:00",
-      "eventTime": "9:00 pm, 11 Nov (est.)",
-      "eventTs": "2026-11-11T21:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "OPEC November report: Saudi Arabia told OPEC its October crude output surged 26% to 10.56 mb/d (from 8.37 mb/d), a wartime high; OPEC+ output rose 2.04 mb/d to 41.23 mb/d; demand forecasts unchanged",
-      "theme": "OPEC",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk; OPEC monthly report via Giovanni Staunovo",
-      "url": "https://x.com/FirstSquawk/status/2120502155014709365"
     }
   ],
   "sources": [
+    {
+      "title": "Exilenova+: Samara oil pumping station (LPDS) at Prosvet attacked again",
+      "site": "x.com/Exilenova_plus",
+      "href": "https://x.com/Exilenova_plus/status/2121115885285077048"
+    },
+    {
+      "title": "Military Summary: Samara LPDS struck again, previous attack Nov 2",
+      "site": "x.com/MilitarySummary",
+      "href": "https://x.com/MilitarySummary/status/2121119057042677810"
+    },
     {
       "title": "markito0171: footage of Volgograd refinery after drone attack",
       "site": "x.com/markito0171",
@@ -1930,10 +1946,10 @@
     "title": "Today's key developments",
     "lines": [
       "Reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast and the IRGC claims a strike on a US radar in Bahrain, though CENTCOM reportedly calls talk of imminent new strikes speculation.",
-      "Houthis claim drone strikes on Saudi oil sites as the coalition downs drones over Riyadh and the Eastern Province, while Ukrainian drones reportedly hit Russia's Volgograd refinery."
+      "Houthis claim drone strikes on Saudi oil sites, while Ukrainian drones reportedly hit Russia's Volgograd refinery and Transneft's Samara oil pumping station at Prosvet."
     ],
-    "updated": "Fri 13 Nov 2026, 12:56 pm SGT",
-    "updatedTs": "2026-11-13T12:56:00+08:00"
+    "updated": "Fri 13 Nov 2026, 2:07 pm SGT",
+    "updatedTs": "2026-11-13T14:07:00+08:00"
   },
   "last24Count": 13
 }
