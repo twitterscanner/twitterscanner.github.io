@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 8:01 pm SGT",
-  "lastScannedTs": "2026-11-13T20:01:17+08:00",
-  "asOf": "Fri 13 Nov 2026, 6:09 pm SGT",
-  "asOfTs": "2026-11-13T18:09:26+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 8:56 pm SGT",
+  "lastScannedTs": "2026-11-13T20:56:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 8:56 pm SGT",
+  "asOfTs": "2026-11-13T20:56:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
-    "lead": "Net read (last 24 hours): Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
+    "bottom": "Iran's drone launch at Bahrain, Hormuz mine claims, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and stock releases.",
+    "lead": "Net read (last 24 hours): Iran's drone launch at Bahrain, Hormuz mine claims, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and stock releases.",
     "verdict": "Bullish",
-    "count": "21 of 25 alerts point higher, 4 lower",
-    "text": "21 of 25 alerts point higher, 4 lower.",
+    "count": "22 of 26 alerts point higher, 4 lower",
+    "text": "22 of 26 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "CENTCOM confirms two IRGC drones fired at Bahrain, both shot down, no damage",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-13T20:54:45+08:00"
+      },
       {
         "text": "Iran claims its navy shot down a US MQ-1 drone off Sirik near Hormuz",
         "confidence": "unconfirmed",
@@ -171,6 +177,19 @@
     "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "20:54",
+      "ts": "2026-11-13T20:54:45+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "CENTCOM confirms the IRGC launched two one-way attack drones toward Bahrain and says US forces shot both down, with no injuries or damage, rebutting Iran's claim it destroyed a US early-warning radar",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "CENTCOM",
+      "url": "https://x.com/CENTCOM/status/2121225254446018729"
+    },
     {
       "time": "18:03",
       "ts": "2026-11-13T18:03:02+08:00",
@@ -677,22 +696,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel citing the Wall Street Journal",
       "url": "https://x.com/Osint613/status/2120600754041806996"
-    },
-    {
-      "time": "02:32",
-      "ts": "2026-11-12T02:32:44+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim a drone strike on Pumping Station No. 11 in Saudi Arabia's Yanbu region (East-West crude pipeline) and deny targeting Makkah; Saudi early-warning alerts sounded in Yanbu, Taif and Khamis Mushait",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic), with First Squawk and Iran International (Reuters)",
-      "url": "https://x.com/Yah_Saree/status/2120585535689564622"
     }
   ],
   "sources": [
+    {
+      "title": "CENTCOM: IRGC launched two one-way attack drones toward Bahrain, both shot down, no injuries or damage",
+      "site": "x.com/CENTCOM",
+      "href": "https://x.com/CENTCOM/status/2121225254446018729"
+    },
     {
       "title": "First Squawk: IEA members plan further 71 million barrel emergency stock release through Feb 2027",
       "site": "x.com/FirstSquawk",
@@ -1967,11 +1978,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran says it downed a US MQ-1 drone off Sirik after reported US strikes on its Hormuz coast, while the IRGC claims a Bahrain radar strike and an LNG tanker mine blast and the IAEA cannot verify Iran's nuclear material.",
+      "CENTCOM says it shot down two IRGC drones fired at Bahrain, while Iran claims an MQ-1 shootdown off Sirik and an LNG tanker mine blast, and the IAEA cannot verify Iran's nuclear material.",
       "Houthis claim strikes on Saudi oil sites and Ukrainian drones hit the Volgograd refinery, while the IEA sees the market back in surplus and plans a further 71 million barrel stock release."
     ],
-    "updated": "Fri 13 Nov 2026, 6:10 pm SGT",
-    "updatedTs": "2026-11-13T18:10:00+08:00"
+    "updated": "Fri 13 Nov 2026, 8:56 pm SGT",
+    "updatedTs": "2026-11-13T20:56:00+08:00"
   },
   "last24Count": 13
 }
