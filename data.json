@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 2:13 pm SGT",
-  "lastScannedTs": "2026-11-13T14:13:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 2:05 pm SGT",
-  "asOfTs": "2026-11-13T14:05:38+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 2:22 pm SGT",
+  "lastScannedTs": "2026-11-13T14:22:00+08:00",
+  "asOf": "Fri 13 Nov 2026, 2:23 pm SGT",
+  "asOfTs": "2026-11-13T14:23:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and Ukraine's hits on Russian oil sites keep risk higher.",
-    "lead": "Net read (last 24 hours): Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and Ukraine's hits on Russian oil sites keep risk higher.",
+    "bottom": "Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and heavy Ukrainian damage to Russian refining keep risk higher.",
+    "lead": "Net read (last 24 hours): Hormuz-coast strikes, the Bahrain radar claim, Houthi drones on Saudi oil and heavy Ukrainian damage to Russian refining keep risk higher.",
     "verdict": "Bullish",
-    "count": "22 of 26 alerts point higher, 2 lower",
-    "text": "22 of 26 alerts point higher, 2 lower.",
+    "count": "23 of 27 alerts point higher, 2 lower",
+    "text": "23 of 27 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Volgograd strike reportedly damaged units holding ~70% of the refinery's primary capacity",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-13T14:22:00+08:00"
+      },
       {
         "text": "Ukrainian drones reportedly hit Transneft's Samara oil pumping station at Prosvet again",
         "confidence": "unconfirmed",
@@ -174,10 +180,23 @@
     ]
   },
   "brent": {
-    "value": "$95.87",
-    "detail": "Brent trading at $95.87, WTI $88.49, on course for a second weekly loss (PiQ, 1:58 pm SGT 13 Nov); settled $95.82 on 12 Nov"
+    "value": "$95.41",
+    "detail": "Brent at $95.41, WTI $88.52, tracking a 2.4% weekly decline as rising US inventories outweigh Hormuz risk (PropX, 2:22 pm SGT 13 Nov); settled $95.82 on 12 Nov"
   },
   "alerts": [
+    {
+      "time": "14:22",
+      "ts": "2026-11-13T14:22:00+08:00",
+      "eventTime": "5:50 am, 13 Nov (est.)",
+      "eventTs": "2026-11-13T05:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian OSINT says the overnight Volgograd refinery strike damaged ELOU-AVT-1 and AVT-6, units making up about 70% of the plant's primary crude processing capacity; a tank farm was also hit",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Military Summary, NSTRIKE and other OSINT accounts on X",
+      "url": "https://x.com/MilitarySummary/status/2121116149207187482"
+    },
     {
       "time": "13:40",
       "ts": "2026-11-13T13:40:10+08:00",
@@ -684,22 +703,19 @@
       "confidence": "Unconfirmed",
       "source": "Exilenova+; Maks_NAFO_FELLA; NOELreports (footage); Omsk governor via Echo",
       "url": "https://x.com/Exilenova_plus/status/2120516270454100428"
-    },
-    {
-      "time": "21:13",
-      "ts": "2026-11-11T21:13:00+08:00",
-      "eventTime": "~8:00 pm, 11 Nov (est.; drone alert since ~5:45 pm)",
-      "eventTs": "2026-11-11T20:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: drone attack reported on Russia's Omsk refinery, the country's largest; air defence active over the city with explosions heard for over an hour; no damage confirmed",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Exilenova+ via Maks_NAFO_FELLA; OSINT Intuit; C4H10FO2P (drone alert); RIA Novosti Sport (events cancelled over drone threat)",
-      "url": "https://x.com/Maks_NAFO_FELLA/status/2120504862509306111"
     }
   ],
   "sources": [
+    {
+      "title": "Military Summary: Volgograd refinery ELOU-AVT-1 and AVT-6 hit, ~70% of primary capacity",
+      "site": "x.com/MilitarySummary",
+      "href": "https://x.com/MilitarySummary/status/2121116149207187482"
+    },
+    {
+      "title": "NSTRIKE: units with 70% of Volgograd primary processing reportedly hit",
+      "site": "x.com/NSTRIKE1231",
+      "href": "https://x.com/NSTRIKE1231/status/2121126352900301154"
+    },
     {
       "title": "Exilenova+: Samara oil pumping station (LPDS) at Prosvet attacked again",
       "site": "x.com/Exilenova_plus",
@@ -1940,10 +1956,10 @@
     "title": "Today's key developments",
     "lines": [
       "Reported US strikes hit Sirik and Bandar Lengeh on Iran's Hormuz coast and the IRGC claims a strike on a US radar in Bahrain, though CENTCOM reportedly calls talk of imminent new strikes speculation.",
-      "Houthis claim drone strikes on Saudi oil sites, while Ukrainian drones reportedly hit Russia's Volgograd refinery and Transneft's Samara oil pumping station at Prosvet."
+      "Houthis claim drone strikes on Saudi oil sites, while Ukrainian drones reportedly knocked out about 70% of Volgograd refinery's primary capacity and hit Transneft's Samara pumping station."
     ],
-    "updated": "Fri 13 Nov 2026, 2:07 pm SGT",
-    "updatedTs": "2026-11-13T14:07:00+08:00"
+    "updated": "Fri 13 Nov 2026, 2:22 pm SGT",
+    "updatedTs": "2026-11-13T14:22:00+08:00"
   },
   "last24Count": 13
 }
