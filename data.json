@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 2:53 am SGT",
-  "lastScannedTs": "2026-11-14T02:53:00+08:00",
-  "asOf": "Fri 13 Nov 2026, 8:56 pm SGT",
-  "asOfTs": "2026-11-13T20:56:20+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 5:59 am SGT",
+  "lastScannedTs": "2026-11-14T05:59:00+08:00",
+  "asOf": "Sat 14 Nov 2026, 5:58 am SGT",
+  "asOfTs": "2026-11-14T05:58:59+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran's drone launch at Bahrain, Hormuz mine claims, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and stock releases.",
-    "lead": "Net read (last 24 hours): Iran's drone launch at Bahrain, Hormuz mine claims, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and stock releases.",
-    "verdict": "Bullish",
-    "count": "13 of 17 alerts point higher, 4 lower",
-    "text": "13 of 17 alerts point higher, 4 lower.",
+    "bottom": "New Houthi pipeline claims and IRGC tanker-mine reports keep Gulf supply risk high, offset by IEA surplus outlook and stock releases.",
+    "lead": "Net read (last 24 hours): New Houthi pipeline claims and IRGC tanker-mine reports keep Gulf supply risk high, offset by IEA surplus outlook and stock releases.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "11 of 15 alerts point higher, 4 lower",
+    "text": "11 of 15 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says two oil tankers hit mines and caught fire on Hormuz southern route",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-14T04:47:27+08:00"
+      },
+      {
+        "text": "Houthis claim drone strike on East-West pipeline Pumping Station No. 3 near Riyadh",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-14T04:28:50+08:00"
+      },
       {
         "text": "CENTCOM confirms two IRGC drones fired at Bahrain, both shot down, no damage",
         "confidence": "confirmed",
@@ -64,30 +76,6 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-13T06:02:30+08:00"
-      },
-      {
-        "text": "Record-scale Ukrainian drone wave (reportedly 600-850) heads for Moscow and central Russia",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-13T05:06:03+08:00"
-      },
-      {
-        "text": "Coalition downs Houthi drones over Riyadh region and Eastern Province",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-13T04:06:54+08:00"
-      },
-      {
-        "text": "IRNA says Sirik on Iran's Hormuz coast hit by 'enemy' military attack",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-13T04:06:24+08:00"
-      },
-      {
-        "text": "US official says Iran added new demands and 'overreached' in talks",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-13T03:02:28+08:00"
       }
     ],
     "dovish": [
@@ -123,6 +111,32 @@
     "detail": "Brent at $96.09, WTI $89.00 as US oil rigs held at 463 (Oil & Energy Online, 2:51 am SGT 14 Nov); traded $95.41 at 2:22 pm SGT 13 Nov"
   },
   "alerts": [
+    {
+      "time": "04:47",
+      "ts": "2026-11-14T04:47:27+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says two oil tankers struck naval mines and caught fire on the 'unauthorised' southern route near the Omani shore south of Hormuz; no UKMTO confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Ariel Oseran (i24NEWS), citing IRGC-affiliated Fars",
+      "url": "https://x.com/ariel_oseran/status/2121344212205437205"
+    },
+    {
+      "time": "04:28",
+      "ts": "2026-11-14T04:28:50+08:00",
+      "eventTime": "4:28 am, 14 Nov (est.)",
+      "eventTs": "2026-11-14T04:28:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis claim a two-drone strike on Pumping Station No. 3 of Saudi Arabia's East-West crude pipeline east of Riyadh, plus a drone on Riyadh airport (translated from Arabic); no Saudi confirmation",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree, Houthi military spokesman (Arabic)",
+      "url": "https://x.com/Yah_Saree/status/2121339527373697332"
+    },
     {
       "time": "20:54",
       "ts": "2026-11-13T20:54:45+08:00",
@@ -616,35 +630,19 @@
       "confidence": "Unconfirmed",
       "source": "FAB87F citing Bloomberg tanker tracking",
       "url": "https://x.com/FAB87F/status/2120654248417296761"
-    },
-    {
-      "time": "07:02",
-      "ts": "2026-11-12T07:02:01+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Kan: Netanyahu orders IDF to step up preparations for a possible major strike on Iran; Israeli official warns it could trigger wide-scale war",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "The Hormuz Letter citing Kan (Israeli public broadcaster)",
-      "url": "https://x.com/HormuzLetter/status/2120653302560104544"
-    },
-    {
-      "time": "03:33",
-      "ts": "2026-11-12T03:33:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: VP JD Vance weighs face-to-face talks with Iran security chief Mohsen Rezaei; Trump open to Vance restarting US-Iran negotiations",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel citing the Wall Street Journal",
-      "url": "https://x.com/Osint613/status/2120600754041806996"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree: Houthi drones hit Pumping Station No. 3 of East-West pipeline and Riyadh airport (Arabic)",
+      "site": "x.com/Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2121339527373697332"
+    },
+    {
+      "title": "Ariel Oseran: IRGC Navy says two oil tankers hit mines and caught fire south of Hormuz (Fars)",
+      "site": "x.com/ariel_oseran",
+      "href": "https://x.com/ariel_oseran/status/2121344212205437205"
+    },
     {
       "title": "CENTCOM: IRGC launched two one-way attack drones toward Bahrain, both shot down, no injuries or damage",
       "site": "x.com/CENTCOM",
@@ -1924,11 +1922,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "CENTCOM says it shot down two IRGC drones fired at Bahrain late Friday, after Iran claimed an MQ-1 shootdown off Sirik and an LNG tanker mine blast in Hormuz.",
-      "Houthis claim strikes on Saudi oil sites and Ukraine hit Russia's Volgograd refinery, while the IEA sees a return to surplus and a further 71 million barrel stock release."
+      "Houthis claim drone strikes on Pumping Station No. 3 of Saudi Arabia's East-West crude pipeline and Riyadh airport overnight, with no Saudi confirmation of damage.",
+      "Iran's IRGC says two oil tankers hit mines and caught fire near Oman on Hormuz's southern route, a day after CENTCOM downed IRGC drones fired at Bahrain."
     ],
-    "updated": "Sat 14 Nov 2026, 12:10 am SGT",
-    "updatedTs": "2026-11-14T00:10:00+08:00"
+    "updated": "Sat 14 Nov 2026, 5:59 am SGT",
+    "updatedTs": "2026-11-14T05:59:00+08:00"
   },
   "last24Count": 13
 }
