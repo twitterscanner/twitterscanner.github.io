@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 13 Nov 2026, 5:28 pm SGT",
-  "lastScannedTs": "2026-11-13T17:28:00+08:00",
+  "lastScanned": "Fri 13 Nov 2026, 6:01 pm SGT",
+  "lastScannedTs": "2026-11-13T18:01:00+08:00",
   "asOf": "Fri 13 Nov 2026, 5:14 pm SGT",
   "asOfTs": "2026-11-13T17:14:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
     "lead": "Net read (last 24 hours): Hormuz mine claims, the Bahrain radar strike, Houthi attacks on Saudi oil and Russian refinery hits keep risk high, though IEA sees surplus and more stock releases.",
     "verdict": "Bullish",
-    "count": "23 of 29 alerts point higher, 4 lower",
-    "text": "23 of 29 alerts point higher, 4 lower.",
+    "count": "23 of 28 alerts point higher, 4 lower",
+    "text": "23 of 28 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "IAEA report: no verification of Iran's nuclear material, no Isfahan access since June 2025",
@@ -182,12 +182,6 @@
         "confidence": "confirmed",
         "theme": "Tankers",
         "ts": "2026-11-12T19:39:25+08:00"
-      },
-      {
-        "text": "Russian jet-drones reportedly hit Ukraine's Kremenchuk refinery; mainly a Ukrainian fuel-supply risk",
-        "confidence": "unconfirmed",
-        "theme": "Refineries",
-        "ts": "2026-11-12T17:58:11+08:00"
       }
     ]
   },
