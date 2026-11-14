@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 11:58 am SGT",
-  "lastScannedTs": "2026-11-14T11:58:18+08:00",
-  "asOf": "Sat 14 Nov 2026, 8:57 am SGT",
-  "asOfTs": "2026-11-14T08:57:51+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 3:01 pm SGT",
+  "lastScannedTs": "2026-11-14T15:01:41+08:00",
+  "asOf": "Sat 14 Nov 2026, 3:01 pm SGT",
+  "asOfTs": "2026-11-14T15:01:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fresh Hormuz tanker hit, Houthi pipeline claims and early Arctic cold risk keep risks tilted up, offset by IEA surplus outlook and stock releases.",
-    "lead": "Net read (last 24 hours): Fresh Hormuz tanker hit, Houthi pipeline claims and early Arctic cold risk keep risks tilted up, offset by IEA surplus outlook and stock releases.",
+    "bottom": "Repeated Hormuz tanker mine and strike claims, Houthi pipeline claims and Arctic cold risk keep risks tilted up, against IEA surplus and stock releases.",
+    "lead": "Net read (last 24 hours): Repeated Hormuz tanker mine and strike claims, Houthi pipeline claims and Arctic cold risk keep risks tilted up, against IEA surplus and stock releases.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 3 lower",
-    "text": "10 of 13 alerts point higher, 3 lower.",
+    "count": "8 of 10 alerts point higher, 2 lower",
+    "text": "8 of 10 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Iran's army navy says another tanker hit a mine east of Hormuz, caught fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-14T12:26:32+08:00"
+      },
       {
         "text": "Polar vortex weakening early; forecasters warn of Arctic cold in US and Europe",
         "confidence": "confirmed",
@@ -52,24 +58,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-13T16:18:33+08:00"
-      },
-      {
-        "text": "IRGC says an LNG tanker hit a naval mine in Hormuz and exploded",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-13T14:28:00+08:00"
-      },
-      {
-        "text": "Volgograd strike reportedly damaged units holding ~70% of the refinery's primary capacity",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-13T14:22:00+08:00"
-      },
-      {
-        "text": "Ukrainian drones reportedly hit Transneft's Samara oil pumping station at Prosvet again",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-13T13:40:10+08:00"
       }
     ],
     "dovish": [
@@ -84,12 +72,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-13T17:00:58+08:00"
-      },
-      {
-        "text": "CENTCOM reportedly calls Israeli talk of imminent new Iran strikes speculation; posture unchanged",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-13T12:53:49+08:00"
       }
     ],
     "neutral": []
@@ -99,6 +81,19 @@
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:26",
+      "ts": "2026-11-14T12:26:32+08:00",
+      "eventTime": "10:30 am, 14 Nov (est.)",
+      "eventTs": "2026-11-14T10:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's army navy says another oil tanker, transiting with AIS off through a prohibited zone east of the Strait of Hormuz, struck a naval mine and caught fire",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian Army Navy statement, relayed by BRICSinfo and others on X",
+      "url": "https://x.com/BRICSinfo/status/2121459745873629446"
+    },
     {
       "time": "06:10",
       "ts": "2026-11-14T06:10:02+08:00",
@@ -605,22 +600,14 @@
       "confidence": "Unconfirmed",
       "source": "Post Open Source (OSINT), relayed by Arabic accounts; no official Saudi confirmation",
       "url": "https://x.com/CocoPostel/status/2120708084968427685"
-    },
-    {
-      "time": "08:06",
-      "ts": "2026-11-12T08:06:23+08:00",
-      "eventTime": "8:00 am, 12 Nov (est.)",
-      "eventTs": "2026-11-12T08:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Initial reports: Iraqi forces clash in Baghdad's Green Zone as Iran-backed PMF elements try to storm area near US Embassy, amid army/CTS push on Kataib Hezbollah's Jurf al-Sakhar",
-      "theme": "Iraq",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTdefender",
-      "url": "https://x.com/sentdefender/status/2120669497048875084"
     }
   ],
   "sources": [
+    {
+      "title": "BRICSinfo: Iran says another oil tanker caught fire after striking a mine in the Strait of Hormuz",
+      "site": "x.com/BRICSinfo",
+      "href": "https://x.com/BRICSinfo/status/2121459745873629446"
+    },
     {
       "title": "Noam Raydan: Vanguard says crude tanker struck by unidentified object in Hormuz, fire onboard",
       "site": "x.com/NoamRaydan",
@@ -1920,11 +1907,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis claim drone strikes on Saudi Arabia's East-West crude pipeline and Riyadh airport, while Iran's IRGC says two tankers hit mines and caught fire near Oman.",
+      "Houthis claim drone strikes on Saudi Arabia's East-West crude pipeline, while Iran's IRGC and army navy report several tankers hitting mines and catching fire near Hormuz.",
       "Maritime firm Vanguard separately reports a crude tanker struck by an unidentified object leaving Hormuz, and forecasters warn an early polar vortex breakdown could bring Arctic cold."
     ],
-    "updated": "Sat 14 Nov 2026, 8:58 am SGT",
-    "updatedTs": "2026-11-14T08:58:01+08:00"
+    "updated": "Sat 14 Nov 2026, 3:01 pm SGT",
+    "updatedTs": "2026-11-14T15:01:14+08:00"
   },
   "last24Count": 13
 }
