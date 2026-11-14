@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 5:59 am SGT",
-  "lastScannedTs": "2026-11-14T05:59:00+08:00",
-  "asOf": "Sat 14 Nov 2026, 5:58 am SGT",
-  "asOfTs": "2026-11-14T05:58:59+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 8:58 am SGT",
+  "lastScannedTs": "2026-11-14T08:58:01+08:00",
+  "asOf": "Sat 14 Nov 2026, 8:57 am SGT",
+  "asOfTs": "2026-11-14T08:57:51+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New Houthi pipeline claims and IRGC tanker-mine reports keep Gulf supply risk high, offset by IEA surplus outlook and stock releases.",
-    "lead": "Net read (last 24 hours): New Houthi pipeline claims and IRGC tanker-mine reports keep Gulf supply risk high, offset by IEA surplus outlook and stock releases.",
+    "bottom": "Fresh Hormuz tanker hit, Houthi pipeline claims and early Arctic cold risk keep risks tilted up, offset by IEA surplus outlook and stock releases.",
+    "lead": "Net read (last 24 hours): Fresh Hormuz tanker hit, Houthi pipeline claims and early Arctic cold risk keep risks tilted up, offset by IEA surplus outlook and stock releases.",
     "verdict": "Mixed, leaning bullish",
     "count": "11 of 15 alerts point higher, 4 lower",
     "text": "11 of 15 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Polar vortex weakening early; forecasters warn of Arctic cold in US and Europe",
+        "confidence": "confirmed",
+        "theme": "Weather",
+        "ts": "2026-11-14T06:10:02+08:00"
+      },
+      {
+        "text": "Vanguard: crude tanker hit by unidentified object leaving Hormuz, fire onboard",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-14T05:48:02+08:00"
+      },
       {
         "text": "IRGC says two oil tankers hit mines and caught fire on Hormuz southern route",
         "confidence": "unconfirmed",
@@ -64,18 +76,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-13T10:15:00+08:00"
-      },
-      {
-        "text": "Reported US strikes widen along Iran's Hormuz coast, Bandar Lengeh air defence site hit",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-13T07:07:00+08:00"
-      },
-      {
-        "text": "Ukrainian drones reportedly hit Russia's Volgograd refinery amid the mass drone wave",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-13T06:02:30+08:00"
       }
     ],
     "dovish": [
@@ -107,10 +107,36 @@
     "neutral": []
   },
   "brent": {
-    "value": "$96.09",
-    "detail": "Brent at $96.09, WTI $89.00 as US oil rigs held at 463 (Oil & Energy Online, 2:51 am SGT 14 Nov); traded $95.41 at 2:22 pm SGT 13 Nov"
+    "value": "$96.05",
+    "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "06:10",
+      "ts": "2026-11-14T06:10:02+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Polar vortex has weakened unusually early, and forecasters warn of Arctic cold outbreaks in the US and Europe later in November",
+      "theme": "Weather",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "The Washington Post forecast report, shared on X",
+      "url": "https://x.com/Kimab65/status/2121364994478714882"
+    },
+    {
+      "time": "05:48",
+      "ts": "2026-11-14T05:48:02+08:00",
+      "eventTime": "2:40 am, 14 Nov",
+      "eventTs": "2026-11-14T02:40:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Maritime security firm Vanguard says a crude tanker was struck by an unidentified object during an outbound Strait of Hormuz transit, with a fire onboard",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Noam Raydan, citing Vanguard maritime security",
+      "url": "https://x.com/NoamRaydan/status/2121359458647281884"
+    },
     {
       "time": "04:47",
       "ts": "2026-11-14T04:47:27+08:00",
@@ -604,35 +630,19 @@
       "confidence": "Unconfirmed",
       "source": "OSINTdefender",
       "url": "https://x.com/sentdefender/status/2120669497048875084"
-    },
-    {
-      "time": "08:00",
-      "ts": "2026-11-12T08:00:02+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israeli media: Trump and Netanyahu clashed over Iran; Netanyahu pushed for renewed US strikes, Trump insisted on more time for diplomacy and sanctions",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Mario Nawfal citing Israeli media",
-      "url": "https://x.com/MarioNawfal/status/2120667902508511639"
-    },
-    {
-      "time": "07:05",
-      "ts": "2026-11-12T07:05:47+08:00",
-      "eventTime": "Week to 8 Nov (no single time)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Bloomberg: Russia's seaborne crude exports fell about 700,000 b/d (~17%) to 3.37m b/d in the week to 8 Nov",
-      "theme": "Ports",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FAB87F citing Bloomberg tanker tracking",
-      "url": "https://x.com/FAB87F/status/2120654248417296761"
     }
   ],
   "sources": [
+    {
+      "title": "Noam Raydan: Vanguard says crude tanker struck by unidentified object in Hormuz, fire onboard",
+      "site": "x.com/NoamRaydan",
+      "href": "https://x.com/NoamRaydan/status/2121359458647281884"
+    },
+    {
+      "title": "Washington Post: why the polar vortex has forecasters on alert for Arctic cold in the US",
+      "site": "x.com/Kimab65",
+      "href": "https://x.com/Kimab65/status/2121364994478714882"
+    },
     {
       "title": "Yahya Saree: Houthi drones hit Pumping Station No. 3 of East-West pipeline and Riyadh airport (Arabic)",
       "site": "x.com/Yah_Saree",
@@ -1922,11 +1932,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis claim drone strikes on Pumping Station No. 3 of Saudi Arabia's East-West crude pipeline and Riyadh airport overnight, with no Saudi confirmation of damage.",
-      "Iran's IRGC says two oil tankers hit mines and caught fire near Oman on Hormuz's southern route, a day after CENTCOM downed IRGC drones fired at Bahrain."
+      "Houthis claim drone strikes on Saudi Arabia's East-West crude pipeline and Riyadh airport, while Iran's IRGC says two tankers hit mines and caught fire near Oman.",
+      "Maritime firm Vanguard separately reports a crude tanker struck by an unidentified object leaving Hormuz, and forecasters warn an early polar vortex breakdown could bring Arctic cold."
     ],
-    "updated": "Sat 14 Nov 2026, 5:59 am SGT",
-    "updatedTs": "2026-11-14T05:59:00+08:00"
+    "updated": "Sat 14 Nov 2026, 8:58 am SGT",
+    "updatedTs": "2026-11-14T08:58:01+08:00"
   },
   "last24Count": 13
 }
