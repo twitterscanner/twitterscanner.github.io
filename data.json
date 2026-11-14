@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 5:56 pm SGT",
-  "lastScannedTs": "2026-11-14T17:56:41+08:00",
-  "asOf": "Sat 14 Nov 2026, 3:01 pm SGT",
-  "asOfTs": "2026-11-14T15:01:14+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 8:58 pm SGT",
+  "lastScannedTs": "2026-11-14T20:58:52+08:00",
+  "asOf": "Sat 14 Nov 2026, 8:58 pm SGT",
+  "asOfTs": "2026-11-14T20:58:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Repeated Hormuz tanker mine and strike claims, a Houthi pipeline claim, Iran drone incidents and Arctic cold risk keep risks tilted up; nothing bearish.",
-    "lead": "Net read (last 24 hours): Repeated Hormuz tanker mine and strike claims, a Houthi pipeline claim, Iran drone incidents and Arctic cold risk keep risks tilted up; nothing bearish.",
+    "bottom": "Hormuz tanker mine fires, an Iran drone claim and a Samara pipeline hit keep risks tilted up; Trump pausing Iran strikes is the main offset.",
+    "lead": "Net read (last 24 hours): Hormuz tanker mine fires, an Iran drone claim and a Samara pipeline hit keep risks tilted up; Trump pausing Iran strikes is the main offset.",
     "verdict": "Bullish",
-    "count": "7 of 7 alerts point higher, 0 lower",
-    "text": "7 of 7 alerts point higher, 0 lower.",
+    "count": "8 of 10 alerts point higher, 1 lower",
+    "text": "8 of 10 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ukraine hits major Samara crude-pipeline hub; oil tanks ablaze",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-14T20:26:35+08:00"
+      },
+      {
+        "text": "IRGC claims shootdown of US MQ-1 drone over Qeshm Island",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-14T20:11:55+08:00"
+      },
+      {
+        "text": "Iran: second tanker this morning hits mine east of Hormuz, catches fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-14T18:18:43+08:00"
+      },
       {
         "text": "Iran's army navy says another tanker hit a mine east of Hormuz, caught fire",
         "confidence": "unconfirmed",
@@ -40,28 +58,95 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-14T04:28:50+08:00"
-      },
-      {
-        "text": "CENTCOM confirms two IRGC drones fired at Bahrain, both shot down, no damage",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-13T20:54:45+08:00"
-      },
-      {
-        "text": "Iran claims its navy shot down a US MQ-1 drone off Sirik near Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-13T18:03:02+08:00"
       }
     ],
-    "dovish": [],
-    "neutral": []
+    "dovish": [
+      {
+        "text": "Trump may hold off on Iran attacks barring new provocations (Reuters)",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-14T19:17:04+08:00"
+      }
+    ],
+    "neutral": [
+      {
+        "text": "Russian cruise missiles hit Ukraine's Kremenchuk refinery, large fire",
+        "confidence": "unconfirmed",
+        "theme": "Refineries",
+        "ts": "2026-11-14T20:02:26+08:00"
+      }
+    ]
   },
   "brent": {
     "value": "$96.05",
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:26",
+      "ts": "2026-11-14T20:26:35+08:00",
+      "eventTime": "13 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Ukraine's General Staff says it struck a major crude-pipeline hub (oil tanks on fire) in Russia's Samara region on 13 Nov, plus Lipetsk-2 airfield",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Ukraine General Staff via Bloomberg / Giovanni Staunovo on X",
+      "url": "https://x.com/staunovo/status/2121580553061224582"
+    },
+    {
+      "time": "20:11",
+      "ts": "2026-11-14T20:11:55+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island in the Strait of Hormuz",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC claim via FirstSquawk on X",
+      "url": "https://x.com/FirstSquawk/status/2121576860375298503"
+    },
+    {
+      "time": "20:02",
+      "ts": "2026-11-14T20:02:26+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russia strikes Ukraine's Kremenchuk oil refinery with cruise missiles; large fire seen at the facility after 1-2 impacts",
+      "theme": "Refineries",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping on X",
+      "url": "https://x.com/AMK_Mapping_/status/2121574473367421144"
+    },
+    {
+      "time": "19:17",
+      "ts": "2026-11-14T19:17:04+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Reuters: Trump tells advisers he may hold off on new Iran attacks unless Tehran or the Houthis carry out fresh provocations; says Saudi asked him to keep current approach",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Reuters via FirstSquawk on X",
+      "url": "https://x.com/FirstSquawk/status/2121563056908251433"
+    },
+    {
+      "time": "18:18",
+      "ts": "2026-11-14T18:18:43+08:00",
+      "eventTime": "Early morning 14 Nov, ~9:00 am (est.)",
+      "eventTs": "2026-11-14T09:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's army navy says a second oil tanker this morning hit a naval mine east of the Strait of Hormuz and caught fire; reports tally five tanker fires in 24 hours",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian Army Navy statement via FirstSquawk on X",
+      "url": "https://x.com/FirstSquawk/status/2121548375019733250"
+    },
     {
       "time": "12:26",
       "ts": "2026-11-14T12:26:32+08:00",
@@ -516,74 +601,34 @@
       "confidence": "Unconfirmed",
       "source": "Abominable / Jan De Laet on X (citing a source)",
       "url": "https://x.com/Abom1nabl3/status/2120790393738477924"
-    },
-    {
-      "time": "17:58",
-      "ts": "2026-11-12T17:58:11+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Russian Geran-4 jet-drone strikes reported on Ukraine's Kremenchuk oil refinery, its largest, plus a logistics centre and a 110 kV substation; damage not stated",
-      "theme": "Refineries",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping (OSINT, strike footage); also relayed by other OSINT accounts",
-      "url": "https://x.com/AMK_Mapping_/status/2120818430068863358"
-    },
-    {
-      "time": "17:24",
-      "ts": "2026-11-12T17:24:30+08:00",
-      "eventTime": "Afternoon of 12 Nov, Iran time (est.)",
-      "eventTs": "2026-11-12T17:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says a third tanker using an unauthorised Hormuz route exploded this afternoon after hitting a naval mine, after two supertankers overnight; vessel not named, no UKMTO confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "CGTN Europe, citing IRGC Navy public relations; also relayed by other news accounts",
-      "url": "https://x.com/CGTNEurope/status/2120809953405382746"
-    },
-    {
-      "time": "14:51",
-      "ts": "2026-11-12T14:51:18+08:00",
-      "eventTime": "Night of 11-12 Nov (est., 'Wednesday night')",
-      "eventTs": "2026-11-12T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says two supertankers carrying over 4 million barrels were stopped after explosions on Wednesday night while using an 'unauthorised' southern route through Hormuz; vessels not named, no UKMTO confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Sepah News and Iranian state media; also RedboxWire, Reuters via wires",
-      "url": "https://x.com/FirstSquawk/status/2120771399547789419"
-    },
-    {
-      "time": "14:11",
-      "ts": "2026-11-12T14:11:59+08:00",
-      "eventTime": "1:58 pm, 12 Nov (est.)",
-      "eventTs": "2026-11-12T13:58:00+08:00",
-      "eventQual": "est.",
-      "headline": "Satellite thermal imagery reportedly picks up a fresh fire in the Strait of Hormuz, possibly from a strike on a ship; vessel, cause and link to yesterday's burning ship unconfirmed",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (CocoPostel), via AB4_Ali3 (Arabic)",
-      "url": "https://x.com/CocoPostel/status/2120761506463658274"
-    },
-    {
-      "time": "10:39",
-      "ts": "2026-11-12T10:39:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Satellite imagery reportedly shows fires at Yanbu Industrial City (Red Sea) and Aramco's Shedgum gas plant (Eastern Province); no official Saudi word on cause, routine flaring not ruled out",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (OSINT), relayed by Arabic accounts; no official Saudi confirmation",
-      "url": "https://x.com/CocoPostel/status/2120708084968427685"
     }
   ],
   "sources": [
+    {
+      "title": "Giovanni Staunovo: Ukraine says it struck major crude-pipeline hub in Russia's Samara region",
+      "site": "x.com/staunovo",
+      "href": "https://x.com/staunovo/status/2121580553061224582"
+    },
+    {
+      "title": "FirstSquawk: IRGC says it shot down US MQ-1 Predator drone over Qeshm Island",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2121576860375298503"
+    },
+    {
+      "title": "AMK Mapping: Russia strikes Kremenchuk oil refinery with cruise missiles, large fire",
+      "site": "x.com/AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2121574473367421144"
+    },
+    {
+      "title": "FirstSquawk: Trump tells advisers he may hold off on Iran attacks barring new provocations (Reuters)",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2121563056908251433"
+    },
+    {
+      "title": "FirstSquawk: Iranian Army Navy says second tanker today hit mine east of Hormuz, fire",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2121548375019733250"
+    },
     {
       "title": "BRICSinfo: Iran says another oil tanker caught fire after striking a mine in the Strait of Hormuz",
       "site": "x.com/BRICSinfo",
@@ -1888,11 +1933,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis claim drone strikes on Saudi Arabia's East-West crude pipeline, while Iran's IRGC and army navy report several tankers hitting mines and catching fire near Hormuz.",
-      "Maritime firm Vanguard separately reports a crude tanker struck by an unidentified object leaving Hormuz, and forecasters warn an early polar vortex breakdown could bring Arctic cold."
+      "Iran reports a second tanker hitting a mine east of Hormuz this morning, five tanker fires in 24 hours, and claims shooting down a US drone over Qeshm.",
+      "Ukraine hit a major Samara crude-pipeline hub and Russia struck Kremenchuk refinery, while Reuters says Trump may hold off on new Iran attacks absent provocations."
     ],
-    "updated": "Sat 14 Nov 2026, 3:01 pm SGT",
-    "updatedTs": "2026-11-14T15:01:14+08:00"
+    "updated": "Sat 14 Nov 2026, 8:58 pm SGT",
+    "updatedTs": "2026-11-14T20:58:52+08:00"
   },
   "last24Count": 13
 }
