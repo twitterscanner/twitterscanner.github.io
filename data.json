@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 3:01 pm SGT",
-  "lastScannedTs": "2026-11-14T15:01:41+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 5:56 pm SGT",
+  "lastScannedTs": "2026-11-14T17:56:41+08:00",
   "asOf": "Sat 14 Nov 2026, 3:01 pm SGT",
   "asOfTs": "2026-11-14T15:01:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Repeated Hormuz tanker mine and strike claims, Houthi pipeline claims and Arctic cold risk keep risks tilted up, against IEA surplus and stock releases.",
-    "lead": "Net read (last 24 hours): Repeated Hormuz tanker mine and strike claims, Houthi pipeline claims and Arctic cold risk keep risks tilted up, against IEA surplus and stock releases.",
+    "bottom": "Repeated Hormuz tanker mine and strike claims, a Houthi pipeline claim, Iran drone incidents and Arctic cold risk keep risks tilted up; nothing bearish.",
+    "lead": "Net read (last 24 hours): Repeated Hormuz tanker mine and strike claims, a Houthi pipeline claim, Iran drone incidents and Arctic cold risk keep risks tilted up; nothing bearish.",
     "verdict": "Bullish",
-    "count": "8 of 10 alerts point higher, 2 lower",
-    "text": "8 of 10 alerts point higher, 2 lower.",
+    "count": "7 of 7 alerts point higher, 0 lower",
+    "text": "7 of 7 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Iran's army navy says another tanker hit a mine east of Hormuz, caught fire",
@@ -52,28 +52,9 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-13T18:03:02+08:00"
-      },
-      {
-        "text": "IAEA report: no verification of Iran's nuclear material, no Isfahan access since June 2025",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-13T16:18:33+08:00"
       }
     ],
-    "dovish": [
-      {
-        "text": "IEA members to release a further 71m bbl of emergency stocks through February",
-        "confidence": "confirmed",
-        "theme": "Strategic reserves",
-        "ts": "2026-11-13T17:10:58+08:00"
-      },
-      {
-        "text": "IEA: market back in surplus, 1.7m b/d Q4 glut as Gulf/Hormuz exports recover",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-13T17:00:58+08:00"
-      }
-    ],
+    "dovish": [],
     "neutral": []
   },
   "brent": {
