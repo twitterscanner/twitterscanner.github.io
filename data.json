@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 8:58 am SGT",
-  "lastScannedTs": "2026-11-14T08:58:01+08:00",
+  "lastScanned": "Sat 14 Nov 2026, 11:58 am SGT",
+  "lastScannedTs": "2026-11-14T11:58:18+08:00",
   "asOf": "Sat 14 Nov 2026, 8:57 am SGT",
   "asOfTs": "2026-11-14T08:57:51+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Fresh Hormuz tanker hit, Houthi pipeline claims and early Arctic cold risk keep risks tilted up, offset by IEA surplus outlook and stock releases.",
     "lead": "Net read (last 24 hours): Fresh Hormuz tanker hit, Houthi pipeline claims and early Arctic cold risk keep risks tilted up, offset by IEA surplus outlook and stock releases.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "11 of 15 alerts point higher, 4 lower",
-    "text": "11 of 15 alerts point higher, 4 lower.",
+    "verdict": "Bullish",
+    "count": "10 of 13 alerts point higher, 3 lower",
+    "text": "10 of 13 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Polar vortex weakening early; forecasters warn of Arctic cold in US and Europe",
@@ -70,12 +70,6 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-13T13:40:10+08:00"
-      },
-      {
-        "text": "IRGC claims strike on US early-warning radar in Bahrain, retaliating for Sirik",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-13T10:15:00+08:00"
       }
     ],
     "dovish": [
@@ -96,12 +90,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-13T12:53:49+08:00"
-      },
-      {
-        "text": "Trump says Gulf states asked the US not to strike Iran, prefer waiting",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-13T10:05:00+08:00"
       }
     ],
     "neutral": []
