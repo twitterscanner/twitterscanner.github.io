@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 3:01 am SGT",
-  "lastScannedTs": "2026-11-16T03:01:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 3:03 am SGT",
-  "asOfTs": "2026-11-16T03:03:33+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-16T04:05:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 4:06 am SGT",
+  "asOfTs": "2026-11-16T04:06:42+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Houthi strikes on Saudi pipeline and Riyadh, Hormuz tanker attacks and a third US carrier arriving keep supply risks tilted clearly higher.",
-    "lead": "Net read (last 24 hours): Houthi strikes on Saudi pipeline and Riyadh, Hormuz tanker attacks and a third US carrier arriving keep supply risks tilted clearly higher.",
+    "bottom": "Iranian anti-ship missile fire at Hormuz, Houthi strikes on Saudi oil sites and Russian refinery losses keep supply risks tilted clearly higher.",
+    "lead": "Net read (last 24 hours): Iranian anti-ship missile fire at Hormuz, Houthi strikes on Saudi oil sites and Russian refinery losses keep supply risks tilted clearly higher.",
     "verdict": "Bullish",
-    "count": "11 of 12 alerts point higher, 0 lower",
-    "text": "Houthi strikes on Saudi pipeline and Riyadh, Hormuz tanker attacks and a third US carrier arriving keep supply risks tilted clearly higher.",
+    "count": "14 of 15 alerts point higher, 0 lower",
+    "text": "14 of 15 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Iran fires anti-ship missiles toward Hormuz; US reportedly strikes launcher",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-16T04:04:08+08:00"
+      },
+      {
+        "text": "Saudis intercept missiles at Riyadh and drones over oil-rich Eastern Province",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-16T03:45:00+08:00"
+      },
+      {
+        "text": "Zelensky: over 55% of Russian refining capacity disabled",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-16T03:40:29+08:00"
+      },
       {
         "text": "Houthis claim drone hits on East-West pipeline pumping stations 5 and 6",
         "confidence": "unconfirmed",
@@ -93,6 +111,45 @@
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "04:04",
+      "ts": "2026-11-16T04:04:08+08:00",
+      "eventTime": "3:05 am, 16 Nov (est.)",
+      "eventTs": "2026-11-16T03:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran fires four anti-ship cruise missiles from Bandar Lengeh/Kong toward the Strait of Hormuz; US reportedly strikes the launcher",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping on X (launch footage widely shared; US strike unverified)",
+      "url": "https://x.com/AMK_Mapping_/status/2122058088941519133"
+    },
+    {
+      "time": "03:45",
+      "ts": "2026-11-16T03:45:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says it intercepted 2 ballistic missiles aimed at Riyadh and 3 drones over the Eastern Province",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Mario Nawfal on X, citing Saudi-led coalition",
+      "url": "https://x.com/MarioNawfal/status/2122053270722216314"
+    },
+    {
+      "time": "03:40",
+      "ts": "2026-11-16T03:40:29+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Zelensky says Ukraine has disabled more than 55% of Russia's oil refining capacity",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Volodymyr Zelensky (President of Ukraine) on X",
+      "url": "https://x.com/ZelenskyyUa/status/2122052133994254594"
+    },
     {
       "time": "02:35",
       "ts": "2026-11-16T02:35:12+08:00",
@@ -573,48 +630,24 @@
       "confidence": "Confirmed",
       "source": "Al Arabiya (Arabic), citing the coalition",
       "url": "https://x.com/AlArabiya/status/2120970776840925383"
-    },
-    {
-      "time": "04:06",
-      "ts": "2026-11-13T04:06:24+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's IRNA says Sirik in Hormozgan, on the Strait of Hormuz coast, was hit by 'enemy' fire in a military attack; attacker and damage not stated",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk and Open Source Intel, citing IRNA",
-      "url": "https://x.com/FirstSquawk/status/2120956440206803334"
-    },
-    {
-      "time": "03:02",
-      "ts": "2026-11-13T03:02:28+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "i24: a US official says Iran added new demands and 'overreached' in talks; sticking points are enrichment, shipping out the stockpile and sequencing",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "LiveSquawk and First Squawk, citing i24 News and a US official",
-      "url": "https://x.com/LiveSquawk/status/2120943277252005964"
-    },
-    {
-      "time": "01:59",
-      "ts": "2026-11-13T01:59:30+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Kan: a US official says CENTCOM has told Israel to prepare for a possible resumption of war with Iran; the US reportedly sent similar messages to Gulf states",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, citing Kan News (Israeli public broadcaster) and a US official",
-      "url": "https://x.com/FirstSquawk/status/2120938393207234726"
     }
   ],
   "sources": [
+    {
+      "title": "AMK Mapping: Iran fires four anti-ship cruise missiles from Bandar Lengeh toward Hormuz, US strike on launcher reported",
+      "site": "x.com/AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2122058088941519133"
+    },
+    {
+      "title": "Mario Nawfal: Saudi coalition intercepts 2 missiles at Riyadh and 3 drones over Eastern Province",
+      "site": "x.com/MarioNawfal",
+      "href": "https://x.com/MarioNawfal/status/2122053270722216314"
+    },
+    {
+      "title": "Zelensky: more than 55% of Russia's oil refining capacity disabled",
+      "site": "x.com/ZelenskyyUa",
+      "href": "https://x.com/ZelenskyyUa/status/2122052133994254594"
+    },
     {
       "title": "Yahya Saree: Houthis claim drone strikes on East-West pipeline pumping stations 5 and 6 (Arabic)",
       "site": "x.com/Yah_Saree",
@@ -2014,11 +2047,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed missiles at Riyadh's airport and financial district and drone hits on East-West pipeline pumping stations 5 and 6.",
-      "A third US carrier, the USS Theodore Roosevelt, is due in the Middle East as Iranian air defences fired over Qeshm near Hormuz."
+      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Saudi forces reported intercepting missiles and drones, including over the Eastern Province.",
+      "Iran reportedly fired anti-ship cruise missiles toward the Strait of Hormuz with a US strike on the launcher reported, and Zelensky said over half of Russian refining is disabled."
     ],
-    "updated": "Mon 16 Nov 2026, 3:01 am SGT",
-    "updatedTs": "2026-11-16T03:01:00+08:00"
+    "updated": "Mon 16 Nov 2026, 4:05 am SGT",
+    "updatedTs": "2026-11-16T04:05:00+08:00"
   },
   "last24Count": 13
 }
