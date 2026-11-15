@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 12:05 am SGT",
-  "lastScannedTs": "2026-11-16T00:05:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 12:05 am SGT",
-  "asOfTs": "2026-11-16T00:05:25+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 3:01 am SGT",
+  "lastScannedTs": "2026-11-16T03:01:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 3:03 am SGT",
+  "asOfTs": "2026-11-16T03:03:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker strikes, reported fire over Qeshm, Houthi drones on Saudi Arabia and Bab el-Mandeb gains keep supply risks tilted clearly higher.",
-    "lead": "Net read (last 24 hours): Hormuz tanker strikes, reported fire over Qeshm, Houthi drones on Saudi Arabia and Bab el-Mandeb gains keep supply risks tilted clearly higher.",
+    "bottom": "Houthi strikes on Saudi pipeline and Riyadh, Hormuz tanker attacks and a third US carrier arriving keep supply risks tilted clearly higher.",
+    "lead": "Net read (last 24 hours): Houthi strikes on Saudi pipeline and Riyadh, Hormuz tanker attacks and a third US carrier arriving keep supply risks tilted clearly higher.",
     "verdict": "Bullish",
-    "count": "8 of 9 alerts point higher, 0 lower",
-    "text": "8 of 9 alerts point higher, 0 lower.",
+    "count": "11 of 12 alerts point higher, 0 lower",
+    "text": "Houthi strikes on Saudi pipeline and Riyadh, Hormuz tanker attacks and a third US carrier arriving keep supply risks tilted clearly higher.",
     "hawkish": [
+      {
+        "text": "Houthis claim drone hits on East-West pipeline pumping stations 5 and 6",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-16T02:35:12+08:00"
+      },
+      {
+        "text": "Houthis claim ballistic missiles at Riyadh airport and financial district",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-16T01:53:33+08:00"
+      },
+      {
+        "text": "Third US carrier, USS Theodore Roosevelt, joining two others in Middle East",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-16T01:21:12+08:00"
+      },
       {
         "text": "Explosions on Qeshm Island as Iranian air defences fire SAMs near Hormuz",
         "confidence": "unconfirmed",
@@ -75,6 +93,45 @@
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "02:35",
+      "ts": "2026-11-16T02:35:12+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim two drones hit oil pumping stations No. 5 and No. 6 on Saudi Arabia's East-West pipeline in the Riyadh region",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi spokesman Yahya Saree on X, translated from Arabic",
+      "url": "https://x.com/Yah_Saree/status/2122035706222776423"
+    },
+    {
+      "time": "01:53",
+      "ts": "2026-11-16T01:53:33+08:00",
+      "eventTime": "1:00 am, 16 Nov (est.)",
+      "eventTs": "2026-11-16T01:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis claim two ballistic missiles fired at King Khalid International Airport and the financial district in Riyadh; Saudi airspace disruption reported",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi spokesman Yahya Saree on X, translated from Arabic",
+      "url": "https://x.com/Yah_Saree/status/2122025225902797088"
+    },
+    {
+      "time": "01:21",
+      "ts": "2026-11-16T01:21:12+08:00",
+      "eventTime": "Arrival expected Mon 16 Nov (not yet happened)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "NYT: USS Theodore Roosevelt to join two other US carriers in the Middle East by Mon 16 Nov, three carriers in CENTCOM at once for first time since 2003",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "New York Times via First Squawk on X",
+      "url": "https://x.com/FirstSquawk/status/2122017081424294069"
+    },
     {
       "time": "23:32",
       "ts": "2026-11-15T23:32:00+08:00",
@@ -555,48 +612,24 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, citing Kan News (Israeli public broadcaster) and a US official",
       "url": "https://x.com/FirstSquawk/status/2120938393207234726"
-    },
-    {
-      "time": "01:59",
-      "ts": "2026-11-13T01:59:00+08:00",
-      "eventTime": "1:50 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T01:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis claim a drone strike on Saudi Aramco in Riyadh 'a short while ago', saying it hit its target (translated from Arabic); no Saudi confirmation of damage",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi military spokesman (Arabic statement); also CGTN Europe",
-      "url": "https://x.com/Yah_Saree/status/2120937832487473439"
-    },
-    {
-      "time": "01:27",
-      "ts": "2026-11-13T01:27:00+08:00",
-      "eventTime": "1:20 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T01:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: explosions reported at Sarkhor Taheroi, 6 km from Sirik on Iran's Hormuz coast, following the reported missile launches from Bandar Abbas; cause not stated",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel (Osint613), citing BeamTracker (OSINT); single source, no official confirmation",
-      "url": "https://x.com/Osint613/status/2120929681042190337"
-    },
-    {
-      "time": "00:54",
-      "ts": "2026-11-13T00:54:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim two new operations: a drone strike on Pumping Station No. 7 of Saudi Arabia's East-West crude pipeline and a strike on the Yanbu oil facility; they dispute a Saudi claim to have intercepted two missiles (translated from Arabic)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi military spokesman (Arabic statement); no Saudi confirmation of damage",
-      "url": "https://x.com/Yah_Saree/status/2120923116721651818"
     }
   ],
   "sources": [
+    {
+      "title": "Yahya Saree: Houthis claim drone strikes on East-West pipeline pumping stations 5 and 6 (Arabic)",
+      "site": "x.com/Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2122035706222776423"
+    },
+    {
+      "title": "Yahya Saree: Houthis claim ballistic missiles at Riyadh airport and financial centre (Arabic)",
+      "site": "x.com/Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2122025225902797088"
+    },
+    {
+      "title": "First Squawk: NYT says USS Theodore Roosevelt joins two other carriers in Middle East",
+      "site": "x.com/FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122017081424294069"
+    },
     {
       "title": "Open Source Intel: UKMTO says tanker struck near Khasab, Oman, heading toward Hormuz",
       "site": "x.com/Osint613",
@@ -1981,11 +2014,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Late Sunday Iranian air defences fired SAMs over Qeshm Island and Bandar Abbas amid reported explosions, after a tanker was struck near Khasab heading for Hormuz.",
-      "Saudi Arabia intercepted Houthi drones over Mecca and Medina as the Houthis, now holding ground over Bab el-Mandeb, said their strikes target Saudi oil facilities."
+      "Overnight the Houthis claimed missiles at Riyadh's airport and financial district and drone hits on East-West pipeline pumping stations 5 and 6.",
+      "A third US carrier, the USS Theodore Roosevelt, is due in the Middle East as Iranian air defences fired over Qeshm near Hormuz."
     ],
-    "updated": "Mon 16 Nov 2026, 12:05 am SGT",
-    "updatedTs": "2026-11-16T00:05:00+08:00"
+    "updated": "Mon 16 Nov 2026, 3:01 am SGT",
+    "updatedTs": "2026-11-16T03:01:00+08:00"
   },
   "last24Count": 13
 }
