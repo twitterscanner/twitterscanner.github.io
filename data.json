@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-16T04:05:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 4:06 am SGT",
-  "asOfTs": "2026-11-16T04:06:42+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 5:04 am SGT",
+  "lastScannedTs": "2026-11-16T05:04:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 5:03 am SGT",
+  "asOfTs": "2026-11-16T05:03:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iranian anti-ship missile fire at Hormuz, Houthi strikes on Saudi oil sites and Russian refinery losses keep supply risks tilted clearly higher.",
-    "lead": "Net read (last 24 hours): Iranian anti-ship missile fire at Hormuz, Houthi strikes on Saudi oil sites and Russian refinery losses keep supply risks tilted clearly higher.",
+    "bottom": "Repeated tanker incidents and missile fire at Hormuz, Houthi strikes on Saudi oil sites and a Bahrain threat alert keep supply risks tilted higher.",
+    "lead": "Net read (last 24 hours): Repeated tanker incidents and missile fire at Hormuz, Houthi strikes on Saudi oil sites and a Bahrain threat alert keep supply risks tilted higher.",
     "verdict": "Bullish",
-    "count": "14 of 15 alerts point higher, 0 lower",
-    "text": "14 of 15 alerts point higher, 0 lower.",
+    "count": "16 of 17 alerts point higher, 0 lower",
+    "text": "16 of 17 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "US Embassy Bahrain warns of rising Houthi and Iranian attack threat",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-16T04:33:14+08:00"
+      },
+      {
+        "text": "Iran says another tanker hit a mine and caught fire in eastern Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-16T04:21:41+08:00"
+      },
       {
         "text": "Iran fires anti-ship missiles toward Hormuz; US reportedly strikes launcher",
         "confidence": "unconfirmed",
@@ -111,6 +123,32 @@
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "04:33",
+      "ts": "2026-11-16T04:33:14+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "US Embassy in Manama issues security alert for Bahrain, citing rising threat of attacks by Iran-backed Houthis and Iranian plans to hit US facilities",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel on X (US Embassy Manama alert; also Post Open Source)",
+      "url": "https://x.com/Osint613/status/2122065408505352688"
+    },
+    {
+      "time": "04:21",
+      "ts": "2026-11-16T04:21:41+08:00",
+      "eventTime": "3:00 am, 16 Nov (est.)",
+      "eventTs": "2026-11-16T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's navy says another 'rogue' oil tanker caught fire after striking a naval mine in the eastern Strait of Hormuz",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X, citing Iranian state media (also Al Arabiya, Arab News); vessel not named, no independent confirmation",
+      "url": "https://x.com/Osint613/status/2122062504352153653"
+    },
     {
       "time": "04:04",
       "ts": "2026-11-16T04:04:08+08:00",
@@ -604,35 +642,19 @@
       "confidence": "Unconfirmed",
       "source": "markito0171 on X, plus UK_REPT, Illia Ponomarenko and others",
       "url": "https://x.com/markito0171/status/2121000291990487379"
-    },
-    {
-      "time": "05:06",
-      "ts": "2026-11-13T05:06:03+08:00",
-      "eventTime": "4:10 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T04:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine launches one of its largest drone waves on Russia, reportedly 600-850 drones heading toward Moscow and central regions; Moscow airports reported closed",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "markito0171 on X, plus Russian sources cited by NSWOSINT and others",
-      "url": "https://x.com/markito0171/status/2120974123732246660"
-    },
-    {
-      "time": "04:06",
-      "ts": "2026-11-13T04:06:54+08:00",
-      "eventTime": "3:50 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T03:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones tonight, one over the Riyadh region and one over the oil-rich Eastern Province",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Arabiya (Arabic), citing the coalition",
-      "url": "https://x.com/AlArabiya/status/2120970776840925383"
     }
   ],
   "sources": [
+    {
+      "title": "Open Source Intel: Iran's navy says another 'rogue' tanker hit a mine and caught fire in eastern Hormuz",
+      "site": "x.com/Osint613",
+      "href": "https://x.com/Osint613/status/2122062504352153653"
+    },
+    {
+      "title": "Open Source Intel: US Embassy Manama security alert citing Houthi and Iranian attack threat",
+      "site": "x.com/Osint613",
+      "href": "https://x.com/Osint613/status/2122065408505352688"
+    },
     {
       "title": "AMK Mapping: Iran fires four anti-ship cruise missiles from Bandar Lengeh toward Hormuz, US strike on launcher reported",
       "site": "x.com/AMK_Mapping_",
@@ -2047,11 +2069,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Saudi forces reported intercepting missiles and drones, including over the Eastern Province.",
-      "Iran reportedly fired anti-ship cruise missiles toward the Strait of Hormuz with a US strike on the launcher reported, and Zelensky said over half of Russian refining is disabled."
+      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine and caught fire.",
+      "The US Embassy in Bahrain warned of rising Houthi and Iranian attack threats, and Zelensky said over half of Russian refining capacity has been disabled."
     ],
-    "updated": "Mon 16 Nov 2026, 4:05 am SGT",
-    "updatedTs": "2026-11-16T04:05:00+08:00"
+    "updated": "Mon 16 Nov 2026, 5:04 am SGT",
+    "updatedTs": "2026-11-16T05:04:00+08:00"
   },
   "last24Count": 13
 }
