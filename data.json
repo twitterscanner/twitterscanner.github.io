@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Sat 14 Nov 2026, 8:58 pm SGT",
-  "lastScannedTs": "2026-11-14T20:58:52+08:00",
-  "asOf": "Sat 14 Nov 2026, 8:58 pm SGT",
-  "asOfTs": "2026-11-14T20:58:38+08:00",
+  "lastScanned": "Sun 15 Nov 2026, 6:25 pm SGT",
+  "lastScannedTs": "2026-11-15T18:25:00+08:00",
+  "asOf": "Sun 15 Nov 2026, 6:18 pm SGT",
+  "asOfTs": "2026-11-15T18:18:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker mine fires, an Iran drone claim and a Samara pipeline hit keep risks tilted up; Trump pausing Iran strikes is the main offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker mine fires, an Iran drone claim and a Samara pipeline hit keep risks tilted up; Trump pausing Iran strikes is the main offset.",
+    "bottom": "Iran's Bahrain attacks, Houthi gains at Bab el-Mandeb and Russian energy strikes keep risks tilted up; Trump pausing Iran strikes is the main offset.",
+    "lead": "Net read (last 24 hours): Iran's Bahrain attacks, Houthi gains at Bab el-Mandeb and Russian energy strikes keep risks tilted up; Trump pausing Iran strikes is the main offset.",
     "verdict": "Bullish",
-    "count": "8 of 10 alerts point higher, 1 lower",
-    "text": "8 of 10 alerts point higher, 1 lower.",
+    "count": "5 of 8 alerts point higher, 1 lower",
+    "text": "5 of 8 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iran fires drones and missiles at US assets in Bahrain; all intercepted",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-15T18:10:43+08:00"
+      },
+      {
+        "text": "Houthis gain ground over Bab el-Mandeb as Saudi-backed forces withdraw",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-15T17:24:53+08:00"
+      },
+      {
+        "text": "Ukrainian drones set Nizhnekamsk petrochemical complex ablaze, near TANECO refinery",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-15T15:33:45+08:00"
+      },
       {
         "text": "Ukraine hits major Samara crude-pipeline hub; oil tanks ablaze",
         "confidence": "confirmed",
@@ -22,42 +40,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-14T20:11:55+08:00"
-      },
-      {
-        "text": "Iran: second tanker this morning hits mine east of Hormuz, catches fire",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-14T18:18:43+08:00"
-      },
-      {
-        "text": "Iran's army navy says another tanker hit a mine east of Hormuz, caught fire",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-14T12:26:32+08:00"
-      },
-      {
-        "text": "Polar vortex weakening early; forecasters warn of Arctic cold in US and Europe",
-        "confidence": "confirmed",
-        "theme": "Weather",
-        "ts": "2026-11-14T06:10:02+08:00"
-      },
-      {
-        "text": "Vanguard: crude tanker hit by unidentified object leaving Hormuz, fire onboard",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-14T05:48:02+08:00"
-      },
-      {
-        "text": "IRGC says two oil tankers hit mines and caught fire on Hormuz southern route",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-14T04:47:27+08:00"
-      },
-      {
-        "text": "Houthis claim drone strike on East-West pipeline Pumping Station No. 3 near Riyadh",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-14T04:28:50+08:00"
       }
     ],
     "dovish": [
@@ -69,6 +51,12 @@
       }
     ],
     "neutral": [
+      {
+        "text": "EU navy boards suspected Russian shadow-fleet tanker in Mediterranean",
+        "confidence": "confirmed",
+        "theme": "Sanctions evasion",
+        "ts": "2026-11-15T17:44:29+08:00"
+      },
       {
         "text": "Russian cruise missiles hit Ukraine's Kremenchuk refinery, large fire",
         "confidence": "unconfirmed",
@@ -82,6 +70,58 @@
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:10",
+      "ts": "2026-11-15T18:10:43+08:00",
+      "eventTime": "Overnight / early morning Bahrain time",
+      "eventTs": "2026-11-15T09:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran fires drones and missiles at US assets in Bahrain overnight; Bahrain Defence Force says all intercepted, IRGC claims hit on US radar",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Bahrain Defence Force via First Squawk on X",
+      "url": "https://x.com/FirstSquawk/status/2121908749350936710"
+    },
+    {
+      "time": "17:44",
+      "ts": "2026-11-15T17:44:29+08:00",
+      "eventTime": "13 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "EU naval force (IRINI) boarded a suspected Russian shadow-fleet tanker in the Mediterranean on 13 Nov, found it flying a false flag, Kallas says",
+      "theme": "Sanctions evasion",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Kaja Kallas via Visioner on X",
+      "url": "https://x.com/visionergeo/status/2121902146153017502"
+    },
+    {
+      "time": "17:24",
+      "ts": "2026-11-15T17:24:53+08:00",
+      "eventTime": "Announced Sun 15 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-backed Yemeni forces withdraw from Bab el-Mandeb area and Dhubab, leaving Houthis controlling ground overlooking the strait (Reuters)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Reuters via First Squawk on X",
+      "url": "https://x.com/FirstSquawk/status/2121897213714653459"
+    },
+    {
+      "time": "15:33",
+      "ts": "2026-11-15T15:33:45+08:00",
+      "eventTime": "Overnight 14-15 Nov Moscow time",
+      "eventTs": "2026-11-15T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones spark large fire at Sibur's Nizhnekamskneftekhim petrochemical complex in Tatarstan, near the TANECO refinery; mayor reports damage and injuries",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Militarnyi via Velit.es on X; local reports",
+      "url": "https://x.com/velitesgear/status/2121869246225326092"
+    },
     {
       "time": "20:26",
       "ts": "2026-11-14T20:26:35+08:00",
@@ -549,58 +589,6 @@
       "confidence": "Confirmed",
       "source": "Trump (Truth Social) via First Squawk",
       "url": "https://x.com/FirstSquawk/status/2120866441620828225"
-    },
-    {
-      "time": "19:40",
-      "ts": "2026-11-12T19:40:56+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran says reviewing an exit from the nuclear NPT is an 'unavoidable necessity' and has become a 'national demand' (Fars); Assembly of Experts also urged NPT exit and a 'war economy' HQ",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Fars via First Squawk / Bloomberg",
-      "url": "https://x.com/FirstSquawk/status/2120844288942825714"
-    },
-    {
-      "time": "19:39",
-      "ts": "2026-11-12T19:39:25+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Oman state TV: national emergency committee convenes on response to an oil tanker that ran aground off Al Qibliyah Island; vessel, cargo and any spill not stated",
-      "theme": "Tankers",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Oman state TV via First Squawk",
-      "url": "https://x.com/FirstSquawk/status/2120843908276228461"
-    },
-    {
-      "time": "19:01",
-      "ts": "2026-11-12T19:01:45+08:00",
-      "eventTime": "9:00 pm, 11 Nov (est.)",
-      "eventTs": "2026-11-11T21:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine's Special Operations Forces officially claim their Nov 11 drone strike on Russia's Omsk refinery (Gazprom Neft, 21+ Mt/yr), the third on the site; General Staff says five major Russian refineries have been hit since Oct 30",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Special Operations Forces of Ukraine (official); General Staff via First Squawk",
-      "url": "https://x.com/SOF_UKR/status/2120834428004167849"
-    },
-    {
-      "time": "18:37",
-      "ts": "2026-11-12T18:37:55+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "EU envoys reportedly agree 145 new Russia sanctions listings, including shadow fleet enablers, energy companies and 50 banks",
-      "theme": "Sanctions",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Abominable / Jan De Laet on X (citing a source)",
-      "url": "https://x.com/Abom1nabl3/status/2120790393738477924"
     }
   ],
   "sources": [
@@ -1928,16 +1916,36 @@
       "title": "FinancialJuice: IEA says Hormuz oil flows rose 440k b/d to 11.8m b/d in October",
       "site": "x.com",
       "href": "https://x.com/financialjuice/status/2121166804559294949"
+    },
+    {
+      "title": "First Squawk: Bahrain Defence Force says air defences destroyed Iranian aerial attacks",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2121908749350936710"
+    },
+    {
+      "title": "First Squawk: Saudi-backed Yemeni forces withdraw from Bab el-Mandeb area (Reuters)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2121897213714653459"
+    },
+    {
+      "title": "Velit.es / Militarnyi: Nizhnekamsk petrochemical plant on fire after drone attack",
+      "site": "x.com",
+      "href": "https://x.com/velitesgear/status/2121869246225326092"
+    },
+    {
+      "title": "Visioner: EU naval forces inspect suspected Russian shadow-fleet tanker",
+      "site": "x.com",
+      "href": "https://x.com/visionergeo/status/2121902146153017502"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran reports a second tanker hitting a mine east of Hormuz this morning, five tanker fires in 24 hours, and claims shooting down a US drone over Qeshm.",
-      "Ukraine hit a major Samara crude-pipeline hub and Russia struck Kremenchuk refinery, while Reuters says Trump may hold off on new Iran attacks absent provocations."
+      "Iran fired drones and missiles at US assets in Bahrain overnight, all intercepted, while Saudi-backed Yemeni forces withdrew from Bab el-Mandeb, leaving Houthis overlooking the strait.",
+      "Ukrainian drones set a major petrochemical complex in Nizhnekamsk, Tatarstan ablaze, and the EU boarded a suspected Russian shadow-fleet tanker in the Mediterranean."
     ],
-    "updated": "Sat 14 Nov 2026, 8:58 pm SGT",
-    "updatedTs": "2026-11-14T20:58:52+08:00"
+    "updated": "Sun 15 Nov 2026, 6:25 pm SGT",
+    "updatedTs": "2026-11-15T18:25:00+08:00"
   },
   "last24Count": 13
 }
