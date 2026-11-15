@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sun 15 Nov 2026, 9:25 pm SGT",
-  "lastScannedTs": "2026-11-15T21:25:00+08:00",
-  "asOf": "Sun 15 Nov 2026, 9:15 pm SGT",
-  "asOfTs": "2026-11-15T21:15:54+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 12:05 am SGT",
+  "lastScannedTs": "2026-11-16T00:05:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 12:05 am SGT",
+  "asOfTs": "2026-11-16T00:05:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fresh tanker strikes near Hormuz, Houthi pressure on Saudi pipelines and Bab el-Mandeb, and Iran's Bahrain attacks tilt risks clearly higher.",
-    "lead": "Net read (last 24 hours): Fresh tanker strikes near Hormuz, Houthi pressure on Saudi pipelines and Bab el-Mandeb, and Iran's Bahrain attacks tilt risks clearly higher.",
+    "bottom": "Hormuz tanker strikes, reported fire over Qeshm, Houthi drones on Saudi Arabia and Bab el-Mandeb gains keep supply risks tilted clearly higher.",
+    "lead": "Net read (last 24 hours): Hormuz tanker strikes, reported fire over Qeshm, Houthi drones on Saudi Arabia and Bab el-Mandeb gains keep supply risks tilted clearly higher.",
     "verdict": "Bullish",
-    "count": "6 of 7 alerts point higher, 0 lower",
-    "text": "6 of 7 alerts point higher, 0 lower.",
+    "count": "8 of 9 alerts point higher, 0 lower",
+    "text": "8 of 9 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Explosions on Qeshm Island as Iranian air defences fire SAMs near Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-15T23:32:00+08:00"
+      },
+      {
+        "text": "Saudi downs Houthi drones over Mecca and Medina; Houthis say oil sites targeted",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-15T22:23:18+08:00"
+      },
       {
         "text": "UKMTO: tanker struck near Khasab, Oman, heading toward Hormuz",
         "confidence": "confirmed",
@@ -63,6 +75,32 @@
     "detail": "Brent settled at $96.05 on Fri 13 Nov, down $2.27 on the week (Energy_Tidbits, 8:21 am SGT 14 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:32",
+      "ts": "2026-11-15T23:32:00+08:00",
+      "eventTime": "11:28 pm, 15 Nov (est.)",
+      "eventTs": "2026-11-15T23:28:00+08:00",
+      "eventQual": "est.",
+      "headline": "Explosions reported on Iran's Qeshm Island as air defences in Qeshm and Bandar Abbas fire SAMs, reportedly at US aircraft, beside the Strait of Hormuz",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X",
+      "url": "https://x.com/Osint613/status/2121989737007263957"
+    },
+    {
+      "time": "22:23",
+      "ts": "2026-11-15T22:23:18+08:00",
+      "eventTime": "10:20 pm, 15 Nov (est.)",
+      "eventTs": "2026-11-15T22:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Arabia intercepts Houthi drones over the Mecca and Medina regions; Houthi spokesman says their strikes target Saudi oil facilities and bases",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi authorities via First Squawk on X; Houthi reply translated from Arabic",
+      "url": "https://x.com/FirstSquawk/status/2121972313457672365"
+    },
     {
       "time": "21:10",
       "ts": "2026-11-15T21:10:34+08:00",
@@ -556,32 +594,6 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree, Houthi military spokesman (Arabic statement); no Saudi confirmation of damage",
       "url": "https://x.com/Yah_Saree/status/2120923116721651818"
-    },
-    {
-      "time": "00:30",
-      "ts": "2026-11-13T00:30:00+08:00",
-      "eventTime": "12:26 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T00:26:00+08:00",
-      "eventQual": "est.",
-      "headline": "Unconfirmed: more than 10 anti-ship cruise and/or surface-to-air missiles reportedly launched from Bandar Abbas toward the Strait of Hormuz; explosions reported in the city; targets unknown",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "BeamTracker (OSINT), widely amplified incl. Persian-language local accounts; traced to a single local-feed source, no official Iranian or US confirmation",
-      "url": "https://x.com/BeamTracker_/status/2120917265897951506"
-    },
-    {
-      "time": "00:02",
-      "ts": "2026-11-13T00:02:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis warn foreign businesses operating in Saudi Arabia must register with a Houthi-affiliated body in Yemen or risk being targeted by future strikes (SCMP)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Naser al-Tamimi, analyst quoted by the South China Morning Post",
-      "url": "https://x.com/nasertamimi/status/2120910183316509116"
     }
   ],
   "sources": [
@@ -1944,16 +1956,36 @@
       "title": "Visioner: EU naval forces inspect suspected Russian shadow-fleet tanker",
       "site": "x.com",
       "href": "https://x.com/visionergeo/status/2121902146153017502"
+    },
+    {
+      "title": "First Squawk: Saudi Arabia intercepts two Houthi drones over Mecca region",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2121972313457672365"
+    },
+    {
+      "title": "First Squawk: Saudi Arabia intercepts drone in Medina region",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2121996785447264282"
+    },
+    {
+      "title": "Yahya Saree (Arabic): denies Mecca/Medina targeting, says strikes hit Saudi oil facilities",
+      "site": "x.com",
+      "href": "https://x.com/Yah_Saree/status/2121997614468272156"
+    },
+    {
+      "title": "Open Source Intel: explosions on Qeshm Island, SAMs fired toward US aircraft",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2121989737007263957"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran fired drones and missiles at US assets in Bahrain, a tanker was struck near Khasab heading for Hormuz, and the IRGC claims a mined supertanker sank.",
-      "Houthis took ground over Bab el-Mandeb and reportedly hit Saudi East-West pipeline pumping stations again, while Ukrainian drones set a Nizhnekamsk petrochemical complex ablaze."
+      "Late Sunday Iranian air defences fired SAMs over Qeshm Island and Bandar Abbas amid reported explosions, after a tanker was struck near Khasab heading for Hormuz.",
+      "Saudi Arabia intercepted Houthi drones over Mecca and Medina as the Houthis, now holding ground over Bab el-Mandeb, said their strikes target Saudi oil facilities."
     ],
-    "updated": "Sun 15 Nov 2026, 9:23 pm SGT",
-    "updatedTs": "2026-11-15T21:23:00+08:00"
+    "updated": "Mon 16 Nov 2026, 12:05 am SGT",
+    "updatedTs": "2026-11-16T00:05:00+08:00"
   },
   "last24Count": 13
 }
