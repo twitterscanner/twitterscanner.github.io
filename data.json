@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 8:00 pm SGT",
-  "lastScannedTs": "2026-11-16T20:00:35+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 8:05 pm SGT",
+  "lastScannedTs": "2026-11-16T20:03:52+08:00",
   "asOf": "Mon 16 Nov 2026, 5:48 pm SGT",
   "asOfTs": "2026-11-16T17:48:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -24,8 +24,8 @@
         "ts": "2026-11-16T17:39:00+08:00"
       },
       {
-        "text": "Ukrainian sources: drones hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
-        "confidence": "unconfirmed",
+        "text": "Ukraine's military says it hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
+        "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-16T16:29:00+08:00"
       },
@@ -210,12 +210,12 @@
       "eventTime": "8:00 am, 16 Nov (est.)",
       "eventTs": "2026-11-16T08:00:00+08:00",
       "eventQual": "est.",
-      "headline": "Ukrainian sources say drones hit Russia's Ilsky oil refinery in Krasnodar overnight, damaging AT-4 and AT-5 crude units; Kuban officials confirm a fire at an Ilsky enterprise",
+      "headline": "Ukraine's military says it struck Russia's Ilsky oil refinery in Krasnodar overnight, damaging AT-4 and AT-5 crude units; Kuban officials confirm a fire at an Ilsky enterprise",
       "theme": "Russian refineries",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "big ben on X (Ukrainian channels; Kuban operational HQ via Vesti)",
-      "url": "https://x.com/alternative_war/status/2122245009474814198"
+      "confidence": "Confirmed",
+      "source": "First Squawk on X (Ukraine's military statement); first reported by big ben (Ukrainian channels; Kuban operational HQ via Vesti)",
+      "url": "https://x.com/FirstSquawk/status/2122299214495645708"
     },
     {
       "time": "15:13",
@@ -687,6 +687,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Ukraine's military says it struck Russia's Ilsky oil refinery",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122299214495645708"
+    },
     {
       "title": "CGTN Europe: Barrot says St Petersburg oil terminal going on EU sanctions list",
       "site": "x.com",
