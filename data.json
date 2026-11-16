@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 1:27 am SGT",
-  "lastScannedTs": "2026-11-17T01:27:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 1:59 am SGT",
+  "lastScannedTs": "2026-11-17T01:59:02+08:00",
   "asOf": "Tue 17 Nov 2026, 12:18 am SGT",
   "asOfTs": "2026-11-17T00:18:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Mined Hormuz tankers, Houthi strikes on Saudi targets, a reported Abu Ali fire and Russian refinery hits keep risks higher; surplus forecasts offset.",
     "lead": "Net read (last 24 hours): Mined Hormuz tankers, Houthi strikes on Saudi targets, a reported Abu Ali fire and Russian refinery hits keep risks higher; surplus forecasts offset.",
     "verdict": "Bullish",
-    "count": "20 of 22 alerts point higher, 2 lower",
-    "text": "20 of 22 alerts point higher, 2 lower.",
+    "count": "19 of 21 alerts point higher, 2 lower",
+    "text": "19 of 21 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "IRGC claims it shot down another US MQ-1C drone over Hormuz",
@@ -124,12 +124,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-16T02:35:12+08:00"
-      },
-      {
-        "text": "Houthis claim ballistic missiles at Riyadh airport and financial district",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-16T01:53:33+08:00"
       }
     ],
     "dovish": [
