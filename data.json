@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 1:02 pm SGT",
-  "lastScannedTs": "2026-11-16T13:02:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 12:40 pm SGT",
-  "asOfTs": "2026-11-16T12:40:04+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 1:12 pm SGT",
+  "lastScannedTs": "2026-11-16T13:12:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 1:09 pm SGT",
+  "asOfTs": "2026-11-16T13:09:48+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC claims of six mined tankers in Hormuz, halving Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks higher.",
-    "lead": "Net read (last 24 hours): IRGC claims of six mined tankers in Hormuz, halving Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks higher.",
+    "bottom": "Mined tankers, weaker Hormuz flows and Houthi strikes on Saudi oil keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
+    "lead": "Net read (last 24 hours): Mined tankers, weaker Hormuz flows and Houthi strikes on Saudi oil keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
     "verdict": "Bullish",
-    "count": "20 of 21 alerts point higher, 0 lower",
-    "text": "20 of 21 alerts point higher, 0 lower.",
+    "count": "20 of 22 alerts point higher, 1 lower",
+    "text": "20 of 22 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "IRGC says six tankers hit mines in Hormuz since Saturday, pollution spreading",
@@ -132,7 +132,14 @@
         "ts": "2026-11-15T15:33:45+08:00"
       }
     ],
-    "dovish": [],
+    "dovish": [
+      {
+        "text": "Iran says Hormuz reopening proposal ready via Qatar and Pakistan mediators if US acts first",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-16T13:07:26+08:00"
+      }
+    ],
     "neutral": [
       {
         "text": "EU navy boards suspected Russian shadow-fleet tanker in Mediterranean",
@@ -147,6 +154,19 @@
     "detail": "Brent crude slides more than 1% to $94.85/bbl (First Squawk, 10:51 am SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:07",
+      "ts": "2026-11-16T13:07:26+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's deputy FM Gharibabadi says Tehran's proposal, cut from seven days to two, is ready to implement after talks with mediators Qatar and Pakistan, but the US must act first for Iran to reopen Hormuz",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Iran Press (Iranian state media)",
+      "url": "https://x.com/IranPress_eng/status/2122194811432190122"
+    },
     {
       "time": "12:27",
       "ts": "2026-11-16T12:27:18+08:00",
@@ -653,22 +673,14 @@
       "confidence": "Unconfirmed",
       "source": "Exilenova+ (also Military Summary, Russian-language local posts)",
       "url": "https://x.com/Exilenova_plus/status/2121115885285077048"
-    },
-    {
-      "time": "12:53",
-      "ts": "2026-11-13T12:53:49+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "CENTCOM reportedly calls Israeli reports of imminent new US strikes on Iran 'pure speculation', saying US force posture in the region is unchanged",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Mario Nawfal (citing CENTCOM statement)",
-      "url": "https://x.com/MarioNawfal/status/2121104221386813754"
     }
   ],
   "sources": [
+    {
+      "title": "Iran Press: Deputy FM Gharibabadi says Hormuz proposal, cut from 7 days to 2, ready via Qatar/Pakistan mediators",
+      "site": "x.com/IranPress_eng",
+      "href": "https://x.com/IranPress_eng/status/2122194811432190122"
+    },
     {
       "title": "Iran International: IRGC Navy says six tankers hit mines in Strait of Hormuz since Saturday (Persian)",
       "site": "x.com/IranIntlbrk",
@@ -2119,10 +2131,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
-      "Today Saudi Arabia reportedly struck Hodeidah airport, an Azov oil depot burned, Hormuz flows roughly halved, and the IRGC said six tankers have hit mines since Saturday."
+      "Today the IRGC said six tankers have hit mines since Saturday and Hormuz flows roughly halved, while Iran said a mediated Hormuz reopening proposal is ready if the US acts."
     ],
-    "updated": "Mon 16 Nov 2026, 12:45 pm SGT",
-    "updatedTs": "2026-11-16T12:45:00+08:00"
+    "updated": "Mon 16 Nov 2026, 1:12 pm SGT",
+    "updatedTs": "2026-11-16T13:12:00+08:00"
   },
   "last24Count": 13
 }
