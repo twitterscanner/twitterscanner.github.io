@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 3:03 am SGT",
-  "lastScannedTs": "2026-11-17T03:03:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 4:04 am SGT",
+  "lastScannedTs": "2026-11-17T04:04:00+08:00",
   "asOf": "Tue 17 Nov 2026, 3:02 am SGT",
   "asOfTs": "2026-11-17T03:02:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz explosions and tanker mines, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and new Guyana supply offset.",
     "lead": "Net read (last 24 hours): Hormuz explosions and tanker mines, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and new Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "20 of 25 alerts point higher, 5 lower",
-    "text": "20 of 25 alerts point higher, 5 lower.",
+    "count": "18 of 23 alerts point higher, 5 lower",
+    "text": "18 of 23 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Reports of at least three explosions in the Strait of Hormuz; cause unknown",
@@ -118,18 +118,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-16T04:04:08+08:00"
-      },
-      {
-        "text": "Saudis intercept missiles at Riyadh and drones over oil-rich Eastern Province",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-16T03:45:00+08:00"
-      },
-      {
-        "text": "Zelensky: over 55% of Russian refining capacity disabled",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-16T03:40:29+08:00"
       }
     ],
     "dovish": [
@@ -167,8 +155,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$93.57",
-    "detail": "Brent $93.57/bbl, down 2.37% on the day as surplus outlook and recovering Hormuz flows weigh (price snapshot via X, 11:00 pm SGT 16 Nov)"
+    "value": "$92.44",
+    "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
     {
@@ -693,6 +681,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Brent crude futures settle 3.55% lower at $92.44/bbl (16 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2122415002070188136"
+    },
     {
       "title": "Kushner on Ukraine peace talks and Ushakov call (First Squawk)",
       "site": "X / FirstSquawk",
