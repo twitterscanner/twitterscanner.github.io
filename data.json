@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 11:33 pm SGT",
-  "lastScannedTs": "2026-11-16T23:33:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 12:05 am SGT",
+  "lastScannedTs": "2026-11-17T00:05:00+08:00",
   "asOf": "Mon 16 Nov 2026, 10:25 pm SGT",
   "asOfTs": "2026-11-16T22:25:18+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -2219,11 +2219,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline stations, Iran fired anti-ship missiles toward Hormuz, and Ukraine hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, Saudi Arabia downed Houthi drones, and unconfirmed reports flagged fires near Laffan and Abu Ali."
+      "No new alerts yet today; the latest reports flag a large fire at Aramco's Abu Ali gas facility and a new heat source near Qatar's Laffan refinery, both unconfirmed.",
+      "Late Monday, Saudi Arabia downed Houthi drones aimed at Makkah and Riyadh, the EU moved to sanction a St Petersburg oil terminal, and Iran claimed it seized a US drone."
     ],
-    "updated": "Mon 16 Nov 2026, 10:24 pm SGT",
-    "updatedTs": "2026-11-16T22:24:00+08:00"
+    "updated": "Tue 17 Nov 2026, 12:05 am SGT",
+    "updatedTs": "2026-11-17T00:05:00+08:00"
   },
   "last24Count": 13
 }
