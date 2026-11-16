@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 3:33 pm SGT",
-  "lastScannedTs": "2026-11-16T15:33:20+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 3:35 pm SGT",
+  "lastScannedTs": "2026-11-16T15:35:30+08:00",
   "asOf": "Mon 16 Nov 2026, 3:13 pm SGT",
   "asOfTs": "2026-11-16T15:13:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and Israel weighing Iran action keep risks higher; Iran's reopening offer is the main offset.",
     "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and Israel weighing Iran action keep risks higher; Iran's reopening offer is the main offset.",
     "verdict": "Bullish",
-    "count": "22 of 24 alerts point higher, 1 lower",
-    "text": "22 of 24 alerts point higher, 1 lower.",
+    "count": "21 of 23 alerts point higher, 1 lower",
+    "text": "21 of 23 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "UKMTO: tanker hit by projectile leaving Hormuz, engine-room fire",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-15T17:24:53+08:00"
-      },
-      {
-        "text": "Ukrainian drones set Nizhnekamsk petrochemical complex ablaze, near TANECO refinery",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-15T15:33:45+08:00"
       }
     ],
     "dovish": [
