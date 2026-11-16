@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 5:39 pm SGT",
-  "lastScannedTs": "2026-11-16T17:39:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 5:38 pm SGT",
-  "asOfTs": "2026-11-16T17:38:36+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 5:50 pm SGT",
+  "lastScannedTs": "2026-11-16T17:50:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 5:48 pm SGT",
+  "asOfTs": "2026-11-16T17:48:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
-    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
+    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
+    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 2 lower",
-    "text": "22 of 25 alerts point higher, 2 lower.",
+    "count": "23 of 25 alerts point higher, 2 lower",
+    "text": "23 of 25 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "EU to sanction a St Petersburg oil terminal, per French FM Barrot",
+        "confidence": "unconfirmed",
+        "theme": "Sanctions",
+        "ts": "2026-11-16T17:47:54+08:00"
+      },
       {
         "text": "IRGC claims it downed and seized a US MQM-170 drone over Qeshm Island",
         "confidence": "unconfirmed",
@@ -158,20 +164,26 @@
         "ts": "2026-11-16T13:07:26+08:00"
       }
     ],
-    "neutral": [
-      {
-        "text": "EU navy boards suspected Russian shadow-fleet tanker in Mediterranean",
-        "confidence": "confirmed",
-        "theme": "Sanctions evasion",
-        "ts": "2026-11-15T17:44:29+08:00"
-      }
-    ]
+    "neutral": []
   },
   "brent": {
     "value": "$96.60",
     "detail": "Brent rebounds to $96.6/bbl after a $94.32 low earlier, on Bahrain drone attacks and Hormuz tanker strikes (Ole S Hansen, 3:31 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:47",
+      "ts": "2026-11-16T17:47:54+08:00",
+      "eventTime": "5:47 pm, 16 Nov (est.)",
+      "eventTs": "2026-11-16T17:47:00+08:00",
+      "eventQual": "est.",
+      "headline": "EU to add a St Petersburg oil terminal to its Russia sanctions list, French FM Barrot says",
+      "theme": "Sanctions",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CGTN Europe (quoting French FM Barrot)",
+      "url": "https://x.com/CGTNEurope/status/2122265394635563190"
+    },
     {
       "time": "17:39",
       "ts": "2026-11-16T17:39:00+08:00",
@@ -678,22 +690,14 @@
       "confidence": "Unconfirmed",
       "source": "Tasnim News, citing Iranian Army statement (translated from Persian)",
       "url": "https://x.com/TasnimNews1/status/2121182037671358919"
-    },
-    {
-      "time": "17:10",
-      "ts": "2026-11-13T17:10:58+08:00",
-      "eventTime": "5:00 pm, 13 Nov (est.)",
-      "eventTs": "2026-11-13T17:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IEA says member countries plan to release a further 71 million barrels of emergency crude and product stocks through end-February 2027, with about 15 million barrels of diesel; it also reports observed inventories rose 52 million barrels in October, the first build since June",
-      "theme": "Strategic reserves",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing the IEA Oil Market Report",
-      "url": "https://x.com/FirstSquawk/status/2121168937975201812"
     }
   ],
   "sources": [
+    {
+      "title": "CGTN Europe: Barrot says St Petersburg oil terminal going on EU sanctions list",
+      "site": "x.com",
+      "href": "https://x.com/CGTNEurope/status/2122265394635563190"
+    },
     {
       "title": "CGTN Europe: IRGC Navy says US MQM-170 drone 'successfully landed' after takeover near Qeshm",
       "site": "x.com",
@@ -2189,10 +2193,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukrainian drones reportedly hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined and a US drone seized near Qeshm, UKMTO reported a tanker struck leaving Hormuz, and Goldman forecast a 2027 surplus."
+      "Today the IRGC claimed six tankers mined and a US drone seized near Qeshm, UKMTO reported a tanker struck leaving Hormuz, and France said the EU will sanction a St Petersburg oil terminal."
     ],
-    "updated": "Mon 16 Nov 2026, 5:39 pm SGT",
-    "updatedTs": "2026-11-16T17:39:00+08:00"
+    "updated": "Mon 16 Nov 2026, 5:50 pm SGT",
+    "updatedTs": "2026-11-16T17:50:00+08:00"
   },
   "last24Count": 13
 }
