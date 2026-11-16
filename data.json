@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 5:05 am SGT",
-  "lastScannedTs": "2026-11-17T05:05:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 5:04 am SGT",
-  "asOfTs": "2026-11-17T05:04:30+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 6:05 am SGT",
+  "lastScannedTs": "2026-11-17T06:05:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 6:02 am SGT",
+  "asOfTs": "2026-11-17T06:02:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Fresh Hormuz tanker-mine and Sirik blast claims, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
-    "lead": "Net read (last 24 hours): Fresh Hormuz tanker-mine and Sirik blast claims, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "bottom": "New UKMTO tanker attack off Khasab, Iran's mine and Sirik claims and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "lead": "Net read (last 24 hours): New UKMTO tanker attack off Khasab, Iran's mine and Sirik claims and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 5 lower",
-    "text": "17 of 22 alerts point higher, 5 lower.",
+    "count": "18 of 23 alerts point higher, 5 lower",
+    "text": "18 of 23 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: tanker attacked off Khasab in Hormuz, disabled with engine-room fire",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-17T06:02:23+08:00"
+      },
       {
         "text": "Several explosions reported in Sirik on Iran's coast near Hormuz; cause unclear",
         "confidence": "unconfirmed",
@@ -153,6 +159,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "06:02",
+      "ts": "2026-11-17T06:02:23+08:00",
+      "eventTime": "5:33 am, 17 Nov (est.)",
+      "eventTs": "2026-11-17T05:33:00+08:00",
+      "eventQual": "est.",
+      "headline": "UKMTO: tanker attacked 7 nm north of Khasab, Oman, while transiting the Strait of Hormuz; vessel disabled with engine-room fire; attacker not stated",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO notice via Al Jazeera English; also Open Source Intel, Middle East Eye",
+      "url": "https://x.com/AJEnglish/status/2122448010437394806"
+    },
     {
       "time": "05:04",
       "ts": "2026-11-17T05:04:30+08:00",
@@ -659,22 +678,14 @@
       "confidence": "Unconfirmed",
       "source": "Militarnyi via Velit.es on X; local reports",
       "url": "https://x.com/velitesgear/status/2121869246225326092"
-    },
-    {
-      "time": "20:26",
-      "ts": "2026-11-14T20:26:35+08:00",
-      "eventTime": "13 Nov, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Ukraine's General Staff says it struck a major crude-pipeline hub (oil tanks on fire) in Russia's Samara region on 13 Nov, plus Lipetsk-2 airfield",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Ukraine General Staff via Bloomberg / Giovanni Staunovo on X",
-      "url": "https://x.com/staunovo/status/2121580553061224582"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO: tanker attacked off Khasab, Oman, in Strait of Hormuz (Al Jazeera English)",
+      "site": "X / AJEnglish",
+      "href": "https://x.com/AJEnglish/status/2122448010437394806"
+    },
     {
       "title": "Iranian Army Navy claims fourth tanker in 24 hours burning east of Hormuz after mine (Open Source Intel)",
       "site": "X / Osint613",
@@ -2264,11 +2275,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight, Iran's navy claimed a fourth tanker in 24 hours hit a mine east of Hormuz, after reported explosions in the strait and at Sirik, plus an Isfahan air defence alert.",
+      "Overnight, UKMTO reported a tanker attacked and disabled off Khasab in Hormuz, while Iran's navy claimed a fourth tanker hit a mine and explosions were reported at Sirik.",
       "Trump reportedly told advisers he won't escalate against Iran unless provoked, Kushner flagged progress toward new Ukraine talks, and Exxon started its 250,000 b/d Uaru project in Guyana."
     ],
-    "updated": "Tue 17 Nov 2026, 5:05 am SGT",
-    "updatedTs": "2026-11-17T05:05:00+08:00"
+    "updated": "Tue 17 Nov 2026, 6:05 am SGT",
+    "updatedTs": "2026-11-17T06:05:00+08:00"
   },
   "last24Count": 13
 }
