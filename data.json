@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 10:05 pm SGT",
-  "lastScannedTs": "2026-11-16T22:05:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 9:15 pm SGT",
-  "asOfTs": "2026-11-16T21:15:05+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 10:24 pm SGT",
+  "lastScannedTs": "2026-11-16T22:24:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 10:25 pm SGT",
+  "asOfTs": "2026-11-16T22:25:18+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
-    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
+    "bottom": "Mined Hormuz tankers, Houthi strikes on Saudi targets, a reported Abu Ali fire and Russian refinery hits keep risks higher; surplus forecasts offset.",
+    "lead": "Net read (last 24 hours): Mined Hormuz tankers, Houthi strikes on Saudi targets, a reported Abu Ali fire and Russian refinery hits keep risks higher; surplus forecasts offset.",
     "verdict": "Bullish",
     "count": "21 of 23 alerts point higher, 2 lower",
     "text": "21 of 23 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Reported large fire at Aramco's Abu Ali Island gas facility (satellite images)",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Aramco",
+        "ts": "2026-11-16T22:24:00+08:00"
+      },
       {
         "text": "Satellite spots new heat source 4 km from Qatar's Laffan refinery",
         "confidence": "unconfirmed",
@@ -130,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-15T23:32:00+08:00"
-      },
-      {
-        "text": "Saudi downs Houthi drones over Mecca and Medina; Houthis say oil sites targeted",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-15T22:23:18+08:00"
       }
     ],
     "dovish": [
@@ -155,10 +155,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "$94.90",
-    "detail": "Brent slides further on IEA surplus outlook: quoted $94.90/bbl at 9:00 pm SGT; Ekoturk TV says the daily drop has topped 2% (9:05 pm SGT 16 Nov)"
+    "value": "Below $94",
+    "detail": "Brent falls below $94/bbl, down about 2.4% on the day as surplus outlook weighs (Coinografi, 10:13 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:24",
+      "ts": "2026-11-16T22:24:00+08:00",
+      "eventTime": "Not stated (first claimed ~8:18 pm SGT 16 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Satellite images reportedly show a large fire at an Aramco gas facility on Saudi Arabia's Abu Ali Island; heavy flaring flagged earlier; no Aramco comment",
+      "theme": "Saudi / Aramco",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "TheSaviour; IR_News2; MerruX flaring data",
+      "url": "https://x.com/TheSaviour/status/2122331135581581750"
+    },
     {
       "time": "21:08",
       "ts": "2026-11-16T21:08:54+08:00",
@@ -665,22 +678,24 @@
       "confidence": "Unconfirmed",
       "source": "Ariel Oseran (i24NEWS), citing IRGC-affiliated Fars",
       "url": "https://x.com/ariel_oseran/status/2121344212205437205"
-    },
-    {
-      "time": "04:28",
-      "ts": "2026-11-14T04:28:50+08:00",
-      "eventTime": "4:28 am, 14 Nov (est.)",
-      "eventTs": "2026-11-14T04:28:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis claim a two-drone strike on Pumping Station No. 3 of Saudi Arabia's East-West crude pipeline east of Riyadh, plus a drone on Riyadh airport (translated from Arabic); no Saudi confirmation",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi military spokesman (Arabic)",
-      "url": "https://x.com/Yah_Saree/status/2121339527373697332"
     }
   ],
   "sources": [
+    {
+      "title": "TheSaviour: Satellite images show large fire at Aramco gas facility on Abu Ali Island",
+      "site": "X / TheSaviour",
+      "href": "https://x.com/TheSaviour/status/2122331135581581750"
+    },
+    {
+      "title": "IR_News2: Large fire at Aramco's strategic gas facilities on Abu Ali Island",
+      "site": "X / IR_News2",
+      "href": "https://x.com/IR_News2/status/2122303302880960559"
+    },
+    {
+      "title": "Coinografi: Brent falls below $94",
+      "site": "X / Coinografi_EN",
+      "href": "https://x.com/Coinografi_EN/status/2122332251681669260"
+    },
     {
       "title": "First Squawk: Satellite detects new heat source 4 km from Qatar's Laffan refinery",
       "site": "X / FirstSquawk",
@@ -2205,11 +2220,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukraine hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, Saudi Arabia downed Houthi drones, and satellites flagged a heat source near Qatar's Laffan refinery."
+      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline stations, Iran fired anti-ship missiles toward Hormuz, and Ukraine hit Russia's Ilsky refinery.",
+      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, Saudi Arabia downed Houthi drones, and unconfirmed reports flagged fires near Laffan and Abu Ali."
     ],
-    "updated": "Mon 16 Nov 2026, 9:15 pm SGT",
-    "updatedTs": "2026-11-16T21:15:00+08:00"
+    "updated": "Mon 16 Nov 2026, 10:24 pm SGT",
+    "updatedTs": "2026-11-16T22:24:00+08:00"
   },
   "last24Count": 13
 }
