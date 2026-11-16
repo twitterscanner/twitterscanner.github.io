@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 6:01 pm SGT",
-  "lastScannedTs": "2026-11-16T18:01:00+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 6:11 pm SGT",
+  "lastScannedTs": "2026-11-16T18:11:00+08:00",
   "asOf": "Mon 16 Nov 2026, 5:48 pm SGT",
   "asOfTs": "2026-11-16T17:48:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "verdict": "Bullish",
-    "count": "23 of 25 alerts point higher, 2 lower",
-    "text": "23 of 25 alerts point higher, 2 lower.",
+    "count": "22 of 24 alerts point higher, 2 lower",
+    "text": "22 of 24 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "EU to sanction a St Petersburg oil terminal, per French FM Barrot",
@@ -142,12 +142,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-15T20:44:49+08:00"
-      },
-      {
-        "text": "Iran fires drones and missiles at US assets in Bahrain; all intercepted",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-15T18:10:43+08:00"
       }
     ],
     "dovish": [
