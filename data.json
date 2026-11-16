@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 1:12 pm SGT",
-  "lastScannedTs": "2026-11-16T13:12:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 1:09 pm SGT",
-  "asOfTs": "2026-11-16T13:09:48+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 2:06 pm SGT",
+  "lastScannedTs": "2026-11-16T14:06:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 2:04 pm SGT",
+  "asOfTs": "2026-11-16T14:04:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Mined tankers, weaker Hormuz flows and Houthi strikes on Saudi oil keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
-    "lead": "Net read (last 24 hours): Mined tankers, weaker Hormuz flows and Houthi strikes on Saudi oil keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
+    "bottom": "Mined tankers, Houthi strikes on Saudi oil and Israel weighing action on Iran keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
+    "lead": "Net read (last 24 hours): Mined tankers, Houthi strikes on Saudi oil and Israel weighing action on Iran keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
     "verdict": "Bullish",
-    "count": "20 of 22 alerts point higher, 1 lower",
-    "text": "20 of 22 alerts point higher, 1 lower.",
+    "count": "21 of 23 alerts point higher, 1 lower",
+    "text": "21 of 23 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Mossad chief briefs Israeli security cabinet on possible military action against Iran (Ynet)",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-16T14:00:39+08:00"
+      },
       {
         "text": "IRGC says six tankers hit mines in Hormuz since Saturday, pollution spreading",
         "confidence": "unconfirmed",
@@ -154,6 +160,19 @@
     "detail": "Brent crude slides more than 1% to $94.85/bbl (First Squawk, 10:51 am SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:00",
+      "ts": "2026-11-16T14:00:39+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Ynet: Mossad chief Gofman urgently briefs Netanyahu and security cabinet on possible military action against Iran after Washington trip; no decision announced",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Ynet via HormuzLetter",
+      "url": "https://x.com/HormuzLetter/status/2122208205228933299"
+    },
     {
       "time": "13:07",
       "ts": "2026-11-16T13:07:26+08:00",
@@ -660,22 +679,14 @@
       "confidence": "Unconfirmed",
       "source": "Military Summary, NSTRIKE and other OSINT accounts on X",
       "url": "https://x.com/MilitarySummary/status/2121116149207187482"
-    },
-    {
-      "time": "13:40",
-      "ts": "2026-11-13T13:40:10+08:00",
-      "eventTime": "~9:00 am, 13 Nov (est., 'early morning' local)",
-      "eventTs": "2026-11-13T09:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones reportedly hit Transneft's Samara oil pumping and dispatch station (LPDS) at Prosvet, a major Russian crude pipeline and storage hub, for the second time this month",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Exilenova+ (also Military Summary, Russian-language local posts)",
-      "url": "https://x.com/Exilenova_plus/status/2121115885285077048"
     }
   ],
   "sources": [
+    {
+      "title": "Ynet via HormuzLetter: Mossad chief Gofman briefs Netanyahu and security cabinet on possible military action against Iran",
+      "site": "x.com/HormuzLetter",
+      "href": "https://x.com/HormuzLetter/status/2122208205228933299"
+    },
     {
       "title": "Iran Press: Deputy FM Gharibabadi says Hormuz proposal, cut from 7 days to 2, ready via Qatar/Pakistan mediators",
       "site": "x.com/IranPress_eng",
@@ -2131,10 +2142,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
-      "Today the IRGC said six tankers have hit mines since Saturday and Hormuz flows roughly halved, while Iran said a mediated Hormuz reopening proposal is ready if the US acts."
+      "Today the IRGC said six tankers have hit mines since Saturday, Iran offered a mediated Hormuz reopening plan, and Israel's security cabinet weighed military action against Iran."
     ],
-    "updated": "Mon 16 Nov 2026, 1:12 pm SGT",
-    "updatedTs": "2026-11-16T13:12:00+08:00"
+    "updated": "Mon 16 Nov 2026, 2:06 pm SGT",
+    "updatedTs": "2026-11-16T14:06:00+08:00"
   },
   "last24Count": 13
 }
