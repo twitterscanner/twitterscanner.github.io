@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 10:24 pm SGT",
-  "lastScannedTs": "2026-11-16T22:24:00+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 11:03 pm SGT",
+  "lastScannedTs": "2026-11-16T23:03:00+08:00",
   "asOf": "Mon 16 Nov 2026, 10:25 pm SGT",
   "asOfTs": "2026-11-16T22:25:18+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -155,8 +155,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "Below $94",
-    "detail": "Brent falls below $94/bbl, down about 2.4% on the day as surplus outlook weighs (Coinografi, 10:13 pm SGT 16 Nov)"
+    "value": "$93.57",
+    "detail": "Brent $93.57/bbl, down 2.37% on the day as surplus outlook and recovering Hormuz flows weigh (price snapshot via X, 11:00 pm SGT 16 Nov)"
   },
   "alerts": [
     {
@@ -681,6 +681,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Oil price snapshot: Brent $93.57, day -2.37% (15:00Z 16 Nov)",
+      "site": "X / Sir_Tomfoolery",
+      "href": "https://x.com/Sir_Tomfoolery/status/2122343975319171396"
+    },
     {
       "title": "TheSaviour: Satellite images show large fire at Aramco gas facility on Abu Ali Island",
       "site": "X / TheSaviour",
