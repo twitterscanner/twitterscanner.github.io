@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 8:50 pm SGT",
-  "lastScannedTs": "2026-11-16T20:50:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 5:48 pm SGT",
-  "asOfTs": "2026-11-16T17:48:46+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 9:01 pm SGT",
+  "lastScannedTs": "2026-11-16T21:01:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 9:02 pm SGT",
+  "asOfTs": "2026-11-16T21:02:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "verdict": "Bullish",
-    "count": "21 of 23 alerts point higher, 2 lower",
-    "text": "21 of 23 alerts point higher, 2 lower.",
+    "count": "22 of 24 alerts point higher, 2 lower",
+    "text": "22 of 24 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Saudi coalition downs two Houthi drones aimed at Makkah and Riyadh regions",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-16T20:56:55+08:00"
+      },
       {
         "text": "EU to sanction a St Petersburg oil terminal, per French FM Barrot",
         "confidence": "confirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent gives back its Hormuz bounce, down 0.7% at $95.15/bbl as IEA surplus outlook weighs (market reports, 5:19 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:56",
+      "ts": "2026-11-16T20:56:55+08:00",
+      "eventTime": "8:55 pm, 16 Nov (est.)",
+      "eventTs": "2026-11-16T20:55:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones launched toward the Makkah and Riyadh regions",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Gazette, First Squawk, CGTN (quoting the Saudi-led coalition)",
+      "url": "https://x.com/Saudi_Gazette/status/2122313361526608186"
+    },
     {
       "time": "17:47",
       "ts": "2026-11-16T17:47:54+08:00",
@@ -665,22 +684,14 @@
       "confidence": "Confirmed",
       "source": "CENTCOM",
       "url": "https://x.com/CENTCOM/status/2121225254446018729"
-    },
-    {
-      "time": "18:03",
-      "ts": "2026-11-13T18:03:02+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's army says its navy shot down a US MQ-1 drone over Kuhestak on the Sirik coast near the Strait of Hormuz using a new naval air-defence system, and released wreckage images; no US confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Tasnim News, citing Iranian Army statement (translated from Persian)",
-      "url": "https://x.com/TasnimNews1/status/2121182037671358919"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Gazette: Coalition intercepts two Houthi drones toward Makkah and Riyadh regions",
+      "site": "X / Saudi_Gazette",
+      "href": "https://x.com/Saudi_Gazette/status/2122313361526608186"
+    },
     {
       "title": "First Squawk: Ukraine's military says it struck Russia's Ilsky oil refinery",
       "site": "X / FirstSquawk",
@@ -2190,11 +2201,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukrainian drones reportedly hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined and a US drone seized near Qeshm, UKMTO reported a tanker struck leaving Hormuz, and France said the EU will sanction a St Petersburg oil terminal."
+      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukraine hit Russia's Ilsky refinery.",
+      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, the EU moved to sanction a St Petersburg terminal, and Saudi Arabia downed Houthi drones."
     ],
-    "updated": "Mon 16 Nov 2026, 5:50 pm SGT",
-    "updatedTs": "2026-11-16T17:50:00+08:00"
+    "updated": "Mon 16 Nov 2026, 9:01 pm SGT",
+    "updatedTs": "2026-11-16T21:01:00+08:00"
   },
   "last24Count": 13
 }
