@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 5:25 pm SGT",
-  "lastScannedTs": "2026-11-16T17:25:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 5:20 pm SGT",
-  "asOfTs": "2026-11-16T17:20:41+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 5:39 pm SGT",
+  "lastScannedTs": "2026-11-16T17:39:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 5:38 pm SGT",
+  "asOfTs": "2026-11-16T17:38:36+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
     "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
     "verdict": "Bullish",
-    "count": "21 of 24 alerts point higher, 2 lower",
-    "text": "21 of 24 alerts point higher, 2 lower.",
+    "count": "22 of 25 alerts point higher, 2 lower",
+    "text": "22 of 25 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims it downed and seized a US MQM-170 drone over Qeshm Island",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-16T17:39:00+08:00"
+      },
       {
         "text": "Ukrainian sources: drones hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
         "confidence": "unconfirmed",
@@ -166,6 +172,19 @@
     "detail": "Brent rebounds to $96.6/bbl after a $94.32 low earlier, on Bahrain drone attacks and Hormuz tanker strikes (Ole S Hansen, 3:31 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:39",
+      "ts": "2026-11-16T17:39:00+08:00",
+      "eventTime": "1:00 pm, 16 Nov (est.)",
+      "eventTs": "2026-11-16T13:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy says it downed a US MQM-170 drone over Qeshm Island near Hormuz this morning by electronic takeover, landing it intact; no US confirmation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Navy statement, via CGTN Europe and ME Brief News",
+      "url": "https://x.com/CGTNEurope/status/2122262520484270128"
+    },
     {
       "time": "17:21",
       "ts": "2026-11-16T17:21:00+08:00",
@@ -672,22 +691,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk, citing the IEA Oil Market Report",
       "url": "https://x.com/FirstSquawk/status/2121168937975201812"
-    },
-    {
-      "time": "17:00",
-      "ts": "2026-11-13T17:00:58+08:00",
-      "eventTime": "5:00 pm, 13 Nov (est.)",
-      "eventTs": "2026-11-13T17:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IEA monthly report: global oil market swings back to surplus as Gulf exports recover, with supply above demand for the first time since the Iran war began; it sees a 1.7 million b/d Q4 2026 surplus (previously a deficit), and Hormuz flows rose 440k b/d to 11.8 million b/d in October",
-      "theme": "Hormuz",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "FinancialJuice and FinSquawk, citing the IEA Oil Market Report",
-      "url": "https://x.com/financialjuice/status/2121166769582923788"
     }
   ],
   "sources": [
+    {
+      "title": "CGTN Europe: IRGC Navy says US MQM-170 drone 'successfully landed' after takeover near Qeshm",
+      "site": "x.com",
+      "href": "https://x.com/CGTNEurope/status/2122262520484270128"
+    },
     {
       "title": "Goldman Sachs sees 2 mb/d oil surplus in 2027, Brent $88 avg then $78 (Bloomberg, via OilandEnergy)",
       "site": "x.com",
@@ -2178,10 +2189,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukrainian drones reportedly hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, Israel weighed Iran action, and Goldman forecast a 2027 oil surplus."
+      "Today the IRGC claimed six tankers mined and a US drone seized near Qeshm, UKMTO reported a tanker struck leaving Hormuz, and Goldman forecast a 2027 surplus."
     ],
-    "updated": "Mon 16 Nov 2026, 5:21 pm SGT",
-    "updatedTs": "2026-11-16T17:21:00+08:00"
+    "updated": "Mon 16 Nov 2026, 5:39 pm SGT",
+    "updatedTs": "2026-11-16T17:39:00+08:00"
   },
   "last24Count": 13
 }
