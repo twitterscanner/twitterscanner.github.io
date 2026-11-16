@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 2:02 am SGT",
-  "lastScannedTs": "2026-11-17T02:02:06+08:00",
-  "asOf": "Tue 17 Nov 2026, 2:01 am SGT",
-  "asOfTs": "2026-11-17T02:01:58+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 3:03 am SGT",
+  "lastScannedTs": "2026-11-17T03:03:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 3:02 am SGT",
+  "asOfTs": "2026-11-17T03:02:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker mines, Isfahan air-defence alert, Houthi strikes on Saudi targets and Russian refinery hits keep risks higher; surplus forecasts offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker mines, Isfahan air-defence alert, Houthi strikes on Saudi targets and Russian refinery hits keep risks higher; surplus forecasts offset.",
+    "bottom": "Hormuz explosions and tanker mines, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and new Guyana supply offset.",
+    "lead": "Net read (last 24 hours): Hormuz explosions and tanker mines, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and new Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "20 of 22 alerts point higher, 2 lower",
-    "text": "Hormuz tanker mines, Isfahan air-defence alert, Houthi strikes on Saudi targets and Russian refinery hits keep risks higher; surplus forecasts offset.",
+    "count": "20 of 25 alerts point higher, 5 lower",
+    "text": "20 of 25 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Reports of at least three explosions in the Strait of Hormuz; cause unknown",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-17T03:02:06+08:00"
+      },
       {
         "text": "Mehr: air defences activated over Isfahan, home to key Iranian nuclear sites",
         "confidence": "unconfirmed",
@@ -124,15 +130,27 @@
         "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-16T03:40:29+08:00"
-      },
-      {
-        "text": "Houthis claim drone hits on East-West pipeline pumping stations 5 and 6",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-16T02:35:12+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Kushner: Ushakov call held, next multilateral Ukraine peace meeting being prepared",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-17T03:02:08+08:00"
+      },
+      {
+        "text": "Trump reportedly won't escalate Iran war unless provoked by Iran or Houthis",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T03:02:07+08:00"
+      },
+      {
+        "text": "Exxon starts Uaru in Guyana, adding 250,000 b/d; capacity ~1.1 mb/d",
+        "confidence": "confirmed",
+        "theme": "Market outlook",
+        "ts": "2026-11-17T03:02:05+08:00"
+      },
       {
         "text": "Goldman sees 2 mb/d surplus in 2027, Brent averaging $88 then $78 by end-2027",
         "confidence": "confirmed",
@@ -153,6 +171,58 @@
     "detail": "Brent $93.57/bbl, down 2.37% on the day as surplus outlook and recovering Hormuz flows weigh (price snapshot via X, 11:00 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:02",
+      "ts": "2026-11-17T03:02:08+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kushner says he and Witkoff spoke with Kremlin aide Ushakov on Monday and are preparing the agenda for the next multilateral Ukraine peace meeting; progress on security guarantees",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk (X), relaying Kushner",
+      "url": "https://x.com/FirstSquawk/status/2122400446228869600"
+    },
+    {
+      "time": "03:02",
+      "ts": "2026-11-17T03:02:07+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump reportedly tells advisers he won't escalate the war against Iran unless provoked by Iran or the Houthis",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "zerohedge (X), citing a media report",
+      "url": "https://x.com/zerohedge/status/2122399416782925886"
+    },
+    {
+      "time": "03:02",
+      "ts": "2026-11-17T03:02:06+08:00",
+      "eventTime": "2:05 am, 17 Nov (est.)",
+      "eventTs": "2026-11-17T02:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "Multiple reports of at least three explosions in the Strait of Hormuz, per Al Mihwar News; some accounts claim anti-ship missiles were fired; cause and targets unknown",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Al Mihwar News via Wladimir van Wilgenburg (X); other OSINT accounts",
+      "url": "https://x.com/vvanwilgenburg/status/2122396610306912463"
+    },
+    {
+      "time": "03:02",
+      "ts": "2026-11-17T03:02:05+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "ExxonMobil starts production at Uaru, its fifth Guyana project (250,000 b/d FPSO Errea Wittu), lifting Guyana capacity to about 1.1 million b/d",
+      "theme": "Market outlook",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "ExxonMobil statement via Giovanni Staunovo (X)",
+      "url": "https://x.com/staunovo/status/2122400954050056452"
+    },
     {
       "time": "01:50",
       "ts": "2026-11-17T01:50:00+08:00",
@@ -620,58 +690,6 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping on X",
       "url": "https://x.com/AMK_Mapping_/status/2121574473367421144"
-    },
-    {
-      "time": "19:17",
-      "ts": "2026-11-14T19:17:04+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters: Trump tells advisers he may hold off on new Iran attacks unless Tehran or the Houthis carry out fresh provocations; says Saudi asked him to keep current approach",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Reuters via FirstSquawk on X",
-      "url": "https://x.com/FirstSquawk/status/2121563056908251433"
-    },
-    {
-      "time": "18:18",
-      "ts": "2026-11-14T18:18:43+08:00",
-      "eventTime": "Early morning 14 Nov, ~9:00 am (est.)",
-      "eventTs": "2026-11-14T09:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's army navy says a second oil tanker this morning hit a naval mine east of the Strait of Hormuz and caught fire; reports tally five tanker fires in 24 hours",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian Army Navy statement via FirstSquawk on X",
-      "url": "https://x.com/FirstSquawk/status/2121548375019733250"
-    },
-    {
-      "time": "12:26",
-      "ts": "2026-11-14T12:26:32+08:00",
-      "eventTime": "10:30 am, 14 Nov (est.)",
-      "eventTs": "2026-11-14T10:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's army navy says another oil tanker, transiting with AIS off through a prohibited zone east of the Strait of Hormuz, struck a naval mine and caught fire",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian Army Navy statement, relayed by BRICSinfo and others on X",
-      "url": "https://x.com/BRICSinfo/status/2121459745873629446"
-    },
-    {
-      "time": "06:10",
-      "ts": "2026-11-14T06:10:02+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Polar vortex has weakened unusually early, and forecasters warn of Arctic cold outbreaks in the US and Europe later in November",
-      "theme": "Weather",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "The Washington Post forecast report, shared on X",
-      "url": "https://x.com/Kimab65/status/2121364994478714882"
     }
   ],
   "sources": [
@@ -2224,16 +2242,36 @@
       "title": "First Squawk: Ukraine says it hit 2 oil depots in Azov, Russia",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2122282756768223641"
+    },
+    {
+      "title": "ExxonMobil starts Uaru production in Guyana (Giovanni Staunovo)",
+      "site": "x.com",
+      "href": "https://x.com/staunovo/status/2122400954050056452"
+    },
+    {
+      "title": "Explosions reported in the Strait of Hormuz (Al Mihwar News via W. van Wilgenburg)",
+      "site": "x.com",
+      "href": "https://x.com/vvanwilgenburg/status/2122396610306912463"
+    },
+    {
+      "title": "Trump won't escalate Iran war unless provoked (zerohedge)",
+      "site": "x.com",
+      "href": "https://x.com/zerohedge/status/2122399416782925886"
+    },
+    {
+      "title": "Kushner on Ukraine peace talks and Ushakov call (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2122400446228869600"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight Iran claimed another US MQ-1C drone shootdown over Hormuz, and Mehr reported air defences activated over Isfahan around 1:45 am, cause unclear.",
-      "Late Monday, unconfirmed reports flagged a large fire at Aramco's Abu Ali gas facility, Saudi Arabia downed Houthi drones, and the EU moved to sanction a St Petersburg oil terminal."
+      "Overnight, reports of at least three explosions in the Strait of Hormuz followed Iran's MQ-1C drone shootdown claim and an air defence alert over Isfahan, causes unclear.",
+      "Trump reportedly told advisers he won't escalate against Iran unless provoked, Kushner flagged progress toward new Ukraine talks, and Exxon started its 250,000 b/d Uaru project in Guyana."
     ],
-    "updated": "Tue 17 Nov 2026, 2:03 am SGT",
-    "updatedTs": "2026-11-17T02:03:00+08:00"
+    "updated": "Tue 17 Nov 2026, 3:03 am SGT",
+    "updatedTs": "2026-11-17T03:03:00+08:00"
   },
   "last24Count": 13
 }
