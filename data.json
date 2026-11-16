@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 3:03 pm SGT",
-  "lastScannedTs": "2026-11-16T15:03:26+08:00",
-  "asOf": "Mon 16 Nov 2026, 2:04 pm SGT",
-  "asOfTs": "2026-11-16T14:04:16+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 3:13 pm SGT",
+  "lastScannedTs": "2026-11-16T15:13:21+08:00",
+  "asOf": "Mon 16 Nov 2026, 3:13 pm SGT",
+  "asOfTs": "2026-11-16T15:13:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Mined tankers, Houthi strikes on Saudi oil and Israel weighing action on Iran keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
-    "lead": "Net read (last 24 hours): Mined tankers, Houthi strikes on Saudi oil and Israel weighing action on Iran keep risks higher; Iran's mediated Hormuz reopening offer is the main offset.",
+    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and Israel weighing Iran action keep risks higher; Iran's reopening offer is the main offset.",
+    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and Israel weighing Iran action keep risks higher; Iran's reopening offer is the main offset.",
     "verdict": "Bullish",
-    "count": "21 of 23 alerts point higher, 1 lower",
-    "text": "21 of 23 alerts point higher, 1 lower.",
+    "count": "22 of 24 alerts point higher, 1 lower",
+    "text": "22 of 24 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: tanker hit by projectile leaving Hormuz, engine-room fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-16T15:13:21+08:00"
+      },
       {
         "text": "Mossad chief briefs Israeli security cabinet on possible military action against Iran (Ynet)",
         "confidence": "confirmed",
@@ -160,6 +166,19 @@
     "detail": "Brent crude slides more than 1% to $94.85/bbl (First Squawk, 10:51 am SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:13",
+      "ts": "2026-11-16T15:13:21+08:00",
+      "eventTime": "By 3:09 pm, 16 Nov (est., UKMTO report time)",
+      "eventTs": "2026-11-16T15:09:00+08:00",
+      "eventQual": "est.",
+      "headline": "UKMTO: tanker struck by unknown projectile while transiting outbound through the Strait of Hormuz; engine-room fire, all crew safe, damage unknown",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "UKMTO notice relayed on X by ILRedAlert (UKMTO site not yet checked); vessel not named",
+      "url": "https://x.com/ILRedAlert/status/2122225894139756991"
+    },
     {
       "time": "14:00",
       "ts": "2026-11-16T14:00:39+08:00",
@@ -666,22 +685,14 @@
       "confidence": "Unconfirmed",
       "source": "FinancialJuice, citing Iran's IRGC Navy; also MarketNews Feed and others",
       "url": "https://x.com/financialjuice/status/2121128083663016201"
-    },
-    {
-      "time": "14:22",
-      "ts": "2026-11-13T14:22:00+08:00",
-      "eventTime": "5:50 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T05:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian OSINT says the overnight Volgograd refinery strike damaged ELOU-AVT-1 and AVT-6, units making up about 70% of the plant's primary crude processing capacity; a tank farm was also hit",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Military Summary, NSTRIKE and other OSINT accounts on X",
-      "url": "https://x.com/MilitarySummary/status/2121116149207187482"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO notice (relayed): tanker struck by unknown projectile transiting outbound in Strait of Hormuz, engine-room fire",
+      "site": "x.com/ILRedAlert",
+      "href": "https://x.com/ILRedAlert/status/2122225894139756991"
+    },
     {
       "title": "Ynet via HormuzLetter: Mossad chief Gofman briefs Netanyahu and security cabinet on possible military action against Iran",
       "site": "x.com/HormuzLetter",
@@ -2142,10 +2153,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
-      "Today the IRGC said six tankers have hit mines since Saturday, Iran offered a mediated Hormuz reopening plan, and Israel's security cabinet weighed military action against Iran."
+      "Today the IRGC claimed six tankers mined since Saturday, UKMTO reported a tanker struck by a projectile leaving Hormuz, and Israel's cabinet weighed action against Iran."
     ],
-    "updated": "Mon 16 Nov 2026, 2:04 pm SGT",
-    "updatedTs": "2026-11-16T14:04:00+08:00"
+    "updated": "Mon 16 Nov 2026, 3:13 pm SGT",
+    "updatedTs": "2026-11-16T15:13:21+08:00"
   },
   "last24Count": 13
 }
