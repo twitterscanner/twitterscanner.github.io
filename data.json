@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 5:00 pm SGT",
-  "lastScannedTs": "2026-11-16T17:00:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 4:29 pm SGT",
-  "asOfTs": "2026-11-16T16:29:54+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 5:21 pm SGT",
+  "lastScannedTs": "2026-11-16T17:21:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 5:20 pm SGT",
+  "asOfTs": "2026-11-16T17:20:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, fresh Russian refinery hits and Israel weighing Iran action keep risks higher.",
-    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, fresh Russian refinery hits and Israel weighing Iran action keep risks higher.",
+    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
+    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
     "verdict": "Bullish",
-    "count": "22 of 24 alerts point higher, 1 lower",
-    "text": "22 of 24 alerts point higher, 1 lower.",
+    "count": "22 of 25 alerts point higher, 2 lower",
+    "text": "22 of 25 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Ukrainian sources: drones hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
@@ -146,6 +146,12 @@
     ],
     "dovish": [
       {
+        "text": "Goldman sees 2 mb/d surplus in 2027, Brent averaging $88 then $78 by end-2027",
+        "confidence": "confirmed",
+        "theme": "Market outlook",
+        "ts": "2026-11-16T17:21:00+08:00"
+      },
+      {
         "text": "Iran says Hormuz reopening proposal ready via Qatar and Pakistan mediators if US acts first",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -166,6 +172,19 @@
     "detail": "Brent rebounds to $96.6/bbl after a $94.32 low earlier, on Bahrain drone attacks and Hormuz tanker strikes (Ole S Hansen, 3:31 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:21",
+      "ts": "2026-11-16T17:21:00+08:00",
+      "eventTime": "11:45 am, 16 Nov (est.)",
+      "eventTs": "2026-11-16T11:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "Goldman Sachs (per Bloomberg) sees a 'sizeable' 2 million b/d oil surplus in 2027 even after assuming disruptions; Brent forecast to average $88 next year and slide to $78 by end-2027, citing weaker China demand",
+      "theme": "Market outlook",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Bloomberg, via OilandEnergy",
+      "url": "https://x.com/OilandEnergy/status/2122258104813273503"
+    },
     {
       "time": "16:29",
       "ts": "2026-11-16T16:29:00+08:00",
@@ -672,22 +691,14 @@
       "confidence": "Confirmed",
       "source": "FinancialJuice and FinSquawk, citing the IEA Oil Market Report",
       "url": "https://x.com/financialjuice/status/2121166769582923788"
-    },
-    {
-      "time": "16:18",
-      "ts": "2026-11-13T16:18:33+08:00",
-      "eventTime": "4:15 pm, 13 Nov (est.)",
-      "eventTs": "2026-11-13T16:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "IAEA's confidential quarterly report says it cannot conclude Iran has not diverted nuclear material, has had access only to Bushehr since June 2025, and has no clarity on the Isfahan enrichment plant",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing the IAEA report circulated to member states",
-      "url": "https://x.com/FirstSquawk/status/2121155686658957399"
     }
   ],
   "sources": [
+    {
+      "title": "Goldman Sachs sees 2 mb/d oil surplus in 2027, Brent $88 avg then $78 (Bloomberg, via OilandEnergy)",
+      "site": "x.com",
+      "href": "https://x.com/OilandEnergy/status/2122258104813273503"
+    },
     {
       "title": "big ben: Ukraine reportedly struck the Ilsky oil refinery in Krasnodar overnight on 16 Nov",
       "site": "x.com/alternative_war",
@@ -2173,10 +2184,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukrainian drones reportedly hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined since Saturday, UKMTO reported a tanker struck by a projectile leaving Hormuz, and Israel's cabinet weighed action against Iran."
+      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, Israel weighed Iran action, and Goldman forecast a 2027 oil surplus."
     ],
-    "updated": "Mon 16 Nov 2026, 4:30 pm SGT",
-    "updatedTs": "2026-11-16T16:30:00+08:00"
+    "updated": "Mon 16 Nov 2026, 5:21 pm SGT",
+    "updatedTs": "2026-11-16T17:21:00+08:00"
   },
   "last24Count": 13
 }
