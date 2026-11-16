@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 9:06 pm SGT",
-  "lastScannedTs": "2026-11-16T21:06:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 9:02 pm SGT",
-  "asOfTs": "2026-11-16T21:02:43+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 9:15 pm SGT",
+  "lastScannedTs": "2026-11-16T21:15:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 9:15 pm SGT",
+  "asOfTs": "2026-11-16T21:15:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, Russian refinery hits and new EU terminal sanctions keep risks higher; Goldman's surplus call offsets.",
     "verdict": "Bullish",
-    "count": "22 of 24 alerts point higher, 2 lower",
-    "text": "22 of 24 alerts point higher, 2 lower.",
+    "count": "21 of 23 alerts point higher, 2 lower",
+    "text": "21 of 23 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Satellite spots new heat source 4 km from Qatar's Laffan refinery",
+        "confidence": "unconfirmed",
+        "theme": "Refineries",
+        "ts": "2026-11-16T21:08:54+08:00"
+      },
       {
         "text": "Saudi coalition downs two Houthi drones aimed at Makkah and Riyadh regions",
         "confidence": "confirmed",
@@ -130,18 +136,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-15T22:23:18+08:00"
-      },
-      {
-        "text": "UKMTO: tanker struck near Khasab, Oman, heading toward Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-15T21:10:34+08:00"
-      },
-      {
-        "text": "IRGC claims mined supertanker with 2M+ barrels sank near Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-15T21:10:09+08:00"
       }
     ],
     "dovish": [
@@ -165,6 +159,19 @@
     "detail": "Brent slides further on IEA surplus outlook: quoted $94.90/bbl at 9:00 pm SGT; Ekoturk TV says the daily drop has topped 2% (9:05 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:08",
+      "ts": "2026-11-16T21:08:54+08:00",
+      "eventTime": "16 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Satellite detects a new heat source about 4 km from Qatar's Laffan refinery at Ras Laffan on 16 Nov; cause not stated",
+      "theme": "Refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk (satellite heat-source report)",
+      "url": "https://x.com/FirstSquawk/status/2122315979116228867"
+    },
     {
       "time": "20:56",
       "ts": "2026-11-16T20:56:55+08:00",
@@ -671,22 +678,14 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree, Houthi military spokesman (Arabic)",
       "url": "https://x.com/Yah_Saree/status/2121339527373697332"
-    },
-    {
-      "time": "20:54",
-      "ts": "2026-11-13T20:54:45+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "CENTCOM confirms the IRGC launched two one-way attack drones toward Bahrain and says US forces shot both down, with no injuries or damage, rebutting Iran's claim it destroyed a US early-warning radar",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "CENTCOM",
-      "url": "https://x.com/CENTCOM/status/2121225254446018729"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Satellite detects new heat source 4 km from Qatar's Laffan refinery",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122315979116228867"
+    },
     {
       "title": "Ekoturk TV: Brent's daily drop tops 2% (Turkish)",
       "site": "X / Ekoturktv",
@@ -2207,10 +2206,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukraine hit Russia's Ilsky refinery.",
-      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, the EU moved to sanction a St Petersburg terminal, and Saudi Arabia downed Houthi drones."
+      "Today the IRGC claimed six tankers mined, UKMTO reported a tanker struck leaving Hormuz, Saudi Arabia downed Houthi drones, and satellites flagged a heat source near Qatar's Laffan refinery."
     ],
-    "updated": "Mon 16 Nov 2026, 9:01 pm SGT",
-    "updatedTs": "2026-11-16T21:01:00+08:00"
+    "updated": "Mon 16 Nov 2026, 9:15 pm SGT",
+    "updatedTs": "2026-11-16T21:15:00+08:00"
   },
   "last24Count": 13
 }
