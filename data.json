@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 12:05 pm SGT",
-  "lastScannedTs": "2026-11-16T12:05:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 11:54 am SGT",
-  "asOfTs": "2026-11-16T11:54:24+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 12:45 pm SGT",
+  "lastScannedTs": "2026-11-16T12:45:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 12:40 pm SGT",
+  "asOfTs": "2026-11-16T12:40:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker incidents, a reported halving of Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks tilted higher.",
-    "lead": "Net read (last 24 hours): Hormuz tanker incidents, a reported halving of Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks tilted higher.",
+    "bottom": "IRGC claims of six mined tankers in Hormuz, halving Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks higher.",
+    "lead": "Net read (last 24 hours): IRGC claims of six mined tankers in Hormuz, halving Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks higher.",
     "verdict": "Bullish",
-    "count": "19 of 20 alerts point higher, 0 lower",
-    "text": "19 of 20 alerts point higher, 0 lower.",
+    "count": "20 of 21 alerts point higher, 0 lower",
+    "text": "20 of 21 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says six tankers hit mines in Hormuz since Saturday, pollution spreading",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-16T12:27:18+08:00"
+      },
       {
         "text": "Hormuz crude flows reportedly halve to ~6.5M b/d 7-day average, per tracker",
         "confidence": "unconfirmed",
@@ -141,6 +147,19 @@
     "detail": "Brent crude slides more than 1% to $94.85/bbl (First Squawk, 10:51 am SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:27",
+      "ts": "2026-11-16T12:27:18+08:00",
+      "eventTime": "Since Sat 14 Nov, times not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says six oil tankers have struck mines in the Strait of Hormuz since Saturday, with fires, sinkings and oil pollution spreading along the strait's coasts",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iran International (Persian) on X, citing IRGC Navy statement",
+      "url": "https://x.com/IranIntlbrk/status/2122184711581872144"
+    },
     {
       "time": "11:52",
       "ts": "2026-11-16T11:52:07+08:00",
@@ -647,22 +666,14 @@
       "confidence": "Unconfirmed",
       "source": "Mario Nawfal (citing CENTCOM statement)",
       "url": "https://x.com/MarioNawfal/status/2121104221386813754"
-    },
-    {
-      "time": "10:15",
-      "ts": "2026-11-13T10:15:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC says it targeted a US early-warning radar in Bahrain in retaliation for an attack on a telecommunications tower in Sirik; no US or Bahraini confirmation yet",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk, plus RedboxWire, FinancialJuice and TPObserver (citing IRGC statement)",
-      "url": "https://x.com/FirstSquawk/status/2121063834584760599"
     }
   ],
   "sources": [
+    {
+      "title": "Iran International: IRGC Navy says six tankers hit mines in Strait of Hormuz since Saturday (Persian)",
+      "site": "x.com/IranIntlbrk",
+      "href": "https://x.com/IranIntlbrk/status/2122184711581872144"
+    },
     {
       "title": "Drop Site News: Hormuz crude flows 7-day average falls to ~6.5M b/d (Hormuz Strait Tracker)",
       "site": "x.com/DropSiteNews",
@@ -2108,10 +2119,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
-      "This morning Saudi Arabia reportedly struck Hodeidah airport, an oil depot burned in Russia's Azov, and tracker estimates showed Hormuz crude flows roughly halving since late October."
+      "Today Saudi Arabia reportedly struck Hodeidah airport, an Azov oil depot burned, Hormuz flows roughly halved, and the IRGC said six tankers have hit mines since Saturday."
     ],
-    "updated": "Mon 16 Nov 2026, 11:58 am SGT",
-    "updatedTs": "2026-11-16T11:58:00+08:00"
+    "updated": "Mon 16 Nov 2026, 12:45 pm SGT",
+    "updatedTs": "2026-11-16T12:45:00+08:00"
   },
   "last24Count": 13
 }
