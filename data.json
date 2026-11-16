@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 3:15 pm SGT",
-  "lastScannedTs": "2026-11-16T15:15:22+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 3:20 pm SGT",
+  "lastScannedTs": "2026-11-16T15:20:58+08:00",
   "asOf": "Mon 16 Nov 2026, 3:13 pm SGT",
   "asOfTs": "2026-11-16T15:13:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -172,12 +172,12 @@
       "eventTime": "3:08 pm, 16 Nov",
       "eventTs": "2026-11-16T15:08:00+08:00",
       "eventQual": "confirmed",
-      "headline": "UKMTO 207-26: tanker struck by unknown projectile while transiting outbound through the Strait of Hormuz (26.319N, 56.567E); engine-room fire, all crew safe, damage unknown",
+      "headline": "UKMTO 207-26: tanker struck by unknown projectile while transiting outbound through the Strait of Hormuz (26.319N, 56.567E); engine-room fire, all crew safe, damage unknown. Iran's army navy (IRNA) separately says another tanker hit a mine east of Hormuz on Monday, possibly the same vessel",
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "UKMTO notice 207-26 (relayed on X by ILRedAlert; also FinancialJuice); vessel not named",
-      "url": "https://x.com/ILRedAlert/status/2122225894139756991"
+      "source": "UKMTO Operations Centre on X (warning 207-26); also IRNA for Iran's mine claim; vessel not named",
+      "url": "https://x.com/UK_MTO/status/2122228069440323988"
     },
     {
       "time": "14:00",
@@ -688,6 +688,16 @@
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO Operations Centre: WARNING 207-26 ATTACK, tanker struck by projectile in Strait of Hormuz",
+      "site": "x.com/UK_MTO",
+      "href": "https://x.com/UK_MTO/status/2122228069440323988"
+    },
+    {
+      "title": "IRNA: Iran's Army Navy says another violating tanker hit a mine east of Hormuz on Monday",
+      "site": "x.com/IrnaEnglish",
+      "href": "https://x.com/IrnaEnglish/status/2122227234975183327"
+    },
     {
       "title": "UKMTO notice (relayed): tanker struck by unknown projectile transiting outbound in Strait of Hormuz, engine-room fire",
       "site": "x.com/ILRedAlert",
