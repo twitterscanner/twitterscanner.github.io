@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 6:28 pm SGT",
-  "lastScannedTs": "2026-11-16T18:28:00+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 7:01 pm SGT",
+  "lastScannedTs": "2026-11-16T19:01:00+08:00",
   "asOf": "Mon 16 Nov 2026, 5:48 pm SGT",
   "asOfTs": "2026-11-16T17:48:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -60,8 +60,8 @@
         "ts": "2026-11-16T10:25:24+08:00"
       },
       {
-        "text": "Oil depot reported burning in Azov, Rostov, after Ukrainian drone strike",
-        "confidence": "unconfirmed",
+        "text": "Ukraine says it hit two oil depots in Azov, Rostov; depot fire reported",
+        "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-16T10:25:24+08:00"
       },
@@ -301,11 +301,11 @@
       "eventTime": "9:50 am, 16 Nov (est.)",
       "eventTs": "2026-11-16T09:50:00+08:00",
       "eventQual": "est.",
-      "headline": "Oil depot reported ablaze in Azov, Rostov region, after Ukrainian drone attack; explosions and fire reported by residents",
+      "headline": "Oil depot ablaze in Azov, Rostov region, after Ukrainian drone attack; Ukraine says it hit 2 oil depots there",
       "theme": "Russian refineries",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping on X (Azov under drone attack, fire); depot fire per TWMCLtd and others",
+      "confidence": "Confirmed",
+      "source": "AMK Mapping on X (Azov under drone attack, fire); Ukraine says it hit 2 oil depots in Azov (per First Squawk)",
       "url": "https://x.com/AMK_Mapping_/status/2122147370922344780"
     },
     {
@@ -2181,6 +2181,11 @@
       "title": "Open Source Intel: explosions on Qeshm Island, SAMs fired toward US aircraft",
       "site": "x.com",
       "href": "https://x.com/Osint613/status/2121989737007263957"
+    },
+    {
+      "title": "First Squawk: Ukraine says it hit 2 oil depots in Azov, Russia",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122282756768223641"
     }
   ],
   "dayNote": {
