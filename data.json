@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 4:04 am SGT",
-  "lastScannedTs": "2026-11-17T04:04:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 3:02 am SGT",
-  "asOfTs": "2026-11-17T03:02:08+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:05 am SGT",
+  "lastScannedTs": "2026-11-17T05:05:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 5:04 am SGT",
+  "asOfTs": "2026-11-17T05:04:30+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz explosions and tanker mines, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and new Guyana supply offset.",
-    "lead": "Net read (last 24 hours): Hormuz explosions and tanker mines, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and new Guyana supply offset.",
+    "bottom": "Fresh Hormuz tanker-mine and Sirik blast claims, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "lead": "Net read (last 24 hours): Fresh Hormuz tanker-mine and Sirik blast claims, Isfahan alert and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "18 of 23 alerts point higher, 5 lower",
-    "text": "18 of 23 alerts point higher, 5 lower.",
+    "count": "17 of 22 alerts point higher, 5 lower",
+    "text": "17 of 22 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Several explosions reported in Sirik on Iran's coast near Hormuz; cause unclear",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T05:04:30+08:00"
+      },
+      {
+        "text": "Iran's navy claims a fourth tanker in 24 hours hit a mine east of Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T05:04:29+08:00"
+      },
       {
         "text": "Reports of at least three explosions in the Strait of Hormuz; cause unknown",
         "confidence": "unconfirmed",
@@ -100,24 +112,6 @@
         "confidence": "confirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-16T10:25:24+08:00"
-      },
-      {
-        "text": "US Embassy Bahrain warns of rising Houthi and Iranian attack threat",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-16T04:33:14+08:00"
-      },
-      {
-        "text": "Iran says another tanker hit a mine and caught fire in eastern Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-16T04:21:41+08:00"
-      },
-      {
-        "text": "Iran fires anti-ship missiles toward Hormuz; US reportedly strikes launcher",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-16T04:04:08+08:00"
       }
     ],
     "dovish": [
@@ -159,6 +153,32 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:04",
+      "ts": "2026-11-17T05:04:30+08:00",
+      "eventTime": "4:45 am, 17 Nov (est.)",
+      "eventTs": "2026-11-17T04:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "Several explosions reported in Sirik on Iran's Gulf of Oman coast near Hormuz; unclear whether US strikes or Iranian anti-ship missiles fired at vessels",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (X)",
+      "url": "https://x.com/CocoPostel/status/2122432725181448624"
+    },
+    {
+      "time": "05:04",
+      "ts": "2026-11-17T05:04:29+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's navy claims a fourth tanker in 24 hours is burning east of the Strait of Hormuz after hitting a 'sea mine' inside a restricted zone; severe damage claimed",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel (X), relaying Iranian Army Navy claim",
+      "url": "https://x.com/Osint613/status/2122423820858667079"
+    },
     {
       "time": "03:02",
       "ts": "2026-11-17T03:02:08+08:00",
@@ -652,35 +672,19 @@
       "confidence": "Confirmed",
       "source": "Ukraine General Staff via Bloomberg / Giovanni Staunovo on X",
       "url": "https://x.com/staunovo/status/2121580553061224582"
-    },
-    {
-      "time": "20:11",
-      "ts": "2026-11-14T20:11:55+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island in the Strait of Hormuz",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC claim via FirstSquawk on X",
-      "url": "https://x.com/FirstSquawk/status/2121576860375298503"
-    },
-    {
-      "time": "20:02",
-      "ts": "2026-11-14T20:02:26+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Russia strikes Ukraine's Kremenchuk oil refinery with cruise missiles; large fire seen at the facility after 1-2 impacts",
-      "theme": "Refineries",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping on X",
-      "url": "https://x.com/AMK_Mapping_/status/2121574473367421144"
     }
   ],
   "sources": [
+    {
+      "title": "Iranian Army Navy claims fourth tanker in 24 hours burning east of Hormuz after mine (Open Source Intel)",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2122423820858667079"
+    },
+    {
+      "title": "Explosions reported in Sirik near the Strait of Hormuz (Post Open Source)",
+      "site": "X / CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2122432725181448624"
+    },
     {
       "title": "First Squawk: Brent crude futures settle 3.55% lower at $92.44/bbl (16 Nov)",
       "site": "X / First Squawk",
@@ -2260,11 +2264,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight, reports of at least three explosions in the Strait of Hormuz followed Iran's MQ-1C drone shootdown claim and an air defence alert over Isfahan, causes unclear.",
+      "Overnight, Iran's navy claimed a fourth tanker in 24 hours hit a mine east of Hormuz, after reported explosions in the strait and at Sirik, plus an Isfahan air defence alert.",
       "Trump reportedly told advisers he won't escalate against Iran unless provoked, Kushner flagged progress toward new Ukraine talks, and Exxon started its 250,000 b/d Uaru project in Guyana."
     ],
-    "updated": "Tue 17 Nov 2026, 3:03 am SGT",
-    "updatedTs": "2026-11-17T03:03:00+08:00"
+    "updated": "Tue 17 Nov 2026, 5:05 am SGT",
+    "updatedTs": "2026-11-17T05:05:00+08:00"
   },
   "last24Count": 13
 }
