@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 5:21 pm SGT",
-  "lastScannedTs": "2026-11-16T17:21:00+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 5:25 pm SGT",
+  "lastScannedTs": "2026-11-16T17:25:00+08:00",
   "asOf": "Mon 16 Nov 2026, 5:20 pm SGT",
   "asOfTs": "2026-11-16T17:20:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
     "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and fresh Russian refinery hits keep risks higher; Goldman's 2027 surplus call is the main offset.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 2 lower",
-    "text": "22 of 25 alerts point higher, 2 lower.",
+    "count": "21 of 24 alerts point higher, 2 lower",
+    "text": "21 of 24 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Ukrainian sources: drones hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-15T18:10:43+08:00"
-      },
-      {
-        "text": "Houthis gain ground over Bab el-Mandeb as Saudi-backed forces withdraw",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-15T17:24:53+08:00"
       }
     ],
     "dovish": [
