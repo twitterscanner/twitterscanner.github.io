@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 3:20 pm SGT",
-  "lastScannedTs": "2026-11-16T15:20:58+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 3:33 pm SGT",
+  "lastScannedTs": "2026-11-16T15:33:20+08:00",
   "asOf": "Mon 16 Nov 2026, 3:13 pm SGT",
   "asOfTs": "2026-11-16T15:13:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -162,8 +162,8 @@
     ]
   },
   "brent": {
-    "value": "$94.85",
-    "detail": "Brent crude slides more than 1% to $94.85/bbl (First Squawk, 10:51 am SGT 16 Nov)"
+    "value": "$96.60",
+    "detail": "Brent rebounds to $96.6/bbl after a $94.32 low earlier, on Bahrain drone attacks and Hormuz tanker strikes (Ole S Hansen, 3:31 pm SGT 16 Nov)"
   },
   "alerts": [
     {
