@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 11:05 am SGT",
-  "lastScannedTs": "2026-11-16T11:05:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 10:25 am SGT",
-  "asOfTs": "2026-11-16T10:25:24+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 11:58 am SGT",
+  "lastScannedTs": "2026-11-16T11:58:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 11:54 am SGT",
+  "asOfTs": "2026-11-16T11:54:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker incidents, Houthi strikes on Saudi oil sites, a reported Saudi strike on Hodeidah and Ukrainian hits on Russian fuel sites keep risks tilted higher.",
-    "lead": "Net read (last 24 hours): Hormuz tanker incidents, Houthi strikes on Saudi oil sites, a reported Saudi strike on Hodeidah and Ukrainian hits on Russian fuel sites keep risks tilted higher.",
+    "bottom": "Hormuz tanker incidents, a reported halving of Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks tilted higher.",
+    "lead": "Net read (last 24 hours): Hormuz tanker incidents, a reported halving of Hormuz flows, Houthi strikes on Saudi oil sites and Ukrainian hits on Russian fuel keep risks tilted higher.",
     "verdict": "Bullish",
-    "count": "18 of 19 alerts point higher, 0 lower",
-    "text": "18 of 19 alerts point higher, 0 lower.",
+    "count": "19 of 20 alerts point higher, 0 lower",
+    "text": "19 of 20 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Hormuz crude flows reportedly halve to ~6.5M b/d 7-day average, per tracker",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-16T11:52:07+08:00"
+      },
       {
         "text": "Saudi Arabia reportedly strikes Houthi-held Hodeidah airport in Yemen",
         "confidence": "unconfirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent crude slides more than 1% to $94.85/bbl (First Squawk, 10:51 am SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:52",
+      "ts": "2026-11-16T11:52:07+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Hormuz crude flows reportedly plunge again: 7-day average falls to about 6.5 million b/d in mid-November from about 13 million in late October, per tracker estimates",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Drop Site News on X (citing Hormuz Strait Tracker estimates)",
+      "url": "https://x.com/DropSiteNews/status/2122175857695261078"
+    },
     {
       "time": "10:25",
       "ts": "2026-11-16T10:25:24+08:00",
@@ -641,22 +660,14 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk, plus RedboxWire, FinancialJuice and TPObserver (citing IRGC statement)",
       "url": "https://x.com/FirstSquawk/status/2121063834584760599"
-    },
-    {
-      "time": "10:05",
-      "ts": "2026-11-13T10:05:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump tells Stephen A. Smith that Gulf nations have asked the US not to strike Iran, saying they 'would much prefer the waiting period'",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "OSINTtechnical on X (clip of Trump interview with Stephen A. Smith)",
-      "url": "https://x.com/Osinttechnical/status/2121060424355340605"
     }
   ],
   "sources": [
+    {
+      "title": "Drop Site News: Hormuz crude flows 7-day average falls to ~6.5M b/d (Hormuz Strait Tracker)",
+      "site": "x.com/DropSiteNews",
+      "href": "https://x.com/DropSiteNews/status/2122175857695261078"
+    },
     {
       "title": "AMK Mapping: Azov, Rostov Oblast under Ukrainian drone attack, fire breaks out",
       "site": "x.com/AMK_Mapping_",
@@ -2097,10 +2108,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
-      "This morning Houthi media said Saudi Arabia struck Hodeidah airport, and an oil depot was reported burning in Russia's Azov after a Ukrainian drone attack."
+      "This morning Saudi Arabia reportedly struck Hodeidah airport, an oil depot burned in Russia's Azov, and tracker estimates showed Hormuz crude flows roughly halving since late October."
     ],
-    "updated": "Mon 16 Nov 2026, 10:28 am SGT",
-    "updatedTs": "2026-11-16T10:28:00+08:00"
+    "updated": "Mon 16 Nov 2026, 11:58 am SGT",
+    "updatedTs": "2026-11-16T11:58:00+08:00"
   },
   "last24Count": 13
 }
