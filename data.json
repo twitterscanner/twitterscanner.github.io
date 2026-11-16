@@ -13,7 +13,7 @@
     "hawkish": [
       {
         "text": "EU to sanction a St Petersburg oil terminal, per French FM Barrot",
-        "confidence": "unconfirmed",
+        "confidence": "confirmed",
         "theme": "Sanctions",
         "ts": "2026-11-16T17:47:54+08:00"
       },
@@ -180,8 +180,8 @@
       "headline": "EU to add a St Petersburg oil terminal to its Russia sanctions list, French FM Barrot says",
       "theme": "Sanctions",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "CGTN Europe (quoting French FM Barrot)",
+      "confidence": "Confirmed",
+      "source": "CGTN Europe, FinancialJuice and others (quoting French FM Barrot)",
       "url": "https://x.com/CGTNEurope/status/2122265394635563190"
     },
     {
