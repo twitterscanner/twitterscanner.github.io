@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 10:05 am SGT",
-  "lastScannedTs": "2026-11-16T10:05:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 5:03 am SGT",
-  "asOfTs": "2026-11-16T05:03:56+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 10:28 am SGT",
+  "lastScannedTs": "2026-11-16T10:28:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 10:25 am SGT",
+  "asOfTs": "2026-11-16T10:25:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Repeated tanker incidents and missile fire at Hormuz, Houthi strikes on Saudi oil sites and a Bahrain threat alert keep supply risks tilted higher.",
-    "lead": "Net read (last 24 hours): Repeated tanker incidents and missile fire at Hormuz, Houthi strikes on Saudi oil sites and a Bahrain threat alert keep supply risks tilted higher.",
+    "bottom": "Hormuz tanker incidents, Houthi strikes on Saudi oil sites, a reported Saudi strike on Hodeidah and Ukrainian hits on Russian fuel sites keep risks tilted higher.",
+    "lead": "Net read (last 24 hours): Hormuz tanker incidents, Houthi strikes on Saudi oil sites, a reported Saudi strike on Hodeidah and Ukrainian hits on Russian fuel sites keep risks tilted higher.",
     "verdict": "Bullish",
-    "count": "16 of 17 alerts point higher, 0 lower",
-    "text": "16 of 17 alerts point higher, 0 lower.",
+    "count": "18 of 19 alerts point higher, 0 lower",
+    "text": "18 of 19 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Saudi Arabia reportedly strikes Houthi-held Hodeidah airport in Yemen",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-16T10:25:24+08:00"
+      },
+      {
+        "text": "Oil depot reported burning in Azov, Rostov, after Ukrainian drone strike",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-16T10:25:24+08:00"
+      },
       {
         "text": "US Embassy Bahrain warns of rising Houthi and Iranian attack threat",
         "confidence": "confirmed",
@@ -123,6 +135,32 @@
     "detail": "Brent crude eased to around $95.50 a barrel in early Asian trade (First Squawk, 8:55 am SGT 16 Nov); settled $96.05 on Fri 13 Nov"
   },
   "alerts": [
+    {
+      "time": "10:25",
+      "ts": "2026-11-16T10:25:24+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthi media say Saudi Arabia struck Hodeidah airport in Yemen, a sign of renewed direct Saudi-Houthi escalation near the Red Sea",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X (citing Houthi media)",
+      "url": "https://x.com/Osint613/status/2122153210878079471"
+    },
+    {
+      "time": "10:25",
+      "ts": "2026-11-16T10:25:24+08:00",
+      "eventTime": "9:50 am, 16 Nov (est.)",
+      "eventTs": "2026-11-16T09:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Oil depot reported ablaze in Azov, Rostov region, after Ukrainian drone attack; explosions and fire reported by residents",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping on X (Azov under drone attack, fire); depot fire per TWMCLtd and others",
+      "url": "https://x.com/AMK_Mapping_/status/2122147370922344780"
+    },
     {
       "time": "04:33",
       "ts": "2026-11-16T04:33:14+08:00",
@@ -616,35 +654,24 @@
       "confidence": "Confirmed",
       "source": "OSINTtechnical on X (clip of Trump interview with Stephen A. Smith)",
       "url": "https://x.com/Osinttechnical/status/2121060424355340605"
-    },
-    {
-      "time": "07:07",
-      "ts": "2026-11-13T07:07:00+08:00",
-      "eventTime": "6:20 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T06:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions and smoke at Bandar Lengeh on Iran's Hormuz coast after reported US strikes on Sirik; an Iranian air defence site was reportedly targeted",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel (Osint613) on X, plus Post Open Source and Mario Nawfal (footage of drones along Hormozgan coast)",
-      "url": "https://x.com/Osint613/status/2121007278757167290"
-    },
-    {
-      "time": "06:02",
-      "ts": "2026-11-13T06:02:30+08:00",
-      "eventTime": "5:50 am, 13 Nov (est.)",
-      "eventTs": "2026-11-13T05:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones reportedly hit Russia's Volgograd oil refinery (Lukoil) as the mass drone wave continues; footage shows fire, no official confirmation yet",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "markito0171 on X, plus UK_REPT, Illia Ponomarenko and others",
-      "url": "https://x.com/markito0171/status/2121000291990487379"
     }
   ],
   "sources": [
+    {
+      "title": "AMK Mapping: Azov, Rostov Oblast under Ukrainian drone attack, fire breaks out",
+      "site": "x.com/AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2122147370922344780"
+    },
+    {
+      "title": "TWMCLtd: fuel depot thought to be alight in Azov after drone attack",
+      "site": "x.com/TWMCLtd",
+      "href": "https://x.com/TWMCLtd/status/2122152218770161932"
+    },
+    {
+      "title": "Open Source Intel: Houthi media report Saudi strike on Hodeidah airport",
+      "site": "x.com/Osint613",
+      "href": "https://x.com/Osint613/status/2122153210878079471"
+    },
     {
       "title": "Open Source Intel: Iran's navy says another 'rogue' tanker hit a mine and caught fire in eastern Hormuz",
       "site": "x.com/Osint613",
@@ -2069,11 +2096,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine and caught fire.",
-      "The US Embassy in Bahrain warned of rising Houthi and Iranian attack threats, and Zelensky said over half of Russian refining capacity has been disabled."
+      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
+      "This morning Houthi media said Saudi Arabia struck Hodeidah airport, and an oil depot was reported burning in Russia's Azov after a Ukrainian drone attack."
     ],
-    "updated": "Mon 16 Nov 2026, 5:04 am SGT",
-    "updatedTs": "2026-11-16T05:04:00+08:00"
+    "updated": "Mon 16 Nov 2026, 10:28 am SGT",
+    "updatedTs": "2026-11-16T10:28:00+08:00"
   },
   "last24Count": 13
 }
