@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 16 Nov 2026, 4:01 pm SGT",
-  "lastScannedTs": "2026-11-16T16:01:00+08:00",
-  "asOf": "Mon 16 Nov 2026, 3:13 pm SGT",
-  "asOfTs": "2026-11-16T15:13:21+08:00",
+  "lastScanned": "Mon 16 Nov 2026, 4:30 pm SGT",
+  "lastScannedTs": "2026-11-16T16:30:00+08:00",
+  "asOf": "Mon 16 Nov 2026, 4:29 pm SGT",
+  "asOfTs": "2026-11-16T16:29:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and Israel weighing Iran action keep risks higher; Iran's reopening offer is the main offset.",
-    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil and Israel weighing Iran action keep risks higher; Iran's reopening offer is the main offset.",
+    "bottom": "Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, fresh Russian refinery hits and Israel weighing Iran action keep risks higher.",
+    "lead": "Net read (last 24 hours): Mined and struck Hormuz tankers, Houthi strikes on Saudi oil, fresh Russian refinery hits and Israel weighing Iran action keep risks higher.",
     "verdict": "Bullish",
-    "count": "21 of 23 alerts point higher, 1 lower",
-    "text": "21 of 23 alerts point higher, 1 lower.",
+    "count": "22 of 24 alerts point higher, 1 lower",
+    "text": "22 of 24 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian sources: drones hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-16T16:29:00+08:00"
+      },
       {
         "text": "UKMTO: tanker hit by projectile leaving Hormuz, engine-room fire",
         "confidence": "confirmed",
@@ -160,6 +166,19 @@
     "detail": "Brent rebounds to $96.6/bbl after a $94.32 low earlier, on Bahrain drone attacks and Hormuz tanker strikes (Ole S Hansen, 3:31 pm SGT 16 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:29",
+      "ts": "2026-11-16T16:29:00+08:00",
+      "eventTime": "8:00 am, 16 Nov (est.)",
+      "eventTs": "2026-11-16T08:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian sources say drones hit Russia's Ilsky oil refinery in Krasnodar overnight, damaging AT-4 and AT-5 crude units; Kuban officials confirm a fire at an Ilsky enterprise",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "big ben on X (Ukrainian channels; Kuban operational HQ via Vesti)",
+      "url": "https://x.com/alternative_war/status/2122245009474814198"
+    },
     {
       "time": "15:13",
       "ts": "2026-11-16T15:13:21+08:00",
@@ -666,22 +685,19 @@
       "confidence": "Confirmed",
       "source": "First Squawk, citing the IAEA report circulated to member states",
       "url": "https://x.com/FirstSquawk/status/2121155686658957399"
-    },
-    {
-      "time": "14:28",
-      "ts": "2026-11-13T14:28:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy says a liquefied gas tanker that ignored repeated warnings struck a naval mine on the southern (unauthorised) route through the Strait of Hormuz, causing a large explosion and fire; vessel not named",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FinancialJuice, citing Iran's IRGC Navy; also MarketNews Feed and others",
-      "url": "https://x.com/financialjuice/status/2121128083663016201"
     }
   ],
   "sources": [
+    {
+      "title": "big ben: Ukraine reportedly struck the Ilsky oil refinery in Krasnodar overnight on 16 Nov",
+      "site": "x.com/alternative_war",
+      "href": "https://x.com/alternative_war/status/2122245009474814198"
+    },
+    {
+      "title": "Vesti: drone debris injures three in Severskaya; fire at an enterprise in Ilsky, Kuban HQ says",
+      "site": "x.com/vesti_news",
+      "href": "https://x.com/vesti_news/status/2122183485196800017"
+    },
     {
       "title": "UKMTO Operations Centre: WARNING 207-26 ATTACK, tanker struck by projectile in Strait of Hormuz",
       "site": "x.com/UK_MTO",
@@ -2156,11 +2172,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, while Iran fired anti-ship missiles toward Hormuz and said another tanker hit a mine.",
+      "Overnight the Houthis claimed strikes on Riyadh and East-West pipeline pumping stations, Iran fired anti-ship missiles toward Hormuz, and Ukrainian drones reportedly hit Russia's Ilsky refinery.",
       "Today the IRGC claimed six tankers mined since Saturday, UKMTO reported a tanker struck by a projectile leaving Hormuz, and Israel's cabinet weighed action against Iran."
     ],
-    "updated": "Mon 16 Nov 2026, 3:13 pm SGT",
-    "updatedTs": "2026-11-16T15:13:21+08:00"
+    "updated": "Mon 16 Nov 2026, 4:30 pm SGT",
+    "updatedTs": "2026-11-16T16:30:00+08:00"
   },
   "last24Count": 13
 }
