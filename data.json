@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 10:06 pm SGT",
-  "lastScannedTs": "2026-11-17T22:06:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 10:24 pm SGT",
+  "lastScannedTs": "2026-11-17T22:24:00+08:00",
   "asOf": "Tue 17 Nov 2026, 9:45 pm SGT",
   "asOfTs": "2026-11-17T21:45:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "A reported US strike on Qeshm and claimed IRGC retaliation on US warships, plus Hormuz tanker attacks and a Houthi offensive, keep risks escalating.",
     "lead": "Net read (last 24 hours): A reported US strike on Qeshm and claimed IRGC retaliation on US warships, plus Hormuz tanker attacks and a Houthi offensive, keep risks escalating.",
     "verdict": "Mixed, leaning bullish",
-    "count": "24 of 34 alerts point higher, 9 lower",
-    "text": "24 of 34 alerts point higher, 9 lower.",
+    "count": "23 of 33 alerts point higher, 9 lower",
+    "text": "23 of 33 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "IRGC reportedly fires missiles and drones at US warships involved in the Qeshm Island strike",
@@ -148,12 +148,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-17T00:14:00+08:00"
-      },
-      {
-        "text": "Reported large fire at Aramco's Abu Ali Island gas facility (satellite images)",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Aramco",
-        "ts": "2026-11-16T22:24:00+08:00"
       }
     ],
     "dovish": [
