@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 11:38 pm SGT",
-  "lastScannedTs": "2026-11-17T23:38:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 12:06 am SGT",
+  "lastScannedTs": "2026-11-18T00:06:00+08:00",
   "asOf": "Tue 17 Nov 2026, 11:36 pm SGT",
   "asOfTs": "2026-11-17T23:36:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -2519,11 +2519,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later the Khasab tanker was struck again, US strikes on Qeshm drew claimed IRGC retaliation, the IRGC claimed another tanker fire, and Saudi Arabia intercepted a Houthi drone aimed at Riyadh."
+      "No new alerts yet today; late on 17 Nov, US strikes on Qeshm Island were acknowledged by Iran, and the IRGC claimed a fourth tanker caught fire east of Hormuz.",
+      "Saudi Arabia's coalition also intercepted a Houthi drone aimed at Riyadh, after reported Iranian missile launches from Khuzestan kept Gulf geopolitics escalating overnight."
     ],
-    "updated": "Tue 17 Nov 2026, 11:38 pm SGT",
-    "updatedTs": "2026-11-17T23:38:00+08:00"
+    "updated": "Wed 18 Nov 2026, 12:06 am SGT",
+    "updatedTs": "2026-11-18T00:06:00+08:00"
   },
   "last24Count": 13
 }
