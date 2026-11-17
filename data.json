@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 8:47 pm SGT",
-  "lastScannedTs": "2026-11-17T20:47:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 8:58 pm SGT",
+  "lastScannedTs": "2026-11-17T20:58:35+08:00",
   "asOf": "Tue 17 Nov 2026, 8:46 pm SGT",
   "asOfTs": "2026-11-17T20:46:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
     "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
     "verdict": "Mixed, leaning bullish",
-    "count": "23 of 33 alerts point higher, 9 lower",
-    "text": "23 of 33 alerts point higher, 9 lower.",
+    "count": "22 of 32 alerts point higher, 9 lower",
+    "text": "22 of 32 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "Iran's Army claims it downed a US LUCAS attack drone over Hormuz",
@@ -142,12 +142,6 @@
         "confidence": "unconfirmed",
         "theme": "Refineries",
         "ts": "2026-11-16T21:08:54+08:00"
-      },
-      {
-        "text": "Saudi coalition downs two Houthi drones aimed at Makkah and Riyadh regions",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-16T20:56:55+08:00"
       }
     ],
     "dovish": [
