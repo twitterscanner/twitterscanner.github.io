@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 7:00 pm SGT",
-  "lastScannedTs": "2026-11-17T19:00:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 6:20 pm SGT",
-  "asOfTs": "2026-11-17T18:20:31+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 7:10 pm SGT",
+  "lastScannedTs": "2026-11-17T19:10:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 7:09 pm SGT",
+  "asOfTs": "2026-11-17T19:09:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims, a repeat Khasab tanker strike and Bahrain attacks keep risks escalating; Qatar mediation and the Iraq-Turkey restart offset.",
-    "lead": "Net read (last 24 hours): IRGC mine claims, a repeat Khasab tanker strike and Bahrain attacks keep risks escalating; Qatar mediation and the Iraq-Turkey restart offset.",
+    "bottom": "IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Qatar mediation and Iraq-Turkey restart offset.",
+    "lead": "Net read (last 24 hours): IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Qatar mediation and Iraq-Turkey restart offset.",
     "verdict": "Mixed, leaning bullish",
-    "count": "20 of 28 alerts point higher, 7 lower",
-    "text": "20 of 28 alerts point higher, 7 lower.",
+    "count": "21 of 29 alerts point higher, 7 lower",
+    "text": "21 of 29 alerts point higher, 7 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: delayed report of tanker hit by projectile in Persian Gulf on 13 Nov",
+        "confidence": "confirmed",
+        "theme": "Tankers",
+        "ts": "2026-11-17T19:08:12+08:00"
+      },
       {
         "text": "IRGC claims an LPG carrier and an oil tanker ablaze in Hormuz after hitting mines",
         "confidence": "unconfirmed",
@@ -190,6 +196,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:08",
+      "ts": "2026-11-17T19:08:12+08:00",
+      "eventTime": "13 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO receives a time-delayed report: a tanker in the Persian Gulf was struck by a projectile on 13 Nov, a previously unreported attack",
+      "theme": "Tankers",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO via FinancialJuice (X); also CGTN Europe",
+      "url": "https://x.com/financialjuice/status/2122647990083137823"
+    },
     {
       "time": "18:13",
       "ts": "2026-11-17T18:13:35+08:00",
@@ -696,22 +715,14 @@
       "confidence": "Confirmed",
       "source": "AMK Mapping on X (Azov under drone attack, fire); Ukraine says it hit 2 oil depots in Azov (per First Squawk)",
       "url": "https://x.com/AMK_Mapping_/status/2122147370922344780"
-    },
-    {
-      "time": "04:33",
-      "ts": "2026-11-16T04:33:14+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US Embassy in Manama issues security alert for Bahrain, citing rising threat of attacks by Iran-backed Houthis and Iranian plans to hit US facilities",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel on X (US Embassy Manama alert; also Post Open Source)",
-      "url": "https://x.com/Osint613/status/2122065408505352688"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO: tanker struck by projectile on 13 Nov, time-delayed report (FinancialJuice)",
+      "site": "X / financialjuice",
+      "href": "https://x.com/financialjuice/status/2122647990083137823"
+    },
     {
       "title": "Ukraine General Staff confirms Salavat refinery hit overnight 17 Nov",
       "site": "X / GeneralStaffUA",
@@ -2401,11 +2412,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon a second strike hit the Khasab tanker and the IRGC claimed two mine hits in Hormuz, while Qatar said US-Iran mediation continues and Iraq restarted Kirkuk-Ceyhan exports."
+      "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
+      "Later a second strike hit the Khasab tanker, the IRGC claimed two mine hits, UKMTO disclosed a 13 Nov Gulf tanker attack, while Qatar mediation continued and Kirkuk-Ceyhan exports restarted."
     ],
-    "updated": "Tue 17 Nov 2026, 6:21 pm SGT",
-    "updatedTs": "2026-11-17T18:21:00+08:00"
+    "updated": "Tue 17 Nov 2026, 7:10 pm SGT",
+    "updatedTs": "2026-11-17T19:10:00+08:00"
   },
   "last24Count": 13
 }
