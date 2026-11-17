@@ -1,18 +1,18 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 5:27 pm SGT",
-  "lastScannedTs": "2026-11-17T17:27:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 5:25 pm SGT",
-  "asOfTs": "2026-11-17T17:25:52+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:36 pm SGT",
+  "lastScannedTs": "2026-11-17T17:36:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 5:34 pm SGT",
+  "asOfTs": "2026-11-17T17:34:50+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG carrier sinking and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks offset.",
-    "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG carrier sinking and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks offset.",
+    "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG sinking and a Bakken pipeline outage keep risks escalating; Iraq-Turkey export restart offsets.",
+    "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG sinking and a Bakken pipeline outage keep risks escalating; Iraq-Turkey export restart offsets.",
     "verdict": "Bullish",
-    "count": "21 of 27 alerts point higher, 5 lower",
-    "text": "21 of 27 alerts point higher, 5 lower.",
+    "count": "21 of 28 alerts point higher, 6 lower",
+    "text": "21 of 28 alerts point higher, 6 lower.",
     "hawkish": [
       {
-        "text": "LPG carrier sinks in Black Sea off Bulgaria, day after nearby drone-hit cargo ship capsized",
+        "text": "LPG carrier sinks in Black Sea off Bulgaria; drone strike reported, day after nearby cargo ship capsized",
         "confidence": "confirmed",
         "theme": "Tankers",
         "ts": "2026-11-17T17:20:02+08:00"
@@ -140,6 +140,12 @@
     ],
     "dovish": [
       {
+        "text": "Iraq resumes crude exports via Kirkuk-Ceyhan pipeline, 120,000 b/d initially",
+        "confidence": "confirmed",
+        "theme": "Iraq",
+        "ts": "2026-11-17T17:33:06+08:00"
+      },
+      {
         "text": "Japan proposes an 'Asian IEA' to jointly manage regional oil stockpiles (FT)",
         "confidence": "confirmed",
         "theme": "Strategic reserves",
@@ -185,16 +191,29 @@
   },
   "alerts": [
     {
+      "time": "17:33",
+      "ts": "2026-11-17T17:33:06+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iraq's oil minister says crude pumping for export has resumed via the Iraq-Turkey (Kirkuk-Ceyhan) pipeline, with initial capacity of 120,000 b/d",
+      "theme": "Iraq",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Iraq's oil minister via First Squawk (X)",
+      "url": "https://x.com/FirstSquawk/status/2122624056520511963"
+    },
+    {
       "time": "17:20",
       "ts": "2026-11-17T17:20:02+08:00",
       "eventTime": "Not stated (local OSINT says gas tanker Gas Husky sent an emergency beacon on the morning of 17 Nov)",
       "eventTs": null,
       "eventQual": "not stated",
-      "headline": "Bulgarian Defence Ministry says a Liberian-flagged LPG carrier sank in the Black Sea off Bulgaria, a day after cargo ship Betul 8 capsized nearby following a reported naval drone attack; cause not stated",
+      "headline": "Bulgarian Defence Ministry says a Liberian-flagged LPG carrier sank in the Black Sea off Bulgaria, a day after cargo ship Betul 8 capsized nearby; Bulgaria's bTV, citing Romania's Maritime Administration, reportedly says an LPG tanker was hit by a drone",
       "theme": "Tankers",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Bulgarian Defence Ministry via CGTN Europe and Open Source Intel (X)",
+      "source": "Bulgarian Defence Ministry via CGTN Europe and Open Source Intel; bTV via Coffe Report (X)",
       "url": "https://x.com/CGTNEurope/status/2122620768546607273"
     },
     {
@@ -690,22 +709,19 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping on X (launch footage widely shared; US strike unverified)",
       "url": "https://x.com/AMK_Mapping_/status/2122058088941519133"
-    },
-    {
-      "time": "03:45",
-      "ts": "2026-11-16T03:45:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says it intercepted 2 ballistic missiles aimed at Riyadh and 3 drones over the Eastern Province",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Mario Nawfal on X, citing Saudi-led coalition",
-      "url": "https://x.com/MarioNawfal/status/2122053270722216314"
     }
   ],
   "sources": [
+    {
+      "title": "Iraq's oil minister: crude export pumping resumes via Iraq-Turkey pipeline, 120,000 b/d initially (First Squawk)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122624056520511963"
+    },
+    {
+      "title": "Romania's Maritime Administration reportedly confirms drone strike on LPG tanker in Black Sea (bTV, via Coffe Report)",
+      "site": "X / CoffeReport",
+      "href": "https://x.com/CoffeReport/status/2122623546287407324"
+    },
     {
       "title": "Bulgarian Defence Ministry: Liberian-flagged LPG carrier sank off Bulgaria in Black Sea (CGTN Europe)",
       "site": "X / CGTNEurope",
@@ -2371,10 +2387,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon UKMTO reported a second strike on a vessel off Khasab, Bulgaria said an LPG carrier sank in the Black Sea, and Enbridge's North Dakota pipeline was reported shut."
+      "This afternoon UKMTO reported a second strike on a vessel off Khasab, an LPG carrier sank off Bulgaria, and Iraq restarted crude exports via the Kirkuk-Ceyhan pipeline."
     ],
-    "updated": "Tue 17 Nov 2026, 5:27 pm SGT",
-    "updatedTs": "2026-11-17T17:27:00+08:00"
+    "updated": "Tue 17 Nov 2026, 5:36 pm SGT",
+    "updatedTs": "2026-11-17T17:36:00+08:00"
   },
   "last24Count": 13
 }
