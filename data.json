@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 11:15 am SGT",
-  "lastScannedTs": "2026-11-17T11:15:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 11:55 am SGT",
+  "lastScannedTs": "2026-11-17T11:55:00+08:00",
   "asOf": "Tue 17 Nov 2026, 11:13 am SGT",
   "asOfTs": "2026-11-17T11:13:17+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
     "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "19 of 24 alerts point higher, 5 lower",
-    "text": "19 of 24 alerts point higher, 5 lower.",
+    "count": "18 of 23 alerts point higher, 5 lower",
+    "text": "18 of 23 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Reported intensified mine-laying on Hormuz's southern shipping route",
@@ -118,12 +118,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-16T12:27:18+08:00"
-      },
-      {
-        "text": "Hormuz crude flows reportedly halve to ~6.5M b/d 7-day average, per tracker",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-16T11:52:07+08:00"
       }
     ],
     "dovish": [
