@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 3:18 pm SGT",
-  "lastScannedTs": "2026-11-17T15:18:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 3:10 pm SGT",
-  "asOfTs": "2026-11-17T15:10:06+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 3:33 pm SGT",
+  "lastScannedTs": "2026-11-17T15:33:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 3:32 pm SGT",
+  "asOfTs": "2026-11-17T15:32:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran's drone strike on a US base in Bahrain, Hormuz tanker attacks, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks offset.",
-    "lead": "Net read (last 24 hours): Iran's drone strike on a US base in Bahrain, Hormuz tanker attacks, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks offset.",
+    "bottom": "Iran's Bahrain base strike, Hormuz tanker attacks and mines, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks and Asian stockpile plan offset.",
+    "lead": "Net read (last 24 hours): Iran's Bahrain base strike, Hormuz tanker attacks and mines, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks and Asian stockpile plan offset.",
     "verdict": "Bullish",
-    "count": "19 of 24 alerts point higher, 5 lower",
-    "text": "19 of 24 alerts point higher, 5 lower.",
+    "count": "19 of 25 alerts point higher, 6 lower",
+    "text": "19 of 25 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "IRGC claims drone strike on US radar at Bahrain's Sheikh Isa base, warns of more",
@@ -128,6 +128,12 @@
     ],
     "dovish": [
       {
+        "text": "Japan proposes an 'Asian IEA' to jointly manage regional oil stockpiles (FT)",
+        "confidence": "confirmed",
+        "theme": "Strategic reserves",
+        "ts": "2026-11-17T15:18:36+08:00"
+      },
+      {
         "text": "Iran and Oman look to revive diplomatic channels, resume negotiations",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -165,6 +171,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:18",
+      "ts": "2026-11-17T15:18:36+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Japan proposes an 'Asian IEA' to jointly manage oil stockpiles across Asia as Hormuz disruption persists, per the FT",
+      "theme": "Strategic reserves",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Financial Times (X)",
+      "url": "https://x.com/FT/status/2122590211678888039"
+    },
     {
       "time": "15:11",
       "ts": "2026-11-17T15:11:00+08:00",
@@ -671,35 +690,14 @@
       "confidence": "Confirmed",
       "source": "New York Times via First Squawk on X",
       "url": "https://x.com/FirstSquawk/status/2122017081424294069"
-    },
-    {
-      "time": "23:32",
-      "ts": "2026-11-15T23:32:00+08:00",
-      "eventTime": "11:28 pm, 15 Nov (est.)",
-      "eventTs": "2026-11-15T23:28:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions reported on Iran's Qeshm Island as air defences in Qeshm and Bandar Abbas fire SAMs, reportedly at US aircraft, beside the Strait of Hormuz",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X",
-      "url": "https://x.com/Osint613/status/2121989737007263957"
-    },
-    {
-      "time": "22:23",
-      "ts": "2026-11-15T22:23:18+08:00",
-      "eventTime": "10:20 pm, 15 Nov (est.)",
-      "eventTs": "2026-11-15T22:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Arabia intercepts Houthi drones over the Mecca and Medina regions; Houthi spokesman says their strikes target Saudi oil facilities and bases",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi authorities via First Squawk on X; Houthi reply translated from Arabic",
-      "url": "https://x.com/FirstSquawk/status/2121972313457672365"
     }
   ],
   "sources": [
+    {
+      "title": "Japan proposes 'Asian IEA' to manage oil stockpiles (Financial Times)",
+      "site": "X / FT",
+      "href": "https://x.com/FT/status/2122590211678888039"
+    },
     {
       "title": "IRGC says it targeted US radar at Sheikh Isa Air Base in Bahrain (Faytuks Network)",
       "site": "X / FaytuksNetwork",
@@ -2335,10 +2333,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon sirens sounded across Bahrain as the IRGC said its drones struck a US radar at Sheikh Isa Air Base, after Iran's speaker called ports near US bases 'dual-use'."
+      "This afternoon the IRGC said its drones hit a US radar at Bahrain's Sheikh Isa base, which Bahrain says it intercepted; Japan floated an 'Asian IEA' stockpile pact."
     ],
-    "updated": "Tue 17 Nov 2026, 3:11 pm SGT",
-    "updatedTs": "2026-11-17T15:11:00+08:00"
+    "updated": "Tue 17 Nov 2026, 3:33 pm SGT",
+    "updatedTs": "2026-11-17T15:33:00+08:00"
   },
   "last24Count": 13
 }
