@@ -5,8 +5,8 @@
   "asOfTs": "2026-11-17T19:11:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's peace initiative via Oman and Qatar mediation offset.",
-    "lead": "Net read (last 24 hours): IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's peace initiative via Oman and Qatar mediation offset.",
+    "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman peace initiative and Qatar mediation offset.",
+    "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman peace initiative and Qatar mediation offset.",
     "verdict": "Mixed, leaning bullish",
     "count": "21 of 30 alerts point higher, 8 lower",
     "text": "21 of 30 alerts point higher, 8 lower.",
