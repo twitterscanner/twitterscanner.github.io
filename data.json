@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 10:24 pm SGT",
-  "lastScannedTs": "2026-11-17T22:24:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 9:45 pm SGT",
-  "asOfTs": "2026-11-17T21:45:13+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 10:40 pm SGT",
+  "lastScannedTs": "2026-11-17T22:40:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 10:38 pm SGT",
+  "asOfTs": "2026-11-17T22:38:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "A reported US strike on Qeshm and claimed IRGC retaliation on US warships, plus Hormuz tanker attacks and a Houthi offensive, keep risks escalating.",
-    "lead": "Net read (last 24 hours): A reported US strike on Qeshm and claimed IRGC retaliation on US warships, plus Hormuz tanker attacks and a Houthi offensive, keep risks escalating.",
+    "bottom": "US strikes on Qeshm, claimed IRGC retaliation, reported Iranian missile launches and Hormuz tanker attacks keep geopolitical risks escalating.",
+    "lead": "Net read (last 24 hours): US strikes on Qeshm, claimed IRGC retaliation, reported Iranian missile launches and Hormuz tanker attacks keep geopolitical risks escalating.",
     "verdict": "Mixed, leaning bullish",
-    "count": "23 of 33 alerts point higher, 9 lower",
-    "text": "23 of 33 alerts point higher, 9 lower.",
+    "count": "24 of 34 alerts point higher, 9 lower",
+    "text": "24 of 34 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "Reports of Iranian ballistic missile launches from Khuzestan; target unknown, state media reportedly denies",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T22:31:05+08:00"
+      },
       {
         "text": "IRGC reportedly fires missiles and drones at US warships involved in the Qeshm Island strike",
         "confidence": "unconfirmed",
@@ -220,6 +226,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:31",
+      "ts": "2026-11-17T22:31:05+08:00",
+      "eventTime": "9:54 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T21:54:00+08:00",
+      "eventQual": "est.",
+      "headline": "Reports of Iranian ballistic missile launches from Omidiyeh and Ahvaz in Khuzestan; target unknown, and Iranian state media reportedly denies them",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (X), citing warsurvillance; several regional OSINT accounts",
+      "url": "https://x.com/CocoPostel/status/2122699047123193963"
+    },
     {
       "time": "21:45",
       "ts": "2026-11-17T21:45:13+08:00",
@@ -726,22 +745,14 @@
       "confidence": "Confirmed",
       "source": "Bloomberg, via OilandEnergy",
       "url": "https://x.com/OilandEnergy/status/2122258104813273503"
-    },
-    {
-      "time": "16:29",
-      "ts": "2026-11-16T16:29:00+08:00",
-      "eventTime": "8:00 am, 16 Nov (est.)",
-      "eventTs": "2026-11-16T08:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine's military says it struck Russia's Ilsky oil refinery in Krasnodar overnight, damaging AT-4 and AT-5 crude units; Kuban officials confirm a fire at an Ilsky enterprise",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk on X (Ukraine's military statement); first reported by big ben (Ukrainian channels; Kuban operational HQ via Vesti)",
-      "url": "https://x.com/FirstSquawk/status/2122299214495645708"
     }
   ],
   "sources": [
+    {
+      "title": "Reports of ballistic missile launches from Omidiyeh, Khuzestan (via warsurvillance)",
+      "site": "X / CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2122699047123193963"
+    },
     {
       "title": "IRGC reportedly strikes warships involved in Qeshm attack (regional media / Sabereen)",
       "site": "X / DeItaone",
@@ -2487,10 +2498,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker, a US strike on Qeshm was reported with claimed IRGC missile retaliation on US warships, and the Houthis announced an offensive."
+      "Later a second strike hit the Khasab tanker, US strikes on Qeshm were reported with claimed IRGC retaliation, missile launches from Khuzestan were reported, and the Houthis announced an offensive."
     ],
-    "updated": "Tue 17 Nov 2026, 9:45 pm SGT",
-    "updatedTs": "2026-11-17T21:45:13+08:00"
+    "updated": "Tue 17 Nov 2026, 10:40 pm SGT",
+    "updatedTs": "2026-11-17T22:40:00+08:00"
   },
   "last24Count": 13
 }
