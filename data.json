@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 2:01 pm SGT",
-  "lastScannedTs": "2026-11-17T14:01:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 1:32 pm SGT",
-  "asOfTs": "2026-11-17T13:32:51+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 3:03 pm SGT",
+  "lastScannedTs": "2026-11-17T15:03:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 3:02 pm SGT",
+  "asOfTs": "2026-11-17T15:02:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure, Salavat strike and Kerch Strait blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure, Salavat strike and Kerch Strait blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
+    "bottom": "Bahrain attack alert, Hormuz tanker strikes, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
+    "lead": "Net read (last 24 hours): Bahrain attack alert, Hormuz tanker strikes, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
     "verdict": "Bullish",
-    "count": "18 of 23 alerts point higher, 5 lower",
-    "text": "18 of 23 alerts point higher, 5 lower.",
+    "count": "19 of 24 alerts point higher, 5 lower",
+    "text": "19 of 24 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Bahrain sirens and shelter order amid new Iranian missile/drone threat; explosions heard",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T15:03:00+08:00"
+      },
       {
         "text": "Kerch Bridge span reportedly blocks Kerch Strait ship lane, hitting Azov shipping",
         "confidence": "unconfirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:03",
+      "ts": "2026-11-17T15:03:00+08:00",
+      "eventTime": "2:56 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T14:56:00+08:00",
+      "eventQual": "est.",
+      "headline": "Sirens sound across Bahrain as the Interior Ministry orders residents to shelter from a new Iranian missile/drone threat; explosions reported",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Arab News (X); also OSINTdefender, OSINTtechnical",
+      "url": "https://x.com/arabnews/status/2122585434391736550"
+    },
     {
       "time": "13:31",
       "ts": "2026-11-17T13:31:28+08:00",
@@ -665,22 +684,14 @@
       "confidence": "Confirmed",
       "source": "Saudi authorities via First Squawk on X; Houthi reply translated from Arabic",
       "url": "https://x.com/FirstSquawk/status/2121972313457672365"
-    },
-    {
-      "time": "21:10",
-      "ts": "2026-11-15T21:10:34+08:00",
-      "eventTime": "Sun 15 Nov morning Gulf time (~1:00 pm SGT, est.)",
-      "eventTs": "2026-11-15T13:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "UKMTO: tanker struck in the Gulf near Khasab, Oman, while heading east toward the Strait of Hormuz; crew safe, damage unknown",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO via Open Source Intel on X",
-      "url": "https://x.com/Osint613/status/2121954008193532363"
     }
   ],
   "sources": [
+    {
+      "title": "Sirens sound in Bahrain; Interior Ministry urges residents to nearest safe location (Arab News)",
+      "site": "X / arabnews",
+      "href": "https://x.com/arabnews/status/2122585434391736550"
+    },
     {
       "title": "Crimean Bridge road span destroyed, lying in Kerch Strait blocking ship lane (OSINTtechnical)",
       "site": "X / Osinttechnical",
@@ -2306,10 +2317,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "Iran's parliament speaker called ports near US bases 'dual-use' as Iran and Oman explored new talks, and the fallen Kerch Bridge span reportedly blocks the strait's ship lane."
+      "This afternoon sirens sounded across Bahrain amid a new Iranian missile or drone threat, after Iran's speaker called ports near US bases 'dual-use' and Kerch shipping was blocked."
     ],
-    "updated": "Tue 17 Nov 2026, 1:35 pm SGT",
-    "updatedTs": "2026-11-17T13:35:00+08:00"
+    "updated": "Tue 17 Nov 2026, 3:03 pm SGT",
+    "updatedTs": "2026-11-17T15:03:00+08:00"
   },
   "last24Count": 13
 }
