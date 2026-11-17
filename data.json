@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 7:12 pm SGT",
-  "lastScannedTs": "2026-11-17T19:12:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 7:11 pm SGT",
-  "asOfTs": "2026-11-17T19:11:43+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 7:30 pm SGT",
+  "lastScannedTs": "2026-11-17T19:30:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 7:30 pm SGT",
+  "asOfTs": "2026-11-17T19:30:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman peace initiative and Qatar mediation offset.",
     "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman peace initiative and Qatar mediation offset.",
     "verdict": "Mixed, leaning bullish",
-    "count": "21 of 30 alerts point higher, 8 lower",
-    "text": "21 of 30 alerts point higher, 8 lower.",
+    "count": "22 of 31 alerts point higher, 8 lower",
+    "text": "22 of 31 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims another US MQ-1C drone downed over Qeshm Island in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T19:27:42+08:00"
+      },
       {
         "text": "UKMTO: delayed report of tanker hit by projectile in Persian Gulf on 13 Nov",
         "confidence": "confirmed",
@@ -202,6 +208,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:27",
+      "ts": "2026-11-17T19:27:42+08:00",
+      "eventTime": "17 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC claims its air defences shot down another US MQ-1C drone over southern Qeshm Island in the Strait of Hormuz, its 18th of the type since the war began",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping (X), citing IRGC claim",
+      "url": "https://x.com/AMK_Mapping_/status/2122652896093413447"
+    },
     {
       "time": "19:08",
       "ts": "2026-11-17T19:08:28+08:00",
@@ -708,22 +727,14 @@
       "confidence": "Unconfirmed",
       "source": "Drop Site News on X (citing Hormuz Strait Tracker estimates)",
       "url": "https://x.com/DropSiteNews/status/2122175857695261078"
-    },
-    {
-      "time": "10:25",
-      "ts": "2026-11-16T10:25:24+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi media say Saudi Arabia struck Hodeidah airport in Yemen, a sign of renewed direct Saudi-Houthi escalation near the Red Sea",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X (citing Houthi media)",
-      "url": "https://x.com/Osint613/status/2122153210878079471"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC claims another US MQ-1C shot down over southern Qeshm Island (AMK Mapping)",
+      "site": "X / AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2122652896093413447"
+    },
     {
       "title": "Iran FM briefs Oman Sultan on initiative to end war (FinancialJuice)",
       "site": "X / financialjuice",
@@ -2424,10 +2435,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker, the IRGC claimed two mine hits and UKMTO disclosed a 13 Nov Gulf tanker attack, while Araghchi briefed Oman's Sultan on an initiative to end the war."
+      "Later a second strike hit the Khasab tanker, the IRGC claimed mine hits and another US drone downed near Qeshm, while Araghchi briefed Oman's Sultan on an initiative to end the war."
     ],
-    "updated": "Tue 17 Nov 2026, 7:12 pm SGT",
-    "updatedTs": "2026-11-17T19:12:00+08:00"
+    "updated": "Tue 17 Nov 2026, 7:30 pm SGT",
+    "updatedTs": "2026-11-17T19:30:00+08:00"
   },
   "last24Count": 13
 }
