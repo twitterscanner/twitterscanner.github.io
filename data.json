@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 4:07 am SGT",
-  "lastScannedTs": "2026-11-18T04:07:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 1:48 am SGT",
-  "asOfTs": "2026-11-18T01:48:29+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 5:03 am SGT",
+  "lastScannedTs": "2026-11-18T05:03:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 5:01 am SGT",
+  "asOfTs": "2026-11-18T05:01:39+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "New Houthi claims on the Saudi East-West pipeline, IRGC tanker-fire claims and US strikes on Qeshm keep Gulf geopolitics escalating.",
     "lead": "Net read (last 24 hours): New Houthi claims on the Saudi East-West pipeline, IRGC tanker-fire claims and US strikes on Qeshm keep Gulf geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 6 lower",
-    "text": "24 of 31 alerts point higher, 6 lower.",
+    "count": "25 of 32 alerts point higher, 6 lower",
+    "text": "25 of 32 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Fresh strike on a ship in the Strait of Hormuz reported minutes after anti-ship missile launches were seen…",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-18T05:01:39+08:00"
+      },
       {
         "text": "Houthis claim drone hits on East-West pipeline pumping stations 8 and 9 near Riyadh",
         "confidence": "unconfirmed",
@@ -208,6 +214,19 @@
     "detail": "Brent settled at $93.14/bbl on 17 Nov, per oil analyst post on X (posted 3:51 am SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:01",
+      "ts": "2026-11-18T05:01:39+08:00",
+      "eventTime": "4:59 am, 18 Nov (est.)",
+      "eventTs": "2026-11-18T04:59:00+08:00",
+      "eventQual": "est.",
+      "headline": "Fresh strike on a ship in the Strait of Hormuz reported minutes after anti-ship missile launches were seen from Iran's Hormozgan province; vessel said to be 'violating rules of passage'",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINT reports on X (via regional monitors)",
+      "url": "https://x.com/CocoPostel/status/2122796794874646785"
+    },
     {
       "time": "01:39",
       "ts": "2026-11-18T01:39:19+08:00",
@@ -2494,11 +2513,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Early on 18 Nov, the Houthis claimed drone strikes on Saudi East-West pipeline pumping stations 8 and 9 west of Riyadh, saying they caused fires (unconfirmed).",
-      "Late on 17 Nov, Iran acknowledged US strikes on Qeshm Island and the IRGC claimed a fourth tanker caught fire east of Hormuz, keeping Gulf tensions escalating."
+      "Around 5 am SGT on 18 Nov, OSINT accounts reported a fresh strike on a ship in Hormuz minutes after anti-ship missile launches from Iran's Hormozgan province (unconfirmed).",
+      "Earlier, the Houthis claimed drone hits on Saudi East-West pipeline pumping stations 8 and 9, and the US confirmed strikes on an IRGC missile site on Qeshm."
     ],
-    "updated": "Wed 18 Nov 2026, 1:49 am SGT",
-    "updatedTs": "2026-11-18T01:49:00+08:00"
+    "updated": "Wed 18 Nov 2026, 5:03 am SGT",
+    "updatedTs": "2026-11-18T05:03:00+08:00"
   },
   "last24Count": 13
 }
