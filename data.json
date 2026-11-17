@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 10:40 pm SGT",
-  "lastScannedTs": "2026-11-17T22:40:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 10:38 pm SGT",
-  "asOfTs": "2026-11-17T22:38:08+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 11:06 pm SGT",
+  "lastScannedTs": "2026-11-17T23:06:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 11:06 pm SGT",
+  "asOfTs": "2026-11-17T23:06:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "US strikes on Qeshm, claimed IRGC retaliation, reported Iranian missile launches and Hormuz tanker attacks keep geopolitical risks escalating.",
-    "lead": "Net read (last 24 hours): US strikes on Qeshm, claimed IRGC retaliation, reported Iranian missile launches and Hormuz tanker attacks keep geopolitical risks escalating.",
+    "bottom": "New IRGC tanker-fire claims, US strikes on Qeshm, claimed IRGC retaliation and reported missile launches keep Gulf geopolitics escalating.",
+    "lead": "Net read (last 24 hours): New IRGC tanker-fire claims, US strikes on Qeshm, claimed IRGC retaliation and reported missile launches keep Gulf geopolitics escalating.",
     "verdict": "Mixed, leaning bullish",
-    "count": "24 of 34 alerts point higher, 9 lower",
-    "text": "24 of 34 alerts point higher, 9 lower.",
+    "count": "25 of 35 alerts point higher, 9 lower",
+    "text": "25 of 35 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "IRGC Navy claims a fourth 'offending' tanker on fire east of Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T23:04:09+08:00"
+      },
       {
         "text": "Reports of Iranian ballistic missile launches from Khuzestan; target unknown, state media reportedly denies",
         "confidence": "unconfirmed",
@@ -222,10 +228,23 @@
     ]
   },
   "brent": {
-    "value": "$92.44",
-    "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
+    "value": "$93.71",
+    "detail": "Brent futures up $1.27 (+1.4%) at $93.71/bbl on 17 Nov, per Reuters report quoted on X (posted 10:54 pm SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:04",
+      "ts": "2026-11-17T23:04:09+08:00",
+      "eventTime": "Not stated (Fars says 'in the past hours' before 11:04 pm SGT, 17 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy claims a fourth 'offending' tanker has caught fire east of the Strait of Hormuz in the past few hours (Fars)",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "FinancialJuice (X), citing Fars News / IRGC Navy; widely relayed",
+      "url": "https://x.com/financialjuice/status/2122707371277369759"
+    },
     {
       "time": "22:31",
       "ts": "2026-11-17T22:31:05+08:00",
@@ -732,22 +751,14 @@
       "confidence": "Unconfirmed",
       "source": "IRGC Navy statement, via CGTN Europe and ME Brief News",
       "url": "https://x.com/CGTNEurope/status/2122262520484270128"
-    },
-    {
-      "time": "17:21",
-      "ts": "2026-11-16T17:21:00+08:00",
-      "eventTime": "11:45 am, 16 Nov (est.)",
-      "eventTs": "2026-11-16T11:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "Goldman Sachs (per Bloomberg) sees a 'sizeable' 2 million b/d oil surplus in 2027 even after assuming disruptions; Brent forecast to average $88 next year and slide to $78 by end-2027, citing weaker China demand",
-      "theme": "Market outlook",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Bloomberg, via OilandEnergy",
-      "url": "https://x.com/OilandEnergy/status/2122258104813273503"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC Navy: fourth 'offending' tanker caught fire east of Strait of Hormuz (Fars News)",
+      "site": "X / financialjuice",
+      "href": "https://x.com/financialjuice/status/2122707371277369759"
+    },
     {
       "title": "Reports of ballistic missile launches from Omidiyeh, Khuzestan (via warsurvillance)",
       "site": "X / CocoPostel",
@@ -2498,10 +2509,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker, US strikes on Qeshm were reported with claimed IRGC retaliation, missile launches from Khuzestan were reported, and the Houthis announced an offensive."
+      "Later the Khasab tanker was struck again, US strikes on Qeshm drew claimed IRGC retaliation, Khuzestan missile launches were reported, and the IRGC claimed another tanker fire."
     ],
-    "updated": "Tue 17 Nov 2026, 10:40 pm SGT",
-    "updatedTs": "2026-11-17T22:40:00+08:00"
+    "updated": "Tue 17 Nov 2026, 11:06 pm SGT",
+    "updatedTs": "2026-11-17T23:06:00+08:00"
   },
   "last24Count": 13
 }
