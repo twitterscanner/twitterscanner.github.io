@@ -1,22 +1,16 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 4:44 pm SGT",
-  "lastScannedTs": "2026-11-17T16:44:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 4:55 pm SGT",
+  "lastScannedTs": "2026-11-17T16:55:00+08:00",
   "asOf": "Tue 17 Nov 2026, 4:41 pm SGT",
   "asOfTs": "2026-11-17T16:41:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Ahvaz blasts, Bahrain base strike, Hormuz tanker attacks and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
-    "lead": "Net read (last 24 hours): Ahvaz blasts, Bahrain base strike, Hormuz tanker attacks and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
-    "verdict": "Bullish",
-    "count": "19 of 25 alerts point higher, 6 lower",
-    "text": "19 of 25 alerts point higher, 6 lower.",
+    "bottom": "Bahrain base strike, Hormuz tanker attacks and mines, and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "lead": "Net read (last 24 hours): Bahrain base strike, Hormuz tanker attacks and mines, and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "18 of 25 alerts point higher, 6 lower",
+    "text": "18 of 25 alerts point higher, 6 lower.",
     "hawkish": [
-      {
-        "text": "Loud explosions reported across Ahvaz, Iran's Khuzestan oil hub; cause unknown",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T16:35:55+08:00"
-      },
       {
         "text": "IRGC claims drone strike on US radar at Bahrain's Sheikh Isa base, warns of more",
         "confidence": "confirmed",
@@ -164,7 +158,14 @@
         "ts": "2026-11-16T17:21:00+08:00"
       }
     ],
-    "neutral": []
+    "neutral": [
+      {
+        "text": "Ahvaz blasts were controlled munitions disposal, Khuzestan official says",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T16:35:55+08:00"
+      }
+    ]
   },
   "brent": {
     "value": "$92.44",
@@ -177,11 +178,11 @@
       "eventTime": "4:34 pm, 17 Nov (est.)",
       "eventTs": "2026-11-17T16:34:00+08:00",
       "eventQual": "est.",
-      "headline": "Multiple loud explosions reported across Ahvaz, the hub of Iran's Khuzestan oil region; cause not yet known",
+      "headline": "Explosions heard across Ahvaz, Iran's Khuzestan oil hub; Khuzestan deputy governor says they were a controlled munitions-destruction operation (Tasnim)",
       "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping + local Ahvaz residents (X)",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "AMK Mapping; Tasnim via Hexagone Intel (X)",
       "url": "https://x.com/AMK_Mapping_/status/2122609667172098246"
     },
     {
@@ -693,6 +694,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Tasnim: Ahvaz explosion sounds were a controlled ammunition destruction operation (Hexagone Intel)",
+      "site": "X / osinthexagone",
+      "href": "https://x.com/osinthexagone/status/2122613745323294811"
+    },
     {
       "title": "Unconfirmed reports of explosions in Ahvaz, Iran (AMK Mapping)",
       "site": "X / AMK Mapping",
@@ -2338,10 +2344,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base, Japan floated an 'Asian IEA' stockpile pact, and unexplained explosions were reported in Ahvaz."
+      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base and Japan floated an 'Asian IEA' stockpile pact; Ahvaz blasts were officially called controlled munitions disposal."
     ],
-    "updated": "Tue 17 Nov 2026, 4:44 pm SGT",
-    "updatedTs": "2026-11-17T16:44:00+08:00"
+    "updated": "Tue 17 Nov 2026, 4:55 pm SGT",
+    "updatedTs": "2026-11-17T16:55:00+08:00"
   },
   "last24Count": 13
 }
