@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 7:04 am SGT",
-  "lastScannedTs": "2026-11-17T07:04:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 6:02 am SGT",
-  "asOfTs": "2026-11-17T06:02:23+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 8:05 am SGT",
+  "lastScannedTs": "2026-11-17T08:05:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 8:02 am SGT",
+  "asOfTs": "2026-11-17T08:02:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New UKMTO tanker attack off Khasab, Iran's mine and Sirik claims and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
-    "lead": "Net read (last 24 hours): New UKMTO tanker attack off Khasab, Iran's mine and Sirik claims and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "bottom": "Hormuz tanker attacks and mine claims, CNN report of Iranian plots in Washington and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks and mine claims, CNN report of Iranian plots in Washington and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "18 of 23 alerts point higher, 5 lower",
-    "text": "18 of 23 alerts point higher, 5 lower.",
+    "count": "19 of 24 alerts point higher, 5 lower",
+    "text": "19 of 24 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "CNN: US intel says Iran plotting dirty bomb or chemical attack on officials in DC",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T08:02:26+08:00"
+      },
       {
         "text": "UKMTO: tanker attacked off Khasab in Hormuz, disabled with engine-room fire",
         "confidence": "confirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "08:02",
+      "ts": "2026-11-17T08:02:26+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "CNN, citing seven US officials: US intelligence indicates Iran is drawing up plans to target Trump officials in Washington, possibly with a dirty bomb or chemical attack; no attack seen as imminent",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk (X), citing CNN; also LiveSquawk, Open Source Intel",
+      "url": "https://x.com/FirstSquawk/status/2122467397429022950"
+    },
     {
       "time": "06:02",
       "ts": "2026-11-17T06:02:23+08:00",
@@ -665,22 +684,14 @@
       "confidence": "Confirmed",
       "source": "Reuters via First Squawk on X",
       "url": "https://x.com/FirstSquawk/status/2121897213714653459"
-    },
-    {
-      "time": "15:33",
-      "ts": "2026-11-15T15:33:45+08:00",
-      "eventTime": "Overnight 14-15 Nov Moscow time",
-      "eventTs": "2026-11-15T07:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones spark large fire at Sibur's Nizhnekamskneftekhim petrochemical complex in Tatarstan, near the TANECO refinery; mayor reports damage and injuries",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Militarnyi via Velit.es on X; local reports",
-      "url": "https://x.com/velitesgear/status/2121869246225326092"
     }
   ],
   "sources": [
+    {
+      "title": "CNN: US intelligence indicates Iran plans attack on officials in Washington (First Squawk)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122467397429022950"
+    },
     {
       "title": "UKMTO: tanker attacked off Khasab, Oman, in Strait of Hormuz (Al Jazeera English)",
       "site": "X / AJEnglish",
@@ -2276,10 +2287,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker attacked and disabled off Khasab in Hormuz, while Iran's navy claimed a fourth tanker hit a mine and explosions were reported at Sirik.",
-      "Trump reportedly told advisers he won't escalate against Iran unless provoked, Kushner flagged progress toward new Ukraine talks, and Exxon started its 250,000 b/d Uaru project in Guyana."
+      "CNN reported US intelligence of Iranian plans to target officials in Washington, even as Trump reportedly told advisers he won't escalate against Iran unless provoked."
     ],
-    "updated": "Tue 17 Nov 2026, 6:05 am SGT",
-    "updatedTs": "2026-11-17T06:05:00+08:00"
+    "updated": "Tue 17 Nov 2026, 8:05 am SGT",
+    "updatedTs": "2026-11-17T08:05:00+08:00"
   },
   "last24Count": 13
 }
