@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 12:06 am SGT",
-  "lastScannedTs": "2026-11-18T00:06:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 12:20 am SGT",
+  "lastScannedTs": "2026-11-18T00:20:00+08:00",
   "asOf": "Tue 17 Nov 2026, 11:36 pm SGT",
   "asOfTs": "2026-11-17T23:36:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "IRGC tanker-fire claims, US strikes on Qeshm, reported Iranian missile launches and a Houthi drone at Riyadh keep Gulf geopolitics escalating.",
     "lead": "Net read (last 24 hours): IRGC tanker-fire claims, US strikes on Qeshm, reported Iranian missile launches and a Houthi drone at Riyadh keep Gulf geopolitics escalating.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 36 alerts point higher, 9 lower",
-    "text": "26 of 36 alerts point higher, 9 lower.",
+    "count": "25 of 35 alerts point higher, 9 lower",
+    "text": "25 of 35 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "Saudi-led coalition intercepts a Houthi drone aimed at the Riyadh region",
@@ -160,12 +160,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-17T01:50:00+08:00"
-      },
-      {
-        "text": "IRGC claims it shot down another US MQ-1C drone over Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T00:14:00+08:00"
       }
     ],
     "dovish": [
