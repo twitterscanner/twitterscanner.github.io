@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 11:06 pm SGT",
-  "lastScannedTs": "2026-11-17T23:06:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 11:06 pm SGT",
-  "asOfTs": "2026-11-17T23:06:38+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 11:38 pm SGT",
+  "lastScannedTs": "2026-11-17T23:38:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 11:36 pm SGT",
+  "asOfTs": "2026-11-17T23:36:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New IRGC tanker-fire claims, US strikes on Qeshm, claimed IRGC retaliation and reported missile launches keep Gulf geopolitics escalating.",
-    "lead": "Net read (last 24 hours): New IRGC tanker-fire claims, US strikes on Qeshm, claimed IRGC retaliation and reported missile launches keep Gulf geopolitics escalating.",
+    "bottom": "IRGC tanker-fire claims, US strikes on Qeshm, reported Iranian missile launches and a Houthi drone at Riyadh keep Gulf geopolitics escalating.",
+    "lead": "Net read (last 24 hours): IRGC tanker-fire claims, US strikes on Qeshm, reported Iranian missile launches and a Houthi drone at Riyadh keep Gulf geopolitics escalating.",
     "verdict": "Mixed, leaning bullish",
-    "count": "25 of 35 alerts point higher, 9 lower",
-    "text": "25 of 35 alerts point higher, 9 lower.",
+    "count": "26 of 36 alerts point higher, 9 lower",
+    "text": "26 of 36 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "Saudi-led coalition intercepts a Houthi drone aimed at the Riyadh region",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-17T23:32:41+08:00"
+      },
       {
         "text": "IRGC Navy claims a fourth 'offending' tanker on fire east of Hormuz",
         "confidence": "unconfirmed",
@@ -232,6 +238,19 @@
     "detail": "Brent futures up $1.27 (+1.4%) at $93.71/bbl on 17 Nov, per Reuters report quoted on X (posted 10:54 pm SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:32",
+      "ts": "2026-11-17T23:32:41+08:00",
+      "eventTime": "11:25 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T23:25:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says it intercepted and destroyed a Houthi drone launched toward the Riyadh region",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Gazette, CGTN Europe (quoting the Saudi-led coalition)",
+      "url": "https://x.com/Saudi_Gazette/status/2122714550730461264"
+    },
     {
       "time": "23:04",
       "ts": "2026-11-17T23:04:09+08:00",
@@ -738,19 +757,6 @@
       "confidence": "Confirmed",
       "source": "CGTN Europe, FinancialJuice and others (quoting French FM Barrot)",
       "url": "https://x.com/CGTNEurope/status/2122265394635563190"
-    },
-    {
-      "time": "17:39",
-      "ts": "2026-11-16T17:39:00+08:00",
-      "eventTime": "1:00 pm, 16 Nov (est.)",
-      "eventTs": "2026-11-16T13:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says it downed a US MQM-170 drone over Qeshm Island near Hormuz this morning by electronic takeover, landing it intact; no US confirmation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy statement, via CGTN Europe and ME Brief News",
-      "url": "https://x.com/CGTNEurope/status/2122262520484270128"
     }
   ],
   "sources": [
@@ -2503,16 +2509,21 @@
       "title": "First Squawk: Ukraine says it hit 2 oil depots in Azov, Russia",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2122282756768223641"
+    },
+    {
+      "title": "Saudi-led coalition: Houthi drone toward Riyadh intercepted (Saudi Gazette)",
+      "site": "x.com",
+      "href": "https://x.com/Saudi_Gazette/status/2122714550730461264"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later the Khasab tanker was struck again, US strikes on Qeshm drew claimed IRGC retaliation, Khuzestan missile launches were reported, and the IRGC claimed another tanker fire."
+      "Later the Khasab tanker was struck again, US strikes on Qeshm drew claimed IRGC retaliation, the IRGC claimed another tanker fire, and Saudi Arabia intercepted a Houthi drone aimed at Riyadh."
     ],
-    "updated": "Tue 17 Nov 2026, 11:06 pm SGT",
-    "updatedTs": "2026-11-17T23:06:00+08:00"
+    "updated": "Tue 17 Nov 2026, 11:38 pm SGT",
+    "updatedTs": "2026-11-17T23:38:00+08:00"
   },
   "last24Count": 13
 }
