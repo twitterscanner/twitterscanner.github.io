@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 7:10 pm SGT",
-  "lastScannedTs": "2026-11-17T19:10:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 7:09 pm SGT",
-  "asOfTs": "2026-11-17T19:09:29+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 7:12 pm SGT",
+  "lastScannedTs": "2026-11-17T19:12:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 7:11 pm SGT",
+  "asOfTs": "2026-11-17T19:11:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Qatar mediation and Iraq-Turkey restart offset.",
-    "lead": "Net read (last 24 hours): IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Qatar mediation and Iraq-Turkey restart offset.",
+    "bottom": "IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's peace initiative via Oman and Qatar mediation offset.",
+    "lead": "Net read (last 24 hours): IRGC mine claims, repeat Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's peace initiative via Oman and Qatar mediation offset.",
     "verdict": "Mixed, leaning bullish",
-    "count": "21 of 29 alerts point higher, 7 lower",
-    "text": "21 of 29 alerts point higher, 7 lower.",
+    "count": "21 of 30 alerts point higher, 8 lower",
+    "text": "21 of 30 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "UKMTO: delayed report of tanker hit by projectile in Persian Gulf on 13 Nov",
@@ -140,6 +140,12 @@
     ],
     "dovish": [
       {
+        "text": "Araghchi briefs Oman's Sultan on Iranian initiative to end the war",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-17T19:08:28+08:00"
+      },
+      {
         "text": "Qatar says US-Iran mediation still ongoing; meeting with Iran set for today",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -196,6 +202,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:08",
+      "ts": "2026-11-17T19:08:28+08:00",
+      "eventTime": "17 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's FM Araghchi held talks with Oman's Sultan and briefed him on an Iranian initiative to end the war; says Iran has always been serious about diplomacy",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "FinancialJuice (X)",
+      "url": "https://x.com/financialjuice/status/2122648059121443012"
+    },
     {
       "time": "19:08",
       "ts": "2026-11-17T19:08:12+08:00",
@@ -702,22 +721,14 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel on X (citing Houthi media)",
       "url": "https://x.com/Osint613/status/2122153210878079471"
-    },
-    {
-      "time": "10:25",
-      "ts": "2026-11-16T10:25:24+08:00",
-      "eventTime": "9:50 am, 16 Nov (est.)",
-      "eventTs": "2026-11-16T09:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Oil depot ablaze in Azov, Rostov region, after Ukrainian drone attack; Ukraine says it hit 2 oil depots there",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "AMK Mapping on X (Azov under drone attack, fire); Ukraine says it hit 2 oil depots in Azov (per First Squawk)",
-      "url": "https://x.com/AMK_Mapping_/status/2122147370922344780"
     }
   ],
   "sources": [
+    {
+      "title": "Iran FM briefs Oman Sultan on initiative to end war (FinancialJuice)",
+      "site": "X / financialjuice",
+      "href": "https://x.com/financialjuice/status/2122648059121443012"
+    },
     {
       "title": "UKMTO: tanker struck by projectile on 13 Nov, time-delayed report (FinancialJuice)",
       "site": "X / financialjuice",
@@ -2413,10 +2424,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker, the IRGC claimed two mine hits, UKMTO disclosed a 13 Nov Gulf tanker attack, while Qatar mediation continued and Kirkuk-Ceyhan exports restarted."
+      "Later a second strike hit the Khasab tanker, the IRGC claimed two mine hits and UKMTO disclosed a 13 Nov Gulf tanker attack, while Araghchi briefed Oman's Sultan on an initiative to end the war."
     ],
-    "updated": "Tue 17 Nov 2026, 7:10 pm SGT",
-    "updatedTs": "2026-11-17T19:10:00+08:00"
+    "updated": "Tue 17 Nov 2026, 7:12 pm SGT",
+    "updatedTs": "2026-11-17T19:12:00+08:00"
   },
   "last24Count": 13
 }
