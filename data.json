@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 5:06 pm SGT",
-  "lastScannedTs": "2026-11-17T17:06:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 5:04 pm SGT",
-  "asOfTs": "2026-11-17T17:04:41+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:16 pm SGT",
+  "lastScannedTs": "2026-11-17T17:16:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 5:13 pm SGT",
+  "asOfTs": "2026-11-17T17:13:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Bahrain base strike, Hormuz tanker attacks, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
-    "lead": "Net read (last 24 hours): Bahrain base strike, Hormuz tanker attacks, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
     "verdict": "Bullish",
-    "count": "19 of 26 alerts point higher, 6 lower",
-    "text": "19 of 26 alerts point higher, 6 lower.",
+    "count": "20 of 27 alerts point higher, 6 lower",
+    "text": "20 of 27 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: vessel 7 nm north of Khasab in Hormuz hit by a second strike",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-17T17:12:59+08:00"
+      },
       {
         "text": "Enbridge's 475,000 b/d North Dakota Pipeline shut since 14 Nov on crude contamination",
         "confidence": "confirmed",
@@ -178,6 +184,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:12",
+      "ts": "2026-11-17T17:12:59+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO: a vessel 7 nm north of Khasab, Oman, where a tanker was disabled on 16 Nov, has been hit by a second strike",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO via FinancialJuice (X)",
+      "url": "https://x.com/financialjuice/status/2122618995065119220"
+    },
     {
       "time": "17:00",
       "ts": "2026-11-17T17:00:56+08:00",
@@ -684,22 +703,14 @@
       "confidence": "Confirmed",
       "source": "Volodymyr Zelensky (President of Ukraine) on X",
       "url": "https://x.com/ZelenskyyUa/status/2122052133994254594"
-    },
-    {
-      "time": "02:35",
-      "ts": "2026-11-16T02:35:12+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim two drones hit oil pumping stations No. 5 and No. 6 on Saudi Arabia's East-West pipeline in the Riyadh region",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi spokesman Yahya Saree on X, translated from Arabic",
-      "url": "https://x.com/Yah_Saree/status/2122035706222776423"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO: vessel 7 nm north of Khasab hit by second strike (FinancialJuice)",
+      "site": "X / financialjuice",
+      "href": "https://x.com/financialjuice/status/2122618995065119220"
+    },
     {
       "title": "Enbridge's 475,000 b/d North Dakota Pipeline shut since 14 Nov on chloride contamination (Giovanni Staunovo)",
       "site": "X / staunovo",
@@ -2355,10 +2366,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base, Japan floated an 'Asian IEA' stockpile pact, and Enbridge's 475,000 b/d North Dakota pipeline was reported shut."
+      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base, UKMTO reported a second strike on a vessel off Khasab, and Enbridge's North Dakota pipeline was reported shut."
     ],
-    "updated": "Tue 17 Nov 2026, 5:06 pm SGT",
-    "updatedTs": "2026-11-17T17:06:00+08:00"
+    "updated": "Tue 17 Nov 2026, 5:16 pm SGT",
+    "updatedTs": "2026-11-17T17:16:00+08:00"
   },
   "last24Count": 13
 }
