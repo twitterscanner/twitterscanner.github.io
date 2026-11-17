@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 4:02 pm SGT",
-  "lastScannedTs": "2026-11-17T16:02:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 3:32 pm SGT",
-  "asOfTs": "2026-11-17T15:32:14+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 4:44 pm SGT",
+  "lastScannedTs": "2026-11-17T16:44:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 4:41 pm SGT",
+  "asOfTs": "2026-11-17T16:41:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran's Bahrain base strike, Hormuz tanker attacks and mines, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks and Asian stockpile plan offset.",
-    "lead": "Net read (last 24 hours): Iran's Bahrain base strike, Hormuz tanker attacks and mines, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks and Asian stockpile plan offset.",
+    "bottom": "Ahvaz blasts, Bahrain base strike, Hormuz tanker attacks and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "lead": "Net read (last 24 hours): Ahvaz blasts, Bahrain base strike, Hormuz tanker attacks and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
     "verdict": "Bullish",
     "count": "19 of 25 alerts point higher, 6 lower",
     "text": "19 of 25 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Loud explosions reported across Ahvaz, Iran's Khuzestan oil hub; cause unknown",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T16:35:55+08:00"
+      },
       {
         "text": "IRGC claims drone strike on US radar at Bahrain's Sheikh Isa base, warns of more",
         "confidence": "confirmed",
@@ -118,12 +124,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-16T17:39:00+08:00"
-      },
-      {
-        "text": "Ukraine's military says it hit Russia's Ilsky refinery in Krasnodar, crude units damaged",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-16T16:29:00+08:00"
       }
     ],
     "dovish": [
@@ -171,6 +171,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:35",
+      "ts": "2026-11-17T16:35:55+08:00",
+      "eventTime": "4:34 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T16:34:00+08:00",
+      "eventQual": "est.",
+      "headline": "Multiple loud explosions reported across Ahvaz, the hub of Iran's Khuzestan oil region; cause not yet known",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping + local Ahvaz residents (X)",
+      "url": "https://x.com/AMK_Mapping_/status/2122609667172098246"
+    },
     {
       "time": "15:18",
       "ts": "2026-11-17T15:18:36+08:00",
@@ -677,22 +690,14 @@
       "confidence": "Unconfirmed",
       "source": "Houthi spokesman Yahya Saree on X, translated from Arabic",
       "url": "https://x.com/Yah_Saree/status/2122025225902797088"
-    },
-    {
-      "time": "01:21",
-      "ts": "2026-11-16T01:21:12+08:00",
-      "eventTime": "Arrival expected Mon 16 Nov (not yet happened)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "NYT: USS Theodore Roosevelt to join two other US carriers in the Middle East by Mon 16 Nov, three carriers in CENTCOM at once for first time since 2003",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "New York Times via First Squawk on X",
-      "url": "https://x.com/FirstSquawk/status/2122017081424294069"
     }
   ],
   "sources": [
+    {
+      "title": "Unconfirmed reports of explosions in Ahvaz, Iran (AMK Mapping)",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2122609667172098246"
+    },
     {
       "title": "Japan proposes 'Asian IEA' to manage oil stockpiles (Financial Times)",
       "site": "X / FT",
@@ -2333,10 +2338,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon the IRGC said its drones hit a US radar at Bahrain's Sheikh Isa base, which Bahrain says it intercepted; Japan floated an 'Asian IEA' stockpile pact."
+      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base, Japan floated an 'Asian IEA' stockpile pact, and unexplained explosions were reported in Ahvaz."
     ],
-    "updated": "Tue 17 Nov 2026, 3:33 pm SGT",
-    "updatedTs": "2026-11-17T15:33:00+08:00"
+    "updated": "Tue 17 Nov 2026, 4:44 pm SGT",
+    "updatedTs": "2026-11-17T16:44:00+08:00"
   },
   "last24Count": 13
 }
