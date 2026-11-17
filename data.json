@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 8:00 pm SGT",
-  "lastScannedTs": "2026-11-17T20:00:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 7:50 pm SGT",
-  "asOfTs": "2026-11-17T19:50:30+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 8:47 pm SGT",
+  "lastScannedTs": "2026-11-17T20:47:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 8:46 pm SGT",
+  "asOfTs": "2026-11-17T20:46:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
     "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
     "verdict": "Mixed, leaning bullish",
-    "count": "22 of 32 alerts point higher, 9 lower",
-    "text": "22 of 32 alerts point higher, 9 lower.",
+    "count": "23 of 33 alerts point higher, 9 lower",
+    "text": "23 of 33 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "Iran's Army claims it downed a US LUCAS attack drone over Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T20:45:00+08:00"
+      },
       {
         "text": "IRGC claims another US MQ-1C drone downed over Qeshm Island in Hormuz",
         "confidence": "unconfirmed",
@@ -214,6 +220,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:45",
+      "ts": "2026-11-17T20:45:00+08:00",
+      "eventTime": "7:45 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T19:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's Army says its air defences shot down a US 'LUCAS' one-way attack drone over the Strait of Hormuz, separate from the IRGC's MQ-1C claim",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Al Jazeera Breaking (X, Arabic), citing ISNA / Iranian Army",
+      "url": "https://x.com/AJABreaking/status/2122672549012119831"
+    },
     {
       "time": "19:49",
       "ts": "2026-11-17T19:49:28+08:00",
@@ -720,22 +739,14 @@
       "confidence": "Confirmed",
       "source": "Iran Press (Iranian state media)",
       "url": "https://x.com/IranPress_eng/status/2122194811432190122"
-    },
-    {
-      "time": "12:27",
-      "ts": "2026-11-16T12:27:18+08:00",
-      "eventTime": "Since Sat 14 Nov, times not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy says six oil tankers have struck mines in the Strait of Hormuz since Saturday, with fires, sinkings and oil pollution spreading along the strait's coasts",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iran International (Persian) on X, citing IRGC Navy statement",
-      "url": "https://x.com/IranIntlbrk/status/2122184711581872144"
     }
   ],
   "sources": [
+    {
+      "title": "Iranian Army: US LUCAS drone downed over Strait of Hormuz (ISNA)",
+      "site": "X / AJABreaking",
+      "href": "https://x.com/AJABreaking/status/2122672549012119831"
+    },
     {
       "title": "Hungary receives extension to import Russian oil without US sanctions risk (First Squawk)",
       "site": "X / FirstSquawk",
@@ -2451,10 +2462,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker and the IRGC claimed mine hits and a US drone downed, while Araghchi pitched Oman an initiative to end the war and Hungary won a Russian-oil sanctions waiver."
+      "Later a second strike hit the Khasab tanker, the IRGC and Iran's Army claimed US drones downed over Hormuz, and Araghchi pitched Oman an initiative to end the war."
     ],
-    "updated": "Tue 17 Nov 2026, 7:50 pm SGT",
-    "updatedTs": "2026-11-17T19:50:00+08:00"
+    "updated": "Tue 17 Nov 2026, 8:47 pm SGT",
+    "updatedTs": "2026-11-17T20:47:00+08:00"
   },
   "last24Count": 13
 }
