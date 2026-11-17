@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 10:28 am SGT",
-  "lastScannedTs": "2026-11-17T10:28:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 8:02 am SGT",
-  "asOfTs": "2026-11-17T08:02:26+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 11:05 am SGT",
+  "lastScannedTs": "2026-11-17T11:05:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 11:03 am SGT",
+  "asOfTs": "2026-11-17T11:03:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks and mine claims, CNN report of Iranian plots in Washington and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks and mine claims, CNN report of Iranian plots in Washington and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "bottom": "Hormuz tanker attacks and mine claims, Iranian plots in Washington, Houthi gains and a reported Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks and mine claims, Iranian plots in Washington, Houthi gains and a reported Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 5 lower",
-    "text": "17 of 22 alerts point higher, 5 lower.",
+    "count": "18 of 23 alerts point higher, 5 lower",
+    "text": "18 of 23 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drones reportedly hit Salavat refinery in Bashkortostan, large fire",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-17T11:00:03+08:00"
+      },
       {
         "text": "CNN: US intel says Iran plotting dirty bomb or chemical attack on officials in DC",
         "confidence": "confirmed",
@@ -153,6 +159,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:00",
+      "ts": "2026-11-17T11:00:03+08:00",
+      "eventTime": "11:00 am, 17 Nov (est.)",
+      "eventTs": "2026-11-17T11:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian long-range drones reportedly attacking Gazprom Neftekhim Salavat refining and petrochemical complex in Bashkortostan, Russia; large fire reported at a production unit",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping (X); also NOT Woofers (fire seen, cause unclear)",
+      "url": "https://x.com/AMK_Mapping_/status/2122525144300376369"
+    },
     {
       "time": "08:02",
       "ts": "2026-11-17T08:02:26+08:00",
@@ -659,22 +678,14 @@
       "confidence": "Confirmed",
       "source": "Kaja Kallas via Visioner on X",
       "url": "https://x.com/visionergeo/status/2121902146153017502"
-    },
-    {
-      "time": "17:24",
-      "ts": "2026-11-15T17:24:53+08:00",
-      "eventTime": "Announced Sun 15 Nov, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-backed Yemeni forces withdraw from Bab el-Mandeb area and Dhubab, leaving Houthis controlling ground overlooking the strait (Reuters)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Reuters via First Squawk on X",
-      "url": "https://x.com/FirstSquawk/status/2121897213714653459"
     }
   ],
   "sources": [
+    {
+      "title": "Ukrainian drones reportedly attacking Gazprom Neftekhim Salavat refinery, large fire (AMK Mapping)",
+      "site": "X / AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2122525144300376369"
+    },
     {
       "title": "CNN: US intelligence indicates Iran plans attack on officials in Washington (First Squawk)",
       "site": "X / FirstSquawk",
@@ -2275,10 +2286,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker attacked and disabled off Khasab in Hormuz, while Iran's navy claimed a fourth tanker hit a mine and explosions were reported at Sirik.",
-      "CNN reported US intelligence of Iranian plans to target officials in Washington, even as Trump reportedly told advisers he won't escalate against Iran unless provoked."
+      "CNN reported US intelligence of Iranian plans to target officials in Washington, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze late morning SGT."
     ],
-    "updated": "Tue 17 Nov 2026, 8:05 am SGT",
-    "updatedTs": "2026-11-17T08:05:00+08:00"
+    "updated": "Tue 17 Nov 2026, 11:05 am SGT",
+    "updatedTs": "2026-11-17T11:05:00+08:00"
   },
   "last24Count": 13
 }
