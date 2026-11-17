@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 10:03 am SGT",
-  "lastScannedTs": "2026-11-17T10:03:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 10:28 am SGT",
+  "lastScannedTs": "2026-11-17T10:28:00+08:00",
   "asOf": "Tue 17 Nov 2026, 8:02 am SGT",
   "asOfTs": "2026-11-17T08:02:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker attacks and mine claims, CNN report of Iranian plots in Washington and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
     "lead": "Net read (last 24 hours): Hormuz tanker attacks and mine claims, CNN report of Iranian plots in Washington and Houthi strikes keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
     "verdict": "Bullish",
-    "count": "19 of 24 alerts point higher, 5 lower",
-    "text": "19 of 24 alerts point higher, 5 lower.",
+    "count": "17 of 22 alerts point higher, 5 lower",
+    "text": "17 of 22 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "CNN: US intel says Iran plotting dirty bomb or chemical attack on officials in DC",
@@ -112,18 +112,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-16T11:52:07+08:00"
-      },
-      {
-        "text": "Saudi Arabia reportedly strikes Houthi-held Hodeidah airport in Yemen",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-16T10:25:24+08:00"
-      },
-      {
-        "text": "Ukraine says it hit two oil depots in Azov, Rostov; depot fire reported",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-16T10:25:24+08:00"
       }
     ],
     "dovish": [
