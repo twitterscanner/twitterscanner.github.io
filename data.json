@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 1:49 am SGT",
-  "lastScannedTs": "2026-11-18T01:49:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 1:54 am SGT",
+  "lastScannedTs": "2026-11-18T01:54:00+08:00",
   "asOf": "Wed 18 Nov 2026, 1:48 am SGT",
   "asOfTs": "2026-11-18T01:48:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "New Houthi claims on the Saudi East-West pipeline, IRGC tanker-fire claims and US strikes on Qeshm keep Gulf geopolitics escalating.",
     "lead": "Net read (last 24 hours): New Houthi claims on the Saudi East-West pipeline, IRGC tanker-fire claims and US strikes on Qeshm keep Gulf geopolitics escalating.",
     "verdict": "Mixed, leaning bullish",
-    "count": "26 of 36 alerts point higher, 9 lower",
-    "text": "26 of 36 alerts point higher, 9 lower.",
+    "count": "25 of 35 alerts point higher, 9 lower",
+    "text": "25 of 35 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "Houthis claim drone hits on East-West pipeline pumping stations 8 and 9 near Riyadh",
@@ -160,12 +160,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-17T03:02:06+08:00"
-      },
-      {
-        "text": "Mehr: air defences activated over Isfahan, home to key Iranian nuclear sites",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T01:50:00+08:00"
       }
     ],
     "dovish": [
