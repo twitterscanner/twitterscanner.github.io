@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 3:03 pm SGT",
-  "lastScannedTs": "2026-11-17T15:03:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 3:02 pm SGT",
-  "asOfTs": "2026-11-17T15:02:12+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 3:11 pm SGT",
+  "lastScannedTs": "2026-11-17T15:11:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 3:10 pm SGT",
+  "asOfTs": "2026-11-17T15:10:06+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Bahrain attack alert, Hormuz tanker strikes, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
-    "lead": "Net read (last 24 hours): Bahrain attack alert, Hormuz tanker strikes, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
+    "bottom": "Iran's drone strike on a US base in Bahrain, Hormuz tanker attacks, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks offset.",
+    "lead": "Net read (last 24 hours): Iran's drone strike on a US base in Bahrain, Hormuz tanker attacks, mine claims, Salavat hit and Kerch blockage keep risks higher; Iran-Oman talks offset.",
     "verdict": "Bullish",
-    "count": "19 of 24 alerts point higher, 5 lower",
-    "text": "19 of 24 alerts point higher, 5 lower.",
+    "count": "20 of 25 alerts point higher, 5 lower",
+    "text": "20 of 25 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims drone strike on US radar at Bahrain's Sheikh Isa base, warns of more",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T15:11:00+08:00"
+      },
       {
         "text": "Bahrain sirens and shelter order amid new Iranian missile/drone threat; explosions heard",
         "confidence": "confirmed",
@@ -165,6 +171,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:11",
+      "ts": "2026-11-17T15:11:00+08:00",
+      "eventTime": "2:56 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T14:56:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC claims its combat drones struck a US military radar at Sheikh Isa Air Base in Bahrain, citing US drone incursions over Iran, and warns of more responses",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Tasnim via MarketBeeper; Faytuks Network (X)",
+      "url": "https://x.com/FaytuksNetwork/status/2122586710047437034"
+    },
     {
       "time": "15:03",
       "ts": "2026-11-17T15:03:00+08:00",
@@ -687,6 +706,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "IRGC says it targeted US radar at Sheikh Isa Air Base in Bahrain (Faytuks Network)",
+      "site": "X / FaytuksNetwork",
+      "href": "https://x.com/FaytuksNetwork/status/2122586710047437034"
+    },
     {
       "title": "Sirens sound in Bahrain; Interior Ministry urges residents to nearest safe location (Arab News)",
       "site": "X / arabnews",
@@ -2317,10 +2341,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon sirens sounded across Bahrain amid a new Iranian missile or drone threat, after Iran's speaker called ports near US bases 'dual-use' and Kerch shipping was blocked."
+      "This afternoon sirens sounded across Bahrain as the IRGC said its drones struck a US radar at Sheikh Isa Air Base, after Iran's speaker called ports near US bases 'dual-use'."
     ],
-    "updated": "Tue 17 Nov 2026, 3:03 pm SGT",
-    "updatedTs": "2026-11-17T15:03:00+08:00"
+    "updated": "Tue 17 Nov 2026, 3:11 pm SGT",
+    "updatedTs": "2026-11-17T15:11:00+08:00"
   },
   "last24Count": 13
 }
