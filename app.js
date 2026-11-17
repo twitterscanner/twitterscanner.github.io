@@ -118,7 +118,23 @@
   }
   function setText(id, t) { var e = $(id); if (e && e.textContent !== String(t)) e.textContent = String(t); }
   function tag(text, kind) { return el("span", "tag " + kind, text); }
-  function dirTag(d) { return tag(d, d === "Up" ? "up" : d === "Down" ? "down" : "neutral"); }
+  function dirLabel(d) { return d === "Up" ? "Hawkish" : d === "Down" ? "Dovish" : "Neutral"; }
+  function dirTag(d) { return tag(dirLabel(d), d === "Up" ? "up" : d === "Down" ? "down" : "neutral"); }
+  function displayVerdict(v) {
+    if (/^bull/i.test(v)) return "Hawkish / escalating";
+    if (/^bear/i.test(v)) return "Dovish / de-escalating";
+    return v ? "Mixed" : "";
+  }
+  function displayCount(s) {
+    if (!s) return "";
+    return String(s)
+      .replace(/\bpoint(?:s|ing)? higher\b/gi, "are hawkish (escalating)")
+      .replace(/\bpoint(?:s|ing)? lower\b/gi, "are dovish (de-escalating)")
+      .replace(/,\s*(\d+)\s+lower\b/gi, ", $1 dovish (de-escalating)")
+      .replace(/,\s*(\d+)\s+higher\b/gi, ", $1 hawkish (escalating)")
+      .replace(/\bbullish\b/gi, "hawkish")
+      .replace(/\bbearish\b/gi, "dovish");
+  }
   function confTag(c) { return tag(c, c === "Confirmed" ? "confirmed" : "unconfirmed"); }
   function safeHref(h) { return /^https?:\/\//i.test(h || "") ? h : "#"; }
   function srcCell(a) {
@@ -219,11 +235,11 @@
     var v = nr.verdict || "", vb = $("netread-verdict");
     if (!H.length && !Dv.length || !cols) {
       if (cols) cols.hidden = true; if (neu) neu.hidden = true; setText("netread-verdict", "");
-      setText("netread-lead", nr.lead || nr.bottom || ""); setText("netread-text", nr.text || nr.count || ""); return;
+      setText("netread-lead", displayCount(nr.lead || nr.bottom || "")); setText("netread-text", displayCount(nr.text || nr.count || "")); return;
     }
-    if (vb) { vb.textContent = v; vb.className = "nr-verdict " + (/^bull/i.test(v) ? "b-up" : /^bear/i.test(v) ? "b-down" : "b-mixed"); }
-    setText("netread-lead", nr.bottom || nr.lead || "");
-    setText("netread-text", nr.count || "");
+    if (vb) { vb.textContent = displayVerdict(v); vb.className = "nr-verdict " + (/^bull/i.test(v) ? "b-up" : /^bear/i.test(v) ? "b-down" : "b-mixed"); }
+    setText("netread-lead", displayCount(nr.bottom || nr.lead || ""));
+    setText("netread-text", displayCount(nr.count || ""));
     function fill(id, list) {
       var ul = $(id); if (!ul) return; var f = document.createDocumentFragment();
       list.forEach(function (b) {
@@ -271,7 +287,7 @@
     renderNetRead(data.netRead || {});
     setText("m-total", recent.length);
     setText("m-neutral", recent.length - count("Up") - count("Down"));
-    setText("m-window", "Rolling last 24 hours: " + recent.length + " of " + alerts.length + " stored alerts (" + count("Up") + " up, " + count("Down") + " down, " + (recent.length - count("Up") - count("Down")) + " neutral). The feed below shows all stored alerts.");
+    setText("m-window", "Rolling last 24 hours: " + recent.length + " of " + alerts.length + " stored alerts (" + count("Up") + " hawkish, " + count("Down") + " dovish, " + (recent.length - count("Up") - count("Down")) + " neutral). The feed below shows all stored alerts.");
     setText("m-up", count("Up"));
     setText("m-down", count("Down"));
     setText("m-brent", (data.brent && data.brent.value) || "–");

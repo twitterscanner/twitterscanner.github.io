@@ -21,12 +21,12 @@
   </header>
 
   <p class="asof" id="m-window"></p>
-  <details class="callout netread" id="netread" open><summary class="nr-top"><span class="nr-verdict" id="netread-verdict"></span> <strong id="netread-lead"></strong> <span class="nr-count" id="netread-text"></span> <span class="nr-toggle" aria-hidden="true"></span></summary><div class="nr-cols" id="netread-cols" hidden><div class="nr-col nr-hawk"><h4>↑ Hawkish (price up) <span id="netread-hn"></span></h4><ul id="netread-hawk"></ul></div><div class="nr-col nr-dove"><h4>↓ Dovish (price down) <span id="netread-dn"></span></h4><ul id="netread-dove"></ul></div></div><p class="nr-off" id="netread-neu" hidden></p></details>
+  <details class="callout netread" id="netread" open><summary class="nr-top"><span class="nr-verdict" id="netread-verdict"></span> <strong id="netread-lead"></strong> <span class="nr-count" id="netread-text"></span> <span class="nr-toggle" aria-hidden="true"></span></summary><div class="nr-cols" id="netread-cols" hidden><div class="nr-col nr-hawk"><h4>↑ Hawkish (escalating) <span id="netread-hn"></span></h4><ul id="netread-hawk"></ul></div><div class="nr-col nr-dove"><h4>↓ Dovish (de-escalating) <span id="netread-dn"></span></h4><ul id="netread-dove"></ul></div></div><p class="nr-off" id="netread-neu" hidden></p></details>
 
   <section class="tiles">
     <div class="tile"><div class="val" id="m-total">–</div><div class="lbl">Alerts, last 24 hours</div></div>
-    <div class="tile"><div class="val up" id="m-up">–</div><div class="lbl">Point prices up (24h)</div></div>
-    <div class="tile"><div class="val" id="m-down">–</div><div class="lbl">Point prices down (24h)</div></div>
+    <div class="tile"><div class="val up" id="m-up">–</div><div class="lbl">Hawkish (24h)</div></div>
+    <div class="tile"><div class="val" id="m-down">–</div><div class="lbl">Dovish (24h)</div></div>
     <div class="tile"><div class="val" id="m-neutral">–</div><div class="lbl">Neutral (24h)</div></div>
     <div class="tile"><div class="val" id="m-brent">–</div><div class="lbl">Brent</div><div class="det" id="m-brent-detail"></div></div>
     <div class="tile scanned"><div class="val" id="m-scanned">–</div><div class="lbl">Last scanned</div><div class="det">Updated on every scan, even when nothing new is found</div></div>
@@ -36,7 +36,7 @@
     <h2>Alert log</h2>
     <div class="seg" id="theme-filter" role="group" aria-label="Theme filter"></div>
     <div class="tablewrap"><table>
-      <thead><tr><th class="th-rep">Reported (SGT)</th><th class="th-evt">Event time (SGT)</th><th>Headline</th><th>Theme</th><th>Oil impact</th><th>Confidence</th><th>Source</th></tr></thead>
+      <thead><tr><th class="th-rep">Reported (SGT)</th><th class="th-evt">Event time (SGT)</th><th>Headline</th><th>Theme</th><th>Escalation</th><th>Confidence</th><th>Source</th></tr></thead>
       <tbody id="log-body"></tbody>
     </table></div>
   </section>
