@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 6:20 pm SGT",
-  "lastScannedTs": "2026-11-17T18:20:31+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 7:00 pm SGT",
+  "lastScannedTs": "2026-11-17T19:00:00+08:00",
   "asOf": "Tue 17 Nov 2026, 6:20 pm SGT",
   "asOfTs": "2026-11-17T18:20:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -66,8 +66,8 @@
         "ts": "2026-11-17T11:06:39+08:00"
       },
       {
-        "text": "Ukrainian drones reportedly hit Salavat refinery in Bashkortostan, large fire",
-        "confidence": "unconfirmed",
+        "text": "Ukraine's General Staff confirms overnight hit on Salavat refinery in Bashkortostan",
+        "confidence": "confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-17T11:00:03+08:00"
       },
@@ -375,15 +375,15 @@
     {
       "time": "11:00",
       "ts": "2026-11-17T11:00:03+08:00",
-      "eventTime": "11:00 am, 17 Nov (est.)",
-      "eventTs": "2026-11-17T11:00:00+08:00",
+      "eventTime": "Overnight 16-17 Nov (est.)",
+      "eventTs": "2026-11-17T03:00:00+08:00",
       "eventQual": "est.",
-      "headline": "Ukrainian long-range drones reportedly attacking Gazprom Neftekhim Salavat refining and petrochemical complex in Bashkortostan, Russia; large fire reported at a production unit",
+      "headline": "Ukraine's General Staff confirms its forces hit the Gazprom Neftekhim Salavat refinery and petrochemical complex in Bashkortostan, Russia, overnight; explosions and fire reported",
       "theme": "Russia-Ukraine",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping (X); also NOT Woofers (fire seen, cause unclear)",
-      "url": "https://x.com/AMK_Mapping_/status/2122525144300376369"
+      "confidence": "Confirmed",
+      "source": "Ukraine General Staff (X); first reported by AMK Mapping",
+      "url": "https://x.com/GeneralStaffUA/status/2122646023591936011"
     },
     {
       "time": "08:02",
