@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 7:30 pm SGT",
-  "lastScannedTs": "2026-11-17T19:30:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 7:30 pm SGT",
-  "asOfTs": "2026-11-17T19:30:44+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 7:50 pm SGT",
+  "lastScannedTs": "2026-11-17T19:50:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 7:50 pm SGT",
+  "asOfTs": "2026-11-17T19:50:30+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman peace initiative and Qatar mediation offset.",
-    "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman peace initiative and Qatar mediation offset.",
+    "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
+    "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
     "verdict": "Mixed, leaning bullish",
-    "count": "22 of 31 alerts point higher, 8 lower",
-    "text": "22 of 31 alerts point higher, 8 lower.",
+    "count": "22 of 32 alerts point higher, 9 lower",
+    "text": "22 of 32 alerts point higher, 9 lower.",
     "hawkish": [
       {
         "text": "IRGC claims another US MQ-1C drone downed over Qeshm Island in Hormuz",
@@ -48,7 +48,7 @@
         "ts": "2026-11-17T17:00:56+08:00"
       },
       {
-        "text": "IRGC claims drone strike on US radar at Bahrain's Sheikh Isa base, warns of more",
+        "text": "IRGC claims drone hit on US radar in Bahrain; CENTCOM says false, drones intercepted",
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-17T15:11:00+08:00"
@@ -146,6 +146,12 @@
     ],
     "dovish": [
       {
+        "text": "US extends Hungary's and Slovakia's waivers to keep buying Russian oil",
+        "confidence": "confirmed",
+        "theme": "Sanctions",
+        "ts": "2026-11-17T19:49:28+08:00"
+      },
+      {
         "text": "Araghchi briefs Oman's Sultan on Iranian initiative to end the war",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -208,6 +214,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:49",
+      "ts": "2026-11-17T19:49:28+08:00",
+      "eventTime": "17 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Hungary says it has received a US extension to keep importing Russian oil without US sanctions risk; Slovakia reportedly got a 120-day extension too",
+      "theme": "Sanctions",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Hungary Foreign Ministry via First Squawk (X); also Report.az (Slovakia)",
+      "url": "https://x.com/FirstSquawk/status/2122658374462628326"
+    },
     {
       "time": "19:27",
       "ts": "2026-11-17T19:27:42+08:00",
@@ -357,11 +376,11 @@
       "eventTime": "2:56 pm, 17 Nov (est.)",
       "eventTs": "2026-11-17T14:56:00+08:00",
       "eventQual": "est.",
-      "headline": "IRGC claims its combat drones struck a US military radar at Sheikh Isa Air Base in Bahrain, citing US drone incursions over Iran, and warns of more responses",
+      "headline": "IRGC claims its combat drones struck a US military radar at Sheikh Isa Air Base in Bahrain and warns of more; CENTCOM calls the claim false, says the drones were intercepted",
       "theme": "Iran",
       "direction": "Up",
       "confidence": "Confirmed",
-      "source": "Tasnim via MarketBeeper; Faytuks Network (X)",
+      "source": "Tasnim via MarketBeeper; Faytuks Network (X); CENTCOM rebuttal",
       "url": "https://x.com/FaytuksNetwork/status/2122586710047437034"
     },
     {
@@ -714,22 +733,19 @@
       "confidence": "Unconfirmed",
       "source": "Iran International (Persian) on X, citing IRGC Navy statement",
       "url": "https://x.com/IranIntlbrk/status/2122184711581872144"
-    },
-    {
-      "time": "11:52",
-      "ts": "2026-11-16T11:52:07+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Hormuz crude flows reportedly plunge again: 7-day average falls to about 6.5 million b/d in mid-November from about 13 million in late October, per tracker estimates",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Drop Site News on X (citing Hormuz Strait Tracker estimates)",
-      "url": "https://x.com/DropSiteNews/status/2122175857695261078"
     }
   ],
   "sources": [
+    {
+      "title": "Hungary receives extension to import Russian oil without US sanctions risk (First Squawk)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122658374462628326"
+    },
+    {
+      "title": "CENTCOM: IRGC claim of drone hit on US radar in Bahrain is false; drones intercepted",
+      "site": "X / CENTCOM",
+      "href": "https://x.com/CENTCOM/status/2122656792358289747"
+    },
     {
       "title": "IRGC claims another US MQ-1C shot down over southern Qeshm Island (AMK Mapping)",
       "site": "X / AMK_Mapping_",
@@ -2435,10 +2451,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker, the IRGC claimed mine hits and another US drone downed near Qeshm, while Araghchi briefed Oman's Sultan on an initiative to end the war."
+      "Later a second strike hit the Khasab tanker and the IRGC claimed mine hits and a US drone downed, while Araghchi pitched Oman an initiative to end the war and Hungary won a Russian-oil sanctions waiver."
     ],
-    "updated": "Tue 17 Nov 2026, 7:30 pm SGT",
-    "updatedTs": "2026-11-17T19:30:00+08:00"
+    "updated": "Tue 17 Nov 2026, 7:50 pm SGT",
+    "updatedTs": "2026-11-17T19:50:00+08:00"
   },
   "last24Count": 13
 }
