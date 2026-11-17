@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 5:03 am SGT",
-  "lastScannedTs": "2026-11-18T05:03:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 5:01 am SGT",
-  "asOfTs": "2026-11-18T05:01:39+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 6:06 am SGT",
+  "lastScannedTs": "2026-11-18T06:06:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 6:06 am SGT",
+  "asOfTs": "2026-11-18T06:06:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New Houthi claims on the Saudi East-West pipeline, IRGC tanker-fire claims and US strikes on Qeshm keep Gulf geopolitics escalating.",
-    "lead": "Net read (last 24 hours): New Houthi claims on the Saudi East-West pipeline, IRGC tanker-fire claims and US strikes on Qeshm keep Gulf geopolitics escalating.",
+    "bottom": "Iranian drone attacks on Kuwait, fresh Hormuz tanker strikes and Houthi claims on Saudi pipelines keep Gulf geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iranian drone attacks on Kuwait, fresh Hormuz tanker strikes and Houthi claims on Saudi pipelines keep Gulf geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "25 of 32 alerts point higher, 6 lower",
-    "text": "25 of 32 alerts point higher, 6 lower.",
+    "count": "23 of 30 alerts point higher, 6 lower",
+    "text": "23 of 30 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Kuwait says it is responding to drone attacks from Iran",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T05:45:00+08:00"
+      },
       {
         "text": "Fresh strike on a ship in the Strait of Hormuz reported minutes after anti-ship missile launches were seen…",
         "confidence": "unconfirmed",
@@ -142,24 +148,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-17T08:02:26+08:00"
-      },
-      {
-        "text": "UKMTO: tanker attacked off Khasab in Hormuz, disabled with engine-room fire",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-17T06:02:23+08:00"
-      },
-      {
-        "text": "Several explosions reported in Sirik on Iran's coast near Hormuz; cause unclear",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T05:04:30+08:00"
-      },
-      {
-        "text": "Iran's navy claims a fourth tanker in 24 hours hit a mine east of Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T05:04:29+08:00"
       }
     ],
     "dovish": [
@@ -214,6 +202,19 @@
     "detail": "Brent settled at $93.14/bbl on 17 Nov, per oil analyst post on X (posted 3:51 am SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:45",
+      "ts": "2026-11-18T05:45:00+08:00",
+      "eventTime": "5:40 am, 18 Nov (est.)",
+      "eventTs": "2026-11-18T05:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Kuwait says it is responding to drone attacks from Iran; explosions heard and US bases in Kuwait reported targeted",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel (citing Kuwaiti statement); also FirstSquawk, MenchOsint",
+      "url": "https://x.com/Osint613/status/2122808411192471721"
+    },
     {
       "time": "05:01",
       "ts": "2026-11-18T05:01:39+08:00",
@@ -720,35 +721,14 @@
       "confidence": "Unconfirmed",
       "source": "TheSaviour; IR_News2; MerruX flaring data",
       "url": "https://x.com/TheSaviour/status/2122331135581581750"
-    },
-    {
-      "time": "21:08",
-      "ts": "2026-11-16T21:08:54+08:00",
-      "eventTime": "16 Nov, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Satellite detects a new heat source about 4 km from Qatar's Laffan refinery at Ras Laffan on 16 Nov; cause not stated",
-      "theme": "Refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk (satellite heat-source report)",
-      "url": "https://x.com/FirstSquawk/status/2122315979116228867"
-    },
-    {
-      "time": "20:56",
-      "ts": "2026-11-16T20:56:55+08:00",
-      "eventTime": "8:55 pm, 16 Nov (est.)",
-      "eventTs": "2026-11-16T20:55:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones launched toward the Makkah and Riyadh regions",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Gazette, First Squawk, CGTN (quoting the Saudi-led coalition)",
-      "url": "https://x.com/Saudi_Gazette/status/2122313361526608186"
     }
   ],
   "sources": [
+    {
+      "title": "Kuwait says it is responding to drone attacks from Iran",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2122808411192471721"
+    },
     {
       "title": "IRGC Navy: fourth 'offending' tanker caught fire east of Strait of Hormuz (Fars News)",
       "site": "X / financialjuice",
@@ -2513,11 +2493,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Around 5 am SGT on 18 Nov, OSINT accounts reported a fresh strike on a ship in Hormuz minutes after anti-ship missile launches from Iran's Hormozgan province (unconfirmed).",
-      "Earlier, the Houthis claimed drone hits on Saudi East-West pipeline pumping stations 8 and 9, and the US confirmed strikes on an IRGC missile site on Qeshm."
+      "Around 5:40 am SGT on 18 Nov, Kuwait said it was responding to Iranian drone attacks, with explosions heard and US bases reportedly targeted.",
+      "Minutes earlier, OSINT accounts reported a fresh ship strike in Hormuz after missile launches from Hormozgan, following US strikes on an IRGC site on Qeshm."
     ],
-    "updated": "Wed 18 Nov 2026, 5:03 am SGT",
-    "updatedTs": "2026-11-18T05:03:00+08:00"
+    "updated": "Wed 18 Nov 2026, 6:06 am SGT",
+    "updatedTs": "2026-11-18T06:06:00+08:00"
   },
   "last24Count": 13
 }
