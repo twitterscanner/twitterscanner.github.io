@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 5:22 pm SGT",
-  "lastScannedTs": "2026-11-17T17:22:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 5:13 pm SGT",
-  "asOfTs": "2026-11-17T17:13:49+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:27 pm SGT",
+  "lastScannedTs": "2026-11-17T17:27:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 5:25 pm SGT",
+  "asOfTs": "2026-11-17T17:25:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
-    "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG carrier sinking and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks offset.",
+    "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG carrier sinking and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks offset.",
     "verdict": "Bullish",
-    "count": "20 of 26 alerts point higher, 5 lower",
-    "text": "20 of 26 alerts point higher, 5 lower.",
+    "count": "21 of 27 alerts point higher, 5 lower",
+    "text": "21 of 27 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "LPG carrier sinks in Black Sea off Bulgaria, day after nearby drone-hit cargo ship capsized",
+        "confidence": "confirmed",
+        "theme": "Tankers",
+        "ts": "2026-11-17T17:20:02+08:00"
+      },
       {
         "text": "UKMTO: vessel 7 nm north of Khasab in Hormuz hit by a second strike",
         "confidence": "confirmed",
@@ -178,6 +184,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:20",
+      "ts": "2026-11-17T17:20:02+08:00",
+      "eventTime": "Not stated (local OSINT says gas tanker Gas Husky sent an emergency beacon on the morning of 17 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bulgarian Defence Ministry says a Liberian-flagged LPG carrier sank in the Black Sea off Bulgaria, a day after cargo ship Betul 8 capsized nearby following a reported naval drone attack; cause not stated",
+      "theme": "Tankers",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Bulgarian Defence Ministry via CGTN Europe and Open Source Intel (X)",
+      "url": "https://x.com/CGTNEurope/status/2122620768546607273"
+    },
     {
       "time": "17:12",
       "ts": "2026-11-17T17:12:59+08:00",
@@ -684,22 +703,14 @@
       "confidence": "Unconfirmed",
       "source": "Mario Nawfal on X, citing Saudi-led coalition",
       "url": "https://x.com/MarioNawfal/status/2122053270722216314"
-    },
-    {
-      "time": "03:40",
-      "ts": "2026-11-16T03:40:29+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Zelensky says Ukraine has disabled more than 55% of Russia's oil refining capacity",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Volodymyr Zelensky (President of Ukraine) on X",
-      "url": "https://x.com/ZelenskyyUa/status/2122052133994254594"
     }
   ],
   "sources": [
+    {
+      "title": "Bulgarian Defence Ministry: Liberian-flagged LPG carrier sank off Bulgaria in Black Sea (CGTN Europe)",
+      "site": "X / CGTNEurope",
+      "href": "https://x.com/CGTNEurope/status/2122620768546607273"
+    },
     {
       "title": "UKMTO: vessel 7 nm north of Khasab hit by second strike (FinancialJuice)",
       "site": "X / financialjuice",
@@ -2360,10 +2371,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base, UKMTO reported a second strike on a vessel off Khasab, and Enbridge's North Dakota pipeline was reported shut."
+      "This afternoon UKMTO reported a second strike on a vessel off Khasab, Bulgaria said an LPG carrier sank in the Black Sea, and Enbridge's North Dakota pipeline was reported shut."
     ],
-    "updated": "Tue 17 Nov 2026, 5:16 pm SGT",
-    "updatedTs": "2026-11-17T17:16:00+08:00"
+    "updated": "Tue 17 Nov 2026, 5:27 pm SGT",
+    "updatedTs": "2026-11-17T17:27:00+08:00"
   },
   "last24Count": 13
 }
