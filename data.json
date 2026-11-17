@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 11:05 am SGT",
-  "lastScannedTs": "2026-11-17T11:05:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 11:03 am SGT",
-  "asOfTs": "2026-11-17T11:03:54+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 11:15 am SGT",
+  "lastScannedTs": "2026-11-17T11:15:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 11:13 am SGT",
+  "asOfTs": "2026-11-17T11:13:17+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks and mine claims, Iranian plots in Washington, Houthi gains and a reported Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks and mine claims, Iranian plots in Washington, Houthi gains and a reported Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks and Guyana supply offset.",
+    "bottom": "Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "18 of 23 alerts point higher, 5 lower",
-    "text": "18 of 23 alerts point higher, 5 lower.",
+    "count": "19 of 24 alerts point higher, 5 lower",
+    "text": "19 of 24 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Reported intensified mine-laying on Hormuz's southern shipping route",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T11:06:39+08:00"
+      },
       {
         "text": "Ukrainian drones reportedly hit Salavat refinery in Bashkortostan, large fire",
         "confidence": "unconfirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:06",
+      "ts": "2026-11-17T11:06:39+08:00",
+      "eventTime": "Ongoing; not stated (post stamped 11:05 am SGT, 17 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Persian-language OSINT account reports intensified mine-laying on the southern route of the Strait of Hormuz (translated from Persian)",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Honar-e Jang (X, Persian)",
+      "url": "https://x.com/dolfiniran/status/2122526806456533162"
+    },
     {
       "time": "11:00",
       "ts": "2026-11-17T11:00:03+08:00",
@@ -665,22 +684,14 @@
       "confidence": "Confirmed",
       "source": "Bahrain Defence Force via First Squawk on X",
       "url": "https://x.com/FirstSquawk/status/2121908749350936710"
-    },
-    {
-      "time": "17:44",
-      "ts": "2026-11-15T17:44:29+08:00",
-      "eventTime": "13 Nov, time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "EU naval force (IRINI) boarded a suspected Russian shadow-fleet tanker in the Mediterranean on 13 Nov, found it flying a false flag, Kallas says",
-      "theme": "Sanctions evasion",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Kaja Kallas via Visioner on X",
-      "url": "https://x.com/visionergeo/status/2121902146153017502"
     }
   ],
   "sources": [
+    {
+      "title": "Persian OSINT: mine-laying intensified on southern route of Strait of Hormuz (Honar-e Jang)",
+      "site": "X / dolfiniran",
+      "href": "https://x.com/dolfiniran/status/2122526806456533162"
+    },
     {
       "title": "Ukrainian drones reportedly attacking Gazprom Neftekhim Salavat refinery, large fire (AMK Mapping)",
       "site": "X / AMK_Mapping_",
@@ -2285,11 +2296,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight, UKMTO reported a tanker attacked and disabled off Khasab in Hormuz, while Iran's navy claimed a fourth tanker hit a mine and explosions were reported at Sirik.",
+      "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran's navy claimed a fourth tanker hit a mine, and an OSINT account reported intensified mine-laying on Hormuz's southern route.",
       "CNN reported US intelligence of Iranian plans to target officials in Washington, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze late morning SGT."
     ],
-    "updated": "Tue 17 Nov 2026, 11:05 am SGT",
-    "updatedTs": "2026-11-17T11:05:00+08:00"
+    "updated": "Tue 17 Nov 2026, 11:15 am SGT",
+    "updatedTs": "2026-11-17T11:15:00+08:00"
   },
   "last24Count": 13
 }
