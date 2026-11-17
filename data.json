@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 6:04 pm SGT",
-  "lastScannedTs": "2026-11-17T18:04:39+08:00",
-  "asOf": "Tue 17 Nov 2026, 5:38 pm SGT",
-  "asOfTs": "2026-11-17T17:38:15+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 6:20 pm SGT",
+  "lastScannedTs": "2026-11-17T18:20:31+08:00",
+  "asOf": "Tue 17 Nov 2026, 6:20 pm SGT",
+  "asOfTs": "2026-11-17T18:20:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "New IRGC mine claims, a repeat Khasab tanker strike, Bahrain base attack and Black Sea LPG sinking keep risks escalating; Iraq-Turkey export restart offsets.",
-    "lead": "Net read (last 24 hours): New IRGC mine claims, a repeat Khasab tanker strike, Bahrain base attack and Black Sea LPG sinking keep risks escalating; Iraq-Turkey export restart offsets.",
-    "verdict": "Bullish",
-    "count": "20 of 27 alerts point higher, 6 lower",
-    "text": "20 of 27 alerts point higher, 6 lower.",
+    "bottom": "IRGC mine claims, a repeat Khasab tanker strike and Bahrain attacks keep risks escalating; Qatar mediation and the Iraq-Turkey restart offset.",
+    "lead": "Net read (last 24 hours): IRGC mine claims, a repeat Khasab tanker strike and Bahrain attacks keep risks escalating; Qatar mediation and the Iraq-Turkey restart offset.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "20 of 28 alerts point higher, 7 lower",
+    "text": "20 of 28 alerts point higher, 7 lower.",
     "hawkish": [
       {
         "text": "IRGC claims an LPG carrier and an oil tanker ablaze in Hormuz after hitting mines",
@@ -134,6 +134,12 @@
     ],
     "dovish": [
       {
+        "text": "Qatar says US-Iran mediation still ongoing; meeting with Iran set for today",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-17T18:13:35+08:00"
+      },
+      {
         "text": "Iraq resumes crude exports via Kirkuk-Ceyhan pipeline, 120,000 b/d initially",
         "confidence": "confirmed",
         "theme": "Iraq",
@@ -184,6 +190,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:13",
+      "ts": "2026-11-17T18:13:35+08:00",
+      "eventTime": "6:13 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T18:13:00+08:00",
+      "eventQual": "est.",
+      "headline": "Qatar says its mediation between the US and Iran is still ongoing, with a meeting with Iran to be held today",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk (citing Qatar)",
+      "url": "https://x.com/FirstSquawk/status/2122634244170359073"
+    },
     {
       "time": "17:38",
       "ts": "2026-11-17T17:38:15+08:00",
@@ -690,22 +709,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel on X (US Embassy Manama alert; also Post Open Source)",
       "url": "https://x.com/Osint613/status/2122065408505352688"
-    },
-    {
-      "time": "04:21",
-      "ts": "2026-11-16T04:21:41+08:00",
-      "eventTime": "3:00 am, 16 Nov (est.)",
-      "eventTs": "2026-11-16T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's navy says another 'rogue' oil tanker caught fire after striking a naval mine in the eastern Strait of Hormuz",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X, citing Iranian state media (also Al Arabiya, Arab News); vessel not named, no independent confirmation",
-      "url": "https://x.com/Osint613/status/2122062504352153653"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Qatar says mediation between US and Iran still ongoing; meeting with Iran to be held today",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122634244170359073"
+    },
     {
       "title": "First Squawk: IRGC says an LPG carrier and an oil tanker are on fire in Hormuz after hitting naval mines (Iranian state media)",
       "site": "X / FirstSquawk",
@@ -2386,10 +2397,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon UKMTO reported a second strike off Khasab, the IRGC claimed an LPG carrier and a tanker hit mines in Hormuz, and Iraq restarted Kirkuk-Ceyhan exports."
+      "This afternoon a second strike hit the Khasab tanker and the IRGC claimed two mine hits in Hormuz, while Qatar said US-Iran mediation continues and Iraq restarted Kirkuk-Ceyhan exports."
     ],
-    "updated": "Tue 17 Nov 2026, 5:38 pm SGT",
-    "updatedTs": "2026-11-17T17:38:00+08:00"
+    "updated": "Tue 17 Nov 2026, 6:21 pm SGT",
+    "updatedTs": "2026-11-17T18:21:00+08:00"
   },
   "last24Count": 13
 }
