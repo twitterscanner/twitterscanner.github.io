@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 1:00 pm SGT",
-  "lastScannedTs": "2026-11-17T13:00:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 11:13 am SGT",
-  "asOfTs": "2026-11-17T11:13:17+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 1:15 pm SGT",
+  "lastScannedTs": "2026-11-17T13:15:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 1:14 pm SGT",
+  "asOfTs": "2026-11-17T13:14:50+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
+    "bottom": "Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure and a Salavat refinery strike keep risks higher; Iran-Oman talks, Trump restraint offset.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure and a Salavat refinery strike keep risks higher; Iran-Oman talks, Trump restraint offset.",
     "verdict": "Bullish",
-    "count": "17 of 22 alerts point higher, 5 lower",
-    "text": "17 of 22 alerts point higher, 5 lower.",
+    "count": "18 of 23 alerts point higher, 5 lower",
+    "text": "18 of 23 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Ghalibaf: dams, ports, power plants near US/Israeli bases are 'dual-use'",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T13:05:41+08:00"
+      },
       {
         "text": "Reported intensified mine-laying on Hormuz's southern shipping route",
         "confidence": "unconfirmed",
@@ -116,6 +122,12 @@
     ],
     "dovish": [
       {
+        "text": "Iran and Oman look to revive diplomatic channels, resume negotiations",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-17T13:08:56+08:00"
+      },
+      {
         "text": "Kushner: Ushakov call held, next multilateral Ukraine peace meeting being prepared",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -138,12 +150,6 @@
         "confidence": "confirmed",
         "theme": "Market outlook",
         "ts": "2026-11-16T17:21:00+08:00"
-      },
-      {
-        "text": "Iran says Hormuz reopening proposal ready via Qatar and Pakistan mediators if US acts first",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-16T13:07:26+08:00"
       }
     ],
     "neutral": []
@@ -153,6 +159,32 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:08",
+      "ts": "2026-11-17T13:08:56+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran and Oman explore reactivating diplomatic channels and resuming negotiations after their foreign ministers' talks",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "FirstSquawk",
+      "url": "https://x.com/FirstSquawk/status/2122557577812971565"
+    },
+    {
+      "time": "13:05",
+      "ts": "2026-11-17T13:05:41+08:00",
+      "eventTime": "1:05 pm, 17 Nov",
+      "eventTs": "2026-11-17T13:05:41+08:00",
+      "eventQual": "confirmed",
+      "headline": "Iran parliament speaker Ghalibaf warns any dam, port or power plant near a US or Israeli base is 'dual-use', implying Gulf infrastructure could be targeted",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Mohammad Bagher Ghalibaf (Iran parliament speaker) on X",
+      "url": "https://x.com/mb_ghalibaf/status/2122556761442058610"
+    },
     {
       "time": "11:06",
       "ts": "2026-11-17T11:06:39+08:00",
@@ -646,35 +678,19 @@
       "confidence": "Unconfirmed",
       "source": "IRGC Navy via Iran Nuances on X",
       "url": "https://x.com/IranNuances/status/2121953906515165331"
-    },
-    {
-      "time": "20:44",
-      "ts": "2026-11-15T20:44:49+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis attack Abqaiq–Yanbu (East-West) pipeline pumping stations in Saudi Arabia again, per Persian-language OSINT; Saudi uses the line to bypass Hormuz",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Honar-e Jang (@dolfiniran) on X, translated from Persian",
-      "url": "https://x.com/dolfiniran/status/2121947530170687695"
-    },
-    {
-      "time": "18:10",
-      "ts": "2026-11-15T18:10:43+08:00",
-      "eventTime": "Overnight / early morning Bahrain time",
-      "eventTs": "2026-11-15T09:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran fires drones and missiles at US assets in Bahrain overnight; Bahrain Defence Force says all intercepted, IRGC claims hit on US radar",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Bahrain Defence Force via First Squawk on X",
-      "url": "https://x.com/FirstSquawk/status/2121908749350936710"
     }
   ],
   "sources": [
+    {
+      "title": "Ghalibaf: any dam, port or power plant near a US or Israeli base is dual-use",
+      "site": "X / mb_ghalibaf",
+      "href": "https://x.com/mb_ghalibaf/status/2122556761442058610"
+    },
+    {
+      "title": "Iran and Oman explore ways to resume negotiations (FirstSquawk)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122557577812971565"
+    },
     {
       "title": "Persian OSINT: mine-laying intensified on southern route of Strait of Hormuz (Honar-e Jang)",
       "site": "X / dolfiniran",
@@ -2284,11 +2300,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran's navy claimed a fourth tanker hit a mine, and an OSINT account reported intensified mine-laying on Hormuz's southern route.",
-      "CNN reported US intelligence of Iranian plans to target officials in Washington, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze late morning SGT."
+      "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
+      "Iran's parliament speaker warned ports and power plants near US bases are 'dual-use', while Iran and Oman explored resuming negotiations after their foreign ministers met."
     ],
-    "updated": "Tue 17 Nov 2026, 11:15 am SGT",
-    "updatedTs": "2026-11-17T11:15:00+08:00"
+    "updated": "Tue 17 Nov 2026, 1:15 pm SGT",
+    "updatedTs": "2026-11-17T13:15:00+08:00"
   },
   "last24Count": 13
 }
