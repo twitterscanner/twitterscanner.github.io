@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 8:58 pm SGT",
-  "lastScannedTs": "2026-11-17T20:58:35+08:00",
-  "asOf": "Tue 17 Nov 2026, 8:46 pm SGT",
-  "asOfTs": "2026-11-17T20:46:40+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 9:05 pm SGT",
+  "lastScannedTs": "2026-11-17T21:05:45+08:00",
+  "asOf": "Tue 17 Nov 2026, 9:05 pm SGT",
+  "asOfTs": "2026-11-17T21:05:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
-    "lead": "Net read (last 24 hours): IRGC mine claims, Khasab strikes, a newly disclosed Gulf tanker hit and Bahrain attacks keep risks escalating; Iran's Oman initiative and Russian-oil waivers offset.",
+    "bottom": "A reported US strike on Qeshm, Houthi offensive against Saudi-backed forces, Hormuz tanker attacks and mine claims keep risks escalating; Iran-Oman diplomacy offsets.",
+    "lead": "Net read (last 24 hours): A reported US strike on Qeshm, Houthi offensive against Saudi-backed forces, Hormuz tanker attacks and mine claims keep risks escalating; Iran-Oman diplomacy offsets.",
     "verdict": "Mixed, leaning bullish",
-    "count": "22 of 32 alerts point higher, 9 lower",
-    "text": "22 of 32 alerts point higher, 9 lower.",
+    "count": "24 of 34 alerts point higher, 9 lower",
+    "text": "24 of 34 alerts point higher, 9 lower.",
     "hawkish": [
+      {
+        "text": "Reported US airstrike on Iranian SAM launcher on Qeshm Island in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-17T21:05:45+08:00"
+      },
+      {
+        "text": "Houthis claim ground offensive taking 10 districts in Taiz and Lahj from Saudi-backed forces",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-17T21:05:45+08:00"
+      },
       {
         "text": "Iran's Army claims it downed a US LUCAS attack drone over Hormuz",
         "confidence": "unconfirmed",
@@ -214,6 +226,32 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:05",
+      "ts": "2026-11-17T21:05:45+08:00",
+      "eventTime": "8:52 pm, 17 Nov (est.)",
+      "eventTs": "2026-11-17T20:52:00+08:00",
+      "eventQual": "est.",
+      "headline": "US airstrike reported on an Iranian surface-to-air missile launcher at Nariman on Qeshm Island in the Strait of Hormuz; smoke seen",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping / Open Source Intel (X)",
+      "url": "https://x.com/AMK_Mapping_/status/2122676291816300912"
+    },
+    {
+      "time": "21:05",
+      "ts": "2026-11-17T21:05:45+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthi military spokesman Saree announces ground operation securing 10 districts in Yemen's Taiz and Lahj, claims 12 Saudi-backed divisions routed",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree, Houthi armed forces spokesman (X, Arabic video statement)",
+      "url": "https://x.com/Yah_Saree/status/2122676127558758753"
+    },
     {
       "time": "20:45",
       "ts": "2026-11-17T20:45:00+08:00",
@@ -707,35 +745,24 @@
       "confidence": "Confirmed",
       "source": "UKMTO Operations Centre on X (warning 207-26); also IRNA for Iran's mine claim; vessel not named",
       "url": "https://x.com/UK_MTO/status/2122228069440323988"
-    },
-    {
-      "time": "14:00",
-      "ts": "2026-11-16T14:00:39+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Ynet: Mossad chief Gofman urgently briefs Netanyahu and security cabinet on possible military action against Iran after Washington trip; no decision announced",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Ynet via HormuzLetter",
-      "url": "https://x.com/HormuzLetter/status/2122208205228933299"
-    },
-    {
-      "time": "13:07",
-      "ts": "2026-11-16T13:07:26+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's deputy FM Gharibabadi says Tehran's proposal, cut from seven days to two, is ready to implement after talks with mediators Qatar and Pakistan, but the US must act first for Iran to reopen Hormuz",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Iran Press (Iranian state media)",
-      "url": "https://x.com/IranPress_eng/status/2122194811432190122"
     }
   ],
   "sources": [
+    {
+      "title": "Reported US airstrike on Iranian SAM launcher, Nariman, Qeshm Island",
+      "site": "X / AMK_Mapping_",
+      "href": "https://x.com/AMK_Mapping_/status/2122676291816300912"
+    },
+    {
+      "title": "Initial reports of US airstrike on air-defence site in Nariman, Qeshm (smoke image)",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2122676469310669135"
+    },
+    {
+      "title": "Houthi armed forces statement: operation in Taiz and Lahj against Saudi-backed forces (Arabic)",
+      "site": "X / Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2122676127558758753"
+    },
     {
       "title": "Iranian Army: US LUCAS drone downed over Strait of Hormuz (ISNA)",
       "site": "X / AJABreaking",
@@ -2456,10 +2483,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukraine's General Staff confirmed hitting Russia's Salavat refinery.",
-      "Later a second strike hit the Khasab tanker, the IRGC and Iran's Army claimed US drones downed over Hormuz, and Araghchi pitched Oman an initiative to end the war."
+      "Later a second strike hit the Khasab tanker, Iran claimed downing US drones, a US strike on Qeshm was reported, and the Houthis announced an offensive against Saudi-backed forces."
     ],
-    "updated": "Tue 17 Nov 2026, 8:47 pm SGT",
-    "updatedTs": "2026-11-17T20:47:00+08:00"
+    "updated": "Tue 17 Nov 2026, 9:05 pm SGT",
+    "updatedTs": "2026-11-17T21:05:45+08:00"
   },
   "last24Count": 13
 }
