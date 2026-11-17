@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 12:05 pm SGT",
-  "lastScannedTs": "2026-11-17T12:05:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 12:30 pm SGT",
+  "lastScannedTs": "2026-11-17T12:30:00+08:00",
   "asOf": "Tue 17 Nov 2026, 11:13 am SGT",
   "asOfTs": "2026-11-17T11:13:17+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
     "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims and reported mine-laying, Iranian plots, Houthi gains and a Salavat refinery strike keep risks higher; Trump restraint, Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "18 of 23 alerts point higher, 5 lower",
-    "text": "18 of 23 alerts point higher, 5 lower.",
+    "count": "17 of 22 alerts point higher, 5 lower",
+    "text": "17 of 22 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Reported intensified mine-laying on Hormuz's southern shipping route",
@@ -112,12 +112,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-16T14:00:39+08:00"
-      },
-      {
-        "text": "IRGC says six tankers hit mines in Hormuz since Saturday, pollution spreading",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-16T12:27:18+08:00"
       }
     ],
     "dovish": [
