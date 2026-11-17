@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 5:16 pm SGT",
-  "lastScannedTs": "2026-11-17T17:16:00+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:22 pm SGT",
+  "lastScannedTs": "2026-11-17T17:22:00+08:00",
   "asOf": "Tue 17 Nov 2026, 5:13 pm SGT",
   "asOfTs": "2026-11-17T17:13:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
     "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
     "verdict": "Bullish",
-    "count": "20 of 27 alerts point higher, 6 lower",
-    "text": "20 of 27 alerts point higher, 6 lower.",
+    "count": "20 of 26 alerts point higher, 5 lower",
+    "text": "20 of 26 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "UKMTO: vessel 7 nm north of Khasab in Hormuz hit by a second strike",
@@ -162,12 +162,6 @@
         "confidence": "confirmed",
         "theme": "Market outlook",
         "ts": "2026-11-17T03:02:05+08:00"
-      },
-      {
-        "text": "Goldman sees 2 mb/d surplus in 2027, Brent averaging $88 then $78 by end-2027",
-        "confidence": "confirmed",
-        "theme": "Market outlook",
-        "ts": "2026-11-16T17:21:00+08:00"
       }
     ],
     "neutral": [
