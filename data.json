@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 4:55 pm SGT",
-  "lastScannedTs": "2026-11-17T16:55:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 4:41 pm SGT",
-  "asOfTs": "2026-11-17T16:41:07+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:06 pm SGT",
+  "lastScannedTs": "2026-11-17T17:06:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 5:04 pm SGT",
+  "asOfTs": "2026-11-17T17:04:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Bahrain base strike, Hormuz tanker attacks and mines, and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
-    "lead": "Net read (last 24 hours): Bahrain base strike, Hormuz tanker attacks and mines, and Salavat hit keep geopolitics escalating; Iran-Oman talks and Asian stockpile plan offset.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "18 of 25 alerts point higher, 6 lower",
-    "text": "18 of 25 alerts point higher, 6 lower.",
+    "bottom": "Bahrain base strike, Hormuz tanker attacks, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "lead": "Net read (last 24 hours): Bahrain base strike, Hormuz tanker attacks, Salavat hit and a US Bakken pipeline outage keep risks escalating; Iran-Oman talks and Asian stockpile plan offset.",
+    "verdict": "Bullish",
+    "count": "19 of 26 alerts point higher, 6 lower",
+    "text": "19 of 26 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Enbridge's 475,000 b/d North Dakota Pipeline shut since 14 Nov on crude contamination",
+        "confidence": "confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-17T17:00:56+08:00"
+      },
       {
         "text": "IRGC claims drone strike on US radar at Bahrain's Sheikh Isa base, warns of more",
         "confidence": "confirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:00",
+      "ts": "2026-11-17T17:00:56+08:00",
+      "eventTime": "14 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Enbridge's 475,000 b/d North Dakota Pipeline shut since 14 Nov over organic chloride contamination in Bakken crude, per market sources",
+      "theme": "Pipelines",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo, citing market sources (X)",
+      "url": "https://x.com/staunovo/status/2122615964436922571"
+    },
     {
       "time": "16:35",
       "ts": "2026-11-17T16:35:55+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Unconfirmed",
       "source": "Houthi spokesman Yahya Saree on X, translated from Arabic",
       "url": "https://x.com/Yah_Saree/status/2122035706222776423"
-    },
-    {
-      "time": "01:53",
-      "ts": "2026-11-16T01:53:33+08:00",
-      "eventTime": "1:00 am, 16 Nov (est.)",
-      "eventTs": "2026-11-16T01:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis claim two ballistic missiles fired at King Khalid International Airport and the financial district in Riyadh; Saudi airspace disruption reported",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi spokesman Yahya Saree on X, translated from Arabic",
-      "url": "https://x.com/Yah_Saree/status/2122025225902797088"
     }
   ],
   "sources": [
+    {
+      "title": "Enbridge's 475,000 b/d North Dakota Pipeline shut since 14 Nov on chloride contamination (Giovanni Staunovo)",
+      "site": "X / staunovo",
+      "href": "https://x.com/staunovo/status/2122615964436922571"
+    },
     {
       "title": "Tasnim: Ahvaz explosion sounds were a controlled ammunition destruction operation (Hexagone Intel)",
       "site": "X / osinthexagone",
@@ -2344,10 +2355,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base and Japan floated an 'Asian IEA' stockpile pact; Ahvaz blasts were officially called controlled munitions disposal."
+      "This afternoon the IRGC claimed a drone hit on Bahrain's Sheikh Isa base, Japan floated an 'Asian IEA' stockpile pact, and Enbridge's 475,000 b/d North Dakota pipeline was reported shut."
     ],
-    "updated": "Tue 17 Nov 2026, 4:55 pm SGT",
-    "updatedTs": "2026-11-17T16:55:00+08:00"
+    "updated": "Tue 17 Nov 2026, 5:06 pm SGT",
+    "updatedTs": "2026-11-17T17:06:00+08:00"
   },
   "last24Count": 13
 }
