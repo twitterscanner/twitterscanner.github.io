@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 1:15 pm SGT",
-  "lastScannedTs": "2026-11-17T13:15:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 1:14 pm SGT",
-  "asOfTs": "2026-11-17T13:14:50+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 1:35 pm SGT",
+  "lastScannedTs": "2026-11-17T13:35:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 1:32 pm SGT",
+  "asOfTs": "2026-11-17T13:32:51+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure and a Salavat refinery strike keep risks higher; Iran-Oman talks, Trump restraint offset.",
-    "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure and a Salavat refinery strike keep risks higher; Iran-Oman talks, Trump restraint offset.",
+    "bottom": "Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure, Salavat strike and Kerch Strait blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
+    "lead": "Net read (last 24 hours): Hormuz tanker attacks, mine claims, Iranian threats to Gulf infrastructure, Salavat strike and Kerch Strait blockage keep risks higher; Iran-Oman talks, Trump restraint offset.",
     "verdict": "Bullish",
-    "count": "18 of 23 alerts point higher, 5 lower",
-    "text": "18 of 23 alerts point higher, 5 lower.",
+    "count": "19 of 24 alerts point higher, 5 lower",
+    "text": "19 of 24 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Kerch Bridge span reportedly blocks Kerch Strait ship lane, hitting Azov shipping",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-17T13:31:28+08:00"
+      },
       {
         "text": "Ghalibaf: dams, ports, power plants near US/Israeli bases are 'dual-use'",
         "confidence": "confirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:31",
+      "ts": "2026-11-17T13:31:28+08:00",
+      "eventTime": "Overnight 16-17 Nov; exact time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Collapsed road span of the Crimean (Kerch) Bridge reportedly lies in the Kerch Strait blocking the ship lane, threatening Sea of Azov oil product and cargo shipping",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTtechnical (X)",
+      "url": "https://x.com/Osinttechnical/status/2122563250802114937"
+    },
     {
       "time": "13:08",
       "ts": "2026-11-17T13:08:56+08:00",
@@ -665,22 +684,14 @@
       "confidence": "Confirmed",
       "source": "UKMTO via Open Source Intel on X",
       "url": "https://x.com/Osint613/status/2121954008193532363"
-    },
-    {
-      "time": "21:10",
-      "ts": "2026-11-15T21:10:09+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy claims a supertanker carrying 2M+ barrels of crude sank after hitting a mine on an 'unauthorised' Hormuz route; a second tanker is burning",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy via Iran Nuances on X",
-      "url": "https://x.com/IranNuances/status/2121953906515165331"
     }
   ],
   "sources": [
+    {
+      "title": "Crimean Bridge road span destroyed, lying in Kerch Strait blocking ship lane (OSINTtechnical)",
+      "site": "X / Osinttechnical",
+      "href": "https://x.com/Osinttechnical/status/2122563250802114937"
+    },
     {
       "title": "Ghalibaf: any dam, port or power plant near a US or Israeli base is dual-use",
       "site": "X / mb_ghalibaf",
@@ -2301,10 +2312,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "Iran's parliament speaker warned ports and power plants near US bases are 'dual-use', while Iran and Oman explored resuming negotiations after their foreign ministers met."
+      "Iran's parliament speaker called ports near US bases 'dual-use' as Iran and Oman explored new talks, and the fallen Kerch Bridge span reportedly blocks the strait's ship lane."
     ],
-    "updated": "Tue 17 Nov 2026, 1:15 pm SGT",
-    "updatedTs": "2026-11-17T13:15:00+08:00"
+    "updated": "Tue 17 Nov 2026, 1:35 pm SGT",
+    "updatedTs": "2026-11-17T13:35:00+08:00"
   },
   "last24Count": 13
 }
