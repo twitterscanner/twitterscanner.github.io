@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 17 Nov 2026, 5:36 pm SGT",
-  "lastScannedTs": "2026-11-17T17:36:00+08:00",
-  "asOf": "Tue 17 Nov 2026, 5:34 pm SGT",
-  "asOfTs": "2026-11-17T17:34:50+08:00",
+  "lastScanned": "Tue 17 Nov 2026, 5:38 pm SGT",
+  "lastScannedTs": "2026-11-17T17:38:00+08:00",
+  "asOf": "Tue 17 Nov 2026, 5:38 pm SGT",
+  "asOfTs": "2026-11-17T17:38:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG sinking and a Bakken pipeline outage keep risks escalating; Iraq-Turkey export restart offsets.",
-    "lead": "Net read (last 24 hours): Repeat Khasab tanker strike, Bahrain base attack, Black Sea LPG sinking and a Bakken pipeline outage keep risks escalating; Iraq-Turkey export restart offsets.",
+    "bottom": "New IRGC mine claims, a repeat Khasab tanker strike, Bahrain base attack and Black Sea LPG sinking keep risks escalating; Iraq-Turkey export restart offsets.",
+    "lead": "Net read (last 24 hours): New IRGC mine claims, a repeat Khasab tanker strike, Bahrain base attack and Black Sea LPG sinking keep risks escalating; Iraq-Turkey export restart offsets.",
     "verdict": "Bullish",
-    "count": "21 of 28 alerts point higher, 6 lower",
-    "text": "21 of 28 alerts point higher, 6 lower.",
+    "count": "22 of 29 alerts point higher, 6 lower",
+    "text": "22 of 29 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims an LPG carrier and an oil tanker ablaze in Hormuz after hitting mines",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-17T17:38:15+08:00"
+      },
       {
         "text": "LPG carrier sinks in Black Sea off Bulgaria; drone strike reported, day after nearby cargo ship capsized",
         "confidence": "confirmed",
@@ -190,6 +196,19 @@
     "detail": "Brent futures settled at $92.44/bbl, down $3.40 (-3.55%) on 16 Nov (FirstSquawk / staunovo via X, 3:42 am SGT 17 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:38",
+      "ts": "2026-11-17T17:38:15+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC, via Iranian state media, claims an LPG carrier and an oil tanker are on fire in the Strait of Hormuz after hitting naval mines",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk (citing Iranian state media / IRGC)",
+      "url": "https://x.com/FirstSquawk/status/2122624930764460400"
+    },
     {
       "time": "17:33",
       "ts": "2026-11-17T17:33:06+08:00",
@@ -696,22 +715,14 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel on X, citing Iranian state media (also Al Arabiya, Arab News); vessel not named, no independent confirmation",
       "url": "https://x.com/Osint613/status/2122062504352153653"
-    },
-    {
-      "time": "04:04",
-      "ts": "2026-11-16T04:04:08+08:00",
-      "eventTime": "3:05 am, 16 Nov (est.)",
-      "eventTs": "2026-11-16T03:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran fires four anti-ship cruise missiles from Bandar Lengeh/Kong toward the Strait of Hormuz; US reportedly strikes the launcher",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping on X (launch footage widely shared; US strike unverified)",
-      "url": "https://x.com/AMK_Mapping_/status/2122058088941519133"
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: IRGC says an LPG carrier and an oil tanker are on fire in Hormuz after hitting naval mines (Iranian state media)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2122624930764460400"
+    },
     {
       "title": "Iraq's oil minister: crude export pumping resumes via Iraq-Turkey pipeline, 120,000 b/d initially (First Squawk)",
       "site": "X / FirstSquawk",
@@ -2387,10 +2398,10 @@
     "title": "Today's key developments",
     "lines": [
       "Overnight, UKMTO reported a tanker disabled off Khasab in Hormuz, Iran claimed a fourth tanker hit a mine, and Ukrainian drones reportedly set Russia's Salavat refinery ablaze.",
-      "This afternoon UKMTO reported a second strike on a vessel off Khasab, an LPG carrier sank off Bulgaria, and Iraq restarted crude exports via the Kirkuk-Ceyhan pipeline."
+      "This afternoon UKMTO reported a second strike off Khasab, the IRGC claimed an LPG carrier and a tanker hit mines in Hormuz, and Iraq restarted Kirkuk-Ceyhan exports."
     ],
-    "updated": "Tue 17 Nov 2026, 5:36 pm SGT",
-    "updatedTs": "2026-11-17T17:36:00+08:00"
+    "updated": "Tue 17 Nov 2026, 5:38 pm SGT",
+    "updatedTs": "2026-11-17T17:38:00+08:00"
   },
   "last24Count": 13
 }
