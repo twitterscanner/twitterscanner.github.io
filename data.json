@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 12:05 pm SGT",
-  "lastScannedTs": "2026-11-18T12:05:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 12:03 pm SGT",
-  "asOfTs": "2026-11-18T12:03:21+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 12:25 pm SGT",
+  "lastScannedTs": "2026-11-18T12:25:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 12:22 pm SGT",
+  "asOfTs": "2026-11-18T12:22:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran now openly claims strikes on US bases in Kuwait and Bahrain; with Hormuz tanker hits and Ukrainian refinery strikes, geopolitics keeps escalating.",
-    "lead": "Net read (last 24 hours): Iran now openly claims strikes on US bases in Kuwait and Bahrain; with Hormuz tanker hits and Ukrainian refinery strikes, geopolitics keeps escalating.",
+    "bottom": "Iran openly claims strikes on US bases in Kuwait and Bahrain, Houthis fire at Riyadh again, and Hormuz tanker hits continue: geopolitics keeps escalating.",
+    "lead": "Net read (last 24 hours): Iran openly claims strikes on US bases in Kuwait and Bahrain, Houthis fire at Riyadh again, and Hormuz tanker hits continue: geopolitics keeps escalating.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 6 lower",
-    "text": "24 of 31 alerts point higher, 6 lower.",
+    "count": "25 of 32 alerts point higher, 6 lower",
+    "text": "25 of 32 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Saudi-led coalition intercepts a Houthi cruise missile fired toward Riyadh",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-18T12:21:00+08:00"
+      },
       {
         "text": "Iran's Army claims dawn drone strike on US Patriots at Kuwait's Ali Al Salem base",
         "confidence": "confirmed",
@@ -208,6 +214,19 @@
     "detail": "Brent settled at $93.14/bbl on 17 Nov, per oil analyst post on X (posted 3:51 am SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:21",
+      "ts": "2026-11-18T12:21:00+08:00",
+      "eventTime": "announced ~12:21 pm SGT, 18 Nov",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says it intercepted and destroyed a Houthi cruise missile fired toward the Riyadh region",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Press Agency (coalition spokesman); also First Squawk, Al Arabiya",
+      "url": "https://x.com/SPAregions/status/2122907964155523415"
+    },
     {
       "time": "11:59",
       "ts": "2026-11-18T11:59:00+08:00",
@@ -714,19 +733,6 @@
       "confidence": "Unconfirmed",
       "source": "zerohedge (X), citing a media report",
       "url": "https://x.com/zerohedge/status/2122399416782925886"
-    },
-    {
-      "time": "03:02",
-      "ts": "2026-11-17T03:02:06+08:00",
-      "eventTime": "2:05 am, 17 Nov (est.)",
-      "eventTs": "2026-11-17T02:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "Multiple reports of at least three explosions in the Strait of Hormuz, per Al Mihwar News; some accounts claim anti-ship missiles were fired; cause and targets unknown",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Al Mihwar News via Wladimir van Wilgenburg (X); other OSINT accounts",
-      "url": "https://x.com/vvanwilgenburg/status/2122396610306912463"
     }
   ],
   "sources": [
@@ -2524,16 +2530,21 @@
       "title": "Iran claims strike on US facilities at Ali Al Salem base, Kuwait (state media)",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2122902478333300844"
+    },
+    {
+      "title": "Coalition intercepts Houthi cruise missile toward Riyadh (SPA)",
+      "site": "x.com",
+      "href": "https://x.com/SPAregions/status/2122907964155523415"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Iran widened attacks this morning: Kuwait responded to Iranian drones around 5:40 am SGT, Bahrain issued shelter alerts near 7:06 and 8:50 am, and Iran's Army claimed a strike on Kuwait's Ali Al Salem base.",
-      "Ukraine also struck Russian energy again, with an unconfirmed mass drone attack on the Ilsky refinery in Krasnodar Krai reported around 11 am SGT."
+      "The Saudi-led coalition intercepted a Houthi cruise missile aimed at Riyadh around 12:20 pm SGT, and an unconfirmed Ukrainian drone attack hit Russia's Ilsky refinery."
     ],
-    "updated": "Wed 18 Nov 2026, 12:05 pm SGT",
-    "updatedTs": "2026-11-18T12:05:00+08:00"
+    "updated": "Wed 18 Nov 2026, 12:25 pm SGT",
+    "updatedTs": "2026-11-18T12:25:00+08:00"
   },
   "last24Count": 13
 }
