@@ -1,8 +1,8 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 1:05 am SGT",
-  "lastScannedTs": "2026-11-19T01:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 12:28 am SGT",
-  "asOfTs": "2026-11-19T00:28:31+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 1:46 am SGT",
+  "lastScannedTs": "2026-11-19T01:46:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 1:46 am SGT",
+  "asOfTs": "2026-11-19T01:46:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating.",
@@ -11,6 +11,12 @@
     "count": "21 of 22 alerts point higher, 1 lower",
     "text": "21 of 22 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "US Embassy in Saudi Arabia warns Houthi attack threat is rising",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T01:46:00+08:00"
+      },
       {
         "text": "UKMTO/JMIC blockade update keeps Gulf threat SEVERE, covers STS cargo from Iran",
         "confidence": "confirmed",
@@ -130,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-18T05:01:39+08:00"
-      },
-      {
-        "text": "Houthis claim drone hits on East-West pipeline pumping stations 8 and 9 near Riyadh",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-18T01:39:19+08:00"
       }
     ],
     "dovish": [
@@ -153,6 +153,19 @@
     "detail": "Brent down 1.5% to about $89.01/bbl, WTI $82.95 (market post on X, 12:33 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "01:46",
+      "ts": "2026-11-19T01:46:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "US Embassy in Saudi Arabia issues security alert warning the threat of armed attacks by Iranian-backed Houthis is rising; Americans across the Middle East urged to be vigilant",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "US Embassy Riyadh security alert, via Open Source Intel (Osint613)",
+      "url": "https://x.com/Osint613/status/2123110090869768220"
+    },
     {
       "time": "00:28",
       "ts": "2026-11-19T00:28:00+08:00",
@@ -659,22 +672,14 @@
       "confidence": "Confirmed",
       "source": "Giovanni Staunovo, citing market sources (X)",
       "url": "https://x.com/staunovo/status/2122615964436922571"
-    },
-    {
-      "time": "16:35",
-      "ts": "2026-11-17T16:35:55+08:00",
-      "eventTime": "4:34 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T16:34:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions heard across Ahvaz, Iran's Khuzestan oil hub; Khuzestan deputy governor says they were a controlled munitions-destruction operation (Tasnim)",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "AMK Mapping; Tasnim via Hexagone Intel (X)",
-      "url": "https://x.com/AMK_Mapping_/status/2122609667172098246"
     }
   ],
   "sources": [
+    {
+      "title": "US Embassy in Saudi Arabia security alert: rising Houthi attack threat",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2123110090869768220"
+    },
     {
       "title": "JMIC Advisory 017-26 (Blockade Update): threat SEVERE, STS cargo from Iran-loaded vessels covered",
       "site": "X / UK_MTO",
@@ -2549,11 +2554,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight SGT the Saudi-led coalition said it destroyed two Houthi drones over Riyadh and the south, and UKMTO kept the Gulf and Hormuz threat level at severe.",
-      "The new JMIC blockade update extends US blockade enforcement to ships taking ship-to-ship cargo from Iran-loaded vessels, after a late-18 Nov Bandar Abbas blast was called munitions disposal."
+      "Just after midnight SGT the Saudi-led coalition destroyed two Houthi drones over Riyadh, and the US Embassy in Saudi Arabia warned the Houthi attack threat is rising.",
+      "UKMTO kept the Gulf and Hormuz threat level severe and extended US blockade enforcement to ships taking ship-to-ship cargo from Iran-loaded vessels."
     ],
-    "updated": "Thu 19 Nov 2026, 12:28 am SGT",
-    "updatedTs": "2026-11-19T00:28:00+08:00"
+    "updated": "Thu 19 Nov 2026, 1:46 am SGT",
+    "updatedTs": "2026-11-19T01:46:00+08:00"
   },
   "last24Count": 13
 }
