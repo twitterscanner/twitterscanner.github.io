@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 5:20 pm SGT",
-  "lastScannedTs": "2026-11-18T17:20:12+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 5:37 pm SGT",
+  "lastScannedTs": "2026-11-18T17:37:07+08:00",
   "asOf": "Wed 18 Nov 2026, 4:40 pm SGT",
   "asOfTs": "2026-11-18T16:40:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran-US exchanges in Kuwait and Bahrain, a Riyadh explosion after Houthi fire, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, a Riyadh explosion after Houthi fire, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "21 of 25 alerts point higher, 4 lower",
-    "text": "21 of 25 alerts point higher, 4 lower.",
+    "count": "21 of 24 alerts point higher, 3 lower",
+    "text": "21 of 24 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "AFP: explosion heard in northern Riyadh, cause not given",
@@ -156,12 +156,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-17T18:13:35+08:00"
-      },
-      {
-        "text": "Iraq resumes crude exports via Kirkuk-Ceyhan pipeline, 120,000 b/d initially",
-        "confidence": "confirmed",
-        "theme": "Iraq",
-        "ts": "2026-11-17T17:33:06+08:00"
       }
     ],
     "neutral": []
