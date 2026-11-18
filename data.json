@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 8:02 pm SGT",
-  "lastScannedTs": "2026-11-18T20:02:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 6:45 pm SGT",
-  "asOfTs": "2026-11-18T18:45:32+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 8:28 pm SGT",
+  "lastScannedTs": "2026-11-18T20:28:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 8:28 pm SGT",
+  "asOfTs": "2026-11-18T20:28:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges in Kuwait and Bahrain, fresh Hormuz tanker hits, repeated Houthi missiles at Riyadh and Russian refinery strikes keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, fresh Hormuz tanker hits, repeated Houthi missiles at Riyadh and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "20 of 20 alerts point higher, 0 lower",
-    "text": "20 of 20 alerts point higher, 0 lower.",
+    "count": "21 of 21 alerts point higher, 0 lower",
+    "text": "21 of 21 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Crude tanker NAVIG8 MESSI hit by projectile near Hormuz; crew safe",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T20:28:00+08:00"
+      },
       {
         "text": "Iran's Army claims it shot down a US MQ-9 Reaper drone east of Hormuz",
         "confidence": "unconfirmed",
@@ -140,6 +146,19 @@
     "detail": "Brent futures extend losses, down over $1 to touch $91.83/bbl intraday (wire headline on X, 2:55 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:28",
+      "ts": "2026-11-18T20:28:00+08:00",
+      "eventTime": "18 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Liberia-flagged crude tanker NAVIG8 MESSI hit by a projectile in the Persian Gulf approaching the Strait of Hormuz; all crew safe",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "India's shipping minister Sarbananda Sonowal; also Martin Kelly",
+      "url": "https://x.com/sarbanandsonwal/status/2123029441249149404"
+    },
     {
       "time": "18:47",
       "ts": "2026-11-18T18:47:00+08:00",
@@ -646,22 +665,14 @@
       "confidence": "Confirmed",
       "source": "Ukraine General Staff (X); first reported by AMK Mapping",
       "url": "https://x.com/GeneralStaffUA/status/2122646023591936011"
-    },
-    {
-      "time": "08:02",
-      "ts": "2026-11-17T08:02:26+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "CNN, citing seven US officials: US intelligence indicates Iran is drawing up plans to target Trump officials in Washington, possibly with a dirty bomb or chemical attack; no attack seen as imminent",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk (X), citing CNN; also LiveSquawk, Open Source Intel",
-      "url": "https://x.com/FirstSquawk/status/2122467397429022950"
     }
   ],
   "sources": [
+    {
+      "title": "India's shipping minister: crude tanker NAVIG8 MESSI hit by projectile near the Strait of Hormuz",
+      "site": "X / sarbanandsonwal",
+      "href": "https://x.com/sarbanandsonwal/status/2123029441249149404"
+    },
     {
       "title": "Iranian Army claims US MQ-9 Reaper downed east of the Strait of Hormuz",
       "site": "X / AMK_Mapping_",
@@ -2491,11 +2502,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, ADNOC L&S confirmed a vessel attack in Hormuz, and Iran's Army claimed a US MQ-9 downed this evening.",
-      "The coalition intercepted Houthi cruise missiles aimed at Riyadh around 12:20 pm and again near 5:05 pm SGT, while AFP reported an explosion in northern Riyadh around 4:13 pm."
+      "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, ADNOC L&S confirmed a vessel attack in Hormuz, and India said crude tanker NAVIG8 MESSI was hit near Hormuz.",
+      "The coalition intercepted Houthi cruise missiles aimed at Riyadh around 12:20 pm and again near 5:05 pm SGT, while Iran's Army claimed it downed a US MQ-9 drone this evening."
     ],
-    "updated": "Wed 18 Nov 2026, 6:47 pm SGT",
-    "updatedTs": "2026-11-18T18:47:00+08:00"
+    "updated": "Wed 18 Nov 2026, 8:28 pm SGT",
+    "updatedTs": "2026-11-18T20:28:00+08:00"
   },
   "last24Count": 13
 }
