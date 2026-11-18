@@ -8,8 +8,8 @@
     "bottom": "Iran-US exchanges in Kuwait and Bahrain, a Riyadh explosion after Houthi fire, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, a Riyadh explosion after Houthi fire, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "22 of 26 alerts point higher, 4 lower",
-    "text": "22 of 26 alerts point higher, 4 lower.",
+    "count": "21 of 25 alerts point higher, 4 lower",
+    "text": "21 of 25 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "AFP: explosion heard in northern Riyadh, cause not given",
@@ -136,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-17T17:38:15+08:00"
-      },
-      {
-        "text": "LPG carrier sinks in Black Sea off Bulgaria; drone strike reported, day after nearby cargo ship capsized",
-        "confidence": "confirmed",
-        "theme": "Tankers",
-        "ts": "2026-11-17T17:20:02+08:00"
       }
     ],
     "dovish": [
