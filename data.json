@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 6:05 am SGT",
-  "lastScannedTs": "2026-11-19T06:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 6:05 am SGT",
-  "asOfTs": "2026-11-19T06:05:23+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 7:06 am SGT",
+  "lastScannedTs": "2026-11-19T07:06:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 7:06 am SGT",
+  "asOfTs": "2026-11-19T07:06:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Hormuz tanker mine claims, a renewed Houthi wave on Saudi targets, a tighter US blockade and US-Israeli Iran strike signals keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Hormuz tanker mine claims, a renewed Houthi wave on Saudi targets, a tighter US blockade and US-Israeli Iran strike signals keep geopolitics escalating.",
+    "bottom": "A new UKMTO-confirmed tanker strike off Khasab, Hormuz mine claims, Houthi waves on Saudi targets and US-Israeli Iran strike signals keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): A new UKMTO-confirmed tanker strike off Khasab, Hormuz mine claims, Houthi waves on Saudi targets and US-Israeli Iran strike signals keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "24 of 25 alerts point higher, 1 lower",
-    "text": "24 of 25 alerts point higher, 1 lower.",
+    "count": "25 of 26 alerts point higher, 1 lower",
+    "text": "25 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: outbound tanker hit by projectile in engine room north of Khasab, Hormuz",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-19T06:23:52+08:00"
+      },
       {
         "text": "Fresh early-warning sirens in Abha and Khamis Mushait, airspace disruption over Riyadh",
         "confidence": "unconfirmed",
@@ -171,6 +177,19 @@
     "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "06:23",
+      "ts": "2026-11-19T06:23:52+08:00",
+      "eventTime": "12:45 am, 19 Nov",
+      "eventTs": "2026-11-19T00:45:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO 212/26: outbound tanker struck in engine room by unknown projectile 6 nm north of Khasab, Oman, in the Strait of Hormuz; crew safe",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO warning via Post Open Source; widely reposted",
+      "url": "https://x.com/CocoPostel/status/2123180417385705700"
+    },
     {
       "time": "05:56",
       "ts": "2026-11-19T05:56:25+08:00",
@@ -677,22 +696,14 @@
       "confidence": "Confirmed",
       "source": "UKMTO via FinancialJuice (X); also CGTN Europe",
       "url": "https://x.com/financialjuice/status/2122647990083137823"
-    },
-    {
-      "time": "18:13",
-      "ts": "2026-11-17T18:13:35+08:00",
-      "eventTime": "6:13 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T18:13:00+08:00",
-      "eventQual": "est.",
-      "headline": "Qatar says its mediation between the US and Iran is still ongoing, with a meeting with Iran to be held today",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk (citing Qatar)",
-      "url": "https://x.com/FirstSquawk/status/2122634244170359073"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO 212/26: tanker struck in engine room north of Khasab, Strait of Hormuz",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2123180417385705700"
+    },
     {
       "title": "Early-warning sirens in Abha and Khamis Mushait, Riyadh airspace disruption",
       "site": "X / MenchOsint",
@@ -2597,11 +2608,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's Army said three tankers hit naval mines east of the Strait of Hormuz and caught fire, while the Houthis claimed missile strikes on Riyadh, Jizan and Khamis Mushait.",
-      "Around 5:50 am SGT fresh sirens sounded in Abha and Khamis Mushait with Riyadh airspace disrupted, as Israeli reports say Trump awaits a full buildup before deciding on Iran strikes."
+      "UKMTO confirmed an outbound tanker was hit in its engine room by a projectile off Khasab in Hormuz, after Iran's Army said three tankers hit mines there.",
+      "The Houthis claimed missile strikes on Riyadh, Jizan and Khamis Mushait with fresh sirens in Abha, as Israeli reports say Trump awaits a full buildup before deciding on Iran."
     ],
-    "updated": "Thu 19 Nov 2026, 6:05 am SGT",
-    "updatedTs": "2026-11-19T06:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 7:06 am SGT",
+    "updatedTs": "2026-11-19T07:06:00+08:00"
   },
   "last24Count": 13
 }
