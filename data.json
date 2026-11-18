@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 9:10 pm SGT",
-  "lastScannedTs": "2026-11-18T21:10:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 8:28 pm SGT",
-  "asOfTs": "2026-11-18T20:28:15+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 9:32 pm SGT",
+  "lastScannedTs": "2026-11-18T21:32:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 9:32 pm SGT",
+  "asOfTs": "2026-11-18T21:32:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges in Kuwait and Bahrain, fresh Hormuz tanker hits, repeated Houthi missiles at Riyadh and Russian refinery strikes keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, fresh Hormuz tanker hits, repeated Houthi missiles at Riyadh and Russian refinery strikes keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges in Kuwait and Bahrain, Hormuz tanker hits, Houthi missiles at Riyadh amid a long Saudi war, and Russian refinery strikes keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, Hormuz tanker hits, Houthi missiles at Riyadh amid a long Saudi war, and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "18 of 18 alerts point higher, 0 lower",
-    "text": "18 of 18 alerts point higher, 0 lower.",
+    "count": "19 of 19 alerts point higher, 0 lower",
+    "text": "19 of 19 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Reuters: Saudi Arabia expects its Houthi war to run well into 2027",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-18T21:32:00+08:00"
+      },
       {
         "text": "Crude tanker NAVIG8 MESSI hit by projectile near Hormuz; crew safe",
         "confidence": "confirmed",
@@ -128,6 +134,19 @@
     "detail": "Brent futures extend losses, down over $1 to touch $91.83/bbl intraday (wire headline on X, 2:55 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:32",
+      "ts": "2026-11-18T21:32:00+08:00",
+      "eventTime": "Not stated (report published about 9:05 pm SGT, 18 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Reuters: Saudi Arabia sees its war with the Houthis extending well into 2027 and wants allies to make battlefield gains in Yemen before any talks, Western officials say",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Reuters citing Western officials, via FirstSquawk; also LiveSquawk",
+      "url": "https://x.com/FirstSquawk/status/2123040989497696480"
+    },
     {
       "time": "20:28",
       "ts": "2026-11-18T20:28:00+08:00",
@@ -634,22 +653,14 @@
       "confidence": "Unconfirmed",
       "source": "Honar-e Jang (X, Persian)",
       "url": "https://x.com/dolfiniran/status/2122526806456533162"
-    },
-    {
-      "time": "11:00",
-      "ts": "2026-11-17T11:00:03+08:00",
-      "eventTime": "Overnight 16-17 Nov (est.)",
-      "eventTs": "2026-11-17T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukraine's General Staff confirms its forces hit the Gazprom Neftekhim Salavat refinery and petrochemical complex in Bashkortostan, Russia, overnight; explosions and fire reported",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Ukraine General Staff (X); first reported by AMK Mapping",
-      "url": "https://x.com/GeneralStaffUA/status/2122646023591936011"
     }
   ],
   "sources": [
+    {
+      "title": "Reuters via FirstSquawk: Saudi Arabia sees war with Houthis extending well into 2027",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2123040989497696480"
+    },
     {
       "title": "India's shipping minister: crude tanker NAVIG8 MESSI hit by projectile near the Strait of Hormuz",
       "site": "X / sarbanandsonwal",
@@ -2485,10 +2496,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, ADNOC L&S confirmed a vessel attack in Hormuz, and India said crude tanker NAVIG8 MESSI was hit near Hormuz.",
-      "The coalition intercepted Houthi cruise missiles aimed at Riyadh around 12:20 pm and again near 5:05 pm SGT, while Iran's Army claimed it downed a US MQ-9 drone this evening."
+      "The coalition intercepted Houthi cruise missiles aimed at Riyadh twice, and Reuters reported this evening that Saudi Arabia expects its Houthi war to run well into 2027."
     ],
-    "updated": "Wed 18 Nov 2026, 8:28 pm SGT",
-    "updatedTs": "2026-11-18T20:28:00+08:00"
+    "updated": "Wed 18 Nov 2026, 9:32 pm SGT",
+    "updatedTs": "2026-11-18T21:32:00+08:00"
   },
   "last24Count": 13
 }
