@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 10:00 pm SGT",
-  "lastScannedTs": "2026-11-18T22:00:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 9:32 pm SGT",
-  "asOfTs": "2026-11-18T21:32:33+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 10:14 pm SGT",
+  "lastScannedTs": "2026-11-18T22:14:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 10:14 pm SGT",
+  "asOfTs": "2026-11-18T22:14:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges in Kuwait and Bahrain, Hormuz tanker hits, Houthi missiles at Riyadh amid a long Saudi war, and Russian refinery strikes keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, Hormuz tanker hits, Houthi missiles at Riyadh amid a long Saudi war, and Russian refinery strikes keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges in the Gulf, Hormuz tanker hits, Houthi missiles at Riyadh, a possible Israeli strike on Iran and Russian refinery hits keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges in the Gulf, Hormuz tanker hits, Houthi missiles at Riyadh, a possible Israeli strike on Iran and Russian refinery hits keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "18 of 18 alerts point higher, 0 lower",
-    "text": "18 of 18 alerts point higher, 0 lower.",
+    "count": "19 of 19 alerts point higher, 0 lower",
+    "text": "19 of 19 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Haaretz: Israel preparing a possible new strike on Iran, seeking US backing",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T22:14:00+08:00"
+      },
       {
         "text": "Reuters: Saudi Arabia expects its Houthi war to run well into 2027",
         "confidence": "confirmed",
@@ -128,6 +134,19 @@
     "detail": "Brent around $91.60/bbl in US pre-market (market-flow post on X, 9:56 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:14",
+      "ts": "2026-11-18T22:14:00+08:00",
+      "eventTime": "Not stated (report published about 10:05 pm SGT, 18 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Haaretz: Israel is preparing for a possible new strike on Iran in the coming days and seeking direct US backing, after CENTCOM chief Cooper met IDF chief Zamir in Tel Aviv",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Haaretz report, relayed by HormuzReport; also cyrifcom, WorldConflict_X",
+      "url": "https://x.com/HormuzReport/status/2123055947883176374"
+    },
     {
       "time": "21:32",
       "ts": "2026-11-18T21:32:00+08:00",
@@ -634,22 +653,14 @@
       "confidence": "Confirmed",
       "source": "Mohammad Bagher Ghalibaf (Iran parliament speaker) on X",
       "url": "https://x.com/mb_ghalibaf/status/2122556761442058610"
-    },
-    {
-      "time": "11:06",
-      "ts": "2026-11-17T11:06:39+08:00",
-      "eventTime": "Ongoing; not stated (post stamped 11:05 am SGT, 17 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Persian-language OSINT account reports intensified mine-laying on the southern route of the Strait of Hormuz (translated from Persian)",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Honar-e Jang (X, Persian)",
-      "url": "https://x.com/dolfiniran/status/2122526806456533162"
     }
   ],
   "sources": [
+    {
+      "title": "Haaretz via HormuzReport: Israel preparing possible new strike on Iran, seeking US backing",
+      "site": "X / HormuzReport",
+      "href": "https://x.com/HormuzReport/status/2123055947883176374"
+    },
     {
       "title": "Reuters via FirstSquawk: Saudi Arabia sees war with Houthis extending well into 2027",
       "site": "X / FirstSquawk",
@@ -2490,10 +2501,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, ADNOC L&S confirmed a vessel attack in Hormuz, and India said crude tanker NAVIG8 MESSI was hit near Hormuz.",
-      "The coalition intercepted Houthi cruise missiles aimed at Riyadh twice, and Reuters reported this evening that Saudi Arabia expects its Houthi war to run well into 2027."
+      "Houthi missiles at Riyadh were intercepted twice, Reuters said Saudi expects the Houthi war to run into 2027, and Haaretz reported Israel is preparing a possible new strike on Iran."
     ],
-    "updated": "Wed 18 Nov 2026, 9:32 pm SGT",
-    "updatedTs": "2026-11-18T21:32:00+08:00"
+    "updated": "Wed 18 Nov 2026, 10:14 pm SGT",
+    "updatedTs": "2026-11-18T22:14:00+08:00"
   },
   "last24Count": 13
 }
