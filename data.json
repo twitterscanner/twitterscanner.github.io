@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 11:06 pm SGT",
-  "lastScannedTs": "2026-11-18T23:06:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 10:45 pm SGT",
-  "asOfTs": "2026-11-18T22:45:25+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 11:24 pm SGT",
+  "lastScannedTs": "2026-11-18T23:24:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 11:24 pm SGT",
+  "asOfTs": "2026-11-18T23:24:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges, a reported US strike at Bandar Abbas, Hormuz tanker hits, Houthi missiles at Riyadh and a possible Israeli strike keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges, a reported US strike at Bandar Abbas, Hormuz tanker hits, Houthi missiles at Riyadh and a possible Israeli strike keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges, a reported US strike at Bandar Abbas, Hormuz tanker hits, Houthi missiles at Riyadh and deep Russian refining cuts keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges, a reported US strike at Bandar Abbas, Hormuz tanker hits, Houthi missiles at Riyadh and deep Russian refining cuts keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "19 of 19 alerts point higher, 0 lower",
-    "text": "19 of 19 alerts point higher, 0 lower.",
+    "count": "20 of 20 alerts point higher, 0 lower",
+    "text": "20 of 20 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Reuters: drone strikes have cut Russian refinery runs about 45% since late October",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-18T23:24:00+08:00"
+      },
       {
         "text": "Iranian reports blame Bandar Abbas explosions on a US strike on the port",
         "confidence": "unconfirmed",
@@ -134,6 +140,19 @@
     "detail": "Brent around $91.60/bbl in US pre-market (market-flow post on X, 9:56 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:24",
+      "ts": "2026-11-18T23:24:00+08:00",
+      "eventTime": "Not stated (cumulative since late Oct; reported about 11:15 pm SGT, 18 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Reuters: Ukrainian drone strikes have cut combined crude processing at Russian refineries by about 45% since late October, sources estimate",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Reuters sources estimate, via PiQ Markets",
+      "url": "https://x.com/PiQMarkets/status/2123072549021978660"
+    },
     {
       "time": "22:45",
       "ts": "2026-11-18T22:45:00+08:00",
@@ -640,22 +659,14 @@
       "confidence": "Confirmed",
       "source": "Arab News (X); also OSINTdefender, OSINTtechnical",
       "url": "https://x.com/arabnews/status/2122585434391736550"
-    },
-    {
-      "time": "13:31",
-      "ts": "2026-11-17T13:31:28+08:00",
-      "eventTime": "Overnight 16-17 Nov; exact time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Collapsed road span of the Crimean (Kerch) Bridge reportedly lies in the Kerch Strait blocking the ship lane, threatening Sea of Azov oil product and cargo shipping",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical (X)",
-      "url": "https://x.com/Osinttechnical/status/2122563250802114937"
     }
   ],
   "sources": [
+    {
+      "title": "Reuters via PiQ: drone strikes cut Russian refinery processing 45% since late October",
+      "site": "X / PiQMarkets",
+      "href": "https://x.com/PiQMarkets/status/2123072549021978660"
+    },
     {
       "title": "Iranian reports: US strike on Bandar Abbas port",
       "site": "X / EliAfriatISR",
@@ -2510,11 +2521,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, ADNOC L&S confirmed a vessel attack in Hormuz, and India said crude tanker NAVIG8 MESSI was hit near Hormuz.",
-      "Houthi missiles at Riyadh were intercepted twice, Haaretz reported Israel is preparing a possible Iran strike, and Iranian reports blamed a US strike for explosions at Bandar Abbas tonight."
+      "Iran widened attacks today: Kuwait responded to Iranian drones, ADNOC L&S confirmed a vessel attack in Hormuz, and Iranian reports blamed a US strike for explosions at Bandar Abbas tonight.",
+      "Houthi missiles at Riyadh were intercepted twice, Haaretz reported Israel is weighing a new Iran strike, and Reuters said drone strikes have cut Russian refining about 45%."
     ],
-    "updated": "Wed 18 Nov 2026, 10:45 pm SGT",
-    "updatedTs": "2026-11-18T22:45:00+08:00"
+    "updated": "Wed 18 Nov 2026, 11:24 pm SGT",
+    "updatedTs": "2026-11-18T23:24:00+08:00"
   },
   "last24Count": 13
 }
