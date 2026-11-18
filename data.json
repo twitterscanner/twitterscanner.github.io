@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 1:08 pm SGT",
-  "lastScannedTs": "2026-11-18T13:08:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 1:13 pm SGT",
+  "lastScannedTs": "2026-11-18T13:13:00+08:00",
   "asOf": "Wed 18 Nov 2026, 12:22 pm SGT",
   "asOfTs": "2026-11-18T12:22:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran openly claims strikes on US bases in Kuwait and Bahrain, Houthis fire at Riyadh again, and Hormuz tanker hits continue: geopolitics keeps escalating.",
     "lead": "Net read (last 24 hours): Iran openly claims strikes on US bases in Kuwait and Bahrain, Houthis fire at Riyadh again, and Hormuz tanker hits continue: geopolitics keeps escalating.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 6 lower",
-    "text": "24 of 31 alerts point higher, 6 lower.",
+    "count": "24 of 30 alerts point higher, 5 lower",
+    "text": "24 of 30 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Saudi-led coalition intercepts a Houthi cruise missile fired toward Riyadh",
@@ -186,12 +186,6 @@
         "confidence": "confirmed",
         "theme": "Strategic reserves",
         "ts": "2026-11-17T15:18:36+08:00"
-      },
-      {
-        "text": "Iran and Oman look to revive diplomatic channels, resume negotiations",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-17T13:08:56+08:00"
       }
     ],
     "neutral": [
