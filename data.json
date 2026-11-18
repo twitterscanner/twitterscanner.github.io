@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 5:59 pm SGT",
-  "lastScannedTs": "2026-11-18T17:59:57+08:00",
-  "asOf": "Wed 18 Nov 2026, 4:40 pm SGT",
-  "asOfTs": "2026-11-18T16:40:26+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 6:01 pm SGT",
+  "lastScannedTs": "2026-11-18T18:01:14+08:00",
+  "asOf": "Wed 18 Nov 2026, 6:00 pm SGT",
+  "asOfTs": "2026-11-18T18:00:59+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges in Kuwait and Bahrain, a Riyadh explosion after Houthi fire, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, a Riyadh explosion after Houthi fire, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "20 of 23 alerts point higher, 3 lower",
-    "text": "20 of 23 alerts point higher, 3 lower.",
+    "count": "21 of 24 alerts point higher, 3 lower",
+    "text": "21 of 24 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Saudi-led coalition intercepts a second Houthi cruise missile aimed at Riyadh in a day",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-18T18:01:00+08:00"
+      },
       {
         "text": "AFP: explosion heard in northern Riyadh, cause not given",
         "confidence": "confirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent futures extend losses, down over $1 to touch $91.83/bbl intraday (wire headline on X, 2:55 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:01",
+      "ts": "2026-11-18T18:01:00+08:00",
+      "eventTime": "5:05 pm, 18 Nov (est.)",
+      "eventTs": "2026-11-18T17:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition intercepts a second Houthi cruise missile aimed at Riyadh in a day; Civil Defence alerts in Jazan, Najran and Khamis Mushait",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Al Arabiya English; coalition statement",
+      "url": "https://x.com/AlArabiya_Eng/status/2122980608909443382"
+    },
     {
       "time": "16:34",
       "ts": "2026-11-18T16:34:00+08:00",
@@ -665,19 +684,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO notice via Al Jazeera English; also Open Source Intel, Middle East Eye",
       "url": "https://x.com/AJEnglish/status/2122448010437394806"
-    },
-    {
-      "time": "05:04",
-      "ts": "2026-11-17T05:04:30+08:00",
-      "eventTime": "4:45 am, 17 Nov (est.)",
-      "eventTs": "2026-11-17T04:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "Several explosions reported in Sirik on Iran's Gulf of Oman coast near Hormuz; unclear whether US strikes or Iranian anti-ship missiles fired at vessels",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (X)",
-      "url": "https://x.com/CocoPostel/status/2122432725181448624"
     }
   ],
   "sources": [
@@ -2495,16 +2501,21 @@
       "title": "AFP: explosion heard in northern Riyadh (Euronews Arabic)",
       "site": "x.com",
       "href": "https://x.com/euronewsar/status/2122971712832876665"
+    },
+    {
+      "title": "Coalition intercepts second Houthi cruise missile toward Riyadh (Al Arabiya)",
+      "site": "x.com",
+      "href": "https://x.com/AlArabiya_Eng/status/2122980608909443382"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran widened attacks this morning: Kuwait responded to Iranian drones around 5:40 am SGT, Bahrain issued shelter alerts, and Iran's Army claimed a strike on Kuwait's Ali Al Salem base.",
-      "The coalition intercepted a Houthi cruise missile aimed at Riyadh around 12:20 pm SGT, AFP reported an explosion in northern Riyadh near 4:13 pm, and ADNOC L&S confirmed a vessel attack in Hormuz."
+      "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, Bahrain issued shelter alerts, and ADNOC L&S confirmed one of its vessels was attacked in Hormuz.",
+      "The coalition intercepted Houthi cruise missiles aimed at Riyadh around 12:20 pm and again near 5:05 pm SGT, while AFP reported an explosion in northern Riyadh around 4:13 pm."
     ],
-    "updated": "Wed 18 Nov 2026, 4:40 pm SGT",
-    "updatedTs": "2026-11-18T16:40:00+08:00"
+    "updated": "Wed 18 Nov 2026, 6:01 pm SGT",
+    "updatedTs": "2026-11-18T18:01:14+08:00"
   },
   "last24Count": 13
 }
