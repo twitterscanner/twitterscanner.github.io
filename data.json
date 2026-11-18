@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 12:08 am SGT",
-  "lastScannedTs": "2026-11-19T00:08:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 12:08 am SGT",
-  "asOfTs": "2026-11-19T00:08:47+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 12:28 am SGT",
+  "lastScannedTs": "2026-11-19T00:28:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 12:28 am SGT",
+  "asOfTs": "2026-11-19T00:28:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges, Hormuz tanker hits, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating; the Bandar Abbas blast was reportedly not an attack.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating; the Bandar Abbas blast was reportedly not an attack.",
+    "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "20 of 21 alerts point higher, 1 lower",
-    "text": "20 of 21 alerts point higher, 1 lower.",
+    "count": "21 of 22 alerts point higher, 1 lower",
+    "text": "21 of 22 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO/JMIC blockade update keeps Gulf threat SEVERE, covers STS cargo from Iran",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T00:28:00+08:00"
+      },
       {
         "text": "Coalition destroys two Houthi drones over Riyadh and the south; Sharurah warning",
         "confidence": "confirmed",
@@ -147,6 +153,19 @@
     "detail": "Brent around $91.60/bbl in US pre-market (market-flow post on X, 9:56 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:28",
+      "ts": "2026-11-19T00:28:00+08:00",
+      "eventTime": "12:13 am, 19 Nov",
+      "eventTs": "2026-11-19T00:13:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO/JMIC blockade update keeps Gulf and Hormuz threat SEVERE; ships taking ship-to-ship cargo from Iran-loaded vessels fall under the US blockade",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO (JMIC Advisory 017-26); also sentdefender",
+      "url": "https://x.com/UK_MTO/status/2123087225411809593"
+    },
     {
       "time": "00:08",
       "ts": "2026-11-19T00:08:00+08:00",
@@ -653,22 +672,14 @@
       "confidence": "Confirmed",
       "source": "AMK Mapping; Tasnim via Hexagone Intel (X)",
       "url": "https://x.com/AMK_Mapping_/status/2122609667172098246"
-    },
-    {
-      "time": "15:18",
-      "ts": "2026-11-17T15:18:36+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Japan proposes an 'Asian IEA' to jointly manage oil stockpiles across Asia as Hormuz disruption persists, per the FT",
-      "theme": "Strategic reserves",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Financial Times (X)",
-      "url": "https://x.com/FT/status/2122590211678888039"
     }
   ],
   "sources": [
+    {
+      "title": "JMIC Advisory 017-26 (Blockade Update): threat SEVERE, STS cargo from Iran-loaded vessels covered",
+      "site": "X / UK_MTO",
+      "href": "https://x.com/UK_MTO/status/2123087225411809593"
+    },
     {
       "title": "Coalition: two Houthi drones intercepted over Riyadh and the southern region",
       "site": "X / Osint613",
@@ -2538,11 +2549,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight SGT the Saudi-led coalition said it destroyed two Houthi drones over Riyadh and the south, as Civil Defense warned of danger in Sharurah.",
-      "Late on 18 Nov, Iranian officials said a Bandar Abbas blast was munitions disposal, not a US strike, and Reuters said drone strikes have cut Russian refining about 45%."
+      "Just after midnight SGT the Saudi-led coalition said it destroyed two Houthi drones over Riyadh and the south, and UKMTO kept the Gulf and Hormuz threat level at severe.",
+      "The new JMIC blockade update extends US blockade enforcement to ships taking ship-to-ship cargo from Iran-loaded vessels, after a late-18 Nov Bandar Abbas blast was called munitions disposal."
     ],
-    "updated": "Thu 19 Nov 2026, 12:08 am SGT",
-    "updatedTs": "2026-11-19T00:08:00+08:00"
+    "updated": "Thu 19 Nov 2026, 12:28 am SGT",
+    "updatedTs": "2026-11-19T00:28:00+08:00"
   },
   "last24Count": 13
 }
