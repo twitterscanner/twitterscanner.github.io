@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 6:01 pm SGT",
-  "lastScannedTs": "2026-11-18T18:01:14+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 6:14 pm SGT",
+  "lastScannedTs": "2026-11-18T18:14:00+08:00",
   "asOf": "Wed 18 Nov 2026, 6:00 pm SGT",
   "asOfTs": "2026-11-18T18:00:59+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "21 of 24 alerts point higher, 3 lower",
-    "text": "21 of 24 alerts point higher, 3 lower.",
+    "count": "21 of 23 alerts point higher, 2 lower",
+    "text": "21 of 23 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Saudi-led coalition intercepts a second Houthi cruise missile aimed at Riyadh in a day",
@@ -150,12 +150,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-17T19:08:28+08:00"
-      },
-      {
-        "text": "Qatar says US-Iran mediation still ongoing; meeting with Iran set for today",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-17T18:13:35+08:00"
       }
     ],
     "neutral": []
