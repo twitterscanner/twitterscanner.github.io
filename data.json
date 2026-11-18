@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-19T04:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 4:05 am SGT",
-  "asOfTs": "2026-11-19T04:05:20+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 5:06 am SGT",
+  "lastScannedTs": "2026-11-19T05:06:39+08:00",
+  "asOf": "Thu 19 Nov 2026, 5:06 am SGT",
+  "asOfTs": "2026-11-19T05:06:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli and US signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli and US signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
+    "bottom": "Iranian mine claims against tankers near Hormuz, Houthi strikes on Saudi targets, a tighter US blockade and Israeli-US Iran strike signals keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iranian mine claims against tankers near Hormuz, Houthi strikes on Saudi targets, a tighter US blockade and Israeli-US Iran strike signals keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "23 of 24 alerts point higher, 1 lower",
-    "text": "23 of 24 alerts point higher, 1 lower.",
+    "count": "24 of 25 alerts point higher, 1 lower",
+    "text": "24 of 25 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim missile and drone strikes on Riyadh airport, Jizan and Khamis Mushait",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T04:26:07+08:00"
+      },
+      {
+        "text": "Iran's Army says three tankers hit mines east of Hormuz, caught fire, disabled",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-19T04:16:56+08:00"
+      },
       {
         "text": "Trump awaits completed US buildup, incl. bombers, before Iran strike decision; F-35Bs head to region",
         "confidence": "unconfirmed",
@@ -142,12 +154,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-18T05:45:00+08:00"
-      },
-      {
-        "text": "Fresh strike on a ship in Hormuz reported minutes after anti-ship missile launches from Hormozgan",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-18T05:01:39+08:00"
       }
     ],
     "dovish": [
@@ -165,6 +171,32 @@
     "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "04:26",
+      "ts": "2026-11-19T04:26:07+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim cruise missiles at Riyadh airport and King Abdullah Financial District, ballistic missiles at a 'vital site' in Jizan and a drone on Khamis Mushait air base",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint; Houthi military spokesman Yahya Saree (Arabic)",
+      "url": "https://x.com/MenchOsint/status/2123150991608414350"
+    },
+    {
+      "time": "04:16",
+      "ts": "2026-11-19T04:16:56+08:00",
+      "eventTime": "From Wed 18 Nov morning Iran time (~12:30 pm SGT, est.)",
+      "eventTs": "2026-11-18T12:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's Army says three 'offending' oil tankers hit naval mines east of the Strait of Hormuz since Wednesday morning, caught fire and are disabled",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "LiveSquawk citing Iranian state TV IRIB; also Al Jazeera, Iran International",
+      "url": "https://x.com/LiveSquawk/status/2123148473579020581"
+    },
     {
       "time": "03:21",
       "ts": "2026-11-19T03:21:00+08:00",
@@ -658,35 +690,19 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk (citing Iranian state media / IRGC)",
       "url": "https://x.com/FirstSquawk/status/2122624930764460400"
-    },
-    {
-      "time": "17:33",
-      "ts": "2026-11-17T17:33:06+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iraq's oil minister says crude pumping for export has resumed via the Iraq-Turkey (Kirkuk-Ceyhan) pipeline, with initial capacity of 120,000 b/d",
-      "theme": "Iraq",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Iraq's oil minister via First Squawk (X)",
-      "url": "https://x.com/FirstSquawk/status/2122624056520511963"
-    },
-    {
-      "time": "17:20",
-      "ts": "2026-11-17T17:20:02+08:00",
-      "eventTime": "Not stated (local OSINT says gas tanker Gas Husky sent an emergency beacon on the morning of 17 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Bulgarian Defence Ministry says a Liberian-flagged LPG carrier sank in the Black Sea off Bulgaria, a day after cargo ship Betul 8 capsized nearby; Bulgaria's bTV, citing Romania's Maritime Administration, reportedly says an LPG tanker was hit by a drone",
-      "theme": "Tankers",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Bulgarian Defence Ministry via CGTN Europe and Open Source Intel; bTV via Coffe Report (X)",
-      "url": "https://x.com/CGTNEurope/status/2122620768546607273"
     }
   ],
   "sources": [
+    {
+      "title": "Iran Army (IRIB): three tankers hit mines east of Hormuz, on fire and disabled",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2123148473579020581"
+    },
+    {
+      "title": "Houthis claim strikes on Riyadh airport, KAFD, Jizan vital site and Khamis Mushait air base",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2123150991608414350"
+    },
     {
       "title": "i24NEWS: Trump awaiting completion of US buildup before deciding on Iran strike",
       "site": "X / Osint613",
@@ -2576,11 +2592,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight SGT the Saudi-led coalition destroyed two Houthi drones over Riyadh, and the US Embassy in Saudi Arabia warned the Houthi attack threat is rising.",
+      "Iran's Army said three tankers hit naval mines east of the Strait of Hormuz and caught fire, while the Houthis claimed missile strikes on Riyadh, Jizan and Khamis Mushait.",
       "Israeli reports say Netanyahu sees military action against Iran as unavoidable and Trump awaits a completed US buildup, including bombers, before deciding on strikes."
     ],
-    "updated": "Thu 19 Nov 2026, 4:05 am SGT",
-    "updatedTs": "2026-11-19T04:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 5:06 am SGT",
+    "updatedTs": "2026-11-19T05:06:39+08:00"
   },
   "last24Count": 13
 }
