@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 7:02 pm SGT",
-  "lastScannedTs": "2026-11-18T19:02:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 7:08 pm SGT",
+  "lastScannedTs": "2026-11-18T19:08:00+08:00",
   "asOf": "Wed 18 Nov 2026, 6:45 pm SGT",
   "asOfTs": "2026-11-18T18:45:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, repeated Houthi missiles at Riyadh, Hormuz tanker hits and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "22 of 24 alerts point higher, 2 lower",
-    "text": "22 of 24 alerts point higher, 2 lower.",
+    "count": "21 of 22 alerts point higher, 1 lower",
+    "text": "21 of 22 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Iran's Army claims it shot down a US MQ-9 Reaper drone east of Hormuz",
@@ -136,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-17T19:27:42+08:00"
-      },
-      {
-        "text": "UKMTO: delayed report of tanker hit by projectile in Persian Gulf on 13 Nov",
-        "confidence": "confirmed",
-        "theme": "Tankers",
-        "ts": "2026-11-17T19:08:12+08:00"
       }
     ],
     "dovish": [
@@ -150,12 +144,6 @@
         "confidence": "confirmed",
         "theme": "Sanctions",
         "ts": "2026-11-17T19:49:28+08:00"
-      },
-      {
-        "text": "Araghchi briefs Oman's Sultan on Iranian initiative to end the war",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-17T19:08:28+08:00"
       }
     ],
     "neutral": []
