@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 1:35 pm SGT",
-  "lastScannedTs": "2026-11-18T13:35:46+08:00",
-  "asOf": "Wed 18 Nov 2026, 1:26 pm SGT",
-  "asOfTs": "2026-11-18T13:26:47+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 1:47 pm SGT",
+  "lastScannedTs": "2026-11-18T13:47:55+08:00",
+  "asOf": "Wed 18 Nov 2026, 1:47 pm SGT",
+  "asOfTs": "2026-11-18T13:47:58+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Iran claims strikes on US bases in Kuwait and Bahrain, Houthis fire at Riyadh, Hormuz tanker hits and Russian refinery strikes continue: escalating.",
     "lead": "Net read (last 24 hours): Iran claims strikes on US bases in Kuwait and Bahrain, Houthis fire at Riyadh, Hormuz tanker hits and Russian refinery strikes continue: escalating.",
     "verdict": "Bullish",
-    "count": "24 of 30 alerts point higher, 5 lower",
-    "text": "24 of 30 alerts point higher, 5 lower.",
+    "count": "25 of 31 alerts point higher, 5 lower",
+    "text": "25 of 31 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "ADNOC L&S confirms one of its vessels was attacked in Hormuz; one crew missing",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T13:43:07+08:00"
+      },
       {
         "text": "Ukrainian drones reportedly hit Russia's Afipsky refinery too, alongside Ilsky in Krasnodar",
         "confidence": "unconfirmed",
@@ -202,6 +208,19 @@
     "detail": "Brent settled at $93.14/bbl on 17 Nov, per oil analyst post on X (posted 3:51 am SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:43",
+      "ts": "2026-11-18T13:43:07+08:00",
+      "eventTime": "11:00 pm, 17 Nov (est., evening UAE time)",
+      "eventTs": "2026-11-17T23:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "ADNOC Logistics & Services confirms one of its vessels was attacked while transiting the Strait of Hormuz on the evening of 17 Nov; one crew member unaccounted for",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "ADNOC L&S statement, relayed by Argus Middle East editor Nader Itayim",
+      "url": "https://x.com/ncitayim/status/2122928566489022797"
+    },
     {
       "time": "13:26",
       "ts": "2026-11-18T13:26:47+08:00",
@@ -708,22 +727,14 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel (X), relaying Iranian Army Navy claim",
       "url": "https://x.com/Osint613/status/2122423820858667079"
-    },
-    {
-      "time": "03:02",
-      "ts": "2026-11-17T03:02:08+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Kushner says he and Witkoff spoke with Kremlin aide Ushakov on Monday and are preparing the agenda for the next multilateral Ukraine peace meeting; progress on security guarantees",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk (X), relaying Kushner",
-      "url": "https://x.com/FirstSquawk/status/2122400446228869600"
     }
   ],
   "sources": [
+    {
+      "title": "ADNOC L&S confirms one of its vessels attacked transiting the Strait of Hormuz on 17 Nov evening",
+      "site": "X / ncitayim",
+      "href": "https://x.com/ncitayim/status/2122928566489022797"
+    },
     {
       "title": "Ukrainian channels: drone strikes on Ilsky and Afipsky refineries in Krasnodar Krai",
       "site": "X / PiQMarkets",
@@ -2534,10 +2545,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran widened attacks this morning: Kuwait responded to Iranian drones around 5:40 am SGT, Bahrain issued shelter alerts near 7:06 and 8:50 am, and Iran's Army claimed a strike on Kuwait's Ali Al Salem base.",
-      "The Saudi-led coalition intercepted a Houthi cruise missile aimed at Riyadh around 12:20 pm SGT, while unconfirmed Ukrainian drone strikes hit Russia's Ilsky and Afipsky refineries in Krasnodar."
+      "The Saudi-led coalition intercepted a Houthi cruise missile aimed at Riyadh around 12:20 pm SGT, unconfirmed Ukrainian drones hit Krasnodar refineries, and ADNOC L&S confirmed one of its vessels was attacked in Hormuz."
     ],
-    "updated": "Wed 18 Nov 2026, 1:28 pm SGT",
-    "updatedTs": "2026-11-18T13:28:00+08:00"
+    "updated": "Wed 18 Nov 2026, 1:47 pm SGT",
+    "updatedTs": "2026-11-18T13:47:55+08:00"
   },
   "last24Count": 13
 }
