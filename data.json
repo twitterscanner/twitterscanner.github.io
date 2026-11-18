@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 11:04 am SGT",
-  "lastScannedTs": "2026-11-18T11:04:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 11:16 am SGT",
+  "lastScannedTs": "2026-11-18T11:16:00+08:00",
   "asOf": "Wed 18 Nov 2026, 11:03 am SGT",
   "asOfTs": "2026-11-18T11:03:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iranian drone waves on Bahrain and Kuwait, Hormuz tanker strikes and fresh Ukrainian refinery hits keep geopolitics escalating.",
     "lead": "Net read (last 24 hours): Iranian drone waves on Bahrain and Kuwait, Hormuz tanker strikes and fresh Ukrainian refinery hits keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 6 lower",
-    "text": "24 of 31 alerts point higher, 6 lower.",
+    "count": "23 of 30 alerts point higher, 6 lower",
+    "text": "23 of 30 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Ukrainian drones reportedly hit Russia's Ilsky refinery in Krasnodar Krai again",
@@ -148,12 +148,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-17T13:05:41+08:00"
-      },
-      {
-        "text": "Reported intensified mine-laying on Hormuz's southern shipping route",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T11:06:39+08:00"
       }
     ],
     "dovish": [
