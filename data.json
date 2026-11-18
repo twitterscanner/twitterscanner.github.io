@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 7:02 am SGT",
-  "lastScannedTs": "2026-11-18T07:02:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 6:06 am SGT",
-  "asOfTs": "2026-11-18T06:06:13+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 8:03 am SGT",
+  "lastScannedTs": "2026-11-18T08:03:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 8:02 am SGT",
+  "asOfTs": "2026-11-18T08:02:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iranian drone attacks on Kuwait, fresh Hormuz tanker strikes and Houthi claims on Saudi pipelines keep Gulf geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iranian drone attacks on Kuwait, fresh Hormuz tanker strikes and Houthi claims on Saudi pipelines keep Gulf geopolitics escalating.",
+    "bottom": "Iranian drone waves on Kuwait and Bahrain, fresh Hormuz tanker strikes and Houthi pipeline claims keep Gulf geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iranian drone waves on Kuwait and Bahrain, fresh Hormuz tanker strikes and Houthi pipeline claims keep Gulf geopolitics escalating.",
     "verdict": "Bullish",
     "count": "23 of 30 alerts point higher, 6 lower",
     "text": "23 of 30 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Bahrain shelters as new Iranian drone wave targets US bases; Bahrain TV says intercepted",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T07:08:00+08:00"
+      },
       {
         "text": "Kuwait says it is responding to drone attacks from Iran",
         "confidence": "confirmed",
@@ -142,12 +148,6 @@
         "confidence": "confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-17T11:00:03+08:00"
-      },
-      {
-        "text": "CNN: US intel says Iran plotting dirty bomb or chemical attack on officials in DC",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T08:02:26+08:00"
       }
     ],
     "dovish": [
@@ -202,6 +202,19 @@
     "detail": "Brent settled at $93.14/bbl on 17 Nov, per oil analyst post on X (posted 3:51 am SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:08",
+      "ts": "2026-11-18T07:08:00+08:00",
+      "eventTime": "7:06 am, 18 Nov (est.)",
+      "eventTs": "2026-11-18T07:06:00+08:00",
+      "eventQual": "est.",
+      "headline": "Bahrain orders residents to shelter as a new wave of Iranian drones targets US bases; Bahrain TV says air defences intercepted the attack, with unconfirmed reports of impacts at Isa Air Base",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel (Bahrain Interior Ministry alert, Bahrain TV); also War Radar, Post Open Source",
+      "url": "https://x.com/Osint613/status/2122829163656630382"
+    },
     {
       "time": "05:45",
       "ts": "2026-11-18T05:45:00+08:00",
@@ -708,22 +721,19 @@
       "confidence": "Unconfirmed",
       "source": "Osint613; sentdefender; IRIB footage",
       "url": "https://x.com/Osint613/status/2122362638953001216"
-    },
-    {
-      "time": "22:24",
-      "ts": "2026-11-16T22:24:00+08:00",
-      "eventTime": "Not stated (first claimed ~8:18 pm SGT 16 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Satellite images reportedly show a large fire at an Aramco gas facility on Saudi Arabia's Abu Ali Island; heavy flaring flagged earlier; no Aramco comment",
-      "theme": "Saudi / Aramco",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "TheSaviour; IR_News2; MerruX flaring data",
-      "url": "https://x.com/TheSaviour/status/2122331135581581750"
     }
   ],
   "sources": [
+    {
+      "title": "Bahrain issues threat alert urging residents to seek shelter",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2122829163656630382"
+    },
+    {
+      "title": "Bahrain TV: air defences intercepted Iranian aerial attacks",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2122835911792869826"
+    },
     {
       "title": "Kuwait says it is responding to drone attacks from Iran",
       "site": "X / Osint613",
@@ -2493,11 +2503,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Around 5:40 am SGT on 18 Nov, Kuwait said it was responding to Iranian drone attacks, with explosions heard and US bases reportedly targeted.",
-      "Minutes earlier, OSINT accounts reported a fresh ship strike in Hormuz after missile launches from Hormozgan, following US strikes on an IRGC site on Qeshm."
+      "Iran widened attacks this morning: Kuwait said it was responding to Iranian drones around 5:40 am SGT, then Bahrain ordered residents to shelter at about 7:06 am.",
+      "Bahrain TV says air defences intercepted the drones, while OSINT accounts reported a fresh ship strike in Hormuz and US strikes on an IRGC site on Qeshm."
     ],
-    "updated": "Wed 18 Nov 2026, 6:06 am SGT",
-    "updatedTs": "2026-11-18T06:06:00+08:00"
+    "updated": "Wed 18 Nov 2026, 8:03 am SGT",
+    "updatedTs": "2026-11-18T08:03:00+08:00"
   },
   "last24Count": 13
 }
