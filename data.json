@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 10:14 pm SGT",
-  "lastScannedTs": "2026-11-18T22:14:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 10:14 pm SGT",
-  "asOfTs": "2026-11-18T22:14:23+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 10:28 pm SGT",
+  "lastScannedTs": "2026-11-18T22:28:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 10:28 pm SGT",
+  "asOfTs": "2026-11-18T22:28:58+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges in the Gulf, Hormuz tanker hits, Houthi missiles at Riyadh, a possible Israeli strike on Iran and Russian refinery hits keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges in the Gulf, Hormuz tanker hits, Houthi missiles at Riyadh, a possible Israeli strike on Iran and Russian refinery hits keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges, Hormuz tanker hits, Bandar Abbas blasts, Houthi missiles at Riyadh and a possible Israeli strike on Iran keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, Bandar Abbas blasts, Houthi missiles at Riyadh and a possible Israeli strike on Iran keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "19 of 19 alerts point higher, 0 lower",
-    "text": "19 of 19 alerts point higher, 0 lower.",
+    "count": "20 of 20 alerts point higher, 0 lower",
+    "text": "20 of 20 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Explosions and smoke reported at Iran's 9th Tactical Air Base in Bandar Abbas",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T22:28:00+08:00"
+      },
       {
         "text": "Haaretz: Israel preparing a possible new strike on Iran, seeking US backing",
         "confidence": "unconfirmed",
@@ -134,6 +140,19 @@
     "detail": "Brent around $91.60/bbl in US pre-market (market-flow post on X, 9:56 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:28",
+      "ts": "2026-11-18T22:28:00+08:00",
+      "eventTime": "10:20 pm, 18 Nov (est.)",
+      "eventTs": "2026-11-18T22:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Explosions reported near Iran's 9th Tactical Air Base in Bandar Abbas on the Strait of Hormuz, with smoke rising from the base; cause unknown",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel (Osint613); also RyanRozbiani",
+      "url": "https://x.com/Osint613/status/2123059432326086920"
+    },
     {
       "time": "22:14",
       "ts": "2026-11-18T22:14:00+08:00",
@@ -640,22 +659,14 @@
       "confidence": "Confirmed",
       "source": "FirstSquawk",
       "url": "https://x.com/FirstSquawk/status/2122557577812971565"
-    },
-    {
-      "time": "13:05",
-      "ts": "2026-11-17T13:05:41+08:00",
-      "eventTime": "1:05 pm, 17 Nov",
-      "eventTs": "2026-11-17T13:05:41+08:00",
-      "eventQual": "confirmed",
-      "headline": "Iran parliament speaker Ghalibaf warns any dam, port or power plant near a US or Israeli base is 'dual-use', implying Gulf infrastructure could be targeted",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Mohammad Bagher Ghalibaf (Iran parliament speaker) on X",
-      "url": "https://x.com/mb_ghalibaf/status/2122556761442058610"
     }
   ],
   "sources": [
+    {
+      "title": "Explosions reported near 9th Tactical Air Base, Bandar Abbas, Iran",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2123059432326086920"
+    },
     {
       "title": "Haaretz via HormuzReport: Israel preparing possible new strike on Iran, seeking US backing",
       "site": "X / HormuzReport",
@@ -2501,10 +2512,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran widened attacks today: Kuwait responded to Iranian drones around 5:40 am SGT, ADNOC L&S confirmed a vessel attack in Hormuz, and India said crude tanker NAVIG8 MESSI was hit near Hormuz.",
-      "Houthi missiles at Riyadh were intercepted twice, Reuters said Saudi expects the Houthi war to run into 2027, and Haaretz reported Israel is preparing a possible new strike on Iran."
+      "Houthi missiles at Riyadh were intercepted twice, Haaretz reported Israel is preparing a possible new strike on Iran, and explosions were reported at an air base in Bandar Abbas tonight."
     ],
-    "updated": "Wed 18 Nov 2026, 10:14 pm SGT",
-    "updatedTs": "2026-11-18T22:14:00+08:00"
+    "updated": "Wed 18 Nov 2026, 10:28 pm SGT",
+    "updatedTs": "2026-11-18T22:28:00+08:00"
   },
   "last24Count": 13
 }
