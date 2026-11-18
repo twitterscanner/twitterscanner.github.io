@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 3:05 am SGT",
-  "lastScannedTs": "2026-11-19T03:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 3:04 am SGT",
-  "asOfTs": "2026-11-19T03:04:55+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-19T04:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 4:05 am SGT",
+  "asOfTs": "2026-11-19T04:05:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli and US signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli and US signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "22 of 23 alerts point higher, 1 lower",
-    "text": "22 of 23 alerts point higher, 1 lower.",
+    "count": "23 of 24 alerts point higher, 1 lower",
+    "text": "23 of 24 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Trump awaits completed US buildup, incl. bombers, before Iran strike decision; F-35Bs head to region",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T03:21:00+08:00"
+      },
       {
         "text": "Channel 13: Netanyahu says military action against Iran is unavoidable, US consultations mirror past buildups",
         "confidence": "unconfirmed",
@@ -155,10 +161,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "$89.01",
-    "detail": "Brent down 1.5% to about $89.01/bbl, WTI $82.95 (market post on X, 12:33 am SGT 19 Nov)"
+    "value": "$91.95",
+    "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:21",
+      "ts": "2026-11-19T03:21:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israeli security official to i24NEWS: Trump awaiting completion of US military buildup, incl. B-52 and B-2 bombers, before deciding on Iran strike; 10 US Marine F-35Bs head toward the Middle East",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Israeli security official to i24NEWS, via Open Source Intel (Osint613)",
+      "url": "https://x.com/Osint613/status/2123134427412750823"
+    },
     {
       "time": "02:05",
       "ts": "2026-11-19T02:05:51+08:00",
@@ -665,22 +684,14 @@
       "confidence": "Confirmed",
       "source": "Bulgarian Defence Ministry via CGTN Europe and Open Source Intel; bTV via Coffe Report (X)",
       "url": "https://x.com/CGTNEurope/status/2122620768546607273"
-    },
-    {
-      "time": "17:12",
-      "ts": "2026-11-17T17:12:59+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO: a vessel 7 nm north of Khasab, Oman, where a tanker was disabled on 16 Nov, has been hit by a second strike",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO via FinancialJuice (X)",
-      "url": "https://x.com/financialjuice/status/2122618995065119220"
     }
   ],
   "sources": [
+    {
+      "title": "i24NEWS: Trump awaiting completion of US buildup before deciding on Iran strike",
+      "site": "X / Osint613",
+      "href": "https://x.com/Osint613/status/2123134427412750823"
+    },
     {
       "title": "US Embassy in Saudi Arabia security alert: rising Houthi attack threat",
       "site": "X / Osint613",
@@ -2566,10 +2577,10 @@
     "title": "Today's key developments",
     "lines": [
       "Just after midnight SGT the Saudi-led coalition destroyed two Houthi drones over Riyadh, and the US Embassy in Saudi Arabia warned the Houthi attack threat is rising.",
-      "Israel's Channel 13 reported Netanyahu told security officials military action against Iran is unavoidable, while UKMTO kept the Hormuz threat level severe."
+      "Israeli reports say Netanyahu sees military action against Iran as unavoidable and Trump awaits a completed US buildup, including bombers, before deciding on strikes."
     ],
-    "updated": "Thu 19 Nov 2026, 3:05 am SGT",
-    "updatedTs": "2026-11-19T03:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 4:05 am SGT",
+    "updatedTs": "2026-11-19T04:05:00+08:00"
   },
   "last24Count": 13
 }
