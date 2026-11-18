@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 5:06 am SGT",
-  "lastScannedTs": "2026-11-19T05:06:39+08:00",
-  "asOf": "Thu 19 Nov 2026, 5:06 am SGT",
-  "asOfTs": "2026-11-19T05:06:28+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 6:05 am SGT",
+  "lastScannedTs": "2026-11-19T06:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 6:05 am SGT",
+  "asOfTs": "2026-11-19T06:05:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iranian mine claims against tankers near Hormuz, Houthi strikes on Saudi targets, a tighter US blockade and Israeli-US Iran strike signals keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iranian mine claims against tankers near Hormuz, Houthi strikes on Saudi targets, a tighter US blockade and Israeli-US Iran strike signals keep geopolitics escalating.",
+    "bottom": "Hormuz tanker mine claims, a renewed Houthi wave on Saudi targets, a tighter US blockade and US-Israeli Iran strike signals keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Hormuz tanker mine claims, a renewed Houthi wave on Saudi targets, a tighter US blockade and US-Israeli Iran strike signals keep geopolitics escalating.",
     "verdict": "Bullish",
     "count": "24 of 25 alerts point higher, 1 lower",
     "text": "24 of 25 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Fresh early-warning sirens in Abha and Khamis Mushait, airspace disruption over Riyadh",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T05:56:25+08:00"
+      },
       {
         "text": "Houthis claim missile and drone strikes on Riyadh airport, Jizan and Khamis Mushait",
         "confidence": "unconfirmed",
@@ -148,12 +154,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-18T07:08:00+08:00"
-      },
-      {
-        "text": "Kuwait says it is responding to drone attacks from Iran",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T05:45:00+08:00"
       }
     ],
     "dovish": [
@@ -171,6 +171,19 @@
     "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:56",
+      "ts": "2026-11-19T05:56:25+08:00",
+      "eventTime": "5:50 am, 19 Nov (est.)",
+      "eventTs": "2026-11-19T05:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Fresh early-warning sirens in Abha and Khamis Mushait, airspace disruption over Riyadh; local accounts report explosions in a possible new Houthi missile and drone wave",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint; sirens also reported by Arabic-language local accounts",
+      "url": "https://x.com/MenchOsint/status/2123173507446288831"
+    },
     {
       "time": "04:26",
       "ts": "2026-11-19T04:26:07+08:00",
@@ -677,22 +690,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk (citing Qatar)",
       "url": "https://x.com/FirstSquawk/status/2122634244170359073"
-    },
-    {
-      "time": "17:38",
-      "ts": "2026-11-17T17:38:15+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC, via Iranian state media, claims an LPG carrier and an oil tanker are on fire in the Strait of Hormuz after hitting naval mines",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk (citing Iranian state media / IRGC)",
-      "url": "https://x.com/FirstSquawk/status/2122624930764460400"
     }
   ],
   "sources": [
+    {
+      "title": "Early-warning sirens in Abha and Khamis Mushait, Riyadh airspace disruption",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2123173507446288831"
+    },
     {
       "title": "Iran Army (IRIB): three tankers hit mines east of Hormuz, on fire and disabled",
       "site": "X / LiveSquawk",
@@ -2593,10 +2598,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran's Army said three tankers hit naval mines east of the Strait of Hormuz and caught fire, while the Houthis claimed missile strikes on Riyadh, Jizan and Khamis Mushait.",
-      "Israeli reports say Netanyahu sees military action against Iran as unavoidable and Trump awaits a completed US buildup, including bombers, before deciding on strikes."
+      "Around 5:50 am SGT fresh sirens sounded in Abha and Khamis Mushait with Riyadh airspace disrupted, as Israeli reports say Trump awaits a full buildup before deciding on Iran strikes."
     ],
-    "updated": "Thu 19 Nov 2026, 5:06 am SGT",
-    "updatedTs": "2026-11-19T05:06:39+08:00"
+    "updated": "Thu 19 Nov 2026, 6:05 am SGT",
+    "updatedTs": "2026-11-19T06:05:00+08:00"
   },
   "last24Count": 13
 }
