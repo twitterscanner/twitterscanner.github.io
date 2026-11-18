@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 11:24 pm SGT",
-  "lastScannedTs": "2026-11-18T23:24:00+08:00",
-  "asOf": "Wed 18 Nov 2026, 11:24 pm SGT",
-  "asOfTs": "2026-11-18T23:24:20+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 11:35 pm SGT",
+  "lastScannedTs": "2026-11-18T23:35:00+08:00",
+  "asOf": "Wed 18 Nov 2026, 11:35 pm SGT",
+  "asOfTs": "2026-11-18T23:35:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges, a reported US strike at Bandar Abbas, Hormuz tanker hits, Houthi missiles at Riyadh and deep Russian refining cuts keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges, a reported US strike at Bandar Abbas, Hormuz tanker hits, Houthi missiles at Riyadh and deep Russian refining cuts keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges, Hormuz tanker hits, Houthi missiles at Riyadh and Russian refining cuts keep geopolitics escalating; the Bandar Abbas blast was reportedly not an attack.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, Houthi missiles at Riyadh and Russian refining cuts keep geopolitics escalating; the Bandar Abbas blast was reportedly not an attack.",
     "verdict": "Bullish",
-    "count": "20 of 20 alerts point higher, 0 lower",
-    "text": "20 of 20 alerts point higher, 0 lower.",
+    "count": "19 of 20 alerts point higher, 1 lower",
+    "text": "19 of 20 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Reuters: drone strikes have cut Russian refinery runs about 45% since late October",
@@ -124,15 +124,16 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-18T01:39:19+08:00"
-      },
-      {
-        "text": "Saudi-led coalition intercepts a Houthi drone aimed at the Riyadh region",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-17T23:32:41+08:00"
       }
     ],
-    "dovish": [],
+    "dovish": [
+      {
+        "text": "Iranian officials say the Bandar Abbas blast was munitions disposal, not a US strike",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-18T23:35:00+08:00"
+      }
+    ],
     "neutral": []
   },
   "brent": {
@@ -140,6 +141,19 @@
     "detail": "Brent around $91.60/bbl in US pre-market (market-flow post on X, 9:56 pm SGT 18 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:35",
+      "ts": "2026-11-18T23:35:00+08:00",
+      "eventTime": "10:20 pm, 18 Nov (est.)",
+      "eventTs": "2026-11-18T22:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Hormozgan governorate says tonight's Bandar Abbas explosion was the controlled destruction of unexploded munitions, not an attack, countering reports of a US strike",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "Hormozgan Province Governorate statement, relayed by Ryan Rozbiani",
+      "url": "https://x.com/RyanRozbiani/status/2123075333188440304"
+    },
     {
       "time": "23:24",
       "ts": "2026-11-18T23:24:00+08:00",
@@ -646,22 +660,14 @@
       "confidence": "Confirmed",
       "source": "Tasnim via MarketBeeper; Faytuks Network (X); CENTCOM rebuttal",
       "url": "https://x.com/FaytuksNetwork/status/2122586710047437034"
-    },
-    {
-      "time": "15:03",
-      "ts": "2026-11-17T15:03:00+08:00",
-      "eventTime": "2:56 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T14:56:00+08:00",
-      "eventQual": "est.",
-      "headline": "Sirens sound across Bahrain as the Interior Ministry orders residents to shelter from a new Iranian missile/drone threat; explosions reported",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Arab News (X); also OSINTdefender, OSINTtechnical",
-      "url": "https://x.com/arabnews/status/2122585434391736550"
     }
   ],
   "sources": [
+    {
+      "title": "Hormozgan governorate: Bandar Abbas blast was destruction of unexploded munitions, not an attack",
+      "site": "X / RyanRozbiani",
+      "href": "https://x.com/RyanRozbiani/status/2123075333188440304"
+    },
     {
       "title": "Reuters via PiQ: drone strikes cut Russian refinery processing 45% since late October",
       "site": "X / PiQMarkets",
@@ -2521,11 +2527,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran widened attacks today: Kuwait responded to Iranian drones, ADNOC L&S confirmed a vessel attack in Hormuz, and Iranian reports blamed a US strike for explosions at Bandar Abbas tonight.",
+      "Iran widened attacks today: Kuwait responded to Iranian drones, ADNOC L&S confirmed a vessel attack in Hormuz, and a Bandar Abbas blast first blamed on the US was called a munitions disposal by officials.",
       "Houthi missiles at Riyadh were intercepted twice, Haaretz reported Israel is weighing a new Iran strike, and Reuters said drone strikes have cut Russian refining about 45%."
     ],
-    "updated": "Wed 18 Nov 2026, 11:24 pm SGT",
-    "updatedTs": "2026-11-18T23:24:00+08:00"
+    "updated": "Wed 18 Nov 2026, 11:35 pm SGT",
+    "updatedTs": "2026-11-18T23:35:00+08:00"
   },
   "last24Count": 13
 }
