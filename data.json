@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 2:02 am SGT",
-  "lastScannedTs": "2026-11-19T02:02:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 1:46 am SGT",
-  "asOfTs": "2026-11-19T01:46:44+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 3:05 am SGT",
+  "lastScannedTs": "2026-11-19T03:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 3:04 am SGT",
+  "asOfTs": "2026-11-19T03:04:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi attacks on Riyadh and Russian refining cuts keep geopolitics escalating.",
+    "bottom": "Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
+    "lead": "Net read (last 24 hours): Iran-US exchanges, Hormuz tanker hits, a tighter US blockade, Houthi threats, Israeli signals of new Iran action and Russian refining cuts keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "21 of 22 alerts point higher, 1 lower",
-    "text": "21 of 22 alerts point higher, 1 lower.",
+    "count": "22 of 23 alerts point higher, 1 lower",
+    "text": "22 of 23 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Channel 13: Netanyahu says military action against Iran is unavoidable, US consultations mirror past buildups",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T02:05:51+08:00"
+      },
       {
         "text": "US Embassy in Saudi Arabia warns Houthi attack threat is rising",
         "confidence": "confirmed",
@@ -153,6 +159,19 @@
     "detail": "Brent down 1.5% to about $89.01/bbl, WTI $82.95 (market post on X, 12:33 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "02:05",
+      "ts": "2026-11-19T02:05:51+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israel's Channel 13: Netanyahu told senior security officials military action against Iran is unavoidable; consultations with the US mirror the buildup before past campaigns",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Israel's Channel 13 report, via Open Source Intel (Osint613)",
+      "url": "https://x.com/Osint613/status/2123115482446434739"
+    },
     {
       "time": "01:46",
       "ts": "2026-11-19T01:46:00+08:00",
@@ -659,19 +678,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO via FinancialJuice (X)",
       "url": "https://x.com/financialjuice/status/2122618995065119220"
-    },
-    {
-      "time": "17:00",
-      "ts": "2026-11-17T17:00:56+08:00",
-      "eventTime": "14 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Enbridge's 475,000 b/d North Dakota Pipeline shut since 14 Nov over organic chloride contamination in Bakken crude, per market sources",
-      "theme": "Pipelines",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Giovanni Staunovo, citing market sources (X)",
-      "url": "https://x.com/staunovo/status/2122615964436922571"
     }
   ],
   "sources": [
@@ -2549,16 +2555,21 @@
       "title": "Coalition intercepts second Houthi cruise missile toward Riyadh (Al Arabiya)",
       "site": "x.com",
       "href": "https://x.com/AlArabiya_Eng/status/2122980608909443382"
+    },
+    {
+      "title": "Channel 13: Netanyahu says Iran military action unavoidable (Open Source Intel)",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2123115482446434739"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Just after midnight SGT the Saudi-led coalition destroyed two Houthi drones over Riyadh, and the US Embassy in Saudi Arabia warned the Houthi attack threat is rising.",
-      "UKMTO kept the Gulf and Hormuz threat level severe and extended US blockade enforcement to ships taking ship-to-ship cargo from Iran-loaded vessels."
+      "Israel's Channel 13 reported Netanyahu told security officials military action against Iran is unavoidable, while UKMTO kept the Hormuz threat level severe."
     ],
-    "updated": "Thu 19 Nov 2026, 1:46 am SGT",
-    "updatedTs": "2026-11-19T01:46:00+08:00"
+    "updated": "Thu 19 Nov 2026, 3:05 am SGT",
+    "updatedTs": "2026-11-19T03:05:00+08:00"
   },
   "last24Count": 13
 }
