@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 18 Nov 2026, 8:28 pm SGT",
-  "lastScannedTs": "2026-11-18T20:28:00+08:00",
+  "lastScanned": "Wed 18 Nov 2026, 8:50 pm SGT",
+  "lastScannedTs": "2026-11-18T20:50:00+08:00",
   "asOf": "Wed 18 Nov 2026, 8:28 pm SGT",
   "asOfTs": "2026-11-18T20:28:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Iran-US exchanges in Kuwait and Bahrain, fresh Hormuz tanker hits, repeated Houthi missiles at Riyadh and Russian refinery strikes keep geopolitics escalating.",
     "lead": "Net read (last 24 hours): Iran-US exchanges in Kuwait and Bahrain, fresh Hormuz tanker hits, repeated Houthi missiles at Riyadh and Russian refinery strikes keep geopolitics escalating.",
     "verdict": "Bullish",
-    "count": "21 of 21 alerts point higher, 0 lower",
-    "text": "21 of 21 alerts point higher, 0 lower.",
+    "count": "20 of 20 alerts point higher, 0 lower",
+    "text": "20 of 20 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Crude tanker NAVIG8 MESSI hit by projectile near Hormuz; crew safe",
@@ -130,12 +130,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-17T21:05:45+08:00"
-      },
-      {
-        "text": "Iran's Army claims it downed a US LUCAS attack drone over Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-17T20:45:00+08:00"
       }
     ],
     "dovish": [],
