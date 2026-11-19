@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 8:22 pm SGT",
-  "lastScannedTs": "2026-11-19T20:22:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 8:21 pm SGT",
-  "asOfTs": "2026-11-19T20:21:32+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 8:36 pm SGT",
+  "lastScannedTs": "2026-11-19T20:36:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 8:35 pm SGT",
+  "asOfTs": "2026-11-19T20:35:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Russian oil strikes and Putin halting talks, despite pledges of more fuel supply.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Russian oil strikes and Putin halting talks, despite pledges of more fuel supply.",
+    "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Russian oil strikes and US Iran strike planning, despite pledges of more fuel supply.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Russian oil strikes and US Iran strike planning, despite pledges of more fuel supply.",
     "verdict": "Bullish",
-    "count": "29 of 35 alerts point higher, 5 lower",
-    "text": "29 of 35 alerts point higher, 5 lower.",
+    "count": "29 of 36 alerts point higher, 6 lower",
+    "text": "29 of 36 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "White House asks Pentagon how Iran would respond to each US strike option",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T20:26:26+08:00"
+      },
       {
         "text": "Putin rules out negotiations after Crimean Bridge attacks; partial ceasefire only discussed",
         "confidence": "confirmed",
@@ -178,15 +184,15 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-18T21:32:00+08:00"
-      },
-      {
-        "text": "Crude tanker NAVIG8 MESSI hit by projectile near Hormuz; crew safe",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T20:28:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Putin says Russia is ready to continue Ukraine talks, softening earlier no-talks remark",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-19T20:33:55+08:00"
+      },
       {
         "text": "US Energy Secretary Wright says the US is weighing more diesel and oil exports to Europe",
         "confidence": "confirmed",
@@ -232,6 +238,32 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:33",
+      "ts": "2026-11-19T20:33:55+08:00",
+      "eventTime": "8:33 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T20:33:00+08:00",
+      "eventQual": "est.",
+      "headline": "Putin says Russia is ready to continue Ukraine talks (Interfax), softening his earlier remark that there would be no negotiations after the Crimean Bridge attacks",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk, citing Interfax",
+      "url": "https://x.com/FirstSquawk/status/2123394339217043739"
+    },
+    {
+      "time": "20:26",
+      "ts": "2026-11-19T20:26:26+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Axios: White House asks Pentagon and intelligence agencies how Iran would respond to each prepared US strike option, and whether any would avoid retaliation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Axios reporter Barak Ravid (two sources)",
+      "url": "https://x.com/BarakRavid/status/2123392455089254533"
+    },
     {
       "time": "20:18",
       "ts": "2026-11-19T20:18:24+08:00",
@@ -725,35 +757,19 @@
       "confidence": "Confirmed",
       "source": "AFP via Euronews Arabic (Arabic, translated)",
       "url": "https://x.com/euronewsar/status/2122971712832876665"
-    },
-    {
-      "time": "13:43",
-      "ts": "2026-11-18T13:43:07+08:00",
-      "eventTime": "11:00 pm, 17 Nov (est., evening UAE time)",
-      "eventTs": "2026-11-17T23:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "ADNOC Logistics & Services confirms one of its vessels was attacked while transiting the Strait of Hormuz on the evening of 17 Nov; one crew member unaccounted for",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "ADNOC L&S statement, relayed by Argus Middle East editor Nader Itayim",
-      "url": "https://x.com/ncitayim/status/2122928566489022797"
-    },
-    {
-      "time": "13:26",
-      "ts": "2026-11-18T13:26:47+08:00",
-      "eventTime": "9:40 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T09:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones reportedly hit Russia's Afipsky refinery (about 180,000 b/d) as well as Ilsky in Krasnodar Krai; hits and fires reported at both",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "PiQMarkets (citing Kyiv Independent and Ukrainian monitoring channels); Krasnodar locals",
-      "url": "https://x.com/PiQMarkets/status/2122921092860035073"
     }
   ],
   "sources": [
+    {
+      "title": "Putin: Russia ready to continue Ukraine talks (First Squawk / Interfax)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2123394339217043739"
+    },
+    {
+      "title": "Axios: White House asks Pentagon how Iran would respond to US strike options (Barak Ravid)",
+      "site": "x.com",
+      "href": "https://x.com/BarakRavid/status/2123392455089254533"
+    },
     {
       "title": "Putin: no negotiations after Crimean Bridge attacks (CGTN Europe)",
       "site": "x.com",
@@ -2773,11 +2789,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, a tanker was reportedly droned off Shinas, and satellites flagged an Omsk refinery fire.",
-      "Houthi missiles damaged Riyadh's PIF Tower, Putin ruled out talks after the Crimean Bridge attacks, and the US said it is weighing more diesel and oil exports to Europe."
+      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, Houthi missiles damaged Riyadh's PIF Tower, and the White House is assessing Iran strike options.",
+      "Satellites flagged an Omsk refinery fire, Putin first ruled out then reopened Ukraine talks, and the US said it is weighing more diesel and oil exports to Europe."
     ],
-    "updated": "Thu 19 Nov 2026, 8:22 pm SGT",
-    "updatedTs": "2026-11-19T20:22:00+08:00"
+    "updated": "Thu 19 Nov 2026, 8:36 pm SGT",
+    "updatedTs": "2026-11-19T20:36:00+08:00"
   },
   "last24Count": 13
 }
