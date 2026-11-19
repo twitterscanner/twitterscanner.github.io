@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 7:05 pm SGT",
-  "lastScannedTs": "2026-11-19T19:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 7:04 pm SGT",
-  "asOfTs": "2026-11-19T19:04:12+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 7:26 pm SGT",
+  "lastScannedTs": "2026-11-19T19:26:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 7:25 pm SGT",
+  "asOfTs": "2026-11-19T19:25:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "verdict": "Bullish",
-    "count": "26 of 31 alerts point higher, 4 lower",
-    "text": "26 of 31 alerts point higher, 4 lower.",
+    "count": "27 of 32 alerts point higher, 4 lower",
+    "text": "27 of 32 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Satellite heat signals point to a fire or heavy flaring at Russia's Omsk refinery",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-19T19:20:04+08:00"
+      },
       {
         "text": "IRGC Navy says two supertankers hit a naval mine in Hormuz and exploded",
         "confidence": "unconfirmed",
@@ -208,6 +214,19 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:20",
+      "ts": "2026-11-19T19:20:04+08:00",
+      "eventTime": "3:43 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T15:43:00+08:00",
+      "eventQual": "est.",
+      "headline": "Satellite heat signals suggest a fire or heavy flaring at Russia's Omsk refinery, one of its largest; cause not known, no official word",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINT satellite-fire trackers tleilax and atroxintel",
+      "url": "https://x.com/tleilax___/status/2123375750963478725"
+    },
     {
       "time": "18:59",
       "ts": "2026-11-19T18:59:53+08:00",
@@ -714,22 +733,14 @@
       "confidence": "Unconfirmed",
       "source": "big ben (citing a Russian monitoring channel); local eyewitness posts from Krasnodar",
       "url": "https://x.com/alternative_war/status/2122887837817131188"
-    },
-    {
-      "time": "08:50",
-      "ts": "2026-11-18T08:50:00+08:00",
-      "eventTime": "8:50 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T08:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Bahrain issues its third threat alert in under 24 hours as a new Iranian drone wave targets US bases; unconfirmed reports of explosions at Isa Air Base",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel (Bahrain Interior Ministry alert); also Post Open Source, Middle East Observer",
-      "url": "https://x.com/Osint613/status/2122854825469628465"
     }
   ],
   "sources": [
+    {
+      "title": "Omsk oil refinery satellite heat signal (~100 MW)",
+      "site": "x.com",
+      "href": "https://x.com/tleilax___/status/2123375750963478725"
+    },
     {
       "title": "TankerTrackers: Iran appears to be preparing to ship out oil again",
       "site": "x.com",
@@ -2729,11 +2740,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones struck Russia's Kaleykino oil pumping station.",
+      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones hit Kaleykino while satellites flagged a fire at Omsk refinery.",
       "Houthi missiles damaged Riyadh's PIF Tower, a China-US-Russia Peace Declaration pledged more refined fuel supply, and TankerTrackers says Iran may resume oil shipments."
     ],
-    "updated": "Thu 19 Nov 2026, 7:05 pm SGT",
-    "updatedTs": "2026-11-19T19:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 7:26 pm SGT",
+    "updatedTs": "2026-11-19T19:26:00+08:00"
   },
   "last24Count": 13
 }
