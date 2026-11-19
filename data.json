@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 4:36 pm SGT",
-  "lastScannedTs": "2026-11-19T16:36:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 2:43 pm SGT",
-  "asOfTs": "2026-11-19T14:43:24+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 4:58 pm SGT",
+  "lastScannedTs": "2026-11-19T16:58:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 4:56 pm SGT",
+  "asOfTs": "2026-11-19T16:56:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
     "verdict": "Bullish",
-    "count": "25 of 28 alerts point higher, 3 lower",
-    "text": "25 of 28 alerts point higher, 3 lower.",
+    "count": "26 of 29 alerts point higher, 3 lower",
+    "text": "26 of 29 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Iran reportedly test-fires missiles from Tehran as Trump weighs new strikes",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T16:55:15+08:00"
+      },
       {
         "text": "Reuters: PIF Tower in Riyadh's financial district damaged in Houthi strike",
         "confidence": "confirmed",
@@ -189,6 +195,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:55",
+      "ts": "2026-11-19T16:55:15+08:00",
+      "eventTime": "3:18 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T15:18:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran reportedly test-launches missiles from Tehran (Lashkarak) as Trump weighs new strikes; OSINT footage, no official word",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel, citing OSINT account Shin (hey_itsmyturn) footage",
+      "url": "https://x.com/Osint613/status/2123339307574333501"
+    },
     {
       "time": "14:29",
       "ts": "2026-11-19T14:29:59+08:00",
@@ -695,22 +714,14 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree, Houthi military spokesman (Arabic)",
       "url": "https://x.com/Yah_Saree/status/2122746418146554293"
-    },
-    {
-      "time": "23:32",
-      "ts": "2026-11-17T23:32:41+08:00",
-      "eventTime": "11:25 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T23:25:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says it intercepted and destroyed a Houthi drone launched toward the Riyadh region",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Gazette, CGTN Europe (quoting the Saudi-led coalition)",
-      "url": "https://x.com/Saudi_Gazette/status/2122714550730461264"
     }
   ],
   "sources": [
+    {
+      "title": "Reported Iranian missile test launch from Tehran (Open Source Intel)",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2123339307574333501"
+    },
     {
       "title": "Reuters: PIF Tower in Riyadh's financial district damaged in strike",
       "site": "X / Timour Azhari",
@@ -2686,10 +2697,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones struck Russia's Kaleykino oil pumping station and Tatarstan oil storage.",
-      "Houthi missiles hit Riyadh, damaging the PIF Tower per Reuters, and more were intercepted over the south; Trump delayed Iran strikes and backs Hormuz oil flows."
+      "Houthi missiles damaged Riyadh's PIF Tower per Reuters; Trump delayed Iran strikes and backs Hormuz flows, while Iran reportedly test-fired missiles from Tehran."
     ],
-    "updated": "Thu 19 Nov 2026, 2:45 pm SGT",
-    "updatedTs": "2026-11-19T14:45:00+08:00"
+    "updated": "Thu 19 Nov 2026, 4:58 pm SGT",
+    "updatedTs": "2026-11-19T16:58:00+08:00"
   },
   "last24Count": 13
 }
