@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 1:30 pm SGT",
-  "lastScannedTs": "2026-11-19T13:30:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 12:34 pm SGT",
-  "asOfTs": "2026-11-19T12:34:03+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 1:49 pm SGT",
+  "lastScannedTs": "2026-11-19T13:49:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 1:48 pm SGT",
+  "asOfTs": "2026-11-19T13:48:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Trump dismisses Iran talks, Hormuz LNG slumps and Russian oil sites are hit, though Iran strikes may wait until January.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Trump dismisses Iran talks, Hormuz LNG slumps and Russian oil sites are hit, though Iran strikes may wait until January.",
+    "bottom": "Escalation dominates: Hormuz LNG slumps and Russian oil sites are hit, though Trump delays Iran strikes and backs Hormuz flows with Xi.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Hormuz LNG slumps and Russian oil sites are hit, though Trump delays Iran strikes and backs Hormuz flows with Xi.",
     "verdict": "Bullish",
-    "count": "25 of 27 alerts point higher, 2 lower",
-    "text": "25 of 27 alerts point higher, 2 lower.",
+    "count": "24 of 27 alerts point higher, 3 lower",
+    "text": "24 of 27 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Drones reportedly hit Kaleykino oil pumping station on Russia's Druzhba pipeline in Tatarstan",
@@ -154,15 +154,15 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-18T16:34:00+08:00"
-      },
-      {
-        "text": "ADNOC L&S confirms one of its vessels was attacked in Hormuz; one crew missing",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T13:43:07+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Trump says he and Xi strongly want oil flowing through Hormuz",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-19T13:42:36+08:00"
+      },
       {
         "text": "Trump signals new Iran strikes can wait until after 1 January; Gulf leaders urge restraint",
         "confidence": "confirmed",
@@ -183,6 +183,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:42",
+      "ts": "2026-11-19T13:42:36+08:00",
+      "eventTime": "1:41 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T13:41:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump after meeting Xi at APEC: he and Xi 'feel strongly' oil should flow through the Strait of Hormuz",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "RedboxGlobal India headline of Trump's remarks",
+      "url": "https://x.com/REDBOXINDIA/status/2123290826965184837"
+    },
     {
       "time": "12:29",
       "ts": "2026-11-19T12:29:00+08:00",
@@ -689,22 +702,14 @@
       "confidence": "Unconfirmed",
       "source": "Post Open Source (X), citing warsurvillance; several regional OSINT accounts",
       "url": "https://x.com/CocoPostel/status/2122699047123193963"
-    },
-    {
-      "time": "21:45",
-      "ts": "2026-11-17T21:45:13+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC reportedly fires missiles and drones at US warships involved in the Qeshm Island strike; targets and damage unconfirmed",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Walter Bloomberg (X), citing Sabereen News / regional media; also CHItrader",
-      "url": "https://x.com/DeItaone/status/2122686301979709804"
     }
   ],
   "sources": [
+    {
+      "title": "Trump: he and Xi feel strongly oil should flow through Strait of Hormuz",
+      "site": "X / RedboxGlobal India",
+      "href": "https://x.com/REDBOXINDIA/status/2123290826965184837"
+    },
     {
       "title": "Axios: Trump signals Iran strikes can wait until after January 1; Gulf leaders urge restraint",
       "site": "X / Mario Nawfal",
@@ -2655,10 +2660,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
-      "A Houthi missile caused damage in Riyadh; Trump called Iran talks a waste of time but signalled new strikes could wait until after 1 January."
+      "A Houthi missile caused damage in Riyadh; Trump signalled Iran strikes could wait until January and said he and Xi want Hormuz oil flowing."
     ],
-    "updated": "Thu 19 Nov 2026, 12:37 pm SGT",
-    "updatedTs": "2026-11-19T12:37:00+08:00"
+    "updated": "Thu 19 Nov 2026, 1:49 pm SGT",
+    "updatedTs": "2026-11-19T13:49:00+08:00"
   },
   "last24Count": 13
 }
