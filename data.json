@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 8:05 am SGT",
-  "lastScannedTs": "2026-11-19T08:05:00+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 9:05 am SGT",
+  "lastScannedTs": "2026-11-19T09:05:27+08:00",
   "asOf": "Thu 19 Nov 2026, 8:03 am SGT",
   "asOfTs": "2026-11-19T08:03:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "NYT says Trump weighs new Iran strikes as Israel goes on highest alert, alongside UKMTO-confirmed Hormuz tanker hits and Houthi waves on Saudi targets.",
     "lead": "Net read (last 24 hours): NYT says Trump weighs new Iran strikes as Israel goes on highest alert, alongside UKMTO-confirmed Hormuz tanker hits and Houthi waves on Saudi targets.",
     "verdict": "Bullish",
-    "count": "25 of 26 alerts point higher, 1 lower",
-    "text": "25 of 26 alerts point higher, 1 lower.",
+    "count": "24 of 25 alerts point higher, 1 lower",
+    "text": "24 of 25 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "NYT: Trump weighs new Iran strike campaign; Israel on highest alert for joint strikes",
@@ -154,12 +154,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-18T11:01:00+08:00"
-      },
-      {
-        "text": "Bahrain issues third threat alert in 24 hours as new Iranian drone wave targets US bases",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T08:50:00+08:00"
       }
     ],
     "dovish": [
