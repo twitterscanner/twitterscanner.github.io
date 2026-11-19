@@ -1,8 +1,8 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 5:03 am SGT",
-  "lastScannedTs": "2026-11-20T05:03:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 4:03 am SGT",
-  "asOfTs": "2026-11-20T04:03:28+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 6:06 am SGT",
+  "lastScannedTs": "2026-11-20T06:06:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 6:03 am SGT",
+  "asOfTs": "2026-11-20T06:03:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan and Houthi strikes on Saudi targets outweigh Hormuz flow and ceasefire signals.",
@@ -11,6 +11,12 @@
     "count": "24 of 33 alerts point higher, 8 lower",
     "text": "24 of 33 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Air-defence and anti-aircraft fire reported over northeastern Tehran",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T05:56:00+08:00"
+      },
       {
         "text": "Fars: Iran readies dozens of loaded tankers at Kharg to swarm the US blockade",
         "confidence": "unconfirmed",
@@ -148,12 +154,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-19T06:23:52+08:00"
-      },
-      {
-        "text": "Fresh early-warning sirens in Abha and Khamis Mushait, airspace disruption over Riyadh",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-19T05:56:25+08:00"
       }
     ],
     "dovish": [
@@ -220,6 +220,19 @@
     "detail": "Brent settled at $91.98/bbl (Giovanni Staunovo on X, 4:02 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:56",
+      "ts": "2026-11-20T05:56:00+08:00",
+      "eventTime": "5:50 am, 20 Nov (est.)",
+      "eventTs": "2026-11-20T05:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Air-defence and anti-aircraft fire reported over northeastern Tehran; cause unknown, no strike or incoming attack confirmed, routine testing possible",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Mario Nawfal on X; widely relayed by OSINT and Persian-language accounts",
+      "url": "https://x.com/MarioNawfal/status/2123535825665429916"
+    },
     {
       "time": "03:51",
       "ts": "2026-11-20T03:51:00+08:00",
@@ -726,22 +739,14 @@
       "confidence": "Confirmed",
       "source": "UKMTO (JMIC Advisory 017-26); also sentdefender",
       "url": "https://x.com/UK_MTO/status/2123087225411809593"
-    },
-    {
-      "time": "00:08",
-      "ts": "2026-11-19T00:08:00+08:00",
-      "eventTime": "12:00 am, 19 Nov (est.)",
-      "eventTs": "2026-11-19T00:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says it intercepted and destroyed two Houthi drones over Riyadh and the southern region; Saudi Civil Defense warns of possible danger in Sharurah",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition statement, via Open Source Intel (Osint613); also IsraelWarRoom",
-      "url": "https://x.com/Osint613/status/2123084034305847626"
     }
   ],
   "sources": [
+    {
+      "title": "Air-defence activity reported over northeastern Tehran (Mario Nawfal)",
+      "site": "x.com",
+      "href": "https://x.com/MarioNawfal/status/2123535825665429916"
+    },
     {
       "title": "Fars: Iran readies tanker swarm at Kharg to break US blockade (The Hormuz Letter)",
       "site": "x.com",
@@ -2826,11 +2831,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed four attacks on Saudi Arabia including the Jubail petrochemical plant, and a US official said Iran has begun firing anti-ship cruise missiles in Hormuz.",
+      "The Houthis claimed attacks on Saudi Arabia including Jubail, a US official said Iran has fired anti-ship cruise missiles in Hormuz, and air-defence fire was reported over Tehran.",
       "Fars said Iran is readying dozens of loaded tankers to swarm the US blockade, while Europe and Ukraine urged Russia to accept a winter energy ceasefire."
     ],
-    "updated": "Fri 20 Nov 2026, 4:04 am SGT",
-    "updatedTs": "2026-11-20T04:04:00+08:00"
+    "updated": "Fri 20 Nov 2026, 6:06 am SGT",
+    "updatedTs": "2026-11-20T06:06:00+08:00"
   },
   "last24Count": 13
 }
