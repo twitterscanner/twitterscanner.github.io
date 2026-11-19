@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 2:03 pm SGT",
-  "lastScannedTs": "2026-11-19T14:03:00+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 2:23 pm SGT",
+  "lastScannedTs": "2026-11-19T14:23:00+08:00",
   "asOf": "Thu 19 Nov 2026, 2:01 pm SGT",
   "asOfTs": "2026-11-19T14:01:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -18,8 +18,8 @@
         "ts": "2026-11-19T13:56:49+08:00"
       },
       {
-        "text": "Drones reportedly hit Kaleykino oil pumping station on Russia's Druzhba pipeline in Tatarstan",
-        "confidence": "unconfirmed",
+        "text": "Drones hit Tatarstan oil sites incl. Kaleykino pumping station on Russia's Druzhba pipeline",
+        "confidence": "confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-19T11:51:00+08:00"
       },
@@ -234,11 +234,11 @@
       "eventTime": "11:30 am, 19 Nov (est.)",
       "eventTs": "2026-11-19T11:30:00+08:00",
       "eventQual": "est.",
-      "headline": "Ukrainian drones reportedly hit Russia's Kaleykino oil pumping station (Druzhba pipeline hub) near Almetyevsk, Tatarstan; residents report fire",
+      "headline": "Ukrainian drones hit oil facilities in Tatarstan (Interfax), incl. reported fire at Kaleykino oil pumping station (Druzhba pipeline hub) near Almetyevsk",
       "theme": "Russia-Ukraine",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Local residents' reports via LetsArmUKR, Exilenova+ and others; footage from Almetyevsk",
+      "confidence": "Confirmed",
+      "source": "Interfax (via Giovanni Staunovo): drones attacked oil storage facilities in Tatarstan; earlier local residents' reports via LetsArmUKR and others",
       "url": "https://x.com/LetsArmUKR/status/2123262976102629529"
     },
     {
@@ -711,6 +711,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Interfax: drones attack oil storage facilities in Russia's Tatarstan",
+      "site": "X / Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2123300354070565148"
+    },
     {
       "title": "Coalition: four Houthi ballistic missiles aimed at southern Saudi Arabia intercepted",
       "site": "X / First Squawk",
