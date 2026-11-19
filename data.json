@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 3:08 am SGT",
-  "lastScannedTs": "2026-11-20T03:08:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 3:04 am SGT",
-  "asOfTs": "2026-11-20T03:04:22+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 4:04 am SGT",
+  "lastScannedTs": "2026-11-20T04:04:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 4:03 am SGT",
+  "asOfTs": "2026-11-20T04:03:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi claims on Saudi petrochemical and Riyadh targets, Iranian threats and US strike planning outweigh Hormuz flow and ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi claims on Saudi petrochemical and Riyadh targets, Iranian threats and US strike planning outweigh Hormuz flow and ceasefire signals.",
+    "bottom": "Escalation dominates: Iranian cruise-missile use and a tanker swarm plan, plus Houthi strikes on Saudi targets, outweigh Hormuz flow and ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Iranian cruise-missile use and a tanker swarm plan, plus Houthi strikes on Saudi targets, outweigh Hormuz flow and ceasefire signals.",
     "verdict": "Bullish",
-    "count": "25 of 34 alerts point higher, 8 lower",
-    "text": "25 of 34 alerts point higher, 8 lower.",
+    "count": "26 of 35 alerts point higher, 8 lower",
+    "text": "26 of 35 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Fars: Iran readies dozens of loaded tankers at Kharg to swarm the US blockade",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T03:51:00+08:00"
+      },
+      {
+        "text": "US official: Iran now firing anti-ship cruise missiles at ships in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-20T03:35:00+08:00"
+      },
       {
         "text": "Houthis claim hits on Sadaf petrochemical plant in Jubail, Riyadh and Saudi airbase",
         "confidence": "unconfirmed",
@@ -154,12 +166,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-19T04:16:56+08:00"
-      },
-      {
-        "text": "Trump awaits completed US buildup, incl. bombers, before Iran strike decision; F-35Bs head to region",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-19T03:21:00+08:00"
       }
     ],
     "dovish": [
@@ -226,6 +232,32 @@
     "detail": "Brent up 0.69% at $92.58/bbl (Reuters, relayed on X, 12:19 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:51",
+      "ts": "2026-11-20T03:51:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Fars: Iran has crewed and loaded dozens of tankers at Kharg Island under the Iranian flag to swarm the US blockade, and threatens Gulf oil and gas sites if the US Navy acts",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "The Hormuz Letter, citing Fars News Agency; also Open Source Intel and Post Open Source (Fars), Israel's Channel 12",
+      "url": "https://x.com/HormuzLetter/status/2123504462425669804"
+    },
+    {
+      "time": "03:35",
+      "ts": "2026-11-20T03:35:00+08:00",
+      "eventTime": "3:37 am, 20 Nov (est.)",
+      "eventTs": "2026-11-20T03:37:00+08:00",
+      "eventQual": "est.",
+      "headline": "US official says Iran has started firing anti-ship cruise missiles at vessels in the Gulf and Hormuz; OSINT reports IRGC Navy launches from southern Iran, explosions heard in the Strait",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iran International English, citing a US official via The Jerusalem Post; launch report from OSINT account OSINTWarfare, relayed by Post Open Source",
+      "url": "https://x.com/IranIntl_En/status/2123500451744174354"
+    },
     {
       "time": "02:46",
       "ts": "2026-11-20T02:46:48+08:00",
@@ -719,35 +751,19 @@
       "confidence": "Confirmed",
       "source": "Saudi-led coalition statement, via Open Source Intel (Osint613); also IsraelWarRoom",
       "url": "https://x.com/Osint613/status/2123084034305847626"
-    },
-    {
-      "time": "23:35",
-      "ts": "2026-11-18T23:35:00+08:00",
-      "eventTime": "10:20 pm, 18 Nov (est.)",
-      "eventTs": "2026-11-18T22:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Hormozgan governorate says tonight's Bandar Abbas explosion was the controlled destruction of unexploded munitions, not an attack, countering reports of a US strike",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "Hormozgan Province Governorate statement, relayed by Ryan Rozbiani",
-      "url": "https://x.com/RyanRozbiani/status/2123075333188440304"
-    },
-    {
-      "time": "23:24",
-      "ts": "2026-11-18T23:24:00+08:00",
-      "eventTime": "Not stated (cumulative since late Oct; reported about 11:15 pm SGT, 18 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters: Ukrainian drone strikes have cut combined crude processing at Russian refineries by about 45% since late October, sources estimate",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Reuters sources estimate, via PiQ Markets",
-      "url": "https://x.com/PiQMarkets/status/2123072549021978660"
     }
   ],
   "sources": [
+    {
+      "title": "Fars: Iran readies tanker swarm at Kharg to break US blockade (The Hormuz Letter)",
+      "site": "x.com",
+      "href": "https://x.com/HormuzLetter/status/2123504462425669804"
+    },
+    {
+      "title": "US official: Iran using anti-ship cruise missiles against ships (Iran International)",
+      "site": "x.com",
+      "href": "https://x.com/IranIntl_En/status/2123500451744174354"
+    },
     {
       "title": "European leaders and Ukraine urge Russia to agree winter energy ceasefire (First Squawk)",
       "site": "x.com",
@@ -2822,11 +2838,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed four attacks on Saudi Arabia, including the Sadaf petrochemical plant in Jubail, while Fars warned Gulf oil facilities would be hit if an Iranian export tanker is disrupted.",
-      "On the de-escalating side, US Energy Secretary Wright cited record Hormuz oil outflows, and European leaders with Ukraine urged Russia to accept a winter energy ceasefire."
+      "The Houthis claimed four attacks on Saudi Arabia including the Jubail petrochemical plant, and a US official said Iran has begun firing anti-ship cruise missiles in Hormuz.",
+      "Fars said Iran is readying dozens of loaded tankers to swarm the US blockade, while Europe and Ukraine urged Russia to accept a winter energy ceasefire."
     ],
-    "updated": "Fri 20 Nov 2026, 3:08 am SGT",
-    "updatedTs": "2026-11-20T03:08:00+08:00"
+    "updated": "Fri 20 Nov 2026, 4:04 am SGT",
+    "updatedTs": "2026-11-20T04:04:00+08:00"
   },
   "last24Count": 13
 }
