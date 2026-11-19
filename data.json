@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 9:44 am SGT",
-  "lastScannedTs": "2026-11-19T09:44:55+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 10:02 am SGT",
+  "lastScannedTs": "2026-11-19T10:02:07+08:00",
   "asOf": "Thu 19 Nov 2026, 9:44 am SGT",
   "asOfTs": "2026-11-19T09:44:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -179,8 +179,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$91.95",
-    "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
+    "value": "$93.03",
+    "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
     {
