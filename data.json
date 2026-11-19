@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 1:07 am SGT",
-  "lastScannedTs": "2026-11-20T01:07:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 12:05 am SGT",
-  "asOfTs": "2026-11-20T00:05:47+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 1:15 am SGT",
+  "lastScannedTs": "2026-11-20T01:15:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 1:14 am SGT",
+  "asOfTs": "2026-11-20T01:14:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
+    "bottom": "Escalation dominates: Houthi strikes on Riyadh, Iranian threats to Gulf oil facilities, Iraq on maximum alert and US Iran strike planning, despite fuel pledges.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, Iranian threats to Gulf oil facilities, Iraq on maximum alert and US Iran strike planning, despite fuel pledges.",
     "verdict": "Bullish",
-    "count": "25 of 32 alerts point higher, 6 lower",
-    "text": "25 of 32 alerts point higher, 6 lower.",
+    "count": "26 of 33 alerts point higher, 6 lower",
+    "text": "26 of 33 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Fars: any disruption of Iranian export tanker would trigger blasts at Gulf oil facilities",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T01:15:00+08:00"
+      },
       {
         "text": "Saudi Foreign Ministry reserves right to take all necessary measures after Houthi attacks",
         "confidence": "confirmed",
@@ -210,10 +216,23 @@
     ]
   },
   "brent": {
-    "value": "$92.15",
-    "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
+    "value": "$92.58",
+    "detail": "Brent up 0.69% at $92.58/bbl (Reuters, relayed on X, 12:19 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "01:15",
+      "ts": "2026-11-20T01:15:00+08:00",
+      "eventTime": "12:55 am, 20 Nov (est.)",
+      "eventTs": "2026-11-20T00:55:00+08:00",
+      "eventQual": "est.",
+      "headline": "Fars correspondent: Iranian oil tanker set to sail for export despite US blockade; any disruption would trigger explosions at oil facilities in the UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iran Military News (Hebrew), relaying a Fars News Agency correspondent; also Post Open Source",
+      "url": "https://x.com/IranMilitaryHeb/status/2123463039160561859"
+    },
     {
       "time": "23:49",
       "ts": "2026-11-19T23:49:03+08:00",
@@ -720,22 +739,14 @@
       "confidence": "Unconfirmed",
       "source": "Haaretz report, relayed by HormuzReport; also cyrifcom, WorldConflict_X",
       "url": "https://x.com/HormuzReport/status/2123055947883176374"
-    },
-    {
-      "time": "21:32",
-      "ts": "2026-11-18T21:32:00+08:00",
-      "eventTime": "Not stated (report published about 9:05 pm SGT, 18 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters: Saudi Arabia sees its war with the Houthis extending well into 2027 and wants allies to make battlefield gains in Yemen before any talks, Western officials say",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Reuters citing Western officials, via FirstSquawk; also LiveSquawk",
-      "url": "https://x.com/FirstSquawk/status/2123040989497696480"
     }
   ],
   "sources": [
+    {
+      "title": "Fars correspondent: disruption of Iranian tanker would trigger blasts at Gulf oil facilities (Iran Military News)",
+      "site": "x.com",
+      "href": "https://x.com/IranMilitaryHeb/status/2123463039160561859"
+    },
     {
       "title": "Putin invites European leaders to Moscow (Financial Times)",
       "site": "x.com",
@@ -2785,11 +2796,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and Houthi missiles damaged Riyadh's PIF Tower, with Riyadh warning it may respond.",
-      "Iraq put its forces on maximum alert and the White House is assessing Iran strike options, while Putin reopened Ukraine talks and invited European leaders to Moscow."
+      "A Fars correspondent warned that any disruption of an Iranian tanker sailing for export would trigger explosions at oil facilities across the UAE, Saudi Arabia and other Gulf states.",
+      "This follows Houthi missile damage to Riyadh's PIF Tower and IRGC claims of tankers hitting mines in Hormuz, while Putin invited European leaders to Moscow for talks."
     ],
-    "updated": "Fri 20 Nov 2026, 12:09 am SGT",
-    "updatedTs": "2026-11-20T00:09:00+08:00"
+    "updated": "Fri 20 Nov 2026, 1:15 am SGT",
+    "updatedTs": "2026-11-20T01:15:00+08:00"
   },
   "last24Count": 13
 }
