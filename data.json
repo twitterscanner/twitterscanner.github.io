@@ -1,12 +1,12 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 11:56 am SGT",
-  "lastScannedTs": "2026-11-19T11:56:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 11:53 am SGT",
-  "asOfTs": "2026-11-19T11:53:11+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 12:05 pm SGT",
+  "lastScannedTs": "2026-11-19T12:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 12:04 pm SGT",
+  "asOfTs": "2026-11-19T12:04:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump dismisses Iran talks as strike plans firm up, Houthi missiles hit Riyadh, and Ukrainian drones reportedly strike a Russian pipeline hub.",
-    "lead": "Net read (last 24 hours): Trump dismisses Iran talks as strike plans firm up, Houthi missiles hit Riyadh, and Ukrainian drones reportedly strike a Russian pipeline hub.",
+    "bottom": "Trump dismisses Iran talks as strike plans firm up, Hormuz LNG traffic slumps, and drones reportedly hit a Russian pipeline hub.",
+    "lead": "Net read (last 24 hours): Trump dismisses Iran talks as strike plans firm up, Hormuz LNG traffic slumps, and drones reportedly hit a Russian pipeline hub.",
     "verdict": "Bullish",
     "count": "27 of 28 alerts point higher, 1 lower",
     "text": "27 of 28 alerts point higher, 1 lower.",
@@ -16,6 +16,12 @@
         "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-19T11:51:00+08:00"
+      },
+      {
+        "text": "LNG exits through Hormuz drop to as few as two a week vs average of eight",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-19T11:42:34+08:00"
       },
       {
         "text": "Trump calls Iran talks a \"waste of time\", vows to \"finish it off\" soon",
@@ -166,12 +172,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-18T12:21:00+08:00"
-      },
-      {
-        "text": "Iran's Army claims dawn drone strike on US Patriots at Kuwait's Ali Al Salem base",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T11:59:00+08:00"
       }
     ],
     "dovish": [
@@ -201,6 +201,19 @@
       "confidence": "Unconfirmed",
       "source": "Local residents' reports via LetsArmUKR, Exilenova+ and others; footage from Almetyevsk",
       "url": "https://x.com/LetsArmUKR/status/2123262976102629529"
+    },
+    {
+      "time": "11:42",
+      "ts": "2026-11-19T11:42:34+08:00",
+      "eventTime": "Not stated (week to Tue 17 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bloomberg data: LNG traffic through Hormuz slows sharply as attacks intensify; as few as two tankers exited in the week to Tuesday vs a weekly average of eight",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Bloomberg's Stephen Stapczynski, preliminary ship-tracking data",
+      "url": "https://x.com/SStapczynski/status/2123260616911831531"
     },
     {
       "time": "10:57",
@@ -695,22 +708,14 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping / Open Source Intel (X)",
       "url": "https://x.com/AMK_Mapping_/status/2122676291816300912"
-    },
-    {
-      "time": "21:05",
-      "ts": "2026-11-17T21:05:45+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthi military spokesman Saree announces ground operation securing 10 districts in Yemen's Taiz and Lahj, claims 12 Saudi-backed divisions routed",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi armed forces spokesman (X, Arabic video statement)",
-      "url": "https://x.com/Yah_Saree/status/2122676127558758753"
     }
   ],
   "sources": [
+    {
+      "title": "Bloomberg: LNG exits through Hormuz fall to as few as two in a week",
+      "site": "X / Stephen Stapczynski",
+      "href": "https://x.com/SStapczynski/status/2123260616911831531"
+    },
     {
       "title": "Residents report attack and fire at Kaleykino oil pumping station, Tatarstan",
       "site": "X / LetsArmUKR",
@@ -2650,11 +2655,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab in Hormuz, a Houthi missile caused damage in Riyadh, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
-      "Trump called Iran negotiations a waste of time and vowed to finish the war soon, after the New York Times said he is weighing a new strike campaign."
+      "UKMTO confirmed a tanker hit off Khasab, Bloomberg data show Hormuz LNG exits slumping, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
+      "A Houthi missile caused damage in Riyadh, and Trump called Iran negotiations a waste of time after the New York Times said he is weighing a new strike campaign."
     ],
-    "updated": "Thu 19 Nov 2026, 11:56 am SGT",
-    "updatedTs": "2026-11-19T11:56:00+08:00"
+    "updated": "Thu 19 Nov 2026, 12:05 pm SGT",
+    "updatedTs": "2026-11-19T12:05:00+08:00"
   },
   "last24Count": 13
 }
