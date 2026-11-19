@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 2:23 pm SGT",
-  "lastScannedTs": "2026-11-19T14:23:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 2:01 pm SGT",
-  "asOfTs": "2026-11-19T14:01:27+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 2:45 pm SGT",
+  "lastScannedTs": "2026-11-19T14:45:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 2:43 pm SGT",
+  "asOfTs": "2026-11-19T14:43:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi missile salvos on Saudi Arabia, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi missile salvos on Saudi Arabia, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
+    "bottom": "Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
     "verdict": "Bullish",
-    "count": "25 of 28 alerts point higher, 3 lower",
-    "text": "25 of 28 alerts point higher, 3 lower.",
+    "count": "26 of 29 alerts point higher, 3 lower",
+    "text": "26 of 29 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Reuters: PIF Tower in Riyadh's financial district damaged in Houthi strike",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T14:29:59+08:00"
+      },
       {
         "text": "Coalition intercepts four Houthi ballistic missiles aimed at southern Saudi Arabia",
         "confidence": "confirmed",
@@ -189,6 +195,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:29",
+      "ts": "2026-11-19T14:29:59+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Reuters: PIF Tower, home of Saudi Arabia's sovereign wealth fund in Riyadh's financial district, damaged in strike (three sources); follows Houthi missile attacks on Riyadh",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Reuters correspondent Timour Azhari (three sources); also MenchOsint",
+      "url": "https://x.com/timourazhari/status/2123302750679425514"
+    },
     {
       "time": "13:56",
       "ts": "2026-11-19T13:56:49+08:00",
@@ -695,22 +714,19 @@
       "confidence": "Confirmed",
       "source": "Saudi Gazette, CGTN Europe (quoting the Saudi-led coalition)",
       "url": "https://x.com/Saudi_Gazette/status/2122714550730461264"
-    },
-    {
-      "time": "23:04",
-      "ts": "2026-11-17T23:04:09+08:00",
-      "eventTime": "Not stated (Fars says 'in the past hours' before 11:04 pm SGT, 17 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy claims a fourth 'offending' tanker has caught fire east of the Strait of Hormuz in the past few hours (Fars)",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "FinancialJuice (X), citing Fars News / IRGC Navy; widely relayed",
-      "url": "https://x.com/financialjuice/status/2122707371277369759"
     }
   ],
   "sources": [
+    {
+      "title": "Reuters: PIF Tower in Riyadh's financial district damaged in strike",
+      "site": "X / Timour Azhari",
+      "href": "https://x.com/timourazhari/status/2123302750679425514"
+    },
+    {
+      "title": "PIF Tower damaged, per Reuters and local sources",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2123304312616943867"
+    },
     {
       "title": "Interfax: drones attack oil storage facilities in Russia's Tatarstan",
       "site": "X / Giovanni Staunovo",
@@ -2675,11 +2691,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
-      "Houthi missiles caused damage in Riyadh and four more were intercepted over the south; Trump delayed Iran strikes and said he and Xi want Hormuz oil flowing."
+      "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones struck Russia's Kaleykino oil pumping station and Tatarstan oil storage.",
+      "Houthi missiles hit Riyadh, damaging the PIF Tower per Reuters, and more were intercepted over the south; Trump delayed Iran strikes and backs Hormuz oil flows."
     ],
-    "updated": "Thu 19 Nov 2026, 2:03 pm SGT",
-    "updatedTs": "2026-11-19T14:03:00+08:00"
+    "updated": "Thu 19 Nov 2026, 2:45 pm SGT",
+    "updatedTs": "2026-11-19T14:45:00+08:00"
   },
   "last24Count": 13
 }
