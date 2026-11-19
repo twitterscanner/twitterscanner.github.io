@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 7:41 pm SGT",
-  "lastScannedTs": "2026-11-19T19:41:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 7:39 pm SGT",
-  "asOfTs": "2026-11-19T19:39:23+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 7:51 pm SGT",
+  "lastScannedTs": "2026-11-19T19:51:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 7:49 pm SGT",
+  "asOfTs": "2026-11-19T19:49:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "verdict": "Bullish",
-    "count": "27 of 33 alerts point higher, 5 lower",
-    "text": "27 of 33 alerts point higher, 5 lower.",
+    "count": "28 of 34 alerts point higher, 5 lower",
+    "text": "28 of 34 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Tanker reportedly hit by a drone off Shinas, Oman, in the Gulf of Oman",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-19T19:44:26+08:00"
+      },
       {
         "text": "Satellite heat signals point to a fire or heavy flaring at Russia's Omsk refinery",
         "confidence": "unconfirmed",
@@ -220,6 +226,19 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:44",
+      "ts": "2026-11-19T19:44:26+08:00",
+      "eventTime": "7:30 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T19:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Tanker reportedly struck by a drone off Shinas, Oman, at the Gulf of Oman anchorage where ships wait to transit Hormuz; no UKMTO confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint; also OSINT account ghaybintel",
+      "url": "https://x.com/MenchOsint/status/2123381883467640947"
+    },
     {
       "time": "19:31",
       "ts": "2026-11-19T19:31:49+08:00",
@@ -726,22 +745,14 @@
       "confidence": "Confirmed",
       "source": "Saudi Press Agency (coalition spokesman); also First Squawk, Al Arabiya",
       "url": "https://x.com/SPAregions/status/2122907964155523415"
-    },
-    {
-      "time": "11:59",
-      "ts": "2026-11-18T11:59:00+08:00",
-      "eventTime": "10:15 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T10:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Army formally claims a dawn drone strike on US Patriot air defences and drone and missile launchers at Kuwait's Ali Al Salem Air Base, warning of responses without geographic limits",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing Iranian state media; also Redbox, IranPress",
-      "url": "https://x.com/FirstSquawk/status/2122902478333300844"
     }
   ],
   "sources": [
+    {
+      "title": "Tanker reportedly struck by drone off Shinas, Oman (MenchOsint)",
+      "site": "x.com",
+      "href": "https://x.com/MenchOsint/status/2123381883467640947"
+    },
     {
       "title": "US Energy Secretary Wright: US mulls ramping up diesel and oil exports to Europe (financialjuice)",
       "site": "x.com",
@@ -2751,11 +2762,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones hit Kaleykino while satellites flagged a fire at Omsk refinery.",
+      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, a tanker was reportedly droned off Shinas, and satellites flagged an Omsk refinery fire.",
       "Houthi missiles damaged Riyadh's PIF Tower, while a China-US-Russia declaration pledged more refined fuel and the US said it is weighing more diesel and oil exports to Europe."
     ],
-    "updated": "Thu 19 Nov 2026, 7:41 pm SGT",
-    "updatedTs": "2026-11-19T19:41:00+08:00"
+    "updated": "Thu 19 Nov 2026, 7:51 pm SGT",
+    "updatedTs": "2026-11-19T19:51:00+08:00"
   },
   "last24Count": 13
 }
