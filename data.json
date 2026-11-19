@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 2:06 am SGT",
-  "lastScannedTs": "2026-11-20T02:06:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 1:14 am SGT",
-  "asOfTs": "2026-11-20T01:14:56+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 3:08 am SGT",
+  "lastScannedTs": "2026-11-20T03:08:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 3:04 am SGT",
+  "asOfTs": "2026-11-20T03:04:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes on Riyadh, Iranian threats to Gulf oil facilities, Iraq on maximum alert and US Iran strike planning, despite fuel pledges.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, Iranian threats to Gulf oil facilities, Iraq on maximum alert and US Iran strike planning, despite fuel pledges.",
+    "bottom": "Escalation dominates: Houthi claims on Saudi petrochemical and Riyadh targets, Iranian threats and US strike planning outweigh Hormuz flow and ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi claims on Saudi petrochemical and Riyadh targets, Iranian threats and US strike planning outweigh Hormuz flow and ceasefire signals.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 6 lower",
-    "text": "24 of 31 alerts point higher, 6 lower.",
+    "count": "25 of 34 alerts point higher, 8 lower",
+    "text": "25 of 34 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim hits on Sadaf petrochemical plant in Jubail, Riyadh and Saudi airbase",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T02:30:00+08:00"
+      },
       {
         "text": "Fars: any disruption of Iranian export tanker would trigger blasts at Gulf oil facilities",
         "confidence": "unconfirmed",
@@ -158,6 +164,18 @@
     ],
     "dovish": [
       {
+        "text": "Germany, France, UK and Ukraine urge Russia to agree winter energy ceasefire",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-20T02:46:48+08:00"
+      },
+      {
+        "text": "Wright: record Hormuz oil outflow yesterday, no rise in Iran tensions",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-20T02:11:30+08:00"
+      },
+      {
         "text": "Putin invites European leaders to Moscow (FT)",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -208,6 +226,45 @@
     "detail": "Brent up 0.69% at $92.58/bbl (Reuters, relayed on X, 12:19 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "02:46",
+      "ts": "2026-11-20T02:46:48+08:00",
+      "eventTime": "2:46 am, 20 Nov (est.)",
+      "eventTs": "2026-11-20T02:46:00+08:00",
+      "eventQual": "est.",
+      "headline": "Leaders of Germany, France, the UK and Ukraine jointly urge Russia to agree to a winter energy ceasefire",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk (wire relay)",
+      "url": "https://x.com/FirstSquawk/status/2123488176765534587"
+    },
+    {
+      "time": "02:30",
+      "ts": "2026-11-20T02:30:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim four attacks on Saudi Arabia today, including the Sadaf petrochemical plant in Jubail, Khamis Mushait air base, King Khalid Airport and Riyadh's financial district, and tell investors to leave",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yahya Saree, Houthi military spokesman (statement in Arabic); English summary by Post Open Source",
+      "url": "https://x.com/Yah_Saree/status/2123483950031200501"
+    },
+    {
+      "time": "02:11",
+      "ts": "2026-11-20T02:11:30+08:00",
+      "eventTime": "2:11 am, 20 Nov (est.)",
+      "eventTs": "2026-11-20T02:11:00+08:00",
+      "eventQual": "est.",
+      "headline": "US Energy Secretary Wright says yesterday saw by far the largest flow of oil out of the Strait of Hormuz, and sees no increase in tensions over Iran",
+      "theme": "Hormuz",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk (wire relay)",
+      "url": "https://x.com/FirstSquawk/status/2123479294336999484"
+    },
     {
       "time": "01:15",
       "ts": "2026-11-20T01:15:00+08:00",
@@ -688,48 +745,29 @@
       "confidence": "Confirmed",
       "source": "Reuters sources estimate, via PiQ Markets",
       "url": "https://x.com/PiQMarkets/status/2123072549021978660"
-    },
-    {
-      "time": "22:45",
-      "ts": "2026-11-18T22:45:00+08:00",
-      "eventTime": "10:20 pm, 18 Nov (est.)",
-      "eventTs": "2026-11-18T22:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian reports blame tonight's Bandar Abbas explosions on a targeted US strike on the port near the Strait of Hormuz; no US confirmation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian media reports relayed by Eli Afriat; also Middle East Observer, Kan's Roi Kais",
-      "url": "https://x.com/EliAfriatISR/status/2123062420683833790"
-    },
-    {
-      "time": "22:28",
-      "ts": "2026-11-18T22:28:00+08:00",
-      "eventTime": "10:20 pm, 18 Nov (est.)",
-      "eventTs": "2026-11-18T22:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions reported near Iran's 9th Tactical Air Base in Bandar Abbas on the Strait of Hormuz, with smoke rising from the base; cause unknown",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel (Osint613); also RyanRozbiani",
-      "url": "https://x.com/Osint613/status/2123059432326086920"
-    },
-    {
-      "time": "22:14",
-      "ts": "2026-11-18T22:14:00+08:00",
-      "eventTime": "Not stated (report published about 10:05 pm SGT, 18 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Haaretz: Israel is preparing for a possible new strike on Iran in the coming days and seeking direct US backing, after CENTCOM chief Cooper met IDF chief Zamir in Tel Aviv",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Haaretz report, relayed by HormuzReport; also cyrifcom, WorldConflict_X",
-      "url": "https://x.com/HormuzReport/status/2123055947883176374"
     }
   ],
   "sources": [
+    {
+      "title": "European leaders and Ukraine urge Russia to agree winter energy ceasefire (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2123488176765534587"
+    },
+    {
+      "title": "Houthi military spokesman statement on attacks in Saudi Arabia (Yahya Saree)",
+      "site": "x.com",
+      "href": "https://x.com/Yah_Saree/status/2123483950031200501"
+    },
+    {
+      "title": "Houthis claim four attacks on Saudi Arabia incl. Sadaf petrochemical plant (Post Open Source)",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2123488873980260494"
+    },
+    {
+      "title": "Wright: largest flow of oil out of Hormuz yesterday (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2123479294336999484"
+    },
     {
       "title": "Fars correspondent: disruption of Iranian tanker would trigger blasts at Gulf oil facilities (Iran Military News)",
       "site": "x.com",
@@ -2784,11 +2822,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A Fars correspondent warned that any disruption of an Iranian tanker sailing for export would trigger explosions at oil facilities across the UAE, Saudi Arabia and other Gulf states.",
-      "This follows Houthi missile damage to Riyadh's PIF Tower and IRGC claims of tankers hitting mines in Hormuz, while Putin invited European leaders to Moscow for talks."
+      "The Houthis claimed four attacks on Saudi Arabia, including the Sadaf petrochemical plant in Jubail, while Fars warned Gulf oil facilities would be hit if an Iranian export tanker is disrupted.",
+      "On the de-escalating side, US Energy Secretary Wright cited record Hormuz oil outflows, and European leaders with Ukraine urged Russia to accept a winter energy ceasefire."
     ],
-    "updated": "Fri 20 Nov 2026, 1:15 am SGT",
-    "updatedTs": "2026-11-20T01:15:00+08:00"
+    "updated": "Fri 20 Nov 2026, 3:08 am SGT",
+    "updatedTs": "2026-11-20T03:08:00+08:00"
   },
   "last24Count": 13
 }
