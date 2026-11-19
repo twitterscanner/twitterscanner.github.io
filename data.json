@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 6:58 pm SGT",
-  "lastScannedTs": "2026-11-19T18:58:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 6:58 pm SGT",
-  "asOfTs": "2026-11-19T18:58:19+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 7:05 pm SGT",
+  "lastScannedTs": "2026-11-19T19:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 7:04 pm SGT",
+  "asOfTs": "2026-11-19T19:04:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "verdict": "Bullish",
-    "count": "26 of 30 alerts point higher, 4 lower",
-    "text": "26 of 30 alerts point higher, 4 lower.",
+    "count": "26 of 31 alerts point higher, 4 lower",
+    "text": "26 of 31 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "IRGC Navy says two supertankers hit a naval mine in Hormuz and exploded",
@@ -194,13 +194,33 @@
         "ts": "2026-11-18T23:35:00+08:00"
       }
     ],
-    "neutral": []
+    "neutral": [
+      {
+        "text": "TankerTrackers says Iran appears to be preparing to ship out oil again",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T18:59:53+08:00"
+      }
+    ]
   },
   "brent": {
     "value": "$92.15",
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:59",
+      "ts": "2026-11-19T18:59:53+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "TankerTrackers: Iran appears to be preparing to ship out oil again, despite the US blockade on its exports; no details yet",
+      "theme": "Iran",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "TankerTrackers.com (satellite/AIS tanker tracking)",
+      "url": "https://x.com/TankerTrackers/status/2123370674622206416"
+    },
     {
       "time": "18:57",
       "ts": "2026-11-19T18:57:00+08:00",
@@ -707,22 +727,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel (Bahrain Interior Ministry alert); also Post Open Source, Middle East Observer",
       "url": "https://x.com/Osint613/status/2122854825469628465"
-    },
-    {
-      "time": "07:08",
-      "ts": "2026-11-18T07:08:00+08:00",
-      "eventTime": "7:06 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T07:06:00+08:00",
-      "eventQual": "est.",
-      "headline": "Bahrain orders residents to shelter as a new wave of Iranian drones targets US bases; Bahrain TV says air defences intercepted the attack, with unconfirmed reports of impacts at Isa Air Base",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel (Bahrain Interior Ministry alert, Bahrain TV); also War Radar, Post Open Source",
-      "url": "https://x.com/Osint613/status/2122829163656630382"
     }
   ],
   "sources": [
+    {
+      "title": "TankerTrackers: Iran appears to be preparing to ship out oil again",
+      "site": "x.com",
+      "href": "https://x.com/TankerTrackers/status/2123370674622206416"
+    },
     {
       "title": "China-US-Russia 'Peace Declaration' pledges more refined petroleum production and supply (First Squawk, Chinese state media)",
       "site": "x.com",
@@ -2718,10 +2730,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones struck Russia's Kaleykino oil pumping station.",
-      "Houthi missiles damaged Riyadh's PIF Tower, while a China-US-Russia Peace Declaration after the Shenzhen summit pledged stable energy flows and more refined fuel supply."
+      "Houthi missiles damaged Riyadh's PIF Tower, a China-US-Russia Peace Declaration pledged more refined fuel supply, and TankerTrackers says Iran may resume oil shipments."
     ],
-    "updated": "Thu 19 Nov 2026, 6:58 pm SGT",
-    "updatedTs": "2026-11-19T18:58:00+08:00"
+    "updated": "Thu 19 Nov 2026, 7:05 pm SGT",
+    "updatedTs": "2026-11-19T19:05:00+08:00"
   },
   "last24Count": 13
 }
