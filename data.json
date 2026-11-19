@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 10:47 pm SGT",
-  "lastScannedTs": "2026-11-19T22:47:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 8:41 pm SGT",
-  "asOfTs": "2026-11-19T20:41:32+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 11:06 pm SGT",
+  "lastScannedTs": "2026-11-19T23:06:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 11:05 pm SGT",
+  "asOfTs": "2026-11-19T23:05:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
     "verdict": "Bullish",
-    "count": "26 of 33 alerts point higher, 6 lower",
-    "text": "26 of 33 alerts point higher, 6 lower.",
+    "count": "27 of 34 alerts point higher, 6 lower",
+    "text": "27 of 34 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Saudi emergency alerts in Riyadh and Al-Kharj as fresh Houthi attack targets the capital",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T23:00:25+08:00"
+      },
       {
         "text": "Iraq puts all armed and security forces on maximum alert status \"C\"",
         "confidence": "unconfirmed",
@@ -220,6 +226,19 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:00",
+      "ts": "2026-11-19T23:00:25+08:00",
+      "eventTime": "11:00 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T23:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi authorities issue emergency early-warning alerts for Riyadh and Al-Kharj over a hostile aerial threat as a fresh Houthi missile/drone attack targets the capital; explosions reported locally",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Al Arabiya English (Saudi Civil Defense alert); explosions per local accounts, unverified",
+      "url": "https://x.com/AlArabiya_Eng/status/2123431204552651102"
+    },
     {
       "time": "20:41",
       "ts": "2026-11-19T20:41:32+08:00",
@@ -726,22 +745,14 @@
       "confidence": "Unconfirmed",
       "source": "Iranian Army PR, relayed by AMK Mapping and Middle East Observer",
       "url": "https://x.com/AMK_Mapping_/status/2123004351988040169"
-    },
-    {
-      "time": "18:01",
-      "ts": "2026-11-18T18:01:00+08:00",
-      "eventTime": "5:05 pm, 18 Nov (est.)",
-      "eventTs": "2026-11-18T17:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition intercepts a second Houthi cruise missile aimed at Riyadh in a day; Civil Defence alerts in Jazan, Najran and Khamis Mushait",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Arabiya English; coalition statement",
-      "url": "https://x.com/AlArabiya_Eng/status/2122980608909443382"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi emergency alert for Riyadh and Al-Kharj over hostile aerial threat (Al Arabiya English)",
+      "site": "x.com",
+      "href": "https://x.com/AlArabiya_Eng/status/2123431204552651102"
+    },
     {
       "title": "Putin: Russia ready to continue Ukraine talks (First Squawk / Interfax)",
       "site": "x.com",
@@ -2776,11 +2787,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, Houthi missiles damaged Riyadh's PIF Tower, and Iraq put its forces on maximum alert.",
-      "The White House is assessing Iran strike options, satellites flagged an Omsk refinery fire, Putin first ruled out then reopened Ukraine talks, and the US weighed more fuel exports."
+      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and Houthi missiles damaged Riyadh's PIF Tower before fresh Riyadh alerts tonight.",
+      "Iraq put its forces on maximum alert, the White House is assessing Iran strike options, Putin first ruled out then reopened Ukraine talks, and the US weighed more fuel exports."
     ],
-    "updated": "Thu 19 Nov 2026, 8:41 pm SGT",
-    "updatedTs": "2026-11-19T20:41:00+08:00"
+    "updated": "Thu 19 Nov 2026, 11:06 pm SGT",
+    "updatedTs": "2026-11-19T23:06:00+08:00"
   },
   "last24Count": 13
 }
