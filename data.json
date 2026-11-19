@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 6:06 am SGT",
-  "lastScannedTs": "2026-11-20T06:06:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 7:03 am SGT",
+  "lastScannedTs": "2026-11-20T07:03:00+08:00",
   "asOf": "Fri 20 Nov 2026, 6:03 am SGT",
   "asOfTs": "2026-11-20T06:03:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan and Houthi strikes on Saudi targets outweigh Hormuz flow and ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, a tanker swarm plan and Houthi strikes on Saudi targets outweigh Hormuz flow and ceasefire signals.",
     "verdict": "Mixed, leaning bullish",
-    "count": "24 of 33 alerts point higher, 8 lower",
-    "text": "24 of 33 alerts point higher, 8 lower.",
+    "count": "23 of 32 alerts point higher, 8 lower",
+    "text": "23 of 32 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Air-defence and anti-aircraft fire reported over northeastern Tehran",
@@ -148,12 +148,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-19T07:57:04+08:00"
-      },
-      {
-        "text": "UKMTO: outbound tanker hit by projectile in engine room north of Khasab, Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-19T06:23:52+08:00"
       }
     ],
     "dovish": [
