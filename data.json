@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 7:06 am SGT",
-  "lastScannedTs": "2026-11-19T07:06:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 7:06 am SGT",
-  "asOfTs": "2026-11-19T07:06:09+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 8:05 am SGT",
+  "lastScannedTs": "2026-11-19T08:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 8:03 am SGT",
+  "asOfTs": "2026-11-19T08:03:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "A new UKMTO-confirmed tanker strike off Khasab, Hormuz mine claims, Houthi waves on Saudi targets and US-Israeli Iran strike signals keep geopolitics escalating.",
-    "lead": "Net read (last 24 hours): A new UKMTO-confirmed tanker strike off Khasab, Hormuz mine claims, Houthi waves on Saudi targets and US-Israeli Iran strike signals keep geopolitics escalating.",
+    "bottom": "NYT says Trump weighs new Iran strikes as Israel goes on highest alert, alongside UKMTO-confirmed Hormuz tanker hits and Houthi waves on Saudi targets.",
+    "lead": "Net read (last 24 hours): NYT says Trump weighs new Iran strikes as Israel goes on highest alert, alongside UKMTO-confirmed Hormuz tanker hits and Houthi waves on Saudi targets.",
     "verdict": "Bullish",
     "count": "25 of 26 alerts point higher, 1 lower",
     "text": "25 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "NYT: Trump weighs new Iran strike campaign; Israel on highest alert for joint strikes",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T07:57:04+08:00"
+      },
       {
         "text": "UKMTO: outbound tanker hit by projectile in engine room north of Khasab, Hormuz",
         "confidence": "confirmed",
@@ -154,12 +160,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-18T08:50:00+08:00"
-      },
-      {
-        "text": "Bahrain shelters as new Iranian drone wave targets US bases; Bahrain TV says intercepted",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T07:08:00+08:00"
       }
     ],
     "dovish": [
@@ -177,6 +177,19 @@
     "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:57",
+      "ts": "2026-11-19T07:57:04+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "NYT: Trump weighs a new extensive strike campaign on Iran as Israel presses for a 4-7 day air campaign; Ynet says Israel on highest alert for possible joint strikes within days",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "New York Times report via Oil Headline News, FirstSquawk and others; Ynet",
+      "url": "https://x.com/OilHeadlineNews/status/2123203871380001017"
+    },
     {
       "time": "06:23",
       "ts": "2026-11-19T06:23:52+08:00",
@@ -683,22 +696,14 @@
       "confidence": "Confirmed",
       "source": "FinancialJuice (X)",
       "url": "https://x.com/financialjuice/status/2122648059121443012"
-    },
-    {
-      "time": "19:08",
-      "ts": "2026-11-17T19:08:12+08:00",
-      "eventTime": "13 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "UKMTO receives a time-delayed report: a tanker in the Persian Gulf was struck by a projectile on 13 Nov, a previously unreported attack",
-      "theme": "Tankers",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO via FinancialJuice (X); also CGTN Europe",
-      "url": "https://x.com/financialjuice/status/2122647990083137823"
     }
   ],
   "sources": [
+    {
+      "title": "NYT: Trump weighs new strike campaign on Iran as Israel presses for action",
+      "site": "X / Oil Headline News",
+      "href": "https://x.com/OilHeadlineNews/status/2123203871380001017"
+    },
     {
       "title": "UKMTO 212/26: tanker struck in engine room north of Khasab, Strait of Hormuz",
       "site": "X / Post Open Source",
@@ -2609,10 +2614,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed an outbound tanker was hit in its engine room by a projectile off Khasab in Hormuz, after Iran's Army said three tankers hit mines there.",
-      "The Houthis claimed missile strikes on Riyadh, Jizan and Khamis Mushait with fresh sirens in Abha, as Israeli reports say Trump awaits a full buildup before deciding on Iran."
+      "The New York Times says Trump is weighing a new strike campaign on Iran as Israel goes on highest alert, while the Houthis claimed missile strikes on Saudi targets."
     ],
-    "updated": "Thu 19 Nov 2026, 7:06 am SGT",
-    "updatedTs": "2026-11-19T07:06:00+08:00"
+    "updated": "Thu 19 Nov 2026, 8:05 am SGT",
+    "updatedTs": "2026-11-19T08:05:00+08:00"
   },
   "last24Count": 13
 }
