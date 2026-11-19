@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 8:05 pm SGT",
-  "lastScannedTs": "2026-11-19T20:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 7:49 pm SGT",
-  "asOfTs": "2026-11-19T19:49:16+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 8:22 pm SGT",
+  "lastScannedTs": "2026-11-19T20:22:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 8:21 pm SGT",
+  "asOfTs": "2026-11-19T20:21:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
+    "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Russian oil strikes and Putin halting talks, despite pledges of more fuel supply.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Russian oil strikes and Putin halting talks, despite pledges of more fuel supply.",
     "verdict": "Bullish",
-    "count": "28 of 34 alerts point higher, 5 lower",
-    "text": "28 of 34 alerts point higher, 5 lower.",
+    "count": "29 of 35 alerts point higher, 5 lower",
+    "text": "29 of 35 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Putin rules out negotiations after Crimean Bridge attacks; partial ceasefire only discussed",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-19T20:18:24+08:00"
+      },
       {
         "text": "Tanker reportedly hit by a drone off Shinas, Oman, in the Gulf of Oman",
         "confidence": "unconfirmed",
@@ -226,6 +232,19 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:18",
+      "ts": "2026-11-19T20:18:24+08:00",
+      "eventTime": "8:15 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T20:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Putin says Russia will not negotiate after the Crimean Bridge attacks, though a ceasefire in some areas was discussed with the Security Council",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "CGTN Europe; also Open Source Intel",
+      "url": "https://x.com/CGTNEurope/status/2123390434495910027"
+    },
     {
       "time": "19:44",
       "ts": "2026-11-19T19:44:26+08:00",
@@ -732,22 +751,14 @@
       "confidence": "Unconfirmed",
       "source": "PiQMarkets (citing Kyiv Independent and Ukrainian monitoring channels); Krasnodar locals",
       "url": "https://x.com/PiQMarkets/status/2122921092860035073"
-    },
-    {
-      "time": "12:21",
-      "ts": "2026-11-18T12:21:00+08:00",
-      "eventTime": "announced ~12:21 pm SGT, 18 Nov",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says it intercepted and destroyed a Houthi cruise missile fired toward the Riyadh region",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Press Agency (coalition spokesman); also First Squawk, Al Arabiya",
-      "url": "https://x.com/SPAregions/status/2122907964155523415"
     }
   ],
   "sources": [
+    {
+      "title": "Putin: no negotiations after Crimean Bridge attacks (CGTN Europe)",
+      "site": "x.com",
+      "href": "https://x.com/CGTNEurope/status/2123390434495910027"
+    },
     {
       "title": "Tanker reportedly struck by drone off Shinas, Oman (MenchOsint)",
       "site": "x.com",
@@ -2763,10 +2774,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, a tanker was reportedly droned off Shinas, and satellites flagged an Omsk refinery fire.",
-      "Houthi missiles damaged Riyadh's PIF Tower, while a China-US-Russia declaration pledged more refined fuel and the US said it is weighing more diesel and oil exports to Europe."
+      "Houthi missiles damaged Riyadh's PIF Tower, Putin ruled out talks after the Crimean Bridge attacks, and the US said it is weighing more diesel and oil exports to Europe."
     ],
-    "updated": "Thu 19 Nov 2026, 7:51 pm SGT",
-    "updatedTs": "2026-11-19T19:51:00+08:00"
+    "updated": "Thu 19 Nov 2026, 8:22 pm SGT",
+    "updatedTs": "2026-11-19T20:22:00+08:00"
   },
   "last24Count": 13
 }
