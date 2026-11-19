@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 5:35 pm SGT",
-  "lastScannedTs": "2026-11-19T17:35:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 5:32 pm SGT",
-  "asOfTs": "2026-11-19T17:32:33+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 6:08 pm SGT",
+  "lastScannedTs": "2026-11-19T18:08:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 6:06 pm SGT",
+  "asOfTs": "2026-11-19T18:06:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes hit Riyadh and trigger fresh Abha alerts, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes hit Riyadh and trigger fresh Abha alerts, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes.",
+    "bottom": "Escalation dominates: Houthi strikes on Riyadh and Abha, IRGC claims of mined supertankers and Russian oil strikes, though Trump delays Iran strikes.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh and Abha, IRGC claims of mined supertankers and Russian oil strikes, though Trump delays Iran strikes.",
     "verdict": "Bullish",
     "count": "27 of 30 alerts point higher, 3 lower",
     "text": "27 of 30 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "IRGC Navy says two supertankers hit a naval mine in Hormuz and exploded",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-19T17:55:52+08:00"
+      },
       {
         "text": "Saudi danger warnings for Abha and Khamis Mushait after fresh Yemen launches",
         "confidence": "confirmed",
@@ -166,12 +172,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-18T18:47:00+08:00"
-      },
-      {
-        "text": "Saudi-led coalition intercepts a second Houthi cruise missile aimed at Riyadh in a day",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-18T18:01:00+08:00"
       }
     ],
     "dovish": [
@@ -201,6 +201,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:55",
+      "ts": "2026-11-19T17:55:52+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says two 'violating' supertankers exploded after hitting a naval mine on an unauthorised route in the Strait of Hormuz; no independent confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CGTN Europe, citing IRGC Navy statement (Fars); also First Squawk, MenchOsint",
+      "url": "https://x.com/CGTNEurope/status/2123354562517987558"
+    },
     {
       "time": "17:29",
       "ts": "2026-11-19T17:29:53+08:00",
@@ -707,22 +720,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel (citing Kuwaiti statement); also FirstSquawk, MenchOsint",
       "url": "https://x.com/Osint613/status/2122808411192471721"
-    },
-    {
-      "time": "05:01",
-      "ts": "2026-11-18T05:01:39+08:00",
-      "eventTime": "4:59 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T04:59:00+08:00",
-      "eventQual": "est.",
-      "headline": "Fresh strike on a ship in the Strait of Hormuz reported minutes after anti-ship missile launches were seen from Iran's Hormozgan province; vessel said to be 'violating rules of passage'",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINT reports on X (via regional monitors)",
-      "url": "https://x.com/CocoPostel/status/2122796794874646785"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC Navy: two supertankers exploded after hitting mine in Strait of Hormuz (CGTN Europe)",
+      "site": "x.com",
+      "href": "https://x.com/CGTNEurope/status/2123354562517987558"
+    },
     {
       "title": "Saudi danger warnings for Abha and Khamis Mushait after launches from Yemen (First Squawk)",
       "site": "x.com",
@@ -2707,11 +2712,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones struck Russia's Kaleykino oil pumping station and Tatarstan oil storage.",
+      "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones struck Russia's Kaleykino oil pumping station.",
       "Houthi missiles damaged Riyadh's PIF Tower and fresh Yemen launches triggered Abha alerts; Trump delayed Iran strikes, while Iran reportedly test-fired missiles."
     ],
-    "updated": "Thu 19 Nov 2026, 5:35 pm SGT",
-    "updatedTs": "2026-11-19T17:35:00+08:00"
+    "updated": "Thu 19 Nov 2026, 6:08 pm SGT",
+    "updatedTs": "2026-11-19T18:08:00+08:00"
   },
   "last24Count": 13
 }
