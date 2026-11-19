@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 1:49 pm SGT",
-  "lastScannedTs": "2026-11-19T13:49:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 1:48 pm SGT",
-  "asOfTs": "2026-11-19T13:48:25+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 2:03 pm SGT",
+  "lastScannedTs": "2026-11-19T14:03:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 2:01 pm SGT",
+  "asOfTs": "2026-11-19T14:01:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Hormuz LNG slumps and Russian oil sites are hit, though Trump delays Iran strikes and backs Hormuz flows with Xi.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Hormuz LNG slumps and Russian oil sites are hit, though Trump delays Iran strikes and backs Hormuz flows with Xi.",
+    "bottom": "Escalation dominates: Houthi missile salvos on Saudi Arabia, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi missile salvos on Saudi Arabia, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
     "verdict": "Bullish",
-    "count": "24 of 27 alerts point higher, 3 lower",
-    "text": "24 of 27 alerts point higher, 3 lower.",
+    "count": "25 of 28 alerts point higher, 3 lower",
+    "text": "25 of 28 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Coalition intercepts four Houthi ballistic missiles aimed at southern Saudi Arabia",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T13:56:49+08:00"
+      },
       {
         "text": "Drones reportedly hit Kaleykino oil pumping station on Russia's Druzhba pipeline in Tatarstan",
         "confidence": "unconfirmed",
@@ -183,6 +189,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:56",
+      "ts": "2026-11-19T13:56:49+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says four Houthi-launched ballistic missiles aimed at southern Saudi Arabia were intercepted",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk headline of coalition statement",
+      "url": "https://x.com/FirstSquawk/status/2123294404949807245"
+    },
     {
       "time": "13:42",
       "ts": "2026-11-19T13:42:36+08:00",
@@ -689,22 +708,14 @@
       "confidence": "Unconfirmed",
       "source": "FinancialJuice (X), citing Fars News / IRGC Navy; widely relayed",
       "url": "https://x.com/financialjuice/status/2122707371277369759"
-    },
-    {
-      "time": "22:31",
-      "ts": "2026-11-17T22:31:05+08:00",
-      "eventTime": "9:54 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T21:54:00+08:00",
-      "eventQual": "est.",
-      "headline": "Reports of Iranian ballistic missile launches from Omidiyeh and Ahvaz in Khuzestan; target unknown, and Iranian state media reportedly denies them",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (X), citing warsurvillance; several regional OSINT accounts",
-      "url": "https://x.com/CocoPostel/status/2122699047123193963"
     }
   ],
   "sources": [
+    {
+      "title": "Coalition: four Houthi ballistic missiles aimed at southern Saudi Arabia intercepted",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2123294404949807245"
+    },
     {
       "title": "Trump: he and Xi feel strongly oil should flow through Strait of Hormuz",
       "site": "X / RedboxGlobal India",
@@ -2660,10 +2671,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
-      "A Houthi missile caused damage in Riyadh; Trump signalled Iran strikes could wait until January and said he and Xi want Hormuz oil flowing."
+      "Houthi missiles caused damage in Riyadh and four more were intercepted over the south; Trump delayed Iran strikes and said he and Xi want Hormuz oil flowing."
     ],
-    "updated": "Thu 19 Nov 2026, 1:49 pm SGT",
-    "updatedTs": "2026-11-19T13:49:00+08:00"
+    "updated": "Thu 19 Nov 2026, 2:03 pm SGT",
+    "updatedTs": "2026-11-19T14:03:00+08:00"
   },
   "last24Count": 13
 }
