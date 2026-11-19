@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 6:48 pm SGT",
-  "lastScannedTs": "2026-11-19T18:48:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 6:06 pm SGT",
-  "asOfTs": "2026-11-19T18:06:22+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 6:58 pm SGT",
+  "lastScannedTs": "2026-11-19T18:58:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 6:58 pm SGT",
+  "asOfTs": "2026-11-19T18:58:19+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes on Riyadh and Abha, IRGC claims of mined supertankers and Russian oil strikes, though Trump delays Iran strikes.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh and Abha, IRGC claims of mined supertankers and Russian oil strikes, though Trump delays Iran strikes.",
+    "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "verdict": "Bullish",
-    "count": "26 of 29 alerts point higher, 3 lower",
-    "text": "26 of 29 alerts point higher, 3 lower.",
+    "count": "26 of 30 alerts point higher, 4 lower",
+    "text": "26 of 30 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "IRGC Navy says two supertankers hit a naval mine in Hormuz and exploded",
@@ -170,6 +170,12 @@
     ],
     "dovish": [
       {
+        "text": "China, US and Russia Peace Declaration pledges stable energy flows and more refined fuel supply",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-19T18:57:00+08:00"
+      },
+      {
         "text": "Trump says he and Xi strongly want oil flowing through Hormuz",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -195,6 +201,19 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:57",
+      "ts": "2026-11-19T18:57:00+08:00",
+      "eventTime": "6:51 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T18:51:00+08:00",
+      "eventQual": "est.",
+      "headline": "China, US and Russia issue joint 'Peace Declaration' after Shenzhen summit, pledging stable energy flows and more refined petroleum production and supply",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk, citing Chinese state media; also Amena Bakr",
+      "url": "https://x.com/FirstSquawk/status/2123368537934930397"
+    },
     {
       "time": "17:55",
       "ts": "2026-11-19T17:55:52+08:00",
@@ -701,22 +720,14 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel (Bahrain Interior Ministry alert, Bahrain TV); also War Radar, Post Open Source",
       "url": "https://x.com/Osint613/status/2122829163656630382"
-    },
-    {
-      "time": "05:45",
-      "ts": "2026-11-18T05:45:00+08:00",
-      "eventTime": "5:40 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T05:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Kuwait says it is responding to drone attacks from Iran; explosions heard and US bases in Kuwait reported targeted",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel (citing Kuwaiti statement); also FirstSquawk, MenchOsint",
-      "url": "https://x.com/Osint613/status/2122808411192471721"
     }
   ],
   "sources": [
+    {
+      "title": "China-US-Russia 'Peace Declaration' pledges more refined petroleum production and supply (First Squawk, Chinese state media)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2123368537934930397"
+    },
     {
       "title": "IRGC Navy: two supertankers exploded after hitting mine in Strait of Hormuz (CGTN Europe)",
       "site": "x.com",
@@ -2707,10 +2718,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones struck Russia's Kaleykino oil pumping station.",
-      "Houthi missiles damaged Riyadh's PIF Tower and fresh Yemen launches triggered Abha alerts; Trump delayed Iran strikes, while Iran reportedly test-fired missiles."
+      "Houthi missiles damaged Riyadh's PIF Tower, while a China-US-Russia Peace Declaration after the Shenzhen summit pledged stable energy flows and more refined fuel supply."
     ],
-    "updated": "Thu 19 Nov 2026, 6:08 pm SGT",
-    "updatedTs": "2026-11-19T18:08:00+08:00"
+    "updated": "Thu 19 Nov 2026, 6:58 pm SGT",
+    "updatedTs": "2026-11-19T18:58:00+08:00"
   },
   "last24Count": 13
 }
