@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 11:05 am SGT",
-  "lastScannedTs": "2026-11-19T11:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 11:03 am SGT",
-  "asOfTs": "2026-11-19T11:03:08+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 11:56 am SGT",
+  "lastScannedTs": "2026-11-19T11:56:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 11:53 am SGT",
+  "asOfTs": "2026-11-19T11:53:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump dismisses Iran talks and threatens to finish the war soon as strike plans firm up, while Houthi missiles target Riyadh again.",
-    "lead": "Net read (last 24 hours): Trump dismisses Iran talks and threatens to finish the war soon as strike plans firm up, while Houthi missiles target Riyadh again.",
+    "bottom": "Trump dismisses Iran talks as strike plans firm up, Houthi missiles hit Riyadh, and Ukrainian drones reportedly strike a Russian pipeline hub.",
+    "lead": "Net read (last 24 hours): Trump dismisses Iran talks as strike plans firm up, Houthi missiles hit Riyadh, and Ukrainian drones reportedly strike a Russian pipeline hub.",
     "verdict": "Bullish",
-    "count": "26 of 27 alerts point higher, 1 lower",
-    "text": "26 of 27 alerts point higher, 1 lower.",
+    "count": "27 of 28 alerts point higher, 1 lower",
+    "text": "27 of 28 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Drones reportedly hit Kaleykino oil pumping station on Russia's Druzhba pipeline in Tatarstan",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-19T11:51:00+08:00"
+      },
       {
         "text": "Trump calls Iran talks a \"waste of time\", vows to \"finish it off\" soon",
         "confidence": "confirmed",
@@ -183,6 +189,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:51",
+      "ts": "2026-11-19T11:51:00+08:00",
+      "eventTime": "11:30 am, 19 Nov (est.)",
+      "eventTs": "2026-11-19T11:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones reportedly hit Russia's Kaleykino oil pumping station (Druzhba pipeline hub) near Almetyevsk, Tatarstan; residents report fire",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Local residents' reports via LetsArmUKR, Exilenova+ and others; footage from Almetyevsk",
+      "url": "https://x.com/LetsArmUKR/status/2123262976102629529"
+    },
     {
       "time": "10:57",
       "ts": "2026-11-19T10:57:21+08:00",
@@ -689,22 +708,14 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree, Houthi armed forces spokesman (X, Arabic video statement)",
       "url": "https://x.com/Yah_Saree/status/2122676127558758753"
-    },
-    {
-      "time": "20:45",
-      "ts": "2026-11-17T20:45:00+08:00",
-      "eventTime": "7:45 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T19:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Army says its air defences shot down a US 'LUCAS' one-way attack drone over the Strait of Hormuz, separate from the IRGC's MQ-1C claim",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Al Jazeera Breaking (X, Arabic), citing ISNA / Iranian Army",
-      "url": "https://x.com/AJABreaking/status/2122672549012119831"
     }
   ],
   "sources": [
+    {
+      "title": "Residents report attack and fire at Kaleykino oil pumping station, Tatarstan",
+      "site": "X / LetsArmUKR",
+      "href": "https://x.com/LetsArmUKR/status/2123262976102629529"
+    },
     {
       "title": "Trump calls Iran negotiations a waste of time, would go to war again",
       "site": "X / Post Open Source",
@@ -2639,11 +2650,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker was hit by a projectile off Khasab in Hormuz, and a Houthi ballistic missile toward Riyadh was intercepted, with debris falling in the capital.",
+      "UKMTO confirmed a tanker hit off Khasab in Hormuz, a Houthi missile caused damage in Riyadh, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
       "Trump called Iran negotiations a waste of time and vowed to finish the war soon, after the New York Times said he is weighing a new strike campaign."
     ],
-    "updated": "Thu 19 Nov 2026, 11:05 am SGT",
-    "updatedTs": "2026-11-19T11:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 11:56 am SGT",
+    "updatedTs": "2026-11-19T11:56:00+08:00"
   },
   "last24Count": 13
 }
