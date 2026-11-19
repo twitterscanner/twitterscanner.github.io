@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 6:08 pm SGT",
-  "lastScannedTs": "2026-11-19T18:08:00+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 6:48 pm SGT",
+  "lastScannedTs": "2026-11-19T18:48:00+08:00",
   "asOf": "Thu 19 Nov 2026, 6:06 pm SGT",
   "asOfTs": "2026-11-19T18:06:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation dominates: Houthi strikes on Riyadh and Abha, IRGC claims of mined supertankers and Russian oil strikes, though Trump delays Iran strikes.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh and Abha, IRGC claims of mined supertankers and Russian oil strikes, though Trump delays Iran strikes.",
     "verdict": "Bullish",
-    "count": "27 of 30 alerts point higher, 3 lower",
-    "text": "27 of 30 alerts point higher, 3 lower.",
+    "count": "26 of 29 alerts point higher, 3 lower",
+    "text": "26 of 29 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "IRGC Navy says two supertankers hit a naval mine in Hormuz and exploded",
@@ -166,12 +166,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-18T20:28:00+08:00"
-      },
-      {
-        "text": "Iran's Army claims it shot down a US MQ-9 Reaper drone east of Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-18T18:47:00+08:00"
       }
     ],
     "dovish": [
@@ -197,8 +191,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$93.03",
-    "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
+    "value": "$92.15",
+    "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
     {
