@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 10:54 am SGT",
-  "lastScannedTs": "2026-11-19T10:54:51+08:00",
-  "asOf": "Thu 19 Nov 2026, 9:44 am SGT",
-  "asOfTs": "2026-11-19T09:44:47+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 11:05 am SGT",
+  "lastScannedTs": "2026-11-19T11:05:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 11:03 am SGT",
+  "asOfTs": "2026-11-19T11:03:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump threatens to wipe out Iran over chemical weapons as strike plans firm up, while Houthi missiles target Riyadh again.",
-    "lead": "Net read (last 24 hours): Trump threatens to wipe out Iran over chemical weapons as strike plans firm up, while Houthi missiles target Riyadh again.",
+    "bottom": "Trump dismisses Iran talks and threatens to finish the war soon as strike plans firm up, while Houthi missiles target Riyadh again.",
+    "lead": "Net read (last 24 hours): Trump dismisses Iran talks and threatens to finish the war soon as strike plans firm up, while Houthi missiles target Riyadh again.",
     "verdict": "Bullish",
     "count": "26 of 27 alerts point higher, 1 lower",
     "text": "26 of 27 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Trump calls Iran talks a \"waste of time\", vows to \"finish it off\" soon",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T10:57:21+08:00"
+      },
       {
         "text": "Houthi missile fired at Riyadh; coalition engages it, debris falls in the capital",
         "confidence": "confirmed",
@@ -160,12 +166,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-18T11:59:00+08:00"
-      },
-      {
-        "text": "Ukrainian drones reportedly hit Russia's Ilsky refinery in Krasnodar Krai again",
-        "confidence": "unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-18T11:01:00+08:00"
       }
     ],
     "dovish": [
@@ -183,6 +183,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "10:57",
+      "ts": "2026-11-19T10:57:21+08:00",
+      "eventTime": "10:30 am, 19 Nov (est.)",
+      "eventTs": "2026-11-19T10:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump says he would go to war with Iran again and calls negotiations with Tehran a \"waste of time\"; vows to \"finish it off, soon, one way or the other\"",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Al Jazeera via Post Open Source; Energy Headline News video",
+      "url": "https://x.com/CocoPostel/status/2123249239795134660"
+    },
     {
       "time": "09:43",
       "ts": "2026-11-19T09:43:00+08:00",
@@ -689,22 +702,14 @@
       "confidence": "Unconfirmed",
       "source": "Al Jazeera Breaking (X, Arabic), citing ISNA / Iranian Army",
       "url": "https://x.com/AJABreaking/status/2122672549012119831"
-    },
-    {
-      "time": "19:49",
-      "ts": "2026-11-17T19:49:28+08:00",
-      "eventTime": "17 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Hungary says it has received a US extension to keep importing Russian oil without US sanctions risk; Slovakia reportedly got a 120-day extension too",
-      "theme": "Sanctions",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Hungary Foreign Ministry via First Squawk (X); also Report.az (Slovakia)",
-      "url": "https://x.com/FirstSquawk/status/2122658374462628326"
     }
   ],
   "sources": [
+    {
+      "title": "Trump calls Iran negotiations a waste of time, would go to war again",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2123249239795134660"
+    },
     {
       "title": "Saudi-led coalition engaged Houthi missile threat over Riyadh; debris fell",
       "site": "X / Timour Azhari",
@@ -2634,11 +2639,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker was hit by a projectile off Khasab in Hormuz, and fresh Houthi ballistic missile launches toward Riyadh set off sirens in the Saudi capital.",
-      "The New York Times says Trump is weighing a new Iran strike campaign, and Trump warned he would wipe Iran out if it used chemical or biological weapons."
+      "UKMTO confirmed a tanker was hit by a projectile off Khasab in Hormuz, and a Houthi ballistic missile toward Riyadh was intercepted, with debris falling in the capital.",
+      "Trump called Iran negotiations a waste of time and vowed to finish the war soon, after the New York Times said he is weighing a new strike campaign."
     ],
-    "updated": "Thu 19 Nov 2026, 9:44 am SGT",
-    "updatedTs": "2026-11-19T09:44:55+08:00"
+    "updated": "Thu 19 Nov 2026, 11:05 am SGT",
+    "updatedTs": "2026-11-19T11:05:00+08:00"
   },
   "last24Count": 13
 }
