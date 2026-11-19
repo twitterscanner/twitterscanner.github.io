@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 5:05 pm SGT",
-  "lastScannedTs": "2026-11-19T17:05:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 4:56 pm SGT",
-  "asOfTs": "2026-11-19T16:56:44+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 5:35 pm SGT",
+  "lastScannedTs": "2026-11-19T17:35:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 5:32 pm SGT",
+  "asOfTs": "2026-11-19T17:32:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
-    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
+    "bottom": "Escalation dominates: Houthi strikes hit Riyadh and trigger fresh Abha alerts, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes hit Riyadh and trigger fresh Abha alerts, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes.",
     "verdict": "Bullish",
-    "count": "26 of 29 alerts point higher, 3 lower",
-    "text": "26 of 29 alerts point higher, 3 lower.",
+    "count": "27 of 30 alerts point higher, 3 lower",
+    "text": "27 of 30 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Saudi danger warnings for Abha and Khamis Mushait after fresh Yemen launches",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T17:29:53+08:00"
+      },
       {
         "text": "Iran reportedly test-fires missiles from Tehran as Trump weighs new strikes",
         "confidence": "unconfirmed",
@@ -195,6 +201,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:29",
+      "ts": "2026-11-19T17:29:53+08:00",
+      "eventTime": "5:29 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T17:29:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Arabia issues danger warnings for Abha and Khamis Mushait after fresh launches from Yemen",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk (Saudi warnings); MenchOsint reports launches from Yemen",
+      "url": "https://x.com/FirstSquawk/status/2123348024701428038"
+    },
     {
       "time": "16:55",
       "ts": "2026-11-19T16:55:15+08:00",
@@ -701,22 +720,14 @@
       "confidence": "Unconfirmed",
       "source": "OSINT reports on X (via regional monitors)",
       "url": "https://x.com/CocoPostel/status/2122796794874646785"
-    },
-    {
-      "time": "01:39",
-      "ts": "2026-11-18T01:39:19+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim drone strikes on Saudi East-West pipeline pumping stations 8 and 9 west of Riyadh, saying they caused fires",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi military spokesman (Arabic)",
-      "url": "https://x.com/Yah_Saree/status/2122746418146554293"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi danger warnings for Abha and Khamis Mushait after launches from Yemen (First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2123348024701428038"
+    },
     {
       "title": "Reported Iranian missile test launch from Tehran (Open Source Intel)",
       "site": "x.com",
@@ -2697,10 +2708,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones struck Russia's Kaleykino oil pumping station and Tatarstan oil storage.",
-      "Houthi missiles damaged Riyadh's PIF Tower per Reuters; Trump delayed Iran strikes and backs Hormuz flows, while Iran reportedly test-fired missiles from Tehran."
+      "Houthi missiles damaged Riyadh's PIF Tower and fresh Yemen launches triggered Abha alerts; Trump delayed Iran strikes, while Iran reportedly test-fired missiles."
     ],
-    "updated": "Thu 19 Nov 2026, 4:58 pm SGT",
-    "updatedTs": "2026-11-19T16:58:00+08:00"
+    "updated": "Thu 19 Nov 2026, 5:35 pm SGT",
+    "updatedTs": "2026-11-19T17:35:00+08:00"
   },
   "last24Count": 13
 }
