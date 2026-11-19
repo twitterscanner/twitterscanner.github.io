@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 4:01 pm SGT",
-  "lastScannedTs": "2026-11-19T16:01:56+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 4:36 pm SGT",
+  "lastScannedTs": "2026-11-19T16:36:00+08:00",
   "asOf": "Thu 19 Nov 2026, 2:43 pm SGT",
   "asOfTs": "2026-11-19T14:43:24+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes damage Riyadh's PIF Tower, Hormuz tanker hits and Russian oil strikes, though Trump delays Iran strikes and backs Hormuz flows.",
     "verdict": "Bullish",
-    "count": "26 of 29 alerts point higher, 3 lower",
-    "text": "26 of 29 alerts point higher, 3 lower.",
+    "count": "25 of 28 alerts point higher, 3 lower",
+    "text": "25 of 28 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Reuters: PIF Tower in Riyadh's financial district damaged in Houthi strike",
@@ -160,12 +160,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-18T18:01:00+08:00"
-      },
-      {
-        "text": "AFP: explosion heard in northern Riyadh, cause not given",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-18T16:34:00+08:00"
       }
     ],
     "dovish": [
