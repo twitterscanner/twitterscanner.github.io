@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 10:02 am SGT",
-  "lastScannedTs": "2026-11-19T10:02:07+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 10:54 am SGT",
+  "lastScannedTs": "2026-11-19T10:54:51+08:00",
   "asOf": "Thu 19 Nov 2026, 9:44 am SGT",
   "asOfTs": "2026-11-19T09:44:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -12,8 +12,8 @@
     "text": "26 of 27 alerts point higher, 1 lower.",
     "hawkish": [
       {
-        "text": "Ballistic missiles launched from Yemen toward Riyadh, sirens sound in the capital",
-        "confidence": "unconfirmed",
+        "text": "Houthi missile fired at Riyadh; coalition engages it, debris falls in the capital",
+        "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T09:43:00+08:00"
       },
@@ -189,11 +189,11 @@
       "eventTime": "9:40 am, 19 Nov (est.)",
       "eventTs": "2026-11-19T09:40:00+08:00",
       "eventQual": "est.",
-      "headline": "Ballistic missile launches from Yemen toward Riyadh reported, with alert sirens sounding in the Saudi capital",
+      "headline": "Houthi ballistic missile fired from Yemen toward Riyadh; Saudi-led coalition says it engaged the threat, with debris falling in the capital",
       "theme": "Saudi / Houthi",
       "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping; local reports of sirens in Riyadh",
+      "confidence": "Confirmed",
+      "source": "AMK Mapping; Saudi-led coalition statement; Reuters correspondent Timour Azhari in Riyadh",
       "url": "https://x.com/AMK_Mapping_/status/2123230649742148095"
     },
     {
@@ -705,6 +705,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Saudi-led coalition engaged Houthi missile threat over Riyadh; debris fell",
+      "site": "X / Timour Azhari",
+      "href": "https://x.com/timourazhari/status/2123247320640716977"
+    },
     {
       "title": "Ballistic missile launches from Yemen toward Riyadh",
       "site": "X / AMK Mapping",
