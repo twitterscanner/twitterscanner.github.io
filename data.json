@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 12:18 am SGT",
-  "lastScannedTs": "2026-11-20T00:18:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 12:34 am SGT",
+  "lastScannedTs": "2026-11-20T00:34:00+08:00",
   "asOf": "Fri 20 Nov 2026, 12:05 am SGT",
   "asOfTs": "2026-11-20T00:05:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
     "verdict": "Bullish",
-    "count": "26 of 33 alerts point higher, 6 lower",
-    "text": "26 of 33 alerts point higher, 6 lower.",
+    "count": "25 of 32 alerts point higher, 6 lower",
+    "text": "25 of 32 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Saudi Foreign Ministry reserves right to take all necessary measures after Houthi attacks",
@@ -160,12 +160,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T01:46:00+08:00"
-      },
-      {
-        "text": "UKMTO/JMIC blockade update keeps Gulf threat SEVERE, covers STS cargo from Iran",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-19T00:28:00+08:00"
       }
     ],
     "dovish": [
