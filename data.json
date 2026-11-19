@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 9:05 am SGT",
-  "lastScannedTs": "2026-11-19T09:05:27+08:00",
-  "asOf": "Thu 19 Nov 2026, 8:03 am SGT",
-  "asOfTs": "2026-11-19T08:03:08+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 9:44 am SGT",
+  "lastScannedTs": "2026-11-19T09:44:55+08:00",
+  "asOf": "Thu 19 Nov 2026, 9:44 am SGT",
+  "asOfTs": "2026-11-19T09:44:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "NYT says Trump weighs new Iran strikes as Israel goes on highest alert, alongside UKMTO-confirmed Hormuz tanker hits and Houthi waves on Saudi targets.",
-    "lead": "Net read (last 24 hours): NYT says Trump weighs new Iran strikes as Israel goes on highest alert, alongside UKMTO-confirmed Hormuz tanker hits and Houthi waves on Saudi targets.",
+    "bottom": "Trump threatens to wipe out Iran over chemical weapons as strike plans firm up, while Houthi missiles target Riyadh again.",
+    "lead": "Net read (last 24 hours): Trump threatens to wipe out Iran over chemical weapons as strike plans firm up, while Houthi missiles target Riyadh again.",
     "verdict": "Bullish",
-    "count": "24 of 25 alerts point higher, 1 lower",
-    "text": "24 of 25 alerts point higher, 1 lower.",
+    "count": "26 of 27 alerts point higher, 1 lower",
+    "text": "26 of 27 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ballistic missiles launched from Yemen toward Riyadh, sirens sound in the capital",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-19T09:43:00+08:00"
+      },
+      {
+        "text": "Trump: Iran may weigh chemical or biological weapons; \"we will wipe them out\"",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T09:34:00+08:00"
+      },
       {
         "text": "NYT: Trump weighs new Iran strike campaign; Israel on highest alert for joint strikes",
         "confidence": "confirmed",
@@ -171,6 +183,32 @@
     "detail": "Brent settled down $1.19 (1.28%) at $91.95/bbl; WTI settled $83.26 (FirstSquawk on X, 3:44 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:43",
+      "ts": "2026-11-19T09:43:00+08:00",
+      "eventTime": "9:40 am, 19 Nov (est.)",
+      "eventTs": "2026-11-19T09:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ballistic missile launches from Yemen toward Riyadh reported, with alert sirens sounding in the Saudi capital",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping; local reports of sirens in Riyadh",
+      "url": "https://x.com/AMK_Mapping_/status/2123230649742148095"
+    },
+    {
+      "time": "09:34",
+      "ts": "2026-11-19T09:34:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump says there are signs Iran is weighing gas or biological weapons: \"If that happens, we will wipe them out\"; vows to end the war \"by any means necessary\"",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Trump on Fox News, via Post Open Source and War Radar",
+      "url": "https://x.com/CocoPostel/status/2123228437808644374"
+    },
     {
       "time": "07:57",
       "ts": "2026-11-19T07:57:04+08:00",
@@ -664,35 +702,19 @@
       "confidence": "Confirmed",
       "source": "Hungary Foreign Ministry via First Squawk (X); also Report.az (Slovakia)",
       "url": "https://x.com/FirstSquawk/status/2122658374462628326"
-    },
-    {
-      "time": "19:27",
-      "ts": "2026-11-17T19:27:42+08:00",
-      "eventTime": "17 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC claims its air defences shot down another US MQ-1C drone over southern Qeshm Island in the Strait of Hormuz, its 18th of the type since the war began",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping (X), citing IRGC claim",
-      "url": "https://x.com/AMK_Mapping_/status/2122652896093413447"
-    },
-    {
-      "time": "19:08",
-      "ts": "2026-11-17T19:08:28+08:00",
-      "eventTime": "17 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's FM Araghchi held talks with Oman's Sultan and briefed him on an Iranian initiative to end the war; says Iran has always been serious about diplomacy",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "FinancialJuice (X)",
-      "url": "https://x.com/financialjuice/status/2122648059121443012"
     }
   ],
   "sources": [
+    {
+      "title": "Ballistic missile launches from Yemen toward Riyadh",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2123230649742148095"
+    },
+    {
+      "title": "Trump: if Iran uses gas or biological weapons, \"we will wipe them out\"",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2123228437808644374"
+    },
     {
       "title": "NYT: Trump weighs new strike campaign on Iran as Israel presses for action",
       "site": "X / Oil Headline News",
@@ -2607,11 +2629,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed an outbound tanker was hit in its engine room by a projectile off Khasab in Hormuz, after Iran's Army said three tankers hit mines there.",
-      "The New York Times says Trump is weighing a new strike campaign on Iran as Israel goes on highest alert, while the Houthis claimed missile strikes on Saudi targets."
+      "UKMTO confirmed a tanker was hit by a projectile off Khasab in Hormuz, and fresh Houthi ballistic missile launches toward Riyadh set off sirens in the Saudi capital.",
+      "The New York Times says Trump is weighing a new Iran strike campaign, and Trump warned he would wipe Iran out if it used chemical or biological weapons."
     ],
-    "updated": "Thu 19 Nov 2026, 8:05 am SGT",
-    "updatedTs": "2026-11-19T08:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 9:44 am SGT",
+    "updatedTs": "2026-11-19T09:44:55+08:00"
   },
   "last24Count": 13
 }
