@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 7:26 pm SGT",
-  "lastScannedTs": "2026-11-19T19:26:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 7:25 pm SGT",
-  "asOfTs": "2026-11-19T19:25:33+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 7:41 pm SGT",
+  "lastScannedTs": "2026-11-19T19:41:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 7:39 pm SGT",
+  "asOfTs": "2026-11-19T19:39:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims and Russian oil strikes, though the US-China-Russia declaration pledges more fuel supply.",
     "verdict": "Bullish",
-    "count": "27 of 32 alerts point higher, 4 lower",
-    "text": "27 of 32 alerts point higher, 4 lower.",
+    "count": "27 of 33 alerts point higher, 5 lower",
+    "text": "27 of 33 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Satellite heat signals point to a fire or heavy flaring at Russia's Omsk refinery",
@@ -176,6 +176,12 @@
     ],
     "dovish": [
       {
+        "text": "US Energy Secretary Wright says the US is weighing more diesel and oil exports to Europe",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-19T19:31:49+08:00"
+      },
+      {
         "text": "China, US and Russia Peace Declaration pledges stable energy flows and more refined fuel supply",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -214,6 +220,19 @@
     "detail": "Brent crude trading at $92.15/bbl (Popüler Gazete on X, 6:45 pm SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:31",
+      "ts": "2026-11-19T19:31:49+08:00",
+      "eventTime": "7:30 pm, 19 Nov (est.)",
+      "eventTs": "2026-11-19T19:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "US Energy Secretary Chris Wright, speaking in Warsaw, says the US is considering ramping up diesel and oil exports to Europe",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "financialjuice; also CGTN Europe",
+      "url": "https://x.com/financialjuice/status/2123378710011121736"
+    },
     {
       "time": "19:20",
       "ts": "2026-11-19T19:20:04+08:00",
@@ -720,22 +739,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk, citing Iranian state media; also Redbox, IranPress",
       "url": "https://x.com/FirstSquawk/status/2122902478333300844"
-    },
-    {
-      "time": "11:01",
-      "ts": "2026-11-18T11:01:00+08:00",
-      "eventTime": "10:45 am, 18 Nov (est.)",
-      "eventTs": "2026-11-18T10:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "Mass Ukrainian drone attack reported on Russia's Ilsky oil refinery in Krasnodar Krai; locals report repeated explosions",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "big ben (citing a Russian monitoring channel); local eyewitness posts from Krasnodar",
-      "url": "https://x.com/alternative_war/status/2122887837817131188"
     }
   ],
   "sources": [
+    {
+      "title": "US Energy Secretary Wright: US mulls ramping up diesel and oil exports to Europe (financialjuice)",
+      "site": "x.com",
+      "href": "https://x.com/financialjuice/status/2123378710011121736"
+    },
     {
       "title": "Omsk oil refinery satellite heat signal (~100 MW)",
       "site": "x.com",
@@ -2741,10 +2752,10 @@
     "title": "Today's key developments",
     "lines": [
       "UKMTO confirmed a tanker hit off Khasab, the IRGC claims two supertankers hit mines in Hormuz, and drones hit Kaleykino while satellites flagged a fire at Omsk refinery.",
-      "Houthi missiles damaged Riyadh's PIF Tower, a China-US-Russia Peace Declaration pledged more refined fuel supply, and TankerTrackers says Iran may resume oil shipments."
+      "Houthi missiles damaged Riyadh's PIF Tower, while a China-US-Russia declaration pledged more refined fuel and the US said it is weighing more diesel and oil exports to Europe."
     ],
-    "updated": "Thu 19 Nov 2026, 7:26 pm SGT",
-    "updatedTs": "2026-11-19T19:26:00+08:00"
+    "updated": "Thu 19 Nov 2026, 7:41 pm SGT",
+    "updatedTs": "2026-11-19T19:41:00+08:00"
   },
   "last24Count": 13
 }
