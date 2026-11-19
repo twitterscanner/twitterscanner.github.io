@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 11:06 pm SGT",
-  "lastScannedTs": "2026-11-19T23:06:00+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 11:29 pm SGT",
+  "lastScannedTs": "2026-11-19T23:29:00+08:00",
   "asOf": "Thu 19 Nov 2026, 11:05 pm SGT",
   "asOfTs": "2026-11-19T23:05:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
     "lead": "Net read (last 24 hours): Escalation dominates: Houthi strikes on Riyadh, IRGC mined-tanker claims, Iraq on maximum alert and US Iran strike planning, despite fuel-supply pledges.",
     "verdict": "Bullish",
-    "count": "27 of 34 alerts point higher, 6 lower",
-    "text": "27 of 34 alerts point higher, 6 lower.",
+    "count": "26 of 33 alerts point higher, 6 lower",
+    "text": "26 of 33 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Saudi emergency alerts in Riyadh and Al-Kharj as fresh Houthi attack targets the capital",
@@ -166,12 +166,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T00:08:00+08:00"
-      },
-      {
-        "text": "Reuters: drone strikes have cut Russian refinery runs about 45% since late October",
-        "confidence": "confirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-18T23:24:00+08:00"
       }
     ],
     "dovish": [
