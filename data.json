@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 19 Nov 2026, 12:28 pm SGT",
-  "lastScannedTs": "2026-11-19T12:28:00+08:00",
-  "asOf": "Thu 19 Nov 2026, 12:04 pm SGT",
-  "asOfTs": "2026-11-19T12:04:54+08:00",
+  "lastScanned": "Thu 19 Nov 2026, 12:37 pm SGT",
+  "lastScannedTs": "2026-11-19T12:37:00+08:00",
+  "asOf": "Thu 19 Nov 2026, 12:34 pm SGT",
+  "asOfTs": "2026-11-19T12:34:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Trump dismisses Iran talks as strike plans firm up, Hormuz LNG traffic slumps, and drones reportedly hit a Russian pipeline hub.",
-    "lead": "Net read (last 24 hours): Trump dismisses Iran talks as strike plans firm up, Hormuz LNG traffic slumps, and drones reportedly hit a Russian pipeline hub.",
+    "bottom": "Escalation dominates: Trump dismisses Iran talks, Hormuz LNG slumps and Russian oil sites are hit, though Iran strikes may wait until January.",
+    "lead": "Net read (last 24 hours): Escalation dominates: Trump dismisses Iran talks, Hormuz LNG slumps and Russian oil sites are hit, though Iran strikes may wait until January.",
     "verdict": "Bullish",
-    "count": "26 of 27 alerts point higher, 1 lower",
-    "text": "26 of 27 alerts point higher, 1 lower.",
+    "count": "26 of 28 alerts point higher, 2 lower",
+    "text": "26 of 28 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Drones reportedly hit Kaleykino oil pumping station on Russia's Druzhba pipeline in Tatarstan",
@@ -170,6 +170,12 @@
     ],
     "dovish": [
       {
+        "text": "Trump signals new Iran strikes can wait until after 1 January; Gulf leaders urge restraint",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-19T12:29:00+08:00"
+      },
+      {
         "text": "Iranian officials say the Bandar Abbas blast was munitions disposal, not a US strike",
         "confidence": "unconfirmed",
         "theme": "Iran",
@@ -183,6 +189,19 @@
     "detail": "Brent crude futures up $1.08 at $93.03/bbl (FirstSquawk on X, 9:57 am SGT 19 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:29",
+      "ts": "2026-11-19T12:29:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Axios: Trump signals new Iran strikes can wait until after 1 January (\"we will see what happens after January 1\"), as Gulf leaders urge him to hold off while Israel pushes to act now",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Mario Nawfal citing Axios (two sources) and Trump's remarks",
+      "url": "https://x.com/MarioNawfal/status/2123272440927129984"
+    },
     {
       "time": "11:51",
       "ts": "2026-11-19T11:51:00+08:00",
@@ -689,22 +708,14 @@
       "confidence": "Unconfirmed",
       "source": "Walter Bloomberg (X), citing Sabereen News / regional media; also CHItrader",
       "url": "https://x.com/DeItaone/status/2122686301979709804"
-    },
-    {
-      "time": "21:05",
-      "ts": "2026-11-17T21:05:45+08:00",
-      "eventTime": "8:52 pm, 17 Nov (est.)",
-      "eventTs": "2026-11-17T20:52:00+08:00",
-      "eventQual": "est.",
-      "headline": "US airstrike reported on an Iranian surface-to-air missile launcher at Nariman on Qeshm Island in the Strait of Hormuz; smoke seen",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping / Open Source Intel (X)",
-      "url": "https://x.com/AMK_Mapping_/status/2122676291816300912"
     }
   ],
   "sources": [
+    {
+      "title": "Axios: Trump signals Iran strikes can wait until after January 1; Gulf leaders urge restraint",
+      "site": "X / Mario Nawfal",
+      "href": "https://x.com/MarioNawfal/status/2123272440927129984"
+    },
     {
       "title": "Bloomberg: LNG exits through Hormuz fall to as few as two in a week",
       "site": "X / Stephen Stapczynski",
@@ -2649,11 +2660,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker hit off Khasab, Bloomberg data show Hormuz LNG exits slumping, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
-      "A Houthi missile caused damage in Riyadh, and Trump called Iran negotiations a waste of time after the New York Times said he is weighing a new strike campaign."
+      "UKMTO confirmed a tanker hit off Khasab, Hormuz LNG exits slumped, and drones reportedly struck Russia's Kaleykino oil pumping station in Tatarstan.",
+      "A Houthi missile caused damage in Riyadh; Trump called Iran talks a waste of time but signalled new strikes could wait until after 1 January."
     ],
-    "updated": "Thu 19 Nov 2026, 12:05 pm SGT",
-    "updatedTs": "2026-11-19T12:05:00+08:00"
+    "updated": "Thu 19 Nov 2026, 12:37 pm SGT",
+    "updatedTs": "2026-11-19T12:37:00+08:00"
   },
   "last24Count": 13
 }
