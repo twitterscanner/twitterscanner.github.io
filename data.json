@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 12:54 am SGT",
-  "lastScannedTs": "2026-11-21T00:54:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 12:53 am SGT",
-  "asOfTs": "2026-11-21T00:53:51+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 1:08 am SGT",
+  "lastScannedTs": "2026-11-21T01:08:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 1:08 am SGT",
+  "asOfTs": "2026-11-21T01:08:10+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: a tanker hit off Khasab, Houthi attacks and port threats dominate; Iran now plays down the Qeshm blast, with Hormuz flows and Ukraine talks offsetting.",
-    "lead": "Net read (last 24 hours): Escalating overall: a tanker hit off Khasab, Houthi attacks and port threats dominate; Iran now plays down the Qeshm blast, with Hormuz flows and Ukraine talks offsetting.",
+    "bottom": "Escalating overall: a tanker hit off Khasab, Houthi claims of hits on Jazan port and Shuqaiq, and port threats dominate; Iran plays down Qeshm, Ukraine talks offset.",
+    "lead": "Net read (last 24 hours): Escalating overall: a tanker hit off Khasab, Houthi claims of hits on Jazan port and Shuqaiq, and port threats dominate; Iran plays down Qeshm, Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "31 of 38 alerts point higher, 6 lower",
-    "text": "31 of 38 alerts point higher, 6 lower.",
+    "count": "32 of 39 alerts point higher, 6 lower",
+    "text": "32 of 39 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim direct hits on Shuqaiq power station and Jazan port",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-21T01:03:00+08:00"
+      },
       {
         "text": "IRGC says Khasab tanker hit a mine on an unauthorized Hormuz route",
         "confidence": "confirmed",
@@ -250,6 +256,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "01:03",
+      "ts": "2026-11-21T01:03:00+08:00",
+      "eventTime": "11:25 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T23:25:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthi military spokesman claims an attack on Saudi Arabia's Shuqaiq power station and Jazan port with direct hits and major damage (Arabic); Saudi side earlier reported interceptions",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic); also First Squawk",
+      "url": "https://x.com/Yah_Saree/status/2123824511107936678"
+    },
     {
       "time": "00:48",
       "ts": "2026-11-21T00:48:00+08:00",
@@ -756,19 +775,6 @@
       "confidence": "Confirmed",
       "source": "Financial Times",
       "url": "https://x.com/FT/status/2123443443888259549"
-    },
-    {
-      "time": "23:41",
-      "ts": "2026-11-19T23:41:19+08:00",
-      "eventTime": "11:36 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T23:36:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Foreign Ministry condemns continued Houthi attacks on civilian and economic sites in Riyadh and says the Kingdom reserves the right to take all necessary measures to defend its sovereignty",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi Foreign Ministry statement, via Open Source Intel; also Saudi Gazette, CGTN",
-      "url": "https://x.com/Osint613/status/2123441498137985439"
     }
   ],
   "sources": [
@@ -3021,16 +3027,21 @@
       "title": "IRNA: Hormozgan official says Qeshm blast from ordnance disposal (LiveSquawk)",
       "site": "X / LiveSquawk",
       "href": "https://x.com/LiveSquawk/status/2123820841091637727"
+    },
+    {
+      "title": "Houthi spokesman claims hits on Shuqaiq power station and Jazan port (Arabic)",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2123824511107936678"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A tanker leaving Hormuz caught fire off Khasab late Friday, which Iran's IRGC blames on a mine; Iran now says a Qeshm blast was ordnance disposal, not a US strike.",
-      "The Houthis named Yanbu, Jeddah and Jizan ports as targets after missiles on Jazan, while the FT says Trump wants a Ukraine peace deal by early January."
+      "The Houthis claim direct hits on Saudi Shuqaiq power station and Jazan port and named Yanbu and Jeddah ports as targets, after Saudi strikes on Hodeidah.",
+      "A tanker leaving Hormuz caught fire off Khasab, which Iran's IRGC blames on a mine, while Iran says a Qeshm blast was ordnance disposal, not a US strike."
     ],
-    "updated": "Sat 21 Nov 2026, 12:54 am SGT",
-    "updatedTs": "2026-11-21T00:54:00+08:00"
+    "updated": "Sat 21 Nov 2026, 1:08 am SGT",
+    "updatedTs": "2026-11-21T01:08:00+08:00"
   },
   "last24Count": 13
 }
