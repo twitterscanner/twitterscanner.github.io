@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 7:02 pm SGT",
-  "lastScannedTs": "2026-11-20T19:02:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 6:58 pm SGT",
-  "asOfTs": "2026-11-20T18:58:57+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 7:18 pm SGT",
+  "lastScannedTs": "2026-11-20T19:18:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 7:17 pm SGT",
+  "asOfTs": "2026-11-20T19:17:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
+    "bottom": "Escalating: Houthi strikes and threats against Saudi Red Sea ports, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi strikes and threats against Saudi Red Sea ports, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "24 of 30 alerts point higher, 5 lower",
-    "text": "24 of 30 alerts point higher, 5 lower.",
+    "count": "25 of 31 alerts point higher, 5 lower",
+    "text": "25 of 31 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Houthis threaten Jeddah and all Saudi Red Sea ports if Hodeidah is bombed",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T19:18:00+08:00"
+      },
       {
         "text": "Explosions reportedly heard in the Strait of Hormuz; cause and targets unknown",
         "confidence": "unconfirmed",
@@ -202,6 +208,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:18",
+      "ts": "2026-11-20T19:18:00+08:00",
+      "eventTime": "7:13 pm, 20 Nov",
+      "eventTs": "2026-11-20T19:13:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Houthi military spokesman says Jeddah port and all Saudi Red Sea ports will be targets if the coalition bombs Hodeidah; urges workers to evacuate (translated from Arabic)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic); also First Squawk",
+      "url": "https://x.com/Yah_Saree/status/2123736468174631406"
+    },
     {
       "time": "18:59",
       "ts": "2026-11-20T18:59:00+08:00",
@@ -708,19 +727,6 @@
       "confidence": "Confirmed",
       "source": "Mario Nawfal citing Axios (two sources) and Trump's remarks",
       "url": "https://x.com/MarioNawfal/status/2123272440927129984"
-    },
-    {
-      "time": "11:51",
-      "ts": "2026-11-19T11:51:00+08:00",
-      "eventTime": "11:30 am, 19 Nov (est.)",
-      "eventTs": "2026-11-19T11:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones hit oil facilities in Tatarstan (Interfax), incl. reported fire at Kaleykino oil pumping station (Druzhba pipeline hub) near Almetyevsk",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Interfax (via Giovanni Staunovo): drones attacked oil storage facilities in Tatarstan; earlier local residents' reports via LetsArmUKR and others",
-      "url": "https://x.com/LetsArmUKR/status/2123262976102629529"
     }
   ],
   "sources": [
@@ -2873,16 +2879,21 @@
       "title": "Explosions heard in Strait of Hormuz, per Sabereen News (FirstSquawk)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2123732628746699147"
+    },
+    {
+      "title": "Houthi spokesman: Jeddah and Saudi Red Sea ports targets if Hodeidah bombed (Yahya Saree, Arabic)",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2123736468174631406"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missile damage to Riyadh's PIF Tower, a coalition warning to evacuate Yemen's Hodeidah port and unconfirmed reports of explosions in the Strait of Hormuz kept Gulf risk high.",
-      "Poland confirmed two missiles and a drone that fell on its soil came from Russia, while more Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output."
+      "After a Houthi missile damaged Riyadh's PIF Tower, the Saudi-led coalition told civilians to leave Hodeidah port and the Houthis threatened Jeddah and other Saudi Red Sea ports.",
+      "Unconfirmed explosions were reported in the Strait of Hormuz, and Poland confirmed two Russian missiles and a drone fell on its soil as Russian fuel curbs spread."
     ],
-    "updated": "Fri 20 Nov 2026, 6:59 pm SGT",
-    "updatedTs": "2026-11-20T18:59:00+08:00"
+    "updated": "Fri 20 Nov 2026, 7:18 pm SGT",
+    "updatedTs": "2026-11-20T19:18:00+08:00"
   },
   "last24Count": 13
 }
