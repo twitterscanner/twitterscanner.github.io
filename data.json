@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 11:45 am SGT",
-  "lastScannedTs": "2026-11-20T11:45:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 12:02 pm SGT",
+  "lastScannedTs": "2026-11-20T12:02:00+08:00",
   "asOf": "Fri 20 Nov 2026, 11:43 am SGT",
   "asOfTs": "2026-11-20T11:43:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
     "verdict": "Mixed, leaning bullish",
-    "count": "22 of 31 alerts point higher, 8 lower",
-    "text": "22 of 31 alerts point higher, 8 lower.",
+    "count": "21 of 30 alerts point higher, 8 lower",
+    "text": "21 of 30 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Bloomberg: Iranian oil moved ship-to-ship as US widens its naval blockade",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T13:56:49+08:00"
-      },
-      {
-        "text": "Drones hit Tatarstan oil sites incl. Kaleykino pumping station on Russia's Druzhba pipeline",
-        "confidence": "confirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-19T11:51:00+08:00"
       }
     ],
     "dovish": [
