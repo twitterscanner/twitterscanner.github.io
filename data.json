@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 10:00 pm SGT",
-  "lastScannedTs": "2026-11-20T22:00:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 9:29 pm SGT",
-  "asOfTs": "2026-11-20T21:29:04+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 10:05 pm SGT",
+  "lastScannedTs": "2026-11-20T22:05:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 10:05 pm SGT",
+  "asOfTs": "2026-11-20T22:05:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: Houthi-Saudi strikes and US-Israel Iran strike talk dominate, though a US NATO-for-Donbas offer to Ukraine points to de-escalation.",
-    "lead": "Net read (last 24 hours): Escalating overall: Houthi-Saudi strikes and US-Israel Iran strike talk dominate, though a US NATO-for-Donbas offer to Ukraine points to de-escalation.",
+    "bottom": "Escalating overall: Houthi-Saudi strikes, a reported Iranian missile at a US drone over Hormuz and Iran strike talk dominate; a Donbas offer is the main de-escalation.",
+    "lead": "Net read (last 24 hours): Escalating overall: Houthi-Saudi strikes, a reported Iranian missile at a US drone over Hormuz and Iran strike talk dominate; a Donbas offer is the main de-escalation.",
     "verdict": "Bullish",
-    "count": "26 of 31 alerts point higher, 4 lower",
-    "text": "26 of 31 alerts point higher, 4 lower.",
+    "count": "27 of 32 alerts point higher, 4 lower",
+    "text": "27 of 32 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Iran reportedly fires surface-to-air missile from Qeshm at a US drone over Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T22:05:00+08:00"
+      },
       {
         "text": "Coalition reportedly strikes Hodeidah port, crossing the Houthis' stated trigger for hitting Jeddah",
         "confidence": "unconfirmed",
@@ -208,6 +214,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:05",
+      "ts": "2026-11-20T22:05:00+08:00",
+      "eventTime": "9:58 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T21:58:00+08:00",
+      "eventQual": "est.",
+      "headline": "Surface-to-air missile reportedly launched from Iran's Qeshm Island in the Strait of Hormuz, apparently at a US military drone",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Babak Taghvaee; Iran International (Persian) reports residents heard a launch and saw a trail",
+      "url": "https://x.com/BabakTaghvaee1/status/2123778896155808215"
+    },
     {
       "time": "21:29",
       "ts": "2026-11-20T21:29:00+08:00",
@@ -714,19 +733,6 @@
       "confidence": "Unconfirmed",
       "source": "TankerTrackers.com (satellite/AIS tanker tracking)",
       "url": "https://x.com/TankerTrackers/status/2123370674622206416"
-    },
-    {
-      "time": "18:57",
-      "ts": "2026-11-19T18:57:00+08:00",
-      "eventTime": "6:51 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T18:51:00+08:00",
-      "eventQual": "est.",
-      "headline": "China, US and Russia issue joint 'Peace Declaration' after Shenzhen summit, pledging stable energy flows and more refined petroleum production and supply",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing Chinese state media; also Amena Bakr",
-      "url": "https://x.com/FirstSquawk/status/2123368537934930397"
     }
   ],
   "sources": [
@@ -2919,16 +2925,26 @@
       "title": "WSJ: US offers Ukraine NATO membership or guarantees for Donbas (Post Open Source)",
       "site": "X / Post Open Source",
       "href": "https://x.com/CocoPostel/status/2123768584757186804"
+    },
+    {
+      "title": "Reported SAM launch from Qeshm Island at US drone (Babak Taghvaee)",
+      "site": "X / Babak Taghvaee",
+      "href": "https://x.com/BabakTaghvaee1/status/2123778896155808215"
+    },
+    {
+      "title": "Iran International: residents report missile launch sound and trail over Qeshm (Persian)",
+      "site": "X / Iran International",
+      "href": "https://x.com/IranIntlbrk/status/2123779111680139589"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "After a Houthi missile hit Riyadh's PIF Tower, the coalition struck Yemeni power stations and reportedly Hodeidah port, while the Houthis threaten Jeddah, Red Sea ports and Riyadh.",
-      "CBS says the US and Israel weigh a new assault on Iran, while the WSJ reports the US offered Ukraine NATO membership or guarantees in exchange for the Donbas."
+      "After a Houthi missile hit Riyadh's PIF Tower, the coalition struck Yemeni targets including reportedly Hodeidah port, while the Houthis threaten Jeddah, Red Sea ports and Riyadh.",
+      "Iran reportedly fired a missile from Qeshm at a US drone over Hormuz as the US and Israel weigh new strikes, while the US offered Ukraine guarantees for the Donbas."
     ],
-    "updated": "Fri 20 Nov 2026, 9:29 pm SGT",
-    "updatedTs": "2026-11-20T21:29:00+08:00"
+    "updated": "Fri 20 Nov 2026, 10:05 pm SGT",
+    "updatedTs": "2026-11-20T22:05:00+08:00"
   },
   "last24Count": 13
 }
