@@ -1,8 +1,8 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 11:07 am SGT",
-  "lastScannedTs": "2026-11-20T11:07:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 10:13 am SGT",
-  "asOfTs": "2026-11-20T10:13:51+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 11:45 am SGT",
+  "lastScannedTs": "2026-11-20T11:45:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 11:43 am SGT",
+  "asOfTs": "2026-11-20T11:43:08+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
@@ -11,6 +11,12 @@
     "count": "22 of 31 alerts point higher, 8 lower",
     "text": "22 of 31 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "Bloomberg: Iranian oil moved ship-to-ship as US widens its naval blockade",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T11:38:43+08:00"
+      },
       {
         "text": "Israel's envoy says Israel will strike Iran alone if needed; Trump eyes 2027",
         "confidence": "confirmed",
@@ -136,12 +142,6 @@
         "confidence": "confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-19T11:51:00+08:00"
-      },
-      {
-        "text": "LNG exits through Hormuz drop to as few as two a week vs average of eight",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-19T11:42:34+08:00"
       }
     ],
     "dovish": [
@@ -208,6 +208,19 @@
     "detail": "Brent settled at $91.98/bbl (Giovanni Staunovo on X, 4:02 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:38",
+      "ts": "2026-11-20T11:38:43+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Bloomberg: Iranian oil is being moved between tankers as the US widens its naval blockade of Iran's oil exports",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk, citing Bloomberg",
+      "url": "https://x.com/LiveSquawk/status/2123621197074076067"
+    },
     {
       "time": "10:05",
       "ts": "2026-11-20T10:05:00+08:00",
@@ -714,22 +727,14 @@
       "confidence": "Unconfirmed",
       "source": "LiveSquawk citing Iranian state TV IRIB; also Al Jazeera, Iran International",
       "url": "https://x.com/LiveSquawk/status/2123148473579020581"
-    },
-    {
-      "time": "03:21",
-      "ts": "2026-11-19T03:21:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israeli security official to i24NEWS: Trump awaiting completion of US military buildup, incl. B-52 and B-2 bombers, before deciding on Iran strike; 10 US Marine F-35Bs head toward the Middle East",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Israeli security official to i24NEWS, via Open Source Intel (Osint613)",
-      "url": "https://x.com/Osint613/status/2123134427412750823"
     }
   ],
   "sources": [
+    {
+      "title": "Bloomberg: Iranian oil transferred between tankers as US widens blockade",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2123621197074076067"
+    },
     {
       "title": "Israel's ambassador: Israel will strike Iran alone if necessary",
       "site": "X / War Radar",
@@ -2835,10 +2840,10 @@
     "title": "Today's key developments",
     "lines": [
       "The Houthis claimed attacks on Saudi targets including Jubail, Saudi Arabia issued a fresh emergency alert in Jizan, and a US official said Iran has fired anti-ship missiles in Hormuz.",
-      "Fars said Iran is readying tankers to swarm the US blockade, and Israel's ambassador said Israel would strike Iran alone if needed, as Trump signals no US strikes before 2027."
+      "Iran is readying tankers to challenge the US blockade, which Bloomberg says Washington is widening, while Israel's ambassador said Israel would strike Iran alone if needed."
     ],
-    "updated": "Fri 20 Nov 2026, 10:16 am SGT",
-    "updatedTs": "2026-11-20T10:16:00+08:00"
+    "updated": "Fri 20 Nov 2026, 11:45 am SGT",
+    "updatedTs": "2026-11-20T11:45:00+08:00"
   },
   "last24Count": 13
 }
