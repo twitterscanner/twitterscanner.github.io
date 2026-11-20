@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 5:52 pm SGT",
-  "lastScannedTs": "2026-11-20T17:52:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 5:57 pm SGT",
+  "lastScannedTs": "2026-11-20T17:57:00+08:00",
   "asOf": "Fri 20 Nov 2026, 5:49 pm SGT",
   "asOfTs": "2026-11-20T17:49:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks and Russian fuel curbs from refinery strikes outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks and Russian fuel curbs from refinery strikes outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "22 of 30 alerts point higher, 6 lower",
-    "text": "22 of 30 alerts point higher, 6 lower.",
+    "count": "21 of 29 alerts point higher, 6 lower",
+    "text": "21 of 29 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "More Russian regions limit fuel sales as drone strikes cut refinery output",
@@ -136,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-19T19:20:04+08:00"
-      },
-      {
-        "text": "IRGC Navy says two supertankers hit a naval mine in Hormuz and exploded",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-19T17:55:52+08:00"
       }
     ],
     "dovish": [
