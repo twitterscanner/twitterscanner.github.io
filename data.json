@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 7:53 pm SGT",
-  "lastScannedTs": "2026-11-20T19:53:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 7:52 pm SGT",
-  "asOfTs": "2026-11-20T19:52:45+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 8:04 pm SGT",
+  "lastScannedTs": "2026-11-20T20:04:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 8:03 pm SGT",
+  "asOfTs": "2026-11-20T20:03:48+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Saudi-Houthi tit-for-tat on power plants, threats to Saudi ports and airspace, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalating: Saudi-Houthi tit-for-tat on power plants, threats to Saudi ports and airspace, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
+    "bottom": "Escalating: Houthi threats to Riyadh's financial centre, Shuqaiq power plant, Saudi ports and airspace, plus Hormuz and Poland incidents, outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi threats to Riyadh's financial centre, Shuqaiq power plant, Saudi ports and airspace, plus Hormuz and Poland incidents, outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "25 of 30 alerts point higher, 4 lower",
-    "text": "25 of 30 alerts point higher, 4 lower.",
+    "count": "26 of 31 alerts point higher, 4 lower",
+    "text": "26 of 31 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Houthis declare Riyadh's King Abdullah financial centre a military target, urge evacuation",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T20:04:00+08:00"
+      },
       {
         "text": "Houthis threaten Saudi Shuqaiq power plant within hours after Saudi strikes on Yemeni power stations",
         "confidence": "confirmed",
@@ -202,6 +208,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:04",
+      "ts": "2026-11-20T20:04:00+08:00",
+      "eventTime": "8:02 pm, 20 Nov",
+      "eventTs": "2026-11-20T20:02:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Houthis declare the King Abdullah financial centre in Riyadh a military target and tell employees and residents to stay away immediately (translated from Arabic)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic)",
+      "url": "https://x.com/Yah_Saree/status/2123748793615319428"
+    },
     {
       "time": "19:53",
       "ts": "2026-11-20T19:53:00+08:00",
@@ -708,19 +727,6 @@
       "confidence": "Confirmed",
       "source": "Reuters correspondent Timour Azhari (three sources); also MenchOsint",
       "url": "https://x.com/timourazhari/status/2123302750679425514"
-    },
-    {
-      "time": "13:56",
-      "ts": "2026-11-19T13:56:49+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says four Houthi-launched ballistic missiles aimed at southern Saudi Arabia were intercepted",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk headline of coalition statement",
-      "url": "https://x.com/FirstSquawk/status/2123294404949807245"
     }
   ],
   "sources": [
@@ -2888,16 +2894,21 @@
       "title": "Houthis say Saudi Shuqaiq power plant a target in coming hours, order evacuation (Yahya Saree, Arabic)",
       "site": "X / Yahya Saree",
       "href": "https://x.com/Yah_Saree/status/2123745364423684442"
+    },
+    {
+      "title": "Houthis declare Riyadh King Abdullah financial centre a military target (Yahya Saree, Arabic)",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2123748793615319428"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "After a Houthi missile hit Riyadh's PIF Tower, Saudi Arabia struck Yemeni power stations and ordered Hodeidah evacuated, while the Houthis threatened Shuqaiq power plant, Red Sea ports and Saudi airspace.",
+      "After a Houthi missile hit Riyadh's PIF Tower, Saudi Arabia struck Yemeni power stations and ordered Hodeidah evacuated; the Houthis now threaten Riyadh's financial centre, Shuqaiq power plant and Red Sea ports.",
       "Unconfirmed explosions were reported in the Strait of Hormuz, and Poland confirmed two Russian missiles and a drone fell on its soil as Russian fuel curbs spread."
     ],
-    "updated": "Fri 20 Nov 2026, 7:53 pm SGT",
-    "updatedTs": "2026-11-20T19:53:00+08:00"
+    "updated": "Fri 20 Nov 2026, 8:04 pm SGT",
+    "updatedTs": "2026-11-20T20:04:00+08:00"
   },
   "last24Count": 13
 }
