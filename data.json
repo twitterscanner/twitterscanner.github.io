@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 8:04 pm SGT",
-  "lastScannedTs": "2026-11-20T20:04:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 8:03 pm SGT",
-  "asOfTs": "2026-11-20T20:03:48+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 8:08 pm SGT",
+  "lastScannedTs": "2026-11-20T20:08:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 8:07 pm SGT",
+  "asOfTs": "2026-11-20T20:07:58+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi threats to Riyadh's financial centre, Shuqaiq power plant, Saudi ports and airspace, plus Hormuz and Poland incidents, outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi threats to Riyadh's financial centre, Shuqaiq power plant, Saudi ports and airspace, plus Hormuz and Poland incidents, outweigh ceasefire signals.",
+    "bottom": "Escalating: talk of a new US-Israeli strike on Iran and Houthi threats to Riyadh, Shuqaiq and Saudi ports outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalating: talk of a new US-Israeli strike on Iran and Houthi threats to Riyadh, Shuqaiq and Saudi ports outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "26 of 31 alerts point higher, 4 lower",
-    "text": "26 of 31 alerts point higher, 4 lower.",
+    "count": "27 of 32 alerts point higher, 4 lower",
+    "text": "27 of 32 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "CBS: US and Israel weigh a new short-term assault on Iran",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T20:08:00+08:00"
+      },
       {
         "text": "Houthis declare Riyadh's King Abdullah financial centre a military target, urge evacuation",
         "confidence": "confirmed",
@@ -208,6 +214,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:08",
+      "ts": "2026-11-20T20:08:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "CBS: US and Israel are considering a new assault on Iran in the short term, sources say",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk relaying CBS News",
+      "url": "https://x.com/FirstSquawk/status/2123749901330956422"
+    },
     {
       "time": "20:04",
       "ts": "2026-11-20T20:04:00+08:00",
@@ -714,19 +733,6 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel, citing OSINT account Shin (hey_itsmyturn) footage",
       "url": "https://x.com/Osint613/status/2123339307574333501"
-    },
-    {
-      "time": "14:29",
-      "ts": "2026-11-19T14:29:59+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reuters: PIF Tower, home of Saudi Arabia's sovereign wealth fund in Riyadh's financial district, damaged in strike (three sources); follows Houthi missile attacks on Riyadh",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Reuters correspondent Timour Azhari (three sources); also MenchOsint",
-      "url": "https://x.com/timourazhari/status/2123302750679425514"
     }
   ],
   "sources": [
@@ -2899,16 +2905,21 @@
       "title": "Houthis declare Riyadh King Abdullah financial centre a military target (Yahya Saree, Arabic)",
       "site": "X / Yahya Saree",
       "href": "https://x.com/Yah_Saree/status/2123748793615319428"
+    },
+    {
+      "title": "CBS: US and Israel consider new assault on Iran in short term (First Squawk)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2123749901330956422"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "After a Houthi missile hit Riyadh's PIF Tower, Saudi Arabia struck Yemeni power stations and ordered Hodeidah evacuated; the Houthis now threaten Riyadh's financial centre, Shuqaiq power plant and Red Sea ports.",
-      "Unconfirmed explosions were reported in the Strait of Hormuz, and Poland confirmed two Russian missiles and a drone fell on its soil as Russian fuel curbs spread."
+      "CBS reports the US and Israel are weighing a new short-term assault on Iran, while Poland confirmed Russian missiles fell on its soil."
     ],
-    "updated": "Fri 20 Nov 2026, 8:04 pm SGT",
-    "updatedTs": "2026-11-20T20:04:00+08:00"
+    "updated": "Fri 20 Nov 2026, 8:08 pm SGT",
+    "updatedTs": "2026-11-20T20:08:00+08:00"
   },
   "last24Count": 13
 }
