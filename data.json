@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 11:44 pm SGT",
-  "lastScannedTs": "2026-11-20T23:44:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 11:57 pm SGT",
+  "lastScannedTs": "2026-11-20T23:57:00+08:00",
   "asOf": "Fri 20 Nov 2026, 11:43 pm SGT",
   "asOfTs": "2026-11-20T23:43:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating overall: Houthi missiles on Jazan, Saudi strikes and Qeshm blasts amid US-Iran tension dominate; record Hormuz flows and a Donbas offer are the main de-escalation.",
     "lead": "Net read (last 24 hours): Escalating overall: Houthi missiles on Jazan, Saudi strikes and Qeshm blasts amid US-Iran tension dominate; record Hormuz flows and a Donbas offer are the main de-escalation.",
     "verdict": "Bullish",
-    "count": "27 of 33 alerts point higher, 5 lower",
-    "text": "27 of 33 alerts point higher, 5 lower.",
+    "count": "27 of 32 alerts point higher, 4 lower",
+    "text": "27 of 32 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Fars: blast over Qeshm Island; claim of US strike on missile launcher",
@@ -198,12 +198,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-20T02:11:30+08:00"
-      },
-      {
-        "text": "Putin invites European leaders to Moscow (FT)",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-19T23:49:03+08:00"
       }
     ],
     "neutral": [
