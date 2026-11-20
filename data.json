@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 5:57 pm SGT",
-  "lastScannedTs": "2026-11-20T17:57:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 5:49 pm SGT",
-  "asOfTs": "2026-11-20T17:49:44+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 6:04 pm SGT",
+  "lastScannedTs": "2026-11-20T18:04:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 6:02 pm SGT",
+  "asOfTs": "2026-11-20T18:02:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks and Russian fuel curbs from refinery strikes outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks and Russian fuel curbs from refinery strikes outweigh ceasefire signals.",
+    "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, Russian missiles landing in Poland and Russian fuel curbs outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, Russian missiles landing in Poland and Russian fuel curbs outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "21 of 29 alerts point higher, 6 lower",
-    "text": "21 of 29 alerts point higher, 6 lower.",
+    "count": "22 of 30 alerts point higher, 6 lower",
+    "text": "22 of 30 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Poland confirms two missiles and a drone that fell on its soil came from Russia",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-20T17:59:48+08:00"
+      },
       {
         "text": "More Russian regions limit fuel sales as drone strikes cut refinery output",
         "confidence": "confirmed",
@@ -196,6 +202,19 @@
     "detail": "Brent trading at $92.67/bbl, rebounding from earlier decline (OilandEnergy on X, 2:07 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:59",
+      "ts": "2026-11-20T17:59:48+08:00",
+      "eventTime": "1:30 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T13:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Poland says two missiles and a drone that fell on its soil came from Russia; minister says a Russian missile crashed in Poland",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk citing Polish government",
+      "url": "https://x.com/FirstSquawk/status/2123717941674000692"
+    },
     {
       "time": "17:45",
       "ts": "2026-11-20T17:45:06+08:00",
@@ -702,19 +721,6 @@
       "confidence": "Confirmed",
       "source": "Al Jazeera via Post Open Source; Energy Headline News video",
       "url": "https://x.com/CocoPostel/status/2123249239795134660"
-    },
-    {
-      "time": "09:43",
-      "ts": "2026-11-19T09:43:00+08:00",
-      "eventTime": "9:40 am, 19 Nov (est.)",
-      "eventTs": "2026-11-19T09:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthi ballistic missile fired from Yemen toward Riyadh; Saudi-led coalition says it engaged the threat, with debris falling in the capital",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "AMK Mapping; Saudi-led coalition statement; Reuters correspondent Timour Azhari in Riyadh",
-      "url": "https://x.com/AMK_Mapping_/status/2123230649742148095"
     }
   ],
   "sources": [
@@ -2852,16 +2858,21 @@
       "title": "More Russian regions limit fuel sales as Ukrainian drone strikes hit refinery output (via staunovo)",
       "site": "X / staunovo",
       "href": "https://x.com/staunovo/status/2123714242931007910"
+    },
+    {
+      "title": "Poland says 2 missiles, drone that fell on its soil came from Russia (FirstSquawk)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2123717941674000692"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines near Hormuz kept Gulf supply risk high, while Japan moved to buy 8 million barrels of Saudi crude.",
-      "More Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output, and Poland said an object may have fallen near Chmielek during a mass Russian strike."
+      "Poland confirmed two missiles and a drone that fell on its soil came from Russia, and more Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output."
     ],
-    "updated": "Fri 20 Nov 2026, 5:51 pm SGT",
-    "updatedTs": "2026-11-20T17:51:00+08:00"
+    "updated": "Fri 20 Nov 2026, 6:04 pm SGT",
+    "updatedTs": "2026-11-20T18:04:00+08:00"
   },
   "last24Count": 13
 }
