@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 2:03 am SGT",
-  "lastScannedTs": "2026-11-21T02:03:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 1:37 am SGT",
-  "asOfTs": "2026-11-21T01:37:50+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 3:04 am SGT",
+  "lastScannedTs": "2026-11-21T03:04:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 3:04 am SGT",
+  "asOfTs": "2026-11-21T03:04:10+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: tanker hit off Khasab, Houthi claims on Jazan port and Shuqaiq dominate; Trump says no acceptable Iran deal yet, Ukraine talks offset.",
-    "lead": "Net read (last 24 hours): Escalating overall: tanker hit off Khasab, Houthi claims on Jazan port and Shuqaiq dominate; Trump says no acceptable Iran deal yet, Ukraine talks offset.",
+    "bottom": "Escalating overall: Khasab tanker hit and Houthi claims on Jazan and Shuqaiq dominate; Qatar mediation push and Ukraine talks offset.",
+    "lead": "Net read (last 24 hours): Escalating overall: Khasab tanker hit and Houthi claims on Jazan and Shuqaiq dominate; Qatar mediation push and Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "31 of 39 alerts point higher, 6 lower",
-    "text": "31 of 39 alerts point higher, 6 lower.",
+    "count": "30 of 37 alerts point higher, 5 lower",
+    "text": "30 of 37 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Houthis claim direct hits on Shuqaiq power station and Jazan port",
@@ -190,15 +190,15 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-20T03:35:00+08:00"
-      },
-      {
-        "text": "Houthis claim hits on Sadaf petrochemical plant in Jubail, Riyadh and Saudi airbase",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T02:30:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Witkoff and Kushner met Qatari officials in Berlin on US-Iran mediation",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-21T03:04:00+08:00"
+      },
       {
         "text": "Iranian official says Qeshm blast was ordnance disposal, not a US strike",
         "confidence": "confirmed",
@@ -222,18 +222,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-20T21:29:00+08:00"
-      },
-      {
-        "text": "Germany, France, UK and Ukraine urge Russia to agree winter energy ceasefire",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-20T02:46:48+08:00"
-      },
-      {
-        "text": "Wright: record Hormuz oil outflow yesterday, no rise in Iran tensions",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-20T02:11:30+08:00"
       }
     ],
     "neutral": [
@@ -256,6 +244,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:04",
+      "ts": "2026-11-21T03:04:00+08:00",
+      "eventTime": "Thu 19 Nov (time not stated)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump envoys Witkoff and Kushner met senior Qatari officials in Berlin to discuss Qatar mediating between the US and Iran",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Axios scoop by Barak Ravid; also LiveSquawk, First Squawk",
+      "url": "https://x.com/BarakRavid/status/2123853497372455385"
+    },
     {
       "time": "01:38",
       "ts": "2026-11-21T01:38:00+08:00",
@@ -762,19 +763,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk (wire relay)",
       "url": "https://x.com/FirstSquawk/status/2123479294336999484"
-    },
-    {
-      "time": "01:15",
-      "ts": "2026-11-20T01:15:00+08:00",
-      "eventTime": "12:55 am, 20 Nov (est.)",
-      "eventTs": "2026-11-20T00:55:00+08:00",
-      "eventQual": "est.",
-      "headline": "Fars correspondent: Iranian oil tanker set to sail for export despite US blockade; any disruption would trigger explosions at oil facilities in the UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iran Military News (Hebrew), relaying a Fars News Agency correspondent; also Post Open Source",
-      "url": "https://x.com/IranMilitaryHeb/status/2123463039160561859"
     }
   ],
   "sources": [
@@ -3037,16 +3025,21 @@
       "title": "Trump: Iran wants a deal but not one acceptable to US; gas prices depend on Iran settlement (LiveSquawk)",
       "site": "X / LiveSquawk",
       "href": "https://x.com/LiveSquawk/status/2123831881083015211"
+    },
+    {
+      "title": "Axios: Witkoff and Kushner met Qatari officials in Berlin on US-Iran mediation (Barak Ravid)",
+      "site": "X / BarakRavid",
+      "href": "https://x.com/BarakRavid/status/2123853497372455385"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "The Houthis claim direct hits on Saudi Shuqaiq power station and Jazan port after Saudi strikes on Hodeidah, while a tanker leaving Hormuz caught fire off Khasab.",
-      "Iran says a Qeshm blast was ordnance disposal, and Trump says Iran wants a deal but not one acceptable to the US, tying gasoline prices to the outcome."
+      "Trump says Iran wants a deal but not an acceptable one, while Axios reports his envoys met Qatari officials in Berlin on mediating US-Iran talks."
     ],
-    "updated": "Sat 21 Nov 2026, 1:38 am SGT",
-    "updatedTs": "2026-11-21T01:38:00+08:00"
+    "updated": "Sat 21 Nov 2026, 3:04 am SGT",
+    "updatedTs": "2026-11-21T03:04:00+08:00"
   },
   "last24Count": 13
 }
