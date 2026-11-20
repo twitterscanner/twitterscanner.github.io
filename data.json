@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 10:16 am SGT",
-  "lastScannedTs": "2026-11-20T10:16:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 11:07 am SGT",
+  "lastScannedTs": "2026-11-20T11:07:00+08:00",
   "asOf": "Fri 20 Nov 2026, 10:13 am SGT",
   "asOfTs": "2026-11-20T10:13:51+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
     "verdict": "Mixed, leaning bullish",
-    "count": "23 of 32 alerts point higher, 8 lower",
-    "text": "23 of 32 alerts point higher, 8 lower.",
+    "count": "22 of 31 alerts point higher, 8 lower",
+    "text": "22 of 31 alerts point higher, 8 lower.",
     "hawkish": [
       {
         "text": "Israel's envoy says Israel will strike Iran alone if needed; Trump eyes 2027",
@@ -142,12 +142,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-19T11:42:34+08:00"
-      },
-      {
-        "text": "Trump calls Iran talks a \"waste of time\", vows to \"finish it off\" soon",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-19T10:57:21+08:00"
       }
     ],
     "dovish": [
