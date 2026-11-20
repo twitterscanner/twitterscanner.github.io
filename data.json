@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 12:17 am SGT",
-  "lastScannedTs": "2026-11-21T00:17:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 12:16 am SGT",
-  "asOfTs": "2026-11-21T00:16:40+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 12:38 am SGT",
+  "lastScannedTs": "2026-11-21T00:38:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 12:37 am SGT",
+  "asOfTs": "2026-11-21T00:37:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating sharply: a tanker hit in Hormuz, a reported US strike on Qeshm, Houthi missiles on Jazan and port threats dominate; record Hormuz flows the main offset.",
-    "lead": "Net read (last 24 hours): Escalating sharply: a tanker hit in Hormuz, a reported US strike on Qeshm, Houthi missiles on Jazan and port threats dominate; record Hormuz flows the main offset.",
+    "bottom": "Escalating sharply: a tanker hit off Khasab (IRGC cites mines), a reported US strike on Qeshm and Houthi attacks dominate; Hormuz flows and Ukraine talks offset.",
+    "lead": "Net read (last 24 hours): Escalating sharply: a tanker hit off Khasab (IRGC cites mines), a reported US strike on Qeshm and Houthi attacks dominate; Hormuz flows and Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "30 of 35 alerts point higher, 4 lower",
-    "text": "30 of 35 alerts point higher, 4 lower.",
+    "count": "31 of 37 alerts point higher, 5 lower",
+    "text": "31 of 37 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says Khasab tanker hit a mine on an unauthorized Hormuz route",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-21T00:35:00+08:00"
+      },
       {
         "text": "UKMTO: tanker hit by projectile off Khasab in Hormuz, fire onboard",
         "confidence": "confirmed",
@@ -194,6 +200,12 @@
     ],
     "dovish": [
       {
+        "text": "FT: Trump wants a Ukraine peace deal by early January",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-21T00:30:00+08:00"
+      },
+      {
         "text": "Bessent: record crude flows through Hormuz last night since the conflict began",
         "confidence": "confirmed",
         "theme": "Hormuz",
@@ -232,6 +244,32 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:35",
+      "ts": "2026-11-21T00:35:00+08:00",
+      "eventTime": "11:00 pm, 20 Nov",
+      "eventTs": "2026-11-20T23:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Iran's IRGC says the tanker that caught fire near Khasab hit a mine while trying to transit the Strait of Hormuz on an unauthorized route",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "IRGC via Iranian state media, reported by Al Arabiya English and wires",
+      "url": "https://x.com/AlArabiya_Eng/status/2123817502044049547"
+    },
+    {
+      "time": "00:30",
+      "ts": "2026-11-21T00:30:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "FT: Trump administration wants a Ukraine peace deal by early January, sources say",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Financial Times; also First Squawk",
+      "url": "https://x.com/FT/status/2123816348853669996"
+    },
     {
       "time": "00:07",
       "ts": "2026-11-21T00:07:00+08:00",
@@ -725,32 +763,6 @@
       "confidence": "Confirmed",
       "source": "Al Arabiya English (Saudi Civil Defense alert); explosions per local accounts, unverified",
       "url": "https://x.com/AlArabiya_Eng/status/2123431204552651102"
-    },
-    {
-      "time": "20:41",
-      "ts": "2026-11-19T20:41:32+08:00",
-      "eventTime": "7:52 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T19:52:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iraq puts all armed and security forces on maximum alert status \"C\" on PM Ali al-Zaidi's orders, per Iraq's Security Media Cell",
-      "theme": "Iraq",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source, citing WarSurv; Arabic post quoting Iraq's Security Media Cell",
-      "url": "https://x.com/CocoPostel/status/2123395651170099347"
-    },
-    {
-      "time": "20:33",
-      "ts": "2026-11-19T20:33:55+08:00",
-      "eventTime": "8:33 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T20:33:00+08:00",
-      "eventQual": "est.",
-      "headline": "Putin says Russia is ready to continue Ukraine talks (Interfax), softening his earlier remark that there would be no negotiations after the Crimean Bridge attacks",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk, citing Interfax",
-      "url": "https://x.com/FirstSquawk/status/2123394339217043739"
     }
   ],
   "sources": [
@@ -2988,16 +3000,26 @@
       "title": "UKMTO 214-26: tanker struck 8nm N of Khasab, fire onboard (Open Source Intel)",
       "site": "X / Open Source Intel",
       "href": "https://x.com/Osint613/status/2123810352768995482"
+    },
+    {
+      "title": "FT: Trump seeks Ukraine peace deal before January",
+      "site": "X / Financial Times",
+      "href": "https://x.com/FT/status/2123816348853669996"
+    },
+    {
+      "title": "IRGC: Khasab tanker hit a mine on unauthorized Hormuz route (Al Arabiya English)",
+      "site": "X / Al Arabiya English",
+      "href": "https://x.com/AlArabiya_Eng/status/2123817502044049547"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A tanker leaving Hormuz was struck by a projectile off Khasab late Friday, and Iranian media say a US missile hit Qeshm Island after reported blasts there.",
-      "The Houthis named Yanbu, Jeddah and Jizan ports as targets after firing missiles at Jazan, while Bessent said Hormuz crude flows hit a wartime high."
+      "A tanker leaving Hormuz caught fire off Khasab late Friday, which Iran's IRGC blames on a mine, and Iranian media say a US missile hit Qeshm Island.",
+      "The Houthis named Yanbu, Jeddah and Jizan ports as targets after missiles on Jazan, while the FT says Trump wants a Ukraine peace deal by early January."
     ],
-    "updated": "Sat 21 Nov 2026, 12:17 am SGT",
-    "updatedTs": "2026-11-21T00:17:00+08:00"
+    "updated": "Sat 21 Nov 2026, 12:38 am SGT",
+    "updatedTs": "2026-11-21T00:38:00+08:00"
   },
   "last24Count": 13
 }
