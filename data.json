@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 6:59 pm SGT",
-  "lastScannedTs": "2026-11-20T18:59:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 7:02 pm SGT",
+  "lastScannedTs": "2026-11-20T19:02:00+08:00",
   "asOf": "Fri 20 Nov 2026, 6:58 pm SGT",
   "asOfTs": "2026-11-20T18:58:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "24 of 31 alerts point higher, 5 lower",
-    "text": "24 of 31 alerts point higher, 5 lower.",
+    "count": "24 of 30 alerts point higher, 5 lower",
+    "text": "24 of 30 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Explosions reportedly heard in the Strait of Hormuz; cause and targets unknown",
@@ -194,12 +194,6 @@
         "confidence": "confirmed",
         "theme": "Strategic reserves",
         "ts": "2026-11-20T17:38:12+08:00"
-      },
-      {
-        "text": "TankerTrackers says Iran appears to be preparing to ship out oil again",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-19T18:59:53+08:00"
       }
     ]
   },
