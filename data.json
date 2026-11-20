@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 7:24 pm SGT",
-  "lastScannedTs": "2026-11-20T19:24:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 7:17 pm SGT",
-  "asOfTs": "2026-11-20T19:17:55+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 7:29 pm SGT",
+  "lastScannedTs": "2026-11-20T19:29:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 7:29 pm SGT",
+  "asOfTs": "2026-11-20T19:29:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi strikes and threats against Saudi Red Sea ports, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi strikes and threats against Saudi Red Sea ports, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
+    "bottom": "Escalating: Houthi threats to Saudi ports and airspace, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi threats to Saudi ports and airspace, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "24 of 30 alerts point higher, 5 lower",
-    "text": "24 of 30 alerts point higher, 5 lower.",
+    "count": "25 of 31 alerts point higher, 5 lower",
+    "text": "25 of 31 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Houthis warn airlines Saudi airspace unsafe, signalling attacks on Saudi Arabia within hours",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T19:29:00+08:00"
+      },
       {
         "text": "Houthis threaten Jeddah and all Saudi Red Sea ports if Hodeidah is bombed",
         "confidence": "confirmed",
@@ -202,6 +208,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:29",
+      "ts": "2026-11-20T19:29:00+08:00",
+      "eventTime": "7:28 pm, 20 Nov",
+      "eventTs": "2026-11-20T19:28:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Houthi military spokesman warns all airlines that Saudi airspace is unsafe and will be a theatre of Houthi operations in the coming hours, except over Mecca and Medina (translated from Arabic)",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic)",
+      "url": "https://x.com/Yah_Saree/status/2123740160294781116"
+    },
     {
       "time": "19:18",
       "ts": "2026-11-20T19:18:00+08:00",
@@ -708,19 +727,6 @@
       "confidence": "Confirmed",
       "source": "RedboxGlobal India headline of Trump's remarks",
       "url": "https://x.com/REDBOXINDIA/status/2123290826965184837"
-    },
-    {
-      "time": "12:29",
-      "ts": "2026-11-19T12:29:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Axios: Trump signals new Iran strikes can wait until after 1 January (\"we will see what happens after January 1\"), as Gulf leaders urge him to hold off while Israel pushes to act now",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Mario Nawfal citing Axios (two sources) and Trump's remarks",
-      "url": "https://x.com/MarioNawfal/status/2123272440927129984"
     }
   ],
   "sources": [
@@ -2878,16 +2884,21 @@
       "title": "Houthi spokesman: Jeddah and Saudi Red Sea ports targets if Hodeidah bombed (Yahya Saree, Arabic)",
       "site": "X / Yahya Saree",
       "href": "https://x.com/Yah_Saree/status/2123736468174631406"
+    },
+    {
+      "title": "Houthi spokesman warns airlines Saudi airspace unsafe in coming hours (Yahya Saree, Arabic)",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2123740160294781116"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "After a Houthi missile damaged Riyadh's PIF Tower, the Saudi-led coalition told civilians to leave Hodeidah port and the Houthis threatened Jeddah and other Saudi Red Sea ports.",
+      "After a Houthi missile damaged Riyadh's PIF Tower, the coalition told civilians to leave Hodeidah port and the Houthis threatened Saudi Red Sea ports and warned airlines off Saudi airspace.",
       "Unconfirmed explosions were reported in the Strait of Hormuz, and Poland confirmed two Russian missiles and a drone fell on its soil as Russian fuel curbs spread."
     ],
-    "updated": "Fri 20 Nov 2026, 7:18 pm SGT",
-    "updatedTs": "2026-11-20T19:18:00+08:00"
+    "updated": "Fri 20 Nov 2026, 7:29 pm SGT",
+    "updatedTs": "2026-11-20T19:29:00+08:00"
   },
   "last24Count": 13
 }
