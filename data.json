@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 7:29 pm SGT",
-  "lastScannedTs": "2026-11-20T19:29:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 7:32 pm SGT",
+  "lastScannedTs": "2026-11-20T19:32:00+08:00",
   "asOf": "Fri 20 Nov 2026, 7:29 pm SGT",
   "asOfTs": "2026-11-20T19:29:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Houthi threats to Saudi ports and airspace, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalating: Houthi threats to Saudi ports and airspace, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "25 of 31 alerts point higher, 5 lower",
-    "text": "25 of 31 alerts point higher, 5 lower.",
+    "count": "25 of 30 alerts point higher, 4 lower",
+    "text": "25 of 30 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Houthis warn airlines Saudi airspace unsafe, signalling attacks on Saudi Arabia within hours",
@@ -186,12 +186,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-19T20:33:55+08:00"
-      },
-      {
-        "text": "US Energy Secretary Wright says the US is weighing more diesel and oil exports to Europe",
-        "confidence": "confirmed",
-        "theme": "Diesel / jet fuel shortage",
-        "ts": "2026-11-19T19:31:49+08:00"
       }
     ],
     "neutral": [
