@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 8:37 pm SGT",
-  "lastScannedTs": "2026-11-20T20:37:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 8:36 pm SGT",
-  "asOfTs": "2026-11-20T20:36:38+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 8:46 pm SGT",
+  "lastScannedTs": "2026-11-20T20:46:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 8:44 pm SGT",
+  "asOfTs": "2026-11-20T20:44:59+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: talk of a new US-Israeli strike on Iran, tighter blockade enforcement and Houthi threats to Riyadh and Saudi ports outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalating: talk of a new US-Israeli strike on Iran, tighter blockade enforcement and Houthi threats to Riyadh and Saudi ports outweigh ceasefire signals.",
+    "bottom": "Escalating: a reported coalition strike on Hodeidah, Houthi threats to Saudi ports and Riyadh, and talk of new US-Israeli strikes on Iran dominate.",
+    "lead": "Net read (last 24 hours): Escalating: a reported coalition strike on Hodeidah, Houthi threats to Saudi ports and Riyadh, and talk of new US-Israeli strikes on Iran dominate.",
     "verdict": "Bullish",
     "count": "26 of 30 alerts point higher, 3 lower",
     "text": "26 of 30 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Coalition reportedly strikes Hodeidah port, crossing the Houthis' stated trigger for hitting Jeddah",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T20:46:00+08:00"
+      },
       {
         "text": "CENTCOM warns ships doing transfers with Iranian-loaded tankers risk boarding and seizure",
         "confidence": "confirmed",
@@ -160,12 +166,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T23:00:25+08:00"
-      },
-      {
-        "text": "Iraq puts all armed and security forces on maximum alert status \"C\"",
-        "confidence": "unconfirmed",
-        "theme": "Iraq",
-        "ts": "2026-11-19T20:41:32+08:00"
       }
     ],
     "dovish": [
@@ -202,6 +202,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:46",
+      "ts": "2026-11-20T20:46:00+08:00",
+      "eventTime": "8:22 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T20:22:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition reportedly strikes militarised Houthi units at Hodeidah port after its evacuation warning; Houthis had vowed to hit Jeddah and Saudi Red Sea ports if Hodeidah was bombed",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Yemen analyst Ibrahim Jalal; Arabic-language local reports of airstrikes",
+      "url": "https://x.com/IbrahimJalalYE/status/2123757260648202488"
+    },
     {
       "time": "20:37",
       "ts": "2026-11-20T20:37:00+08:00",
@@ -708,19 +721,6 @@
       "confidence": "Unconfirmed",
       "source": "CGTN Europe, citing IRGC Navy statement (Fars); also First Squawk, MenchOsint",
       "url": "https://x.com/CGTNEurope/status/2123354562517987558"
-    },
-    {
-      "time": "17:29",
-      "ts": "2026-11-19T17:29:53+08:00",
-      "eventTime": "5:29 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T17:29:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Arabia issues danger warnings for Abha and Khamis Mushait after fresh launches from Yemen",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk (Saudi warnings); MenchOsint reports launches from Yemen",
-      "url": "https://x.com/FirstSquawk/status/2123348024701428038"
     }
   ],
   "sources": [
@@ -2903,16 +2903,21 @@
       "title": "CENTCOM warns ship-to-ship transfers from Iranian-loaded vessels risk boarding and seizure (Post Open Source via Al Jazeera)",
       "site": "X / Post Open Source",
       "href": "https://x.com/CocoPostel/status/2123756792773480741"
+    },
+    {
+      "title": "Reported coalition (JFC) strike on militarised units at Hodeidah port (Ibrahim Jalal)",
+      "site": "X / Ibrahim Jalal",
+      "href": "https://x.com/IbrahimJalalYE/status/2123757260648202488"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "After a Houthi missile hit Riyadh's PIF Tower, Saudi Arabia struck Yemeni power stations and ordered Hodeidah evacuated; the Houthis now threaten Riyadh's financial centre, Shuqaiq power plant and Red Sea ports.",
+      "After a Houthi missile hit Riyadh's PIF Tower, the coalition struck Yemeni power stations and reportedly Hodeidah port; the Houthis threaten Jeddah, Red Sea ports, Shuqaiq and Riyadh's financial centre.",
       "CBS reports the US and Israel are weighing a new assault on Iran, and CENTCOM warned ships doing transfers with Iranian-loaded tankers they risk seizure."
     ],
-    "updated": "Fri 20 Nov 2026, 8:37 pm SGT",
-    "updatedTs": "2026-11-20T20:37:00+08:00"
+    "updated": "Fri 20 Nov 2026, 8:46 pm SGT",
+    "updatedTs": "2026-11-20T20:46:00+08:00"
   },
   "last24Count": 13
 }
