@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 4:44 pm SGT",
-  "lastScannedTs": "2026-11-20T16:44:57+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 4:57 pm SGT",
+  "lastScannedTs": "2026-11-20T16:57:00+08:00",
   "asOf": "Fri 20 Nov 2026, 4:45 pm SGT",
   "asOfTs": "2026-11-20T16:45:02+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, a drone downed near Isfahan and a suspected Russian missile in Poland outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, a drone downed near Isfahan and a suspected Russian missile in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "23 of 30 alerts point higher, 6 lower",
-    "text": "23 of 30 alerts point higher, 6 lower.",
+    "count": "22 of 29 alerts point higher, 6 lower",
+    "text": "22 of 29 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Drone reportedly shot down over garrison near Isfahan, central Iran; origin unclear",
@@ -142,12 +142,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T17:29:53+08:00"
-      },
-      {
-        "text": "Iran reportedly test-fires missiles from Tehran as Trump weighs new strikes",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-19T16:55:15+08:00"
       }
     ],
     "dovish": [
