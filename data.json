@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 6:48 pm SGT",
-  "lastScannedTs": "2026-11-20T18:48:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 6:48 pm SGT",
-  "asOfTs": "2026-11-20T18:48:14+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 6:59 pm SGT",
+  "lastScannedTs": "2026-11-20T18:59:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 6:58 pm SGT",
+  "asOfTs": "2026-11-20T18:58:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, Iranian tanker attacks and Russian missiles in Poland outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, Iranian tanker attacks and Russian missiles in Poland outweigh ceasefire signals.",
+    "bottom": "Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "23 of 31 alerts point higher, 6 lower",
-    "text": "23 of 31 alerts point higher, 6 lower.",
+    "count": "24 of 31 alerts point higher, 5 lower",
+    "text": "24 of 31 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Explosions reportedly heard in the Strait of Hormuz; cause and targets unknown",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-20T18:59:00+08:00"
+      },
       {
         "text": "Saudi-led coalition orders Hodeidah port evacuation, signalling strikes on Houthi Red Sea port",
         "confidence": "confirmed",
@@ -180,12 +186,6 @@
         "confidence": "confirmed",
         "theme": "Diesel / jet fuel shortage",
         "ts": "2026-11-19T19:31:49+08:00"
-      },
-      {
-        "text": "China, US and Russia Peace Declaration pledges stable energy flows and more refined fuel supply",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-19T18:57:00+08:00"
       }
     ],
     "neutral": [
@@ -208,6 +208,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:59",
+      "ts": "2026-11-20T18:59:00+08:00",
+      "eventTime": "6:53 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T18:53:00+08:00",
+      "eventQual": "est.",
+      "headline": "Explosions reportedly heard in the Strait of Hormuz off Iran's southern coast; cause unknown, no vessel or official confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk citing Sabereen News; early reports also shared by BeamTracker",
+      "url": "https://x.com/FirstSquawk/status/2123732628746699147"
+    },
     {
       "time": "18:48",
       "ts": "2026-11-20T18:48:00+08:00",
@@ -714,19 +727,6 @@
       "confidence": "Confirmed",
       "source": "Interfax (via Giovanni Staunovo): drones attacked oil storage facilities in Tatarstan; earlier local residents' reports via LetsArmUKR and others",
       "url": "https://x.com/LetsArmUKR/status/2123262976102629529"
-    },
-    {
-      "time": "11:42",
-      "ts": "2026-11-19T11:42:34+08:00",
-      "eventTime": "Not stated (week to Tue 17 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Bloomberg data: LNG traffic through Hormuz slows sharply as attacks intensify; as few as two tankers exited in the week to Tuesday vs a weekly average of eight",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Bloomberg's Stephen Stapczynski, preliminary ship-tracking data",
-      "url": "https://x.com/SStapczynski/status/2123260616911831531"
     }
   ],
   "sources": [
@@ -2874,16 +2874,21 @@
       "title": "Saudi-led coalition urges civilians to evacuate Hodeidah port (FirstSquawk)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2123728346454561010"
+    },
+    {
+      "title": "Explosions heard in Strait of Hormuz, per Sabereen News (FirstSquawk)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2123732628746699147"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines near Hormuz kept Gulf risk high, and the Saudi-led coalition told civilians to evacuate Yemen's Hodeidah port.",
+      "Houthi missile damage to Riyadh's PIF Tower, a coalition warning to evacuate Yemen's Hodeidah port and unconfirmed reports of explosions in the Strait of Hormuz kept Gulf risk high.",
       "Poland confirmed two missiles and a drone that fell on its soil came from Russia, while more Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output."
     ],
-    "updated": "Fri 20 Nov 2026, 6:48 pm SGT",
-    "updatedTs": "2026-11-20T18:48:00+08:00"
+    "updated": "Fri 20 Nov 2026, 6:59 pm SGT",
+    "updatedTs": "2026-11-20T18:59:00+08:00"
   },
   "last24Count": 13
 }
