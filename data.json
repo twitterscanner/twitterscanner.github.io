@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 7:18 pm SGT",
-  "lastScannedTs": "2026-11-20T19:18:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 7:24 pm SGT",
+  "lastScannedTs": "2026-11-20T19:24:00+08:00",
   "asOf": "Fri 20 Nov 2026, 7:17 pm SGT",
   "asOfTs": "2026-11-20T19:17:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Houthi strikes and threats against Saudi Red Sea ports, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalating: Houthi strikes and threats against Saudi Red Sea ports, a Hodeidah evacuation warning, reported Hormuz explosions and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "25 of 31 alerts point higher, 5 lower",
-    "text": "25 of 31 alerts point higher, 5 lower.",
+    "count": "24 of 30 alerts point higher, 5 lower",
+    "text": "24 of 30 alerts point higher, 5 lower.",
     "hawkish": [
       {
         "text": "Houthis threaten Jeddah and all Saudi Red Sea ports if Hodeidah is bombed",
@@ -154,12 +154,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-19T19:44:26+08:00"
-      },
-      {
-        "text": "Satellite heat signals point to a fire or heavy flaring at Russia's Omsk refinery",
-        "confidence": "unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-19T19:20:04+08:00"
       }
     ],
     "dovish": [
