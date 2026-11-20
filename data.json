@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 2:34 pm SGT",
-  "lastScannedTs": "2026-11-20T14:34:27+08:00",
-  "asOf": "Fri 20 Nov 2026, 2:34 pm SGT",
-  "asOfTs": "2026-11-20T14:34:32+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 2:38 pm SGT",
+  "lastScannedTs": "2026-11-20T14:38:20+08:00",
+  "asOf": "Fri 20 Nov 2026, 2:38 pm SGT",
+  "asOfTs": "2026-11-20T14:38:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
+    "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, rising Gulf war-risk costs and a suspected Russian missile falling in Poland outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, rising Gulf war-risk costs and a suspected Russian missile falling in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "21 of 28 alerts point higher, 6 lower",
-    "text": "21 of 28 alerts point higher, 6 lower.",
+    "count": "22 of 29 alerts point higher, 6 lower",
+    "text": "22 of 29 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Polish military: object may have fallen near Chmielek after suspected Russian missile incursion",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-20T14:33:14+08:00"
+      },
       {
         "text": "US maritime memo: Iran blockade lifting Gulf war-risk insurance, crew refusal risk",
         "confidence": "unconfirmed",
@@ -190,6 +196,19 @@
     "detail": "Brent settled at $91.98/bbl (Giovanni Staunovo on X, 4:02 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:33",
+      "ts": "2026-11-20T14:33:14+08:00",
+      "eventTime": "1:35 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T13:35:00+08:00",
+      "eventQual": "est.",
+      "headline": "Polish military says an object may have fallen near Chmielek, Biłgoraj County, about 45 km from Ukraine, after a suspected Russian cruise-missile incursion; CCTV shows an explosion",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "PAP (Polish) citing Polish Armed Forces Operational Command; CCTV explosion footage widely shared",
+      "url": "https://x.com/PAPinformacje/status/2123665956350423409"
+    },
     {
       "time": "14:28",
       "ts": "2026-11-20T14:28:21+08:00",
@@ -696,19 +715,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO warning via Post Open Source; widely reposted",
       "url": "https://x.com/CocoPostel/status/2123180417385705700"
-    },
-    {
-      "time": "05:56",
-      "ts": "2026-11-19T05:56:25+08:00",
-      "eventTime": "5:50 am, 19 Nov (est.)",
-      "eventTs": "2026-11-19T05:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Fresh early-warning sirens in Abha and Khamis Mushait, airspace disruption over Riyadh; local accounts report explosions in a possible new Houthi missile and drone wave",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint; sirens also reported by Arabic-language local accounts",
-      "url": "https://x.com/MenchOsint/status/2123173507446288831"
     }
   ],
   "sources": [
@@ -2826,16 +2832,21 @@
       "title": "US MARAD memo: Iran blockade driving up Gulf war-risk insurance",
       "site": "X / Post Open Source",
       "href": "https://x.com/CocoPostel/status/2123664727989776866"
+    },
+    {
+      "title": "Polish Operational Command: object may have fallen near Chmielek (PAP)",
+      "site": "X / PAP",
+      "href": "https://x.com/PAPinformacje/status/2123665956350423409"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines east of Hormuz kept Gulf supply risk high, with a US memo flagging soaring war-risk insurance.",
-      "A Russian cruise missile reportedly crossed into Polish airspace during a mass strike on Ukraine, as Ukrainian drones keep pressure on Russian refineries."
+      "During a mass Russian strike on Ukraine, Poland's military said an object may have fallen near Chmielek after a suspected cruise-missile incursion."
     ],
-    "updated": "Fri 20 Nov 2026, 2:34 pm SGT",
-    "updatedTs": "2026-11-20T14:34:27+08:00"
+    "updated": "Fri 20 Nov 2026, 2:38 pm SGT",
+    "updatedTs": "2026-11-20T14:38:20+08:00"
   },
   "last24Count": 13
 }
