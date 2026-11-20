@@ -1,8 +1,8 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 2:00 pm SGT",
-  "lastScannedTs": "2026-11-20T14:00:46+08:00",
-  "asOf": "Fri 20 Nov 2026, 1:50 pm SGT",
-  "asOfTs": "2026-11-20T13:50:31+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 2:34 pm SGT",
+  "lastScannedTs": "2026-11-20T14:34:27+08:00",
+  "asOf": "Fri 20 Nov 2026, 2:34 pm SGT",
+  "asOfTs": "2026-11-20T14:34:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
@@ -11,6 +11,12 @@
     "count": "21 of 28 alerts point higher, 6 lower",
     "text": "21 of 28 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "US maritime memo: Iran blockade lifting Gulf war-risk insurance, crew refusal risk",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T14:28:21+08:00"
+      },
       {
         "text": "Russian Kh-101 cruise missile reportedly enters Polish airspace; air-raid alerts in eastern Poland",
         "confidence": "unconfirmed",
@@ -130,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-19T16:55:15+08:00"
-      },
-      {
-        "text": "Reuters: PIF Tower in Riyadh's financial district damaged in Houthi strike",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-19T14:29:59+08:00"
       }
     ],
     "dovish": [
@@ -190,6 +190,19 @@
     "detail": "Brent settled at $91.98/bbl (Giovanni Staunovo on X, 4:02 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:28",
+      "ts": "2026-11-20T14:28:21+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Internal US Maritime Administration memo warns Iran blockade is driving up Gulf war-risk insurance; ships face fire from both sides, crew refusals feared",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source on X, citing Al Jazeera",
+      "url": "https://x.com/CocoPostel/status/2123664727989776866"
+    },
     {
       "time": "13:31",
       "ts": "2026-11-20T13:31:36+08:00",
@@ -696,19 +709,6 @@
       "confidence": "Unconfirmed",
       "source": "MenchOsint; sirens also reported by Arabic-language local accounts",
       "url": "https://x.com/MenchOsint/status/2123173507446288831"
-    },
-    {
-      "time": "04:26",
-      "ts": "2026-11-19T04:26:07+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim cruise missiles at Riyadh airport and King Abdullah Financial District, ballistic missiles at a 'vital site' in Jizan and a drone on Khamis Mushait air base",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint; Houthi military spokesman Yahya Saree (Arabic)",
-      "url": "https://x.com/MenchOsint/status/2123150991608414350"
     }
   ],
   "sources": [
@@ -2821,16 +2821,21 @@
       "title": "Iraq puts all security forces on maximum alert \"C\"",
       "site": "X / Post Open Source",
       "href": "https://x.com/CocoPostel/status/2123395651170099347"
+    },
+    {
+      "title": "US MARAD memo: Iran blockade driving up Gulf war-risk insurance",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2123664727989776866"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed attacks on Saudi targets including Jubail, Saudi Arabia issued a fresh emergency alert in Jizan, and a US official said Iran has fired anti-ship missiles in Hormuz.",
-      "Iran is readying tankers to challenge a widening US blockade, Israel said it would strike Iran alone if needed, and a Russian missile reportedly entered Polish airspace."
+      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines east of Hormuz kept Gulf supply risk high, with a US memo flagging soaring war-risk insurance.",
+      "A Russian cruise missile reportedly crossed into Polish airspace during a mass strike on Ukraine, as Ukrainian drones keep pressure on Russian refineries."
     ],
-    "updated": "Fri 20 Nov 2026, 1:50 pm SGT",
-    "updatedTs": "2026-11-20T13:50:00+08:00"
+    "updated": "Fri 20 Nov 2026, 2:34 pm SGT",
+    "updatedTs": "2026-11-20T14:34:27+08:00"
   },
   "last24Count": 13
 }
