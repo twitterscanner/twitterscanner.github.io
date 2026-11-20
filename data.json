@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 1:18 am SGT",
-  "lastScannedTs": "2026-11-21T01:18:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 1:08 am SGT",
-  "asOfTs": "2026-11-21T01:08:10+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 1:38 am SGT",
+  "lastScannedTs": "2026-11-21T01:38:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 1:37 am SGT",
+  "asOfTs": "2026-11-21T01:37:50+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: a tanker hit off Khasab, Houthi claims of hits on Jazan port and Shuqaiq, and port threats dominate; Iran plays down Qeshm, Ukraine talks offset.",
-    "lead": "Net read (last 24 hours): Escalating overall: a tanker hit off Khasab, Houthi claims of hits on Jazan port and Shuqaiq, and port threats dominate; Iran plays down Qeshm, Ukraine talks offset.",
+    "bottom": "Escalating overall: tanker hit off Khasab, Houthi claims on Jazan port and Shuqaiq dominate; Trump says no acceptable Iran deal yet, Ukraine talks offset.",
+    "lead": "Net read (last 24 hours): Escalating overall: tanker hit off Khasab, Houthi claims on Jazan port and Shuqaiq dominate; Trump says no acceptable Iran deal yet, Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "31 of 38 alerts point higher, 6 lower",
-    "text": "31 of 38 alerts point higher, 6 lower.",
+    "count": "31 of 39 alerts point higher, 6 lower",
+    "text": "31 of 39 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Houthis claim direct hits on Shuqaiq power station and Jazan port",
@@ -238,6 +238,12 @@
     ],
     "neutral": [
       {
+        "text": "Trump: Iran wants a deal, but not one acceptable to US; gas prices hinge on it",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-21T01:38:00+08:00"
+      },
+      {
         "text": "Japan to buy 8M barrels of Saudi crude for reserve; Saudi refilling joint storage in Japan",
         "confidence": "confirmed",
         "theme": "Strategic reserves",
@@ -250,6 +256,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "01:38",
+      "ts": "2026-11-21T01:38:00+08:00",
+      "eventTime": "1:30 am, 21 Nov (est.)",
+      "eventTs": "2026-11-21T01:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Trump says Iran wants a deal but not one acceptable to the US, and that US gasoline prices depend on how the Iran standoff is settled",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Trump press briefing via LiveSquawk; also First Squawk, Walter Bloomberg",
+      "url": "https://x.com/LiveSquawk/status/2123831881083015211"
+    },
     {
       "time": "01:03",
       "ts": "2026-11-21T01:03:00+08:00",
@@ -756,19 +775,6 @@
       "confidence": "Unconfirmed",
       "source": "Iran Military News (Hebrew), relaying a Fars News Agency correspondent; also Post Open Source",
       "url": "https://x.com/IranMilitaryHeb/status/2123463039160561859"
-    },
-    {
-      "time": "23:49",
-      "ts": "2026-11-19T23:49:03+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Putin invites European leaders to Moscow, per the Financial Times, adding to his signal that Russia is ready to continue Ukraine talks",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Financial Times",
-      "url": "https://x.com/FT/status/2123443443888259549"
     }
   ],
   "sources": [
@@ -3026,16 +3032,21 @@
       "title": "Houthi spokesman claims hits on Shuqaiq power station and Jazan port (Arabic)",
       "site": "X / Yahya Saree",
       "href": "https://x.com/Yah_Saree/status/2123824511107936678"
+    },
+    {
+      "title": "Trump: Iran wants a deal but not one acceptable to US; gas prices depend on Iran settlement (LiveSquawk)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2123831881083015211"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claim direct hits on Saudi Shuqaiq power station and Jazan port and named Yanbu and Jeddah ports as targets, after Saudi strikes on Hodeidah.",
-      "A tanker leaving Hormuz caught fire off Khasab, which Iran's IRGC blames on a mine, while Iran says a Qeshm blast was ordnance disposal, not a US strike."
+      "The Houthis claim direct hits on Saudi Shuqaiq power station and Jazan port after Saudi strikes on Hodeidah, while a tanker leaving Hormuz caught fire off Khasab.",
+      "Iran says a Qeshm blast was ordnance disposal, and Trump says Iran wants a deal but not one acceptable to the US, tying gasoline prices to the outcome."
     ],
-    "updated": "Sat 21 Nov 2026, 1:08 am SGT",
-    "updatedTs": "2026-11-21T01:08:00+08:00"
+    "updated": "Sat 21 Nov 2026, 1:38 am SGT",
+    "updatedTs": "2026-11-21T01:38:00+08:00"
   },
   "last24Count": 13
 }
