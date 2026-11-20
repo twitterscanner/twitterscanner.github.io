@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 7:03 am SGT",
-  "lastScannedTs": "2026-11-20T07:03:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 6:03 am SGT",
-  "asOfTs": "2026-11-20T06:03:41+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 8:02 am SGT",
+  "lastScannedTs": "2026-11-20T08:02:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 8:02 am SGT",
+  "asOfTs": "2026-11-20T08:02:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan and Houthi strikes on Saudi targets outweigh Hormuz flow and ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, a tanker swarm plan and Houthi strikes on Saudi targets outweigh Hormuz flow and ceasefire signals.",
+    "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
     "verdict": "Mixed, leaning bullish",
     "count": "23 of 32 alerts point higher, 8 lower",
     "text": "23 of 32 alerts point higher, 8 lower.",
     "hawkish": [
+      {
+        "text": "WSJ: Mossad chief pressed for renewed joint US-Israeli strikes on Iran; another Patriot sent to Israel",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-20T07:52:00+08:00"
+      },
       {
         "text": "Air-defence and anti-aircraft fire reported over northeastern Tehran",
         "confidence": "unconfirmed",
@@ -142,12 +148,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-19T09:34:00+08:00"
-      },
-      {
-        "text": "NYT: Trump weighs new Iran strike campaign; Israel on highest alert for joint strikes",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-19T07:57:04+08:00"
       }
     ],
     "dovish": [
@@ -214,6 +214,19 @@
     "detail": "Brent settled at $91.98/bbl (Giovanni Staunovo on X, 4:02 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:52",
+      "ts": "2026-11-20T07:52:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "WSJ: Mossad chief urged renewed joint US-Israeli strikes on Iran during his US visit last week; Trump still weighing options, as US sends another Patriot system to Israel",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Post Open Source, citing The Wall Street Journal; Patriot deployment also per WSJ, relayed by War Radar",
+      "url": "https://x.com/CocoPostel/status/2123565144298897883"
+    },
     {
       "time": "05:56",
       "ts": "2026-11-20T05:56:00+08:00",
@@ -720,22 +733,14 @@
       "confidence": "Confirmed",
       "source": "US Embassy Riyadh security alert, via Open Source Intel (Osint613)",
       "url": "https://x.com/Osint613/status/2123110090869768220"
-    },
-    {
-      "time": "00:28",
-      "ts": "2026-11-19T00:28:00+08:00",
-      "eventTime": "12:13 am, 19 Nov",
-      "eventTs": "2026-11-19T00:13:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO/JMIC blockade update keeps Gulf and Hormuz threat SEVERE; ships taking ship-to-ship cargo from Iran-loaded vessels fall under the US blockade",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO (JMIC Advisory 017-26); also sentdefender",
-      "url": "https://x.com/UK_MTO/status/2123087225411809593"
     }
   ],
   "sources": [
+    {
+      "title": "WSJ: Mossad chief urged renewed US-Israeli strikes on Iran (Post Open Source)",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2123565144298897883"
+    },
     {
       "title": "Air-defence activity reported over northeastern Tehran (Mario Nawfal)",
       "site": "x.com",
@@ -2825,11 +2830,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed attacks on Saudi Arabia including Jubail, a US official said Iran has fired anti-ship cruise missiles in Hormuz, and air-defence fire was reported over Tehran.",
-      "Fars said Iran is readying dozens of loaded tankers to swarm the US blockade, while Europe and Ukraine urged Russia to accept a winter energy ceasefire."
+      "The Houthis claimed attacks on Saudi targets including Jubail, a US official said Iran has fired anti-ship cruise missiles in Hormuz, and air-defence fire was reported over Tehran.",
+      "Fars said Iran is readying loaded tankers to swarm the US blockade, the WSJ reported Israel's Mossad chief urged renewed strikes on Iran, and Europe urged a winter energy ceasefire."
     ],
-    "updated": "Fri 20 Nov 2026, 6:06 am SGT",
-    "updatedTs": "2026-11-20T06:06:00+08:00"
+    "updated": "Fri 20 Nov 2026, 8:02 am SGT",
+    "updatedTs": "2026-11-20T08:02:00+08:00"
   },
   "last24Count": 13
 }
