@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 1:53 pm SGT",
-  "lastScannedTs": "2026-11-20T13:53:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 1:50 pm SGT",
+  "lastScannedTs": "2026-11-20T13:50:00+08:00",
   "asOf": "Fri 20 Nov 2026, 1:50 pm SGT",
   "asOfTs": "2026-11-20T13:50:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -2835,8 +2835,8 @@
       "The Houthis claimed attacks on Saudi targets including Jubail, Saudi Arabia issued a fresh emergency alert in Jizan, and a US official said Iran has fired anti-ship missiles in Hormuz.",
       "Iran is readying tankers to challenge a widening US blockade, Israel said it would strike Iran alone if needed, and a Russian missile reportedly entered Polish airspace."
     ],
-    "updated": "Fri 20 Nov 2026, 1:53 pm SGT",
-    "updatedTs": "2026-11-20T13:53:00+08:00"
+    "updated": "Fri 20 Nov 2026, 1:50 pm SGT",
+    "updatedTs": "2026-11-20T13:50:00+08:00"
   },
   "last24Count": 13
 }
