@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 1:50 pm SGT",
-  "lastScannedTs": "2026-11-20T13:50:00+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 2:00 pm SGT",
+  "lastScannedTs": "2026-11-20T14:00:46+08:00",
   "asOf": "Fri 20 Nov 2026, 1:50 pm SGT",
   "asOfTs": "2026-11-20T13:50:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "22 of 29 alerts point higher, 6 lower",
-    "text": "22 of 29 alerts point higher, 6 lower.",
+    "count": "21 of 28 alerts point higher, 6 lower",
+    "text": "21 of 28 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Russian Kh-101 cruise missile reportedly enters Polish airspace; air-raid alerts in eastern Poland",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-19T14:29:59+08:00"
-      },
-      {
-        "text": "Coalition intercepts four Houthi ballistic missiles aimed at southern Saudi Arabia",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-19T13:56:49+08:00"
       }
     ],
     "dovish": [
