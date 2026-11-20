@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 11:05 pm SGT",
-  "lastScannedTs": "2026-11-20T23:05:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 10:05 pm SGT",
-  "asOfTs": "2026-11-20T22:05:25+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 11:38 pm SGT",
+  "lastScannedTs": "2026-11-20T23:38:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 11:38 pm SGT",
+  "asOfTs": "2026-11-20T23:38:19+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: Houthi-Saudi strikes, a reported Iranian missile at a US drone over Hormuz and Iran strike talk dominate; a Donbas offer is the main de-escalation.",
-    "lead": "Net read (last 24 hours): Escalating overall: Houthi-Saudi strikes, a reported Iranian missile at a US drone over Hormuz and Iran strike talk dominate; a Donbas offer is the main de-escalation.",
+    "bottom": "Escalating overall: Houthi missiles on Jazan/Shuqaiq, Saudi strikes and Iran tension dominate; record Hormuz flows and a Donbas offer are the main de-escalation.",
+    "lead": "Net read (last 24 hours): Escalating overall: Houthi missiles on Jazan/Shuqaiq, Saudi strikes and Iran tension dominate; record Hormuz flows and a Donbas offer are the main de-escalation.",
     "verdict": "Bullish",
-    "count": "26 of 31 alerts point higher, 4 lower",
-    "text": "26 of 31 alerts point higher, 4 lower.",
+    "count": "27 of 33 alerts point higher, 5 lower",
+    "text": "27 of 33 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "Houthi missiles at Jazan intercepted, debris falls at Al-Shuqaiq power plant area",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T23:37:00+08:00"
+      },
       {
         "text": "Iran reportedly fires surface-to-air missile from Qeshm at a US drone over Hormuz",
         "confidence": "unconfirmed",
@@ -170,6 +176,12 @@
     ],
     "dovish": [
       {
+        "text": "Bessent: record crude flows through Hormuz last night since the conflict began",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-20T23:35:00+08:00"
+      },
+      {
         "text": "WSJ: US offers Ukraine NATO membership or guarantees in exchange for the Donbas",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -208,6 +220,32 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:37",
+      "ts": "2026-11-20T23:37:00+08:00",
+      "eventTime": "11:25 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T23:25:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis fire ballistic missiles at Saudi Jazan province; Saudi coalition says two were shot down, with debris falling in Al-Shuqaiq, site of the power plant the Houthis threatened",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition statement, via OSINTdefender and Open Source Intel; MenchOsint suggests a possible direct hit (unconfirmed)",
+      "url": "https://x.com/sentdefender/status/2123801809865076937"
+    },
+    {
+      "time": "23:35",
+      "ts": "2026-11-20T23:35:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "US Treasury Secretary Bessent says more crude moved through the Strait of Hormuz last night than at any point since the conflict began",
+      "theme": "Hormuz",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Treasury Secretary Scott Bessent, via Open Source Intel",
+      "url": "https://x.com/Osint613/status/2123802341598249003"
+    },
     {
       "time": "22:05",
       "ts": "2026-11-20T22:05:00+08:00",
@@ -701,32 +739,6 @@
       "confidence": "Confirmed",
       "source": "financialjuice; also CGTN Europe",
       "url": "https://x.com/financialjuice/status/2123378710011121736"
-    },
-    {
-      "time": "19:20",
-      "ts": "2026-11-19T19:20:04+08:00",
-      "eventTime": "3:43 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T15:43:00+08:00",
-      "eventQual": "est.",
-      "headline": "Satellite heat signals suggest a fire or heavy flaring at Russia's Omsk refinery, one of its largest; cause not known, no official word",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINT satellite-fire trackers tleilax and atroxintel",
-      "url": "https://x.com/tleilax___/status/2123375750963478725"
-    },
-    {
-      "time": "18:59",
-      "ts": "2026-11-19T18:59:53+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "TankerTrackers: Iran appears to be preparing to ship out oil again; no details yet",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "TankerTrackers.com (satellite/AIS tanker tracking)",
-      "url": "https://x.com/TankerTrackers/status/2123370674622206416"
     }
   ],
   "sources": [
@@ -2929,16 +2941,26 @@
       "title": "Iran International: residents report missile launch sound and trail over Qeshm (Persian)",
       "site": "X / Iran International",
       "href": "https://x.com/IranIntlbrk/status/2123779111680139589"
+    },
+    {
+      "title": "Bessent: record crude through Hormuz last night (Open Source Intel)",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2123802341598249003"
+    },
+    {
+      "title": "Saudi coalition: two Houthi ballistic missiles downed over Jazan, debris in Al-Shuqaiq (OSINTdefender)",
+      "site": "X / OSINTdefender",
+      "href": "https://x.com/sentdefender/status/2123801809865076937"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "After a Houthi missile hit Riyadh's PIF Tower, the coalition struck Yemeni targets including reportedly Hodeidah port, while the Houthis threaten Jeddah, Red Sea ports and Riyadh.",
-      "Iran reportedly fired a missile from Qeshm at a US drone over Hormuz as the US and Israel weigh new strikes, while the US offered Ukraine guarantees for the Donbas."
+      "Houthis fired ballistic missiles at Jazan after threatening the Shuqaiq power plant, while the coalition struck Yemeni targets including reportedly Hodeidah port after the PIF Tower hit.",
+      "Iran reportedly fired a missile from Qeshm at a US drone as the US and Israel weigh new strikes, though Bessent says Hormuz crude flows hit a wartime high."
     ],
-    "updated": "Fri 20 Nov 2026, 10:05 pm SGT",
-    "updatedTs": "2026-11-20T22:05:00+08:00"
+    "updated": "Fri 20 Nov 2026, 11:38 pm SGT",
+    "updatedTs": "2026-11-20T23:38:00+08:00"
   },
   "last24Count": 13
 }
