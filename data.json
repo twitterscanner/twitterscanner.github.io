@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 1:08 am SGT",
-  "lastScannedTs": "2026-11-21T01:08:00+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 1:18 am SGT",
+  "lastScannedTs": "2026-11-21T01:18:00+08:00",
   "asOf": "Sat 21 Nov 2026, 1:08 am SGT",
   "asOfTs": "2026-11-21T01:08:10+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating overall: a tanker hit off Khasab, Houthi claims of hits on Jazan port and Shuqaiq, and port threats dominate; Iran plays down Qeshm, Ukraine talks offset.",
     "lead": "Net read (last 24 hours): Escalating overall: a tanker hit off Khasab, Houthi claims of hits on Jazan port and Shuqaiq, and port threats dominate; Iran plays down Qeshm, Ukraine talks offset.",
     "verdict": "Bullish",
-    "count": "32 of 39 alerts point higher, 6 lower",
-    "text": "32 of 39 alerts point higher, 6 lower.",
+    "count": "31 of 38 alerts point higher, 6 lower",
+    "text": "31 of 38 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Houthis claim direct hits on Shuqaiq power station and Jazan port",
@@ -196,12 +196,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-20T02:30:00+08:00"
-      },
-      {
-        "text": "Fars: any disruption of Iranian export tanker would trigger blasts at Gulf oil facilities",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T01:15:00+08:00"
       }
     ],
     "dovish": [
