@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 12:04 am SGT",
-  "lastScannedTs": "2026-11-21T00:04:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 12:04 am SGT",
-  "asOfTs": "2026-11-21T00:04:05+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 12:17 am SGT",
+  "lastScannedTs": "2026-11-21T00:17:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 12:16 am SGT",
+  "asOfTs": "2026-11-21T00:16:40+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: Houthi missiles on Jazan, threats to Yanbu and Jeddah ports, Saudi strikes and Qeshm blasts dominate; record Hormuz flows are the main de-escalation.",
-    "lead": "Net read (last 24 hours): Escalating overall: Houthi missiles on Jazan, threats to Yanbu and Jeddah ports, Saudi strikes and Qeshm blasts dominate; record Hormuz flows are the main de-escalation.",
+    "bottom": "Escalating sharply: a tanker hit in Hormuz, a reported US strike on Qeshm, Houthi missiles on Jazan and port threats dominate; record Hormuz flows the main offset.",
+    "lead": "Net read (last 24 hours): Escalating sharply: a tanker hit in Hormuz, a reported US strike on Qeshm, Houthi missiles on Jazan and port threats dominate; record Hormuz flows the main offset.",
     "verdict": "Bullish",
-    "count": "28 of 33 alerts point higher, 4 lower",
-    "text": "28 of 33 alerts point higher, 4 lower.",
+    "count": "30 of 35 alerts point higher, 4 lower",
+    "text": "30 of 35 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: tanker hit by projectile off Khasab in Hormuz, fire onboard",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-21T00:07:00+08:00"
+      },
+      {
+        "text": "Iranian media say a US missile struck Qeshm City outskirts",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-21T00:04:00+08:00"
+      },
       {
         "text": "Houthis name Yanbu's King Fahd Industrial Port, Jeddah and Jizan ports as targets",
         "confidence": "unconfirmed",
@@ -220,6 +232,32 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:07",
+      "ts": "2026-11-21T00:07:00+08:00",
+      "eventTime": "11:00 pm, 20 Nov",
+      "eventTs": "2026-11-20T23:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO: outbound tanker struck on its port bow by an unknown projectile 8nm north of Khasab, Oman, in the Strait of Hormuz; fire onboard, no casualties",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO warning 214-26, via Open Source Intel; also OSINTdefender, First Squawk, Iran International",
+      "url": "https://x.com/Osint613/status/2123810352768995482"
+    },
+    {
+      "time": "00:04",
+      "ts": "2026-11-21T00:04:00+08:00",
+      "eventTime": "11:28 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T23:28:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian media now report a likely US strike on Qeshm Island; Tasnim says a US missile hit the outskirts of Qeshm City; no US confirmation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian outlets incl. Tasnim, via OSINTdefender",
+      "url": "https://x.com/sentdefender/status/2123809690161176666"
+    },
     {
       "time": "00:00",
       "ts": "2026-11-21T00:00:00+08:00",
@@ -713,32 +751,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk, citing Interfax",
       "url": "https://x.com/FirstSquawk/status/2123394339217043739"
-    },
-    {
-      "time": "20:26",
-      "ts": "2026-11-19T20:26:26+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Axios: White House asks Pentagon and intelligence agencies how Iran would respond to each prepared US strike option, and whether any would avoid retaliation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Axios reporter Barak Ravid (two sources)",
-      "url": "https://x.com/BarakRavid/status/2123392455089254533"
-    },
-    {
-      "time": "20:18",
-      "ts": "2026-11-19T20:18:24+08:00",
-      "eventTime": "8:15 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T20:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Putin says Russia will not negotiate after the Crimean Bridge attacks, though a ceasefire in some areas was discussed with the Security Council",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "CGTN Europe; also Open Source Intel",
-      "url": "https://x.com/CGTNEurope/status/2123390434495910027"
     }
   ],
   "sources": [
@@ -2966,16 +2978,26 @@
       "title": "Houthis threaten Jizan, Jeddah and Yanbu ports incl. King Fahd Industrial Port (Post Open Source)",
       "site": "X / Post Open Source",
       "href": "https://x.com/CocoPostel/status/2123808495761817782"
+    },
+    {
+      "title": "Iranian outlets report likely US strike on Qeshm Island (OSINTdefender)",
+      "site": "X / OSINTdefender",
+      "href": "https://x.com/sentdefender/status/2123809690161176666"
+    },
+    {
+      "title": "UKMTO 214-26: tanker struck 8nm N of Khasab, fire onboard (Open Source Intel)",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2123810352768995482"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight the Houthis named Saudi Yanbu, Jeddah and Jizan ports as targets, following their ballistic missiles on Jazan and coalition strikes on Hodeidah and Sanaa.",
-      "Late Friday Fars reported a blast over Iran's Qeshm Island amid unconfirmed US strike claims, while Bessent said Hormuz crude flows hit a wartime high."
+      "A tanker leaving Hormuz was struck by a projectile off Khasab late Friday, and Iranian media say a US missile hit Qeshm Island after reported blasts there.",
+      "The Houthis named Yanbu, Jeddah and Jizan ports as targets after firing missiles at Jazan, while Bessent said Hormuz crude flows hit a wartime high."
     ],
-    "updated": "Sat 21 Nov 2026, 12:04 am SGT",
-    "updatedTs": "2026-11-21T00:04:00+08:00"
+    "updated": "Sat 21 Nov 2026, 12:17 am SGT",
+    "updatedTs": "2026-11-21T00:17:00+08:00"
   },
   "last24Count": 13
 }
