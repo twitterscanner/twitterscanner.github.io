@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 5:42 pm SGT",
-  "lastScannedTs": "2026-11-20T17:42:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 5:40 pm SGT",
-  "asOfTs": "2026-11-20T17:40:57+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 5:52 pm SGT",
+  "lastScannedTs": "2026-11-20T17:52:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 5:49 pm SGT",
+  "asOfTs": "2026-11-20T17:49:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, a drone downed near Isfahan and a suspected Russian missile in Poland outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, a drone downed near Isfahan and a suspected Russian missile in Poland outweigh ceasefire signals.",
+    "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks and Russian fuel curbs from refinery strikes outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks and Russian fuel curbs from refinery strikes outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "21 of 29 alerts point higher, 6 lower",
-    "text": "21 of 29 alerts point higher, 6 lower.",
+    "count": "22 of 30 alerts point higher, 6 lower",
+    "text": "22 of 30 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "More Russian regions limit fuel sales as drone strikes cut refinery output",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-20T17:45:06+08:00"
+      },
       {
         "text": "Drone reportedly shot down over garrison near Isfahan, central Iran; origin unclear",
         "confidence": "unconfirmed",
@@ -196,6 +202,19 @@
     "detail": "Brent trading at $92.67/bbl, rebounding from earlier decline (OilandEnergy on X, 2:07 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:45",
+      "ts": "2026-11-20T17:45:06+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "More Russian regions limit fuel sales as Ukrainian drone strikes cut refinery output (news report shared by energy analyst)",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo (staunovo) sharing news report",
+      "url": "https://x.com/staunovo/status/2123714242931007910"
+    },
     {
       "time": "17:38",
       "ts": "2026-11-20T17:38:12+08:00",
@@ -702,19 +721,6 @@
       "confidence": "Confirmed",
       "source": "AMK Mapping; Saudi-led coalition statement; Reuters correspondent Timour Azhari in Riyadh",
       "url": "https://x.com/AMK_Mapping_/status/2123230649742148095"
-    },
-    {
-      "time": "09:34",
-      "ts": "2026-11-19T09:34:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump says there are signs Iran is weighing gas or biological weapons: \"If that happens, we will wipe them out\"; vows to end the war \"by any means necessary\"",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Trump on Fox News, via Post Open Source and War Radar",
-      "url": "https://x.com/CocoPostel/status/2123228437808644374"
     }
   ],
   "sources": [
@@ -2847,16 +2853,21 @@
       "title": "Saudi refills joint crude storage in Japan; Japan to buy 8M bbl for reserve (SPA via FirstSquawk)",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2123712504287351030"
+    },
+    {
+      "title": "More Russian regions limit fuel sales as Ukrainian drone strikes hit refinery output (via staunovo)",
+      "site": "X / staunovo",
+      "href": "https://x.com/staunovo/status/2123714242931007910"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines east of Hormuz kept Gulf supply risk high, while Japan moved to buy 8 million barrels of Saudi crude for reserves.",
-      "Poland said an object may have fallen near Chmielek during a mass Russian strike, and a drone was reportedly shot down near Isfahan in central Iran."
+      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines near Hormuz kept Gulf supply risk high, while Japan moved to buy 8 million barrels of Saudi crude.",
+      "More Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output, and Poland said an object may have fallen near Chmielek during a mass Russian strike."
     ],
-    "updated": "Fri 20 Nov 2026, 5:41 pm SGT",
-    "updatedTs": "2026-11-20T17:41:00+08:00"
+    "updated": "Fri 20 Nov 2026, 5:51 pm SGT",
+    "updatedTs": "2026-11-20T17:51:00+08:00"
   },
   "last24Count": 13
 }
