@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 6:11 pm SGT",
-  "lastScannedTs": "2026-11-20T18:11:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 6:02 pm SGT",
-  "asOfTs": "2026-11-20T18:02:44+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 6:48 pm SGT",
+  "lastScannedTs": "2026-11-20T18:48:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 6:48 pm SGT",
+  "asOfTs": "2026-11-20T18:48:14+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, Russian missiles landing in Poland and Russian fuel curbs outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, Russian missiles landing in Poland and Russian fuel curbs outweigh ceasefire signals.",
+    "bottom": "Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, Iranian tanker attacks and Russian missiles in Poland outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi strikes on Saudi targets, a Hodeidah evacuation warning, Iranian tanker attacks and Russian missiles in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "22 of 30 alerts point higher, 6 lower",
-    "text": "22 of 30 alerts point higher, 6 lower.",
+    "count": "23 of 31 alerts point higher, 6 lower",
+    "text": "23 of 31 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Saudi-led coalition orders Hodeidah port evacuation, signalling strikes on Houthi Red Sea port",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-20T18:48:00+08:00"
+      },
       {
         "text": "Poland confirms two missiles and a drone that fell on its soil came from Russia",
         "confidence": "confirmed",
@@ -202,6 +208,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:48",
+      "ts": "2026-11-20T18:48:00+08:00",
+      "eventTime": "6:40 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T18:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition urges civilians to evacuate Yemen's Hodeidah port, signalling possible strikes on the Houthi-held Red Sea port",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk and Open Source Intel citing coalition spokesman",
+      "url": "https://x.com/FirstSquawk/status/2123728346454561010"
+    },
     {
       "time": "17:59",
       "ts": "2026-11-20T17:59:48+08:00",
@@ -708,19 +727,6 @@
       "confidence": "Confirmed",
       "source": "Bloomberg's Stephen Stapczynski, preliminary ship-tracking data",
       "url": "https://x.com/SStapczynski/status/2123260616911831531"
-    },
-    {
-      "time": "10:57",
-      "ts": "2026-11-19T10:57:21+08:00",
-      "eventTime": "10:30 am, 19 Nov (est.)",
-      "eventTs": "2026-11-19T10:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump says he would go to war with Iran again and calls negotiations with Tehran a \"waste of time\"; vows to \"finish it off, soon, one way or the other\"",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Jazeera via Post Open Source; Energy Headline News video",
-      "url": "https://x.com/CocoPostel/status/2123249239795134660"
     }
   ],
   "sources": [
@@ -2863,16 +2869,21 @@
       "title": "Poland says 2 missiles, drone that fell on its soil came from Russia (FirstSquawk)",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2123717941674000692"
+    },
+    {
+      "title": "Saudi-led coalition urges civilians to evacuate Hodeidah port (FirstSquawk)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2123728346454561010"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines near Hormuz kept Gulf supply risk high, while Japan moved to buy 8 million barrels of Saudi crude.",
-      "Poland confirmed two missiles and a drone that fell on its soil came from Russia, and more Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output."
+      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines near Hormuz kept Gulf risk high, and the Saudi-led coalition told civilians to evacuate Yemen's Hodeidah port.",
+      "Poland confirmed two missiles and a drone that fell on its soil came from Russia, while more Russian regions limited fuel sales as Ukrainian drone strikes cut refinery output."
     ],
-    "updated": "Fri 20 Nov 2026, 6:04 pm SGT",
-    "updatedTs": "2026-11-20T18:04:00+08:00"
+    "updated": "Fri 20 Nov 2026, 6:48 pm SGT",
+    "updatedTs": "2026-11-20T18:48:00+08:00"
   },
   "last24Count": 13
 }
