@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 1:44 pm SGT",
-  "lastScannedTs": "2026-11-20T13:44:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 11:43 am SGT",
-  "asOfTs": "2026-11-20T11:43:08+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 1:53 pm SGT",
+  "lastScannedTs": "2026-11-20T13:53:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 1:50 pm SGT",
+  "asOfTs": "2026-11-20T13:50:31+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
-    "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, a tanker swarm plan, Houthi strikes on Saudi targets and Israeli pressure for strikes outweigh ceasefire signals.",
+    "bottom": "Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
+    "lead": "Net read (last 24 hours): Escalation leads: Iranian cruise-missile use, Houthi strikes on Saudi targets, Israeli pressure for strikes and a reported Russian missile over Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "21 of 28 alerts point higher, 6 lower",
-    "text": "21 of 28 alerts point higher, 6 lower.",
+    "count": "22 of 29 alerts point higher, 6 lower",
+    "text": "22 of 29 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Russian Kh-101 cruise missile reportedly enters Polish airspace; air-raid alerts in eastern Poland",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-20T13:31:36+08:00"
+      },
       {
         "text": "Bloomberg: Iranian oil moved ship-to-ship as US widens its naval blockade",
         "confidence": "confirmed",
@@ -190,6 +196,19 @@
     "detail": "Brent settled at $91.98/bbl (Giovanni Staunovo on X, 4:02 am SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:31",
+      "ts": "2026-11-20T13:31:36+08:00",
+      "eventTime": "1:30 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T13:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Russian Kh-101 cruise missile reportedly crosses into Polish airspace during mass strike on Ukraine; Poland issues air-raid alerts in Lublin and Podkarpackie",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping on X; sirens in Lublin per Radio Lublin; Polish RCB missile alert",
+      "url": "https://x.com/AMK_Mapping_/status/2123650444555923485"
+    },
     {
       "time": "11:38",
       "ts": "2026-11-20T11:38:43+08:00",
@@ -696,22 +715,14 @@
       "confidence": "Unconfirmed",
       "source": "MenchOsint; Houthi military spokesman Yahya Saree (Arabic)",
       "url": "https://x.com/MenchOsint/status/2123150991608414350"
-    },
-    {
-      "time": "04:16",
-      "ts": "2026-11-19T04:16:56+08:00",
-      "eventTime": "From Wed 18 Nov morning Iran time (~12:30 pm SGT, est.)",
-      "eventTs": "2026-11-18T12:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's Army says three 'offending' oil tankers hit naval mines east of the Strait of Hormuz since Wednesday morning, caught fire and are disabled",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "LiveSquawk citing Iranian state TV IRIB; also Al Jazeera, Iran International",
-      "url": "https://x.com/LiveSquawk/status/2123148473579020581"
     }
   ],
   "sources": [
+    {
+      "title": "Russian Kh-101 reportedly crosses into Polish airspace; alerts in eastern Poland",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2123650444555923485"
+    },
     {
       "title": "Bloomberg: Iranian oil transferred between tankers as US widens blockade",
       "site": "X / LiveSquawk",
@@ -2822,10 +2833,10 @@
     "title": "Today's key developments",
     "lines": [
       "The Houthis claimed attacks on Saudi targets including Jubail, Saudi Arabia issued a fresh emergency alert in Jizan, and a US official said Iran has fired anti-ship missiles in Hormuz.",
-      "Iran is readying tankers to challenge the US blockade, which Bloomberg says Washington is widening, while Israel's ambassador said Israel would strike Iran alone if needed."
+      "Iran is readying tankers to challenge a widening US blockade, Israel said it would strike Iran alone if needed, and a Russian missile reportedly entered Polish airspace."
     ],
-    "updated": "Fri 20 Nov 2026, 11:45 am SGT",
-    "updatedTs": "2026-11-20T11:45:00+08:00"
+    "updated": "Fri 20 Nov 2026, 1:53 pm SGT",
+    "updatedTs": "2026-11-20T13:53:00+08:00"
   },
   "last24Count": 13
 }
