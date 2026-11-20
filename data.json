@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 12:38 am SGT",
-  "lastScannedTs": "2026-11-21T00:38:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 12:37 am SGT",
-  "asOfTs": "2026-11-21T00:37:49+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 12:54 am SGT",
+  "lastScannedTs": "2026-11-21T00:54:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 12:53 am SGT",
+  "asOfTs": "2026-11-21T00:53:51+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating sharply: a tanker hit off Khasab (IRGC cites mines), a reported US strike on Qeshm and Houthi attacks dominate; Hormuz flows and Ukraine talks offset.",
-    "lead": "Net read (last 24 hours): Escalating sharply: a tanker hit off Khasab (IRGC cites mines), a reported US strike on Qeshm and Houthi attacks dominate; Hormuz flows and Ukraine talks offset.",
+    "bottom": "Escalating overall: a tanker hit off Khasab, Houthi attacks and port threats dominate; Iran now plays down the Qeshm blast, with Hormuz flows and Ukraine talks offsetting.",
+    "lead": "Net read (last 24 hours): Escalating overall: a tanker hit off Khasab, Houthi attacks and port threats dominate; Iran now plays down the Qeshm blast, with Hormuz flows and Ukraine talks offsetting.",
     "verdict": "Bullish",
-    "count": "31 of 37 alerts point higher, 5 lower",
-    "text": "31 of 37 alerts point higher, 5 lower.",
+    "count": "31 of 38 alerts point higher, 6 lower",
+    "text": "31 of 38 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "IRGC says Khasab tanker hit a mine on an unauthorized Hormuz route",
@@ -200,6 +200,12 @@
     ],
     "dovish": [
       {
+        "text": "Iranian official says Qeshm blast was ordnance disposal, not a US strike",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-21T00:48:00+08:00"
+      },
+      {
         "text": "FT: Trump wants a Ukraine peace deal by early January",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -244,6 +250,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:48",
+      "ts": "2026-11-21T00:48:00+08:00",
+      "eventTime": "11:28 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T23:28:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian Hormozgan official tells IRNA the Qeshm blast and smoke came from ordnance disposal, contradicting earlier Iranian media reports of a US missile strike",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Hormozgan provincial official via IRNA, reported by LiveSquawk",
+      "url": "https://x.com/LiveSquawk/status/2123820841091637727"
+    },
     {
       "time": "00:35",
       "ts": "2026-11-21T00:35:00+08:00",
@@ -750,19 +769,6 @@
       "confidence": "Confirmed",
       "source": "Saudi Foreign Ministry statement, via Open Source Intel; also Saudi Gazette, CGTN",
       "url": "https://x.com/Osint613/status/2123441498137985439"
-    },
-    {
-      "time": "23:00",
-      "ts": "2026-11-19T23:00:25+08:00",
-      "eventTime": "11:00 pm, 19 Nov (est.)",
-      "eventTs": "2026-11-19T23:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi authorities issue emergency early-warning alerts for Riyadh and Al-Kharj over a hostile aerial threat as a fresh Houthi missile/drone attack targets the capital; explosions reported locally",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Arabiya English (Saudi Civil Defense alert); explosions per local accounts, unverified",
-      "url": "https://x.com/AlArabiya_Eng/status/2123431204552651102"
     }
   ],
   "sources": [
@@ -3010,16 +3016,21 @@
       "title": "IRGC: Khasab tanker hit a mine on unauthorized Hormuz route (Al Arabiya English)",
       "site": "X / Al Arabiya English",
       "href": "https://x.com/AlArabiya_Eng/status/2123817502044049547"
+    },
+    {
+      "title": "IRNA: Hormozgan official says Qeshm blast from ordnance disposal (LiveSquawk)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2123820841091637727"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "A tanker leaving Hormuz caught fire off Khasab late Friday, which Iran's IRGC blames on a mine, and Iranian media say a US missile hit Qeshm Island.",
+      "A tanker leaving Hormuz caught fire off Khasab late Friday, which Iran's IRGC blames on a mine; Iran now says a Qeshm blast was ordnance disposal, not a US strike.",
       "The Houthis named Yanbu, Jeddah and Jizan ports as targets after missiles on Jazan, while the FT says Trump wants a Ukraine peace deal by early January."
     ],
-    "updated": "Sat 21 Nov 2026, 12:38 am SGT",
-    "updatedTs": "2026-11-21T00:38:00+08:00"
+    "updated": "Sat 21 Nov 2026, 12:54 am SGT",
+    "updatedTs": "2026-11-21T00:54:00+08:00"
   },
   "last24Count": 13
 }
