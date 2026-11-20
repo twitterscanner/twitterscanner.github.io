@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 3:04 am SGT",
-  "lastScannedTs": "2026-11-21T03:04:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 3:04 am SGT",
-  "asOfTs": "2026-11-21T03:04:10+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 6:04 am SGT",
+  "lastScannedTs": "2026-11-21T06:04:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 6:04 am SGT",
+  "asOfTs": "2026-11-21T06:04:35+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: Khasab tanker hit and Houthi claims on Jazan and Shuqaiq dominate; Qatar mediation push and Ukraine talks offset.",
-    "lead": "Net read (last 24 hours): Escalating overall: Khasab tanker hit and Houthi claims on Jazan and Shuqaiq dominate; Qatar mediation push and Ukraine talks offset.",
+    "bottom": "Escalating overall: Khasab tanker hit, Houthi claims on Jazan and Shuqaiq and new US Iran oil sanctions dominate; Qatar mediation offsets.",
+    "lead": "Net read (last 24 hours): Escalating overall: Khasab tanker hit, Houthi claims on Jazan and Shuqaiq and new US Iran oil sanctions dominate; Qatar mediation offsets.",
     "verdict": "Bullish",
-    "count": "30 of 37 alerts point higher, 5 lower",
-    "text": "30 of 37 alerts point higher, 5 lower.",
+    "count": "28 of 35 alerts point higher, 5 lower",
+    "text": "28 of 35 alerts point higher, 5 lower.",
     "hawkish": [
+      {
+        "text": "US Treasury sanctions Iran's oil trustees under Operation Economic Outcast",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-21T06:04:00+08:00"
+      },
       {
         "text": "Houthis claim direct hits on Shuqaiq power station and Jazan port",
         "confidence": "unconfirmed",
@@ -172,24 +178,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-20T07:52:00+08:00"
-      },
-      {
-        "text": "Air-defence and anti-aircraft fire reported over northeastern Tehran",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T05:56:00+08:00"
-      },
-      {
-        "text": "Fars: Iran readies dozens of loaded tankers at Kharg to swarm the US blockade",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T03:51:00+08:00"
-      },
-      {
-        "text": "US official: Iran now firing anti-ship cruise missiles at ships in Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-20T03:35:00+08:00"
       }
     ],
     "dovish": [
@@ -244,6 +232,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "06:04",
+      "ts": "2026-11-21T06:04:00+08:00",
+      "eventTime": "5:05 am, 21 Nov",
+      "eventTs": "2026-11-21T05:05:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "US Treasury sanctions Iranian 'oil trustees' who sell regime oil abroad under Operation Economic Outcast, tightening the squeeze on Iran's oil exports",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "US Treasury; also relayed by Giovanni Staunovo (UBS), Josh Young",
+      "url": "https://x.com/USTreasury/status/2123885407938998420"
+    },
     {
       "time": "03:04",
       "ts": "2026-11-21T03:04:00+08:00",
@@ -750,19 +751,6 @@
       "confidence": "Unconfirmed",
       "source": "Yahya Saree, Houthi military spokesman (statement in Arabic); English summary by Post Open Source",
       "url": "https://x.com/Yah_Saree/status/2123483950031200501"
-    },
-    {
-      "time": "02:11",
-      "ts": "2026-11-20T02:11:30+08:00",
-      "eventTime": "2:11 am, 20 Nov (est.)",
-      "eventTs": "2026-11-20T02:11:00+08:00",
-      "eventQual": "est.",
-      "headline": "US Energy Secretary Wright says yesterday saw by far the largest flow of oil out of the Strait of Hormuz, and sees no increase in tensions over Iran",
-      "theme": "Hormuz",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk (wire relay)",
-      "url": "https://x.com/FirstSquawk/status/2123479294336999484"
     }
   ],
   "sources": [
@@ -3030,16 +3018,21 @@
       "title": "Axios: Witkoff and Kushner met Qatari officials in Berlin on US-Iran mediation (Barak Ravid)",
       "site": "X / BarakRavid",
       "href": "https://x.com/BarakRavid/status/2123853497372455385"
+    },
+    {
+      "title": "US Treasury: Operation Economic Outcast targets Iran's oil trustees",
+      "site": "X / USTreasury",
+      "href": "https://x.com/USTreasury/status/2123885407938998420"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claim direct hits on Saudi Shuqaiq power station and Jazan port after Saudi strikes on Hodeidah, while a tanker leaving Hormuz caught fire off Khasab.",
-      "Trump says Iran wants a deal but not an acceptable one, while Axios reports his envoys met Qatari officials in Berlin on mediating US-Iran talks."
+      "The Houthis claim hits on Saudi Shuqaiq power station and Jazan port after Saudi strikes on Hodeidah, while a tanker leaving Hormuz caught fire off Khasab.",
+      "The US Treasury sanctioned Iranian oil trustees under Operation Economic Outcast, as Trump's envoys met Qatari officials in Berlin on mediating US-Iran talks."
     ],
-    "updated": "Sat 21 Nov 2026, 3:04 am SGT",
-    "updatedTs": "2026-11-21T03:04:00+08:00"
+    "updated": "Sat 21 Nov 2026, 6:04 am SGT",
+    "updatedTs": "2026-11-21T06:04:00+08:00"
   },
   "last24Count": 13
 }
