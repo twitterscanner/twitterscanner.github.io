@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 9:01 pm SGT",
-  "lastScannedTs": "2026-11-20T21:01:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 8:44 pm SGT",
-  "asOfTs": "2026-11-20T20:44:59+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 9:29 pm SGT",
+  "lastScannedTs": "2026-11-20T21:29:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 9:29 pm SGT",
+  "asOfTs": "2026-11-20T21:29:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: a reported coalition strike on Hodeidah, Houthi threats to Saudi ports and Riyadh, and talk of new US-Israeli strikes on Iran dominate.",
-    "lead": "Net read (last 24 hours): Escalating: a reported coalition strike on Hodeidah, Houthi threats to Saudi ports and Riyadh, and talk of new US-Israeli strikes on Iran dominate.",
+    "bottom": "Escalating overall: Houthi-Saudi strikes and US-Israel Iran strike talk dominate, though a US NATO-for-Donbas offer to Ukraine points to de-escalation.",
+    "lead": "Net read (last 24 hours): Escalating overall: Houthi-Saudi strikes and US-Israel Iran strike talk dominate, though a US NATO-for-Donbas offer to Ukraine points to de-escalation.",
     "verdict": "Bullish",
-    "count": "26 of 30 alerts point higher, 3 lower",
-    "text": "26 of 30 alerts point higher, 3 lower.",
+    "count": "26 of 31 alerts point higher, 4 lower",
+    "text": "26 of 31 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Coalition reportedly strikes Hodeidah port, crossing the Houthis' stated trigger for hitting Jeddah",
@@ -170,6 +170,12 @@
     ],
     "dovish": [
       {
+        "text": "WSJ: US offers Ukraine NATO membership or guarantees in exchange for the Donbas",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-20T21:29:00+08:00"
+      },
+      {
         "text": "Germany, France, UK and Ukraine urge Russia to agree winter energy ceasefire",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -202,6 +208,19 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:29",
+      "ts": "2026-11-20T21:29:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "WSJ: US has offered Ukraine NATO membership or NATO-style ceasefire guarantees in exchange for ceding the Donbas to Russia",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Post Open Source, citing the Wall Street Journal",
+      "url": "https://x.com/CocoPostel/status/2123768584757186804"
+    },
     {
       "time": "20:46",
       "ts": "2026-11-20T20:46:00+08:00",
@@ -708,19 +727,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk, citing Chinese state media; also Amena Bakr",
       "url": "https://x.com/FirstSquawk/status/2123368537934930397"
-    },
-    {
-      "time": "17:55",
-      "ts": "2026-11-19T17:55:52+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy says two 'violating' supertankers exploded after hitting a naval mine on an unauthorised route in the Strait of Hormuz; no independent confirmation yet",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "CGTN Europe, citing IRGC Navy statement (Fars); also First Squawk, MenchOsint",
-      "url": "https://x.com/CGTNEurope/status/2123354562517987558"
     }
   ],
   "sources": [
@@ -2908,16 +2914,21 @@
       "title": "Reported coalition (JFC) strike on militarised units at Hodeidah port (Ibrahim Jalal)",
       "site": "X / Ibrahim Jalal",
       "href": "https://x.com/IbrahimJalalYE/status/2123757260648202488"
+    },
+    {
+      "title": "WSJ: US offers Ukraine NATO membership or guarantees for Donbas (Post Open Source)",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2123768584757186804"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "After a Houthi missile hit Riyadh's PIF Tower, the coalition struck Yemeni power stations and reportedly Hodeidah port; the Houthis threaten Jeddah, Red Sea ports, Shuqaiq and Riyadh's financial centre.",
-      "CBS reports the US and Israel are weighing a new assault on Iran, and CENTCOM warned ships doing transfers with Iranian-loaded tankers they risk seizure."
+      "After a Houthi missile hit Riyadh's PIF Tower, the coalition struck Yemeni power stations and reportedly Hodeidah port, while the Houthis threaten Jeddah, Red Sea ports and Riyadh.",
+      "CBS says the US and Israel weigh a new assault on Iran, while the WSJ reports the US offered Ukraine NATO membership or guarantees in exchange for the Donbas."
     ],
-    "updated": "Fri 20 Nov 2026, 8:46 pm SGT",
-    "updatedTs": "2026-11-20T20:46:00+08:00"
+    "updated": "Fri 20 Nov 2026, 9:29 pm SGT",
+    "updatedTs": "2026-11-20T21:29:00+08:00"
   },
   "last24Count": 13
 }
