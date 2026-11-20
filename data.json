@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 20 Nov 2026, 5:32 pm SGT",
-  "lastScannedTs": "2026-11-20T17:32:00+08:00",
-  "asOf": "Fri 20 Nov 2026, 4:45 pm SGT",
-  "asOfTs": "2026-11-20T16:45:02+08:00",
+  "lastScanned": "Fri 20 Nov 2026, 5:42 pm SGT",
+  "lastScannedTs": "2026-11-20T17:42:00+08:00",
+  "asOf": "Fri 20 Nov 2026, 5:40 pm SGT",
+  "asOfTs": "2026-11-20T17:40:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, a drone downed near Isfahan and a suspected Russian missile in Poland outweigh ceasefire signals.",
     "lead": "Net read (last 24 hours): Escalation leads: Houthi strikes on Saudi targets, Iranian tanker attacks, a drone downed near Isfahan and a suspected Russian missile in Poland outweigh ceasefire signals.",
     "verdict": "Bullish",
-    "count": "21 of 28 alerts point higher, 6 lower",
-    "text": "21 of 28 alerts point higher, 6 lower.",
+    "count": "21 of 29 alerts point higher, 6 lower",
+    "text": "21 of 29 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Drone reportedly shot down over garrison near Isfahan, central Iran; origin unclear",
@@ -178,6 +178,12 @@
     ],
     "neutral": [
       {
+        "text": "Japan to buy 8M barrels of Saudi crude for reserve; Saudi refilling joint storage in Japan",
+        "confidence": "confirmed",
+        "theme": "Strategic reserves",
+        "ts": "2026-11-20T17:38:12+08:00"
+      },
+      {
         "text": "TankerTrackers says Iran appears to be preparing to ship out oil again",
         "confidence": "unconfirmed",
         "theme": "Iran",
@@ -190,6 +196,19 @@
     "detail": "Brent trading at $92.67/bbl, rebounding from earlier decline (OilandEnergy on X, 2:07 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:38",
+      "ts": "2026-11-20T17:38:12+08:00",
+      "eventTime": "5:37 pm, 20 Nov (est.)",
+      "eventTs": "2026-11-20T17:37:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Arabia starts refilling joint crude storage in Japan; Japan plans to buy 8 million barrels of Saudi crude for its own reserve (SPA)",
+      "theme": "Strategic reserves",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "First Squawk citing Saudi Press Agency (SPA)",
+      "url": "https://x.com/FirstSquawk/status/2123712504287351030"
+    },
     {
       "time": "16:44",
       "ts": "2026-11-20T16:44:57+08:00",
@@ -696,19 +715,6 @@
       "confidence": "Confirmed",
       "source": "Trump on Fox News, via Post Open Source and War Radar",
       "url": "https://x.com/CocoPostel/status/2123228437808644374"
-    },
-    {
-      "time": "07:57",
-      "ts": "2026-11-19T07:57:04+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "NYT: Trump weighs a new extensive strike campaign on Iran as Israel presses for a 4-7 day air campaign; Ynet says Israel on highest alert for possible joint strikes within days",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "New York Times report via Oil Headline News, FirstSquawk and others; Ynet",
-      "url": "https://x.com/OilHeadlineNews/status/2123203871380001017"
     }
   ],
   "sources": [
@@ -2836,16 +2842,21 @@
       "title": "Drone reportedly shot down over 15th Khordad garrison, Baharestan, Isfahan (Osint613)",
       "site": "X / Osint613",
       "href": "https://x.com/Osint613/status/2123698045430964433"
+    },
+    {
+      "title": "Saudi refills joint crude storage in Japan; Japan to buy 8M bbl for reserve (SPA via FirstSquawk)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2123712504287351030"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines east of Hormuz kept Gulf supply risk high, with a US memo flagging soaring war-risk insurance.",
+      "Houthi missile damage to Riyadh's PIF Tower and Iranian claims of tankers hitting mines east of Hormuz kept Gulf supply risk high, while Japan moved to buy 8 million barrels of Saudi crude for reserves.",
       "Poland said an object may have fallen near Chmielek during a mass Russian strike, and a drone was reportedly shot down near Isfahan in central Iran."
     ],
-    "updated": "Fri 20 Nov 2026, 4:44 pm SGT",
-    "updatedTs": "2026-11-20T16:44:57+08:00"
+    "updated": "Fri 20 Nov 2026, 5:41 pm SGT",
+    "updatedTs": "2026-11-20T17:41:00+08:00"
   },
   "last24Count": 13
 }
