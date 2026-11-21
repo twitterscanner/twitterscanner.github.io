@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 6:04 am SGT",
-  "lastScannedTs": "2026-11-21T06:04:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 6:04 am SGT",
-  "asOfTs": "2026-11-21T06:04:35+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 9:05 am SGT",
+  "lastScannedTs": "2026-11-21T09:05:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 9:02 am SGT",
+  "asOfTs": "2026-11-21T09:02:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: Khasab tanker hit, Houthi claims on Jazan and Shuqaiq and new US Iran oil sanctions dominate; Qatar mediation offsets.",
-    "lead": "Net read (last 24 hours): Escalating overall: Khasab tanker hit, Houthi claims on Jazan and Shuqaiq and new US Iran oil sanctions dominate; Qatar mediation offsets.",
+    "bottom": "Escalating overall: fresh Houthi missile fire at Riyadh, Khasab tanker hit and new US Iran oil sanctions outweigh Araghchi and Qatar diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating overall: fresh Houthi missile fire at Riyadh, Khasab tanker hit and new US Iran oil sanctions outweigh Araghchi and Qatar diplomacy.",
     "verdict": "Bullish",
-    "count": "28 of 35 alerts point higher, 5 lower",
-    "text": "28 of 35 alerts point higher, 5 lower.",
+    "count": "27 of 35 alerts point higher, 6 lower",
+    "text": "27 of 35 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Houthi missiles target Riyadh again; airport halted, coalition intercepts 3 ballistic missiles",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-21T09:02:05+08:00"
+      },
       {
         "text": "US Treasury sanctions Iran's oil trustees under Operation Economic Outcast",
         "confidence": "confirmed",
@@ -166,21 +172,15 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-20T10:05:00+08:00"
-      },
-      {
-        "text": "Saudi emergency alert in Jizan, near Aramco's Jazan refinery; later lifted",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T08:36:00+08:00"
-      },
-      {
-        "text": "WSJ: Mossad chief pressed for renewed joint US-Israeli strikes on Iran; another Patriot sent to Israel",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T07:52:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Araghchi: two-day plan to resume ceasefire and reopen Hormuz still on table",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-21T09:02:05+08:00"
+      },
       {
         "text": "Witkoff and Kushner met Qatari officials in Berlin on US-Iran mediation",
         "confidence": "confirmed",
@@ -232,6 +232,32 @@
     "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:02",
+      "ts": "2026-11-21T09:02:05+08:00",
+      "eventTime": "7:00 am, 21 Nov (est.)",
+      "eventTs": "2026-11-21T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis fire missiles at Riyadh again: repeated early warnings, airport halted and airspace closed; coalition says 3 ballistic missiles intercepted, explosions and power problems reported",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition via Mario Nawfal; also MenchOsint, First Squawk, CocoPostel",
+      "url": "https://x.com/MarioNawfal/status/2123943573812879583"
+    },
+    {
+      "time": "09:02",
+      "ts": "2026-11-21T09:02:05+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran FM Araghchi says Tehran's two-day plan to resume the ceasefire, reopen Hormuz and restart nuclear talks is still on the table; deal possible if permanent",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Barak Ravid (Axios), citing Araghchi interview with Iran newspaper",
+      "url": "https://x.com/BarakRavid/status/2123922764172050584"
+    },
     {
       "time": "06:04",
       "ts": "2026-11-21T06:04:00+08:00",
@@ -725,35 +751,19 @@
       "confidence": "Unconfirmed",
       "source": "Iran International English, citing a US official via The Jerusalem Post; launch report from OSINT account OSINTWarfare, relayed by Post Open Source",
       "url": "https://x.com/IranIntl_En/status/2123500451744174354"
-    },
-    {
-      "time": "02:46",
-      "ts": "2026-11-20T02:46:48+08:00",
-      "eventTime": "2:46 am, 20 Nov (est.)",
-      "eventTs": "2026-11-20T02:46:00+08:00",
-      "eventQual": "est.",
-      "headline": "Leaders of Germany, France, the UK and Ukraine jointly urge Russia to agree to a winter energy ceasefire",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "First Squawk (wire relay)",
-      "url": "https://x.com/FirstSquawk/status/2123488176765534587"
-    },
-    {
-      "time": "02:30",
-      "ts": "2026-11-20T02:30:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim four attacks on Saudi Arabia today, including the Sadaf petrochemical plant in Jubail, Khamis Mushait air base, King Khalid Airport and Riyadh's financial district, and tell investors to leave",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yahya Saree, Houthi military spokesman (statement in Arabic); English summary by Post Open Source",
-      "url": "https://x.com/Yah_Saree/status/2123483950031200501"
     }
   ],
   "sources": [
+    {
+      "title": "Houthi missiles target Riyadh; coalition says 3 ballistic missiles intercepted",
+      "site": "X / Mario Nawfal",
+      "href": "https://x.com/MarioNawfal/status/2123943573812879583"
+    },
+    {
+      "title": "Araghchi: two-day ceasefire and Hormuz reopening plan still on the table",
+      "site": "X / Barak Ravid",
+      "href": "https://x.com/BarakRavid/status/2123922764172050584"
+    },
     {
       "title": "Russian Kh-101 reportedly crosses into Polish airspace; alerts in eastern Poland",
       "site": "X / AMK Mapping",
@@ -3028,11 +3038,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claim hits on Saudi Shuqaiq power station and Jazan port after Saudi strikes on Hodeidah, while a tanker leaving Hormuz caught fire off Khasab.",
-      "The US Treasury sanctioned Iranian oil trustees under Operation Economic Outcast, as Trump's envoys met Qatari officials in Berlin on mediating US-Iran talks."
+      "Houthi missiles targeted Riyadh again this morning, halting the airport, after earlier claims on Shuqaiq power station and Jazan port and a tanker fire off Khasab.",
+      "The US Treasury sanctioned Iranian oil trustees, while Araghchi said Iran's two-day plan to resume the ceasefire and reopen Hormuz remains on the table."
     ],
-    "updated": "Sat 21 Nov 2026, 6:04 am SGT",
-    "updatedTs": "2026-11-21T06:04:00+08:00"
+    "updated": "Sat 21 Nov 2026, 9:05 am SGT",
+    "updatedTs": "2026-11-21T09:05:00+08:00"
   },
   "last24Count": 13
 }
