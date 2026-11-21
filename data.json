@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 3:07 pm SGT",
-  "lastScannedTs": "2026-11-21T15:07:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 3:05 pm SGT",
-  "asOfTs": "2026-11-21T15:05:49+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 6:05 pm SGT",
+  "lastScannedTs": "2026-11-21T18:05:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 6:03 pm SGT",
+  "asOfTs": "2026-11-21T18:03:18+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: Houthi missile fire at Riyadh, a Ukrainian drone raid toward Ust-Luga and new US Iran oil sanctions outweigh Iran-Qatar diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating overall: Houthi missile fire at Riyadh, a Ukrainian drone raid toward Ust-Luga and new US Iran oil sanctions outweigh Iran-Qatar diplomacy.",
+    "bottom": "Escalating overall: two more tankers hit near Khasab in Hormuz, Houthi missiles at Riyadh and a Ukrainian drone raid toward Ust-Luga outweigh diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating overall: two more tankers hit near Khasab in Hormuz, Houthi missiles at Riyadh and a Ukrainian drone raid toward Ust-Luga outweigh diplomacy.",
     "verdict": "Bullish",
-    "count": "23 of 32 alerts point higher, 6 lower",
-    "text": "23 of 32 alerts point higher, 6 lower.",
+    "count": "21 of 29 alerts point higher, 6 lower",
+    "text": "21 of 29 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Two outbound tankers hit by projectiles within an hour near Khasab in Hormuz",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-21T18:03:18+08:00"
+      },
       {
         "text": "Ukrainian drone raid targets Leningrad region and Ust-Luga oil export terminal",
         "confidence": "unconfirmed",
@@ -130,24 +136,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-20T18:48:00+08:00"
-      },
-      {
-        "text": "Poland confirms two missiles and a drone that fell on its soil came from Russia",
-        "confidence": "confirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-20T17:59:48+08:00"
-      },
-      {
-        "text": "More Russian regions limit fuel sales as drone strikes cut refinery output",
-        "confidence": "confirmed",
-        "theme": "Diesel / jet fuel shortage",
-        "ts": "2026-11-20T17:45:06+08:00"
-      },
-      {
-        "text": "Drone reportedly shot down over garrison near Isfahan, central Iran; origin unclear",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T16:44:57+08:00"
       }
     ],
     "dovish": [
@@ -200,12 +188,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-21T01:38:00+08:00"
-      },
-      {
-        "text": "Japan to buy 8M barrels of Saudi crude for reserve; Saudi refilling joint storage in Japan",
-        "confidence": "confirmed",
-        "theme": "Strategic reserves",
-        "ts": "2026-11-20T17:38:12+08:00"
       }
     ]
   },
@@ -214,6 +196,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:03",
+      "ts": "2026-11-21T18:03:18+08:00",
+      "eventTime": "1:00 pm, 21 Nov (2nd ~1:50 pm)",
+      "eventTs": "2026-11-21T13:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO: two outbound tankers hit by unknown projectiles within an hour near Khasab, Oman, in the Strait of Hormuz (stern 11nm N, engine room 17nm E); no casualties",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO warnings 215/26 and 216/26; via Post Open Source, ME Observer and others",
+      "url": "https://x.com/CocoPostel/status/2124051720724439183"
+    },
     {
       "time": "15:05",
       "ts": "2026-11-21T15:05:49+08:00",
@@ -720,19 +715,6 @@
       "confidence": "Confirmed",
       "source": "Post Open Source, citing The Wall Street Journal; Patriot deployment also per WSJ, relayed by War Radar",
       "url": "https://x.com/CocoPostel/status/2123565144298897883"
-    },
-    {
-      "time": "05:56",
-      "ts": "2026-11-20T05:56:00+08:00",
-      "eventTime": "5:50 am, 20 Nov (est.)",
-      "eventTs": "2026-11-20T05:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Air-defence and anti-aircraft fire reported over northeastern Tehran; cause unknown, no strike or incoming attack confirmed, routine testing possible",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Mario Nawfal on X; widely relayed by OSINT and Persian-language accounts",
-      "url": "https://x.com/MarioNawfal/status/2123535825665429916"
     }
   ],
   "sources": [
@@ -3025,16 +3007,21 @@
       "title": "US Treasury: Operation Economic Outcast targets Iran's oil trustees",
       "site": "X / USTreasury",
       "href": "https://x.com/USTreasury/status/2123885407938998420"
+    },
+    {
+      "title": "UKMTO warnings 215/26 and 216/26: two tankers hit near Khasab, Strait of Hormuz",
+      "site": "X / CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2124051720724439183"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missiles targeted Riyadh again this morning, halting the airport, and Ukraine launched a drone raid toward Russia's Ust-Luga oil export terminal, with no impact confirmed.",
-      "A gas pipeline explosion halted Basra's al-Hartha power plant, while the US sanctioned Iranian oil trustees and Araghchi said Iran's ceasefire plan remains on the table."
+      "Two outbound tankers were hit by unknown projectiles within an hour near Khasab in the Strait of Hormuz, and Houthi missiles targeted Riyadh, halting its airport.",
+      "Ukraine sent a drone raid toward Russia's Ust-Luga oil terminal, a gas pipeline blast halted Basra's al-Hartha power plant, and Araghchi said Iran's ceasefire plan remains open."
     ],
-    "updated": "Sat 21 Nov 2026, 3:07 pm SGT",
-    "updatedTs": "2026-11-21T15:07:00+08:00"
+    "updated": "Sat 21 Nov 2026, 6:05 pm SGT",
+    "updatedTs": "2026-11-21T18:05:00+08:00"
   },
   "last24Count": 13
 }
