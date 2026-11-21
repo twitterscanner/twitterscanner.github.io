@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 12:05 pm SGT",
-  "lastScannedTs": "2026-11-21T12:05:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 12:04 pm SGT",
-  "asOfTs": "2026-11-21T12:04:09+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 3:07 pm SGT",
+  "lastScannedTs": "2026-11-21T15:07:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 3:05 pm SGT",
+  "asOfTs": "2026-11-21T15:05:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating overall: Houthi missile fire at Riyadh, a Ukrainian drone raid toward Ust-Luga and new US Iran oil sanctions outweigh Iran-Qatar diplomacy.",
     "lead": "Net read (last 24 hours): Escalating overall: Houthi missile fire at Riyadh, a Ukrainian drone raid toward Ust-Luga and new US Iran oil sanctions outweigh Iran-Qatar diplomacy.",
     "verdict": "Bullish",
-    "count": "26 of 34 alerts point higher, 6 lower",
-    "text": "26 of 34 alerts point higher, 6 lower.",
+    "count": "23 of 32 alerts point higher, 6 lower",
+    "text": "23 of 32 alerts point higher, 6 lower.",
     "hawkish": [
       {
         "text": "Ukrainian drone raid targets Leningrad region and Ust-Luga oil export terminal",
@@ -148,24 +148,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-20T16:44:57+08:00"
-      },
-      {
-        "text": "Polish military: object may have fallen near Chmielek after suspected Russian missile incursion",
-        "confidence": "unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-20T14:33:14+08:00"
-      },
-      {
-        "text": "US maritime memo: Iran blockade lifting Gulf war-risk insurance, crew refusal risk",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T14:28:21+08:00"
-      },
-      {
-        "text": "Russian Kh-101 cruise missile reportedly enters Polish airspace; air-raid alerts in eastern Poland",
-        "confidence": "unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-20T13:31:36+08:00"
       }
     ],
     "dovish": [
@@ -208,6 +190,12 @@
     ],
     "neutral": [
       {
+        "text": "Gas pipeline blast and fire at Basra's al-Hartha power plant; plant halted",
+        "confidence": "confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-21T15:05:49+08:00"
+      },
+      {
         "text": "Trump: Iran wants a deal, but not one acceptable to US; gas prices hinge on it",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -226,6 +214,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:05",
+      "ts": "2026-11-21T15:05:49+08:00",
+      "eventTime": "1:00 pm, 21 Nov (est.)",
+      "eventTs": "2026-11-21T13:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Gas pipeline explosion sparks major fire at Iraq's al-Hartha power plant near Basra; at least 2-4 killed, about 28 injured, plant operations halted",
+      "theme": "Pipelines",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Rudaw English, citing Iraqi state media; also Basra Health Directorate toll via Channel 8, K24, RT",
+      "url": "https://x.com/RudawEnglish/status/2124031439771447380"
+    },
     {
       "time": "12:04",
       "ts": "2026-11-21T12:04:09+08:00",
@@ -732,22 +733,14 @@
       "confidence": "Unconfirmed",
       "source": "Mario Nawfal on X; widely relayed by OSINT and Persian-language accounts",
       "url": "https://x.com/MarioNawfal/status/2123535825665429916"
-    },
-    {
-      "time": "03:51",
-      "ts": "2026-11-20T03:51:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Fars: Iran has crewed and loaded dozens of tankers at Kharg Island under the Iranian flag to swarm the US blockade, and threatens Gulf oil and gas sites if the US Navy acts",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "The Hormuz Letter, citing Fars News Agency; also Open Source Intel and Post Open Source (Fars), Israel's Channel 12",
-      "url": "https://x.com/HormuzLetter/status/2123504462425669804"
     }
   ],
   "sources": [
+    {
+      "title": "Gas pipeline explosion and fire at al-Hartha power plant, Basra, Iraq",
+      "site": "X / Rudaw English",
+      "href": "https://x.com/RudawEnglish/status/2124031439771447380"
+    },
     {
       "title": "Ukrainian drone raid heads for St Petersburg area and Ust-Luga oil export terminal",
       "site": "X / OSINTtechnical",
@@ -3038,10 +3031,10 @@
     "title": "Today's key developments",
     "lines": [
       "Houthi missiles targeted Riyadh again this morning, halting the airport, and Ukraine launched a drone raid toward Russia's Ust-Luga oil export terminal, with no impact confirmed.",
-      "The US Treasury sanctioned Iranian oil trustees, while Araghchi said Iran's two-day plan to resume the ceasefire and reopen Hormuz remains on the table."
+      "A gas pipeline explosion halted Basra's al-Hartha power plant, while the US sanctioned Iranian oil trustees and Araghchi said Iran's ceasefire plan remains on the table."
     ],
-    "updated": "Sat 21 Nov 2026, 12:05 pm SGT",
-    "updatedTs": "2026-11-21T12:05:00+08:00"
+    "updated": "Sat 21 Nov 2026, 3:07 pm SGT",
+    "updatedTs": "2026-11-21T15:07:00+08:00"
   },
   "last24Count": 13
 }
