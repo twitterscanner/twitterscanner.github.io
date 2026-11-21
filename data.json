@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 9:05 am SGT",
-  "lastScannedTs": "2026-11-21T09:05:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 9:02 am SGT",
-  "asOfTs": "2026-11-21T09:02:05+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 12:05 pm SGT",
+  "lastScannedTs": "2026-11-21T12:05:00+08:00",
+  "asOf": "Sat 21 Nov 2026, 12:04 pm SGT",
+  "asOfTs": "2026-11-21T12:04:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: fresh Houthi missile fire at Riyadh, Khasab tanker hit and new US Iran oil sanctions outweigh Araghchi and Qatar diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating overall: fresh Houthi missile fire at Riyadh, Khasab tanker hit and new US Iran oil sanctions outweigh Araghchi and Qatar diplomacy.",
+    "bottom": "Escalating overall: Houthi missile fire at Riyadh, a Ukrainian drone raid toward Ust-Luga and new US Iran oil sanctions outweigh Iran-Qatar diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating overall: Houthi missile fire at Riyadh, a Ukrainian drone raid toward Ust-Luga and new US Iran oil sanctions outweigh Iran-Qatar diplomacy.",
     "verdict": "Bullish",
-    "count": "27 of 35 alerts point higher, 6 lower",
-    "text": "27 of 35 alerts point higher, 6 lower.",
+    "count": "26 of 34 alerts point higher, 6 lower",
+    "text": "26 of 34 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Ukrainian drone raid targets Leningrad region and Ust-Luga oil export terminal",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-21T12:04:09+08:00"
+      },
       {
         "text": "Houthi missiles target Riyadh again; airport halted, coalition intercepts 3 ballistic missiles",
         "confidence": "confirmed",
@@ -160,18 +166,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-20T13:31:36+08:00"
-      },
-      {
-        "text": "Bloomberg: Iranian oil moved ship-to-ship as US widens its naval blockade",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T11:38:43+08:00"
-      },
-      {
-        "text": "Israel's envoy says Israel will strike Iran alone if needed; Trump eyes 2027",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T10:05:00+08:00"
       }
     ],
     "dovish": [
@@ -228,10 +222,23 @@
     ]
   },
   "brent": {
-    "value": "$91.03",
-    "detail": "Brent down 1% at $91.03/bbl at 5:00 pm SGT, down 5% on the week as Gulf exports near pre-war levels (ba7im_finance on X, 6:08 pm SGT 20 Nov)"
+    "value": "$92.57",
+    "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:04",
+      "ts": "2026-11-21T12:04:09+08:00",
+      "eventTime": "9:15 am, 21 Nov (est.)",
+      "eventTs": "2026-11-21T09:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drone raid on Russia's Leningrad region: dozens of drones head for the Ust-Luga oil export terminal; governor says air defences active, no impact confirmed yet",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "OSINTtechnical; also NotWoofers, alternative_war (citing the regional governor)",
+      "url": "https://x.com/Osinttechnical/status/2123954268688261373"
+    },
     {
       "time": "09:02",
       "ts": "2026-11-21T09:02:05+08:00",
@@ -738,22 +745,14 @@
       "confidence": "Unconfirmed",
       "source": "The Hormuz Letter, citing Fars News Agency; also Open Source Intel and Post Open Source (Fars), Israel's Channel 12",
       "url": "https://x.com/HormuzLetter/status/2123504462425669804"
-    },
-    {
-      "time": "03:35",
-      "ts": "2026-11-20T03:35:00+08:00",
-      "eventTime": "3:37 am, 20 Nov (est.)",
-      "eventTs": "2026-11-20T03:37:00+08:00",
-      "eventQual": "est.",
-      "headline": "US official says Iran has started firing anti-ship cruise missiles at vessels in the Gulf and Hormuz; OSINT reports IRGC Navy launches from southern Iran, explosions heard in the Strait",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iran International English, citing a US official via The Jerusalem Post; launch report from OSINT account OSINTWarfare, relayed by Post Open Source",
-      "url": "https://x.com/IranIntl_En/status/2123500451744174354"
     }
   ],
   "sources": [
+    {
+      "title": "Ukrainian drone raid heads for St Petersburg area and Ust-Luga oil export terminal",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2123954268688261373"
+    },
     {
       "title": "Houthi missiles target Riyadh; coalition says 3 ballistic missiles intercepted",
       "site": "X / Mario Nawfal",
@@ -3038,11 +3037,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthi missiles targeted Riyadh again this morning, halting the airport, after earlier claims on Shuqaiq power station and Jazan port and a tanker fire off Khasab.",
+      "Houthi missiles targeted Riyadh again this morning, halting the airport, and Ukraine launched a drone raid toward Russia's Ust-Luga oil export terminal, with no impact confirmed.",
       "The US Treasury sanctioned Iranian oil trustees, while Araghchi said Iran's two-day plan to resume the ceasefire and reopen Hormuz remains on the table."
     ],
-    "updated": "Sat 21 Nov 2026, 9:05 am SGT",
-    "updatedTs": "2026-11-21T09:05:00+08:00"
+    "updated": "Sat 21 Nov 2026, 12:05 pm SGT",
+    "updatedTs": "2026-11-21T12:05:00+08:00"
   },
   "last24Count": 13
 }
