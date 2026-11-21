@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 9:05 pm SGT",
-  "lastScannedTs": "2026-11-21T21:05:11+08:00",
-  "asOf": "Sat 21 Nov 2026, 9:05 pm SGT",
-  "asOfTs": "2026-11-21T21:05:11+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 12:14 am SGT",
+  "lastScannedTs": "2026-11-22T00:14:43+08:00",
+  "asOf": "Sun 22 Nov 2026, 12:14 am SGT",
+  "asOfTs": "2026-11-22T00:14:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: two tankers hit near Khasab, Houthi missiles at Riyadh and drone strikes in Russia's Baltic waters outweigh diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating overall: two tankers hit near Khasab, Houthi missiles at Riyadh and drone strikes in Russia's Baltic waters outweigh diplomacy.",
+    "bottom": "Escalating overall: tanker hits near Khasab, Houthi pressure on Saudi ports and drone strikes in Russia's Baltic waters outweigh diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating overall: tanker hits near Khasab, Houthi pressure on Saudi ports and drone strikes in Russia's Baltic waters outweigh diplomacy.",
     "verdict": "Mixed, leaning bullish",
-    "count": "13 of 21 alerts point higher, 6 lower",
-    "text": "13 of 21 alerts point higher, 6 lower.",
+    "count": "8 of 14 alerts point higher, 4 lower",
+    "text": "8 of 14 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Fire detected at Saudi Arabia's Jizan port and refinery area after Houthi threats",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-22T00:14:43+08:00"
+      },
       {
         "text": "Drones hit Russian cargo ship in Gulf of Finland, Russia's Baltic oil-export route",
         "confidence": "confirmed",
@@ -52,42 +58,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-21T00:35:00+08:00"
-      },
-      {
-        "text": "UKMTO: tanker hit by projectile off Khasab in Hormuz, fire onboard",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-21T00:07:00+08:00"
-      },
-      {
-        "text": "Iranian media say a US missile struck Qeshm City outskirts",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-21T00:04:00+08:00"
-      },
-      {
-        "text": "Houthis name Yanbu's King Fahd Industrial Port, Jeddah and Jizan ports as targets",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-21T00:00:00+08:00"
-      },
-      {
-        "text": "Fars: blast over Qeshm Island; claim of US strike on missile launcher",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T23:40:00+08:00"
-      },
-      {
-        "text": "Houthi missiles at Jazan intercepted, debris falls at Al-Shuqaiq power plant area",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T23:37:00+08:00"
-      },
-      {
-        "text": "Iran reportedly fires surface-to-air missile from Qeshm at a US drone over Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T22:05:00+08:00"
       }
     ],
     "dovish": [
@@ -114,18 +84,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-21T00:30:00+08:00"
-      },
-      {
-        "text": "Bessent: record crude flows through Hormuz last night since the conflict began",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-20T23:35:00+08:00"
-      },
-      {
-        "text": "WSJ: US offers Ukraine NATO membership or guarantees in exchange for the Donbas",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-20T21:29:00+08:00"
       }
     ],
     "neutral": [
@@ -148,6 +106,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:14",
+      "ts": "2026-11-22T00:14:43+08:00",
+      "eventTime": "6:17 pm, 21 Nov",
+      "eventTs": "2026-11-21T18:17:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Satellite data shows a fire at Saudi Arabia's Jizan port (home to Aramco's Jazan refinery and export terminal) after Houthi threats to Saudi Red Sea ports; cause unconfirmed",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "NASA FIRMS satellite data via MenchOsint; Saudi Civil Defence early warning per CocoPostel",
+      "url": "https://x.com/MenchOsint/status/2124152976285618573"
+    },
     {
       "time": "21:05",
       "ts": "2026-11-21T21:05:11+08:00",
@@ -654,19 +625,6 @@
       "confidence": "Confirmed",
       "source": "War Radar, citing the New York Post; also reported by other outlets",
       "url": "https://x.com/War_Radar2/status/2123598635942453299"
-    },
-    {
-      "time": "08:36",
-      "ts": "2026-11-20T08:36:00+08:00",
-      "eventTime": "8:30 am, 20 Nov (est.)",
-      "eventTs": "2026-11-20T08:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi authorities issue an emergency alert in Jizan, home to Aramco's Jazan refinery, then say the danger has passed; unverified reports of Yemeni drones heading for an Aramco refinery south of Riyadh",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Jazeera via Post Open Source; drone-toward-refinery reports unverified (ME Observer)",
-      "url": "https://x.com/CocoPostel/status/2123576125746028722"
     }
   ],
   "sources": [
@@ -2969,16 +2927,21 @@
       "title": "Drones hit Russian cargo ship Sparta II in the Gulf of Finland",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2124082898517258313"
+    },
+    {
+      "title": "Fire detected at Jizan port, Saudi Arabia (NASA FIRMS)",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2124152976285618573"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Two outbound tankers were hit near Khasab in the Strait of Hormuz, Houthi missiles targeted Riyadh, and Ukraine sent a drone raid toward Russia's Ust-Luga oil terminal.",
-      "Drones hit a Russian cargo ship in the Gulf of Finland this evening, while a gas pipeline blast halted Basra's al-Hartha power plant and Iran kept diplomacy open."
+      "Overnight satellite data flagged a fire at Saudi Arabia's Jizan port, home to an Aramco refinery, after Houthis warned workers to leave Saudi Red Sea ports.",
+      "This follows Saturday's two tanker hits near Khasab in the Strait of Hormuz and a drone strike on a Russian cargo ship in the Gulf of Finland."
     ],
-    "updated": "Sat 21 Nov 2026, 9:05 pm SGT",
-    "updatedTs": "2026-11-21T21:05:11+08:00"
+    "updated": "Sun 22 Nov 2026, 12:14 am SGT",
+    "updatedTs": "2026-11-22T00:14:43+08:00"
   },
   "last24Count": 13
 }
