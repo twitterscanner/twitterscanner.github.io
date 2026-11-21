@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 21 Nov 2026, 6:05 pm SGT",
-  "lastScannedTs": "2026-11-21T18:05:00+08:00",
-  "asOf": "Sat 21 Nov 2026, 6:03 pm SGT",
-  "asOfTs": "2026-11-21T18:03:18+08:00",
+  "lastScanned": "Sat 21 Nov 2026, 9:05 pm SGT",
+  "lastScannedTs": "2026-11-21T21:05:11+08:00",
+  "asOf": "Sat 21 Nov 2026, 9:05 pm SGT",
+  "asOfTs": "2026-11-21T21:05:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: two more tankers hit near Khasab in Hormuz, Houthi missiles at Riyadh and a Ukrainian drone raid toward Ust-Luga outweigh diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating overall: two more tankers hit near Khasab in Hormuz, Houthi missiles at Riyadh and a Ukrainian drone raid toward Ust-Luga outweigh diplomacy.",
-    "verdict": "Bullish",
-    "count": "21 of 29 alerts point higher, 6 lower",
-    "text": "21 of 29 alerts point higher, 6 lower.",
+    "bottom": "Escalating overall: two tankers hit near Khasab, Houthi missiles at Riyadh and drone strikes in Russia's Baltic waters outweigh diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating overall: two tankers hit near Khasab, Houthi missiles at Riyadh and drone strikes in Russia's Baltic waters outweigh diplomacy.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "13 of 21 alerts point higher, 6 lower",
+    "text": "13 of 21 alerts point higher, 6 lower.",
     "hawkish": [
+      {
+        "text": "Drones hit Russian cargo ship in Gulf of Finland, Russia's Baltic oil-export route",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-21T21:05:11+08:00"
+      },
       {
         "text": "Two outbound tankers hit by projectiles within an hour near Khasab in Hormuz",
         "confidence": "confirmed",
@@ -82,60 +88,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-20T22:05:00+08:00"
-      },
-      {
-        "text": "Coalition reportedly strikes Hodeidah port, crossing the Houthis' stated trigger for hitting Jeddah",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T20:46:00+08:00"
-      },
-      {
-        "text": "CENTCOM warns ships doing transfers with Iranian-loaded tankers risk boarding and seizure",
-        "confidence": "confirmed",
-        "theme": "Sanctions evasion",
-        "ts": "2026-11-20T20:37:00+08:00"
-      },
-      {
-        "text": "CBS: US and Israel weigh a new short-term assault on Iran",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-20T20:08:00+08:00"
-      },
-      {
-        "text": "Houthis declare Riyadh's King Abdullah financial centre a military target, urge evacuation",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T20:04:00+08:00"
-      },
-      {
-        "text": "Houthis threaten Saudi Shuqaiq power plant within hours after Saudi strikes on Yemeni power stations",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T19:53:00+08:00"
-      },
-      {
-        "text": "Houthis warn airlines Saudi airspace unsafe, signalling attacks on Saudi Arabia within hours",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T19:29:00+08:00"
-      },
-      {
-        "text": "Houthis threaten Jeddah and all Saudi Red Sea ports if Hodeidah is bombed",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T19:18:00+08:00"
-      },
-      {
-        "text": "Explosions reportedly heard in the Strait of Hormuz; cause and targets unknown",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-20T18:59:00+08:00"
-      },
-      {
-        "text": "Saudi-led coalition orders Hodeidah port evacuation, signalling strikes on Houthi Red Sea port",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-20T18:48:00+08:00"
       }
     ],
     "dovish": [
@@ -196,6 +148,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:05",
+      "ts": "2026-11-21T21:05:11+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Drones hit sanctioned Russian cargo ship Sparta II bound for Kaliningrad in the Gulf of Finland; vessel on fire, Finland raises alert in Russia's Baltic oil-export waters",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Leningrad region governor and Finnish Border Guard; via FirstSquawk",
+      "url": "https://x.com/FirstSquawk/status/2124082898517258313"
+    },
     {
       "time": "18:03",
       "ts": "2026-11-21T18:03:18+08:00",
@@ -702,19 +667,6 @@
       "confidence": "Confirmed",
       "source": "Al Jazeera via Post Open Source; drone-toward-refinery reports unverified (ME Observer)",
       "url": "https://x.com/CocoPostel/status/2123576125746028722"
-    },
-    {
-      "time": "07:52",
-      "ts": "2026-11-20T07:52:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: Mossad chief urged renewed joint US-Israeli strikes on Iran during his US visit last week; Trump still weighing options, as US sends another Patriot system to Israel",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Post Open Source, citing The Wall Street Journal; Patriot deployment also per WSJ, relayed by War Radar",
-      "url": "https://x.com/CocoPostel/status/2123565144298897883"
     }
   ],
   "sources": [
@@ -3012,16 +2964,21 @@
       "title": "UKMTO warnings 215/26 and 216/26: two tankers hit near Khasab, Strait of Hormuz",
       "site": "X / CocoPostel",
       "href": "https://x.com/CocoPostel/status/2124051720724439183"
+    },
+    {
+      "title": "Drones hit Russian cargo ship Sparta II in the Gulf of Finland",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2124082898517258313"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Two outbound tankers were hit by unknown projectiles within an hour near Khasab in the Strait of Hormuz, and Houthi missiles targeted Riyadh, halting its airport.",
-      "Ukraine sent a drone raid toward Russia's Ust-Luga oil terminal, a gas pipeline blast halted Basra's al-Hartha power plant, and Araghchi said Iran's ceasefire plan remains open."
+      "Two outbound tankers were hit near Khasab in the Strait of Hormuz, Houthi missiles targeted Riyadh, and Ukraine sent a drone raid toward Russia's Ust-Luga oil terminal.",
+      "Drones hit a Russian cargo ship in the Gulf of Finland this evening, while a gas pipeline blast halted Basra's al-Hartha power plant and Iran kept diplomacy open."
     ],
-    "updated": "Sat 21 Nov 2026, 6:05 pm SGT",
-    "updatedTs": "2026-11-21T18:05:00+08:00"
+    "updated": "Sat 21 Nov 2026, 9:05 pm SGT",
+    "updatedTs": "2026-11-21T21:05:11+08:00"
   },
   "last24Count": 13
 }
