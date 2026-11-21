@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 12:14 am SGT",
-  "lastScannedTs": "2026-11-22T00:14:43+08:00",
-  "asOf": "Sun 22 Nov 2026, 12:14 am SGT",
-  "asOfTs": "2026-11-22T00:14:43+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 3:19 am SGT",
+  "lastScannedTs": "2026-11-22T03:19:07+08:00",
+  "asOf": "Sun 22 Nov 2026, 3:18 am SGT",
+  "asOfTs": "2026-11-22T03:18:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating overall: tanker hits near Khasab, Houthi pressure on Saudi ports and drone strikes in Russia's Baltic waters outweigh diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating overall: tanker hits near Khasab, Houthi pressure on Saudi ports and drone strikes in Russia's Baltic waters outweigh diplomacy.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "8 of 14 alerts point higher, 4 lower",
-    "text": "8 of 14 alerts point higher, 4 lower.",
+    "bottom": "Escalating: Iranian drone and missile waves on US bases in Bahrain, tanker hits near Khasab and Houthi pressure on Saudi ports outweigh diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian drone and missile waves on US bases in Bahrain, tanker hits near Khasab and Houthi pressure on Saudi ports outweigh diplomacy.",
+    "verdict": "Bullish",
+    "count": "7 of 9 alerts point higher, 1 lower",
+    "text": "7 of 9 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iran launches drone and missile waves at US bases in Bahrain, home of the US 5th Fleet",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-22T03:18:56+08:00"
+      },
       {
         "text": "Fire detected at Saudi Arabia's Jizan port and refinery area after Houthi threats",
         "confidence": "unconfirmed",
@@ -46,18 +52,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-21T06:04:00+08:00"
-      },
-      {
-        "text": "Houthis claim direct hits on Shuqaiq power station and Jazan port",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-21T01:03:00+08:00"
-      },
-      {
-        "text": "IRGC says Khasab tanker hit a mine on an unauthorized Hormuz route",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-21T00:35:00+08:00"
       }
     ],
     "dovish": [
@@ -66,24 +60,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-21T09:02:05+08:00"
-      },
-      {
-        "text": "Witkoff and Kushner met Qatari officials in Berlin on US-Iran mediation",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-21T03:04:00+08:00"
-      },
-      {
-        "text": "Iranian official says Qeshm blast was ordnance disposal, not a US strike",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-21T00:48:00+08:00"
-      },
-      {
-        "text": "FT: Trump wants a Ukraine peace deal by early January",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-21T00:30:00+08:00"
       }
     ],
     "neutral": [
@@ -92,12 +68,6 @@
         "confidence": "confirmed",
         "theme": "Pipelines",
         "ts": "2026-11-21T15:05:49+08:00"
-      },
-      {
-        "text": "Trump: Iran wants a deal, but not one acceptable to US; gas prices hinge on it",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-21T01:38:00+08:00"
       }
     ]
   },
@@ -106,6 +76,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:18",
+      "ts": "2026-11-22T03:18:56+08:00",
+      "eventTime": "2:20 am, 22 Nov (est.)",
+      "eventTs": "2026-11-22T02:20:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran launches drone and missile waves at US bases in Bahrain, home of the US 5th Fleet; sirens nationwide, interceptor debris hits homes in Sitra; Saudi Arabia intercepts a drone near Riyadh",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "OSINTdefender; Open Source Intel; i24NEWS; Bahrain Interior Ministry alert per Anadolu; Saudi spokesperson via MenchOsint",
+      "url": "https://x.com/sentdefender/status/2124215146151047328"
+    },
     {
       "time": "00:14",
       "ts": "2026-11-22T00:14:43+08:00",
@@ -612,19 +595,6 @@
       "confidence": "Confirmed",
       "source": "LiveSquawk, citing Bloomberg",
       "url": "https://x.com/LiveSquawk/status/2123621197074076067"
-    },
-    {
-      "time": "10:05",
-      "ts": "2026-11-20T10:05:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Israel's ambassador to Washington tells the New York Post Israel will not hesitate to strike Iran on its own, as Trump signals no further US strikes before 2027",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "War Radar, citing the New York Post; also reported by other outlets",
-      "url": "https://x.com/War_Radar2/status/2123598635942453299"
     }
   ],
   "sources": [
@@ -2932,16 +2902,26 @@
       "title": "Fire detected at Jizan port, Saudi Arabia (NASA FIRMS)",
       "site": "X / MenchOsint",
       "href": "https://x.com/MenchOsint/status/2124152976285618573"
+    },
+    {
+      "title": "Iranian drone and missile attack on US bases in Bahrain; interceptor debris in Sitra",
+      "site": "X / OSINTdefender",
+      "href": "https://x.com/sentdefender/status/2124215146151047328"
+    },
+    {
+      "title": "Smoke over Bahrain after Iranian drone attack",
+      "site": "X / i24NEWS",
+      "href": "https://x.com/i24NEWS_EN/status/2124219638884221071"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Overnight satellite data flagged a fire at Saudi Arabia's Jizan port, home to an Aramco refinery, after Houthis warned workers to leave Saudi Red Sea ports.",
-      "This follows Saturday's two tanker hits near Khasab in the Strait of Hormuz and a drone strike on a Russian cargo ship in the Gulf of Finland."
+      "Iran launched drone and missile waves at US bases in Bahrain early Sunday, with interceptor debris hitting homes in Sitra, while Saudi Arabia intercepted a drone near Riyadh.",
+      "Overnight satellite data also flagged a fire at Saudi Arabia's Jizan port, home to an Aramco refinery, after Houthis warned workers to leave Saudi Red Sea ports."
     ],
-    "updated": "Sun 22 Nov 2026, 12:14 am SGT",
-    "updatedTs": "2026-11-22T00:14:43+08:00"
+    "updated": "Sun 22 Nov 2026, 3:19 am SGT",
+    "updatedTs": "2026-11-22T03:19:07+08:00"
   },
   "last24Count": 13
 }
