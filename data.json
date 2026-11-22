@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 12:04 am SGT",
-  "lastScannedTs": "2026-11-23T00:04:29+08:00",
-  "asOf": "Mon 23 Nov 2026, 12:04 am SGT",
-  "asOfTs": "2026-11-23T00:04:29+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 3:03 am SGT",
+  "lastScannedTs": "2026-11-23T03:03:41+08:00",
+  "asOf": "Mon 23 Nov 2026, 3:03 am SGT",
+  "asOfTs": "2026-11-23T03:03:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: a Gulf of Oman tanker incident with military forces, Bahrain strikes, Hormuz tanker hits and Houthi fire at Saudi Arabia outweigh Trump's pause.",
-    "lead": "Net read (last 24 hours): Escalating: a Gulf of Oman tanker incident with military forces, Bahrain strikes, Hormuz tanker hits and Houthi fire at Saudi Arabia outweigh Trump's pause.",
+    "bottom": "Escalating: a claimed Houthi hit on Saudi Arabia's Rabigh refinery, Trump's threats to sink blockade runners and Gulf of Oman tanker incidents dominate.",
+    "lead": "Net read (last 24 hours): Escalating: a claimed Houthi hit on Saudi Arabia's Rabigh refinery, Trump's threats to sink blockade runners and Gulf of Oman tanker incidents dominate.",
     "verdict": "Bullish",
-    "count": "12 of 15 alerts point higher, 3 lower",
-    "text": "12 of 15 alerts point higher, 3 lower.",
+    "count": "13 of 16 alerts point higher, 3 lower",
+    "text": "13 of 16 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Trump inclined to resume Iran strikes after New Year; vows to sink blockade runners",
+        "confidence": "Confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-23T03:03:41+08:00"
+      },
+      {
+        "text": "Houthis claim a direct hit on Saudi Arabia's Rabigh refinery on the Red Sea",
+        "confidence": "Unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-23T03:02:41+08:00"
+      },
       {
         "text": "UKMTO: tanker in incident with military forces off Chabahar, Gulf of Oman",
         "confidence": "Confirmed",
@@ -76,12 +88,6 @@
         "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T03:18:56+08:00"
-      },
-      {
-        "text": "Fire detected at Saudi Arabia's Jizan port and refinery area after Houthi threats",
-        "confidence": "Unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-22T00:14:43+08:00"
       }
     ],
     "dovish": [
@@ -111,6 +117,32 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:03",
+      "ts": "2026-11-23T03:03:41+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump tells Fox News he is inclined to resume strikes on Iran after the New Year if no deal, and says Iranian tankers testing the blockade will be sunk",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Open Source Intel on X (Fox News interview); FirstSquawk, Giovanni Staunovo",
+      "url": "https://x.com/Osint613/status/2124562189411647873"
+    },
+    {
+      "time": "03:02",
+      "ts": "2026-11-23T03:02:41+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim a direct hit on Saudi Arabia's Rabigh oil refinery on the Red Sea coast, plus a radar at Wadi al-Dawasir; no Saudi confirmation",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi spokesman Yahya Saree on X (Arabic); Reuters, MenchOsint",
+      "url": "https://x.com/Yah_Saree/status/2124541436930699442"
+    },
     {
       "time": "00:04",
       "ts": "2026-11-23T00:04:29+08:00",
@@ -604,32 +636,6 @@
       "confidence": "Confirmed",
       "source": "Post Open Source, citing Al Jazeera, on a CENTCOM advisory",
       "url": "https://x.com/CocoPostel/status/2123756792773480741"
-    },
-    {
-      "time": "20:08",
-      "ts": "2026-11-20T20:08:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "CBS: US and Israel are considering a new assault on Iran in the short term, sources say",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk relaying CBS News",
-      "url": "https://x.com/FirstSquawk/status/2123749901330956422"
-    },
-    {
-      "time": "20:04",
-      "ts": "2026-11-20T20:04:00+08:00",
-      "eventTime": "8:02 pm, 20 Nov",
-      "eventTs": "2026-11-20T20:02:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Houthis declare the King Abdullah financial centre in Riyadh a military target and tell employees and residents to stay away immediately (translated from Arabic)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic)",
-      "url": "https://x.com/Yah_Saree/status/2123748793615319428"
     }
   ],
   "sources": [
@@ -3017,16 +3023,26 @@
       "title": "Trump: no decision on Iran until after January 1",
       "site": "X / War Radar",
       "href": "https://x.com/War_Radar2/status/2124532033443799528"
+    },
+    {
+      "title": "Houthis claim attack on Saudi Rabigh oil refinery",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2124541436930699442"
+    },
+    {
+      "title": "Trump: inclined to resume Iran strikes after New Year; blockade runners will be sunk",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2124562189411647873"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO reported a tanker caught in an incident with military forces southeast of Chabahar in the Gulf of Oman, possibly linked to the US blockade of Iran.",
-      "Trump reportedly said he has made no decision on Iran and will wait until after January 1 for new steps, while Houthi fire at Saudi Arabia continued Sunday."
+      "The Houthis claimed a direct hit on Saudi Arabia's Rabigh oil refinery on the Red Sea coast, unconfirmed by Riyadh, after a UKMTO-reported tanker incident off Chabahar.",
+      "Trump told Fox News he is inclined to resume strikes on Iran after the New Year without a deal and warned that blockade-running Iranian tankers would be sunk."
     ],
-    "updated": "Mon 23 Nov 2026, 12:04 am SGT",
-    "updatedTs": "2026-11-23T00:04:29+08:00"
+    "updated": "Mon 23 Nov 2026, 3:03 am SGT",
+    "updatedTs": "2026-11-23T03:03:41+08:00"
   },
   "last24Count": 13
 }
