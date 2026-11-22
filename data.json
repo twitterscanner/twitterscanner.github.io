@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 3:03 am SGT",
-  "lastScannedTs": "2026-11-23T03:03:41+08:00",
-  "asOf": "Mon 23 Nov 2026, 3:03 am SGT",
-  "asOfTs": "2026-11-23T03:03:41+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 4:04 am SGT",
+  "lastScannedTs": "2026-11-23T04:04:22+08:00",
+  "asOf": "Mon 23 Nov 2026, 4:04 am SGT",
+  "asOfTs": "2026-11-23T04:04:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: a claimed Houthi hit on Saudi Arabia's Rabigh refinery, Trump's threats to sink blockade runners and Gulf of Oman tanker incidents dominate.",
-    "lead": "Net read (last 24 hours): Escalating: a claimed Houthi hit on Saudi Arabia's Rabigh refinery, Trump's threats to sink blockade runners and Gulf of Oman tanker incidents dominate.",
+    "bottom": "Escalating: reported missile activity at Sirik near Hormuz, a claimed Houthi hit on Rabigh and Trump's threats to sink blockade runners dominate.",
+    "lead": "Net read (last 24 hours): Escalating: reported missile activity at Sirik near Hormuz, a claimed Houthi hit on Rabigh and Trump's threats to sink blockade runners dominate.",
     "verdict": "Bullish",
     "count": "13 of 16 alerts point higher, 3 lower",
     "text": "13 of 16 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Air defence fire and missile launches reported at Sirik near Hormuz amid heavy USAF activity",
+        "confidence": "Unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-23T04:04:22+08:00"
+      },
       {
         "text": "Trump inclined to resume Iran strikes after New Year; vows to sink blockade runners",
         "confidence": "Confirmed",
@@ -82,12 +88,6 @@
         "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T06:17:58+08:00"
-      },
-      {
-        "text": "Iran launches drone and missile waves at US bases in Bahrain, home of the US 5th Fleet",
-        "confidence": "Confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-22T03:18:56+08:00"
       }
     ],
     "dovish": [
@@ -117,6 +117,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "04:04",
+      "ts": "2026-11-23T04:04:22+08:00",
+      "eventTime": "3:00 am, 23 Nov (est.)",
+      "eventTs": "2026-11-23T03:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian air defences fire and missile launches reported at Sirik near the Strait of Hormuz as at least 8 USAF refuelling tankers orbit; unverified claims of anti-ship missiles at US vessels",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X; Visioner, Post Open Source, MenchOsint (local reports)",
+      "url": "https://x.com/Osint613/status/2124581732988965045"
+    },
     {
       "time": "03:03",
       "ts": "2026-11-23T03:03:41+08:00",
@@ -623,19 +636,6 @@
       "confidence": "Unconfirmed",
       "source": "Yemen analyst Ibrahim Jalal; Arabic-language local reports of airstrikes",
       "url": "https://x.com/IbrahimJalalYE/status/2123757260648202488"
-    },
-    {
-      "time": "20:37",
-      "ts": "2026-11-20T20:37:00+08:00",
-      "eventTime": "Wed 18 Nov (advisory date per reports), time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "CENTCOM targets ship-to-ship transfers of Iranian oil: vessels taking cargo from Iranian-loaded ships risk being halted, boarded and seized as blockade evaders",
-      "theme": "Sanctions evasion",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Post Open Source, citing Al Jazeera, on a CENTCOM advisory",
-      "url": "https://x.com/CocoPostel/status/2123756792773480741"
     }
   ],
   "sources": [
@@ -3033,16 +3033,26 @@
       "title": "Trump: inclined to resume Iran strikes after New Year; blockade runners will be sunk",
       "site": "X / Open Source Intel",
       "href": "https://x.com/Osint613/status/2124562189411647873"
+    },
+    {
+      "title": "Air defence activity and missile launches reported over Sirik, Hormozgan, near Hormuz",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2124581732988965045"
+    },
+    {
+      "title": "Heavy USAF tanker activity over the Strait of Hormuz",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2124589011356283014"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed a direct hit on Saudi Arabia's Rabigh oil refinery on the Red Sea coast, unconfirmed by Riyadh, after a UKMTO-reported tanker incident off Chabahar.",
-      "Trump told Fox News he is inclined to resume strikes on Iran after the New Year without a deal and warned that blockade-running Iranian tankers would be sunk."
+      "The Houthis claimed a direct hit on Saudi Arabia's Rabigh refinery, unconfirmed by Riyadh, and Trump warned Iranian tankers running the US blockade would be sunk.",
+      "Around 3 am, local reports described Iranian air-defence fire and missile launches at Sirik near Hormuz as US refuelling tankers massed overhead, still unverified."
     ],
-    "updated": "Mon 23 Nov 2026, 3:03 am SGT",
-    "updatedTs": "2026-11-23T03:03:41+08:00"
+    "updated": "Mon 23 Nov 2026, 4:04 am SGT",
+    "updatedTs": "2026-11-23T04:04:22+08:00"
   },
   "last24Count": 13
 }
