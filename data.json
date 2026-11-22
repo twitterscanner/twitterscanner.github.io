@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 6:06 am SGT",
-  "lastScannedTs": "2026-11-23T06:06:11+08:00",
-  "asOf": "Mon 23 Nov 2026, 4:04 am SGT",
-  "asOfTs": "2026-11-23T04:04:22+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 7:04 am SGT",
+  "lastScannedTs": "2026-11-23T07:04:53+08:00",
+  "asOf": "Mon 23 Nov 2026, 7:04 am SGT",
+  "asOfTs": "2026-11-23T07:04:53+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: reported missile activity at Sirik near Hormuz, a claimed Houthi hit on Rabigh and Trump's threats to sink blockade runners dominate.",
-    "lead": "Net read (last 24 hours): Escalating: reported missile activity at Sirik near Hormuz, a claimed Houthi hit on Rabigh and Trump's threats to sink blockade runners dominate.",
+    "bottom": "Escalating: Iranian air-defence activity in Khuzestan and near Hormuz, a claimed Houthi hit on Rabigh and Trump's blockade threats dominate.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian air-defence activity in Khuzestan and near Hormuz, a claimed Houthi hit on Rabigh and Trump's blockade threats dominate.",
     "verdict": "Bullish",
-    "count": "13 of 16 alerts point higher, 3 lower",
-    "text": "13 of 16 alerts point higher, 3 lower.",
+    "count": "12 of 14 alerts point higher, 2 lower",
+    "text": "12 of 14 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Heavy air defence fire and drone launches reported across Khuzestan, Iran's oil heartland",
+        "confidence": "Unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-23T07:04:53+08:00"
+      },
+      {
+        "text": "Strikes reported on Russia's Novoshakhtinsk refinery in Rostov region",
+        "confidence": "Unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T07:03:53+08:00"
+      },
       {
         "text": "Air defence fire and missile launches reported at Sirik near Hormuz amid heavy USAF activity",
         "confidence": "Unconfirmed",
@@ -70,24 +82,6 @@
         "confidence": "Unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T09:18:29+08:00"
-      },
-      {
-        "text": "Reported drone attack on Russia's Afipsky refinery in Krasnodar",
-        "confidence": "Unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-22T06:17:58+08:00"
-      },
-      {
-        "text": "Iranian strike hits civilian industrial site in Sitra, Bahrain's refinery hub",
-        "confidence": "Confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-22T06:17:58+08:00"
-      },
-      {
-        "text": "Iran calls the US naval blockade an act of war and vows to break it",
-        "confidence": "Confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-22T06:17:58+08:00"
       }
     ],
     "dovish": [
@@ -102,12 +96,6 @@
         "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
-      },
-      {
-        "text": "WaPo: Putin privately accepts NATO defending Ukraine after a ceasefire, no NATO troops",
-        "confidence": "Unconfirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-22T06:17:58+08:00"
       }
     ],
     "neutral": []
@@ -117,6 +105,32 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:04",
+      "ts": "2026-11-23T07:04:53+08:00",
+      "eventTime": "5:39 am, 23 Nov",
+      "eventTs": "2026-11-23T05:39:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Heavy Iranian air defence fire across Khuzestan (Ramhormoz, Ahvaz, Bandar Mahshahr) and repeated drone launches from Omidiyeh air base as US strike readiness rises; no confirmed strikes",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Visioner on X; BeamTracker, FromIran delayed feed (local reports)",
+      "url": "https://x.com/visionergeo/status/2124634362473775315"
+    },
+    {
+      "time": "07:03",
+      "ts": "2026-11-23T07:03:53+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Strikes reported on Russia's Novoshakhtinsk refinery in Rostov region",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "C4H10FO2P (markito0171) on X",
+      "url": "https://x.com/markito0171/status/2124629503838474541"
+    },
     {
       "time": "04:04",
       "ts": "2026-11-23T04:04:22+08:00",
@@ -610,32 +624,6 @@
       "confidence": "Unconfirmed",
       "source": "Babak Taghvaee; Iran International (Persian) reports residents heard a launch and saw a trail",
       "url": "https://x.com/BabakTaghvaee1/status/2123778896155808215"
-    },
-    {
-      "time": "21:29",
-      "ts": "2026-11-20T21:29:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "WSJ: US has offered Ukraine NATO membership or NATO-style ceasefire guarantees in exchange for ceding the Donbas to Russia",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Post Open Source, citing the Wall Street Journal",
-      "url": "https://x.com/CocoPostel/status/2123768584757186804"
-    },
-    {
-      "time": "20:46",
-      "ts": "2026-11-20T20:46:00+08:00",
-      "eventTime": "8:22 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T20:22:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition reportedly strikes militarised Houthi units at Hodeidah port after its evacuation warning; Houthis had vowed to hit Jeddah and Saudi Red Sea ports if Hodeidah was bombed",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Yemen analyst Ibrahim Jalal; Arabic-language local reports of airstrikes",
-      "url": "https://x.com/IbrahimJalalYE/status/2123757260648202488"
     }
   ],
   "sources": [
@@ -3043,16 +3031,31 @@
       "title": "Heavy USAF tanker activity over the Strait of Hormuz",
       "site": "X / Open Source Intel",
       "href": "https://x.com/Osint613/status/2124589011356283014"
+    },
+    {
+      "title": "Strikes reported on Novoshakhtinsk refinery, Rostov",
+      "site": "X / C4H10FO2P",
+      "href": "https://x.com/markito0171/status/2124629503838474541"
+    },
+    {
+      "title": "Heavy air defence activity reported in Khuzestan, Iran",
+      "site": "X / Visioner",
+      "href": "https://x.com/visionergeo/status/2124634362473775315"
+    },
+    {
+      "title": "Intense AA activity in Ramhormoz, Khuzestan",
+      "site": "X / FromIran feed",
+      "href": "https://x.com/hey_itsmyturn/status/2124619392377901108"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed a direct hit on Saudi Arabia's Rabigh refinery, unconfirmed by Riyadh, and Trump warned Iranian tankers running the US blockade would be sunk.",
-      "Around 3 am, local reports described Iranian air-defence fire and missile launches at Sirik near Hormuz as US refuelling tankers massed overhead, still unverified."
+      "The Houthis claimed a hit on Saudi Arabia's Rabigh refinery, unconfirmed by Riyadh, and Trump warned Iranian tankers running the US blockade would be sunk.",
+      "Before dawn, local reports described heavy Iranian air-defence fire and drone launches across Khuzestan and near Hormuz, while strikes were reported on Russia's Novoshakhtinsk refinery."
     ],
-    "updated": "Mon 23 Nov 2026, 4:04 am SGT",
-    "updatedTs": "2026-11-23T04:04:22+08:00"
+    "updated": "Mon 23 Nov 2026, 7:04 am SGT",
+    "updatedTs": "2026-11-23T07:04:53+08:00"
   },
   "last24Count": 13
 }
