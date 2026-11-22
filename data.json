@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 6:18 am SGT",
-  "lastScannedTs": "2026-11-22T06:18:16+08:00",
-  "asOf": "Sun 22 Nov 2026, 6:17 am SGT",
-  "asOfTs": "2026-11-22T06:17:58+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 9:21 am SGT",
+  "lastScannedTs": "2026-11-22T09:21:00+08:00",
+  "asOf": "Sun 22 Nov 2026, 9:18 am SGT",
+  "asOfTs": "2026-11-22T09:18:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian strikes on Bahrain including Sitra's industrial hub, Iran's vow to break the US blockade and Hormuz tanker hits outweigh Russia-Ukraine diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian strikes on Bahrain including Sitra's industrial hub, Iran's vow to break the US blockade and Hormuz tanker hits outweigh Russia-Ukraine diplomacy.",
+    "bottom": "Escalating: Iran's tanker challenge to the US blockade, strikes on Bahrain and Hormuz tanker hits outweigh tentative Russia-Ukraine diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating: Iran's tanker challenge to the US blockade, strikes on Bahrain and Hormuz tanker hits outweigh tentative Russia-Ukraine diplomacy.",
     "verdict": "Bullish",
-    "count": "9 of 12 alerts point higher, 2 lower",
-    "text": "9 of 12 alerts point higher, 2 lower.",
+    "count": "9 of 11 alerts point higher, 1 lower",
+    "text": "9 of 11 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iranian supertanker 'Line Breaker' heads through Hormuz toward the US blockade line",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-22T09:18:29+08:00"
+      },
       {
         "text": "Reported drone attack on Russia's Afipsky refinery in Krasnodar",
         "confidence": "unconfirmed",
@@ -58,12 +64,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-21T12:04:09+08:00"
-      },
-      {
-        "text": "Houthi missiles target Riyadh again; airport halted, coalition intercepts 3 ballistic missiles",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-21T09:02:05+08:00"
       }
     ],
     "dovish": [
@@ -72,12 +72,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-22T06:17:58+08:00"
-      },
-      {
-        "text": "Araghchi: two-day plan to resume ceasefire and reopen Hormuz still on table",
-        "confidence": "confirmed",
-        "theme": "Ceasefire / diplomacy",
-        "ts": "2026-11-21T09:02:05+08:00"
       }
     ],
     "neutral": [
@@ -94,6 +88,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:18",
+      "ts": "2026-11-22T09:18:29+08:00",
+      "eventTime": "7:00 am, 22 Nov (est.)",
+      "eventTs": "2026-11-22T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Laden Iranian supertanker KHAT SHEKAN ('Line Breaker') tracked on AIS crossing Hormuz toward the US blockade line, apparently to test it",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X (AIS / MarineTraffic tracking)",
+      "url": "https://x.com/Osint613/status/2124286473470120324"
+    },
     {
       "time": "06:17",
       "ts": "2026-11-22T06:17:58+08:00",
@@ -600,22 +607,14 @@
       "confidence": "Confirmed",
       "source": "First Squawk citing Saudi Press Agency (SPA)",
       "url": "https://x.com/FirstSquawk/status/2123712504287351030"
-    },
-    {
-      "time": "16:44",
-      "ts": "2026-11-20T16:44:57+08:00",
-      "eventTime": "4:35 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T16:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "Drone reportedly shot down over the 15th Khordad garrison near Baharestan, Isfahan province, central Iran; loud blast heard, origin unclear",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel (Osint613) citing local reports; several Iranian local accounts (Persian) report a loud blast",
-      "url": "https://x.com/Osint613/status/2123698045430964433"
     }
   ],
   "sources": [
+    {
+      "title": "Iranian tanker KHAT SHEKAN ('Line Breaker') tracked heading for the US blockade line",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2124286473470120324"
+    },
     {
       "title": "Afipsky oil refinery, Krasnodar: local reports of a drone attack",
       "site": "X / local Russian channel",
@@ -2955,11 +2954,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran struck US bases in Bahrain early Sunday and Bahrain says an Iranian strike set fire to an industrial site in Sitra, its refinery hub, with no injuries.",
-      "Iran's deputy foreign minister called the US naval blockade an act of war and vowed to break it, while local reports say drones attacked Russia's Afipsky refinery."
+      "Iran struck US bases in Bahrain early Sunday, hitting an industrial site in Sitra, and called the US naval blockade an act of war it would break.",
+      "A laden Iranian supertanker named Line Breaker was then tracked crossing Hormuz toward the blockade line, while local reports say drones hit Russia's Afipsky refinery."
     ],
-    "updated": "Sun 22 Nov 2026, 6:18 am SGT",
-    "updatedTs": "2026-11-22T06:18:16+08:00"
+    "updated": "Sun 22 Nov 2026, 9:21 am SGT",
+    "updatedTs": "2026-11-22T09:21:00+08:00"
   },
   "last24Count": 13
 }
