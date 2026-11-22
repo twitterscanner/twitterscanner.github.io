@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 9:21 am SGT",
-  "lastScannedTs": "2026-11-22T09:21:00+08:00",
-  "asOf": "Sun 22 Nov 2026, 9:18 am SGT",
-  "asOfTs": "2026-11-22T09:18:29+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 12:19 pm SGT",
+  "lastScannedTs": "2026-11-22T12:19:50+08:00",
+  "asOf": "Sun 22 Nov 2026, 12:19 pm SGT",
+  "asOfTs": "2026-11-22T12:19:50+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran's tanker challenge to the US blockade, strikes on Bahrain and Hormuz tanker hits outweigh tentative Russia-Ukraine diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating: Iran's tanker challenge to the US blockade, strikes on Bahrain and Hormuz tanker hits outweigh tentative Russia-Ukraine diplomacy.",
+    "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks and a widening US blockade outweigh the debunked Line Breaker run and Ukraine diplomacy.",
+    "lead": "Net read (last 24 hours): Escalating: Bahrain strikes, Hormuz tanker attacks and a widening US blockade outweigh the debunked Line Breaker run and Ukraine diplomacy.",
     "verdict": "Bullish",
-    "count": "9 of 11 alerts point higher, 1 lower",
-    "text": "9 of 11 alerts point higher, 1 lower.",
+    "count": "10 of 13 alerts point higher, 2 lower",
+    "text": "10 of 13 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "CENTCOM blockade extends to ship-to-ship transfers; STS tanker heads for the line",
+        "confidence": "unconfirmed",
+        "theme": "Sanctions evasion",
+        "ts": "2026-11-22T12:19:50+08:00"
+      },
+      {
+        "text": "Report of a Marshall Islands-flagged Suezmax attacked overnight in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-22T12:19:50+08:00"
+      },
       {
         "text": "Iranian supertanker 'Line Breaker' heads through Hormuz toward the US blockade line",
         "confidence": "unconfirmed",
@@ -24,13 +36,13 @@
         "ts": "2026-11-22T06:17:58+08:00"
       },
       {
-        "text": "Iranian strike hits industrial site in Bahrain's Sitra refinery hub, sparking fire",
+        "text": "Iran calls US naval blockade an act of war, vows to break it",
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T06:17:58+08:00"
       },
       {
-        "text": "Iran calls US naval blockade an act of war, vows to break it",
+        "text": "Iranian strike hits an industrial site in Bahrain's Sitra area",
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T06:17:58+08:00"
@@ -58,15 +70,15 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-21T18:03:18+08:00"
-      },
-      {
-        "text": "Ukrainian drone raid targets Leningrad region and Ust-Luga oil export terminal",
-        "confidence": "unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-21T12:04:09+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-22T12:19:50+08:00"
+      },
       {
         "text": "WaPo: Putin privately accepts NATO defending Ukraine after a ceasefire, no NATO troops",
         "confidence": "unconfirmed",
@@ -88,6 +100,45 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:19",
+      "ts": "2026-11-22T12:19:50+08:00",
+      "eventTime": "18 Nov (advisory date; time not stated)",
+      "eventTs": "2026-11-18T12:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "CENTCOM blockade now also targets ship-to-ship transfers of Iranian cargo (advisory dated 18 Nov); STS-loaded tanker from Kharg reportedly heading for the blockade line",
+      "theme": "Sanctions evasion",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Faytuks Network on X (JMIC advisory 017-26)",
+      "url": "https://x.com/FaytuksNetwork/status/2124355943659950113"
+    },
+    {
+      "time": "12:19",
+      "ts": "2026-11-22T12:19:50+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iranian 'Line Breaker' (KHAT SHEKAN) supertanker run toward the US blockade looks like an AIS spoof: no such vessel seen on satellite imagery",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "TankerTrackers on X (also Gregory Brew, CocoPostel)",
+      "url": "https://x.com/TankerTrackers/status/2124348179101405679"
+    },
+    {
+      "time": "12:19",
+      "ts": "2026-11-22T12:19:50+08:00",
+      "eventTime": "Overnight 21-22 Nov (est.)",
+      "eventTs": "2026-11-22T00:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Unconfirmed report that a Marshall Islands-flagged Suezmax tanker was attacked overnight in the Strait of Hormuz; details pending",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "live_ais_com on X (single-source tip)",
+      "url": "https://x.com/live_ais_com/status/2124346780380963010"
+    },
     {
       "time": "09:18",
       "ts": "2026-11-22T09:18:29+08:00",
@@ -568,45 +619,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk and Open Source Intel citing coalition spokesman",
       "url": "https://x.com/FirstSquawk/status/2123728346454561010"
-    },
-    {
-      "time": "17:59",
-      "ts": "2026-11-20T17:59:48+08:00",
-      "eventTime": "1:30 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T13:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Poland says two missiles and a drone that fell on its soil came from Russia; minister says a Russian missile crashed in Poland",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk citing Polish government",
-      "url": "https://x.com/FirstSquawk/status/2123717941674000692"
-    },
-    {
-      "time": "17:45",
-      "ts": "2026-11-20T17:45:06+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "More Russian regions limit fuel sales as Ukrainian drone strikes cut refinery output (news report shared by energy analyst)",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Giovanni Staunovo (staunovo) sharing news report",
-      "url": "https://x.com/staunovo/status/2123714242931007910"
-    },
-    {
-      "time": "17:38",
-      "ts": "2026-11-20T17:38:12+08:00",
-      "eventTime": "5:37 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T17:37:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi Arabia starts refilling joint crude storage in Japan; Japan plans to buy 8 million barrels of Saudi crude for its own reserve (SPA)",
-      "theme": "Strategic reserves",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "First Squawk citing Saudi Press Agency (SPA)",
-      "url": "https://x.com/FirstSquawk/status/2123712504287351030"
     }
   ],
   "sources": [
@@ -2949,16 +2961,36 @@
       "title": "Smoke over Bahrain after Iranian drone attack",
       "site": "X / i24NEWS",
       "href": "https://x.com/i24NEWS_EN/status/2124219638884221071"
+    },
+    {
+      "title": "Unconfirmed: Marshall Islands Suezmax attacked overnight in Hormuz",
+      "site": "X / live_ais_com",
+      "href": "https://x.com/live_ais_com/status/2124346780380963010"
+    },
+    {
+      "title": "KHAT SHEKAN 'Line Breaker' AIS signal is a spoof",
+      "site": "X / TankerTrackers",
+      "href": "https://x.com/TankerTrackers/status/2124348179101405679"
+    },
+    {
+      "title": "Line Breaker AIS signal fishy: callsign belongs to another tanker",
+      "site": "X / Gregory Brew",
+      "href": "https://x.com/gbrew24/status/2124317807701885118"
+    },
+    {
+      "title": "CENTCOM blockade covers STS transfers; STS tanker heads for blockade line",
+      "site": "X / Faytuks Network",
+      "href": "https://x.com/FaytuksNetwork/status/2124355943659950113"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Iran struck US bases in Bahrain early Sunday, hitting an industrial site in Sitra, and called the US naval blockade an act of war it would break.",
-      "A laden Iranian supertanker named Line Breaker was then tracked crossing Hormuz toward the blockade line, while local reports say drones hit Russia's Afipsky refinery."
+      "The touted Line Breaker supertanker run proved an AIS spoof, while CENTCOM's blockade now targets ship-to-ship transfers and another Hormuz tanker attack is reported."
     ],
-    "updated": "Sun 22 Nov 2026, 9:21 am SGT",
-    "updatedTs": "2026-11-22T09:21:00+08:00"
+    "updated": "Sun 22 Nov 2026, 12:19 pm SGT",
+    "updatedTs": "2026-11-22T12:19:50+08:00"
   },
   "last24Count": 13
 }
