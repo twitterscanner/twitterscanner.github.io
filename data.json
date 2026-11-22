@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 6:19 pm SGT",
-  "lastScannedTs": "2026-11-22T18:19:43+08:00",
-  "asOf": "Sun 22 Nov 2026, 6:19 pm SGT",
-  "asOfTs": "2026-11-22T18:19:43+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 9:19 pm SGT",
+  "lastScannedTs": "2026-11-22T21:19:21+08:00",
+  "asOf": "Sun 22 Nov 2026, 9:19 pm SGT",
+  "asOfTs": "2026-11-22T21:19:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
-    "lead": "Net read (last 24 hours): Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
+    "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and repeated Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
+    "lead": "Net read (last 24 hours): Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and repeated Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
     "verdict": "Bullish",
     "count": "11 of 13 alerts point higher, 2 lower",
     "text": "11 of 13 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Houthi drone launched toward Riyadh destroyed by Saudi air defences",
+        "confidence": "Confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-22T21:19:21+08:00"
+      },
       {
         "text": "Natural gas pipeline explodes near Ward, Alabama; operator and cause not yet known",
         "confidence": "Confirmed",
@@ -30,7 +36,7 @@
         "ts": "2026-11-22T12:19:50+08:00"
       },
       {
-        "text": "Unconfirmed report of a Marshall Islands Suezmax tanker attacked overnight in Hormuz",
+        "text": "Unconfirmed report of a Marshall Islands Suezmax attacked overnight in Hormuz",
         "confidence": "Unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
@@ -70,12 +76,6 @@
         "confidence": "Unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T00:14:43+08:00"
-      },
-      {
-        "text": "Drones hit Russian cargo ship in Gulf of Finland, Russia's Baltic oil-export route",
-        "confidence": "Confirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-21T21:05:11+08:00"
       }
     ],
     "dovish": [
@@ -99,6 +99,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:19",
+      "ts": "2026-11-22T21:19:21+08:00",
+      "eventTime": "Sun 22 Nov ~6:15 pm (est., 'in the past hour' at 6:38 pm)",
+      "eventTs": "2026-11-22T18:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says air defences destroyed a Houthi drone launched toward Riyadh, the latest in a string of Houthi attacks on Saudi Arabia",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "CocoPostel on X (coalition spokesman Turki al-Maliki, via Al Jazeera)",
+      "url": "https://x.com/CocoPostel/status/2124456186414071977"
+    },
     {
       "time": "18:19",
       "ts": "2026-11-22T18:19:43+08:00",
@@ -605,19 +618,6 @@
       "confidence": "Confirmed",
       "source": "Houthi military spokesman Yahya Saree (Arabic)",
       "url": "https://x.com/Yah_Saree/status/2123740160294781116"
-    },
-    {
-      "time": "19:18",
-      "ts": "2026-11-20T19:18:00+08:00",
-      "eventTime": "7:13 pm, 20 Nov",
-      "eventTs": "2026-11-20T19:13:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Houthi military spokesman says Jeddah port and all Saudi Red Sea ports will be targets if the coalition bombs Hodeidah; urges workers to evacuate (translated from Arabic)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic); also First Squawk",
-      "url": "https://x.com/Yah_Saree/status/2123736468174631406"
     }
   ],
   "sources": [
@@ -2990,16 +2990,21 @@
       "title": "Coalition: Houthi missile toward western Saudi Arabia intercepted",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2124365033895526557"
+    },
+    {
+      "title": "Coalition: Houthi drone toward Riyadh destroyed",
+      "site": "X / CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2124456186414071977"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran struck US bases in Bahrain early Sunday, hitting an industrial site in Sitra, called the US blockade an act of war, and Houthis fired again at western Saudi Arabia.",
-      "The touted Line Breaker tanker run proved an AIS spoof, CENTCOM's blockade now targets ship-to-ship transfers, and a natural gas pipeline exploded in Alabama."
+      "Iran struck US bases in Bahrain, hitting an industrial site in Sitra, and called the US blockade an act of war, while Houthis fired a missile at western Saudi Arabia and a drone at Riyadh.",
+      "The touted Line Breaker supertanker run proved an AIS spoof, CENTCOM's blockade now targets ship-to-ship transfers, and a gas pipeline exploded in Alabama."
     ],
-    "updated": "Sun 22 Nov 2026, 6:19 pm SGT",
-    "updatedTs": "2026-11-22T18:19:43+08:00"
+    "updated": "Sun 22 Nov 2026, 9:19 pm SGT",
+    "updatedTs": "2026-11-22T21:19:21+08:00"
   },
   "last24Count": 13
 }
