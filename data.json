@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 9:19 pm SGT",
-  "lastScannedTs": "2026-11-22T21:19:21+08:00",
-  "asOf": "Sun 22 Nov 2026, 9:19 pm SGT",
-  "asOfTs": "2026-11-22T21:19:21+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 12:04 am SGT",
+  "lastScannedTs": "2026-11-23T00:04:29+08:00",
+  "asOf": "Mon 23 Nov 2026, 12:04 am SGT",
+  "asOfTs": "2026-11-23T00:04:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and repeated Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
-    "lead": "Net read (last 24 hours): Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and repeated Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
+    "bottom": "Escalating: a Gulf of Oman tanker incident with military forces, Bahrain strikes, Hormuz tanker hits and Houthi fire at Saudi Arabia outweigh Trump's pause.",
+    "lead": "Net read (last 24 hours): Escalating: a Gulf of Oman tanker incident with military forces, Bahrain strikes, Hormuz tanker hits and Houthi fire at Saudi Arabia outweigh Trump's pause.",
     "verdict": "Bullish",
-    "count": "11 of 13 alerts point higher, 2 lower",
-    "text": "11 of 13 alerts point higher, 2 lower.",
+    "count": "12 of 15 alerts point higher, 3 lower",
+    "text": "12 of 15 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: tanker in incident with military forces off Chabahar, Gulf of Oman",
+        "confidence": "Confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-23T00:04:29+08:00"
+      },
       {
         "text": "Houthi drone launched toward Riyadh destroyed by Saudi air defences",
         "confidence": "Confirmed",
@@ -80,6 +86,12 @@
     ],
     "dovish": [
       {
+        "text": "Trump: no decision on Iran, will wait until after January 1 for new steps",
+        "confidence": "Unconfirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-23T00:03:29+08:00"
+      },
+      {
         "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
         "confidence": "Confirmed",
         "theme": "Iran",
@@ -99,6 +111,32 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:04",
+      "ts": "2026-11-23T00:04:29+08:00",
+      "eventTime": "Sun 22 Nov 10:25 pm (1425 UTC, UKMTO)",
+      "eventTs": "2026-11-22T22:25:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO 217/26: tanker involved in an incident with military forces in the Gulf of Oman, southeast of Chabahar, Iran; possibly linked to the US blockade",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "CocoPostel on X (UKMTO advisory 217/26); MenchOsint, Open Source Intel",
+      "url": "https://x.com/CocoPostel/status/2124533785047990536"
+    },
+    {
+      "time": "00:03",
+      "ts": "2026-11-23T00:03:29+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Trump says he has made no decision on Iran, is in no rush and will wait until after January 1 before deciding any new steps",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Unconfirmed",
+      "source": "War Radar on X (Trump remarks)",
+      "url": "https://x.com/War_Radar2/status/2124532033443799528"
+    },
     {
       "time": "21:19",
       "ts": "2026-11-22T21:19:21+08:00",
@@ -592,32 +630,6 @@
       "confidence": "Confirmed",
       "source": "Houthi military spokesman Yahya Saree (Arabic)",
       "url": "https://x.com/Yah_Saree/status/2123748793615319428"
-    },
-    {
-      "time": "19:53",
-      "ts": "2026-11-20T19:53:00+08:00",
-      "eventTime": "7:48 pm, 20 Nov",
-      "eventTs": "2026-11-20T19:48:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Houthis declare Saudi Arabia's Shuqaiq power plant a target within hours and order staff to evacuate, in retaliation for Saudi strikes on Saada and Mocha power stations (translated from Arabic)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic); also FirstSquawk",
-      "url": "https://x.com/Yah_Saree/status/2123745364423684442"
-    },
-    {
-      "time": "19:29",
-      "ts": "2026-11-20T19:29:00+08:00",
-      "eventTime": "7:28 pm, 20 Nov",
-      "eventTs": "2026-11-20T19:28:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Houthi military spokesman warns all airlines that Saudi airspace is unsafe and will be a theatre of Houthi operations in the coming hours, except over Mecca and Medina (translated from Arabic)",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic)",
-      "url": "https://x.com/Yah_Saree/status/2123740160294781116"
     }
   ],
   "sources": [
@@ -2995,16 +3007,26 @@
       "title": "Coalition: Houthi drone toward Riyadh destroyed",
       "site": "X / CocoPostel",
       "href": "https://x.com/CocoPostel/status/2124456186414071977"
+    },
+    {
+      "title": "UKMTO 217/26: tanker and military forces incident SE of Chabahar",
+      "site": "X / CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2124533785047990536"
+    },
+    {
+      "title": "Trump: no decision on Iran until after January 1",
+      "site": "X / War Radar",
+      "href": "https://x.com/War_Radar2/status/2124532033443799528"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran struck US bases in Bahrain, hitting an industrial site in Sitra, and called the US blockade an act of war, while Houthis fired a missile at western Saudi Arabia and a drone at Riyadh.",
-      "The touted Line Breaker supertanker run proved an AIS spoof, CENTCOM's blockade now targets ship-to-ship transfers, and a gas pipeline exploded in Alabama."
+      "UKMTO reported a tanker caught in an incident with military forces southeast of Chabahar in the Gulf of Oman, possibly linked to the US blockade of Iran.",
+      "Trump reportedly said he has made no decision on Iran and will wait until after January 1 for new steps, while Houthi fire at Saudi Arabia continued Sunday."
     ],
-    "updated": "Sun 22 Nov 2026, 9:19 pm SGT",
-    "updatedTs": "2026-11-22T21:19:21+08:00"
+    "updated": "Mon 23 Nov 2026, 12:04 am SGT",
+    "updatedTs": "2026-11-23T00:04:29+08:00"
   },
   "last24Count": 13
 }
