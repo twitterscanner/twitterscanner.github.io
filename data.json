@@ -1,8 +1,8 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 3:18 pm SGT",
-  "lastScannedTs": "2026-11-22T15:18:07+08:00",
-  "asOf": "Sun 22 Nov 2026, 3:18 pm SGT",
-  "asOfTs": "2026-11-22T15:18:07+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 6:19 pm SGT",
+  "lastScannedTs": "2026-11-22T18:19:43+08:00",
+  "asOf": "Sun 22 Nov 2026, 6:19 pm SGT",
+  "asOfTs": "2026-11-22T18:19:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
@@ -12,82 +12,82 @@
     "text": "11 of 13 alerts point higher, 2 lower.",
     "hawkish": [
       {
+        "text": "Natural gas pipeline explodes near Ward, Alabama; operator and cause not yet known",
+        "confidence": "Confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-22T18:19:43+08:00"
+      },
+      {
         "text": "Houthi missile toward western Saudi Arabia (Red Sea terminals) intercepted",
-        "confidence": "confirmed",
+        "confidence": "Confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T15:18:07+08:00"
       },
       {
         "text": "CENTCOM blockade extends to ship-to-ship transfers; STS tanker heads for the line",
-        "confidence": "unconfirmed",
+        "confidence": "Unconfirmed",
         "theme": "Sanctions evasion",
         "ts": "2026-11-22T12:19:50+08:00"
       },
       {
-        "text": "Report of a Marshall Islands-flagged Suezmax attacked overnight in Hormuz",
-        "confidence": "unconfirmed",
+        "text": "Unconfirmed report of a Marshall Islands Suezmax tanker attacked overnight in Hormuz",
+        "confidence": "Unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
       },
       {
         "text": "Iranian supertanker 'Line Breaker' heads through Hormuz toward the US blockade line",
-        "confidence": "unconfirmed",
+        "confidence": "Unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T09:18:29+08:00"
       },
       {
         "text": "Reported drone attack on Russia's Afipsky refinery in Krasnodar",
-        "confidence": "unconfirmed",
+        "confidence": "Unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-22T06:17:58+08:00"
       },
       {
-        "text": "Iranian strike hits an industrial site in Bahrain's Sitra area",
-        "confidence": "confirmed",
+        "text": "Iranian strike hits civilian industrial site in Sitra, Bahrain's refinery hub",
+        "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T06:17:58+08:00"
       },
       {
         "text": "Iran calls the US naval blockade an act of war and vows to break it",
-        "confidence": "confirmed",
+        "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T06:17:58+08:00"
       },
       {
         "text": "Iran launches drone and missile waves at US bases in Bahrain, home of the US 5th Fleet",
-        "confidence": "confirmed",
+        "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T03:18:56+08:00"
       },
       {
         "text": "Fire detected at Saudi Arabia's Jizan port and refinery area after Houthi threats",
-        "confidence": "unconfirmed",
+        "confidence": "Unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T00:14:43+08:00"
       },
       {
         "text": "Drones hit Russian cargo ship in Gulf of Finland, Russia's Baltic oil-export route",
-        "confidence": "confirmed",
+        "confidence": "Confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-21T21:05:11+08:00"
-      },
-      {
-        "text": "Two outbound tankers hit by projectiles within an hour near Khasab in Hormuz",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-21T18:03:18+08:00"
       }
     ],
     "dovish": [
       {
         "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
-        "confidence": "confirmed",
+        "confidence": "Confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
       },
       {
         "text": "WaPo: Putin privately accepts NATO defending Ukraine after a ceasefire, no NATO troops",
-        "confidence": "unconfirmed",
+        "confidence": "Unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-22T06:17:58+08:00"
       }
@@ -99,6 +99,19 @@
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:19",
+      "ts": "2026-11-22T18:19:43+08:00",
+      "eventTime": "Sat 21 Nov 11:20 pm CST",
+      "eventTs": "2026-11-22T13:20:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Natural gas pipeline explodes near Ward, Sumter County, Alabama, sending a huge fire into the night sky; operator and cause not yet identified",
+      "theme": "Pipelines",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "heatedreports on X (local TV WVUA 23 also reporting)",
+      "url": "https://x.com/heatedreports/status/2124426269366350000"
+    },
     {
       "time": "15:18",
       "ts": "2026-11-22T15:18:07+08:00",
@@ -605,22 +618,14 @@
       "confidence": "Confirmed",
       "source": "Houthi military spokesman Yahya Saree (Arabic); also First Squawk",
       "url": "https://x.com/Yah_Saree/status/2123736468174631406"
-    },
-    {
-      "time": "18:59",
-      "ts": "2026-11-20T18:59:00+08:00",
-      "eventTime": "6:53 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T18:53:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions reportedly heard in the Strait of Hormuz off Iran's southern coast; cause unknown, no vessel or official confirmation yet",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing Sabereen News; early reports also shared by BeamTracker",
-      "url": "https://x.com/FirstSquawk/status/2123732628746699147"
     }
   ],
   "sources": [
+    {
+      "title": "Gas pipeline explosion near Ward, Alabama (heatedreports on X)",
+      "site": "x.com",
+      "href": "https://x.com/heatedreports/status/2124426269366350000"
+    },
     {
       "title": "Iranian tanker KHAT SHEKAN ('Line Breaker') tracked heading for the US blockade line",
       "site": "X / Open Source Intel",
@@ -2991,10 +2996,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran struck US bases in Bahrain early Sunday, hitting an industrial site in Sitra, called the US blockade an act of war, and Houthis fired again at western Saudi Arabia.",
-      "The touted Line Breaker supertanker run proved an AIS spoof, while CENTCOM's blockade now targets ship-to-ship transfers and another Hormuz tanker attack is reported."
+      "The touted Line Breaker tanker run proved an AIS spoof, CENTCOM's blockade now targets ship-to-ship transfers, and a natural gas pipeline exploded in Alabama."
     ],
-    "updated": "Sun 22 Nov 2026, 3:18 pm SGT",
-    "updatedTs": "2026-11-22T15:18:07+08:00"
+    "updated": "Sun 22 Nov 2026, 6:19 pm SGT",
+    "updatedTs": "2026-11-22T18:19:43+08:00"
   },
   "last24Count": 13
 }
