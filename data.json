@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sun 22 Nov 2026, 12:19 pm SGT",
-  "lastScannedTs": "2026-11-22T12:19:50+08:00",
-  "asOf": "Sun 22 Nov 2026, 12:19 pm SGT",
-  "asOfTs": "2026-11-22T12:19:50+08:00",
+  "lastScanned": "Sun 22 Nov 2026, 3:18 pm SGT",
+  "lastScannedTs": "2026-11-22T15:18:07+08:00",
+  "asOf": "Sun 22 Nov 2026, 3:18 pm SGT",
+  "asOfTs": "2026-11-22T15:18:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks and a widening US blockade outweigh the debunked Line Breaker run and Ukraine diplomacy.",
-    "lead": "Net read (last 24 hours): Escalating: Bahrain strikes, Hormuz tanker attacks and a widening US blockade outweigh the debunked Line Breaker run and Ukraine diplomacy.",
+    "bottom": "Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
+    "lead": "Net read (last 24 hours): Escalating: Bahrain strikes, Hormuz tanker attacks, a widening US blockade and Houthi fire at Saudi Arabia outweigh the debunked Line Breaker run.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 2 lower",
-    "text": "10 of 13 alerts point higher, 2 lower.",
+    "count": "11 of 13 alerts point higher, 2 lower",
+    "text": "11 of 13 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Houthi missile toward western Saudi Arabia (Red Sea terminals) intercepted",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-22T15:18:07+08:00"
+      },
       {
         "text": "CENTCOM blockade extends to ship-to-ship transfers; STS tanker heads for the line",
         "confidence": "unconfirmed",
@@ -18,7 +24,7 @@
         "ts": "2026-11-22T12:19:50+08:00"
       },
       {
-        "text": "Report of a Marshall Islands-flagged Suezmax attacked overnight in Hormuz",
+        "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
@@ -36,7 +42,7 @@
         "ts": "2026-11-22T06:17:58+08:00"
       },
       {
-        "text": "Iran calls US naval blockade an act of war, vows to break it",
+        "text": "Iranian strike hits an industrial site in Bahrain's Sitra area",
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T06:17:58+08:00"
@@ -86,20 +92,26 @@
         "ts": "2026-11-22T06:17:58+08:00"
       }
     ],
-    "neutral": [
-      {
-        "text": "Gas pipeline blast and fire at Basra's al-Hartha power plant; plant halted",
-        "confidence": "confirmed",
-        "theme": "Pipelines",
-        "ts": "2026-11-21T15:05:49+08:00"
-      }
-    ]
+    "neutral": []
   },
   "brent": {
     "value": "$92.57",
     "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:18",
+      "ts": "2026-11-22T15:18:07+08:00",
+      "eventTime": "Sun 22 Nov ~10:00 am (est., 'a few hours' before 12:51 pm report)",
+      "eventTs": "2026-11-22T10:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says a Houthi missile fired toward western Saudi Arabia, home of the Red Sea export terminals, was intercepted",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "FirstSquawk on X (Saudi-led coalition statement)",
+      "url": "https://x.com/FirstSquawk/status/2124365033895526557"
+    },
     {
       "time": "12:19",
       "ts": "2026-11-22T12:19:50+08:00",
@@ -606,19 +618,6 @@
       "confidence": "Unconfirmed",
       "source": "First Squawk citing Sabereen News; early reports also shared by BeamTracker",
       "url": "https://x.com/FirstSquawk/status/2123732628746699147"
-    },
-    {
-      "time": "18:48",
-      "ts": "2026-11-20T18:48:00+08:00",
-      "eventTime": "6:40 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T18:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition urges civilians to evacuate Yemen's Hodeidah port, signalling possible strikes on the Houthi-held Red Sea port",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk and Open Source Intel citing coalition spokesman",
-      "url": "https://x.com/FirstSquawk/status/2123728346454561010"
     }
   ],
   "sources": [
@@ -2981,16 +2980,21 @@
       "title": "CENTCOM blockade covers STS transfers; STS tanker heads for blockade line",
       "site": "X / Faytuks Network",
       "href": "https://x.com/FaytuksNetwork/status/2124355943659950113"
+    },
+    {
+      "title": "Coalition: Houthi missile toward western Saudi Arabia intercepted",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2124365033895526557"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran struck US bases in Bahrain early Sunday, hitting an industrial site in Sitra, and called the US naval blockade an act of war it would break.",
+      "Iran struck US bases in Bahrain early Sunday, hitting an industrial site in Sitra, called the US blockade an act of war, and Houthis fired again at western Saudi Arabia.",
       "The touted Line Breaker supertanker run proved an AIS spoof, while CENTCOM's blockade now targets ship-to-ship transfers and another Hormuz tanker attack is reported."
     ],
-    "updated": "Sun 22 Nov 2026, 12:19 pm SGT",
-    "updatedTs": "2026-11-22T12:19:50+08:00"
+    "updated": "Sun 22 Nov 2026, 3:18 pm SGT",
+    "updatedTs": "2026-11-22T15:18:07+08:00"
   },
   "last24Count": 13
 }
