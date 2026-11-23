@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 10:07 pm SGT",
-  "lastScannedTs": "2026-11-23T22:07:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 7:29 pm SGT",
-  "asOfTs": "2026-11-23T19:29:07+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 11:05 pm SGT",
+  "lastScannedTs": "2026-11-23T23:05:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 11:05 pm SGT",
+  "asOfTs": "2026-11-23T23:05:21+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian missile launches and claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Libya's Sharara restart and Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches and claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Libya's Sharara restart and Qatari mediation.",
+    "bottom": "Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; EU readies new Russia sanctions.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; EU readies new Russia sanctions.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 3 lower",
-    "text": "17 of 20 alerts point higher, 3 lower.",
+    "count": "17 of 21 alerts point higher, 3 lower",
+    "text": "17 of 21 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Iran says it seized several US-linked ships to cover war compensation",
@@ -134,13 +134,33 @@
         "ts": "2026-11-23T00:03:29+08:00"
       }
     ],
-    "neutral": []
+    "neutral": [
+      {
+        "text": "EU presents 22nd Russia sanctions package; oil measures not yet detailed",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T23:00:00+08:00"
+      }
+    ]
   },
   "brent": {
-    "value": "<$90",
-    "detail": "Brent below $90/bbl, extending Monday's slide (Giovanni Staunovo, UBS, on X, 9:52 pm SGT 23 Nov)"
+    "value": "$89.86",
+    "detail": "Brent down 2.9% to $89.86/bbl on Monday (Oil & Energy Online on X, about 10:41 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:00",
+      "ts": "2026-11-23T23:00:00+08:00",
+      "eventTime": "11:00 pm, 23 Nov",
+      "eventTs": "2026-11-23T23:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "EU Commission presents a 22nd sanctions package against Russia (von der Leyen, Kallas); oil and shadow-fleet measures not yet detailed",
+      "theme": "Russia-Ukraine",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Ursula von der Leyen on X; also Kaja Kallas, CGTN",
+      "url": "https://x.com/vonderleyen/status/2124880816438215059"
+    },
     {
       "time": "19:29",
       "ts": "2026-11-23T19:29:00+08:00",
@@ -647,19 +667,6 @@
       "confidence": "Confirmed",
       "source": "Barak Ravid (Axios), citing Araghchi interview with Iran newspaper",
       "url": "https://x.com/BarakRavid/status/2123922764172050584"
-    },
-    {
-      "time": "06:04",
-      "ts": "2026-11-21T06:04:00+08:00",
-      "eventTime": "5:05 am, 21 Nov",
-      "eventTs": "2026-11-21T05:05:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "US Treasury sanctions Iranian 'oil trustees' who sell regime oil abroad under Operation Economic Outcast, tightening the squeeze on Iran's oil exports",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "US Treasury; also relayed by Giovanni Staunovo (UBS), Josh Young",
-      "url": "https://x.com/USTreasury/status/2123885407938998420"
     }
   ],
   "sources": [
@@ -3157,16 +3164,26 @@
       "title": "CGTN Europe: Iranian media say several US ships seized to cover $290bn compensation",
       "site": "x.com",
       "href": "https://x.com/CGTNEurope/status/2124822842466341095"
+    },
+    {
+      "title": "Ursula von der Leyen: EU presents 22nd package of sanctions against Russia",
+      "site": "x.com",
+      "href": "https://x.com/vonderleyen/status/2124880816438215059"
+    },
+    {
+      "title": "Kaja Kallas: EU proposing 22nd sanctions package against Russia",
+      "site": "x.com",
+      "href": "https://x.com/kajakallas/status/2124880870779539694"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones hit the Perm refinery and Tatarstan's Kaleykino hub and forced Novoshakhtinsk to halt, while storms and drones delayed Russian Baltic and Novorossiysk loadings.",
-      "Iran reportedly fired ballistic missiles from Khuzestan and claimed it seized US-linked ships, while Libya's Sharara pipeline shut and then reopened."
+      "Iran reportedly fired ballistic missiles and claimed it seized US-linked ships, Libya's Sharara pipeline shut then reopened, and the EU presented a 22nd Russia sanctions package."
     ],
-    "updated": "Mon 23 Nov 2026, 7:29 pm SGT",
-    "updatedTs": "2026-11-23T19:29:00+08:00"
+    "updated": "Mon 23 Nov 2026, 11:05 pm SGT",
+    "updatedTs": "2026-11-23T23:05:00+08:00"
   },
   "last24Count": 13
 }
