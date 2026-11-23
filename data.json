@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 1:22 pm SGT",
-  "lastScannedTs": "2026-11-23T13:22:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 1:20 pm SGT",
-  "asOfTs": "2026-11-23T13:20:16+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 1:44 pm SGT",
+  "lastScannedTs": "2026-11-23T13:44:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 1:41 pm SGT",
+  "asOfTs": "2026-11-23T13:41:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: confirmed damage to Tatarstan oil storage, Russian refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation and softer Brent.",
-    "lead": "Net read (last 24 hours): Escalating: confirmed damage to Tatarstan oil storage, Russian refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation and softer Brent.",
+    "bottom": "Escalating: widening Ukrainian strikes on Russian refineries and oil storage, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: widening Ukrainian strikes on Russian refineries and oil storage, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "12 of 14 alerts point higher, 2 lower",
-    "text": "12 of 14 alerts point higher, 2 lower.",
+    "count": "13 of 15 alerts point higher, 2 lower",
+    "text": "13 of 15 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Drones reportedly attacking an oil refinery in Russia's Perm Krai",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T13:41:45+08:00"
+      },
       {
         "text": "Tatarstan confirms drone strikes damaged oil storage near Druzhba's Kaleykino hub",
         "confidence": "confirmed",
@@ -105,6 +111,19 @@
     "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:41",
+      "ts": "2026-11-23T13:41:45+08:00",
+      "eventTime": "1:40 pm, 23 Nov (est.)",
+      "eventTs": "2026-11-23T13:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian strike drones reportedly attacking an oil refinery in Russia's Perm Krai, in the Urals",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Exilenova+ on X; Kuban Republic echo (local reports)",
+      "url": "https://x.com/Exilenova_plus/status/2124739735776297325"
+    },
     {
       "time": "13:20",
       "ts": "2026-11-23T13:20:16+08:00",
@@ -611,19 +630,6 @@
       "confidence": "Unconfirmed",
       "source": "Iranian outlets incl. Tasnim, via OSINTdefender",
       "url": "https://x.com/sentdefender/status/2123809690161176666"
-    },
-    {
-      "time": "00:00",
-      "ts": "2026-11-21T00:00:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis threaten Saudi Jizan, Jeddah and Yanbu ports, including Yanbu's King Fahd Industrial Port, plus Shuqaiq power station and Riyadh's financial district, after coalition strikes on Hodeidah and Sanaa",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi statement as reported by Post Open Source",
-      "url": "https://x.com/CocoPostel/status/2123808495761817782"
     }
   ],
   "sources": [
@@ -3076,16 +3082,21 @@
       "title": "First Squawk: Tatarstan reports drone attacks on oil storage facilities (Interfax)",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2124732642855895117"
+    },
+    {
+      "title": "Exilenova+: strike drones attacking an oil refinery in Perm Krai",
+      "site": "x.com",
+      "href": "https://x.com/Exilenova_plus/status/2124739735776297325"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Ukrainian drones hit Novoshakhtinsk refinery and Tatarstan oil storage, per Interfax.",
+      "Ukrainian drones hit Novoshakhtinsk refinery and damaged Tatarstan oil storage, per Interfax, and a Perm Krai refinery is reportedly under attack, while Libya lost about 350,000 barrels a day at Sharara.",
       "Iran tension around Hormuz and a Houthi Rabigh refinery claim persist, while Qatar's prime minister heads to Washington to meet Rubio as the key Iran-US mediator."
     ],
-    "updated": "Mon 23 Nov 2026, 1:21 pm SGT",
-    "updatedTs": "2026-11-23T13:21:00+08:00"
+    "updated": "Mon 23 Nov 2026, 1:44 pm SGT",
+    "updatedTs": "2026-11-23T13:44:00+08:00"
   },
   "last24Count": 13
 }
