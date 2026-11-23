@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 1:07 am SGT",
-  "lastScannedTs": "2026-11-24T01:07:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 11:05 pm SGT",
-  "asOfTs": "2026-11-23T23:05:21+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 1:58 am SGT",
+  "lastScannedTs": "2026-11-24T01:58:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 1:58 am SGT",
+  "asOfTs": "2026-11-24T01:58:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; EU readies new Russia sanctions.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; EU readies new Russia sanctions.",
+    "bottom": "Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 2 lower",
-    "text": "16 of 19 alerts point higher, 2 lower.",
+    "count": "16 of 20 alerts point higher, 2 lower",
+    "text": "16 of 20 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Iran says it seized several US-linked ships to cover war compensation",
@@ -124,6 +124,12 @@
     ],
     "neutral": [
       {
+        "text": "US Treasury adds new Iran-related sanctions on dozens of people and entities",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-24T01:58:00+08:00"
+      },
+      {
         "text": "EU presents 22nd Russia sanctions package; oil measures not yet detailed",
         "confidence": "confirmed",
         "theme": "Russia-Ukraine",
@@ -136,6 +142,19 @@
     "detail": "Brent down 2.9% to $89.86/bbl on Monday (Oil & Energy Online on X, about 10:41 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "01:58",
+      "ts": "2026-11-24T01:58:00+08:00",
+      "eventTime": "1:35 am, 24 Nov (est.)",
+      "eventTs": "2026-11-24T01:35:00+08:00",
+      "eventQual": "est.",
+      "headline": "US Treasury issues new Iran-related sanctions on dozens of people and entities (reportedly 8 individuals, 22 entities, 16 in the UAE); oil links not yet detailed",
+      "theme": "Iran",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Al Arabiya English on X; also CGTN, Osint613",
+      "url": "https://x.com/AlArabiya_Eng/status/2124921562654519665"
+    },
     {
       "time": "23:00",
       "ts": "2026-11-23T23:00:00+08:00",
@@ -642,19 +661,6 @@
       "confidence": "Confirmed",
       "source": "Saudi-led coalition via Mario Nawfal; also MenchOsint, First Squawk, CocoPostel",
       "url": "https://x.com/MarioNawfal/status/2123943573812879583"
-    },
-    {
-      "time": "09:02",
-      "ts": "2026-11-21T09:02:05+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran FM Araghchi says Tehran's two-day plan to resume the ceasefire, reopen Hormuz and restart nuclear talks is still on the table; deal possible if permanent",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Barak Ravid (Axios), citing Araghchi interview with Iran newspaper",
-      "url": "https://x.com/BarakRavid/status/2123922764172050584"
     }
   ],
   "sources": [
@@ -3162,16 +3168,26 @@
       "title": "Kaja Kallas: EU proposing 22nd sanctions package against Russia",
       "site": "x.com",
       "href": "https://x.com/kajakallas/status/2124880870779539694"
+    },
+    {
+      "title": "Al Arabiya English: Trump administration issues new Iran-related sanctions targeting dozens of people and entities",
+      "site": "x.com",
+      "href": "https://x.com/AlArabiya_Eng/status/2124921562654519665"
+    },
+    {
+      "title": "Osint613: fresh round of US sanctions linked to Iran",
+      "site": "x.com",
+      "href": "https://x.com/Osint613/status/2124924125638426835"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "No new oil-moving alerts yet on Tuesday; Monday saw Ukrainian drones hit the Perm refinery and Tatarstan's Kaleykino hub and force Novoshakhtinsk to halt.",
-      "Iran reportedly fired ballistic missiles and claimed seizures of US-linked ships, Libya's Sharara pipeline shut then reopened, and the EU presented a 22nd Russia sanctions package."
+      "The US Treasury issued new Iran-related sanctions early Tuesday on dozens of people and entities, many reportedly in the UAE, as the US blockade of Iranian oil continues.",
+      "On Monday, Ukrainian drones hit Perm and forced Novoshakhtinsk to halt, Iran reportedly fired ballistic missiles and claimed US-linked ship seizures, and the EU presented a 22nd Russia sanctions package."
     ],
-    "updated": "Tue 24 Nov 2026, 12:05 am SGT",
-    "updatedTs": "2026-11-24T00:05:20+08:00"
+    "updated": "Tue 24 Nov 2026, 1:58 am SGT",
+    "updatedTs": "2026-11-24T01:58:00+08:00"
   },
   "last24Count": 13
 }
