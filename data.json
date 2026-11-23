@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 2:04 am SGT",
-  "lastScannedTs": "2026-11-24T02:04:00+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 3:04 am SGT",
+  "lastScannedTs": "2026-11-24T03:04:24+08:00",
   "asOf": "Tue 24 Nov 2026, 1:58 am SGT",
   "asOfTs": "2026-11-24T01:58:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
     "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
     "verdict": "Bullish",
-    "count": "16 of 20 alerts point higher, 2 lower",
-    "text": "16 of 20 alerts point higher, 2 lower.",
+    "count": "14 of 18 alerts point higher, 2 lower",
+    "text": "14 of 18 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Iran says it seized several US-linked ships to cover war compensation",
@@ -94,18 +94,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-23T04:04:22+08:00"
-      },
-      {
-        "text": "Trump inclined to resume Iran strikes after New Year; vows to sink blockade runners",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-23T03:03:41+08:00"
-      },
-      {
-        "text": "Houthis claim a direct hit on Saudi Arabia's Rabigh refinery on the Red Sea",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-23T03:02:41+08:00"
       }
     ],
     "dovish": [
