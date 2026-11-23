@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 2:17 pm SGT",
-  "lastScannedTs": "2026-11-23T14:17:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 2:16 pm SGT",
-  "asOfTs": "2026-11-23T14:16:45+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 2:36 pm SGT",
+  "lastScannedTs": "2026-11-23T14:36:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 2:34 pm SGT",
+  "asOfTs": "2026-11-23T14:34:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: a fresh Hormuz tanker fire, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: a fresh Hormuz tanker fire, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
+    "bottom": "Escalating: Hormuz tanker attacks and Iranian threats, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks and Iranian threats, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "14 of 16 alerts point higher, 2 lower",
-    "text": "14 of 16 alerts point higher, 2 lower.",
+    "count": "15 of 17 alerts point higher, 2 lower",
+    "text": "15 of 17 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Iranian MP claims Iran hits about 10 tankers a day; Hormuz southern-route flows down",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-23T14:34:13+08:00"
+      },
       {
         "text": "Another tanker reportedly hit and burning in the Strait of Hormuz",
         "confidence": "unconfirmed",
@@ -117,6 +123,19 @@
     "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:34",
+      "ts": "2026-11-23T14:34:13+08:00",
+      "eventTime": "Not stated (remarks made Monday 23 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iranian MP Aboutorabi claims Iran hits about 10 'violating' tankers a day and says Hormuz southern-route oil traffic has fallen sharply",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iran International on X (Iranian lawmaker's remarks)",
+      "url": "https://x.com/IranIntl_En/status/2124752430273359955"
+    },
     {
       "time": "14:16",
       "ts": "2026-11-23T14:16:45+08:00",
@@ -623,19 +642,6 @@
       "confidence": "Confirmed",
       "source": "Financial Times; also First Squawk",
       "url": "https://x.com/FT/status/2123816348853669996"
-    },
-    {
-      "time": "00:07",
-      "ts": "2026-11-21T00:07:00+08:00",
-      "eventTime": "11:00 pm, 20 Nov",
-      "eventTs": "2026-11-20T23:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: outbound tanker struck on its port bow by an unknown projectile 8nm north of Khasab, Oman, in the Strait of Hormuz; fire onboard, no casualties",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO warning 214-26, via Open Source Intel; also OSINTdefender, First Squawk, Iran International",
-      "url": "https://x.com/Osint613/status/2123810352768995482"
     }
   ],
   "sources": [
@@ -3098,16 +3104,21 @@
       "title": "AMK Mapping: another oil tanker hit in the Strait of Hormuz, large fire onboard",
       "site": "x.com",
       "href": "https://x.com/AMK_Mapping_/status/2124748120542400550"
+    },
+    {
+      "title": "Iran International: Iranian MP says Iran hits about 10 'violating' tankers a day in Hormuz",
+      "site": "x.com",
+      "href": "https://x.com/IranIntl_En/status/2124752430273359955"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones hit the Novoshakhtinsk and Perm refineries and the Kaleykino pumping hub in Tatarstan, while Libya lost about 350,000 barrels a day at Sharara.",
-      "Another oil tanker was reportedly hit and set ablaze in the Strait of Hormuz, as Qatar's prime minister heads to Washington to meet Rubio as the key Iran-US mediator."
+      "Another oil tanker was reportedly set ablaze in Hormuz and an Iranian MP claimed Iran hits about ten tankers a day, as Qatar's prime minister heads to Washington."
     ],
-    "updated": "Mon 23 Nov 2026, 2:17 pm SGT",
-    "updatedTs": "2026-11-23T14:17:00+08:00"
+    "updated": "Mon 23 Nov 2026, 2:36 pm SGT",
+    "updatedTs": "2026-11-23T14:36:00+08:00"
   },
   "last24Count": 13
 }
