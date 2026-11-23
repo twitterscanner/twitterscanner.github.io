@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 6:13 pm SGT",
-  "lastScannedTs": "2026-11-23T18:13:00+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 6:23 pm SGT",
+  "lastScannedTs": "2026-11-23T18:23:00+08:00",
   "asOf": "Mon 23 Nov 2026, 6:12 pm SGT",
   "asOfTs": "2026-11-23T18:12:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes halting Russian refineries, storm-hit Russian exports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
     "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes halting Russian refineries, storm-hit Russian exports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "17 of 19 alerts point higher, 2 lower",
-    "text": "17 of 19 alerts point higher, 2 lower.",
+    "count": "16 of 18 alerts point higher, 2 lower",
+    "text": "16 of 18 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Novoshakhtinsk refinery halts operations after Ukrainian drone attack, governor says",
@@ -106,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T21:19:21+08:00"
-      },
-      {
-        "text": "Natural gas pipeline explodes near Ward, Alabama; operator and cause not yet known",
-        "confidence": "confirmed",
-        "theme": "Pipelines",
-        "ts": "2026-11-22T18:19:43+08:00"
       }
     ],
     "dovish": [
