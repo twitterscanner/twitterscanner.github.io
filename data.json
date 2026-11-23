@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 4:05 am SGT",
-  "lastScannedTs": "2026-11-24T04:05:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 1:58 am SGT",
-  "asOfTs": "2026-11-24T01:58:04+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 5:06 am SGT",
+  "lastScannedTs": "2026-11-24T05:06:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 5:06 am SGT",
+  "asOfTs": "2026-11-24T05:06:35+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
-    "lead": "Net read (last 24 hours): Escalating: claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
+    "bottom": "Escalating: Yemeni launches at Saudi Arabia, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
+    "lead": "Net read (last 24 hours): Escalating: Yemeni launches at Saudi Arabia, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
     "verdict": "Bullish",
-    "count": "13 of 17 alerts point higher, 2 lower",
-    "text": "13 of 17 alerts point higher, 2 lower.",
+    "count": "14 of 18 alerts point higher, 2 lower",
+    "text": "14 of 18 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Yemen missile and drone launches disrupt Saudi airspace over Jeddah and Dammam",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-24T05:06:00+08:00"
+      },
       {
         "text": "Iran says it seized several US-linked ships to cover war compensation",
         "confidence": "unconfirmed",
@@ -124,6 +130,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:06",
+      "ts": "2026-11-24T05:06:00+08:00",
+      "eventTime": "4:30 am, 24 Nov (est.)",
+      "eventTs": "2026-11-24T04:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Missile and drone launches from Yemen disrupt Saudi airspace; flights to Jeddah and Dammam put in holding patterns, no impacts reported",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint on X; also Post Open Source",
+      "url": "https://x.com/MenchOsint/status/2124964288821436526"
+    },
     {
       "time": "01:58",
       "ts": "2026-11-24T01:58:00+08:00",
@@ -630,19 +649,6 @@
       "confidence": "Unconfirmed",
       "source": "OSINTtechnical; also NotWoofers, alternative_war (citing the regional governor)",
       "url": "https://x.com/Osinttechnical/status/2123954268688261373"
-    },
-    {
-      "time": "09:02",
-      "ts": "2026-11-21T09:02:05+08:00",
-      "eventTime": "7:00 am, 21 Nov (est.)",
-      "eventTs": "2026-11-21T07:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis fire missiles at Riyadh again: repeated early warnings, airport halted and airspace closed; coalition says 3 ballistic missiles intercepted, explosions and power problems reported",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition via Mario Nawfal; also MenchOsint, First Squawk, CocoPostel",
-      "url": "https://x.com/MarioNawfal/status/2123943573812879583"
     }
   ],
   "sources": [
@@ -3160,16 +3166,26 @@
       "title": "Osint613: fresh round of US sanctions linked to Iran",
       "site": "x.com",
       "href": "https://x.com/Osint613/status/2124924125638426835"
+    },
+    {
+      "title": "MenchOsint: Saudi airspace disruption, Jeddah and Dammam flights holding after launches from Yemen",
+      "site": "x.com",
+      "href": "https://x.com/MenchOsint/status/2124964288821436526"
+    },
+    {
+      "title": "Post Open Source: airspace disruption over western and eastern Saudi Arabia",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2124972658685296659"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The US Treasury issued new Iran-related sanctions early Tuesday on dozens of people and entities, many reportedly in the UAE, as the US blockade of Iranian oil continues.",
+      "Missile and drone launches from Yemen disrupted Saudi airspace around 4:30 am, holding flights to Jeddah and Dammam, after new US Treasury sanctions on Iran-linked networks.",
       "On Monday, Ukrainian drones hit Perm and forced Novoshakhtinsk to halt, Iran reportedly fired ballistic missiles and claimed US-linked ship seizures, and the EU presented a 22nd Russia sanctions package."
     ],
-    "updated": "Tue 24 Nov 2026, 1:58 am SGT",
-    "updatedTs": "2026-11-24T01:58:00+08:00"
+    "updated": "Tue 24 Nov 2026, 5:06 am SGT",
+    "updatedTs": "2026-11-24T05:06:00+08:00"
   },
   "last24Count": 13
 }
