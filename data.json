@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 12:03 pm SGT",
-  "lastScannedTs": "2026-11-23T12:03:00+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 12:20 pm SGT",
+  "lastScannedTs": "2026-11-23T12:20:00+08:00",
   "asOf": "Mon 23 Nov 2026, 12:03 pm SGT",
   "asOfTs": "2026-11-23T12:03:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh a fresh Qatari mediation push and softer Brent.",
     "lead": "Net read (last 24 hours): Escalating: Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh a fresh Qatari mediation push and softer Brent.",
     "verdict": "Bullish",
-    "count": "13 of 16 alerts point higher, 3 lower",
-    "text": "13 of 16 alerts point higher, 3 lower.",
+    "count": "11 of 13 alerts point higher, 2 lower",
+    "text": "11 of 13 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Kaleykino Druzhba pumping station in Tatarstan reportedly hit by drones again",
@@ -76,18 +76,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T15:18:07+08:00"
-      },
-      {
-        "text": "CENTCOM blockade extends to ship-to-ship transfers; STS tanker heads for the line",
-        "confidence": "unconfirmed",
-        "theme": "Sanctions evasion",
-        "ts": "2026-11-22T12:19:50+08:00"
-      },
-      {
-        "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-22T12:19:50+08:00"
       }
     ],
     "dovish": [
@@ -102,12 +90,6 @@
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-23T00:03:29+08:00"
-      },
-      {
-        "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-22T12:19:50+08:00"
       }
     ],
     "neutral": []
