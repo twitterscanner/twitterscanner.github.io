@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 2:00 pm SGT",
-  "lastScannedTs": "2026-11-23T14:00:26+08:00",
-  "asOf": "Mon 23 Nov 2026, 1:41 pm SGT",
-  "asOfTs": "2026-11-23T13:41:45+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 2:17 pm SGT",
+  "lastScannedTs": "2026-11-23T14:17:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 2:16 pm SGT",
+  "asOfTs": "2026-11-23T14:16:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: widening Ukrainian strikes on Russian refineries and oil storage, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: widening Ukrainian strikes on Russian refineries and oil storage, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation.",
+    "bottom": "Escalating: a fresh Hormuz tanker fire, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: a fresh Hormuz tanker fire, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "13 of 15 alerts point higher, 2 lower",
-    "text": "13 of 15 alerts point higher, 2 lower.",
+    "count": "14 of 16 alerts point higher, 2 lower",
+    "text": "14 of 16 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Another tanker reportedly hit and burning in the Strait of Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-23T14:16:45+08:00"
+      },
       {
         "text": "Drones reportedly attacking an oil refinery in Russia's Perm Krai",
         "confidence": "unconfirmed",
@@ -111,6 +117,19 @@
     "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:16",
+      "ts": "2026-11-23T14:16:45+08:00",
+      "eventTime": "2:05 pm, 23 Nov (est.)",
+      "eventTs": "2026-11-23T14:05:00+08:00",
+      "eventQual": "est.",
+      "headline": "Another oil tanker reportedly hit in the Strait of Hormuz with a large fire onboard; IRGC attack or Iranian mine unclear",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping on X; footage via FromIran and other accounts",
+      "url": "https://x.com/AMK_Mapping_/status/2124748120542400550"
+    },
     {
       "time": "13:41",
       "ts": "2026-11-23T13:41:45+08:00",
@@ -617,19 +636,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO warning 214-26, via Open Source Intel; also OSINTdefender, First Squawk, Iran International",
       "url": "https://x.com/Osint613/status/2123810352768995482"
-    },
-    {
-      "time": "00:04",
-      "ts": "2026-11-21T00:04:00+08:00",
-      "eventTime": "11:28 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T23:28:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian media now report a likely US strike on Qeshm Island; Tasnim says a US missile hit the outskirts of Qeshm City; no US confirmation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian outlets incl. Tasnim, via OSINTdefender",
-      "url": "https://x.com/sentdefender/status/2123809690161176666"
     }
   ],
   "sources": [
@@ -3087,16 +3093,21 @@
       "title": "Exilenova+: strike drones attacking an oil refinery in Perm Krai",
       "site": "x.com",
       "href": "https://x.com/Exilenova_plus/status/2124739735776297325"
+    },
+    {
+      "title": "AMK Mapping: another oil tanker hit in the Strait of Hormuz, large fire onboard",
+      "site": "x.com",
+      "href": "https://x.com/AMK_Mapping_/status/2124748120542400550"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones hit Novoshakhtinsk refinery and damaged Tatarstan oil storage, per Interfax, and a Perm Krai refinery is reportedly under attack, while Libya lost about 350,000 barrels a day at Sharara.",
-      "Iran tension around Hormuz and a Houthi Rabigh refinery claim persist, while Qatar's prime minister heads to Washington to meet Rubio as the key Iran-US mediator."
+      "Ukrainian drones hit the Novoshakhtinsk and Perm refineries and the Kaleykino pumping hub in Tatarstan, while Libya lost about 350,000 barrels a day at Sharara.",
+      "Another oil tanker was reportedly hit and set ablaze in the Strait of Hormuz, as Qatar's prime minister heads to Washington to meet Rubio as the key Iran-US mediator."
     ],
-    "updated": "Mon 23 Nov 2026, 1:44 pm SGT",
-    "updatedTs": "2026-11-23T13:44:00+08:00"
+    "updated": "Mon 23 Nov 2026, 2:17 pm SGT",
+    "updatedTs": "2026-11-23T14:17:00+08:00"
   },
   "last24Count": 13
 }
