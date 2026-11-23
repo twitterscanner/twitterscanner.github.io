@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 3:00 pm SGT",
-  "lastScannedTs": "2026-11-23T14:58:00+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 3:24 pm SGT",
+  "lastScannedTs": "2026-11-23T15:24:24+08:00",
   "asOf": "Mon 23 Nov 2026, 2:34 pm SGT",
   "asOfTs": "2026-11-23T14:34:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Hormuz tanker attacks and Iranian threats, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
     "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks and Iranian threats, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "15 of 17 alerts point higher, 2 lower",
-    "text": "15 of 17 alerts point higher, 2 lower.",
+    "count": "14 of 16 alerts point higher, 2 lower",
+    "text": "14 of 16 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Iranian MP claims Iran hits about 10 tankers a day; Hormuz southern-route flows down",
@@ -94,12 +94,6 @@
         "confidence": "confirmed",
         "theme": "Pipelines",
         "ts": "2026-11-22T18:19:43+08:00"
-      },
-      {
-        "text": "Houthi missile toward western Saudi Arabia (Red Sea terminals) intercepted",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-22T15:18:07+08:00"
       }
     ],
     "dovish": [
@@ -119,8 +113,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "~$92",
-    "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
+    "value": "2.29",
+    "detail": "Brent futures down 28 cents (0.3%) to 2.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
     {
