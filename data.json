@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 7:04 am SGT",
-  "lastScannedTs": "2026-11-23T07:04:53+08:00",
-  "asOf": "Mon 23 Nov 2026, 7:04 am SGT",
-  "asOfTs": "2026-11-23T07:04:53+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 8:07 am SGT",
+  "lastScannedTs": "2026-11-23T08:07:12+08:00",
+  "asOf": "Mon 23 Nov 2026, 8:07 am SGT",
+  "asOfTs": "2026-11-23T08:07:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian air-defence activity in Khuzestan and near Hormuz, a claimed Houthi hit on Rabigh and Trump's blockade threats dominate.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian air-defence activity in Khuzestan and near Hormuz, a claimed Houthi hit on Rabigh and Trump's blockade threats dominate.",
+    "bottom": "Escalating: a 350,000 bpd Libyan Sharara outage, Iranian air-defence activity near Hormuz and Trump's blockade threats outweigh softer Brent and stalled talks.",
+    "lead": "Net read (last 24 hours): Escalating: a 350,000 bpd Libyan Sharara outage, Iranian air-defence activity near Hormuz and Trump's blockade threats outweigh softer Brent and stalled talks.",
     "verdict": "Bullish",
-    "count": "12 of 14 alerts point higher, 2 lower",
-    "text": "12 of 14 alerts point higher, 2 lower.",
+    "count": "13 of 15 alerts point higher, 2 lower",
+    "text": "13 of 15 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Libya's Sharara pipeline valve shut by armed group, about 350,000 bpd offline",
+        "confidence": "Confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-23T08:07:12+08:00"
+      },
       {
         "text": "Heavy air defence fire and drone launches reported across Khuzestan, Iran's oil heartland",
         "confidence": "Unconfirmed",
@@ -101,10 +107,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "$92.57",
-    "detail": "Brent settled at $92.57/bbl on Friday 20 Nov, down 3.4% on the week; markets closed for the weekend (posts on X, 11:43 am SGT 21 Nov)"
+    "value": "$91.57",
+    "detail": "Brent futures fell $1 to $91.57/bbl in early Asian trade (First Squawk on X, 7:55 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "08:07",
+      "ts": "2026-11-23T08:07:12+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Libya's NOC says an 'unlawful group' closed a valve on the Sharara oil pipeline, cutting about 350,000 bpd of production",
+      "theme": "Pipelines",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk on X (Libya NOC statement)",
+      "url": "https://x.com/FirstSquawk/status/2124654284650479621"
+    },
     {
       "time": "07:04",
       "ts": "2026-11-23T07:04:53+08:00",
@@ -611,19 +630,6 @@
       "confidence": "Confirmed",
       "source": "Treasury Secretary Scott Bessent, via Open Source Intel",
       "url": "https://x.com/Osint613/status/2123802341598249003"
-    },
-    {
-      "time": "22:05",
-      "ts": "2026-11-20T22:05:00+08:00",
-      "eventTime": "9:58 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T21:58:00+08:00",
-      "eventQual": "est.",
-      "headline": "Surface-to-air missile reportedly launched from Iran's Qeshm Island in the Strait of Hormuz, apparently at a US military drone",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Babak Taghvaee; Iran International (Persian) reports residents heard a launch and saw a trail",
-      "url": "https://x.com/BabakTaghvaee1/status/2123778896155808215"
     }
   ],
   "sources": [
@@ -3046,16 +3052,26 @@
       "title": "Intense AA activity in Ramhormoz, Khuzestan",
       "site": "X / FromIran feed",
       "href": "https://x.com/hey_itsmyturn/status/2124619392377901108"
+    },
+    {
+      "title": "Libya NOC: Sharara pipeline valve closed by unlawful group, ~350,000 bpd loss",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2124654284650479621"
+    },
+    {
+      "title": "Brent crude futures fall $1 to $91.57",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2124653130814308442"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis claimed a hit on Saudi Arabia's Rabigh refinery, unconfirmed by Riyadh, and Trump warned Iranian tankers running the US blockade would be sunk.",
-      "Before dawn, local reports described heavy Iranian air-defence fire and drone launches across Khuzestan and near Hormuz, while strikes were reported on Russia's Novoshakhtinsk refinery."
+      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Brent eased toward $91.57.",
+      "Overnight, local reports described heavy Iranian air-defence fire across Khuzestan and near Hormuz, strikes hit Russia's Novoshakhtinsk refinery, and the Houthis claimed a Rabigh hit."
     ],
-    "updated": "Mon 23 Nov 2026, 7:04 am SGT",
-    "updatedTs": "2026-11-23T07:04:53+08:00"
+    "updated": "Mon 23 Nov 2026, 8:07 am SGT",
+    "updatedTs": "2026-11-23T08:07:12+08:00"
   },
   "last24Count": 13
 }
