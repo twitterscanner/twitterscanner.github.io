@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 5:33 pm SGT",
-  "lastScannedTs": "2026-11-23T17:33:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 5:31 pm SGT",
-  "asOfTs": "2026-11-23T17:31:25+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 6:01 pm SGT",
+  "lastScannedTs": "2026-11-23T18:01:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 5:59 pm SGT",
+  "asOfTs": "2026-11-23T17:59:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries, a 350,000 bpd Libyan outage and a cold-driven European gas spike outweigh Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries, a 350,000 bpd Libyan outage and a cold-driven European gas spike outweigh Qatari mediation.",
+    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries and ports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries and ports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "15 of 17 alerts point higher, 2 lower",
-    "text": "15 of 17 alerts point higher, 2 lower.",
+    "count": "16 of 18 alerts point higher, 2 lower",
+    "text": "16 of 18 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Storms and drones delay Russian Baltic and Novorossiysk crude loadings",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T17:59:55+08:00"
+      },
       {
         "text": "European gas jumps 8.6% on cold forecasts with storage at decade lows",
         "confidence": "unconfirmed",
@@ -123,6 +129,19 @@
     "detail": "Brent futures down 28 cents (0.3%) to $92.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:59",
+      "ts": "2026-11-23T17:59:55+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russian western oil exports curbed by bad weather and drones: over 10 tankers delayed in Baltic ports, Novorossiysk loadings disrupted as Black Sea storms persist",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Giovanni Staunovo on X",
+      "url": "https://x.com/staunovo/status/2124800355900825658"
+    },
     {
       "time": "17:31",
       "ts": "2026-11-23T17:31:25+08:00",
@@ -629,19 +648,6 @@
       "confidence": "Confirmed",
       "source": "Hormozgan provincial official via IRNA, reported by LiveSquawk",
       "url": "https://x.com/LiveSquawk/status/2123820841091637727"
-    },
-    {
-      "time": "00:35",
-      "ts": "2026-11-21T00:35:00+08:00",
-      "eventTime": "11:00 pm, 20 Nov",
-      "eventTs": "2026-11-20T23:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Iran's IRGC says the tanker that caught fire near Khasab hit a mine while trying to transit the Strait of Hormuz on an unauthorized route",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "IRGC via Iranian state media, reported by Al Arabiya English and wires",
-      "url": "https://x.com/AlArabiya_Eng/status/2123817502044049547"
     }
   ],
   "sources": [
@@ -3114,16 +3120,21 @@
       "title": "Oil & Energy: European gas prices jump 8.6% on colder forecasts and decade-low storage",
       "site": "x.com",
       "href": "https://x.com/OilandEnergy/status/2124794185408565535"
+    },
+    {
+      "title": "Giovanni Staunovo: Russian western oil exports curbed by bad weather, drones",
+      "site": "x.com",
+      "href": "https://x.com/staunovo/status/2124800355900825658"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones hit the Novoshakhtinsk and Perm refineries and the Kaleykino pumping hub in Tatarstan, while Libya lost about 350,000 barrels a day at Sharara.",
-      "Another tanker was reportedly set ablaze in Hormuz as Qatar's prime minister heads to Washington, and European gas jumped 8.6% on cold forecasts and low storage."
+      "Ukrainian drones hit the Novoshakhtinsk and Perm refineries and the Kaleykino hub in Tatarstan, while storms and drones delayed Russian Baltic and Novorossiysk crude loadings.",
+      "Libya lost about 350,000 barrels a day at Sharara, another tanker was reportedly set ablaze in Hormuz, and European gas jumped 8.6% on cold forecasts."
     ],
-    "updated": "Mon 23 Nov 2026, 5:33 pm SGT",
-    "updatedTs": "2026-11-23T17:33:00+08:00"
+    "updated": "Mon 23 Nov 2026, 6:01 pm SGT",
+    "updatedTs": "2026-11-23T18:01:00+08:00"
   },
   "last24Count": 13
 }
