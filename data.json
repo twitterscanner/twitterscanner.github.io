@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 5:06 am SGT",
-  "lastScannedTs": "2026-11-24T05:06:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 5:06 am SGT",
-  "asOfTs": "2026-11-24T05:06:35+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 6:03 am SGT",
+  "lastScannedTs": "2026-11-24T06:03:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 6:03 am SGT",
+  "asOfTs": "2026-11-24T06:03:37+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Yemeni launches at Saudi Arabia, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
-    "lead": "Net read (last 24 hours): Escalating: Yemeni launches at Saudi Arabia, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
+    "bottom": "Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia and Ukrainian refinery strikes outweigh Sharara's restart and Qatar mediation.",
+    "lead": "Net read (last 24 hours): Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia and Ukrainian refinery strikes outweigh Sharara's restart and Qatar mediation.",
     "verdict": "Bullish",
-    "count": "14 of 18 alerts point higher, 2 lower",
-    "text": "14 of 18 alerts point higher, 2 lower.",
+    "count": "15 of 19 alerts point higher, 2 lower",
+    "text": "15 of 19 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims three tankers hit naval mines and burned in Hormuz despite US escort",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T06:03:00+08:00"
+      },
       {
         "text": "Yemen missile and drone launches disrupt Saudi airspace over Jeddah and Dammam",
         "confidence": "unconfirmed",
@@ -130,6 +136,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "06:03",
+      "ts": "2026-11-24T06:03:00+08:00",
+      "eventTime": "4:00 am, 24 Nov (est.)",
+      "eventTs": "2026-11-24T04:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy says three 'violating' oil tankers hit naval mines in the Strait of Hormuz and caught fire despite a US air escort; no independent confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint on X, citing Iran's navy; also Post Open Source, Middle East Eye, IRNA via Sputnik",
+      "url": "https://x.com/MenchOsint/status/2124983403749466497"
+    },
     {
       "time": "05:06",
       "ts": "2026-11-24T05:06:00+08:00",
@@ -636,19 +655,6 @@
       "confidence": "Confirmed",
       "source": "Rudaw English, citing Iraqi state media; also Basra Health Directorate toll via Channel 8, K24, RT",
       "url": "https://x.com/RudawEnglish/status/2124031439771447380"
-    },
-    {
-      "time": "12:04",
-      "ts": "2026-11-21T12:04:09+08:00",
-      "eventTime": "9:15 am, 21 Nov (est.)",
-      "eventTs": "2026-11-21T09:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drone raid on Russia's Leningrad region: dozens of drones head for the Ust-Luga oil export terminal; governor says air defences active, no impact confirmed yet",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "OSINTtechnical; also NotWoofers, alternative_war (citing the regional governor)",
-      "url": "https://x.com/Osinttechnical/status/2123954268688261373"
     }
   ],
   "sources": [
@@ -3176,16 +3182,31 @@
       "title": "Post Open Source: airspace disruption over western and eastern Saudi Arabia",
       "site": "x.com",
       "href": "https://x.com/CocoPostel/status/2124972658685296659"
+    },
+    {
+      "title": "MenchOsint: Iranian Navy says three oil tankers struck in the Strait of Hormuz",
+      "site": "x.com",
+      "href": "https://x.com/MenchOsint/status/2124983403749466497"
+    },
+    {
+      "title": "Post Open Source: Iran's navy claims three oil tankers struck in Hormuz despite US air escort",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2124986128159985677"
+    },
+    {
+      "title": "Middle East Eye: three tankers exploded after hitting naval mines in Hormuz, per IRGC Navy",
+      "site": "x.com",
+      "href": "https://x.com/MiddleEastEye/status/2124985939776741556"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Missile and drone launches from Yemen disrupted Saudi airspace around 4:30 am, holding flights to Jeddah and Dammam, after new US Treasury sanctions on Iran-linked networks.",
-      "On Monday, Ukrainian drones hit Perm and forced Novoshakhtinsk to halt, Iran reportedly fired ballistic missiles and claimed US-linked ship seizures, and the EU presented a 22nd Russia sanctions package."
+      "Iran's IRGC Navy claimed three oil tankers hit naval mines and caught fire in the Strait of Hormuz early today, despite a US air escort; unconfirmed independently.",
+      "Missile and drone launches from Yemen disrupted Saudi airspace around 4:30 am, holding flights to Jeddah and Dammam, after new US Treasury sanctions on Iran-linked networks."
     ],
-    "updated": "Tue 24 Nov 2026, 5:06 am SGT",
-    "updatedTs": "2026-11-24T05:06:00+08:00"
+    "updated": "Tue 24 Nov 2026, 6:03 am SGT",
+    "updatedTs": "2026-11-24T06:03:00+08:00"
   },
   "last24Count": 13
 }
