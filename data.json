@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 7:05 pm SGT",
-  "lastScannedTs": "2026-11-23T19:05:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 7:04 pm SGT",
-  "asOfTs": "2026-11-23T19:04:09+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 7:25 pm SGT",
+  "lastScannedTs": "2026-11-23T19:25:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 7:23 pm SGT",
+  "asOfTs": "2026-11-23T19:23:54+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
+    "bottom": "Escalating: Iranian missile launches, Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 3 lower",
-    "text": "16 of 19 alerts point higher, 3 lower.",
+    "count": "17 of 20 alerts point higher, 3 lower",
+    "text": "17 of 20 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Iran fires ballistic missiles from Khuzestan and Kurdistan; target unknown",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-23T19:24:00+08:00"
+      },
       {
         "text": "Novoshakhtinsk refinery halts operations after Ukrainian drone attack, governor says",
         "confidence": "confirmed",
@@ -135,6 +141,19 @@
     "detail": "Brent futures down 28 cents (0.3%) to $92.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:24",
+      "ts": "2026-11-23T19:24:00+08:00",
+      "eventTime": "7:10 pm, 23 Nov (est.)",
+      "eventTs": "2026-11-23T19:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran launches at least two ballistic missiles from Khuzestan (and reportedly Kurdistan) province; target unknown, possibly a test, amid the US blockade",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Conflict Radar on X; also Post Open Source",
+      "url": "https://x.com/Conflict_Radar/status/2124823231261766024"
+    },
     {
       "time": "19:04",
       "ts": "2026-11-23T19:04:00+08:00",
@@ -641,19 +660,6 @@
       "confidence": "Confirmed",
       "source": "Axios scoop by Barak Ravid; also LiveSquawk, First Squawk",
       "url": "https://x.com/BarakRavid/status/2123853497372455385"
-    },
-    {
-      "time": "01:38",
-      "ts": "2026-11-21T01:38:00+08:00",
-      "eventTime": "1:30 am, 21 Nov (est.)",
-      "eventTs": "2026-11-21T01:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Trump says Iran wants a deal but not one acceptable to the US, and that US gasoline prices depend on how the Iran standoff is settled",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Trump press briefing via LiveSquawk; also First Squawk, Walter Bloomberg",
-      "url": "https://x.com/LiveSquawk/status/2123831881083015211"
     }
   ],
   "sources": [
@@ -3141,16 +3147,21 @@
       "title": "First Squawk: Libya NOC says Sharara oil pipeline reopens, flows resume to Zawiya",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2124813464963264804"
+    },
+    {
+      "title": "Conflict Radar: at least two ballistic missile launches detected in Khuzestan Province, Iran",
+      "site": "x.com",
+      "href": "https://x.com/Conflict_Radar/status/2124823231261766024"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones hit the Perm refinery and Tatarstan's Kaleykino hub and forced Novoshakhtinsk to halt, while storms and drones delayed Russian Baltic and Novorossiysk loadings.",
-      "Libya's Sharara pipeline shut and then reopened, restoring about 350,000 barrels a day, another tanker was reportedly set ablaze in Hormuz, and European gas jumped 8.6%."
+      "Iran reportedly fired ballistic missiles from Khuzestan, another tanker was reportedly set ablaze in Hormuz, and Libya's Sharara pipeline shut and then reopened."
     ],
-    "updated": "Mon 23 Nov 2026, 7:04 pm SGT",
-    "updatedTs": "2026-11-23T19:04:00+08:00"
+    "updated": "Mon 23 Nov 2026, 7:24 pm SGT",
+    "updatedTs": "2026-11-23T19:24:00+08:00"
   },
   "last24Count": 13
 }
