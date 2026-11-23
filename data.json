@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 5:02 pm SGT",
-  "lastScannedTs": "2026-11-23T17:02:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 2:34 pm SGT",
-  "asOfTs": "2026-11-23T14:34:13+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 5:33 pm SGT",
+  "lastScannedTs": "2026-11-23T17:33:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 5:31 pm SGT",
+  "asOfTs": "2026-11-23T17:31:25+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz tanker attacks and Iranian threats, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks and Iranian threats, widening Ukrainian strikes on Russian refineries and a 350,000 bpd Libyan outage outweigh Qatari mediation.",
+    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries, a 350,000 bpd Libyan outage and a cold-driven European gas spike outweigh Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries, a 350,000 bpd Libyan outage and a cold-driven European gas spike outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "14 of 16 alerts point higher, 2 lower",
-    "text": "14 of 16 alerts point higher, 2 lower.",
+    "count": "15 of 17 alerts point higher, 2 lower",
+    "text": "15 of 17 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "European gas jumps 8.6% on cold forecasts with storage at decade lows",
+        "confidence": "unconfirmed",
+        "theme": "Weather",
+        "ts": "2026-11-23T17:31:25+08:00"
+      },
       {
         "text": "Iranian MP claims Iran hits about 10 tankers a day; Hormuz southern-route flows down",
         "confidence": "unconfirmed",
@@ -117,6 +123,19 @@
     "detail": "Brent futures down 28 cents (0.3%) to $92.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:31",
+      "ts": "2026-11-23T17:31:25+08:00",
+      "eventTime": "5:15 pm, 23 Nov (est., European morning trading)",
+      "eventTs": "2026-11-23T17:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "European gas prices jump 8.6% to about EUR96/MWh as colder weather forecasts hit a continent with its lowest storage in over a decade (EU sites about 69% full)",
+      "theme": "Weather",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Oil & Energy on X",
+      "url": "https://x.com/OilandEnergy/status/2124794185408565535"
+    },
     {
       "time": "14:34",
       "ts": "2026-11-23T14:34:13+08:00",
@@ -623,19 +642,6 @@
       "confidence": "Confirmed",
       "source": "IRGC via Iranian state media, reported by Al Arabiya English and wires",
       "url": "https://x.com/AlArabiya_Eng/status/2123817502044049547"
-    },
-    {
-      "time": "00:30",
-      "ts": "2026-11-21T00:30:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "FT: Trump administration wants a Ukraine peace deal by early January, sources say",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Financial Times; also First Squawk",
-      "url": "https://x.com/FT/status/2123816348853669996"
     }
   ],
   "sources": [
@@ -3103,16 +3109,21 @@
       "title": "Iran International: Iranian MP says Iran hits about 10 'violating' tankers a day in Hormuz",
       "site": "x.com",
       "href": "https://x.com/IranIntl_En/status/2124752430273359955"
+    },
+    {
+      "title": "Oil & Energy: European gas prices jump 8.6% on colder forecasts and decade-low storage",
+      "site": "x.com",
+      "href": "https://x.com/OilandEnergy/status/2124794185408565535"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones hit the Novoshakhtinsk and Perm refineries and the Kaleykino pumping hub in Tatarstan, while Libya lost about 350,000 barrels a day at Sharara.",
-      "Another oil tanker was reportedly set ablaze in Hormuz and an Iranian MP claimed Iran hits about ten tankers a day, as Qatar's prime minister heads to Washington."
+      "Another tanker was reportedly set ablaze in Hormuz as Qatar's prime minister heads to Washington, and European gas jumped 8.6% on cold forecasts and low storage."
     ],
-    "updated": "Mon 23 Nov 2026, 2:36 pm SGT",
-    "updatedTs": "2026-11-23T14:36:00+08:00"
+    "updated": "Mon 23 Nov 2026, 5:33 pm SGT",
+    "updatedTs": "2026-11-23T17:33:00+08:00"
   },
   "last24Count": 13
 }
