@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 9:05 pm SGT",
-  "lastScannedTs": "2026-11-23T21:05:00+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 9:25 pm SGT",
+  "lastScannedTs": "2026-11-23T21:25:00+08:00",
   "asOf": "Mon 23 Nov 2026, 7:29 pm SGT",
   "asOfTs": "2026-11-23T19:29:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Iranian missile launches and claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Libya's Sharara restart and Qatari mediation.",
     "lead": "Net read (last 24 hours): Escalating: Iranian missile launches and claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Libya's Sharara restart and Qatari mediation.",
     "verdict": "Bullish",
-    "count": "18 of 21 alerts point higher, 3 lower",
-    "text": "18 of 21 alerts point higher, 3 lower.",
+    "count": "17 of 20 alerts point higher, 3 lower",
+    "text": "17 of 20 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Iran says it seized several US-linked ships to cover war compensation",
@@ -112,12 +112,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-23T00:04:29+08:00"
-      },
-      {
-        "text": "Houthi drone launched toward Riyadh destroyed by Saudi air defences",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-22T21:19:21+08:00"
       }
     ],
     "dovish": [
