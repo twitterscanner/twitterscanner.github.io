@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 6:23 pm SGT",
-  "lastScannedTs": "2026-11-23T18:23:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 6:12 pm SGT",
-  "asOfTs": "2026-11-23T18:12:04+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 7:05 pm SGT",
+  "lastScannedTs": "2026-11-23T19:05:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 7:04 pm SGT",
+  "asOfTs": "2026-11-23T19:04:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes halting Russian refineries, storm-hit Russian exports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes halting Russian refineries, storm-hit Russian exports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
+    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
     "verdict": "Bullish",
-    "count": "16 of 18 alerts point higher, 2 lower",
-    "text": "16 of 18 alerts point higher, 2 lower.",
+    "count": "16 of 19 alerts point higher, 3 lower",
+    "text": "16 of 19 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Novoshakhtinsk refinery halts operations after Ukrainian drone attack, governor says",
@@ -110,6 +110,12 @@
     ],
     "dovish": [
       {
+        "text": "Libya's Sharara pipeline reopens, restoring about 350,000 bpd to Zawiya",
+        "confidence": "confirmed",
+        "theme": "Pipelines",
+        "ts": "2026-11-23T19:04:00+08:00"
+      },
+      {
         "text": "Qatari PM, Iran-US mediator, to meet Rubio in Washington on Monday",
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
@@ -129,6 +135,19 @@
     "detail": "Brent futures down 28 cents (0.3%) to $92.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:04",
+      "ts": "2026-11-23T19:04:00+08:00",
+      "eventTime": "6:33 pm, 23 Nov (est., at or before)",
+      "eventTs": "2026-11-23T18:33:00+08:00",
+      "eventQual": "est.",
+      "headline": "Libya's NOC says the Sharara oil pipeline has reopened and flows to Zawiya have resumed, reversing this morning's ~350,000 bpd outage",
+      "theme": "Pipelines",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "First Squawk on X (Libya NOC statement)",
+      "url": "https://x.com/FirstSquawk/status/2124813464963264804"
+    },
     {
       "time": "18:12",
       "ts": "2026-11-23T18:12:04+08:00",
@@ -635,19 +654,6 @@
       "confidence": "Confirmed",
       "source": "Trump press briefing via LiveSquawk; also First Squawk, Walter Bloomberg",
       "url": "https://x.com/LiveSquawk/status/2123831881083015211"
-    },
-    {
-      "time": "01:03",
-      "ts": "2026-11-21T01:03:00+08:00",
-      "eventTime": "11:25 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T23:25:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthi military spokesman claims an attack on Saudi Arabia's Shuqaiq power station and Jazan port with direct hits and major damage (Arabic); Saudi side earlier reported interceptions",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic); also First Squawk",
-      "url": "https://x.com/Yah_Saree/status/2123824511107936678"
     }
   ],
   "sources": [
@@ -3130,16 +3136,21 @@
       "title": "CGTN Europe: Novoshakhtinsk oil refinery halts operations after Ukrainian attack, governor says",
       "site": "x.com",
       "href": "https://x.com/CGTNEurope/status/2124807289055875306"
+    },
+    {
+      "title": "First Squawk: Libya NOC says Sharara oil pipeline reopens, flows resume to Zawiya",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2124813464963264804"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones hit the Perm refinery and Tatarstan's Kaleykino hub and forced Novoshakhtinsk to halt, while storms and drones delayed Russian Baltic and Novorossiysk loadings.",
-      "Libya lost about 350,000 barrels a day at Sharara, another tanker was reportedly set ablaze in Hormuz, and European gas jumped 8.6% on cold forecasts."
+      "Libya's Sharara pipeline shut and then reopened, restoring about 350,000 barrels a day, another tanker was reportedly set ablaze in Hormuz, and European gas jumped 8.6%."
     ],
-    "updated": "Mon 23 Nov 2026, 6:13 pm SGT",
-    "updatedTs": "2026-11-23T18:13:00+08:00"
+    "updated": "Mon 23 Nov 2026, 7:04 pm SGT",
+    "updatedTs": "2026-11-23T19:04:00+08:00"
   },
   "last24Count": 13
 }
