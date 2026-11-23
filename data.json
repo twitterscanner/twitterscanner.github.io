@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 6:01 pm SGT",
-  "lastScannedTs": "2026-11-23T18:01:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 5:59 pm SGT",
-  "asOfTs": "2026-11-23T17:59:55+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 6:13 pm SGT",
+  "lastScannedTs": "2026-11-23T18:13:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 6:12 pm SGT",
+  "asOfTs": "2026-11-23T18:12:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries and ports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes on Russian refineries and ports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
+    "bottom": "Escalating: Hormuz tanker attacks, Ukrainian strikes halting Russian refineries, storm-hit Russian exports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Ukrainian strikes halting Russian refineries, storm-hit Russian exports, a 350,000 bpd Libyan outage and a European gas spike outweigh Qatari mediation.",
     "verdict": "Bullish",
-    "count": "16 of 18 alerts point higher, 2 lower",
-    "text": "16 of 18 alerts point higher, 2 lower.",
+    "count": "17 of 19 alerts point higher, 2 lower",
+    "text": "17 of 19 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Novoshakhtinsk refinery halts operations after Ukrainian drone attack, governor says",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T18:12:04+08:00"
+      },
       {
         "text": "Storms and drones delay Russian Baltic and Novorossiysk crude loadings",
         "confidence": "unconfirmed",
@@ -129,6 +135,19 @@
     "detail": "Brent futures down 28 cents (0.3%) to $92.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:12",
+      "ts": "2026-11-23T18:12:04+08:00",
+      "eventTime": "7:00 am, 23 Nov (est., overnight strike; halt time not stated)",
+      "eventTs": "2026-11-23T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Rostov governor says the Novoshakhtinsk oil refinery has halted operations after the overnight Ukrainian drone attack",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "CGTN Europe on X",
+      "url": "https://x.com/CGTNEurope/status/2124807289055875306"
+    },
     {
       "time": "17:59",
       "ts": "2026-11-23T17:59:55+08:00",
@@ -635,19 +654,6 @@
       "confidence": "Unconfirmed",
       "source": "Houthi military spokesman Yahya Saree (Arabic); also First Squawk",
       "url": "https://x.com/Yah_Saree/status/2123824511107936678"
-    },
-    {
-      "time": "00:48",
-      "ts": "2026-11-21T00:48:00+08:00",
-      "eventTime": "11:28 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T23:28:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian Hormozgan official tells IRNA the Qeshm blast and smoke came from ordnance disposal, contradicting earlier Iranian media reports of a US missile strike",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Hormozgan provincial official via IRNA, reported by LiveSquawk",
-      "url": "https://x.com/LiveSquawk/status/2123820841091637727"
     }
   ],
   "sources": [
@@ -3125,16 +3131,21 @@
       "title": "Giovanni Staunovo: Russian western oil exports curbed by bad weather, drones",
       "site": "x.com",
       "href": "https://x.com/staunovo/status/2124800355900825658"
+    },
+    {
+      "title": "CGTN Europe: Novoshakhtinsk oil refinery halts operations after Ukrainian attack, governor says",
+      "site": "x.com",
+      "href": "https://x.com/CGTNEurope/status/2124807289055875306"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones hit the Novoshakhtinsk and Perm refineries and the Kaleykino hub in Tatarstan, while storms and drones delayed Russian Baltic and Novorossiysk crude loadings.",
+      "Ukrainian drones hit the Perm refinery and Tatarstan's Kaleykino hub and forced Novoshakhtinsk to halt, while storms and drones delayed Russian Baltic and Novorossiysk loadings.",
       "Libya lost about 350,000 barrels a day at Sharara, another tanker was reportedly set ablaze in Hormuz, and European gas jumped 8.6% on cold forecasts."
     ],
-    "updated": "Mon 23 Nov 2026, 6:01 pm SGT",
-    "updatedTs": "2026-11-23T18:01:00+08:00"
+    "updated": "Mon 23 Nov 2026, 6:13 pm SGT",
+    "updatedTs": "2026-11-23T18:13:00+08:00"
   },
   "last24Count": 13
 }
