@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 1:00 pm SGT",
-  "lastScannedTs": "2026-11-23T13:00:10+08:00",
-  "asOf": "Mon 23 Nov 2026, 12:03 pm SGT",
-  "asOfTs": "2026-11-23T12:03:13+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 1:22 pm SGT",
+  "lastScannedTs": "2026-11-23T13:22:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 1:20 pm SGT",
+  "asOfTs": "2026-11-23T13:20:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh a fresh Qatari mediation push and softer Brent.",
-    "lead": "Net read (last 24 hours): Escalating: Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh a fresh Qatari mediation push and softer Brent.",
+    "bottom": "Escalating: confirmed damage to Tatarstan oil storage, Russian refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation and softer Brent.",
+    "lead": "Net read (last 24 hours): Escalating: confirmed damage to Tatarstan oil storage, Russian refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh Qatari mediation and softer Brent.",
     "verdict": "Bullish",
-    "count": "11 of 13 alerts point higher, 2 lower",
-    "text": "11 of 13 alerts point higher, 2 lower.",
+    "count": "12 of 14 alerts point higher, 2 lower",
+    "text": "12 of 14 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Tatarstan confirms drone strikes damaged oil storage near Druzhba's Kaleykino hub",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T13:20:16+08:00"
+      },
       {
         "text": "Kaleykino Druzhba pumping station in Tatarstan reportedly hit by drones again",
         "confidence": "unconfirmed",
@@ -99,6 +105,19 @@
     "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "13:20",
+      "ts": "2026-11-23T13:20:16+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Interfax: Tatarstan reports Ukrainian drone attacks damaged oil storage facilities, confirming strikes near Druzhba's Kaleykino hub",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk on X (Interfax); Sky News Arabia, Al Arabiya echo",
+      "url": "https://x.com/FirstSquawk/status/2124732642855895117"
+    },
     {
       "time": "12:03",
       "ts": "2026-11-23T12:03:13+08:00",
@@ -605,19 +624,6 @@
       "confidence": "Unconfirmed",
       "source": "Houthi statement as reported by Post Open Source",
       "url": "https://x.com/CocoPostel/status/2123808495761817782"
-    },
-    {
-      "time": "23:40",
-      "ts": "2026-11-20T23:40:00+08:00",
-      "eventTime": "11:28 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T23:28:00+08:00",
-      "eventQual": "est.",
-      "headline": "Blast heard over Iran's Qeshm Island in the Strait of Hormuz, Fars reports; one OSINT account claims a US airstrike hit a missile launcher there",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Fars via First Squawk; War Radar claims US strike (unconfirmed); Post Open Source reports a hostile aerial target shot down",
-      "url": "https://x.com/FirstSquawk/status/2123803472810406168"
     }
   ],
   "sources": [
@@ -3065,16 +3071,21 @@
       "title": "Barak Ravid: Qatari PM to meet Rubio in Washington on Monday",
       "site": "x.com",
       "href": "https://x.com/BarakRavid/status/2124713569107185731"
+    },
+    {
+      "title": "First Squawk: Tatarstan reports drone attacks on oil storage facilities (Interfax)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2124732642855895117"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Ukrainian drones reportedly hit Novoshakhtinsk refinery and Kaleykino.",
+      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Ukrainian drones hit Novoshakhtinsk refinery and Tatarstan oil storage, per Interfax.",
       "Iran tension around Hormuz and a Houthi Rabigh refinery claim persist, while Qatar's prime minister heads to Washington to meet Rubio as the key Iran-US mediator."
     ],
-    "updated": "Mon 23 Nov 2026, 12:03 pm SGT",
-    "updatedTs": "2026-11-23T12:03:00+08:00"
+    "updated": "Mon 23 Nov 2026, 1:21 pm SGT",
+    "updatedTs": "2026-11-23T13:21:00+08:00"
   },
   "last24Count": 13
 }
