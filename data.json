@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 3:04 am SGT",
-  "lastScannedTs": "2026-11-24T03:04:24+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 4:05 am SGT",
+  "lastScannedTs": "2026-11-24T04:05:00+08:00",
   "asOf": "Tue 24 Nov 2026, 1:58 am SGT",
   "asOfTs": "2026-11-24T01:58:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
+    "bottom": "Escalating: claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
+    "lead": "Net read (last 24 hours): Escalating: claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Sharara's restart; new US and EU sanctions add pressure.",
     "verdict": "Bullish",
-    "count": "14 of 18 alerts point higher, 2 lower",
-    "text": "14 of 18 alerts point higher, 2 lower.",
+    "count": "13 of 17 alerts point higher, 2 lower",
+    "text": "13 of 17 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Iran says it seized several US-linked ships to cover war compensation",
@@ -88,12 +88,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-23T07:03:53+08:00"
-      },
-      {
-        "text": "Air defence fire and missile launches reported at Sirik near Hormuz amid heavy USAF activity",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-23T04:04:22+08:00"
       }
     ],
     "dovish": [
@@ -126,8 +120,8 @@
     ]
   },
   "brent": {
-    "value": "$89.86",
-    "detail": "Brent down 2.9% to $89.86/bbl on Monday (Oil & Energy Online on X, about 10:41 pm SGT 23 Nov)"
+    "value": "$89.37",
+    "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
     {
