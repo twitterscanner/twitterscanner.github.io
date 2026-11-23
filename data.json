@@ -1,85 +1,91 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 11:05 am SGT",
-  "lastScannedTs": "2026-11-23T11:05:08+08:00",
-  "asOf": "Mon 23 Nov 2026, 8:07 am SGT",
-  "asOfTs": "2026-11-23T08:07:12+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 11:35 am SGT",
+  "lastScannedTs": "2026-11-23T11:35:15+08:00",
+  "asOf": "Mon 23 Nov 2026, 11:35 am SGT",
+  "asOfTs": "2026-11-23T11:35:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: a 350,000 bpd Libyan Sharara outage, Iranian air-defence activity near Hormuz and Trump's blockade threats outweigh softer Brent and stalled talks.",
-    "lead": "Net read (last 24 hours): Escalating: a 350,000 bpd Libyan Sharara outage, Iranian air-defence activity near Hormuz and Trump's blockade threats outweigh softer Brent and stalled talks.",
+    "bottom": "Escalating: renewed Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh softer Brent and stalled talks.",
+    "lead": "Net read (last 24 hours): Escalating: renewed Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh softer Brent and stalled talks.",
     "verdict": "Bullish",
-    "count": "12 of 14 alerts point higher, 2 lower",
-    "text": "12 of 14 alerts point higher, 2 lower.",
+    "count": "13 of 15 alerts point higher, 2 lower",
+    "text": "13 of 15 alerts point higher, 2 lower.",
     "hawkish": [
       {
+        "text": "Kaleykino Druzhba pumping station in Tatarstan reportedly hit by drones again",
+        "confidence": "unconfirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-23T11:35:03+08:00"
+      },
+      {
         "text": "Libya's Sharara pipeline valve shut by armed group, about 350,000 bpd offline",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Pipelines",
         "ts": "2026-11-23T08:07:12+08:00"
       },
       {
         "text": "Heavy air defence fire and drone launches reported across Khuzestan, Iran's oil heartland",
-        "confidence": "Unconfirmed",
+        "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-23T07:04:53+08:00"
       },
       {
         "text": "Strikes reported on Russia's Novoshakhtinsk refinery in Rostov region",
-        "confidence": "Unconfirmed",
+        "confidence": "unconfirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-23T07:03:53+08:00"
       },
       {
         "text": "Air defence fire and missile launches reported at Sirik near Hormuz amid heavy USAF activity",
-        "confidence": "Unconfirmed",
+        "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-23T04:04:22+08:00"
       },
       {
         "text": "Trump inclined to resume Iran strikes after New Year; vows to sink blockade runners",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-23T03:03:41+08:00"
       },
       {
         "text": "Houthis claim a direct hit on Saudi Arabia's Rabigh refinery on the Red Sea",
-        "confidence": "Unconfirmed",
+        "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-23T03:02:41+08:00"
       },
       {
         "text": "UKMTO: tanker in incident with military forces off Chabahar, Gulf of Oman",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-23T00:04:29+08:00"
       },
       {
         "text": "Houthi drone launched toward Riyadh destroyed by Saudi air defences",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T21:19:21+08:00"
       },
       {
         "text": "Natural gas pipeline explodes near Ward, Alabama; operator and cause not yet known",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Pipelines",
         "ts": "2026-11-22T18:19:43+08:00"
       },
       {
         "text": "Houthi missile toward western Saudi Arabia (Red Sea terminals) intercepted",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-22T15:18:07+08:00"
       },
       {
         "text": "CENTCOM blockade extends to ship-to-ship transfers; STS tanker heads for the line",
-        "confidence": "Unconfirmed",
+        "confidence": "unconfirmed",
         "theme": "Sanctions evasion",
         "ts": "2026-11-22T12:19:50+08:00"
       },
       {
-        "text": "Unconfirmed report of a Marshall Islands Suezmax attacked overnight in Hormuz",
-        "confidence": "Unconfirmed",
+        "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
+        "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
       }
@@ -87,13 +93,13 @@
     "dovish": [
       {
         "text": "Trump: no decision on Iran, will wait until after January 1 for new steps",
-        "confidence": "Unconfirmed",
+        "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-23T00:03:29+08:00"
       },
       {
         "text": "Iran's 'Line Breaker' supertanker blockade run looks like an AIS spoof",
-        "confidence": "Confirmed",
+        "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
       }
@@ -101,10 +107,23 @@
     "neutral": []
   },
   "brent": {
-    "value": "$91.57",
-    "detail": "Brent futures fell $1 to $91.57/bbl in early Asian trade (First Squawk on X, 7:55 am SGT 23 Nov)"
+    "value": "~$92",
+    "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "11:35",
+      "ts": "2026-11-23T11:35:03+08:00",
+      "eventTime": "10:45 am, 23 Nov (est.)",
+      "eventTs": "2026-11-23T10:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukrainian drones reportedly hit the Kaleykino oil pumping station in Tatarstan again, a key Druzhba pipeline hub; siren and explosion reported",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Exilenova+ on X; LetsArmUKR, local Russian reports",
+      "url": "https://x.com/Exilenova_plus/status/2124703483609940363"
+    },
     {
       "time": "08:07",
       "ts": "2026-11-23T08:07:12+08:00",
@@ -611,19 +630,6 @@
       "confidence": "Confirmed",
       "source": "Saudi-led coalition statement, via OSINTdefender and Open Source Intel; MenchOsint suggests a possible direct hit (unconfirmed)",
       "url": "https://x.com/sentdefender/status/2123801809865076937"
-    },
-    {
-      "time": "23:35",
-      "ts": "2026-11-20T23:35:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US Treasury Secretary Bessent says more crude moved through the Strait of Hormuz last night than at any point since the conflict began",
-      "theme": "Hormuz",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Treasury Secretary Scott Bessent, via Open Source Intel",
-      "url": "https://x.com/Osint613/status/2123802341598249003"
     }
   ],
   "sources": [
@@ -3056,16 +3062,26 @@
       "title": "Brent crude futures fall $1 to $91.57",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2124653130814308442"
+    },
+    {
+      "title": "Kaleykino oil pumping station (Druzhba, Tatarstan) attacked again",
+      "site": "X / Exilenova+",
+      "href": "https://x.com/Exilenova_plus/status/2124703483609940363"
+    },
+    {
+      "title": "Brent trading around $92",
+      "site": "X / Anas Alhajji",
+      "href": "https://x.com/anasalhajji/status/2124698013335425466"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Brent eased toward $91.57.",
-      "Overnight, local reports described heavy Iranian air-defence fire across Khuzestan and near Hormuz, strikes hit Russia's Novoshakhtinsk refinery, and the Houthis claimed a Rabigh hit."
+      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Brent held near $92.",
+      "Ukrainian drones reportedly hit Russia's Novoshakhtinsk refinery and the Kaleykino Druzhba pumping station overnight, amid Iranian air-defence fire near Hormuz and a Houthi Rabigh claim."
     ],
-    "updated": "Mon 23 Nov 2026, 8:07 am SGT",
-    "updatedTs": "2026-11-23T08:07:12+08:00"
+    "updated": "Mon 23 Nov 2026, 11:35 am SGT",
+    "updatedTs": "2026-11-23T11:35:15+08:00"
   },
   "last24Count": 13
 }
