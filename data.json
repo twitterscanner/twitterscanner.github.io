@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 7:25 pm SGT",
-  "lastScannedTs": "2026-11-23T19:25:00+08:00",
-  "asOf": "Mon 23 Nov 2026, 7:23 pm SGT",
-  "asOfTs": "2026-11-23T19:23:54+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 7:30 pm SGT",
+  "lastScannedTs": "2026-11-23T19:30:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 7:29 pm SGT",
+  "asOfTs": "2026-11-23T19:29:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian missile launches, Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches, Hormuz tanker attacks, Ukrainian refinery strikes and storm-hit Russian exports outweigh Libya's Sharara restart and Qatari mediation.",
+    "bottom": "Escalating: Iranian missile launches and claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Libya's Sharara restart and Qatari mediation.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian missile launches and claimed ship seizures, Hormuz tanker attacks and Ukrainian refinery strikes outweigh Libya's Sharara restart and Qatari mediation.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 3 lower",
-    "text": "17 of 20 alerts point higher, 3 lower.",
+    "count": "18 of 21 alerts point higher, 3 lower",
+    "text": "18 of 21 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Iran says it seized several US-linked ships to cover war compensation",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-23T19:29:00+08:00"
+      },
       {
         "text": "Iran fires ballistic missiles from Khuzestan and Kurdistan; target unknown",
         "confidence": "unconfirmed",
@@ -141,6 +147,19 @@
     "detail": "Brent futures down 28 cents (0.3%) to $92.29/bbl on Monday as a global stock selloff spilled into commodities (Sarmaaya on X, 3:22 pm SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:29",
+      "ts": "2026-11-23T19:29:00+08:00",
+      "eventTime": "7:10 pm, 23 Nov (est.)",
+      "eventTs": "2026-11-23T19:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian state media (IRIB) says 'several ships belonging to the United States' have just been seized to cover part of a claimed $290 billion in war compensation; ships not named",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CGTN Europe on X (citing Iranian media); also MenchOsint",
+      "url": "https://x.com/CGTNEurope/status/2124822842466341095"
+    },
     {
       "time": "19:24",
       "ts": "2026-11-23T19:24:00+08:00",
@@ -647,19 +666,6 @@
       "confidence": "Confirmed",
       "source": "US Treasury; also relayed by Giovanni Staunovo (UBS), Josh Young",
       "url": "https://x.com/USTreasury/status/2123885407938998420"
-    },
-    {
-      "time": "03:04",
-      "ts": "2026-11-21T03:04:00+08:00",
-      "eventTime": "Thu 19 Nov (time not stated)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump envoys Witkoff and Kushner met senior Qatari officials in Berlin to discuss Qatar mediating between the US and Iran",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Axios scoop by Barak Ravid; also LiveSquawk, First Squawk",
-      "url": "https://x.com/BarakRavid/status/2123853497372455385"
     }
   ],
   "sources": [
@@ -3152,16 +3158,21 @@
       "title": "Conflict Radar: at least two ballistic missile launches detected in Khuzestan Province, Iran",
       "site": "x.com",
       "href": "https://x.com/Conflict_Radar/status/2124823231261766024"
+    },
+    {
+      "title": "CGTN Europe: Iranian media say several US ships seized to cover $290bn compensation",
+      "site": "x.com",
+      "href": "https://x.com/CGTNEurope/status/2124822842466341095"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones hit the Perm refinery and Tatarstan's Kaleykino hub and forced Novoshakhtinsk to halt, while storms and drones delayed Russian Baltic and Novorossiysk loadings.",
-      "Iran reportedly fired ballistic missiles from Khuzestan, another tanker was reportedly set ablaze in Hormuz, and Libya's Sharara pipeline shut and then reopened."
+      "Iran reportedly fired ballistic missiles from Khuzestan and claimed it seized US-linked ships, while Libya's Sharara pipeline shut and then reopened."
     ],
-    "updated": "Mon 23 Nov 2026, 7:24 pm SGT",
-    "updatedTs": "2026-11-23T19:24:00+08:00"
+    "updated": "Mon 23 Nov 2026, 7:29 pm SGT",
+    "updatedTs": "2026-11-23T19:29:00+08:00"
   },
   "last24Count": 13
 }
