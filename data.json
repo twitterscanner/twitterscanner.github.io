@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 9:03 am SGT",
-  "lastScannedTs": "2026-11-23T09:03:59+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 9:22 am SGT",
+  "lastScannedTs": "2026-11-23T09:22:46+08:00",
   "asOf": "Mon 23 Nov 2026, 8:07 am SGT",
   "asOfTs": "2026-11-23T08:07:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: a 350,000 bpd Libyan Sharara outage, Iranian air-defence activity near Hormuz and Trump's blockade threats outweigh softer Brent and stalled talks.",
     "lead": "Net read (last 24 hours): Escalating: a 350,000 bpd Libyan Sharara outage, Iranian air-defence activity near Hormuz and Trump's blockade threats outweigh softer Brent and stalled talks.",
     "verdict": "Bullish",
-    "count": "13 of 15 alerts point higher, 2 lower",
-    "text": "13 of 15 alerts point higher, 2 lower.",
+    "count": "12 of 14 alerts point higher, 2 lower",
+    "text": "12 of 14 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Libya's Sharara pipeline valve shut by armed group, about 350,000 bpd offline",
@@ -82,12 +82,6 @@
         "confidence": "Unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-22T12:19:50+08:00"
-      },
-      {
-        "text": "Iranian supertanker 'Line Breaker' heads through Hormuz toward the US blockade line",
-        "confidence": "Unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-22T09:18:29+08:00"
       }
     ],
     "dovish": [
