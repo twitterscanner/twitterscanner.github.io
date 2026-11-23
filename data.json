@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Mon 23 Nov 2026, 11:35 am SGT",
-  "lastScannedTs": "2026-11-23T11:35:15+08:00",
-  "asOf": "Mon 23 Nov 2026, 11:35 am SGT",
-  "asOfTs": "2026-11-23T11:35:03+08:00",
+  "lastScanned": "Mon 23 Nov 2026, 12:03 pm SGT",
+  "lastScannedTs": "2026-11-23T12:03:00+08:00",
+  "asOf": "Mon 23 Nov 2026, 12:03 pm SGT",
+  "asOfTs": "2026-11-23T12:03:13+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: renewed Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh softer Brent and stalled talks.",
-    "lead": "Net read (last 24 hours): Escalating: renewed Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh softer Brent and stalled talks.",
+    "bottom": "Escalating: Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh a fresh Qatari mediation push and softer Brent.",
+    "lead": "Net read (last 24 hours): Escalating: Russian pipeline and refinery strikes, a 350,000 bpd Libyan outage and Hormuz tension outweigh a fresh Qatari mediation push and softer Brent.",
     "verdict": "Bullish",
-    "count": "13 of 15 alerts point higher, 2 lower",
-    "text": "13 of 15 alerts point higher, 2 lower.",
+    "count": "13 of 16 alerts point higher, 3 lower",
+    "text": "13 of 16 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Kaleykino Druzhba pumping station in Tatarstan reportedly hit by drones again",
@@ -92,6 +92,12 @@
     ],
     "dovish": [
       {
+        "text": "Qatari PM, Iran-US mediator, to meet Rubio in Washington on Monday",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-23T12:03:13+08:00"
+      },
+      {
         "text": "Trump: no decision on Iran, will wait until after January 1 for new steps",
         "confidence": "unconfirmed",
         "theme": "Ceasefire / diplomacy",
@@ -111,6 +117,19 @@
     "detail": "Brent trading around $92/bbl, virtually flat on last week (Anas Alhajji on X, 10:54 am SGT 23 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:03",
+      "ts": "2026-11-23T12:03:13+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Qatar's prime minister, the key Iran-US mediator, heads to Washington Monday to meet Rubio and other US officials",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Barak Ravid (Axios) on X",
+      "url": "https://x.com/BarakRavid/status/2124713569107185731"
+    },
     {
       "time": "11:35",
       "ts": "2026-11-23T11:35:03+08:00",
@@ -617,19 +636,6 @@
       "confidence": "Unconfirmed",
       "source": "Fars via First Squawk; War Radar claims US strike (unconfirmed); Post Open Source reports a hostile aerial target shot down",
       "url": "https://x.com/FirstSquawk/status/2123803472810406168"
-    },
-    {
-      "time": "23:37",
-      "ts": "2026-11-20T23:37:00+08:00",
-      "eventTime": "11:25 pm, 20 Nov (est.)",
-      "eventTs": "2026-11-20T23:25:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis fire ballistic missiles at Saudi Jazan province; Saudi coalition says two were shot down, with debris falling in Al-Shuqaiq, site of the power plant the Houthis threatened",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition statement, via OSINTdefender and Open Source Intel; MenchOsint suggests a possible direct hit (unconfirmed)",
-      "url": "https://x.com/sentdefender/status/2123801809865076937"
     }
   ],
   "sources": [
@@ -3072,16 +3078,21 @@
       "title": "Brent trading around $92",
       "site": "X / Anas Alhajji",
       "href": "https://x.com/anasalhajji/status/2124698013335425466"
+    },
+    {
+      "title": "Barak Ravid: Qatari PM to meet Rubio in Washington on Monday",
+      "site": "x.com",
+      "href": "https://x.com/BarakRavid/status/2124713569107185731"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Brent held near $92.",
-      "Ukrainian drones reportedly hit Russia's Novoshakhtinsk refinery and the Kaleykino Druzhba pumping station overnight, amid Iranian air-defence fire near Hormuz and a Houthi Rabigh claim."
+      "Libya's National Oil Corporation said an unlawful group shut a Sharara pipeline valve, cutting about 350,000 barrels a day, while Ukrainian drones reportedly hit Novoshakhtinsk refinery and Kaleykino.",
+      "Iran tension around Hormuz and a Houthi Rabigh refinery claim persist, while Qatar's prime minister heads to Washington to meet Rubio as the key Iran-US mediator."
     ],
-    "updated": "Mon 23 Nov 2026, 11:35 am SGT",
-    "updatedTs": "2026-11-23T11:35:15+08:00"
+    "updated": "Mon 23 Nov 2026, 12:03 pm SGT",
+    "updatedTs": "2026-11-23T12:03:00+08:00"
   },
   "last24Count": 13
 }
