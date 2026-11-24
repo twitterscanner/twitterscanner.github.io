@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 11:44 pm SGT",
-  "lastScannedTs": "2026-11-24T23:44:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 11:44 pm SGT",
-  "asOfTs": "2026-11-24T23:44:37+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 11:54 pm SGT",
+  "lastScannedTs": "2026-11-24T23:54:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 11:54 pm SGT",
+  "asOfTs": "2026-11-24T23:54:00+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: ships hit, tankers mined and support tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Baghdad and Erbil clash over oil.",
-    "lead": "Net read (last 24 hours): Escalating: ships hit, tankers mined and support tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Baghdad and Erbil clash over oil.",
+    "bottom": "Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Putin vows to retaliate for refinery strikes.",
+    "lead": "Net read (last 24 hours): Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Putin vows to retaliate for refinery strikes.",
     "verdict": "Bullish",
-    "count": "13 of 15 alerts point higher, 0 lower",
-    "text": "13 of 15 alerts point higher, 0 lower.",
+    "count": "14 of 16 alerts point higher, 0 lower",
+    "text": "14 of 16 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Putin vows retaliation for Ukrainian refinery strikes, orders more energy-site protection",
+        "confidence": "confirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-24T23:54:00+08:00"
+      },
       {
         "text": "Iran's Hormuz authority blacklists 26 tugboats serving US-backed tankers",
         "confidence": "confirmed",
@@ -111,6 +117,19 @@
     "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
+    {
+      "time": "23:54",
+      "ts": "2026-11-24T23:54:00+08:00",
+      "eventTime": "~11:51 pm, 24 Nov (est., remarks reported)",
+      "eventTs": "2026-11-24T23:51:23+08:00",
+      "eventQual": "est.",
+      "headline": "Putin says Ukraine keeps hitting Russian oil refineries despite a direct request from the US president, vows Russia will retaliate and orders extra protection for energy facilities",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Putin remarks to government meeting via finsquawk; also FirstSquawk, MarketNews_Feed",
+      "url": "https://x.com/finsquawk_/status/2125255969081078108"
+    },
     {
       "time": "23:44",
       "ts": "2026-11-24T23:44:37+08:00",
@@ -617,22 +636,14 @@
       "confidence": "Confirmed",
       "source": "FirstSquawk on X (Saudi-led coalition statement)",
       "url": "https://x.com/FirstSquawk/status/2124365033895526557"
-    },
-    {
-      "time": "12:19",
-      "ts": "2026-11-22T12:19:50+08:00",
-      "eventTime": "18 Nov (advisory date; time not stated)",
-      "eventTs": "2026-11-18T12:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "CENTCOM blockade now also targets ship-to-ship transfers of Iranian cargo (advisory dated 18 Nov); STS-loaded tanker from Kharg reportedly heading for the blockade line",
-      "theme": "Sanctions evasion",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Faytuks Network on X (JMIC advisory 017-26)",
-      "url": "https://x.com/FaytuksNetwork/status/2124355943659950113"
     }
   ],
   "sources": [
+    {
+      "title": "Putin says Russia will retaliate for Ukrainian refinery strikes (via finsquawk)",
+      "site": "x.com",
+      "href": "https://x.com/finsquawk_/status/2125255969081078108"
+    },
     {
       "title": "PGSA: 26 tugboats added to Strait of Hormuz Non-Compliance List",
       "site": "x.com",
@@ -3238,10 +3249,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran tightened its Hormuz closure, claimed four tankers hit mines and blacklisted 26 tugboats serving US-backed tankers, while UKMTO verified three ships struck by projectiles.",
-      "Riyadh's tallest skyscraper was hit for a second time in a week as Saudi Arabia sought allied interceptors, while Baghdad moved to take over Kurdish oilfields."
+      "Riyadh's tallest skyscraper was hit again as Saudi Arabia sought interceptors, and Putin vowed to retaliate for Ukraine's continuing strikes on Russian oil refineries."
     ],
-    "updated": "Tue 24 Nov 2026, 11:44 pm SGT",
-    "updatedTs": "2026-11-24T23:44:37+08:00"
+    "updated": "Tue 24 Nov 2026, 11:54 pm SGT",
+    "updatedTs": "2026-11-24T23:54:00+08:00"
   },
   "last24Count": 13
 }
