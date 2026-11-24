@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 7:45 pm SGT",
-  "lastScannedTs": "2026-11-24T19:45:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 7:44 pm SGT",
-  "asOfTs": "2026-11-24T19:44:07+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 8:00 pm SGT",
+  "lastScannedTs": "2026-11-24T20:00:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 8:00 pm SGT",
+  "asOfTs": "2026-11-24T20:00:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran says a fourth tanker hit a mine in Hormuz, a ship is hit off the UAE, and Baghdad and Erbil clash over Kurdish oil.",
-    "lead": "Net read (last 24 hours): Escalating: Iran says a fourth tanker hit a mine in Hormuz, a ship is hit off the UAE, and Baghdad and Erbil clash over Kurdish oil.",
+    "bottom": "Escalating: UKMTO verifies three ships hit in Hormuz, Iran claims a fourth tanker mined, a ship is hit off the UAE, and Baghdad and Erbil clash over oil.",
+    "lead": "Net read (last 24 hours): Escalating: UKMTO verifies three ships hit in Hormuz, Iran claims a fourth tanker mined, a ship is hit off the UAE, and Baghdad and Erbil clash over oil.",
     "verdict": "Bullish",
-    "count": "9 of 12 alerts point higher, 0 lower",
-    "text": "9 of 12 alerts point higher, 0 lower.",
+    "count": "10 of 13 alerts point higher, 0 lower",
+    "text": "10 of 13 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO verifies three ships hit by projectiles transiting Hormuz on 23 Nov",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T19:58:23+08:00"
+      },
       {
         "text": "Kurdistan PM rejects Baghdad takeover of Kurdish oilfields and exports",
         "confidence": "confirmed",
@@ -89,10 +95,23 @@
     ]
   },
   "brent": {
-    "value": "$89.37",
-    "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
+    "value": "~$89.4",
+    "detail": "Brent around $89.4/bbl near three-month lows, about 8:00 pm SGT 24 Nov (market feeds on X)"
   },
   "alerts": [
+    {
+      "time": "19:58",
+      "ts": "2026-11-24T19:58:23+08:00",
+      "eventTime": "23 Nov, time not stated (UKMTO time-late report)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO verifies time-late report: three vessels struck by unknown projectiles while transiting eastbound through the Strait of Hormuz on 23 Nov; ships continued, crews safe",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO notice via Israel Red Alert feed; also BeamTracker",
+      "url": "https://x.com/ILRedAlert/status/2125197693240705107"
+    },
     {
       "time": "19:39",
       "ts": "2026-11-24T19:39:24+08:00",
@@ -599,22 +618,14 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel on X (AIS / MarineTraffic tracking)",
       "url": "https://x.com/Osint613/status/2124286473470120324"
-    },
-    {
-      "time": "06:17",
-      "ts": "2026-11-22T06:17:58+08:00",
-      "eventTime": "6:10 am, 22 Nov (est.)",
-      "eventTs": "2026-11-22T06:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Local reports of a drone attack on Russia's Afipsky oil refinery in Krasnodar region; damage not confirmed",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Local Russian channels on X",
-      "url": "https://x.com/Q0MT6pFmbVqynsM/status/2124264301116678170"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO: three vessels struck by unknown projectiles transiting Strait of Hormuz (time-late)",
+      "site": "X / Israel Red Alert",
+      "href": "https://x.com/ILRedAlert/status/2125197693240705107"
+    },
     {
       "title": "Kurdistan PM Barzani rejects Baghdad decisions on oil and border crossings",
       "site": "X / Rudaw English",
@@ -3199,11 +3210,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran ordered a day-by-day tightening of the Hormuz closure, its forces claimed four tankers hit mines there, and UKMTO reported a ship struck off Dibba, UAE.",
+      "Iran ordered a day-by-day tightening of the Hormuz closure and claimed four tankers hit mines, while UKMTO verified three ships struck by projectiles in the strait.",
       "Baghdad ordered federal control of Kurdish-held oilfields, crossings and exports, which Kurdistan's prime minister rejected as unacceptable, while Yemeni launches disrupted Saudi airspace."
     ],
-    "updated": "Tue 24 Nov 2026, 7:44 pm SGT",
-    "updatedTs": "2026-11-24T19:44:07+08:00"
+    "updated": "Tue 24 Nov 2026, 8:00 pm SGT",
+    "updatedTs": "2026-11-24T20:00:48+08:00"
   },
   "last24Count": 13
 }
