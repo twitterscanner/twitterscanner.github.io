@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 7:05 pm SGT",
-  "lastScannedTs": "2026-11-24T19:05:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 6:52 pm SGT",
-  "asOfTs": "2026-11-24T18:52:44+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 7:45 pm SGT",
+  "lastScannedTs": "2026-11-24T19:45:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 7:44 pm SGT",
+  "asOfTs": "2026-11-24T19:44:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran tightens Hormuz and says a fourth tanker hit a mine, explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
-    "lead": "Net read (last 24 hours): Escalating: Iran tightens Hormuz and says a fourth tanker hit a mine, explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
+    "bottom": "Escalating: Iran says a fourth tanker hit a mine in Hormuz, a ship is hit off the UAE, and Baghdad and Erbil clash over Kurdish oil.",
+    "lead": "Net read (last 24 hours): Escalating: Iran says a fourth tanker hit a mine in Hormuz, a ship is hit off the UAE, and Baghdad and Erbil clash over Kurdish oil.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 0 lower",
-    "text": "10 of 13 alerts point higher, 0 lower.",
+    "count": "9 of 12 alerts point higher, 0 lower",
+    "text": "9 of 12 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Kurdistan PM rejects Baghdad takeover of Kurdish oilfields and exports",
+        "confidence": "confirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-24T19:39:24+08:00"
+      },
       {
         "text": "IRGC says fourth tanker blown up by mine in eastern Hormuz",
         "confidence": "unconfirmed",
@@ -58,18 +64,6 @@
         "confidence": "unconfirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-24T05:06:00+08:00"
-      },
-      {
-        "text": "Iran says it seized several US-linked ships to cover war compensation",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-23T19:29:00+08:00"
-      },
-      {
-        "text": "Iran fires ballistic missiles from Khuzestan and Kurdistan; target unknown",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-23T19:24:00+08:00"
       }
     ],
     "dovish": [],
@@ -99,6 +93,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:39",
+      "ts": "2026-11-24T19:39:24+08:00",
+      "eventTime": "est. ~7:15 pm SGT (remarks to reporters; first reported 7:18 pm SGT)",
+      "eventTs": "2026-11-24T19:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Kurdistan PM Masrour Barzani rejects Baghdad's move to take over Kurdish oilfields, crossings and oil exports as unconstitutional and 'in no way acceptable'",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Rudaw English (KRG PM remarks to reporters)",
+      "url": "https://x.com/RudawEnglish/status/2125192557147865463"
+    },
     {
       "time": "18:52",
       "ts": "2026-11-24T18:52:44+08:00",
@@ -605,22 +612,14 @@
       "confidence": "Unconfirmed",
       "source": "Local Russian channels on X",
       "url": "https://x.com/Q0MT6pFmbVqynsM/status/2124264301116678170"
-    },
-    {
-      "time": "06:17",
-      "ts": "2026-11-22T06:17:58+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Washington Post: Putin privately agreed NATO could defend Ukraine against a renewed Russian attack after a ceasefire, if no NATO troops are based in Ukraine",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "CocoPostel on X (Washington Post report)",
-      "url": "https://x.com/CocoPostel/status/2124258164275392826"
     }
   ],
   "sources": [
+    {
+      "title": "Kurdistan PM Barzani rejects Baghdad decisions on oil and border crossings",
+      "site": "X / Rudaw English",
+      "href": "https://x.com/RudawEnglish/status/2125192557147865463"
+    },
     {
       "title": "IRGC Navy: fourth violating oil tanker exploded in eastern Strait of Hormuz",
       "site": "X / CGTN Europe",
@@ -3200,11 +3199,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran ordered a day-by-day tightening of the Hormuz closure, its forces claimed four tankers hit mines there, and unverified reports this evening said explosions were heard in the strait.",
-      "UKMTO reported a ship struck off Dibba, UAE, Baghdad ordered federal control of Kurdish-held oilfields and crossings, and Yemeni launches disrupted Saudi airspace."
+      "Iran ordered a day-by-day tightening of the Hormuz closure, its forces claimed four tankers hit mines there, and UKMTO reported a ship struck off Dibba, UAE.",
+      "Baghdad ordered federal control of Kurdish-held oilfields, crossings and exports, which Kurdistan's prime minister rejected as unacceptable, while Yemeni launches disrupted Saudi airspace."
     ],
-    "updated": "Tue 24 Nov 2026, 6:52 pm SGT",
-    "updatedTs": "2026-11-24T18:52:44+08:00"
+    "updated": "Tue 24 Nov 2026, 7:44 pm SGT",
+    "updatedTs": "2026-11-24T19:44:07+08:00"
   },
   "last24Count": 13
 }
