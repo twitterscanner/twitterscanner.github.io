@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 6:40 pm SGT",
-  "lastScannedTs": "2026-11-24T18:40:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 6:38 pm SGT",
-  "asOfTs": "2026-11-24T18:38:37+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 6:50 pm SGT",
+  "lastScannedTs": "2026-11-24T18:50:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 6:52 pm SGT",
+  "asOfTs": "2026-11-24T18:52:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran tightens Hormuz, claims more tankers mined and fresh explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
-    "lead": "Net read (last 24 hours): Escalating: Iran tightens Hormuz, claims more tankers mined and fresh explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
+    "bottom": "Escalating: Iran tightens Hormuz and says a fourth tanker hit a mine, explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
+    "lead": "Net read (last 24 hours): Escalating: Iran tightens Hormuz and says a fourth tanker hit a mine, explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
     "verdict": "Bullish",
-    "count": "9 of 13 alerts point higher, 1 lower",
-    "text": "9 of 13 alerts point higher, 1 lower.",
+    "count": "10 of 14 alerts point higher, 1 lower",
+    "text": "10 of 14 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says fourth tanker blown up by mine in eastern Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T18:52:44+08:00"
+      },
       {
         "text": "Explosions reported in Strait of Hormuz, cause and damage unknown",
         "confidence": "unconfirmed",
@@ -100,6 +106,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:52",
+      "ts": "2026-11-24T18:52:44+08:00",
+      "eventTime": "Not stated (IRGC says 'this morning' Iran time)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says a fourth 'violating' oil tanker exploded on a mine in the eastern Strait of Hormuz this morning; two other ships turned back after radio warning (not independently confirmed)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Navy statement via Iranian state media (Tasnim), via CGTN Europe",
+      "url": "https://x.com/CGTNEurope/status/2125180358618448082"
+    },
     {
       "time": "18:38",
       "ts": "2026-11-24T18:38:37+08:00",
@@ -606,22 +625,14 @@
       "confidence": "Unconfirmed",
       "source": "CocoPostel on X (Washington Post report)",
       "url": "https://x.com/CocoPostel/status/2124258164275392826"
-    },
-    {
-      "time": "06:17",
-      "ts": "2026-11-22T06:17:58+08:00",
-      "eventTime": "3:20 am, 22 Nov (est.)",
-      "eventTs": "2026-11-22T03:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Bahrain says an Iranian strike hit a civilian industrial facility in Sitra, the east-coast hub of its refinery, sparking a fire; no injuries",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Osint613 on X (Bahrain Interior Ministry)",
-      "url": "https://x.com/Osint613/status/2124223539083370988"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC Navy: fourth violating oil tanker exploded in eastern Strait of Hormuz",
+      "site": "X / CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2125180358618448082"
+    },
     {
       "title": "Explosions heard in Strait of Hormuz, unverified channel reports",
       "site": "X / First Squawk",
@@ -3196,11 +3207,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran ordered a day-by-day tightening of the Hormuz closure, its navy claimed two more tankers hit mines, and unverified reports this evening said explosions were heard in the strait.",
+      "Iran ordered a day-by-day tightening of the Hormuz closure, its forces claimed four tankers hit mines there, and unverified reports this evening said explosions were heard in the strait.",
       "UKMTO reported a ship struck off Dibba, UAE, Baghdad ordered federal control of Kurdish-held oilfields and crossings, and Yemeni launches disrupted Saudi airspace."
     ],
-    "updated": "Tue 24 Nov 2026, 6:38 pm SGT",
-    "updatedTs": "2026-11-24T18:38:37+08:00"
+    "updated": "Tue 24 Nov 2026, 6:52 pm SGT",
+    "updatedTs": "2026-11-24T18:52:44+08:00"
   },
   "last24Count": 13
 }
