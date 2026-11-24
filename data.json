@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 1:47 am SGT",
-  "lastScannedTs": "2026-11-25T01:47:54+08:00",
-  "asOf": "Wed 25 Nov 2026, 1:47 am SGT",
-  "asOfTs": "2026-11-25T01:47:41+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 1:54 am SGT",
+  "lastScannedTs": "2026-11-25T01:54:49+08:00",
+  "asOf": "Wed 25 Nov 2026, 1:54 am SGT",
+  "asOfTs": "2026-11-25T01:54:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: ships hit and tankers mined in Hormuz, Houthi strikes on Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
-    "lead": "Net read (last 24 hours): Escalating: ships hit and tankers mined in Hormuz, Houthi strikes on Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
+    "bottom": "Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
+    "lead": "Net read (last 24 hours): Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "17 of 20 alerts point higher, 1 lower",
+    "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "IRGC claims it struck a container ship north of Khasab in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-25T01:54:47+08:00"
+      },
       {
         "text": "Imagery hints Houthi strikes damaged storage tanks at Aramco's SAMREF Yanbu refinery",
         "confidence": "unconfirmed",
@@ -136,6 +142,19 @@
     "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
+    {
+      "time": "01:54",
+      "ts": "2026-11-25T01:54:47+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC Navy says it struck a container ship north of Oman's Khasab in the southern Strait of Hormuz after it switched off navigation and took an unauthorized route",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Navy via IRIB; LiveSquawk and First Squawk",
+      "url": "https://x.com/LiveSquawk/status/2125285477616115904"
+    },
     {
       "time": "01:47",
       "ts": "2026-11-25T01:47:41+08:00",
@@ -642,22 +661,14 @@
       "confidence": "Confirmed",
       "source": "CocoPostel on X (UKMTO advisory 217/26); MenchOsint, Open Source Intel",
       "url": "https://x.com/CocoPostel/status/2124533785047990536"
-    },
-    {
-      "time": "00:03",
-      "ts": "2026-11-23T00:03:29+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump says he has made no decision on Iran, is in no rush and will wait until after January 1 before deciding any new steps",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Unconfirmed",
-      "source": "War Radar on X (Trump remarks)",
-      "url": "https://x.com/War_Radar2/status/2124532033443799528"
     }
   ],
   "sources": [
+    {
+      "title": "IRGC Navy says it hit container ship near Khasab (via LiveSquawk)",
+      "site": "x.com",
+      "href": "https://x.com/LiveSquawk/status/2125285477616115904"
+    },
     {
       "title": "Bloomberg: Iraq rejects OPEC+ assessment of its oil production capacity (via FinancialJuice)",
       "site": "x.com",
@@ -3282,11 +3293,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "NBC reports US officials are debating targeting Iranian leaders, while Iran tightened its Hormuz closure, blacklisted 26 tugboats and claimed more tankers hit mines.",
+      "Iran's IRGC says it struck a container ship near Khasab after tightening its Hormuz closure, blacklisting 26 tugboats and claiming more tankers hit mines.",
       "Putin vowed refinery-strike retaliation, imagery hints Houthi damage at Aramco's Yanbu refinery, and Iraq rejected its OPEC+ capacity assessment before the 29 Nov meeting."
     ],
-    "updated": "Wed 25 Nov 2026, 1:47 am SGT",
-    "updatedTs": "2026-11-25T01:47:41+08:00"
+    "updated": "Wed 25 Nov 2026, 1:54 am SGT",
+    "updatedTs": "2026-11-25T01:54:47+08:00"
   },
   "last24Count": 13
 }
