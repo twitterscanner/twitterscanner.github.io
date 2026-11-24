@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 4:36 pm SGT",
-  "lastScannedTs": "2026-11-24T16:36:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 4:36 pm SGT",
-  "asOfTs": "2026-11-24T16:36:01+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 5:05 pm SGT",
+  "lastScannedTs": "2026-11-24T17:05:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 5:05 pm SGT",
+  "asOfTs": "2026-11-24T17:05:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran vows a tighter Hormuz closure as a ship is hit off the UAE; Yemeni launches and EU tanker curbs outweigh Sharara's restart.",
-    "lead": "Net read (last 24 hours): Escalating: Iran vows a tighter Hormuz closure as a ship is hit off the UAE; Yemeni launches and EU tanker curbs outweigh Sharara's restart.",
+    "bottom": "Escalating: Iran tightens Hormuz and claims two more tankers mined, a ship is hit off the UAE, and Baghdad moves on Kurdish oil.",
+    "lead": "Net read (last 24 hours): Escalating: Iran tightens Hormuz and claims two more tankers mined, a ship is hit off the UAE, and Baghdad moves on Kurdish oil.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 1 lower",
-    "text": "10 of 13 alerts point higher, 1 lower.",
+    "count": "11 of 15 alerts point higher, 1 lower",
+    "text": "11 of 15 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iran's army navy says two tankers hit a mine east of Hormuz and caught fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T17:05:46+08:00"
+      },
       {
         "text": "Bulk carrier hit by projectile off Dibba, UAE, near Hormuz; fire on board",
         "confidence": "confirmed",
@@ -82,6 +88,12 @@
     ],
     "neutral": [
       {
+        "text": "Baghdad orders federal control of Kurdish-held oilfields, crossings and exports",
+        "confidence": "confirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-24T17:05:46+08:00"
+      },
+      {
         "text": "US Treasury adds new Iran-related sanctions on dozens of people and entities",
         "confidence": "confirmed",
         "theme": "Iran",
@@ -101,9 +113,35 @@
   },
   "alerts": [
     {
+      "time": "17:05",
+      "ts": "2026-11-24T17:05:46+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's Army Navy says two oil tankers struck a naval mine east of the Strait of Hormuz, caught fire and stopped; it says they entered a prohibited area with AIS and navigation systems off (not independently confirmed)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian state media citing the army, via CGTN Europe; also Middle East Observer, FinSquawk",
+      "url": "https://x.com/CGTNEurope/status/2125152594620272999"
+    },
+    {
+      "time": "17:05",
+      "ts": "2026-11-24T17:05:46+08:00",
+      "eventTime": "4:30 pm, 24 Nov (est.)",
+      "eventTs": "2026-11-24T16:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iraq's PM orders the federal oil ministry to take over oilfield management in areas under Kurdish security control and puts Kurdistan border crossings under federal authority, with oil exports through federal channels only",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "Reuters headline via Giovanni Staunovo; also FinSquawk; announced by the PM's military spokesman",
+      "url": "https://x.com/staunovo/status/2125152013839163666"
+    },
+    {
       "time": "16:36",
       "ts": "2026-11-24T16:36:01+08:00",
-      "eventTime": "Not stated (time-late report)",
+      "eventTime": "Sun 22 Nov, time not stated (time-late report)",
       "eventTs": null,
       "eventQual": "not stated",
       "headline": "UKMTO: bulk carrier struck on port side by unknown projectile while anchored off Dibba, 23nm NE of Khor Fakkan, UAE; fire on board, no casualties (time-late report)",
@@ -593,35 +631,19 @@
       "confidence": "Confirmed",
       "source": "Osint613 on X (Iranian deputy FM via Tasnim)",
       "url": "https://x.com/Osint613/status/2124229674389663952"
-    },
-    {
-      "time": "03:18",
-      "ts": "2026-11-22T03:18:56+08:00",
-      "eventTime": "2:20 am, 22 Nov (est.)",
-      "eventTs": "2026-11-22T02:20:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran launches drone and missile waves at US bases in Bahrain, home of the US 5th Fleet; sirens nationwide, interceptor debris hits homes in Sitra; Saudi Arabia intercepts a drone near Riyadh",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "OSINTdefender; Open Source Intel; i24NEWS; Bahrain Interior Ministry alert per Anadolu; Saudi spokesperson via MenchOsint",
-      "url": "https://x.com/sentdefender/status/2124215146151047328"
-    },
-    {
-      "time": "00:14",
-      "ts": "2026-11-22T00:14:43+08:00",
-      "eventTime": "6:17 pm, 21 Nov",
-      "eventTs": "2026-11-21T18:17:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Satellite data shows a fire at Saudi Arabia's Jizan port (home to Aramco's Jazan refinery and export terminal) after Houthi threats to Saudi Red Sea ports; cause unconfirmed",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "NASA FIRMS satellite data via MenchOsint; Saudi Civil Defence early warning per CocoPostel",
-      "url": "https://x.com/MenchOsint/status/2124152976285618573"
     }
   ],
   "sources": [
+    {
+      "title": "Iran's navy says two oil tankers struck mines, caught fire in Strait of Hormuz",
+      "site": "X / CGTN Europe",
+      "href": "https://x.com/CGTNEurope/status/2125152594620272999"
+    },
+    {
+      "title": "Iraqi PM orders ministry to manage oilfields in areas under Kurdish security control",
+      "site": "X / Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2125152013839163666"
+    },
     {
       "title": "UKMTO: bulk carrier struck by projectile off Dibba, 23nm NE of Khor Fakkan",
       "site": "X / First Squawk",
@@ -3181,11 +3203,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's army chief ordered a day-by-day tightening of the Hormuz closure, and UKMTO reported a bulk carrier hit by a projectile off Dibba, UAE.",
-      "Yemeni missile and drone launches disrupted Saudi airspace overnight, while details of the EU's 22nd package show a ban on Russian-insured tankers and refinery repair services."
+      "Iran's army chief ordered a day-by-day tightening of the Hormuz closure and Iran's navy claimed two more tankers hit mines, while UKMTO reported a ship struck off Dibba, UAE.",
+      "Baghdad ordered federal control of oilfields and border crossings in Kurdish-held areas, and Yemeni launches disrupted Saudi airspace as EU tanker curbs took shape."
     ],
-    "updated": "Tue 24 Nov 2026, 4:36 pm SGT",
-    "updatedTs": "2026-11-24T16:36:01+08:00"
+    "updated": "Tue 24 Nov 2026, 5:05 pm SGT",
+    "updatedTs": "2026-11-24T17:05:46+08:00"
   },
   "last24Count": 13
 }
