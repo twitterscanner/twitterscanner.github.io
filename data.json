@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 1:54 am SGT",
-  "lastScannedTs": "2026-11-25T01:54:49+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 2:02 am SGT",
+  "lastScannedTs": "2026-11-25T02:02:38+08:00",
   "asOf": "Wed 25 Nov 2026, 1:54 am SGT",
   "asOfTs": "2026-11-25T01:54:47+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
     "lead": "Net read (last 24 hours): Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 1 lower",
-    "text": "17 of 20 alerts point higher, 1 lower.",
+    "count": "17 of 19 alerts point higher, 1 lower",
+    "text": "17 of 19 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "IRGC claims it struck a container ship north of Khasab in Hormuz",
@@ -128,12 +128,6 @@
         "confidence": "confirmed",
         "theme": "Iraq / Kurdistan",
         "ts": "2026-11-24T17:05:46+08:00"
-      },
-      {
-        "text": "US Treasury adds new Iran-related sanctions on dozens of people and entities",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-24T01:58:00+08:00"
       }
     ]
   },
