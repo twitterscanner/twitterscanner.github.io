@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 10:00 pm SGT",
-  "lastScannedTs": "2026-11-24T22:00:00+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 11:04 pm SGT",
+  "lastScannedTs": "2026-11-24T23:04:00+08:00",
   "asOf": "Tue 24 Nov 2026, 8:52 pm SGT",
   "asOfTs": "2026-11-24T20:52:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: ships hit and tankers mined in Hormuz, Riyadh's tallest tower struck again as Saudi seeks interceptors, and Baghdad and Erbil clash over oil.",
     "lead": "Net read (last 24 hours): Escalating: ships hit and tankers mined in Hormuz, Riyadh's tallest tower struck again as Saudi seeks interceptors, and Baghdad and Erbil clash over oil.",
     "verdict": "Bullish",
-    "count": "12 of 15 alerts point higher, 0 lower",
-    "text": "12 of 15 alerts point higher, 0 lower.",
+    "count": "12 of 14 alerts point higher, 0 lower",
+    "text": "12 of 14 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Riyadh's tallest skyscraper hit again, second strike on the Saudi capital in a week",
@@ -97,18 +97,12 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-24T01:58:00+08:00"
-      },
-      {
-        "text": "EU presents 22nd Russia sanctions package; oil measures not yet detailed",
-        "confidence": "confirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-23T23:00:00+08:00"
       }
     ]
   },
   "brent": {
-    "value": "~$88.7",
-    "detail": "Brent around $88.7/bbl, down about 0.7% near three-month lows, about 8:15 pm SGT 24 Nov (market feeds on X)"
+    "value": "~$90",
+    "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
     {
