@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 11:03 am SGT",
-  "lastScannedTs": "2026-11-24T11:03:02+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 11:43 am SGT",
+  "lastScannedTs": "2026-11-24T11:43:57+08:00",
   "asOf": "Tue 24 Nov 2026, 6:03 am SGT",
   "asOfTs": "2026-11-24T06:03:37+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia and Ukrainian refinery strikes outweigh Sharara's restart and Qatar mediation.",
     "lead": "Net read (last 24 hours): Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia and Ukrainian refinery strikes outweigh Sharara's restart and Qatar mediation.",
     "verdict": "Bullish",
-    "count": "12 of 16 alerts point higher, 2 lower",
-    "text": "12 of 16 alerts point higher, 2 lower.",
+    "count": "11 of 15 alerts point higher, 2 lower",
+    "text": "11 of 15 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "IRGC claims three tankers hit naval mines and burned in Hormuz despite US escort",
@@ -76,12 +76,6 @@
         "confidence": "confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-23T13:20:16+08:00"
-      },
-      {
-        "text": "Kaleykino Druzhba pumping station in Tatarstan reportedly hit by drones again",
-        "confidence": "unconfirmed",
-        "theme": "Russia-Ukraine",
-        "ts": "2026-11-23T11:35:03+08:00"
       }
     ],
     "dovish": [
