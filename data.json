@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 4:27 pm SGT",
-  "lastScannedTs": "2026-11-24T16:27:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 4:27 pm SGT",
-  "asOfTs": "2026-11-24T16:27:29+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 4:36 pm SGT",
+  "lastScannedTs": "2026-11-24T16:36:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 4:36 pm SGT",
+  "asOfTs": "2026-11-24T16:36:01+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran vows a tighter Hormuz closure after claimed tanker mine hits; Yemeni launches, Ukrainian refinery strikes and EU tanker curbs outweigh Sharara's restart.",
-    "lead": "Net read (last 24 hours): Escalating: Iran vows a tighter Hormuz closure after claimed tanker mine hits; Yemeni launches, Ukrainian refinery strikes and EU tanker curbs outweigh Sharara's restart.",
+    "bottom": "Escalating: Iran vows a tighter Hormuz closure as a ship is hit off the UAE; Yemeni launches and EU tanker curbs outweigh Sharara's restart.",
+    "lead": "Net read (last 24 hours): Escalating: Iran vows a tighter Hormuz closure as a ship is hit off the UAE; Yemeni launches and EU tanker curbs outweigh Sharara's restart.",
     "verdict": "Bullish",
-    "count": "9 of 12 alerts point higher, 1 lower",
-    "text": "9 of 12 alerts point higher, 1 lower.",
+    "count": "10 of 13 alerts point higher, 1 lower",
+    "text": "10 of 13 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Bulk carrier hit by projectile off Dibba, UAE, near Hormuz; fire on board",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T16:36:01+08:00"
+      },
       {
         "text": "Iran army chief orders Hormuz closure tightened day by day until its conditions are met",
         "confidence": "confirmed",
@@ -94,6 +100,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:36",
+      "ts": "2026-11-24T16:36:01+08:00",
+      "eventTime": "Not stated (time-late report)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO: bulk carrier struck on port side by unknown projectile while anchored off Dibba, 23nm NE of Khor Fakkan, UAE; fire on board, no casualties (time-late report)",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO notice via First Squawk; also Arab News, CGTN, ILRedAlert",
+      "url": "https://x.com/FirstSquawk/status/2125144165210345910"
+    },
     {
       "time": "16:27",
       "ts": "2026-11-24T16:27:29+08:00",
@@ -600,22 +619,14 @@
       "confidence": "Unconfirmed",
       "source": "NASA FIRMS satellite data via MenchOsint; Saudi Civil Defence early warning per CocoPostel",
       "url": "https://x.com/MenchOsint/status/2124152976285618573"
-    },
-    {
-      "time": "21:05",
-      "ts": "2026-11-21T21:05:11+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Drones hit sanctioned Russian cargo ship Sparta II bound for Kaliningrad in the Gulf of Finland; vessel on fire, Finland raises alert in Russia's Baltic oil-export waters",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Leningrad region governor and Finnish Border Guard; via FirstSquawk",
-      "url": "https://x.com/FirstSquawk/status/2124082898517258313"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO: bulk carrier struck by projectile off Dibba, 23nm NE of Khor Fakkan",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2125144165210345910"
+    },
     {
       "title": "Iran International: army chief Hatami orders navy to tighten Hormuz closure day by day",
       "site": "X / Iran International",
@@ -3170,11 +3181,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's army chief ordered the navy to tighten the Strait of Hormuz closure day by day, after the IRGC claimed three tankers hit mines despite a US escort.",
+      "Iran's army chief ordered a day-by-day tightening of the Hormuz closure, and UKMTO reported a bulk carrier hit by a projectile off Dibba, UAE.",
       "Yemeni missile and drone launches disrupted Saudi airspace overnight, while details of the EU's 22nd package show a ban on Russian-insured tankers and refinery repair services."
     ],
-    "updated": "Tue 24 Nov 2026, 4:27 pm SGT",
-    "updatedTs": "2026-11-24T16:27:29+08:00"
+    "updated": "Tue 24 Nov 2026, 4:36 pm SGT",
+    "updatedTs": "2026-11-24T16:36:01+08:00"
   },
   "last24Count": 13
 }
