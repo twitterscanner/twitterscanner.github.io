@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 1:26 am SGT",
-  "lastScannedTs": "2026-11-25T01:26:31+08:00",
-  "asOf": "Wed 25 Nov 2026, 1:26 am SGT",
-  "asOfTs": "2026-11-25T01:26:05+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 1:47 am SGT",
+  "lastScannedTs": "2026-11-25T01:47:54+08:00",
+  "asOf": "Wed 25 Nov 2026, 1:47 am SGT",
+  "asOfTs": "2026-11-25T01:47:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: ships hit and tankers mined in Hormuz, Houthi strikes reach Riyadh and possibly Yanbu, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
-    "lead": "Net read (last 24 hours): Escalating: ships hit and tankers mined in Hormuz, Houthi strikes reach Riyadh and possibly Yanbu, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
+    "bottom": "Escalating: ships hit and tankers mined in Hormuz, Houthi strikes on Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
+    "lead": "Net read (last 24 hours): Escalating: ships hit and tankers mined in Hormuz, Houthi strikes on Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
     "verdict": "Bullish",
-    "count": "16 of 18 alerts point higher, 0 lower",
-    "text": "16 of 18 alerts point higher, 0 lower.",
+    "count": "16 of 19 alerts point higher, 1 lower",
+    "text": "16 of 19 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Imagery hints Houthi strikes damaged storage tanks at Aramco's SAMREF Yanbu refinery",
@@ -108,7 +108,14 @@
         "ts": "2026-11-24T05:06:00+08:00"
       }
     ],
-    "dovish": [],
+    "dovish": [
+      {
+        "text": "Iraq rejects OPEC+ capacity assessment, risking a baseline clash before 29 Nov meeting",
+        "confidence": "confirmed",
+        "theme": "OPEC+",
+        "ts": "2026-11-25T01:47:41+08:00"
+      }
+    ],
     "neutral": [
       {
         "text": "Baghdad orders federal control of Kurdish-held oilfields, crossings and exports",
@@ -129,6 +136,19 @@
     "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
+    {
+      "time": "01:47",
+      "ts": "2026-11-25T01:47:41+08:00",
+      "eventTime": "1:04 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T01:04:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iraq rejects OPEC+ assessment of its oil production capacity ahead of the 29 Nov ministerial meeting setting 2027 output baselines",
+      "theme": "OPEC+",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Bloomberg headline via FinancialJuice; also Rory Johnston",
+      "url": "https://x.com/financialjuice/status/2125274355860951444"
+    },
     {
       "time": "01:26",
       "ts": "2026-11-25T01:26:05+08:00",
@@ -635,22 +655,14 @@
       "confidence": "Unconfirmed",
       "source": "War Radar on X (Trump remarks)",
       "url": "https://x.com/War_Radar2/status/2124532033443799528"
-    },
-    {
-      "time": "21:19",
-      "ts": "2026-11-22T21:19:21+08:00",
-      "eventTime": "Sun 22 Nov ~6:15 pm (est., 'in the past hour' at 6:38 pm)",
-      "eventTs": "2026-11-22T18:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says air defences destroyed a Houthi drone launched toward Riyadh, the latest in a string of Houthi attacks on Saudi Arabia",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "CocoPostel on X (coalition spokesman Turki al-Maliki, via Al Jazeera)",
-      "url": "https://x.com/CocoPostel/status/2124456186414071977"
     }
   ],
   "sources": [
+    {
+      "title": "Bloomberg: Iraq rejects OPEC+ assessment of its oil production capacity (via FinancialJuice)",
+      "site": "x.com",
+      "href": "https://x.com/financialjuice/status/2125274355860951444"
+    },
     {
       "title": "Sentinel-2 imagery: possible Houthi damage to storage tanks at Aramco SAMREF, Yanbu (via Post Open Source / EGYOSINT)",
       "site": "x.com",
@@ -3271,10 +3283,10 @@
     "title": "Today's key developments",
     "lines": [
       "NBC reports US officials are debating targeting Iranian leaders, while Iran tightened its Hormuz closure, blacklisted 26 tugboats and claimed more tankers hit mines.",
-      "Putin vowed to retaliate for Ukraine's refinery strikes, and imagery hints Houthi strikes damaged storage tanks at Aramco's SAMREF refinery in Yanbu."
+      "Putin vowed refinery-strike retaliation, imagery hints Houthi damage at Aramco's Yanbu refinery, and Iraq rejected its OPEC+ capacity assessment before the 29 Nov meeting."
     ],
-    "updated": "Wed 25 Nov 2026, 1:26 am SGT",
-    "updatedTs": "2026-11-25T01:26:06+08:00"
+    "updated": "Wed 25 Nov 2026, 1:47 am SGT",
+    "updatedTs": "2026-11-25T01:47:41+08:00"
   },
   "last24Count": 13
 }
