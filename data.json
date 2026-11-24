@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 11:54 pm SGT",
-  "lastScannedTs": "2026-11-24T23:54:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 11:54 pm SGT",
-  "asOfTs": "2026-11-24T23:54:00+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 12:08 am SGT",
+  "lastScannedTs": "2026-11-25T00:08:00+08:00",
+  "asOf": "Wed 25 Nov 2026, 12:08 am SGT",
+  "asOfTs": "2026-11-25T00:08:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Putin vows to retaliate for refinery strikes.",
-    "lead": "Net read (last 24 hours): Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Putin vows to retaliate for refinery strikes.",
+    "bottom": "Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
+    "lead": "Net read (last 24 hours): Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
     "verdict": "Bullish",
-    "count": "14 of 16 alerts point higher, 0 lower",
-    "text": "14 of 16 alerts point higher, 0 lower.",
+    "count": "15 of 17 alerts point higher, 0 lower",
+    "text": "15 of 17 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "NBC: US officials debate targeting Iranian leaders (unconfirmed)",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-25T00:08:55+08:00"
+      },
       {
         "text": "Putin vows retaliation for Ukrainian refinery strikes, orders more energy-site protection",
         "confidence": "confirmed",
@@ -117,6 +123,19 @@
     "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
+    {
+      "time": "00:08",
+      "ts": "2026-11-25T00:08:55+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "NBC News: US officials are debating targeting Iranian leaders, per sources, as Iran tightens its Hormuz closure",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "NBC News sources via FirstSquawk; also LiveSquawk",
+      "url": "https://x.com/FirstSquawk/status/2125258608644612585"
+    },
     {
       "time": "23:54",
       "ts": "2026-11-24T23:54:00+08:00",
@@ -623,22 +642,14 @@
       "confidence": "Confirmed",
       "source": "heatedreports on X (local TV WVUA 23 also reporting)",
       "url": "https://x.com/heatedreports/status/2124426269366350000"
-    },
-    {
-      "time": "15:18",
-      "ts": "2026-11-22T15:18:07+08:00",
-      "eventTime": "Sun 22 Nov ~10:00 am (est., 'a few hours' before 12:51 pm report)",
-      "eventTs": "2026-11-22T10:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says a Houthi missile fired toward western Saudi Arabia, home of the Red Sea export terminals, was intercepted",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FirstSquawk on X (Saudi-led coalition statement)",
-      "url": "https://x.com/FirstSquawk/status/2124365033895526557"
     }
   ],
   "sources": [
+    {
+      "title": "NBC News: US officials debate targeting Iranian leaders (via First Squawk)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2125258608644612585"
+    },
     {
       "title": "Putin says Russia will retaliate for Ukrainian refinery strikes (via finsquawk)",
       "site": "x.com",
@@ -3248,11 +3259,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran tightened its Hormuz closure, claimed four tankers hit mines and blacklisted 26 tugboats serving US-backed tankers, while UKMTO verified three ships struck by projectiles.",
-      "Riyadh's tallest skyscraper was hit again as Saudi Arabia sought interceptors, and Putin vowed to retaliate for Ukraine's continuing strikes on Russian oil refineries."
+      "NBC reports US officials are debating targeting Iranian leaders, after Iran tightened its Hormuz closure, blacklisted 26 tugboats and claimed four tankers hit mines.",
+      "Putin vowed to retaliate for Ukraine's refinery strikes, while Riyadh's tallest tower was hit again and Baghdad moved to take over Kurdish oilfields."
     ],
-    "updated": "Tue 24 Nov 2026, 11:54 pm SGT",
-    "updatedTs": "2026-11-24T23:54:00+08:00"
+    "updated": "Wed 25 Nov 2026, 12:08 am SGT",
+    "updatedTs": "2026-11-25T00:08:56+08:00"
   },
   "last24Count": 13
 }
