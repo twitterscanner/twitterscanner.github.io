@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 11:04 pm SGT",
-  "lastScannedTs": "2026-11-24T23:04:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 8:52 pm SGT",
-  "asOfTs": "2026-11-24T20:52:52+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 11:44 pm SGT",
+  "lastScannedTs": "2026-11-24T23:44:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 11:44 pm SGT",
+  "asOfTs": "2026-11-24T23:44:37+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: ships hit and tankers mined in Hormuz, Riyadh's tallest tower struck again as Saudi seeks interceptors, and Baghdad and Erbil clash over oil.",
-    "lead": "Net read (last 24 hours): Escalating: ships hit and tankers mined in Hormuz, Riyadh's tallest tower struck again as Saudi seeks interceptors, and Baghdad and Erbil clash over oil.",
+    "bottom": "Escalating: ships hit, tankers mined and support tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Baghdad and Erbil clash over oil.",
+    "lead": "Net read (last 24 hours): Escalating: ships hit, tankers mined and support tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, and Baghdad and Erbil clash over oil.",
     "verdict": "Bullish",
-    "count": "12 of 14 alerts point higher, 0 lower",
-    "text": "12 of 14 alerts point higher, 0 lower.",
+    "count": "13 of 15 alerts point higher, 0 lower",
+    "text": "13 of 15 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Iran's Hormuz authority blacklists 26 tugboats serving US-backed tankers",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T23:44:37+08:00"
+      },
       {
         "text": "Riyadh's tallest skyscraper hit again, second strike on the Saudi capital in a week",
         "confidence": "confirmed",
@@ -105,6 +111,19 @@
     "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
+    {
+      "time": "23:44",
+      "ts": "2026-11-24T23:44:37+08:00",
+      "eventTime": "11:35 pm, 24 Nov (announcement)",
+      "eventTs": "2026-11-24T23:35:18+08:00",
+      "eventQual": "confirmed",
+      "headline": "Iran's Persian Gulf Strait Authority blacklists 26 tugboats for servicing 'non-compliant' (US-backed) tankers in the southern Hormuz corridor, warning any firm cooperating will also be listed",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Persian Gulf Strait Authority (PGSA, official, posted in Persian and English)",
+      "url": "https://x.com/PGSA_IRAN/status/2125251922529804312"
+    },
     {
       "time": "20:31",
       "ts": "2026-11-24T20:31:19+08:00",
@@ -611,22 +630,14 @@
       "confidence": "Unconfirmed",
       "source": "Faytuks Network on X (JMIC advisory 017-26)",
       "url": "https://x.com/FaytuksNetwork/status/2124355943659950113"
-    },
-    {
-      "time": "12:19",
-      "ts": "2026-11-22T12:19:50+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iranian 'Line Breaker' (KHAT SHEKAN) supertanker run toward the US blockade looks like an AIS spoof: no such vessel seen on satellite imagery",
-      "theme": "Iran",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "TankerTrackers on X (also Gregory Brew, CocoPostel)",
-      "url": "https://x.com/TankerTrackers/status/2124348179101405679"
     }
   ],
   "sources": [
+    {
+      "title": "PGSA: 26 tugboats added to Strait of Hormuz Non-Compliance List",
+      "site": "x.com",
+      "href": "https://x.com/PGSA_IRAN/status/2125251922529804312"
+    },
     {
       "title": "AFP witnesses: skyscraper in Riyadh hit for second time in under a week (via First Squawk)",
       "site": "x.com",
@@ -3226,11 +3237,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran ordered a day-by-day tightening of the Hormuz closure and claimed four tankers hit mines, while UKMTO verified three ships struck by projectiles in the strait.",
+      "Iran tightened its Hormuz closure, claimed four tankers hit mines and blacklisted 26 tugboats serving US-backed tankers, while UKMTO verified three ships struck by projectiles.",
       "Riyadh's tallest skyscraper was hit for a second time in a week as Saudi Arabia sought allied interceptors, while Baghdad moved to take over Kurdish oilfields."
     ],
-    "updated": "Tue 24 Nov 2026, 8:52 pm SGT",
-    "updatedTs": "2026-11-24T20:52:52+08:00"
+    "updated": "Tue 24 Nov 2026, 11:44 pm SGT",
+    "updatedTs": "2026-11-24T23:44:37+08:00"
   },
   "last24Count": 13
 }
