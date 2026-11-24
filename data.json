@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 9:03 pm SGT",
-  "lastScannedTs": "2026-11-24T21:03:32+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 10:00 pm SGT",
+  "lastScannedTs": "2026-11-24T22:00:00+08:00",
   "asOf": "Tue 24 Nov 2026, 8:52 pm SGT",
   "asOfTs": "2026-11-24T20:52:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -24,7 +24,7 @@
         "ts": "2026-11-24T20:26:48+08:00"
       },
       {
-        "text": "UKMTO verifies three ships hit by projectiles transiting Hormuz on 23 Nov",
+        "text": "UKMTO verifies three ships hit by projectiles transiting Hormuz late on 22 Nov",
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-24T19:58:23+08:00"
@@ -140,10 +140,10 @@
     {
       "time": "19:58",
       "ts": "2026-11-24T19:58:23+08:00",
-      "eventTime": "4:25 am, 24 Nov",
-      "eventTs": "2026-11-24T04:25:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO verifies time-late report: three vessels struck by unknown projectiles while transiting eastbound through the Strait of Hormuz on 23 Nov; ships continued, crews safe",
+      "eventTime": "est. ~4:50 am, 23 Nov (22 Nov 2050 UTC per re-issued UKMTO notice)",
+      "eventTs": "2026-11-23T04:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "UKMTO verifies time-late report: three vessels struck by unknown projectiles while transiting eastbound through the Strait of Hormuz late on 22 Nov (UTC); ships continued, crews safe",
       "theme": "Hormuz",
       "direction": "Up",
       "confidence": "Confirmed",
