@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 4:02 pm SGT",
-  "lastScannedTs": "2026-11-24T16:02:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 2:06 pm SGT",
-  "asOfTs": "2026-11-24T14:06:23+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 4:27 pm SGT",
+  "lastScannedTs": "2026-11-24T16:27:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 4:27 pm SGT",
+  "asOfTs": "2026-11-24T16:27:29+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia, Ukrainian refinery strikes and new EU tanker curbs outweigh Libya's Sharara restart.",
-    "lead": "Net read (last 24 hours): Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia, Ukrainian refinery strikes and new EU tanker curbs outweigh Libya's Sharara restart.",
+    "bottom": "Escalating: Iran vows a tighter Hormuz closure after claimed tanker mine hits; Yemeni launches, Ukrainian refinery strikes and EU tanker curbs outweigh Sharara's restart.",
+    "lead": "Net read (last 24 hours): Escalating: Iran vows a tighter Hormuz closure after claimed tanker mine hits; Yemeni launches, Ukrainian refinery strikes and EU tanker curbs outweigh Sharara's restart.",
     "verdict": "Bullish",
-    "count": "8 of 11 alerts point higher, 1 lower",
-    "text": "8 of 11 alerts point higher, 1 lower.",
+    "count": "9 of 12 alerts point higher, 1 lower",
+    "text": "9 of 12 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iran army chief orders Hormuz closure tightened day by day until its conditions are met",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-24T16:27:29+08:00"
+      },
       {
         "text": "EU package bans Russian-insured tankers and EU repair services for Russian refineries",
         "confidence": "confirmed",
@@ -88,6 +94,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:27",
+      "ts": "2026-11-24T16:27:29+08:00",
+      "eventTime": "3:50 pm, 24 Nov (est.)",
+      "eventTs": "2026-11-24T15:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's army chief Hatami orders the navy to tighten the Strait of Hormuz closure 'day by day' until Iran's seven conditions are met, state media report",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Iran International English, citing Iranian state media (Mehr); also Iran International Persian",
+      "url": "https://x.com/IranIntl_En/status/2125142064429969773"
+    },
     {
       "time": "14:05",
       "ts": "2026-11-24T14:05:00+08:00",
@@ -594,22 +613,14 @@
       "confidence": "Confirmed",
       "source": "Leningrad region governor and Finnish Border Guard; via FirstSquawk",
       "url": "https://x.com/FirstSquawk/status/2124082898517258313"
-    },
-    {
-      "time": "18:03",
-      "ts": "2026-11-21T18:03:18+08:00",
-      "eventTime": "1:00 pm, 21 Nov (2nd ~1:50 pm)",
-      "eventTs": "2026-11-21T13:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: two outbound tankers hit by unknown projectiles within an hour near Khasab, Oman, in the Strait of Hormuz (stern 11nm N, engine room 17nm E); no casualties",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO warnings 215/26 and 216/26; via Post Open Source, ME Observer and others",
-      "url": "https://x.com/CocoPostel/status/2124051720724439183"
     }
   ],
   "sources": [
+    {
+      "title": "Iran International: army chief Hatami orders navy to tighten Hormuz closure day by day",
+      "site": "X / Iran International",
+      "href": "https://x.com/IranIntl_En/status/2125142064429969773"
+    },
     {
       "title": "Gas pipeline explosion near Ward, Alabama (heatedreports on X)",
       "site": "x.com",
@@ -3159,11 +3170,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy claimed three oil tankers hit naval mines and caught fire in the Strait of Hormuz early today despite a US air escort, unconfirmed independently.",
+      "Iran's army chief ordered the navy to tighten the Strait of Hormuz closure day by day, after the IRGC claimed three tankers hit mines despite a US escort.",
       "Yemeni missile and drone launches disrupted Saudi airspace overnight, while details of the EU's 22nd package show a ban on Russian-insured tankers and refinery repair services."
     ],
-    "updated": "Tue 24 Nov 2026, 2:06 pm SGT",
-    "updatedTs": "2026-11-24T14:06:00+08:00"
+    "updated": "Tue 24 Nov 2026, 4:27 pm SGT",
+    "updatedTs": "2026-11-24T16:27:29+08:00"
   },
   "last24Count": 13
 }
