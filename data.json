@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 4:02 am SGT",
-  "lastScannedTs": "2026-11-25T04:02:20+08:00",
-  "asOf": "Wed 25 Nov 2026, 1:54 am SGT",
-  "asOfTs": "2026-11-25T01:54:47+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 5:02 am SGT",
+  "lastScannedTs": "2026-11-25T05:02:34+08:00",
+  "asOf": "Wed 25 Nov 2026, 5:02 am SGT",
+  "asOfTs": "2026-11-25T05:02:34+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
     "lead": "Net read (last 24 hours): Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
     "verdict": "Bullish",
-    "count": "17 of 19 alerts point higher, 1 lower",
-    "text": "17 of 19 alerts point higher, 1 lower.",
+    "count": "17 of 20 alerts point higher, 1 lower",
+    "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "IRGC claims it struck a container ship north of Khasab in Hormuz",
@@ -124,6 +124,12 @@
     ],
     "neutral": [
       {
+        "text": "ADNOC bars non-calling tankers from its UAE port waters for 90 days",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-25T05:02:34+08:00"
+      },
+      {
         "text": "Baghdad orders federal control of Kurdish-held oilfields, crossings and exports",
         "confidence": "confirmed",
         "theme": "Iraq / Kurdistan",
@@ -136,6 +142,19 @@
     "detail": "Brent settled at $91.40/bbl on Tuesday (Giovanni Staunovo on X, about 3:49 am SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:02",
+      "ts": "2026-11-25T05:02:34+08:00",
+      "eventTime": "23 Nov (notice date), time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "ADNOC port notice bars tankers from entering or transiting ADNOC-controlled UAE waters unless calling at Ruwais, Jebel Dhanna, Das, Zirku or Mubarraz, for 90 days",
+      "theme": "Hormuz",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "live_ais_com (ADNOC-PPA Jebel Dhanna/Ruwais harbour master notice dated 23 Nov)",
+      "url": "https://x.com/live_ais_com/status/2125323272296489251"
+    },
     {
       "time": "01:54",
       "ts": "2026-11-25T01:54:47+08:00",
@@ -642,22 +661,14 @@
       "confidence": "Unconfirmed",
       "source": "Houthi spokesman Yahya Saree on X (Arabic); Reuters, MenchOsint",
       "url": "https://x.com/Yah_Saree/status/2124541436930699442"
-    },
-    {
-      "time": "00:04",
-      "ts": "2026-11-23T00:04:29+08:00",
-      "eventTime": "Sun 22 Nov 10:25 pm (1425 UTC, UKMTO)",
-      "eventTs": "2026-11-22T22:25:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO 217/26: tanker involved in an incident with military forces in the Gulf of Oman, southeast of Chabahar, Iran; possibly linked to the US blockade",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "CocoPostel on X (UKMTO advisory 217/26); MenchOsint, Open Source Intel",
-      "url": "https://x.com/CocoPostel/status/2124533785047990536"
     }
   ],
   "sources": [
+    {
+      "title": "ADNOC-PPA notice restricting tanker transit through ADNOC waters (via live_ais_com)",
+      "site": "x.com",
+      "href": "https://x.com/live_ais_com/status/2125323272296489251"
+    },
     {
       "title": "IRGC Navy says it hit container ship near Khasab (via LiveSquawk)",
       "site": "x.com",
@@ -3287,11 +3298,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says it struck a container ship near Khasab after tightening its Hormuz closure, blacklisting 26 tugboats and claiming more tankers hit mines.",
+      "Iran's IRGC says it struck a container ship near Khasab after blacklisting 26 tugboats, while ADNOC barred non-calling tankers from its UAE port waters for 90 days.",
       "Putin vowed refinery-strike retaliation, imagery hints Houthi damage at Aramco's Yanbu refinery, and Iraq rejected its OPEC+ capacity assessment before the 29 Nov meeting."
     ],
-    "updated": "Wed 25 Nov 2026, 1:54 am SGT",
-    "updatedTs": "2026-11-25T01:54:47+08:00"
+    "updated": "Wed 25 Nov 2026, 5:02 am SGT",
+    "updatedTs": "2026-11-25T05:02:34+08:00"
   },
   "last24Count": 13
 }
