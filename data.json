@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 1:03 am SGT",
-  "lastScannedTs": "2026-11-25T01:03:45+08:00",
-  "asOf": "Wed 25 Nov 2026, 12:08 am SGT",
-  "asOfTs": "2026-11-25T00:08:55+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 1:26 am SGT",
+  "lastScannedTs": "2026-11-25T01:26:31+08:00",
+  "asOf": "Wed 25 Nov 2026, 1:26 am SGT",
+  "asOfTs": "2026-11-25T01:26:05+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
-    "lead": "Net read (last 24 hours): Escalating: ships hit, tankers mined and tugs blacklisted in Hormuz, Riyadh's tallest tower struck again, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
+    "bottom": "Escalating: ships hit and tankers mined in Hormuz, Houthi strikes reach Riyadh and possibly Yanbu, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
+    "lead": "Net read (last 24 hours): Escalating: ships hit and tankers mined in Hormuz, Houthi strikes reach Riyadh and possibly Yanbu, Putin vows refinery retaliation and the US weighs targeting Iran's leaders.",
     "verdict": "Bullish",
-    "count": "15 of 17 alerts point higher, 0 lower",
-    "text": "15 of 17 alerts point higher, 0 lower.",
+    "count": "16 of 18 alerts point higher, 0 lower",
+    "text": "16 of 18 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Imagery hints Houthi strikes damaged storage tanks at Aramco's SAMREF Yanbu refinery",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-25T01:26:05+08:00"
+      },
       {
         "text": "NBC: US officials debate targeting Iranian leaders (unconfirmed)",
         "confidence": "unconfirmed",
@@ -123,6 +129,19 @@
     "detail": "Brent back above $90/bbl, rebounding from three-month lows, about 10:57 pm SGT 24 Nov (Rory Johnston on X)"
   },
   "alerts": [
+    {
+      "time": "01:26",
+      "ts": "2026-11-25T01:26:05+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Satellite imagery suggests at least four oil storage tanks at Aramco's SAMREF refinery in Yanbu were damaged by Houthi strikes earlier this month",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (CocoPostel), citing EGYOSINT Sentinel-2 imagery",
+      "url": "https://x.com/CocoPostel/status/2125278979292852714"
+    },
     {
       "time": "00:08",
       "ts": "2026-11-25T00:08:55+08:00",
@@ -629,22 +648,14 @@
       "confidence": "Confirmed",
       "source": "CocoPostel on X (coalition spokesman Turki al-Maliki, via Al Jazeera)",
       "url": "https://x.com/CocoPostel/status/2124456186414071977"
-    },
-    {
-      "time": "18:19",
-      "ts": "2026-11-22T18:19:43+08:00",
-      "eventTime": "Sat 21 Nov 11:20 pm CST",
-      "eventTs": "2026-11-22T13:20:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Natural gas pipeline explodes near Ward, Sumter County, Alabama, sending a huge fire into the night sky; operator and cause not yet identified",
-      "theme": "Pipelines",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "heatedreports on X (local TV WVUA 23 also reporting)",
-      "url": "https://x.com/heatedreports/status/2124426269366350000"
     }
   ],
   "sources": [
+    {
+      "title": "Sentinel-2 imagery: possible Houthi damage to storage tanks at Aramco SAMREF, Yanbu (via Post Open Source / EGYOSINT)",
+      "site": "x.com",
+      "href": "https://x.com/CocoPostel/status/2125278979292852714"
+    },
     {
       "title": "NBC News: US officials debate targeting Iranian leaders (via First Squawk)",
       "site": "x.com",
@@ -3259,11 +3270,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "NBC reports US officials are debating targeting Iranian leaders, after Iran tightened its Hormuz closure, blacklisted 26 tugboats and claimed four tankers hit mines.",
-      "Putin vowed to retaliate for Ukraine's refinery strikes, while Riyadh's tallest tower was hit again and Baghdad moved to take over Kurdish oilfields."
+      "NBC reports US officials are debating targeting Iranian leaders, while Iran tightened its Hormuz closure, blacklisted 26 tugboats and claimed more tankers hit mines.",
+      "Putin vowed to retaliate for Ukraine's refinery strikes, and imagery hints Houthi strikes damaged storage tanks at Aramco's SAMREF refinery in Yanbu."
     ],
-    "updated": "Wed 25 Nov 2026, 12:08 am SGT",
-    "updatedTs": "2026-11-25T00:08:56+08:00"
+    "updated": "Wed 25 Nov 2026, 1:26 am SGT",
+    "updatedTs": "2026-11-25T01:26:06+08:00"
   },
   "last24Count": 13
 }
