@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 8:00 pm SGT",
-  "lastScannedTs": "2026-11-24T20:00:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 8:00 pm SGT",
-  "asOfTs": "2026-11-24T20:00:47+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 8:32 pm SGT",
+  "lastScannedTs": "2026-11-24T20:32:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 8:32 pm SGT",
+  "asOfTs": "2026-11-24T20:32:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: UKMTO verifies three ships hit in Hormuz, Iran claims a fourth tanker mined, a ship is hit off the UAE, and Baghdad and Erbil clash over oil.",
-    "lead": "Net read (last 24 hours): Escalating: UKMTO verifies three ships hit in Hormuz, Iran claims a fourth tanker mined, a ship is hit off the UAE, and Baghdad and Erbil clash over oil.",
+    "bottom": "Escalating: UKMTO verifies three ships hit in Hormuz, Iran claims more tankers mined, Saudi Arabia restocks air defences, and Baghdad and Erbil clash over oil.",
+    "lead": "Net read (last 24 hours): Escalating: UKMTO verifies three ships hit in Hormuz, Iran claims more tankers mined, Saudi Arabia restocks air defences, and Baghdad and Erbil clash over oil.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 0 lower",
-    "text": "10 of 13 alerts point higher, 0 lower.",
+    "count": "11 of 14 alerts point higher, 0 lower",
+    "text": "11 of 14 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Saudi Arabia seeks allied missile interceptors as a wider Yemen war looms",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-24T20:26:48+08:00"
+      },
       {
         "text": "UKMTO verifies three ships hit by projectiles transiting Hormuz on 23 Nov",
         "confidence": "confirmed",
@@ -95,16 +101,29 @@
     ]
   },
   "brent": {
-    "value": "~$89.4",
-    "detail": "Brent around $89.4/bbl near three-month lows, about 8:00 pm SGT 24 Nov (market feeds on X)"
+    "value": "~$88.7",
+    "detail": "Brent around $88.7/bbl, down about 0.7% near three-month lows, about 8:15 pm SGT 24 Nov (market feeds on X)"
   },
   "alerts": [
     {
-      "time": "19:58",
-      "ts": "2026-11-24T19:58:23+08:00",
-      "eventTime": "23 Nov, time not stated (UKMTO time-late report)",
+      "time": "20:26",
+      "ts": "2026-11-24T20:26:48+08:00",
+      "eventTime": "Not stated",
       "eventTs": null,
       "eventQual": "not stated",
+      "headline": "Semafor: Saudi Arabia asks allies from the US to Asia for missile interceptors to restock air defences as a wider Yemen war looms",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Semafor report via LiveSquawk; also FirstSquawk",
+      "url": "https://x.com/LiveSquawk/status/2125204485094187362"
+    },
+    {
+      "time": "19:58",
+      "ts": "2026-11-24T19:58:23+08:00",
+      "eventTime": "4:25 am, 24 Nov",
+      "eventTs": "2026-11-24T04:25:00+08:00",
+      "eventQual": "confirmed",
       "headline": "UKMTO verifies time-late report: three vessels struck by unknown projectiles while transiting eastbound through the Strait of Hormuz on 23 Nov; ships continued, crews safe",
       "theme": "Hormuz",
       "direction": "Up",
@@ -605,22 +624,14 @@
       "confidence": "Unconfirmed",
       "source": "live_ais_com on X (single-source tip)",
       "url": "https://x.com/live_ais_com/status/2124346780380963010"
-    },
-    {
-      "time": "09:18",
-      "ts": "2026-11-22T09:18:29+08:00",
-      "eventTime": "7:00 am, 22 Nov (est.)",
-      "eventTs": "2026-11-22T07:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Laden Iranian supertanker KHAT SHEKAN ('Line Breaker') tracked on AIS crossing Hormuz toward the US blockade line, apparently to test it",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X (AIS / MarineTraffic tracking)",
-      "url": "https://x.com/Osint613/status/2124286473470120324"
     }
   ],
   "sources": [
+    {
+      "title": "Semafor: Saudi Arabia asks allies for help restocking missile defences (via LiveSquawk)",
+      "site": "x.com",
+      "href": "https://x.com/LiveSquawk/status/2125204485094187362"
+    },
     {
       "title": "UKMTO: three vessels struck by unknown projectiles transiting Strait of Hormuz (time-late)",
       "site": "X / Israel Red Alert",
@@ -3211,10 +3222,10 @@
     "title": "Today's key developments",
     "lines": [
       "Iran ordered a day-by-day tightening of the Hormuz closure and claimed four tankers hit mines, while UKMTO verified three ships struck by projectiles in the strait.",
-      "Baghdad ordered federal control of Kurdish-held oilfields, crossings and exports, which Kurdistan's prime minister rejected as unacceptable, while Yemeni launches disrupted Saudi airspace."
+      "Baghdad moved to take over Kurdish-held oilfields and exports, which Erbil rejected, while Saudi Arabia sought allied missile interceptors as a wider Yemen war looms."
     ],
-    "updated": "Tue 24 Nov 2026, 8:00 pm SGT",
-    "updatedTs": "2026-11-24T20:00:48+08:00"
+    "updated": "Tue 24 Nov 2026, 8:32 pm SGT",
+    "updatedTs": "2026-11-24T20:32:45+08:00"
   },
   "last24Count": 13
 }
