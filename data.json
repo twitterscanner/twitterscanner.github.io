@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 2:04 pm SGT",
-  "lastScannedTs": "2026-11-24T14:04:00+08:00",
-  "asOf": "Tue 24 Nov 2026, 6:03 am SGT",
-  "asOfTs": "2026-11-24T06:03:37+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 2:06 pm SGT",
+  "lastScannedTs": "2026-11-24T14:06:00+08:00",
+  "asOf": "Tue 24 Nov 2026, 2:06 pm SGT",
+  "asOfTs": "2026-11-24T14:06:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia and Ukrainian refinery strikes outweigh Libya's Sharara pipeline restart.",
-    "lead": "Net read (last 24 hours): Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia and Ukrainian refinery strikes outweigh Libya's Sharara pipeline restart.",
+    "bottom": "Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia, Ukrainian refinery strikes and new EU tanker curbs outweigh Libya's Sharara restart.",
+    "lead": "Net read (last 24 hours): Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia, Ukrainian refinery strikes and new EU tanker curbs outweigh Libya's Sharara restart.",
     "verdict": "Bullish",
-    "count": "9 of 12 alerts point higher, 1 lower",
-    "text": "9 of 12 alerts point higher, 1 lower.",
+    "count": "10 of 13 alerts point higher, 1 lower",
+    "text": "10 of 13 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "EU package bans Russian-insured tankers and EU repair services for Russian refineries",
+        "confidence": "confirmed",
+        "theme": "Russia-Ukraine",
+        "ts": "2026-11-24T14:05:00+08:00"
+      },
       {
         "text": "IRGC claims three tankers hit naval mines and burned in Hormuz despite US escort",
         "confidence": "unconfirmed",
@@ -94,6 +100,19 @@
     "detail": "Brent settled down 3.46% (-$3.20) at $89.37/bbl on Monday (FirstSquawk on X, about 3:47 am SGT 24 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:05",
+      "ts": "2026-11-24T14:05:00+08:00",
+      "eventTime": "11:00 pm, 23 Nov",
+      "eventTs": "2026-11-23T23:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "EU 22nd package detail: ban on all Russian-insured tankers and on EU help building, operating or repairing Russian refineries; 70+ shadow-fleet ships listed",
+      "theme": "Russia-Ukraine",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo on X, citing S&P Global Commodity Insights",
+      "url": "https://x.com/staunovo/status/2125108418071462343"
+    },
     {
       "time": "06:03",
       "ts": "2026-11-24T06:03:00+08:00",
@@ -600,19 +619,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO warnings 215/26 and 216/26; via Post Open Source, ME Observer and others",
       "url": "https://x.com/CocoPostel/status/2124051720724439183"
-    },
-    {
-      "time": "15:05",
-      "ts": "2026-11-21T15:05:49+08:00",
-      "eventTime": "1:00 pm, 21 Nov (est.)",
-      "eventTs": "2026-11-21T13:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Gas pipeline explosion sparks major fire at Iraq's al-Hartha power plant near Basra; at least 2-4 killed, about 28 injured, plant operations halted",
-      "theme": "Pipelines",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Rudaw English, citing Iraqi state media; also Basra Health Directorate toll via Channel 8, K24, RT",
-      "url": "https://x.com/RudawEnglish/status/2124031439771447380"
     }
   ],
   "sources": [
@@ -3155,16 +3161,21 @@
       "title": "Middle East Eye: three tankers exploded after hitting naval mines in Hormuz, per IRGC Navy",
       "site": "x.com",
       "href": "https://x.com/MiddleEastEye/status/2124985939776741556"
+    },
+    {
+      "title": "S&P Global: EU moves to ban tankers insured in Russia, repair services at Russian refineries (via Giovanni Staunovo)",
+      "site": "x.com",
+      "href": "https://x.com/staunovo/status/2125108418071462343"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy claimed three oil tankers hit naval mines and caught fire in the Strait of Hormuz early today, despite a US air escort; unconfirmed independently.",
-      "Missile and drone launches from Yemen disrupted Saudi airspace around 4:30 am, holding flights to Jeddah and Dammam, after new US Treasury sanctions on Iran-linked networks."
+      "Iran's IRGC Navy claimed three oil tankers hit naval mines and caught fire in the Strait of Hormuz early today despite a US air escort, unconfirmed independently.",
+      "Yemeni missile and drone launches disrupted Saudi airspace overnight, while details of the EU's 22nd package show a ban on Russian-insured tankers and refinery repair services."
     ],
-    "updated": "Tue 24 Nov 2026, 6:03 am SGT",
-    "updatedTs": "2026-11-24T06:03:00+08:00"
+    "updated": "Tue 24 Nov 2026, 2:06 pm SGT",
+    "updatedTs": "2026-11-24T14:06:00+08:00"
   },
   "last24Count": 13
 }
