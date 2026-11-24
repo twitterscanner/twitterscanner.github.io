@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 6:50 pm SGT",
-  "lastScannedTs": "2026-11-24T18:50:00+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 7:05 pm SGT",
+  "lastScannedTs": "2026-11-24T19:05:00+08:00",
   "asOf": "Tue 24 Nov 2026, 6:52 pm SGT",
   "asOfTs": "2026-11-24T18:52:44+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Iran tightens Hormuz and says a fourth tanker hit a mine, explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
     "lead": "Net read (last 24 hours): Escalating: Iran tightens Hormuz and says a fourth tanker hit a mine, explosions are reported there, a ship is hit off the UAE, Baghdad moves on Kurdish oil.",
     "verdict": "Bullish",
-    "count": "10 of 14 alerts point higher, 1 lower",
-    "text": "10 of 14 alerts point higher, 1 lower.",
+    "count": "10 of 13 alerts point higher, 0 lower",
+    "text": "10 of 13 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "IRGC says fourth tanker blown up by mine in eastern Hormuz",
@@ -72,14 +72,7 @@
         "ts": "2026-11-23T19:24:00+08:00"
       }
     ],
-    "dovish": [
-      {
-        "text": "Libya's Sharara pipeline reopens, restoring about 350,000 bpd to Zawiya",
-        "confidence": "confirmed",
-        "theme": "Pipelines",
-        "ts": "2026-11-23T19:04:00+08:00"
-      }
-    ],
+    "dovish": [],
     "neutral": [
       {
         "text": "Baghdad orders federal control of Kurdish-held oilfields, crossings and exports",
@@ -109,9 +102,9 @@
     {
       "time": "18:52",
       "ts": "2026-11-24T18:52:44+08:00",
-      "eventTime": "Not stated (IRGC says 'this morning' Iran time)",
-      "eventTs": null,
-      "eventQual": "not stated",
+      "eventTime": "10:30 am, 24 Nov (est.)",
+      "eventTs": "2026-11-24T10:30:00+08:00",
+      "eventQual": "est.",
       "headline": "IRGC Navy says a fourth 'violating' oil tanker exploded on a mine in the eastern Strait of Hormuz this morning; two other ships turned back after radio warning (not independently confirmed)",
       "theme": "Hormuz",
       "direction": "Up",
