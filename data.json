@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 6:02 am SGT",
-  "lastScannedTs": "2026-11-25T06:02:01+08:00",
-  "asOf": "Wed 25 Nov 2026, 5:02 am SGT",
-  "asOfTs": "2026-11-25T05:02:34+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 7:04 am SGT",
+  "lastScannedTs": "2026-11-25T07:04:33+08:00",
+  "asOf": "Wed 25 Nov 2026, 7:04 am SGT",
+  "asOfTs": "2026-11-25T07:04:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
-    "lead": "Net read (last 24 hours): Escalating: Iran keeps hitting ships in Hormuz, Houthi strikes hit Saudi targets, Putin vows refinery retaliation; Iraq's OPEC+ baseline dispute is the lone bearish signal.",
+    "bottom": "Escalating: Hormuz ship attacks, Houthi threats to Saudi Red Sea ports, Russian refinery strikes and US embassy warnings; Iraq's OPEC+ dispute is the lone bearish signal.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz ship attacks, Houthi threats to Saudi Red Sea ports, Russian refinery strikes and US embassy warnings; Iraq's OPEC+ dispute is the lone bearish signal.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "18 of 21 alerts point higher, 1 lower",
+    "text": "18 of 21 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Houthis threaten Saudi Red Sea ports after coalition hits Hodeidah port",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-25T07:04:33+08:00"
+      },
+      {
+        "text": "Ukrainian drones reportedly hit Russia's Syzran refinery",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-25T07:04:32+08:00"
+      },
+      {
+        "text": "US embassies across the Gulf warn Americans of possible escalation",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-25T07:04:31+08:00"
+      },
       {
         "text": "IRGC claims it struck a container ship north of Khasab in Hormuz",
         "confidence": "unconfirmed",
@@ -100,12 +118,6 @@
         "confidence": "confirmed",
         "theme": "Russia-Ukraine",
         "ts": "2026-11-24T14:05:00+08:00"
-      },
-      {
-        "text": "IRGC claims three tankers hit naval mines and burned in Hormuz despite US escort",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-24T06:03:00+08:00"
       }
     ],
     "dovish": [
@@ -136,6 +148,44 @@
     "detail": "Brent settled at $91.40/bbl on Tuesday (Giovanni Staunovo on X, about 3:49 am SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:04",
+      "ts": "2026-11-25T07:04:33+08:00",
+      "eventTime": "7:00 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition orders evacuation of Hodeidah port and Houthi media report a coalition attack on it; Houthis threaten all Saudi Red Sea ports in response",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Al Jazeera English (citing Saba); MenchOsint; Jerusalem Post",
+      "url": "https://x.com/AJEnglish/status/2125364389347999863"
+    },
+    {
+      "time": "07:04",
+      "ts": "2026-11-25T07:04:32+08:00",
+      "eventTime": "6:39 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T06:39:00+08:00",
+      "eventQual": "est.",
+      "headline": "Large Ukrainian drone raid on Russia's Volga basin; local Russian channels report Syzran and its oil refinery under drone attack",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Osinttechnical (citing local Russian channels); OSINTMapLive",
+      "url": "https://x.com/Osinttechnical/status/2125358622288855548"
+    },
+    {
+      "time": "07:04",
+      "ts": "2026-11-25T07:04:31+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "US embassies issue security alerts across 11 Middle East countries incl. Saudi Arabia, UAE, Kuwait, Iraq and Qatar, urging Americans to prepare for possible escalation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "X News summary of US Embassy security alerts"
+    },
     {
       "time": "05:02",
       "ts": "2026-11-25T05:02:34+08:00",
@@ -616,48 +666,19 @@
       "confidence": "Unconfirmed",
       "source": "C4H10FO2P (markito0171) on X",
       "url": "https://x.com/markito0171/status/2124629503838474541"
-    },
-    {
-      "time": "04:04",
-      "ts": "2026-11-23T04:04:22+08:00",
-      "eventTime": "3:00 am, 23 Nov (est.)",
-      "eventTs": "2026-11-23T03:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian air defences fire and missile launches reported at Sirik near the Strait of Hormuz as at least 8 USAF refuelling tankers orbit; unverified claims of anti-ship missiles at US vessels",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel on X; Visioner, Post Open Source, MenchOsint (local reports)",
-      "url": "https://x.com/Osint613/status/2124581732988965045"
-    },
-    {
-      "time": "03:03",
-      "ts": "2026-11-23T03:03:41+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Trump tells Fox News he is inclined to resume strikes on Iran after the New Year if no deal, and says Iranian tankers testing the blockade will be sunk",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel on X (Fox News interview); FirstSquawk, Giovanni Staunovo",
-      "url": "https://x.com/Osint613/status/2124562189411647873"
-    },
-    {
-      "time": "03:02",
-      "ts": "2026-11-23T03:02:41+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim a direct hit on Saudi Arabia's Rabigh oil refinery on the Red Sea coast, plus a radar at Wadi al-Dawasir; no Saudi confirmation",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi spokesman Yahya Saree on X (Arabic); Reuters, MenchOsint",
-      "url": "https://x.com/Yah_Saree/status/2124541436930699442"
     }
   ],
   "sources": [
+    {
+      "title": "Saba: coalition attack on Hodeidah port after evacuation order (via Al Jazeera English)",
+      "site": "x.com",
+      "href": "https://x.com/AJEnglish/status/2125364389347999863"
+    },
+    {
+      "title": "Ukrainian drone raid on Volga basin, Syzran refinery reported hit (via Osinttechnical)",
+      "site": "x.com",
+      "href": "https://x.com/Osinttechnical/status/2125358622288855548"
+    },
     {
       "title": "ADNOC-PPA notice restricting tanker transit through ADNOC waters (via live_ais_com)",
       "site": "x.com",
@@ -3292,11 +3313,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says it struck a container ship near Khasab after blacklisting 26 tugboats, while ADNOC barred non-calling tankers from its UAE port waters for 90 days.",
-      "Putin vowed refinery-strike retaliation, imagery hints Houthi damage at Aramco's Yanbu refinery, and Iraq rejected its OPEC+ capacity assessment before the 29 Nov meeting."
+      "Iran's IRGC says it struck a container ship near Khasab, and Houthis threatened all Saudi Red Sea ports after the coalition ordered Hodeidah port evacuated and attacked it.",
+      "Putin vowed refinery-strike retaliation as drones reportedly hit Syzran, ADNOC barred non-calling tankers from its waters, and US embassies across the Gulf issued escalation alerts."
     ],
-    "updated": "Wed 25 Nov 2026, 5:02 am SGT",
-    "updatedTs": "2026-11-25T05:02:34+08:00"
+    "updated": "Wed 25 Nov 2026, 7:04 am SGT",
+    "updatedTs": "2026-11-25T07:04:33+08:00"
   },
   "last24Count": 13
 }
