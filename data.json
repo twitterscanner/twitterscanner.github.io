@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Tue 24 Nov 2026, 2:06 pm SGT",
-  "lastScannedTs": "2026-11-24T14:06:00+08:00",
+  "lastScanned": "Tue 24 Nov 2026, 2:20 pm SGT",
+  "lastScannedTs": "2026-11-24T14:20:00+08:00",
   "asOf": "Tue 24 Nov 2026, 2:06 pm SGT",
   "asOfTs": "2026-11-24T14:06:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia, Ukrainian refinery strikes and new EU tanker curbs outweigh Libya's Sharara restart.",
     "lead": "Net read (last 24 hours): Escalating: IRGC-claimed mine hits on Hormuz tankers, Yemeni launches at Saudi Arabia, Ukrainian refinery strikes and new EU tanker curbs outweigh Libya's Sharara restart.",
     "verdict": "Bullish",
-    "count": "10 of 13 alerts point higher, 1 lower",
-    "text": "10 of 13 alerts point higher, 1 lower.",
+    "count": "9 of 12 alerts point higher, 1 lower",
+    "text": "9 of 12 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "EU package bans Russian-insured tankers and EU repair services for Russian refineries",
@@ -64,12 +64,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-23T14:34:13+08:00"
-      },
-      {
-        "text": "Another tanker reportedly hit and burning in the Strait of Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-23T14:16:45+08:00"
       }
     ],
     "dovish": [
