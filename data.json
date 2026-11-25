@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 5:02 am SGT",
-  "lastScannedTs": "2026-11-26T05:02:06+08:00",
-  "asOf": "Thu 26 Nov 2026, 5:02 am SGT",
-  "asOfTs": "2026-11-26T05:02:07+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 6:02 am SGT",
+  "lastScannedTs": "2026-11-26T06:02:01+08:00",
+  "asOf": "Thu 26 Nov 2026, 6:02 am SGT",
+  "asOfTs": "2026-11-26T06:02:02+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz flows down 31% amid explosions and mine hits, Houthi missiles and drones on Saudi ports, Russian refining halved; risks skew higher.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz flows down 31% amid explosions and mine hits, Houthi missiles and drones on Saudi ports, Russian refining halved; risks skew higher.",
+    "bottom": "Escalating: Houthi missiles at Riyadh and Saudi ports, Iranian action against tankers as Hormuz flows drop 31%, Russian refining halved; risks skew higher.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi missiles at Riyadh and Saudi ports, Iranian action against tankers as Hormuz flows drop 31%, Russian refining halved; risks skew higher.",
     "verdict": "Bullish",
-    "count": "26 of 26 alerts point higher, 0 lower",
-    "text": "26 of 26 alerts point higher, 0 lower.",
+    "count": "28 of 28 alerts point higher, 0 lower",
+    "text": "28 of 28 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Iran moves against 'rogue tankers' near Hormuz; Jask missile launch reported",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-26T06:02:01+08:00"
+      },
+      {
+        "text": "Houthi ballistic missiles at Riyadh; Saudi says two intercepted",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-26T06:02:00+08:00"
+      },
       {
         "text": "Coalition intercepts a westbound Houthi cruise missile",
         "confidence": "confirmed",
@@ -176,6 +188,32 @@
     "detail": "Brent futures settled at $94.61, up $3.21 (3.5%), on 25 Nov (First Squawk on X, about 3:45 am SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "06:02",
+      "ts": "2026-11-26T06:02:01+08:00",
+      "eventTime": "Overnight 25-26 Nov, about 5:30 am SGT (est., 'tonight')",
+      "eventTs": "2026-11-26T05:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iranian forces move against 'rogue tankers' near Hormuz, with footage of the operation at sea; separate unverified report of an anti-ship missile launch from Jask",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint on X (footage); Jask launch claim via Mario Nawfal",
+      "url": "https://x.com/MenchOsint/status/2125705125591429419"
+    },
+    {
+      "time": "06:02",
+      "ts": "2026-11-26T06:02:00+08:00",
+      "eventTime": "About 5:15 am SGT 26 Nov (est., 'few minutes ago' at 5:21 am)",
+      "eventTs": "2026-11-26T05:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis fire ballistic missiles at Riyadh; Saudi says two intercepted as airspace disruption spreads and Jeddah flights divert",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint on X, citing a Saudi spokesperson; also Post Open Source",
+      "url": "https://x.com/MenchOsint/status/2125701497379811589"
+    },
     {
       "time": "05:02",
       "ts": "2026-11-26T05:02:06+08:00",
@@ -668,32 +706,6 @@
       "confidence": "Unconfirmed",
       "source": "IRGC Navy statement via Iranian state media (Tasnim), via CGTN Europe",
       "url": "https://x.com/CGTNEurope/status/2125180358618448082"
-    },
-    {
-      "time": "18:38",
-      "ts": "2026-11-24T18:38:37+08:00",
-      "eventTime": "6:28 pm, 24 Nov (est.)",
-      "eventTs": "2026-11-24T18:28:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions reported heard in the Strait of Hormuz, per unverified channel reports; no cause, location or damage given yet",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "First Squawk citing unverified channel reports; also CGTN Europe, Arabic-language Iran news accounts",
-      "url": "https://x.com/FirstSquawk/status/2125175587618898061"
-    },
-    {
-      "time": "17:05",
-      "ts": "2026-11-24T17:05:46+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's Army Navy says two oil tankers struck a naval mine east of the Strait of Hormuz, caught fire and stopped; it says they entered a prohibited area with AIS and navigation systems off (not independently confirmed)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian state media citing the army, via CGTN Europe; also Middle East Observer, FinSquawk",
-      "url": "https://x.com/CGTNEurope/status/2125152594620272999"
     }
   ],
   "sources": [
@@ -3481,16 +3493,26 @@
       "title": "Coalition intercepts Houthi cruise missile (26 Nov)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2125688441845531064"
+    },
+    {
+      "title": "Houthi ballistic missiles at Riyadh, two intercepted (26 Nov)",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2125701497379811589"
+    },
+    {
+      "title": "Iranian forces act against 'rogue tankers' near Hormuz (26 Nov)",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2125705125591429419"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Hormuz crude flows have fallen 31% to an eight-week low as explosions were reported near Bandar Abbas and Qeshm, while the coalition downed Houthi drones and a cruise missile aimed at Saudi ports.",
-      "Russian refinery runs have halved to a two-decade low under Ukrainian strikes, and Brent settled up 3.5% at $94.61."
+      "Houthis fired ballistic missiles at Riyadh and drones and a cruise missile at Saudi ports, while Iran moved against tankers near Hormuz as crude flows there fell 31%.",
+      "Explosions were reported near Bandar Abbas and Qeshm, Russian refinery runs have halved to a two-decade low, and Brent settled up 3.5% at $94.61."
     ],
-    "updated": "Thu 26 Nov 2026, 5:02 am SGT",
-    "updatedTs": "2026-11-26T05:02:06+08:00"
+    "updated": "Thu 26 Nov 2026, 6:02 am SGT",
+    "updatedTs": "2026-11-26T06:02:01+08:00"
   },
   "last24Count": 13
 }
