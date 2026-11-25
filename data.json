@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 8:01 am SGT",
-  "lastScannedTs": "2026-11-25T08:01:53+08:00",
-  "asOf": "Wed 25 Nov 2026, 7:04 am SGT",
-  "asOfTs": "2026-11-25T07:04:33+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 9:05 am SGT",
+  "lastScannedTs": "2026-11-25T09:05:04+08:00",
+  "asOf": "Wed 25 Nov 2026, 9:05 am SGT",
+  "asOfTs": "2026-11-25T09:05:04+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz ship attacks, Houthi threats to Saudi Red Sea ports, Russian refinery strikes and US embassy warnings; Iraq's OPEC+ dispute is the lone bearish signal.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz ship attacks, Houthi threats to Saudi Red Sea ports, Russian refinery strikes and US embassy warnings; Iraq's OPEC+ dispute is the lone bearish signal.",
+    "bottom": "Escalating: Ukrainian drones hitting Volga refineries, possible strike near Saudi oil heartland at Dammam, and Hormuz shipping attacks keep supply risk high.",
+    "lead": "Net read (last 24 hours): Escalating: Ukrainian drones hitting Volga refineries, possible strike near Saudi oil heartland at Dammam, and Hormuz shipping attacks keep supply risk high.",
     "verdict": "Bullish",
-    "count": "18 of 21 alerts point higher, 1 lower",
-    "text": "18 of 21 alerts point higher, 1 lower.",
+    "count": "20 of 23 alerts point higher, 1 lower",
+    "text": "20 of 23 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Dammam airport in Saudi oil heartland possibly struck; flights diverting",
+        "confidence": "unconfirmed",
+        "theme": "Saudi Arabia",
+        "ts": "2026-11-25T09:05:04+08:00"
+      },
+      {
+        "text": "Second Samara refinery, Kuibyshev, reportedly hit by drones with large fire",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-25T09:05:03+08:00"
+      },
       {
         "text": "Houthis threaten Saudi Red Sea ports after coalition hits Hodeidah port",
         "confidence": "confirmed",
@@ -148,6 +160,32 @@
     "detail": "Brent settled at $91.40/bbl on Tuesday (Giovanni Staunovo on X, about 3:49 am SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:05",
+      "ts": "2026-11-25T09:05:04+08:00",
+      "eventTime": "8:45 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T08:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "Dammam airport in Saudi Arabia's Eastern Province possibly struck; airspace disruption continues and flights diverting",
+      "theme": "Saudi Arabia",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "MenchOsint; Post Open Source on X",
+      "url": "https://x.com/MenchOsint/status/2125391094263300486"
+    },
+    {
+      "time": "09:05",
+      "ts": "2026-11-25T09:05:03+08:00",
+      "eventTime": "8:00 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T08:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Kuibyshev refinery in Samara also hit by Ukrainian drones, large fire reported; Syzran refinery still ablaze",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping; C4H10FO2P (markito0171); OSINTtechnical on X",
+      "url": "https://x.com/AMK_Mapping_/status/2125382852506444280"
+    },
     {
       "time": "07:04",
       "ts": "2026-11-25T07:04:33+08:00",
@@ -640,32 +678,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk on X (Libya NOC statement)",
       "url": "https://x.com/FirstSquawk/status/2124654284650479621"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-23T07:04:53+08:00",
-      "eventTime": "5:39 am, 23 Nov",
-      "eventTs": "2026-11-23T05:39:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "Heavy Iranian air defence fire across Khuzestan (Ramhormoz, Ahvaz, Bandar Mahshahr) and repeated drone launches from Omidiyeh air base as US strike readiness rises; no confirmed strikes",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Visioner on X; BeamTracker, FromIran delayed feed (local reports)",
-      "url": "https://x.com/visionergeo/status/2124634362473775315"
-    },
-    {
-      "time": "07:03",
-      "ts": "2026-11-23T07:03:53+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Strikes reported on Russia's Novoshakhtinsk refinery in Rostov region",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "C4H10FO2P (markito0171) on X",
-      "url": "https://x.com/markito0171/status/2124629503838474541"
     }
   ],
   "sources": [
@@ -3308,16 +3320,31 @@
       "title": "S&P Global: EU moves to ban tankers insured in Russia, repair services at Russian refineries (via Giovanni Staunovo)",
       "site": "x.com",
       "href": "https://x.com/staunovo/status/2125108418071462343"
+    },
+    {
+      "title": "Kuibyshev refinery in Samara attacked, large fire",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2125382852506444280"
+    },
+    {
+      "title": "Syzran oil refinery ablaze after drone hits",
+      "site": "X / OSINTtechnical",
+      "href": "https://x.com/Osinttechnical/status/2125383589198201071"
+    },
+    {
+      "title": "Dammam airport possibly struck, flights diverting",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2125391094263300486"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says it struck a container ship near Khasab, and Houthis threatened all Saudi Red Sea ports after the coalition ordered Hodeidah port evacuated and attacked it.",
-      "Putin vowed refinery-strike retaliation as drones reportedly hit Syzran, ADNOC barred non-calling tankers from its waters, and US embassies across the Gulf issued escalation alerts."
+      "Ukrainian drones reportedly set Russia's Syzran and Kuibyshev refineries in Samara ablaze, while Putin vowed retaliation over continued refinery strikes.",
+      "Houthis threatened all Saudi Red Sea ports after the Hodeidah evacuation order, Dammam airport was possibly struck, and Iran said it hit a ship near Khasab."
     ],
-    "updated": "Wed 25 Nov 2026, 7:04 am SGT",
-    "updatedTs": "2026-11-25T07:04:33+08:00"
+    "updated": "Wed 25 Nov 2026, 9:05 am SGT",
+    "updatedTs": "2026-11-25T09:05:04+08:00"
   },
   "last24Count": 13
 }
