@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 4:01 am SGT",
-  "lastScannedTs": "2026-11-26T04:01:10+08:00",
-  "asOf": "Thu 26 Nov 2026, 4:01 am SGT",
-  "asOfTs": "2026-11-26T04:01:12+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 5:02 am SGT",
+  "lastScannedTs": "2026-11-26T05:02:06+08:00",
+  "asOf": "Thu 26 Nov 2026, 5:02 am SGT",
+  "asOfTs": "2026-11-26T05:02:07+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jeddah port now targeted, explosions near Hormuz, tanker mine hits and Kurdistan tensions; Brent settled up 3.5% at $94.61.",
-    "lead": "Net read (last 24 hours): Escalating: Jeddah port now targeted, explosions near Hormuz, tanker mine hits and Kurdistan tensions; Brent settled up 3.5% at $94.61.",
+    "bottom": "Escalating: Hormuz flows down 31% amid explosions and mine hits, Houthi missiles and drones on Saudi ports, Russian refining halved; risks skew higher.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz flows down 31% amid explosions and mine hits, Houthi missiles and drones on Saudi ports, Russian refining halved; risks skew higher.",
     "verdict": "Bullish",
-    "count": "23 of 24 alerts point higher, 0 lower",
-    "text": "23 of 24 alerts point higher, 0 lower.",
+    "count": "26 of 27 alerts point higher, 0 lower",
+    "text": "26 of 27 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Coalition intercepts a westbound Houthi cruise missile",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-26T05:02:06+08:00"
+      },
+      {
+        "text": "Hormuz crude flows down 31% to an eight-week low",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-26T05:02:05+08:00"
+      },
+      {
+        "text": "Russian refinery runs at 20-year low; Putin vows response",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-26T05:02:04+08:00"
+      },
       {
         "text": "Coalition confirms Houthi drone downed near Jeddah port, debris fell",
         "confidence": "confirmed",
@@ -165,6 +183,45 @@
     "detail": "Brent futures settled at $94.61, up $3.21 (3.5%), on 25 Nov (First Squawk on X, about 3:45 am SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "05:02",
+      "ts": "2026-11-26T05:02:06+08:00",
+      "eventTime": "Not stated (statement ~4:29 am SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says its air defences intercepted a Houthi cruise missile headed westward",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition statement (First Squawk)",
+      "url": "https://x.com/FirstSquawk/status/2125688441845531064"
+    },
+    {
+      "time": "05:02",
+      "ts": "2026-11-26T05:02:05+08:00",
+      "eventTime": "Not stated (report ~4:15 am SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Crude flows through the Strait of Hormuz fall 31% to an eight-week low as Iranian tanker attacks escalate",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Energy Intelligence report (via Oil Headline News)",
+      "url": "https://x.com/OilHeadlineNews/status/2125684933071151194"
+    },
+    {
+      "time": "05:02",
+      "ts": "2026-11-26T05:02:04+08:00",
+      "eventTime": "Not stated (runs as of Mon 23 Nov; Putin remarks reported ~5:00 am SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russia's refinery runs plunge to the lowest in over two decades, 2.6-2.7 million b/d, roughly halved since Oct 30 after Ukrainian strikes; Putin says Moscow will respond",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Rystad Energy data via Bloomberg (staunovo); Putin remarks via Rigzone",
+      "url": "https://x.com/staunovo/status/2125684774316433497"
+    },
     {
       "time": "04:01",
       "ts": "2026-11-26T04:01:10+08:00",
@@ -644,45 +701,6 @@
       "confidence": "Unconfirmed",
       "source": "Iranian state media citing the army, via CGTN Europe; also Middle East Observer, FinSquawk",
       "url": "https://x.com/CGTNEurope/status/2125152594620272999"
-    },
-    {
-      "time": "17:05",
-      "ts": "2026-11-24T17:05:46+08:00",
-      "eventTime": "4:30 pm, 24 Nov (est.)",
-      "eventTs": "2026-11-24T16:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iraq's PM orders the federal oil ministry to take over oilfield management in areas under Kurdish security control and puts Kurdistan border crossings under federal authority, with oil exports through federal channels only",
-      "theme": "Iraq / Kurdistan",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Reuters headline via Giovanni Staunovo; also FinSquawk; announced by the PM's military spokesman",
-      "url": "https://x.com/staunovo/status/2125152013839163666"
-    },
-    {
-      "time": "16:36",
-      "ts": "2026-11-24T16:36:01+08:00",
-      "eventTime": "6:26 pm, 22 Nov",
-      "eventTs": "2026-11-22T18:26:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: bulk carrier struck on port side by unknown projectile while anchored off Dibba, 23nm NE of Khor Fakkan, UAE; fire on board, no casualties (time-late report)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice via First Squawk; also Arab News, CGTN, ILRedAlert",
-      "url": "https://x.com/FirstSquawk/status/2125144165210345910"
-    },
-    {
-      "time": "16:27",
-      "ts": "2026-11-24T16:27:29+08:00",
-      "eventTime": "3:50 pm, 24 Nov (est.)",
-      "eventTs": "2026-11-24T15:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's army chief Hatami orders the navy to tighten the Strait of Hormuz closure 'day by day' until Iran's seven conditions are met, state media report",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Iran International English, citing Iranian state media (Mehr); also Iran International Persian",
-      "url": "https://x.com/IranIntl_En/status/2125142064429969773"
     }
   ],
   "sources": [
@@ -3455,16 +3473,31 @@
       "title": "Brent futures settle at $94.61, up 3.51% (25 Nov)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2125677374817927306"
+    },
+    {
+      "title": "Hormuz crude flows down 31% to eight-week low (Energy Intelligence, 26 Nov)",
+      "site": "X / Oil Headline News",
+      "href": "https://x.com/OilHeadlineNews/status/2125684933071151194"
+    },
+    {
+      "title": "Russian refinery runs at lowest in two decades (Rystad, 25 Nov)",
+      "site": "X / Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2125684774316433497"
+    },
+    {
+      "title": "Coalition intercepts Houthi cruise missile (26 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2125688441845531064"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Houthis hit Jazan port and targeted Jeddah port, where the coalition says it downed a drone, while explosions were reported near Hormuz around 3:20 am.",
-      "Brent settled up 3.5% at $94.61 as Galp shut Brazil's Bacalhau field for weeks and Israeli media reported Iranian attacks on Kurds in northern Iraq."
+      "Hormuz crude flows have fallen 31% to an eight-week low as explosions were reported near Bandar Abbas and Qeshm, while the coalition downed Houthi drones and a cruise missile aimed at Saudi ports.",
+      "Russian refinery runs have halved to a two-decade low under Ukrainian strikes, and Brent settled up 3.5% at $94.61."
     ],
-    "updated": "Thu 26 Nov 2026, 4:01 am SGT",
-    "updatedTs": "2026-11-26T04:01:10+08:00"
+    "updated": "Thu 26 Nov 2026, 5:02 am SGT",
+    "updatedTs": "2026-11-26T05:02:06+08:00"
   },
   "last24Count": 13
 }
