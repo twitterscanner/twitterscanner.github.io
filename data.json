@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 7:48 pm SGT",
-  "lastScannedTs": "2026-11-25T19:48:00+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 7:59 pm SGT",
+  "lastScannedTs": "2026-11-25T19:59:00+08:00",
   "asOf": "Wed 25 Nov 2026, 7:48 pm SGT",
   "asOfTs": "2026-11-25T19:48:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "verdict": "Bullish",
-    "count": "20 of 22 alerts point higher, 1 lower",
-    "text": "20 of 22 alerts point higher, 1 lower.",
+    "count": "19 of 21 alerts point higher, 1 lower",
+    "text": "19 of 21 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Iraq top court backs Baghdad takeover of Kurdish oilfields; KRG exports at risk",
@@ -124,12 +124,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-24T20:26:48+08:00"
-      },
-      {
-        "text": "UKMTO verifies three ships hit by projectiles transiting Hormuz late on 22 Nov",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-24T19:58:23+08:00"
       }
     ],
     "dovish": [
