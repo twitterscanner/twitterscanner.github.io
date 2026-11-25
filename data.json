@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 6:02 am SGT",
-  "lastScannedTs": "2026-11-26T06:02:01+08:00",
-  "asOf": "Thu 26 Nov 2026, 6:02 am SGT",
-  "asOfTs": "2026-11-26T06:02:02+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 7:04 am SGT",
+  "lastScannedTs": "2026-11-26T07:04:59+08:00",
+  "asOf": "Thu 26 Nov 2026, 7:05 am SGT",
+  "asOfTs": "2026-11-26T07:05:01+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi missiles at Riyadh and Saudi ports, Iranian action against tankers as Hormuz flows drop 31%, Russian refining halved; risks skew higher.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi missiles at Riyadh and Saudi ports, Iranian action against tankers as Hormuz flows drop 31%, Russian refining halved; risks skew higher.",
+    "bottom": "Escalating: reported Iranian missile salvo at Hormuz tankers, projectile near a tanker off Dubai, Houthi strikes on Riyadh and Saudi ports; risks skew higher.",
+    "lead": "Net read (last 24 hours): Escalating: reported Iranian missile salvo at Hormuz tankers, projectile near a tanker off Dubai, Houthi strikes on Riyadh and Saudi ports; risks skew higher.",
     "verdict": "Bullish",
     "count": "28 of 28 alerts point higher, 0 lower",
     "text": "28 of 28 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO: projectile explodes near tanker west of Dubai, no damage",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-26T07:04:59+08:00"
+      },
+      {
+        "text": "AFP: explosion heard in Riyadh",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-26T07:04:58+08:00"
+      },
+      {
+        "text": "Iran reportedly fires a dozen-plus anti-ship missiles at escorted Hormuz tankers",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-26T07:04:57+08:00"
+      },
       {
         "text": "Iran moves against 'rogue tankers' near Hormuz; Jask missile launch reported",
         "confidence": "unconfirmed",
@@ -160,24 +178,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia refineries",
         "ts": "2026-11-25T09:05:03+08:00"
-      },
-      {
-        "text": "Houthis threaten Saudi Red Sea ports after coalition hits Hodeidah port",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-25T07:04:33+08:00"
-      },
-      {
-        "text": "Ukrainian drones reportedly hit Russia's Syzran refinery",
-        "confidence": "unconfirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-25T07:04:32+08:00"
-      },
-      {
-        "text": "US embassies across the Gulf warn Americans of possible escalation",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-25T07:04:31+08:00"
       }
     ],
     "dovish": [],
@@ -188,6 +188,45 @@
     "detail": "Brent futures settled at $94.61, up $3.21 (3.5%), on 25 Nov (First Squawk on X, about 3:45 am SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:04",
+      "ts": "2026-11-26T07:04:59+08:00",
+      "eventTime": "Not stated (UKMTO notice relayed ~7:01 am SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UKMTO: tanker 50nm west of Dubai reports an explosion from an unknown projectile near the vessel; crew safe, no damage",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO notice (via First Squawk)",
+      "url": "https://x.com/FirstSquawk/status/2125726534615126381"
+    },
+    {
+      "time": "07:04",
+      "ts": "2026-11-26T07:04:58+08:00",
+      "eventTime": "About 6:45 am SGT 26 Nov (est., reported 6:47 am)",
+      "eventTs": "2026-11-26T06:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "AFP: explosion heard in Riyadh, a day after 11 were wounded in a Houthi-claimed attack on the financial district",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AFP journalist and residents (via Oil Headline News)",
+      "url": "https://x.com/OilHeadlineNews/status/2125723117977006135"
+    },
+    {
+      "time": "07:04",
+      "ts": "2026-11-26T07:04:57+08:00",
+      "eventTime": "About 6:25 am SGT 26 Nov (est., 'tonight', posted 6:27 am)",
+      "eventTs": "2026-11-26T06:25:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran reportedly launches over a dozen anti-ship cruise missiles from several cities at US-escorted oil tankers in the Strait of Hormuz; explosions and jet activity reported",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Hormuz Letter on X (initial reports)",
+      "url": "https://x.com/HormuzLetter/status/2125717940175806540"
+    },
     {
       "time": "06:02",
       "ts": "2026-11-26T06:02:01+08:00",
@@ -667,45 +706,6 @@
       "confidence": "Confirmed",
       "source": "Semafor report via LiveSquawk; also FirstSquawk",
       "url": "https://x.com/LiveSquawk/status/2125204485094187362"
-    },
-    {
-      "time": "19:58",
-      "ts": "2026-11-24T19:58:23+08:00",
-      "eventTime": "est. ~4:50 am, 23 Nov (22 Nov 2050 UTC per re-issued UKMTO notice)",
-      "eventTs": "2026-11-23T04:50:00+08:00",
-      "eventQual": "est.",
-      "headline": "UKMTO verifies time-late report: three vessels struck by unknown projectiles while transiting eastbound through the Strait of Hormuz late on 22 Nov (UTC); ships continued, crews safe",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice via Israel Red Alert feed; also BeamTracker",
-      "url": "https://x.com/ILRedAlert/status/2125197693240705107"
-    },
-    {
-      "time": "19:39",
-      "ts": "2026-11-24T19:39:24+08:00",
-      "eventTime": "est. ~7:15 pm SGT (remarks to reporters; first reported 7:18 pm SGT)",
-      "eventTs": "2026-11-24T19:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Kurdistan PM Masrour Barzani rejects Baghdad's move to take over Kurdish oilfields, crossings and oil exports as unconstitutional and 'in no way acceptable'",
-      "theme": "Iraq / Kurdistan",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Rudaw English (KRG PM remarks to reporters)",
-      "url": "https://x.com/RudawEnglish/status/2125192557147865463"
-    },
-    {
-      "time": "18:52",
-      "ts": "2026-11-24T18:52:44+08:00",
-      "eventTime": "10:30 am, 24 Nov (est.)",
-      "eventTs": "2026-11-24T10:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says a fourth 'violating' oil tanker exploded on a mine in the eastern Strait of Hormuz this morning; two other ships turned back after radio warning (not independently confirmed)",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy statement via Iranian state media (Tasnim), via CGTN Europe",
-      "url": "https://x.com/CGTNEurope/status/2125180358618448082"
     }
   ],
   "sources": [
@@ -3503,16 +3503,31 @@
       "title": "Iranian forces act against 'rogue tankers' near Hormuz (26 Nov)",
       "site": "X / MenchOsint",
       "href": "https://x.com/MenchOsint/status/2125705125591429419"
+    },
+    {
+      "title": "Iran anti-ship missile salvo at Hormuz tankers, initial reports (26 Nov)",
+      "site": "X / Hormuz Letter",
+      "href": "https://x.com/HormuzLetter/status/2125717940175806540"
+    },
+    {
+      "title": "AFP: explosion heard in Riyadh (26 Nov)",
+      "site": "X / Oil Headline News",
+      "href": "https://x.com/OilHeadlineNews/status/2125723117977006135"
+    },
+    {
+      "title": "UKMTO: projectile explodes near tanker west of Dubai (26 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2125726534615126381"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis fired ballistic missiles at Riyadh and drones and a cruise missile at Saudi ports, while Iran moved against tankers near Hormuz as crude flows there fell 31%.",
-      "Explosions were reported near Bandar Abbas and Qeshm, Russian refinery runs have halved to a two-decade low, and Brent settled up 3.5% at $94.61."
+      "Iran reportedly fired over a dozen anti-ship missiles at US-escorted tankers in Hormuz, and UKMTO says a projectile exploded near a tanker west of Dubai.",
+      "Houthis fired ballistic missiles at Riyadh and struck at Saudi ports, while Hormuz crude flows are down 31% and Russian refinery runs have halved."
     ],
-    "updated": "Thu 26 Nov 2026, 6:02 am SGT",
-    "updatedTs": "2026-11-26T06:02:01+08:00"
+    "updated": "Thu 26 Nov 2026, 7:04 am SGT",
+    "updatedTs": "2026-11-26T07:04:59+08:00"
   },
   "last24Count": 13
 }
