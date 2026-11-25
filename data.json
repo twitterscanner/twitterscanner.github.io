@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 1:55 am SGT",
-  "lastScannedTs": "2026-11-26T01:55:31+08:00",
-  "asOf": "Thu 26 Nov 2026, 12:47 am SGT",
-  "asOfTs": "2026-11-26T00:47:32+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 2:03 am SGT",
+  "lastScannedTs": "2026-11-26T02:03:51+08:00",
+  "asOf": "Thu 26 Nov 2026, 2:03 am SGT",
+  "asOfTs": "2026-11-26T02:03:53+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthis now hitting Saudi Red Sea ports (Jazan) after Ras Tanura, while mines strike tankers and an LNG carrier in Hormuz.",
-    "lead": "Net read (last 24 hours): Escalating: Houthis now hitting Saudi Red Sea ports (Jazan) after Ras Tanura, while mines strike tankers and an LNG carrier in Hormuz.",
+    "bottom": "Escalating: Houthis hitting Saudi ports and Ras Tanura, mines striking Hormuz tankers, plus a Brazil field outage; risks skew higher.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis hitting Saudi ports and Ras Tanura, mines striking Hormuz tankers, plus a Brazil field outage; risks skew higher.",
     "verdict": "Bullish",
-    "count": "18 of 19 alerts point higher, 0 lower",
-    "text": "18 of 19 alerts point higher, 0 lower.",
+    "count": "19 of 20 alerts point higher, 0 lower",
+    "text": "19 of 20 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Brazil's Bacalhau field output halted for 5 to 8 weeks after incident",
+        "confidence": "confirmed",
+        "theme": "Oil fields / outages",
+        "ts": "2026-11-26T02:03:51+08:00"
+      },
       {
         "text": "Houthi projectile hits Saudi Red Sea port of Jazan, minor damage",
         "confidence": "confirmed",
@@ -131,10 +137,23 @@
     ]
   },
   "brent": {
-    "value": "~3.1",
-    "detail": "Brent up 1.8% to 3.06 as Houthi claims on Saudi oil infrastructure lift the risk premium (GTE News on X, about 11:50 pm SGT 25 Nov)"
+    "value": "~$93.1",
+    "detail": "Brent up 1.8% to $93.06 as Houthi claims on Saudi oil infrastructure lift the risk premium (GTE News on X, about 11:50 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "02:03",
+      "ts": "2026-11-26T02:03:51+08:00",
+      "eventTime": "Not stated (Galp statement on 25 Nov; reported ~1:55 am SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Galp says an incident at Equinor-operated Bacalhau field in Brazil's Santos Basin has halted output for an estimated 5 to 8 weeks",
+      "theme": "Oil fields / outages",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo on X citing Galp statement (Reuters); Equinor also flags Bacalhau and Visund shut-ins",
+      "url": "https://x.com/staunovo/status/2125649675097137406"
+    },
     {
       "time": "00:47",
       "ts": "2026-11-26T00:47:32+08:00",
@@ -640,19 +659,6 @@
       "confidence": "Confirmed",
       "source": "Al Arabiya English on X; also CGTN, Osint613",
       "url": "https://x.com/AlArabiya_Eng/status/2124921562654519665"
-    },
-    {
-      "time": "23:00",
-      "ts": "2026-11-23T23:00:00+08:00",
-      "eventTime": "11:00 pm, 23 Nov",
-      "eventTs": "2026-11-23T23:00:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "EU Commission presents a 22nd sanctions package against Russia (von der Leyen, Kallas); oil and shadow-fleet measures not yet detailed",
-      "theme": "Russia-Ukraine",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Ursula von der Leyen on X; also Kaja Kallas, CGTN",
-      "url": "https://x.com/vonderleyen/status/2124880816438215059"
     }
   ],
   "sources": [
@@ -3395,16 +3401,21 @@
       "title": "Saudi-led coalition: Houthi projectile falls on Jazan port, minor damage (26 Nov)",
       "site": "X / Anadolu Agency",
       "href": "https://x.com/anadoluagency/status/2125630555504980038"
+    },
+    {
+      "title": "Galp: Bacalhau field (Brazil) output suspended 5 to 8 weeks after incident (26 Nov)",
+      "site": "X / Giovanni Staunovo",
+      "href": "https://x.com/staunovo/status/2125649675097137406"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight the Saudi-led coalition said a Houthi projectile hit Jazan port on the Red Sea, the first strike on a Saudi Red Sea port after Houthi threats.",
-      "Late on 25 Nov the IRGC said an LNG carrier exploded after hitting a mine in Hormuz, and Houthi strikes on Ras Tanura kept Brent near $93."
+      "Just after midnight the Saudi-led coalition said a Houthi projectile hit Jazan port on the Red Sea, after Houthi strikes on Ras Tanura and mine hits on Hormuz tankers.",
+      "Around 2 am Galp said an incident at Brazil's Bacalhau field, operated by Equinor, has halted its output for an estimated five to eight weeks."
     ],
-    "updated": "Thu 26 Nov 2026, 12:47 am SGT",
-    "updatedTs": "2026-11-26T00:47:32+08:00"
+    "updated": "Thu 26 Nov 2026, 2:03 am SGT",
+    "updatedTs": "2026-11-26T02:03:51+08:00"
   },
   "last24Count": 13
 }
