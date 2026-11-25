@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 7:59 pm SGT",
-  "lastScannedTs": "2026-11-25T19:59:00+08:00",
-  "asOf": "Wed 25 Nov 2026, 7:48 pm SGT",
-  "asOfTs": "2026-11-25T19:48:12+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 8:05 pm SGT",
+  "lastScannedTs": "2026-11-25T20:05:00+08:00",
+  "asOf": "Wed 25 Nov 2026, 8:05 pm SGT",
+  "asOfTs": "2026-11-25T20:05:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "verdict": "Bullish",
-    "count": "19 of 21 alerts point higher, 1 lower",
-    "text": "19 of 21 alerts point higher, 1 lower.",
+    "count": "20 of 22 alerts point higher, 1 lower",
+    "text": "20 of 22 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Russia set to extend jet fuel and gasoline export bans, tightening product supply",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-25T20:05:12+08:00"
+      },
       {
         "text": "Iraq top court backs Baghdad takeover of Kurdish oilfields; KRG exports at risk",
         "confidence": "confirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent down 1.73% to $89.82 as recovering Gulf exports ease supply concerns (Anadolu Agency on X, about 5:02 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:05",
+      "ts": "2026-11-25T20:05:12+08:00",
+      "eventTime": "8:00 pm, 25 Nov (est.)",
+      "eventTs": "2026-11-25T20:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Russia's Novak says the energy ministry proposes extending the jet fuel export ban expiring 30 Nov; gasoline export ban extension beyond January to be weighed in December",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "FirstSquawk headline of Deputy PM Novak remarks; also CGTN Europe, MarketNews",
+      "url": "https://x.com/FirstSquawk/status/2125560671513514166"
+    },
     {
       "time": "19:48",
       "ts": "2026-11-25T19:48:12+08:00",
@@ -653,19 +672,6 @@
       "confidence": "Unconfirmed",
       "source": "Giovanni Staunovo on X",
       "url": "https://x.com/staunovo/status/2124800355900825658"
-    },
-    {
-      "time": "17:31",
-      "ts": "2026-11-23T17:31:25+08:00",
-      "eventTime": "5:15 pm, 23 Nov (est., European morning trading)",
-      "eventTs": "2026-11-23T17:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "European gas prices jump 8.6% to about EUR96/MWh as colder weather forecasts hit a continent with its lowest storage in over a decade (EU sites about 69% full)",
-      "theme": "Weather",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Oil & Energy on X",
-      "url": "https://x.com/OilandEnergy/status/2124794185408565535"
     }
   ],
   "sources": [
@@ -3368,6 +3374,11 @@
       "title": "Iraq Federal Supreme Court ruling 268/2026 backs PM's oilfield measures (25 Nov)",
       "site": "X / Hber_iq",
       "href": "https://x.com/Hber_iq/status/2125556477553184802"
+    },
+    {
+      "title": "Novak: Russia energy ministry proposes extending jet fuel export ban; gasoline ban extension to be considered (25 Nov)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2125560671513514166"
     }
   ],
   "dayNote": {
@@ -3376,8 +3387,8 @@
       "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit mines and Iran claimed downing US drones over Hormuz.",
       "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Israel's defence minister said Israel and CENTCOM are preparing possible pre-emptive strikes on Iran."
     ],
-    "updated": "Wed 25 Nov 2026, 7:48 pm SGT",
-    "updatedTs": "2026-11-25T19:48:12+08:00"
+    "updated": "Wed 25 Nov 2026, 8:05 pm SGT",
+    "updatedTs": "2026-11-25T20:05:12+08:00"
   },
   "last24Count": 13
 }
