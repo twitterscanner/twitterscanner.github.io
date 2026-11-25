@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 4:35 pm SGT",
-  "lastScannedTs": "2026-11-25T16:35:38+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 4:40 pm SGT",
+  "lastScannedTs": "2026-11-25T16:40:16+08:00",
   "asOf": "Wed 25 Nov 2026, 3:03 pm SGT",
   "asOfTs": "2026-11-25T15:03:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Houthis openly claim Ras Tanura refinery strike, Hormuz tankers mined and Volga refineries burning keep supply risk high despite surplus talk.",
     "lead": "Net read (last 24 hours): Escalating: Houthis openly claim Ras Tanura refinery strike, Hormuz tankers mined and Volga refineries burning keep supply risk high despite surplus talk.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 1 lower",
-    "text": "22 of 25 alerts point higher, 1 lower.",
+    "count": "21 of 24 alerts point higher, 1 lower",
+    "text": "21 of 24 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Houthis formally claim Ras Tanura refinery strike, say direct hits caused fires",
@@ -136,12 +136,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-24T17:05:46+08:00"
-      },
-      {
-        "text": "Bulk carrier hit by projectile off Dibba, UAE, near Hormuz; fire on board",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-24T16:36:01+08:00"
       }
     ],
     "dovish": [
