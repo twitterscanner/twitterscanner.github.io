@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 12:22 pm SGT",
-  "lastScannedTs": "2026-11-25T12:22:45+08:00",
-  "asOf": "Wed 25 Nov 2026, 12:22 pm SGT",
-  "asOfTs": "2026-11-25T12:22:45+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 12:44 pm SGT",
+  "lastScannedTs": "2026-11-25T12:44:28+08:00",
+  "asOf": "Wed 25 Nov 2026, 12:44 pm SGT",
+  "asOfTs": "2026-11-25T12:44:28+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: drones hitting Saudi oil hubs (possible Ras Tanura fire), Volga refinery fires and Hormuz ship attacks keep supply risk high despite surplus talk.",
-    "lead": "Net read (last 24 hours): Escalating: drones hitting Saudi oil hubs (possible Ras Tanura fire), Volga refinery fires and Hormuz ship attacks keep supply risk high despite surplus talk.",
+    "bottom": "Escalating: two more Hormuz tankers mined, drones on Saudi oil hubs and Volga refinery fires keep supply risk high despite surplus talk.",
+    "lead": "Net read (last 24 hours): Escalating: two more Hormuz tankers mined, drones on Saudi oil hubs and Volga refinery fires keep supply risk high despite surplus talk.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 1 lower",
-    "text": "22 of 25 alerts point higher, 1 lower.",
+    "count": "23 of 26 alerts point higher, 1 lower",
+    "text": "23 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says two more tankers hit naval mines and caught fire in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-25T12:44:28+08:00"
+      },
       {
         "text": "Smoke reported over Aramco's Ras Tanura refinery after drone attack; staff barred",
         "confidence": "unconfirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent down about 1.2% to $87.04 in Asian trade (FortuKey market post on X, about 12:00 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:44",
+      "ts": "2026-11-25T12:44:28+08:00",
+      "eventTime": "25 Nov, early hours Iran time (~9:30 am SGT est.)",
+      "eventTs": "2026-11-25T09:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy says two more 'violating' oil tankers exploded and caught fire after hitting naval mines off the southern and eastern Strait of Hormuz",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Navy statement via Fars News (Aggregoir on X; also ShaykhSulaiman, PTVBreaking1)",
+      "url": "https://x.com/Aggregoir/status/2125449342660047108"
+    },
     {
       "time": "12:22",
       "ts": "2026-11-25T12:22:45+08:00",
@@ -677,19 +696,6 @@
       "confidence": "Confirmed",
       "source": "First Squawk on X (Interfax); Sky News Arabia, Al Arabiya echo",
       "url": "https://x.com/FirstSquawk/status/2124732642855895117"
-    },
-    {
-      "time": "12:03",
-      "ts": "2026-11-23T12:03:13+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Qatar's prime minister, the key Iran-US mediator, heads to Washington Monday to meet Rubio and other US officials",
-      "theme": "Ceasefire / diplomacy",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Barak Ravid (Axios) on X",
-      "url": "https://x.com/BarakRavid/status/2124713569107185731"
     }
   ],
   "sources": [
@@ -3362,16 +3368,21 @@
       "title": "CocoPostel: smoke columns reported over Ras Tanura refinery, staff barred (unconfirmed)",
       "site": "X / CocoPostel",
       "href": "https://x.com/CocoPostel/status/2125444575976161397"
+    },
+    {
+      "title": "IRGC Navy: two oil tankers exploded after hitting mines in Hormuz (Fars)",
+      "site": "X / Aggregoir",
+      "href": "https://x.com/Aggregoir/status/2125449342660047108"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones reportedly set Russia's Syzran and Kuibyshev refineries ablaze, while Putin vowed retaliation over continued strikes on Russian refineries.",
+      "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit naval mines and caught fire in Hormuz.",
       "Saudi air defences downed four drones over Aramco's Ras Tanura, with unconfirmed reports of smoke at its refinery, as Houthis threatened all Saudi Red Sea ports."
     ],
-    "updated": "Wed 25 Nov 2026, 12:22 pm SGT",
-    "updatedTs": "2026-11-25T12:22:45+08:00"
+    "updated": "Wed 25 Nov 2026, 12:44 pm SGT",
+    "updatedTs": "2026-11-25T12:44:28+08:00"
   },
   "last24Count": 13
 }
