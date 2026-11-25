@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 6:05 pm SGT",
-  "lastScannedTs": "2026-11-25T18:05:08+08:00",
-  "asOf": "Wed 25 Nov 2026, 5:58 pm SGT",
-  "asOfTs": "2026-11-25T17:58:56+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 6:28 pm SGT",
+  "lastScannedTs": "2026-11-25T18:28:23+08:00",
+  "asOf": "Wed 25 Nov 2026, 6:28 pm SGT",
+  "asOfTs": "2026-11-25T18:28:23+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Israel flags possible Iran strikes while Houthis hit Ras Tanura, Hormuz tankers are mined and Russian refineries burn, keeping supply risk high.",
-    "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes while Houthis hit Ras Tanura, Hormuz tankers are mined and Russian refineries burn, keeping supply risk high.",
+    "bottom": "Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
+    "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "verdict": "Bullish",
-    "count": "21 of 23 alerts point higher, 1 lower",
-    "text": "21 of 23 alerts point higher, 1 lower.",
+    "count": "22 of 24 alerts point higher, 1 lower",
+    "text": "22 of 24 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iran claims it shot down US MQ-9 and LUCAS drones over Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-25T18:28:23+08:00"
+      },
       {
         "text": "Katz says Israel and CENTCOM preparing possible pre-emptive strikes on Iran",
         "confidence": "confirmed",
@@ -160,6 +166,19 @@
     "detail": "Brent down 1.73% to $89.82 as recovering Gulf exports ease supply concerns (Anadolu Agency on X, about 5:02 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:28",
+      "ts": "2026-11-25T18:28:23+08:00",
+      "eventTime": "2:30 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T02:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iran's army says its air defences shot down two US drones, an MQ-9 Reaper and a LUCAS, over the Strait of Hormuz; no US confirmation",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian Army via state broadcaster IRIB (Middle East Eye live; also Tasnim, ANI)",
+      "url": "https://x.com/MiddleEastEye/status/2125536510921547905"
+    },
     {
       "time": "17:58",
       "ts": "2026-11-25T17:58:56+08:00",
@@ -665,19 +684,6 @@
       "confidence": "Unconfirmed",
       "source": "Iran International on X (Iranian lawmaker's remarks)",
       "url": "https://x.com/IranIntl_En/status/2124752430273359955"
-    },
-    {
-      "time": "14:16",
-      "ts": "2026-11-23T14:16:45+08:00",
-      "eventTime": "2:05 pm, 23 Nov (est.)",
-      "eventTs": "2026-11-23T14:05:00+08:00",
-      "eventQual": "est.",
-      "headline": "Another oil tanker reportedly hit in the Strait of Hormuz with a large fire onboard; IRGC attack or Iranian mine unclear",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping on X; footage via FromIran and other accounts",
-      "url": "https://x.com/AMK_Mapping_/status/2124748120542400550"
     }
   ],
   "sources": [
@@ -3370,16 +3376,21 @@
       "title": "Roya News: Katz says Israel and CENTCOM preparing possible strike on Iran (25 Nov)",
       "site": "X / Roya News English",
       "href": "https://x.com/RoyaNewsEnglish/status/2125529318847889762"
+    },
+    {
+      "title": "Middle East Eye live: Iranian army claims downing of MQ-9 drone over Hormuz (25 Nov)",
+      "site": "X / Middle East Eye",
+      "href": "https://x.com/MiddleEastEye/status/2125536510921547905"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit naval mines and caught fire in Hormuz.",
+      "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit mines and Iran claimed downing US drones over Hormuz.",
       "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Israel's defence minister said Israel and CENTCOM are preparing possible pre-emptive strikes on Iran."
     ],
-    "updated": "Wed 25 Nov 2026, 5:58 pm SGT",
-    "updatedTs": "2026-11-25T17:58:56+08:00"
+    "updated": "Wed 25 Nov 2026, 6:28 pm SGT",
+    "updatedTs": "2026-11-25T18:28:23+08:00"
   },
   "last24Count": 13
 }
