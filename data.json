@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 12:01 pm SGT",
-  "lastScannedTs": "2026-11-25T12:01:28+08:00",
-  "asOf": "Wed 25 Nov 2026, 10:51 am SGT",
-  "asOfTs": "2026-11-25T10:51:45+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 12:22 pm SGT",
+  "lastScannedTs": "2026-11-25T12:22:45+08:00",
+  "asOf": "Wed 25 Nov 2026, 12:22 pm SGT",
+  "asOfTs": "2026-11-25T12:22:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: drones now targeting Saudi oil hubs at Ras Tanura and Dammam, Volga refinery fires and Hormuz ship attacks keep supply risk high.",
-    "lead": "Net read (last 24 hours): Escalating: drones now targeting Saudi oil hubs at Ras Tanura and Dammam, Volga refinery fires and Hormuz ship attacks keep supply risk high.",
+    "bottom": "Escalating: drones hitting Saudi oil hubs (possible Ras Tanura fire), Volga refinery fires and Hormuz ship attacks keep supply risk high despite surplus talk.",
+    "lead": "Net read (last 24 hours): Escalating: drones hitting Saudi oil hubs (possible Ras Tanura fire), Volga refinery fires and Hormuz ship attacks keep supply risk high despite surplus talk.",
     "verdict": "Bullish",
-    "count": "21 of 24 alerts point higher, 1 lower",
-    "text": "21 of 24 alerts point higher, 1 lower.",
+    "count": "22 of 25 alerts point higher, 1 lower",
+    "text": "22 of 25 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Smoke reported over Aramco's Ras Tanura refinery after drone attack; staff barred",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-25T12:22:45+08:00"
+      },
       {
         "text": "Four drones downed over Aramco's Ras Tanura export terminal; debris fell",
         "confidence": "confirmed",
@@ -166,6 +172,19 @@
     "detail": "Brent down about 1.2% to $87.04 in Asian trade (FortuKey market post on X, about 12:00 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:22",
+      "ts": "2026-11-25T12:22:45+08:00",
+      "eventTime": "10:40 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T10:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Smoke columns reported rising over Aramco's Ras Tanura refinery after Houthi drone attack; staff reportedly barred from site, no official confirmation",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Post Open Source (CocoPostel) citing a special source; InterceptorNews; unverified videos",
+      "url": "https://x.com/CocoPostel/status/2125444575976161397"
+    },
     {
       "time": "10:51",
       "ts": "2026-11-25T10:51:45+08:00",
@@ -671,27 +690,9 @@
       "confidence": "Confirmed",
       "source": "Barak Ravid (Axios) on X",
       "url": "https://x.com/BarakRavid/status/2124713569107185731"
-    },
-    {
-      "time": "11:35",
-      "ts": "2026-11-23T11:35:03+08:00",
-      "eventTime": "10:45 am, 23 Nov (est.)",
-      "eventTs": "2026-11-23T10:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian drones reportedly hit the Kaleykino oil pumping station in Tatarstan again, a key Druzhba pipeline hub; siren and explosion reported",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Exilenova+ on X; LetsArmUKR, local Russian reports",
-      "url": "https://x.com/Exilenova_plus/status/2124703483609940363"
     }
   ],
   "sources": [
-    {
-      "title": "FortuKey: Brent falls 1.21% to $87.04, WTI $80.66 (25 Nov)",
-      "site": "X / FortuKey_com",
-      "href": "https://x.com/FortuKey_com/status/2125439337244315744"
-    },
     {
       "title": "Saba: coalition attack on Hodeidah port after evacuation order (via Al Jazeera English)",
       "site": "x.com",
@@ -3351,16 +3352,26 @@
       "title": "Coalition: four drones destroyed over Ras Tanura",
       "site": "X / financialjuice",
       "href": "https://x.com/financialjuice/status/2125420444715254178"
+    },
+    {
+      "title": "FortuKey: Brent falls 1.21% to $87.04, WTI $80.66 (25 Nov)",
+      "site": "X / FortuKey_com",
+      "href": "https://x.com/FortuKey_com/status/2125439337244315744"
+    },
+    {
+      "title": "CocoPostel: smoke columns reported over Ras Tanura refinery, staff barred (unconfirmed)",
+      "site": "X / CocoPostel",
+      "href": "https://x.com/CocoPostel/status/2125444575976161397"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones reportedly set Russia's Syzran and Kuibyshev refineries ablaze, while Putin vowed retaliation over continued strikes on Russian refineries.",
-      "Saudi air defences downed four drones over Aramco's Ras Tanura terminal after Dammam airport was possibly hit, as Houthis threatened all Saudi Red Sea ports."
+      "Saudi air defences downed four drones over Aramco's Ras Tanura, with unconfirmed reports of smoke at its refinery, as Houthis threatened all Saudi Red Sea ports."
     ],
-    "updated": "Wed 25 Nov 2026, 10:51 am SGT",
-    "updatedTs": "2026-11-25T10:51:45+08:00"
+    "updated": "Wed 25 Nov 2026, 12:22 pm SGT",
+    "updatedTs": "2026-11-25T12:22:45+08:00"
   },
   "last24Count": 13
 }
