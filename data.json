@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 2:03 am SGT",
-  "lastScannedTs": "2026-11-26T02:03:51+08:00",
-  "asOf": "Thu 26 Nov 2026, 2:03 am SGT",
-  "asOfTs": "2026-11-26T02:03:53+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 3:05 am SGT",
+  "lastScannedTs": "2026-11-26T03:05:05+08:00",
+  "asOf": "Thu 26 Nov 2026, 3:05 am SGT",
+  "asOfTs": "2026-11-26T03:05:06+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthis hitting Saudi ports and Ras Tanura, mines striking Hormuz tankers, plus a Brazil field outage; risks skew higher.",
-    "lead": "Net read (last 24 hours): Escalating: Houthis hitting Saudi ports and Ras Tanura, mines striking Hormuz tankers, plus a Brazil field outage; risks skew higher.",
+    "bottom": "Escalating: Houthis now claim Jeddah and Jizan port strikes, Hormuz mines hit tankers, Kurdistan tensions flare; risks skew higher.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis now claim Jeddah and Jizan port strikes, Hormuz mines hit tankers, Kurdistan tensions flare; risks skew higher.",
     "verdict": "Bullish",
-    "count": "19 of 20 alerts point higher, 0 lower",
-    "text": "19 of 20 alerts point higher, 0 lower.",
+    "count": "21 of 22 alerts point higher, 0 lower",
+    "text": "21 of 22 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Houthis claim strikes on Jeddah and Jizan ports; only Jizan confirmed",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-26T03:05:05+08:00"
+      },
+      {
+        "text": "Reported Iranian attacks on Iraqi Kurds; Kurdistan closes to Baghdad troops",
+        "confidence": "unconfirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-26T03:05:04+08:00"
+      },
       {
         "text": "Brazil's Bacalhau field output halted for 5 to 8 weeks after incident",
         "confidence": "confirmed",
@@ -141,6 +153,32 @@
     "detail": "Brent up 1.8% to $93.06 as Houthi claims on Saudi oil infrastructure lift the risk premium (GTE News on X, about 11:50 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "03:05",
+      "ts": "2026-11-26T03:05:05+08:00",
+      "eventTime": "Not stated (statement ~2:40 am SGT 26 Nov; Jeddah airspace disruption ~12:50 am SGT est.)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Houthis claim two strikes on Saudi Red Sea ports, a 'precise hit' on Jeddah port and a 'direct hit' on Jizan port, citing damage",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi military spokesman Yahya Saree statement (Arabic); Saudi side confirmed only the Jizan hit (MenchOsint)",
+      "url": "https://x.com/Yah_Saree/status/2125660791948943437"
+    },
+    {
+      "time": "03:05",
+      "ts": "2026-11-26T03:05:04+08:00",
+      "eventTime": "Not stated (Kan report relayed ~2:13 am SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kan News: Iranian forces attacking Kurds in northern Iraq; Kurdistan region closes itself to Baghdad troops as both sides mass forces",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel (Osint613) citing Israel's Kan News; also Post Open Source",
+      "url": "https://x.com/Osint613/status/2125654116366225585"
+    },
     {
       "time": "02:03",
       "ts": "2026-11-26T02:03:51+08:00",
@@ -633,32 +671,6 @@
       "confidence": "Unconfirmed",
       "source": "MenchOsint on X, citing Iran's navy; also Post Open Source, Middle East Eye, IRNA via Sputnik",
       "url": "https://x.com/MenchOsint/status/2124983403749466497"
-    },
-    {
-      "time": "05:06",
-      "ts": "2026-11-24T05:06:00+08:00",
-      "eventTime": "4:30 am, 24 Nov (est.)",
-      "eventTs": "2026-11-24T04:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Missile and drone launches from Yemen disrupt Saudi airspace; flights to Jeddah and Dammam put in holding patterns, no impacts reported",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint on X; also Post Open Source",
-      "url": "https://x.com/MenchOsint/status/2124964288821436526"
-    },
-    {
-      "time": "01:58",
-      "ts": "2026-11-24T01:58:00+08:00",
-      "eventTime": "1:35 am, 24 Nov (est.)",
-      "eventTs": "2026-11-24T01:35:00+08:00",
-      "eventQual": "est.",
-      "headline": "US Treasury issues new Iran-related sanctions on dozens of people and entities (reportedly 8 individuals, 22 entities, 16 in the UAE); oil links not yet detailed",
-      "theme": "Iran",
-      "direction": "Neutral",
-      "confidence": "Confirmed",
-      "source": "Al Arabiya English on X; also CGTN, Osint613",
-      "url": "https://x.com/AlArabiya_Eng/status/2124921562654519665"
     }
   ],
   "sources": [
@@ -3406,16 +3418,26 @@
       "title": "Galp: Bacalhau field (Brazil) output suspended 5 to 8 weeks after incident (26 Nov)",
       "site": "X / Giovanni Staunovo",
       "href": "https://x.com/staunovo/status/2125649675097137406"
+    },
+    {
+      "title": "Kan News via Osint613: Iranian forces attacking Kurds in northern Iraq, Kurdistan closes to Baghdad troops (26 Nov)",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2125654116366225585"
+    },
+    {
+      "title": "Houthi statement: strikes claimed on Jeddah and Jizan ports (26 Nov)",
+      "site": "X / Yahya Saree",
+      "href": "https://x.com/Yah_Saree/status/2125660791948943437"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Just after midnight the Saudi-led coalition said a Houthi projectile hit Jazan port on the Red Sea, after Houthi strikes on Ras Tanura and mine hits on Hormuz tankers.",
-      "Around 2 am Galp said an incident at Brazil's Bacalhau field, operated by Equinor, has halted its output for an estimated five to eight weeks."
+      "After midnight a Houthi projectile hit Saudi Arabia's Jazan port, and around 2:40 am the Houthis also claimed a strike on Jeddah port, which Riyadh has not confirmed.",
+      "Galp said Brazil's Bacalhau field is shut for five to eight weeks, while Israeli media reported Iranian attacks on Iraqi Kurds as Kurdistan closed itself to Baghdad's troops."
     ],
-    "updated": "Thu 26 Nov 2026, 2:03 am SGT",
-    "updatedTs": "2026-11-26T02:03:51+08:00"
+    "updated": "Thu 26 Nov 2026, 3:05 am SGT",
+    "updatedTs": "2026-11-26T03:05:05+08:00"
   },
   "last24Count": 13
 }
