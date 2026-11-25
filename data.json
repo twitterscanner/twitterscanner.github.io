@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 11:54 pm SGT",
-  "lastScannedTs": "2026-11-25T23:54:16+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 12:05 am SGT",
+  "lastScannedTs": "2026-11-26T00:05:47+08:00",
   "asOf": "Wed 25 Nov 2026, 11:34 pm SGT",
   "asOfTs": "2026-11-25T23:34:36+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -3414,11 +3414,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Iran said tankers and tonight an LNG carrier hit naval mines in and near the Strait of Hormuz.",
-      "Ukrainian drones hit Russia's Syzran and Kuibyshev refineries, Moscow moved to extend fuel export bans, and storms cut Kazakhstan's oil output 17% via Black Sea exports."
+      "No new alerts yet today; late on 25 Nov the IRGC said an LNG carrier exploded after hitting a naval mine in Hormuz, hours after Iran's army reported another mined tanker.",
+      "Houthi strikes on Saudi Arabia's Ras Tanura and Ukrainian hits on Russian refineries also kept supply risk high, with Brent near $93 late on 25 Nov."
     ],
-    "updated": "Wed 25 Nov 2026, 11:34 pm SGT",
-    "updatedTs": "2026-11-25T23:34:36+08:00"
+    "updated": "Thu 26 Nov 2026, 12:05 am SGT",
+    "updatedTs": "2026-11-26T00:05:47+08:00"
   },
   "last24Count": 13
 }
