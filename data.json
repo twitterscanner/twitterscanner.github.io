@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 2:05 pm SGT",
-  "lastScannedTs": "2026-11-25T14:05:39+08:00",
-  "asOf": "Wed 25 Nov 2026, 12:44 pm SGT",
-  "asOfTs": "2026-11-25T12:44:28+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 3:03 pm SGT",
+  "lastScannedTs": "2026-11-25T15:03:27+08:00",
+  "asOf": "Wed 25 Nov 2026, 3:03 pm SGT",
+  "asOfTs": "2026-11-25T15:03:27+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: two more Hormuz tankers mined, drones on Saudi oil hubs and Volga refinery fires keep supply risk high despite surplus talk.",
-    "lead": "Net read (last 24 hours): Escalating: two more Hormuz tankers mined, drones on Saudi oil hubs and Volga refinery fires keep supply risk high despite surplus talk.",
+    "bottom": "Escalating: Houthis openly claim Ras Tanura refinery strike, Hormuz tankers mined and Volga refineries burning keep supply risk high despite surplus talk.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis openly claim Ras Tanura refinery strike, Hormuz tankers mined and Volga refineries burning keep supply risk high despite surplus talk.",
     "verdict": "Bullish",
-    "count": "22 of 25 alerts point higher, 1 lower",
-    "text": "22 of 25 alerts point higher, 1 lower.",
+    "count": "23 of 26 alerts point higher, 1 lower",
+    "text": "23 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Houthis formally claim Ras Tanura refinery strike, say direct hits caused fires",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-25T15:03:27+08:00"
+      },
       {
         "text": "IRGC says two more tankers hit naval mines and caught fire in Hormuz",
         "confidence": "unconfirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent down about 1.2% to $87.04 in Asian trade (FortuKey market post on X, about 12:00 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:03",
+      "ts": "2026-11-25T15:03:27+08:00",
+      "eventTime": "10:40 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T10:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis formally claim drone strike on Aramco's Ras Tanura refinery, saying direct hits sparked fires; also claim Riyadh financial centre attack",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Houthi military spokesman Yahya Saree (Arabic video statement); Al Masirah",
+      "url": "https://x.com/Yah_Saree/status/2125484632745398496"
+    },
     {
       "time": "12:44",
       "ts": "2026-11-25T12:44:28+08:00",
@@ -677,19 +696,6 @@
       "confidence": "Unconfirmed",
       "source": "Exilenova+ on X; Kuban Republic echo (local reports)",
       "url": "https://x.com/Exilenova_plus/status/2124739735776297325"
-    },
-    {
-      "time": "13:20",
-      "ts": "2026-11-23T13:20:16+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Interfax: Tatarstan reports Ukrainian drone attacks damaged oil storage facilities, confirming strikes near Druzhba's Kaleykino hub",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk on X (Interfax); Sky News Arabia, Al Arabiya echo",
-      "url": "https://x.com/FirstSquawk/status/2124732642855895117"
     }
   ],
   "sources": [
@@ -3367,16 +3373,21 @@
       "title": "IRGC Navy: two oil tankers exploded after hitting mines in Hormuz (Fars)",
       "site": "X / Aggregoir",
       "href": "https://x.com/Aggregoir/status/2125449342660047108"
+    },
+    {
+      "title": "Houthi military statement claiming Ras Tanura refinery and Riyadh financial centre strikes (Yahya Saree, 25 Nov)",
+      "site": "X / Yah_Saree",
+      "href": "https://x.com/Yah_Saree/status/2125484632745398496"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit naval mines and caught fire in Hormuz.",
-      "Saudi air defences downed four drones over Aramco's Ras Tanura, with unconfirmed reports of smoke at its refinery, as Houthis threatened all Saudi Red Sea ports."
+      "Houthis formally claimed a drone strike on Aramco's Ras Tanura refinery and Riyadh's financial centre; Saudi Arabia says four drones were downed and threatens Hodeidah."
     ],
-    "updated": "Wed 25 Nov 2026, 12:44 pm SGT",
-    "updatedTs": "2026-11-25T12:44:28+08:00"
+    "updated": "Wed 25 Nov 2026, 3:03 pm SGT",
+    "updatedTs": "2026-11-25T15:03:27+08:00"
   },
   "last24Count": 13
 }
