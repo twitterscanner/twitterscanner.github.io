@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 7:44 pm SGT",
-  "lastScannedTs": "2026-11-25T19:44:41+08:00",
-  "asOf": "Wed 25 Nov 2026, 6:28 pm SGT",
-  "asOfTs": "2026-11-25T18:28:23+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 7:48 pm SGT",
+  "lastScannedTs": "2026-11-25T19:48:00+08:00",
+  "asOf": "Wed 25 Nov 2026, 7:48 pm SGT",
+  "asOfTs": "2026-11-25T19:48:12+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
     "verdict": "Bullish",
-    "count": "19 of 21 alerts point higher, 1 lower",
-    "text": "19 of 21 alerts point higher, 1 lower.",
+    "count": "20 of 22 alerts point higher, 1 lower",
+    "text": "20 of 22 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iraq top court backs Baghdad takeover of Kurdish oilfields; KRG exports at risk",
+        "confidence": "confirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-25T19:48:12+08:00"
+      },
       {
         "text": "Iran claims it shot down US MQ-9 and LUCAS drones over Hormuz",
         "confidence": "unconfirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent down 1.73% to $89.82 as recovering Gulf exports ease supply concerns (Anadolu Agency on X, about 5:02 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:48",
+      "ts": "2026-11-25T19:48:12+08:00",
+      "eventTime": "Not stated (ruling dated 25 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iraq's Federal Supreme Court rules the PM's federal takeover of oilfields in Kurdistan-held areas constitutional, rejecting KRG's challenge",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Iraqi Federal Supreme Court media office via Iraqi outlets (Hber_iq, Sawt Kel Lebnen), Arabic",
+      "url": "https://x.com/Hber_iq/status/2125556477553184802"
+    },
     {
       "time": "18:28",
       "ts": "2026-11-25T18:28:23+08:00",
@@ -653,19 +672,6 @@
       "confidence": "Unconfirmed",
       "source": "Oil & Energy on X",
       "url": "https://x.com/OilandEnergy/status/2124794185408565535"
-    },
-    {
-      "time": "14:34",
-      "ts": "2026-11-23T14:34:13+08:00",
-      "eventTime": "Not stated (remarks made Monday 23 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iranian MP Aboutorabi claims Iran hits about 10 'violating' tankers a day and says Hormuz southern-route oil traffic has fallen sharply",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iran International on X (Iranian lawmaker's remarks)",
-      "url": "https://x.com/IranIntl_En/status/2124752430273359955"
     }
   ],
   "sources": [
@@ -3363,6 +3369,11 @@
       "title": "Middle East Eye live: Iranian army claims downing of MQ-9 drone over Hormuz (25 Nov)",
       "site": "X / Middle East Eye",
       "href": "https://x.com/MiddleEastEye/status/2125536510921547905"
+    },
+    {
+      "title": "Iraq Federal Supreme Court ruling 268/2026 backs PM's oilfield measures (25 Nov)",
+      "site": "X / Hber_iq",
+      "href": "https://x.com/Hber_iq/status/2125556477553184802"
     }
   ],
   "dayNote": {
@@ -3371,8 +3382,8 @@
       "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit mines and Iran claimed downing US drones over Hormuz.",
       "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Israel's defence minister said Israel and CENTCOM are preparing possible pre-emptive strikes on Iran."
     ],
-    "updated": "Wed 25 Nov 2026, 6:28 pm SGT",
-    "updatedTs": "2026-11-25T18:28:23+08:00"
+    "updated": "Wed 25 Nov 2026, 7:48 pm SGT",
+    "updatedTs": "2026-11-25T19:48:12+08:00"
   },
   "last24Count": 13
 }
