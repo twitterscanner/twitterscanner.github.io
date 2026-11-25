@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 5:05 pm SGT",
-  "lastScannedTs": "2026-11-25T17:05:56+08:00",
-  "asOf": "Wed 25 Nov 2026, 3:03 pm SGT",
-  "asOfTs": "2026-11-25T15:03:27+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 5:58 pm SGT",
+  "lastScannedTs": "2026-11-25T17:58:56+08:00",
+  "asOf": "Wed 25 Nov 2026, 5:58 pm SGT",
+  "asOfTs": "2026-11-25T17:58:56+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthis openly claim Ras Tanura refinery strike, Hormuz tankers mined and Volga refineries burning keep supply risk high despite surplus talk.",
-    "lead": "Net read (last 24 hours): Escalating: Houthis openly claim Ras Tanura refinery strike, Hormuz tankers mined and Volga refineries burning keep supply risk high despite surplus talk.",
+    "bottom": "Escalating: Israel flags possible Iran strikes while Houthis hit Ras Tanura, Hormuz tankers are mined and Russian refineries burn, keeping supply risk high.",
+    "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes while Houthis hit Ras Tanura, Hormuz tankers are mined and Russian refineries burn, keeping supply risk high.",
     "verdict": "Bullish",
-    "count": "20 of 22 alerts point higher, 1 lower",
-    "text": "20 of 22 alerts point higher, 1 lower.",
+    "count": "21 of 23 alerts point higher, 1 lower",
+    "text": "21 of 23 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Katz says Israel and CENTCOM preparing possible pre-emptive strikes on Iran",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-25T17:58:56+08:00"
+      },
       {
         "text": "Houthis formally claim Ras Tanura refinery strike, say direct hits caused fires",
         "confidence": "unconfirmed",
@@ -154,6 +160,19 @@
     "detail": "Brent down 1.73% to $89.82 as recovering Gulf exports ease supply concerns (Anadolu Agency on X, about 5:02 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "17:58",
+      "ts": "2026-11-25T17:58:56+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Israeli Defense Minister Katz says Israel and US CENTCOM are preparing for possible pre-emptive strikes on Iran over an alleged chemical weapons program",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Roya News English; also Fox News and Times of Israel reports of Katz remarks",
+      "url": "https://x.com/RoyaNewsEnglish/status/2125529318847889762"
+    },
     {
       "time": "15:03",
       "ts": "2026-11-25T15:03:27+08:00",
@@ -659,19 +678,6 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping on X; footage via FromIran and other accounts",
       "url": "https://x.com/AMK_Mapping_/status/2124748120542400550"
-    },
-    {
-      "time": "13:41",
-      "ts": "2026-11-23T13:41:45+08:00",
-      "eventTime": "1:40 pm, 23 Nov (est.)",
-      "eventTs": "2026-11-23T13:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Ukrainian strike drones reportedly attacking an oil refinery in Russia's Perm Krai, in the Urals",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Exilenova+ on X; Kuban Republic echo (local reports)",
-      "url": "https://x.com/Exilenova_plus/status/2124739735776297325"
     }
   ],
   "sources": [
@@ -3359,16 +3365,21 @@
       "title": "Anadolu: Brent drops 1.73% to $89.82 despite fresh Hormuz attacks (25 Nov)",
       "site": "X / Anadolu Agency",
       "href": "https://x.com/anadoluagency/status/2125515439253901475"
+    },
+    {
+      "title": "Roya News: Katz says Israel and CENTCOM preparing possible strike on Iran (25 Nov)",
+      "site": "X / Roya News English",
+      "href": "https://x.com/RoyaNewsEnglish/status/2125529318847889762"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit naval mines and caught fire in Hormuz.",
-      "Houthis formally claimed a drone strike on Aramco's Ras Tanura refinery and Riyadh's financial centre; Saudi Arabia says four drones were downed and threatens Hodeidah."
+      "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Israel's defence minister said Israel and CENTCOM are preparing possible pre-emptive strikes on Iran."
     ],
-    "updated": "Wed 25 Nov 2026, 3:03 pm SGT",
-    "updatedTs": "2026-11-25T15:03:27+08:00"
+    "updated": "Wed 25 Nov 2026, 5:58 pm SGT",
+    "updatedTs": "2026-11-25T17:58:56+08:00"
   },
   "last24Count": 13
 }
