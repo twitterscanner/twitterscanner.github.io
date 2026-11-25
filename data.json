@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 9:25 pm SGT",
-  "lastScannedTs": "2026-11-25T21:25:03+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 9:36 pm SGT",
+  "lastScannedTs": "2026-11-25T21:36:03+08:00",
   "asOf": "Wed 25 Nov 2026, 9:25 pm SGT",
   "asOfTs": "2026-11-25T21:25:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -150,8 +150,8 @@
     ]
   },
   "brent": {
-    "value": "~$89.8",
-    "detail": "Brent down 1.73% to $89.82 as recovering Gulf exports ease supply concerns (Anadolu Agency on X, about 5:02 pm SGT 25 Nov)"
+    "value": "~$92.2",
+    "detail": "Brent (Jan) turned higher, up 0.9% to $92.22 as smoke seen over Ras Tanura (Reuters, via zeronews_br on X, about 8:32 pm SGT 25 Nov)"
   },
   "alerts": [
     {
@@ -675,6 +675,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Reuters via zeronews_br: Brent turns higher, +0.9% to $92.22 on Ras Tanura smoke (25 Nov)",
+      "site": "X / zeronews_br",
+      "href": "https://x.com/zeronews_br/status/2125582374343987203"
+    },
     {
       "title": "Saba: coalition attack on Hodeidah port after evacuation order (via Al Jazeera English)",
       "site": "x.com",
