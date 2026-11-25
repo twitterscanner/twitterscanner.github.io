@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 10:03 am SGT",
-  "lastScannedTs": "2026-11-25T10:03:47+08:00",
-  "asOf": "Wed 25 Nov 2026, 9:05 am SGT",
-  "asOfTs": "2026-11-25T09:05:04+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 10:51 am SGT",
+  "lastScannedTs": "2026-11-25T10:51:45+08:00",
+  "asOf": "Wed 25 Nov 2026, 10:51 am SGT",
+  "asOfTs": "2026-11-25T10:51:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Ukrainian drones hitting Volga refineries, possible strike near Saudi oil heartland at Dammam, and Hormuz shipping attacks keep supply risk high.",
-    "lead": "Net read (last 24 hours): Escalating: Ukrainian drones hitting Volga refineries, possible strike near Saudi oil heartland at Dammam, and Hormuz shipping attacks keep supply risk high.",
+    "bottom": "Escalating: drones now targeting Saudi oil hubs at Ras Tanura and Dammam, Volga refinery fires and Hormuz ship attacks keep supply risk high.",
+    "lead": "Net read (last 24 hours): Escalating: drones now targeting Saudi oil hubs at Ras Tanura and Dammam, Volga refinery fires and Hormuz ship attacks keep supply risk high.",
     "verdict": "Bullish",
-    "count": "20 of 23 alerts point higher, 1 lower",
-    "text": "20 of 23 alerts point higher, 1 lower.",
+    "count": "21 of 24 alerts point higher, 1 lower",
+    "text": "21 of 24 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Four drones downed over Aramco's Ras Tanura export terminal; debris fell",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-25T10:51:45+08:00"
+      },
       {
         "text": "Dammam airport in Saudi oil heartland possibly struck; flights diverting",
         "confidence": "unconfirmed",
@@ -160,6 +166,19 @@
     "detail": "Brent down over $1 from Tuesday's $91.40 settle in Asian trade (FirstSquawk on X, about 10:13 am SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "10:51",
+      "ts": "2026-11-25T10:51:45+08:00",
+      "eventTime": "10:40 am, 25 Nov (est.)",
+      "eventTs": "2026-11-25T10:40:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition says air defences destroyed four drones over Ras Tanura, Aramco's key Gulf export terminal; debris fell, no casualties",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition statement via financialjuice; CGTN; WCL News",
+      "url": "https://x.com/financialjuice/status/2125420444715254178"
+    },
     {
       "time": "09:05",
       "ts": "2026-11-25T09:05:04+08:00",
@@ -665,19 +684,6 @@
       "confidence": "Unconfirmed",
       "source": "Exilenova+ on X; LetsArmUKR, local Russian reports",
       "url": "https://x.com/Exilenova_plus/status/2124703483609940363"
-    },
-    {
-      "time": "08:07",
-      "ts": "2026-11-23T08:07:12+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Libya's NOC says an 'unlawful group' closed a valve on the Sharara oil pipeline, cutting about 350,000 bpd of production",
-      "theme": "Pipelines",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "First Squawk on X (Libya NOC statement)",
-      "url": "https://x.com/FirstSquawk/status/2124654284650479621"
     }
   ],
   "sources": [
@@ -3335,16 +3341,21 @@
       "title": "Dammam airport possibly struck, flights diverting",
       "site": "X / MenchOsint",
       "href": "https://x.com/MenchOsint/status/2125391094263300486"
+    },
+    {
+      "title": "Coalition: four drones destroyed over Ras Tanura",
+      "site": "X / financialjuice",
+      "href": "https://x.com/financialjuice/status/2125420444715254178"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones reportedly set Russia's Syzran and Kuibyshev refineries in Samara ablaze, while Putin vowed retaliation over continued refinery strikes.",
-      "Houthis threatened all Saudi Red Sea ports after the Hodeidah evacuation order, Dammam airport was possibly struck, and Iran said it hit a ship near Khasab."
+      "Ukrainian drones reportedly set Russia's Syzran and Kuibyshev refineries ablaze, while Putin vowed retaliation over continued strikes on Russian refineries.",
+      "Saudi air defences downed four drones over Aramco's Ras Tanura terminal after Dammam airport was possibly hit, as Houthis threatened all Saudi Red Sea ports."
     ],
-    "updated": "Wed 25 Nov 2026, 9:05 am SGT",
-    "updatedTs": "2026-11-25T09:05:04+08:00"
+    "updated": "Wed 25 Nov 2026, 10:51 am SGT",
+    "updatedTs": "2026-11-25T10:51:45+08:00"
   },
   "last24Count": 13
 }
