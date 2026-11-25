@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 11:04 pm SGT",
-  "lastScannedTs": "2026-11-25T23:04:10+08:00",
-  "asOf": "Wed 25 Nov 2026, 10:26 pm SGT",
-  "asOfTs": "2026-11-25T22:26:11+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 11:34 pm SGT",
+  "lastScannedTs": "2026-11-25T23:34:36+08:00",
+  "asOf": "Wed 25 Nov 2026, 11:34 pm SGT",
+  "asOfTs": "2026-11-25T23:34:36+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: another Hormuz tanker mine strike, Houthi strikes on Ras Tanura and Russian refinery fires keep supply risk high despite glut talk.",
-    "lead": "Net read (last 24 hours): Escalating: another Hormuz tanker mine strike, Houthi strikes on Ras Tanura and Russian refinery fires keep supply risk high despite glut talk.",
+    "bottom": "Escalating: mine strikes now hitting an LNG carrier as well as tankers in Hormuz, plus Ras Tanura and Russian refinery hits, keep supply risk high.",
+    "lead": "Net read (last 24 hours): Escalating: mine strikes now hitting an LNG carrier as well as tankers in Hormuz, plus Ras Tanura and Russian refinery hits, keep supply risk high.",
     "verdict": "Bullish",
-    "count": "21 of 23 alerts point higher, 1 lower",
-    "text": "21 of 23 alerts point higher, 1 lower.",
+    "count": "22 of 24 alerts point higher, 1 lower",
+    "text": "22 of 24 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says an LNG carrier exploded after hitting a mine in Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-25T23:34:36+08:00"
+      },
       {
         "text": "Iran's army says another tanker hit a mine and caught fire east of Hormuz",
         "confidence": "unconfirmed",
@@ -160,6 +166,19 @@
     "detail": "Brent up 2.0% on the day to $92.90 as Houthi strike on Ras Tanura revives risk premium (Jin10 Data on X, about 9:47 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:34",
+      "ts": "2026-11-25T23:34:36+08:00",
+      "eventTime": "Afternoon 25 Nov Iran time (approx. 4:30-10:30 pm SGT, est.)",
+      "eventTs": "2026-11-25T19:30:00+08:00",
+      "eventQual": "est.",
+      "headline": "IRGC Navy says an LNG carrier exploded after striking a naval mine in the Strait of Hormuz",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "LiveSquawk citing IRGC Navy via Iranian state media; also CGTN Europe, CGTN America, ME Observer",
+      "url": "https://x.com/LiveSquawk/status/2125612185561038911"
+    },
     {
       "time": "22:26",
       "ts": "2026-11-25T22:26:11+08:00",
@@ -665,19 +684,6 @@
       "confidence": "Unconfirmed",
       "source": "CGTN Europe on X (citing Iranian media); also MenchOsint",
       "url": "https://x.com/CGTNEurope/status/2124822842466341095"
-    },
-    {
-      "time": "19:24",
-      "ts": "2026-11-23T19:24:00+08:00",
-      "eventTime": "7:10 pm, 23 Nov (est.)",
-      "eventTs": "2026-11-23T19:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran launches at least two ballistic missiles from Khuzestan (and reportedly Kurdistan) province; target unknown, possibly a test, amid the US blockade",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Conflict Radar on X; also Post Open Source",
-      "url": "https://x.com/Conflict_Radar/status/2124823231261766024"
     }
   ],
   "sources": [
@@ -3410,16 +3416,21 @@
       "title": "Iran's army (Fars): oil tanker hit naval mine, caught fire east of Hormuz (25 Nov)",
       "site": "X / financialjuice",
       "href": "https://x.com/financialjuice/status/2125596584704352556"
+    },
+    {
+      "title": "IRGC Navy: LNG carrier exploded after striking naval mine in Hormuz (25 Nov)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2125612185561038911"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Houthis claimed a strike on Aramco's Ras Tanura refinery, the IRGC said two tankers hit mines, and tonight Iran's army said another tanker hit a mine east of Hormuz.",
+      "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Iran said tankers and tonight an LNG carrier hit naval mines in and near the Strait of Hormuz.",
       "Ukrainian drones hit Russia's Syzran and Kuibyshev refineries, Moscow moved to extend fuel export bans, and storms cut Kazakhstan's oil output 17% via Black Sea exports."
     ],
-    "updated": "Wed 25 Nov 2026, 10:26 pm SGT",
-    "updatedTs": "2026-11-25T22:26:11+08:00"
+    "updated": "Wed 25 Nov 2026, 11:34 pm SGT",
+    "updatedTs": "2026-11-25T23:34:36+08:00"
   },
   "last24Count": 13
 }
