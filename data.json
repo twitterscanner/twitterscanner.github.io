@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 11:34 pm SGT",
-  "lastScannedTs": "2026-11-25T23:34:36+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 11:45 pm SGT",
+  "lastScannedTs": "2026-11-25T23:45:57+08:00",
   "asOf": "Wed 25 Nov 2026, 11:34 pm SGT",
   "asOfTs": "2026-11-25T23:34:36+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: mine strikes now hitting an LNG carrier as well as tankers in Hormuz, plus Ras Tanura and Russian refinery hits, keep supply risk high.",
     "lead": "Net read (last 24 hours): Escalating: mine strikes now hitting an LNG carrier as well as tankers in Hormuz, plus Ras Tanura and Russian refinery hits, keep supply risk high.",
     "verdict": "Bullish",
-    "count": "22 of 24 alerts point higher, 1 lower",
-    "text": "22 of 24 alerts point higher, 1 lower.",
+    "count": "21 of 23 alerts point higher, 1 lower",
+    "text": "21 of 23 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "IRGC says an LNG carrier exploded after hitting a mine in Hormuz",
@@ -136,12 +136,6 @@
         "confidence": "confirmed",
         "theme": "Russia refineries",
         "ts": "2026-11-24T23:54:00+08:00"
-      },
-      {
-        "text": "Iran's Hormuz authority blacklists 26 tugboats serving US-backed tankers",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-24T23:44:37+08:00"
       }
     ],
     "dovish": [
