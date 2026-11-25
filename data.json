@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Wed 25 Nov 2026, 8:05 pm SGT",
-  "lastScannedTs": "2026-11-25T20:05:00+08:00",
-  "asOf": "Wed 25 Nov 2026, 8:05 pm SGT",
-  "asOfTs": "2026-11-25T20:05:12+08:00",
+  "lastScanned": "Wed 25 Nov 2026, 8:33 pm SGT",
+  "lastScannedTs": "2026-11-25T20:33:00+08:00",
+  "asOf": "Wed 25 Nov 2026, 8:32 pm SGT",
+  "asOfTs": "2026-11-25T20:32:45+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
-    "lead": "Net read (last 24 hours): Escalating: Israel flags possible Iran strikes, Iran claims US drone kills over Hormuz, Houthis hit Ras Tanura and Russian refineries burn; supply risk stays high.",
+    "bottom": "Escalating: Houthis hit Ras Tanura, Iran claims Hormuz tanker mine hits, Russian refineries burn and Kazakh storm losses add supply risk.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis hit Ras Tanura, Iran claims Hormuz tanker mine hits, Russian refineries burn and Kazakh storm losses add supply risk.",
     "verdict": "Bullish",
-    "count": "20 of 22 alerts point higher, 1 lower",
-    "text": "20 of 22 alerts point higher, 1 lower.",
+    "count": "19 of 21 alerts point higher, 1 lower",
+    "text": "19 of 21 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Storms at Black Sea export route cut Kazakhstan output 17% to ~1.74m bpd",
+        "confidence": "confirmed",
+        "theme": "Weather",
+        "ts": "2026-11-25T20:32:45+08:00"
+      },
       {
         "text": "Russia set to extend jet fuel and gasoline export bans, tightening product supply",
         "confidence": "confirmed",
@@ -118,18 +124,6 @@
         "confidence": "confirmed",
         "theme": "Hormuz",
         "ts": "2026-11-24T23:44:37+08:00"
-      },
-      {
-        "text": "Riyadh's tallest skyscraper hit again, second strike on the Saudi capital in a week",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-24T20:31:19+08:00"
-      },
-      {
-        "text": "Saudi Arabia seeks allied missile interceptors as a wider Yemen war looms",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-24T20:26:48+08:00"
       }
     ],
     "dovish": [
@@ -154,6 +148,19 @@
     "detail": "Brent down 1.73% to $89.82 as recovering Gulf exports ease supply concerns (Anadolu Agency on X, about 5:02 pm SGT 25 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:32",
+      "ts": "2026-11-25T20:32:45+08:00",
+      "eventTime": "24 Nov (Tue), time not stated",
+      "eventTs": "2026-11-24T12:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Kazakhstan oil and condensate output fell 17% on Tuesday to about 1.74 million bpd as storms hit Black Sea (CPC) exports",
+      "theme": "Weather",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Giovanni Staunovo on X, citing industry data and people familiar with the figures",
+      "url": "https://x.com/staunovo/status/2125562548392972541"
+    },
     {
       "time": "20:05",
       "ts": "2026-11-25T20:05:12+08:00",
@@ -659,19 +666,6 @@
       "confidence": "Confirmed",
       "source": "CGTN Europe on X",
       "url": "https://x.com/CGTNEurope/status/2124807289055875306"
-    },
-    {
-      "time": "17:59",
-      "ts": "2026-11-23T17:59:55+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Russian western oil exports curbed by bad weather and drones: over 10 tankers delayed in Baltic ports, Novorossiysk loadings disrupted as Black Sea storms persist",
-      "theme": "Russia-Ukraine",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Giovanni Staunovo on X",
-      "url": "https://x.com/staunovo/status/2124800355900825658"
     }
   ],
   "sources": [
@@ -3379,16 +3373,21 @@
       "title": "Novak: Russia energy ministry proposes extending jet fuel export ban; gasoline ban extension to be considered (25 Nov)",
       "site": "X / FirstSquawk",
       "href": "https://x.com/FirstSquawk/status/2125560671513514166"
+    },
+    {
+      "title": "Kazakhstan oil and condensate output falls 17% as storms hit Black Sea exports (25 Nov)",
+      "site": "X / staunovo",
+      "href": "https://x.com/staunovo/status/2125562548392972541"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones set Russia's Syzran and Kuibyshev refineries ablaze, while the IRGC said two more tankers hit mines and Iran claimed downing US drones over Hormuz.",
-      "Houthis claimed a strike on Aramco's Ras Tanura refinery, and Israel's defence minister said Israel and CENTCOM are preparing possible pre-emptive strikes on Iran."
+      "Houthis claimed a strike on Aramco's Ras Tanura refinery, the IRGC said two more tankers hit mines in Hormuz, and Israel flagged possible pre-emptive strikes on Iran.",
+      "Ukrainian drones hit Russia's Syzran and Kuibyshev refineries, Moscow moved to extend fuel export bans, and storms cut Kazakhstan's oil output 17% via Black Sea exports."
     ],
-    "updated": "Wed 25 Nov 2026, 8:05 pm SGT",
-    "updatedTs": "2026-11-25T20:05:12+08:00"
+    "updated": "Wed 25 Nov 2026, 8:33 pm SGT",
+    "updatedTs": "2026-11-25T20:33:00+08:00"
   },
   "last24Count": 13
 }
