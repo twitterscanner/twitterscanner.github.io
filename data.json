@@ -8,8 +8,8 @@
     "bottom": "Escalating: Hormuz flows down 31% amid explosions and mine hits, Houthi missiles and drones on Saudi ports, Russian refining halved; risks skew higher.",
     "lead": "Net read (last 24 hours): Escalating: Hormuz flows down 31% amid explosions and mine hits, Houthi missiles and drones on Saudi ports, Russian refining halved; risks skew higher.",
     "verdict": "Bullish",
-    "count": "26 of 27 alerts point higher, 0 lower",
-    "text": "26 of 27 alerts point higher, 0 lower.",
+    "count": "26 of 26 alerts point higher, 0 lower",
+    "text": "26 of 26 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Coalition intercepts a westbound Houthi cruise missile",
@@ -169,14 +169,7 @@
       }
     ],
     "dovish": [],
-    "neutral": [
-      {
-        "text": "ADNOC bars non-calling tankers from its UAE port waters for 90 days",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-25T05:02:34+08:00"
-      }
-    ]
+    "neutral": []
   },
   "brent": {
     "value": "$94.61",
