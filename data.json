@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 1:37 am SGT",
-  "lastScannedTs": "2026-11-26T01:37:17+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 1:55 am SGT",
+  "lastScannedTs": "2026-11-26T01:55:31+08:00",
   "asOf": "Thu 26 Nov 2026, 12:47 am SGT",
   "asOfTs": "2026-11-26T00:47:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Houthis now hitting Saudi Red Sea ports (Jazan) after Ras Tanura, while mines strike tankers and an LNG carrier in Hormuz.",
     "lead": "Net read (last 24 hours): Escalating: Houthis now hitting Saudi Red Sea ports (Jazan) after Ras Tanura, while mines strike tankers and an LNG carrier in Hormuz.",
     "verdict": "Bullish",
-    "count": "19 of 21 alerts point higher, 1 lower",
-    "text": "19 of 21 alerts point higher, 1 lower.",
+    "count": "18 of 19 alerts point higher, 0 lower",
+    "text": "18 of 19 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Houthi projectile hits Saudi Red Sea port of Jazan, minor damage",
@@ -118,22 +118,9 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-25T07:04:31+08:00"
-      },
-      {
-        "text": "IRGC claims it struck a container ship north of Khasab in Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-25T01:54:47+08:00"
       }
     ],
-    "dovish": [
-      {
-        "text": "Iraq rejects OPEC+ capacity assessment, risking a baseline clash before 29 Nov meeting",
-        "confidence": "confirmed",
-        "theme": "OPEC+",
-        "ts": "2026-11-25T01:47:41+08:00"
-      }
-    ],
+    "dovish": [],
     "neutral": [
       {
         "text": "ADNOC bars non-calling tankers from its UAE port waters for 90 days",
