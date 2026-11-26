@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 6:02 pm SGT",
-  "lastScannedTs": "2026-11-26T18:02:20+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 6:41 pm SGT",
+  "lastScannedTs": "2026-11-26T18:41:00+08:00",
   "asOf": "Thu 26 Nov 2026, 6:02 pm SGT",
   "asOfTs": "2026-11-26T18:02:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: fresh IRGC mine claims on Hormuz tankers, IDF war readiness, Houthi strikes on Saudi targets and Russian and Thai refinery hits keep supply risk high.",
     "lead": "Net read (last 24 hours): Escalating: fresh IRGC mine claims on Hormuz tankers, IDF war readiness, Houthi strikes on Saudi targets and Russian and Thai refinery hits keep supply risk high.",
     "verdict": "Bullish",
-    "count": "26 of 26 alerts point higher, 0 lower",
-    "text": "26 of 26 alerts point higher, 0 lower.",
+    "count": "25 of 25 alerts point higher, 0 lower",
+    "text": "25 of 25 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "IRGC says two more tankers hit mines and burned in Hormuz",
@@ -160,12 +160,6 @@
         "confidence": "confirmed",
         "theme": "Iraq / Kurdistan",
         "ts": "2026-11-25T19:48:12+08:00"
-      },
-      {
-        "text": "Iran claims it shot down US MQ-9 and LUCAS drones over Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-25T18:28:23+08:00"
       }
     ],
     "dovish": [],
