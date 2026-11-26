@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 11:07 pm SGT",
-  "lastScannedTs": "2026-11-26T23:07:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 11:07 pm SGT",
-  "asOfTs": "2026-11-26T23:07:49+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 11:38 pm SGT",
+  "lastScannedTs": "2026-11-26T23:38:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 11:38 pm SGT",
+  "asOfTs": "2026-11-26T23:38:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Iraq's export recovery to 3.6 million bpd is the lone offset.",
-    "lead": "Net read (last 24 hours): Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Iraq's export recovery to 3.6 million bpd is the lone offset.",
+    "bottom": "Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Angola's export cut adds supply risk, Iraq's recovery the lone offset.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Angola's export cut adds supply risk, Iraq's recovery the lone offset.",
     "verdict": "Bullish",
     "count": "23 of 25 alerts point higher, 1 lower",
     "text": "23 of 25 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Angola cuts January crude exports to lowest since at least 2008",
+        "confidence": "confirmed",
+        "theme": "Oil fields / outages",
+        "ts": "2026-11-26T23:38:00+08:00"
+      },
       {
         "text": "Coalition says Houthis attacked Aramco's Jazan refinery; a projectile struck it",
         "confidence": "confirmed",
@@ -142,12 +148,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-26T00:47:32+08:00"
-      },
-      {
-        "text": "IRGC says an LNG carrier exploded after hitting a mine in Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-25T23:34:36+08:00"
       }
     ],
     "dovish": [
@@ -172,6 +172,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:38",
+      "ts": "2026-11-26T23:38:00+08:00",
+      "eventTime": "Jan loadings; announcement time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Angola to cut January crude exports to the lowest since at least 2008, per its loading programme",
+      "theme": "Oil fields / outages",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk; also financialjuice, MarketNews_Feed",
+      "url": "https://x.com/FirstSquawk/status/2125976660797538381"
+    },
     {
       "time": "23:07",
       "ts": "2026-11-26T23:07:00+08:00",
@@ -678,22 +691,14 @@
       "confidence": "Confirmed",
       "source": "Al Jazeera English (citing Saba); MenchOsint; Jerusalem Post",
       "url": "https://x.com/AJEnglish/status/2125364389347999863"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-25T07:04:32+08:00",
-      "eventTime": "6:39 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T06:39:00+08:00",
-      "eventQual": "est.",
-      "headline": "Large Ukrainian drone raid on Russia's Volga basin; local Russian channels report Syzran and its oil refinery under drone attack",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Osinttechnical (citing local Russian channels); OSINTMapLive",
-      "url": "https://x.com/Osinttechnical/status/2125358622288855548"
     }
   ],
   "sources": [
+    {
+      "title": "Angola to cut January crude exports to lowest since at least 2008 (26 Nov)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2125976660797538381"
+    },
     {
       "title": "Iraq oil minister: exports raised to 3.6 mln bpd from 200,000 bpd (26 Nov)",
       "site": "X / FirstSquawk",
@@ -3564,10 +3569,10 @@
     "title": "Today's key developments",
     "lines": [
       "The Saudi-led coalition says Houthis attacked Aramco's Jazan refinery, while Kuwait says Iranian drones targeted a vital site and UKMTO confirmed a tanker strike near Khasab.",
-      "Iraq says oil exports rose to 3.6 million bpd, Houthis claimed Ras Tanura and Riyadh hits, Ukrainian drones struck Russian oil sites, and Bangchak's Bangkok refinery shut."
+      "Iraq says oil exports rose to 3.6 million bpd, Angola is cutting January exports to a multi-year low, and Ukrainian drones struck Russian refineries again."
     ],
-    "updated": "Thu 26 Nov 2026, 11:07 pm SGT",
-    "updatedTs": "2026-11-26T23:07:00+08:00"
+    "updated": "Thu 26 Nov 2026, 11:38 pm SGT",
+    "updatedTs": "2026-11-26T23:38:00+08:00"
   },
   "last24Count": 13
 }
