@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 4:04 pm SGT",
-  "lastScannedTs": "2026-11-26T16:04:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 3:52 pm SGT",
-  "asOfTs": "2026-11-26T15:52:09+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 4:47 pm SGT",
+  "lastScannedTs": "2026-11-26T16:47:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 4:47 pm SGT",
+  "asOfTs": "2026-11-26T16:47:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: IDF readies for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and Russian and Thai oil sites are hit.",
-    "lead": "Net read (last 24 hours): Escalating: IDF readies for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and Russian and Thai oil sites are hit.",
+    "bottom": "Escalating: IDF readies for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and Russian and Thai refineries are hit.",
+    "lead": "Net read (last 24 hours): Escalating: IDF readies for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and Russian and Thai refineries are hit.",
     "verdict": "Bullish",
-    "count": "25 of 25 alerts point higher, 0 lower",
-    "text": "25 of 25 alerts point higher, 0 lower.",
+    "count": "26 of 26 alerts point higher, 0 lower",
+    "text": "26 of 26 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Slavyansk-on-Kuban refinery reportedly hit again by Ukrainian drones",
+        "confidence": "unconfirmed",
+        "theme": "Russia refineries",
+        "ts": "2026-11-26T16:47:00+08:00"
+      },
       {
         "text": "Explosion and fire reported at Bangchak refinery in Bangkok",
         "confidence": "unconfirmed",
@@ -170,6 +176,19 @@
     "detail": "Brent futures settled at $94.61, up $3.21 (3.5%), on 25 Nov (First Squawk on X, about 3:45 am SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:47",
+      "ts": "2026-11-26T16:47:00+08:00",
+      "eventTime": "7:00 am, 26 Nov (est.)",
+      "eventTs": "2026-11-26T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Slavyansk-on-Kuban refinery (Krasnodar) reportedly hit again in overnight Ukrainian drone attack; loading rack damaged, four injured in town",
+      "theme": "Russia refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Russian-language reports: Activatica citing an industry outlet, local Kuban channels",
+      "url": "https://x.com/Activatica/status/2125859732191695310"
+    },
     {
       "time": "15:50",
       "ts": "2026-11-26T15:50:00+08:00",
@@ -675,22 +694,14 @@
       "confidence": "Unconfirmed",
       "source": "NBC News sources via FirstSquawk; also LiveSquawk",
       "url": "https://x.com/FirstSquawk/status/2125258608644612585"
-    },
-    {
-      "time": "23:54",
-      "ts": "2026-11-24T23:54:00+08:00",
-      "eventTime": "~11:51 pm, 24 Nov (est., remarks reported)",
-      "eventTs": "2026-11-24T23:51:23+08:00",
-      "eventQual": "est.",
-      "headline": "Putin says Ukraine keeps hitting Russian oil refineries despite a direct request from the US president, vows Russia will retaliate and orders extra protection for energy facilities",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Putin remarks to government meeting via finsquawk; also FirstSquawk, MarketNews_Feed",
-      "url": "https://x.com/finsquawk_/status/2125255969081078108"
     }
   ],
   "sources": [
+    {
+      "title": "Slavyansk refinery damaged again in drone attack (Russian)",
+      "site": "X / Activatica",
+      "href": "https://x.com/Activatica/status/2125859732191695310"
+    },
     {
       "title": "Eyewitness: explosion and fire at Bangchak refinery, Bangkok (Thai)",
       "site": "X / uglypink",
@@ -3521,10 +3532,10 @@
     "title": "Today's key developments",
     "lines": [
       "Israel's military says it is preparing for war with Iran and ready to strike with full force, as Iran reportedly fires anti-ship missiles at Hormuz tankers.",
-      "Houthis fired missiles at Riyadh and Saudi ports, a Russian Transneft pumping station was struck, and an explosion was reported at Bangkok's Bangchak refinery."
+      "Houthis fired missiles at Riyadh and Saudi ports, Ukrainian drones hit Russia's Subkhankulovo pump station and Slavyansk refinery, and Bangkok's Bangchak refinery caught fire."
     ],
-    "updated": "Thu 26 Nov 2026, 3:52 pm SGT",
-    "updatedTs": "2026-11-26T15:52:09+08:00"
+    "updated": "Thu 26 Nov 2026, 4:47 pm SGT",
+    "updatedTs": "2026-11-26T16:47:00+08:00"
   },
   "last24Count": 13
 }
