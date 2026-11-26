@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 6:04 am SGT",
-  "lastScannedTs": "2026-11-27T06:04:53+08:00",
-  "asOf": "Fri 27 Nov 2026, 2:03 am SGT",
-  "asOfTs": "2026-11-27T02:03:22+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 7:02 am SGT",
+  "lastScannedTs": "2026-11-27T07:02:16+08:00",
+  "asOf": "Fri 27 Nov 2026, 7:02 am SGT",
+  "asOfTs": "2026-11-27T07:02:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "lead": "Net read (last 24 hours): Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "15 of 18 alerts point higher, 1 lower",
-    "text": "15 of 18 alerts point higher, 1 lower.",
+    "count": "16 of 19 alerts point higher, 1 lower",
+    "text": "16 of 19 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Russian refining reportedly near 2.5m b/d, lowest in 20+ years after drone strikes",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-27T07:02:16+08:00"
+      },
       {
         "text": "Saudi ministry: Jazan refinery operations partly suspended after projectile hit",
         "confidence": "confirmed",
@@ -130,6 +136,19 @@
     "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "07:02",
+      "ts": "2026-11-27T07:02:16+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russia's oil refining reportedly falls to about 2.5 million b/d, the lowest in more than 20 years, after repeated Ukrainian drone and missile strikes",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "NSTRIKE on X",
+      "url": "https://x.com/NSTRIKE1231/status/2126077847374643413"
+    },
     {
       "time": "02:03",
       "ts": "2026-11-27T02:03:00+08:00",
@@ -636,19 +655,6 @@
       "confidence": "Unconfirmed",
       "source": "IRGC Navy statement via Fars News (Aggregoir on X; also ShaykhSulaiman, PTVBreaking1)",
       "url": "https://x.com/Aggregoir/status/2125449342660047108"
-    },
-    {
-      "time": "12:22",
-      "ts": "2026-11-25T12:22:45+08:00",
-      "eventTime": "10:40 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T10:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Smoke columns reported rising over Aramco's Ras Tanura refinery after Houthi drone attack; staff reportedly barred from site, no official confirmation",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (CocoPostel) citing a special source; InterceptorNews; unverified videos",
-      "url": "https://x.com/CocoPostel/status/2125444575976161397"
     }
   ],
   "sources": [
@@ -3541,16 +3547,21 @@
       "title": "IRGC Navy: two rogue tankers exploded after hitting mines in Hormuz (26 Nov)",
       "site": "X / CGTN Europe",
       "href": "https://x.com/CGTNEurope/status/2125892100793200808"
+    },
+    {
+      "title": "Russian oil refining reportedly falls to lowest level in 20+ years (~2.5m b/d)",
+      "site": "X / NSTRIKE",
+      "href": "https://x.com/NSTRIKE1231/status/2126077847374643413"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia confirmed a projectile hit Aramco's Jazan refinery, partly suspending operations, while Ras Tanura loadings were reportedly halted and Basra terminal operations reportedly slowed.",
-      "Kuwait says Iranian drones hit a vital site, which Iran denies, a fire hit Venezuela's Amuay refinery, and Iraq says exports recovered to 3.6 million bpd."
+      "Saudi Arabia's Energy Ministry said a projectile hit Aramco's Jazan refinery, killing a worker and suspending some operations, while Ras Tanura crude loadings were reportedly halted.",
+      "Basra terminal operations were reportedly slowed, a fire hit Venezuela's Amuay refinery, and Russian refining reportedly fell to about 2.5 million barrels a day, a 20-year low."
     ],
-    "updated": "Fri 27 Nov 2026, 2:03 am SGT",
-    "updatedTs": "2026-11-27T02:03:00+08:00"
+    "updated": "Fri 27 Nov 2026, 7:02 am SGT",
+    "updatedTs": "2026-11-27T07:02:16+08:00"
   },
   "last24Count": 13
 }
