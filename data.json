@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 8:39 pm SGT",
-  "lastScannedTs": "2026-11-26T20:39:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 8:04 pm SGT",
-  "asOfTs": "2026-11-26T20:04:38+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 9:04 pm SGT",
+  "lastScannedTs": "2026-11-26T21:04:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 9:04 pm SGT",
+  "asOfTs": "2026-11-26T21:04:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: UKMTO confirms a tanker hit near Khasab as IRGC claims more mine strikes; Houthi attacks on Saudi targets and refinery hits keep risk high.",
-    "lead": "Net read (last 24 hours): Escalating: UKMTO confirms a tanker hit near Khasab as IRGC claims more mine strikes; Houthi attacks on Saudi targets and refinery hits keep risk high.",
+    "bottom": "Escalating: Iranian drones hit Kuwait as UKMTO confirms a tanker strike near Khasab; Houthi attacks on Saudi targets and refinery hits keep risk high.",
+    "lead": "Net read (last 24 hours): Escalating: Iranian drones hit Kuwait as UKMTO confirms a tanker strike near Khasab; Houthi attacks on Saudi targets and refinery hits keep risk high.",
     "verdict": "Bullish",
-    "count": "23 of 24 alerts point higher, 0 lower",
-    "text": "23 of 24 alerts point higher, 0 lower.",
+    "count": "24 of 25 alerts point higher, 0 lower",
+    "text": "24 of 25 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Kuwait says Iranian drones targeted a vital site, four hurt by shrapnel",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-26T21:04:00+08:00"
+      },
       {
         "text": "UKMTO confirms tanker struck by projectile 18nm east of Khasab in Hormuz",
         "confidence": "confirmed",
@@ -165,6 +171,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "21:04",
+      "ts": "2026-11-26T21:04:00+08:00",
+      "eventTime": "26 Nov, time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Kuwait army says hostile Iranian drones entered its airspace today and targeted a vital site; shrapnel injured four people",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Kuwaiti army statement via MenchOsint; also First Squawk",
+      "url": "https://x.com/MenchOsint/status/2125938484913271290"
+    },
     {
       "time": "20:04",
       "ts": "2026-11-26T20:04:00+08:00",
@@ -670,22 +689,14 @@
       "confidence": "Unconfirmed",
       "source": "live_ais_com (ADNOC-PPA Jebel Dhanna/Ruwais harbour master notice dated 23 Nov)",
       "url": "https://x.com/live_ais_com/status/2125323272296489251"
-    },
-    {
-      "time": "01:54",
-      "ts": "2026-11-25T01:54:47+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "IRGC Navy says it struck a container ship north of Oman's Khasab in the southern Strait of Hormuz after it switched off navigation and took an unauthorized route",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy via IRIB; LiveSquawk and First Squawk",
-      "url": "https://x.com/LiveSquawk/status/2125285477616115904"
     }
   ],
   "sources": [
+    {
+      "title": "Kuwait army: Iranian drones targeted a vital site, 4 injured (26 Nov)",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2125938484913271290"
+    },
     {
       "title": "UKMTO warning 223-26: tanker struck by projectile 18nm east of Khasab (25 Nov)",
       "site": "X / ME_Observer_",
@@ -3540,11 +3551,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "UKMTO confirmed a tanker was struck by a projectile near Khasab, while Iran's IRGC says two more tankers hit mines and burned in Hormuz.",
-      "Houthis claimed hits on Ras Tanura and Riyadh, Ukrainian drones struck Russian oil sites, Bangkok's Bangchak refinery shut after a blast, and OPEC+ eyes unchanged January quotas."
+      "Kuwait says Iranian drones targeted a vital site, UKMTO confirmed a tanker strike near Khasab, and Iran's IRGC claims two more tankers hit Hormuz mines.",
+      "Houthis claimed hits on Ras Tanura and Riyadh, Ukrainian drones struck Russian oil sites, and Bangkok's Bangchak refinery shut after a blast."
     ],
-    "updated": "Thu 26 Nov 2026, 8:04 pm SGT",
-    "updatedTs": "2026-11-26T20:04:00+08:00"
+    "updated": "Thu 26 Nov 2026, 9:04 pm SGT",
+    "updatedTs": "2026-11-26T21:04:00+08:00"
   },
   "last24Count": 13
 }
