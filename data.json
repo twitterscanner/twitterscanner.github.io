@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 3:20 pm SGT",
-  "lastScannedTs": "2026-11-26T15:20:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 3:17 pm SGT",
-  "asOfTs": "2026-11-26T15:17:53+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 3:55 pm SGT",
+  "lastScannedTs": "2026-11-26T15:55:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 3:52 pm SGT",
+  "asOfTs": "2026-11-26T15:52:09+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: IDF says it is readying for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and a Russian pipeline station is hit.",
-    "lead": "Net read (last 24 hours): Escalating: IDF says it is readying for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and a Russian pipeline station is hit.",
+    "bottom": "Escalating: IDF readies for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and Russian and Thai oil sites are hit.",
+    "lead": "Net read (last 24 hours): Escalating: IDF readies for war with Iran, Iranian missiles target Hormuz tankers, Houthis strike Riyadh, and Russian and Thai oil sites are hit.",
     "verdict": "Bullish",
-    "count": "24 of 24 alerts point higher, 0 lower",
-    "text": "24 of 24 alerts point higher, 0 lower.",
+    "count": "25 of 25 alerts point higher, 0 lower",
+    "text": "25 of 25 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Explosion and fire reported at Bangchak refinery in Bangkok",
+        "confidence": "unconfirmed",
+        "theme": "Oil fields / outages",
+        "ts": "2026-11-26T15:50:00+08:00"
+      },
       {
         "text": "IDF says it is preparing for war with Iran, ready to strike with full force",
         "confidence": "confirmed",
@@ -164,6 +170,19 @@
     "detail": "Brent futures settled at $94.61, up $3.21 (3.5%), on 25 Nov (First Squawk on X, about 3:45 am SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:50",
+      "ts": "2026-11-26T15:50:00+08:00",
+      "eventTime": "3:45 pm, 26 Nov (est.)",
+      "eventTs": "2026-11-26T15:45:00+08:00",
+      "eventQual": "est.",
+      "headline": "Explosion and fire reported at Bangchak's oil refinery in Bangkok (Phra Khanong/Sukhumvit); heavy black smoke, eyewitness reports, cause and damage unknown",
+      "theme": "Oil fields / outages",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Thai eyewitness posts on X (Thai-language), multiple independent accounts; no official statement yet",
+      "url": "https://x.com/uglypink/status/2125859778991993249"
+    },
     {
       "time": "15:03",
       "ts": "2026-11-26T15:03:51+08:00",
@@ -669,22 +688,14 @@
       "confidence": "Confirmed",
       "source": "Putin remarks to government meeting via finsquawk; also FirstSquawk, MarketNews_Feed",
       "url": "https://x.com/finsquawk_/status/2125255969081078108"
-    },
-    {
-      "time": "23:44",
-      "ts": "2026-11-24T23:44:37+08:00",
-      "eventTime": "11:35 pm, 24 Nov (announcement)",
-      "eventTs": "2026-11-24T23:35:18+08:00",
-      "eventQual": "confirmed",
-      "headline": "Iran's Persian Gulf Strait Authority blacklists 26 tugboats for servicing 'non-compliant' (US-backed) tankers in the southern Hormuz corridor, warning any firm cooperating will also be listed",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Persian Gulf Strait Authority (PGSA, official, posted in Persian and English)",
-      "url": "https://x.com/PGSA_IRAN/status/2125251922529804312"
     }
   ],
   "sources": [
+    {
+      "title": "Eyewitness: explosion and fire at Bangchak refinery, Bangkok (Thai)",
+      "site": "X / uglypink",
+      "href": "https://x.com/uglypink/status/2125859778991993249"
+    },
     {
       "title": "Israeli military: preparing for war against Iran, ready to strike hard",
       "site": "X / arabnews",
@@ -3510,10 +3521,10 @@
     "title": "Today's key developments",
     "lines": [
       "Israel's military says it is preparing for war with Iran and ready to strike with full force, as Iran reportedly fires anti-ship missiles at Hormuz tankers.",
-      "Houthis fired missiles at Riyadh and Saudi ports, Hormuz crude flows are down 31%, and a Russian Transneft pumping station was reportedly struck."
+      "Houthis fired missiles at Riyadh and Saudi ports, a Russian Transneft pumping station was struck, and an explosion was reported at Bangkok's Bangchak refinery."
     ],
-    "updated": "Thu 26 Nov 2026, 3:17 pm SGT",
-    "updatedTs": "2026-11-26T15:17:53+08:00"
+    "updated": "Thu 26 Nov 2026, 3:52 pm SGT",
+    "updatedTs": "2026-11-26T15:52:09+08:00"
   },
   "last24Count": 13
 }
