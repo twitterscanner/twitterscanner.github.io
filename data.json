@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 9:04 pm SGT",
-  "lastScannedTs": "2026-11-26T21:04:00+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 9:26 pm SGT",
+  "lastScannedTs": "2026-11-26T21:26:00+08:00",
   "asOf": "Thu 26 Nov 2026, 9:04 pm SGT",
   "asOfTs": "2026-11-26T21:04:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Iranian drones hit Kuwait as UKMTO confirms a tanker strike near Khasab; Houthi attacks on Saudi targets and refinery hits keep risk high.",
     "lead": "Net read (last 24 hours): Escalating: Iranian drones hit Kuwait as UKMTO confirms a tanker strike near Khasab; Houthi attacks on Saudi targets and refinery hits keep risk high.",
     "verdict": "Bullish",
-    "count": "24 of 25 alerts point higher, 0 lower",
-    "text": "24 of 25 alerts point higher, 0 lower.",
+    "count": "23 of 24 alerts point higher, 0 lower",
+    "text": "23 of 24 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "Kuwait says Iranian drones targeted a vital site, four hurt by shrapnel",
@@ -148,12 +148,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-25T22:26:11+08:00"
-      },
-      {
-        "text": "Iranian media report fresh explosions heard in the Strait of Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-25T21:25:03+08:00"
       }
     ],
     "dovish": [],
