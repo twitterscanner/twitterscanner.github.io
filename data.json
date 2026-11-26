@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 7:04 am SGT",
-  "lastScannedTs": "2026-11-26T07:04:59+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 8:03 am SGT",
+  "lastScannedTs": "2026-11-26T08:03:49+08:00",
   "asOf": "Thu 26 Nov 2026, 7:05 am SGT",
   "asOfTs": "2026-11-26T07:05:01+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -191,9 +191,9 @@
     {
       "time": "07:04",
       "ts": "2026-11-26T07:04:59+08:00",
-      "eventTime": "Not stated (UKMTO notice relayed ~7:01 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
+      "eventTime": "5:30 am SGT 26 Nov (UKMTO: 2130 UTC 25 Nov)",
+      "eventTs": "2026-11-26T05:30:00+08:00",
+      "eventQual": "confirmed",
       "headline": "UKMTO: tanker 50nm west of Dubai reports an explosion from an unknown projectile near the vessel; crew safe, no damage",
       "theme": "Hormuz",
       "direction": "Up",
