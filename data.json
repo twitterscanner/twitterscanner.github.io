@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 10:58 pm SGT",
-  "lastScannedTs": "2026-11-26T22:58:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 10:58 pm SGT",
-  "asOfTs": "2026-11-26T22:58:43+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 11:07 pm SGT",
+  "lastScannedTs": "2026-11-26T23:07:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 11:07 pm SGT",
+  "asOfTs": "2026-11-26T23:07:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait, while Hormuz tanker strikes and Russian refinery hits keep supply risk high.",
-    "lead": "Net read (last 24 hours): Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait, while Hormuz tanker strikes and Russian refinery hits keep supply risk high.",
+    "bottom": "Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Iraq's export recovery to 3.6 million bpd is the lone offset.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Iraq's export recovery to 3.6 million bpd is the lone offset.",
     "verdict": "Bullish",
-    "count": "23 of 24 alerts point higher, 0 lower",
-    "text": "23 of 24 alerts point higher, 0 lower.",
+    "count": "23 of 25 alerts point higher, 1 lower",
+    "text": "23 of 25 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Coalition says Houthis attacked Aramco's Jazan refinery; a projectile struck it",
@@ -150,7 +150,14 @@
         "ts": "2026-11-25T23:34:36+08:00"
       }
     ],
-    "dovish": [],
+    "dovish": [
+      {
+        "text": "Iraq says oil exports raised to 3.6 million bpd from 200,000 bpd",
+        "confidence": "confirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-26T23:07:00+08:00"
+      }
+    ],
     "neutral": [
       {
         "text": "OPEC+ leans toward rolling January quotas over unchanged, delegates say",
@@ -165,6 +172,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "23:07",
+      "ts": "2026-11-26T23:07:00+08:00",
+      "eventTime": "26 Nov, not stated (statement ~10:58 pm)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iraq's oil minister tells state news agency oil exports have been raised to 3.6 million bpd from 200,000 bpd; October oil revenue reached $8.8 billion",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Iraqi oil minister via state news agency, reported by First Squawk",
+      "url": "https://x.com/FirstSquawk/status/2125967518640796127"
+    },
     {
       "time": "22:58",
       "ts": "2026-11-26T22:58:00+08:00",
@@ -671,21 +691,14 @@
       "confidence": "Unconfirmed",
       "source": "Osinttechnical (citing local Russian channels); OSINTMapLive",
       "url": "https://x.com/Osinttechnical/status/2125358622288855548"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-25T07:04:31+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "US embassies issue security alerts across 11 Middle East countries incl. Saudi Arabia, UAE, Kuwait, Iraq and Qatar, urging Americans to prepare for possible escalation",
-      "theme": "Iran",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "X News summary of US Embassy security alerts"
     }
   ],
   "sources": [
+    {
+      "title": "Iraq oil minister: exports raised to 3.6 mln bpd from 200,000 bpd (26 Nov)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2125967518640796127"
+    },
     {
       "title": "Saudi-led coalition: Houthis attack Aramco Jazan refinery (26 Nov)",
       "site": "X / FirstSquawk",
@@ -3551,10 +3564,10 @@
     "title": "Today's key developments",
     "lines": [
       "The Saudi-led coalition says Houthis attacked Aramco's Jazan refinery, while Kuwait says Iranian drones targeted a vital site and UKMTO confirmed a tanker strike near Khasab.",
-      "Iran's IRGC claims more tankers hit Hormuz mines, Houthis claimed Ras Tanura and Riyadh hits, Ukrainian drones struck Russian oil sites, and Bangkok's Bangchak refinery shut."
+      "Iraq says oil exports rose to 3.6 million bpd, Houthis claimed Ras Tanura and Riyadh hits, Ukrainian drones struck Russian oil sites, and Bangchak's Bangkok refinery shut."
     ],
-    "updated": "Thu 26 Nov 2026, 10:58 pm SGT",
-    "updatedTs": "2026-11-26T22:58:00+08:00"
+    "updated": "Thu 26 Nov 2026, 11:07 pm SGT",
+    "updatedTs": "2026-11-26T23:07:00+08:00"
   },
   "last24Count": 13
 }
