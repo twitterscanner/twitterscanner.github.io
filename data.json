@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 11:38 pm SGT",
-  "lastScannedTs": "2026-11-26T23:38:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 11:38 pm SGT",
-  "asOfTs": "2026-11-26T23:38:15+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 12:07 am SGT",
+  "lastScannedTs": "2026-11-27T00:07:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 12:07 am SGT",
+  "asOfTs": "2026-11-27T00:07:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Angola's export cut adds supply risk, Iraq's recovery the lone offset.",
-    "lead": "Net read (last 24 hours): Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait; Angola's export cut adds supply risk, Iraq's recovery the lone offset.",
+    "bottom": "Escalating: Ras Tanura loadings reportedly halted and Houthis hit Jazan refinery; Iranian drones struck Kuwait, with Iraq's export recovery the lone offset.",
+    "lead": "Net read (last 24 hours): Escalating: Ras Tanura loadings reportedly halted and Houthis hit Jazan refinery; Iranian drones struck Kuwait, with Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "23 of 25 alerts point higher, 1 lower",
-    "text": "23 of 25 alerts point higher, 1 lower.",
+    "count": "24 of 26 alerts point higher, 1 lower",
+    "text": "24 of 26 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Ras Tanura crude loadings reportedly suspended after Houthi strike",
+        "confidence": "unconfirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-27T00:07:00+08:00"
+      },
       {
         "text": "Angola cuts January crude exports to lowest since at least 2008",
         "confidence": "confirmed",
@@ -172,6 +178,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:07",
+      "ts": "2026-11-27T00:07:00+08:00",
+      "eventTime": "After 25 Nov attack; time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Crude loadings at Aramco's Ras Tanura export terminal reportedly suspended after the Houthi strike, a shipping source tells CNN; storage tanks reportedly damaged",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Josh Young; CNN shipping source relayed by several accounts; also CRUDEOIL231",
+      "url": "https://x.com/JoshYoung/status/2125966497495613513"
+    },
     {
       "time": "23:38",
       "ts": "2026-11-26T23:38:00+08:00",
@@ -678,22 +697,14 @@
       "confidence": "Unconfirmed",
       "source": "AMK Mapping; C4H10FO2P (markito0171); OSINTtechnical on X",
       "url": "https://x.com/AMK_Mapping_/status/2125382852506444280"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-25T07:04:33+08:00",
-      "eventTime": "7:00 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T07:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition orders evacuation of Hodeidah port and Houthi media report a coalition attack on it; Houthis threaten all Saudi Red Sea ports in response",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Al Jazeera English (citing Saba); MenchOsint; Jerusalem Post",
-      "url": "https://x.com/AJEnglish/status/2125364389347999863"
     }
   ],
   "sources": [
+    {
+      "title": "Ras Tanura crude loadings reportedly suspended after Houthi strike (26 Nov)",
+      "site": "X / JoshYoung",
+      "href": "https://x.com/JoshYoung/status/2125966497495613513"
+    },
     {
       "title": "Angola to cut January crude exports to lowest since at least 2008 (26 Nov)",
       "site": "X / FirstSquawk",
@@ -3568,11 +3579,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "The Saudi-led coalition says Houthis attacked Aramco's Jazan refinery, while Kuwait says Iranian drones targeted a vital site and UKMTO confirmed a tanker strike near Khasab.",
-      "Iraq says oil exports rose to 3.6 million bpd, Angola is cutting January exports to a multi-year low, and Ukrainian drones struck Russian refineries again."
+      "Ras Tanura crude loadings were reportedly suspended after the Houthi strike, and the Saudi-led coalition says Houthis also attacked Aramco's Jazan refinery late Thursday.",
+      "Kuwait says Iranian drones hit a vital site, Angola is cutting January exports to a multi-year low, and Iraq says its exports recovered to 3.6 million bpd."
     ],
-    "updated": "Thu 26 Nov 2026, 11:38 pm SGT",
-    "updatedTs": "2026-11-26T23:38:00+08:00"
+    "updated": "Fri 27 Nov 2026, 12:07 am SGT",
+    "updatedTs": "2026-11-27T00:07:00+08:00"
   },
   "last24Count": 13
 }
