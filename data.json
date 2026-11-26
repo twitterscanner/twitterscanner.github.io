@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 12:07 am SGT",
-  "lastScannedTs": "2026-11-27T00:07:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 12:07 am SGT",
-  "asOfTs": "2026-11-27T00:07:20+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 12:36 am SGT",
+  "lastScannedTs": "2026-11-27T00:36:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 12:36 am SGT",
+  "asOfTs": "2026-11-27T00:36:02+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Ras Tanura loadings reportedly halted and Houthis hit Jazan refinery; Iranian drones struck Kuwait, with Iraq's export recovery the lone offset.",
-    "lead": "Net read (last 24 hours): Escalating: Ras Tanura loadings reportedly halted and Houthis hit Jazan refinery; Iranian drones struck Kuwait, with Iraq's export recovery the lone offset.",
+    "bottom": "Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
+    "lead": "Net read (last 24 hours): Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "24 of 26 alerts point higher, 1 lower",
-    "text": "24 of 26 alerts point higher, 1 lower.",
+    "count": "25 of 27 alerts point higher, 1 lower",
+    "text": "25 of 27 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Basra Oil Terminal operations reportedly slowed; some India cargoes cancelled",
+        "confidence": "unconfirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-27T00:36:00+08:00"
+      },
       {
         "text": "Ras Tanura crude loadings reportedly suspended after Houthi strike",
         "confidence": "unconfirmed",
@@ -178,6 +184,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:36",
+      "ts": "2026-11-27T00:36:00+08:00",
+      "eventTime": "Not stated (first reported ~11:30 pm SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Operations reportedly slowed at Iraq's Basra Oil Terminal, with some India-bound cargoes said to be cancelled, citing three sources",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "CRUDEOIL231, amplified by Josh Young",
+      "url": "https://x.com/CRUDEOIL231/status/2125975453332852889"
+    },
     {
       "time": "00:07",
       "ts": "2026-11-27T00:07:00+08:00",
@@ -684,22 +703,14 @@
       "confidence": "Unconfirmed",
       "source": "MenchOsint; Post Open Source on X",
       "url": "https://x.com/MenchOsint/status/2125391094263300486"
-    },
-    {
-      "time": "09:05",
-      "ts": "2026-11-25T09:05:03+08:00",
-      "eventTime": "8:00 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T08:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Kuibyshev refinery in Samara also hit by Ukrainian drones, large fire reported; Syzran refinery still ablaze",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AMK Mapping; C4H10FO2P (markito0171); OSINTtechnical on X",
-      "url": "https://x.com/AMK_Mapping_/status/2125382852506444280"
     }
   ],
   "sources": [
+    {
+      "title": "Basra Oil Terminal operations reportedly slowed, India cargoes cancelled (26 Nov)",
+      "site": "X / CRUDEOIL231",
+      "href": "https://x.com/CRUDEOIL231/status/2125975453332852889"
+    },
     {
       "title": "Ras Tanura crude loadings reportedly suspended after Houthi strike (26 Nov)",
       "site": "X / JoshYoung",
@@ -3579,11 +3590,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ras Tanura crude loadings were reportedly suspended after the Houthi strike, and the Saudi-led coalition says Houthis also attacked Aramco's Jazan refinery late Thursday.",
-      "Kuwait says Iranian drones hit a vital site, Angola is cutting January exports to a multi-year low, and Iraq says its exports recovered to 3.6 million bpd."
+      "Ras Tanura crude loadings were reportedly suspended after the Houthi strike, the Houthis also attacked Aramco's Jazan refinery, and Basra terminal operations reportedly slowed.",
+      "Kuwait says Iranian drones hit a vital site, which Iran denies, while Angola cuts January exports and Iraq says its exports recovered to 3.6 million bpd."
     ],
-    "updated": "Fri 27 Nov 2026, 12:07 am SGT",
-    "updatedTs": "2026-11-27T00:07:00+08:00"
+    "updated": "Fri 27 Nov 2026, 12:36 am SGT",
+    "updatedTs": "2026-11-27T00:36:00+08:00"
   },
   "last24Count": 13
 }
