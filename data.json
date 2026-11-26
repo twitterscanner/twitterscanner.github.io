@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 4:03 am SGT",
-  "lastScannedTs": "2026-11-27T04:03:55+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 5:05 am SGT",
+  "lastScannedTs": "2026-11-27T05:05:25+08:00",
   "asOf": "Fri 27 Nov 2026, 2:03 am SGT",
   "asOfTs": "2026-11-27T02:03:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "lead": "Net read (last 24 hours): Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "20 of 23 alerts point higher, 1 lower",
-    "text": "20 of 23 alerts point higher, 1 lower.",
+    "count": "17 of 20 alerts point higher, 1 lower",
+    "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Saudi ministry: Jazan refinery operations partly suspended after projectile hit",
@@ -112,24 +112,6 @@
         "confidence": "confirmed",
         "theme": "Saudi / Houthi",
         "ts": "2026-11-26T06:02:00+08:00"
-      },
-      {
-        "text": "Coalition intercepts a westbound Houthi cruise missile",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-26T05:02:06+08:00"
-      },
-      {
-        "text": "Hormuz crude flows down 31% to an eight-week low",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-26T05:02:05+08:00"
-      },
-      {
-        "text": "Russian refinery runs at 20-year low; Putin vows response",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-26T05:02:04+08:00"
       }
     ],
     "dovish": [
