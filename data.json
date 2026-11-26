@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 10:27 pm SGT",
-  "lastScannedTs": "2026-11-26T22:27:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 9:04 pm SGT",
-  "asOfTs": "2026-11-26T21:04:16+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 10:58 pm SGT",
+  "lastScannedTs": "2026-11-26T22:58:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 10:58 pm SGT",
+  "asOfTs": "2026-11-26T22:58:43+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Iranian drones hit Kuwait as UKMTO confirms a tanker strike near Khasab; Houthi attacks on Saudi targets and refinery hits keep risk high.",
-    "lead": "Net read (last 24 hours): Escalating: Iranian drones hit Kuwait as UKMTO confirms a tanker strike near Khasab; Houthi attacks on Saudi targets and refinery hits keep risk high.",
+    "bottom": "Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait, while Hormuz tanker strikes and Russian refinery hits keep supply risk high.",
+    "lead": "Net read (last 24 hours): Escalating: Houthis hit Aramco's Jazan refinery and Iranian drones struck Kuwait, while Hormuz tanker strikes and Russian refinery hits keep supply risk high.",
     "verdict": "Bullish",
-    "count": "22 of 23 alerts point higher, 0 lower",
-    "text": "22 of 23 alerts point higher, 0 lower.",
+    "count": "23 of 24 alerts point higher, 0 lower",
+    "text": "23 of 24 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "Coalition says Houthis attacked Aramco's Jazan refinery; a projectile struck it",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-26T22:58:00+08:00"
+      },
       {
         "text": "Kuwait says Iranian drones targeted a vital site, four hurt by shrapnel",
         "confidence": "confirmed",
@@ -159,6 +165,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:58",
+      "ts": "2026-11-26T22:58:00+08:00",
+      "eventTime": "26 Nov, not stated (statement ~10:48 pm)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi-led coalition says Houthis attacked Saudi Aramco's Jazan refinery in southwestern Saudi Arabia; results not specified, Saudi spokesperson says a projectile struck it",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition statement via First Squawk; also MenchOsint, Anadolu Agency, Worldsource24",
+      "url": "https://x.com/FirstSquawk/status/2125964815252472177"
+    },
     {
       "time": "21:04",
       "ts": "2026-11-26T21:04:00+08:00",
@@ -664,22 +683,14 @@
       "direction": "Up",
       "confidence": "Confirmed",
       "source": "X News summary of US Embassy security alerts"
-    },
-    {
-      "time": "05:02",
-      "ts": "2026-11-25T05:02:34+08:00",
-      "eventTime": "23 Nov (notice date), time not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "ADNOC port notice bars tankers from entering or transiting ADNOC-controlled UAE waters unless calling at Ruwais, Jebel Dhanna, Das, Zirku or Mubarraz, for 90 days",
-      "theme": "Hormuz",
-      "direction": "Neutral",
-      "confidence": "Unconfirmed",
-      "source": "live_ais_com (ADNOC-PPA Jebel Dhanna/Ruwais harbour master notice dated 23 Nov)",
-      "url": "https://x.com/live_ais_com/status/2125323272296489251"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi-led coalition: Houthis attack Aramco Jazan refinery (26 Nov)",
+      "site": "X / FirstSquawk",
+      "href": "https://x.com/FirstSquawk/status/2125964815252472177"
+    },
     {
       "title": "Kuwait army: Iranian drones targeted a vital site, 4 injured (26 Nov)",
       "site": "X / MenchOsint",
@@ -3539,11 +3550,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Kuwait says Iranian drones targeted a vital site, UKMTO confirmed a tanker strike near Khasab, and Iran's IRGC claims two more tankers hit Hormuz mines.",
-      "Houthis claimed hits on Ras Tanura and Riyadh, Ukrainian drones struck Russian oil sites, and Bangkok's Bangchak refinery shut after a blast."
+      "The Saudi-led coalition says Houthis attacked Aramco's Jazan refinery, while Kuwait says Iranian drones targeted a vital site and UKMTO confirmed a tanker strike near Khasab.",
+      "Iran's IRGC claims more tankers hit Hormuz mines, Houthis claimed Ras Tanura and Riyadh hits, Ukrainian drones struck Russian oil sites, and Bangkok's Bangchak refinery shut."
     ],
-    "updated": "Thu 26 Nov 2026, 9:04 pm SGT",
-    "updatedTs": "2026-11-26T21:04:00+08:00"
+    "updated": "Thu 26 Nov 2026, 10:58 pm SGT",
+    "updatedTs": "2026-11-26T22:58:00+08:00"
   },
   "last24Count": 13
 }
