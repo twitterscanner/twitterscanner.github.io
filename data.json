@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 6:41 pm SGT",
-  "lastScannedTs": "2026-11-26T18:41:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 6:02 pm SGT",
-  "asOfTs": "2026-11-26T18:02:20+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 7:05 pm SGT",
+  "lastScannedTs": "2026-11-26T19:05:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 7:05 pm SGT",
+  "asOfTs": "2026-11-26T19:05:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: fresh IRGC mine claims on Hormuz tankers, IDF war readiness, Houthi strikes on Saudi targets and Russian and Thai refinery hits keep supply risk high.",
-    "lead": "Net read (last 24 hours): Escalating: fresh IRGC mine claims on Hormuz tankers, IDF war readiness, Houthi strikes on Saudi targets and Russian and Thai refinery hits keep supply risk high.",
+    "bottom": "Escalating: fresh IRGC mine claims on Hormuz tankers, Houthi strikes on Saudi targets and refinery hits keep risk high; OPEC+ eyes an unchanged January.",
+    "lead": "Net read (last 24 hours): Escalating: fresh IRGC mine claims on Hormuz tankers, Houthi strikes on Saudi targets and refinery hits keep risk high; OPEC+ eyes an unchanged January.",
     "verdict": "Bullish",
-    "count": "25 of 25 alerts point higher, 0 lower",
-    "text": "25 of 25 alerts point higher, 0 lower.",
+    "count": "25 of 26 alerts point higher, 0 lower",
+    "text": "25 of 26 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "IRGC says two more tankers hit mines and burned in Hormuz",
@@ -163,13 +163,33 @@
       }
     ],
     "dovish": [],
-    "neutral": []
+    "neutral": [
+      {
+        "text": "OPEC+ leans toward rolling January quotas over unchanged, delegates say",
+        "confidence": "unconfirmed",
+        "theme": "OPEC+",
+        "ts": "2026-11-26T19:05:00+08:00"
+      }
+    ]
   },
   "brent": {
     "value": "$93.65",
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:05",
+      "ts": "2026-11-26T19:05:00+08:00",
+      "eventTime": "7:01 pm, 26 Nov (est.)",
+      "eventTs": "2026-11-26T19:01:00+08:00",
+      "eventQual": "est.",
+      "headline": "OPEC+ considers rolling over current output quotas for January, with no increase or cut, delegates say ahead of the 29 Nov meeting",
+      "theme": "OPEC+",
+      "direction": "Neutral",
+      "confidence": "Unconfirmed",
+      "source": "First Squawk and LiveSquawk, citing OPEC+ delegates",
+      "url": "https://x.com/FirstSquawk/status/2125907869933645936"
+    },
     {
       "time": "18:02",
       "ts": "2026-11-26T18:02:20+08:00",
@@ -675,22 +695,14 @@
       "confidence": "Confirmed",
       "source": "Bloomberg headline via FinancialJuice; also Rory Johnston",
       "url": "https://x.com/financialjuice/status/2125274355860951444"
-    },
-    {
-      "time": "01:26",
-      "ts": "2026-11-25T01:26:05+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Satellite imagery suggests at least four oil storage tanks at Aramco's SAMREF refinery in Yanbu were damaged by Houthi strikes earlier this month",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Post Open Source (CocoPostel), citing EGYOSINT Sentinel-2 imagery",
-      "url": "https://x.com/CocoPostel/status/2125278979292852714"
     }
   ],
   "sources": [
+    {
+      "title": "OPEC+ considers rolling over current quotas for January (delegates)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2125907869933645936"
+    },
     {
       "title": "First Squawk: Brent futures fall 1% to $93.65 (26 Nov)",
       "site": "X / First Squawk",
@@ -3535,11 +3547,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC says two more tankers hit naval mines in Hormuz, and Israel's military says it is preparing for war with Iran.",
-      "Houthis fired missiles at Riyadh and Saudi ports, Ukrainian drones hit Russia's Subkhankulovo pump station and Slavyansk refinery, and Bangkok's Bangchak refinery caught fire."
+      "Iran's IRGC Navy says two tankers hit mines and caught fire near Khasab in Hormuz, as Israel's military says it is ready for war with Iran.",
+      "Houthis claimed hits on Ras Tanura and Riyadh, Ukrainian drones struck Russian oil sites, Bangkok's Bangchak refinery shut after a blast, and OPEC+ eyes unchanged January quotas."
     ],
-    "updated": "Thu 26 Nov 2026, 6:02 pm SGT",
-    "updatedTs": "2026-11-26T18:02:20+08:00"
+    "updated": "Thu 26 Nov 2026, 7:05 pm SGT",
+    "updatedTs": "2026-11-26T19:05:00+08:00"
   },
   "last24Count": 13
 }
