@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 2:03 am SGT",
-  "lastScannedTs": "2026-11-27T02:03:00+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 3:05 am SGT",
+  "lastScannedTs": "2026-11-27T03:05:00+08:00",
   "asOf": "Fri 27 Nov 2026, 2:03 am SGT",
   "asOfTs": "2026-11-27T02:03:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "lead": "Net read (last 24 hours): Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "25 of 28 alerts point higher, 1 lower",
-    "text": "25 of 28 alerts point higher, 1 lower.",
+    "count": "22 of 25 alerts point higher, 1 lower",
+    "text": "22 of 25 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Saudi ministry: Jazan refinery operations partly suspended after projectile hit",
@@ -142,24 +142,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-26T04:01:09+08:00"
-      },
-      {
-        "text": "Houthis claim strikes on Jeddah and Jizan ports; only Jizan confirmed",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-26T03:05:05+08:00"
-      },
-      {
-        "text": "Reported Iranian attacks on Iraqi Kurds; Kurdistan closes to Baghdad troops",
-        "confidence": "unconfirmed",
-        "theme": "Iraq / Kurdistan",
-        "ts": "2026-11-26T03:05:04+08:00"
-      },
-      {
-        "text": "Brazil's Bacalhau field output halted for 5 to 8 weeks after incident",
-        "confidence": "confirmed",
-        "theme": "Oil fields / outages",
-        "ts": "2026-11-26T02:03:51+08:00"
       }
     ],
     "dovish": [
@@ -186,8 +168,8 @@
     ]
   },
   "brent": {
-    "value": "$93.65",
-    "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
+    "value": "$96.57",
+    "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
   },
   "alerts": [
     {
