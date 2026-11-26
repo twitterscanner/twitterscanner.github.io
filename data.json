@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 1:08 am SGT",
-  "lastScannedTs": "2026-11-27T01:08:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 12:45 am SGT",
-  "asOfTs": "2026-11-27T00:45:55+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 2:03 am SGT",
+  "lastScannedTs": "2026-11-27T02:03:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 2:03 am SGT",
+  "asOfTs": "2026-11-27T02:03:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
-    "lead": "Net read (last 24 hours): Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
+    "bottom": "Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "24 of 27 alerts point higher, 1 lower",
-    "text": "24 of 27 alerts point higher, 1 lower.",
+    "count": "25 of 28 alerts point higher, 1 lower",
+    "text": "25 of 28 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Saudi ministry: Jazan refinery operations partly suspended after projectile hit",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-27T02:03:00+08:00"
+      },
       {
         "text": "Basra Oil Terminal operations reportedly slowed; some India cargoes cancelled",
         "confidence": "unconfirmed",
@@ -184,6 +190,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "02:03",
+      "ts": "2026-11-27T02:03:00+08:00",
+      "eventTime": "Not stated (attack reported ~10:48 pm SGT 26 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Saudi Energy Ministry confirms a projectile hit Aramco's 400,000 b/d Jazan refinery: fire controlled, some refinery operations temporarily suspended, one killed and one injured",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi Energy Ministry via Saudi Gazette; First Squawk; ncitayim",
+      "url": "https://x.com/Saudi_Gazette/status/2126013175221166172"
+    },
     {
       "time": "00:45",
       "ts": "2026-11-27T00:45:00+08:00",
@@ -690,22 +709,14 @@
       "confidence": "Unconfirmed",
       "source": "Post Open Source (CocoPostel) citing a special source; InterceptorNews; unverified videos",
       "url": "https://x.com/CocoPostel/status/2125444575976161397"
-    },
-    {
-      "time": "10:51",
-      "ts": "2026-11-25T10:51:45+08:00",
-      "eventTime": "10:40 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T10:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Saudi-led coalition says air defences destroyed four drones over Ras Tanura, Aramco's key Gulf export terminal; debris fell, no casualties",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition statement via financialjuice; CGTN; WCL News",
-      "url": "https://x.com/financialjuice/status/2125420444715254178"
     }
   ],
   "sources": [
+    {
+      "title": "Saudi Energy Ministry: Jazan refinery operations partly suspended after projectile hit (26 Nov)",
+      "site": "X / Saudi_Gazette",
+      "href": "https://x.com/Saudi_Gazette/status/2126013175221166172"
+    },
     {
       "title": "Fire at PDVSA Amuay refinery, workers evacuated (26 Nov)",
       "site": "X / nmasunivision",
@@ -3595,11 +3606,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ras Tanura crude loadings were reportedly suspended after the Houthi strike, the Houthis also attacked Aramco's Jazan refinery, and Basra terminal operations reportedly slowed.",
+      "Saudi Arabia confirmed a projectile hit Aramco's Jazan refinery, partly suspending operations, while Ras Tanura loadings were reportedly halted and Basra terminal operations reportedly slowed.",
       "Kuwait says Iranian drones hit a vital site, which Iran denies, a fire hit Venezuela's Amuay refinery, and Iraq says exports recovered to 3.6 million bpd."
     ],
-    "updated": "Fri 27 Nov 2026, 12:45 am SGT",
-    "updatedTs": "2026-11-27T00:45:00+08:00"
+    "updated": "Fri 27 Nov 2026, 2:03 am SGT",
+    "updatedTs": "2026-11-27T02:03:00+08:00"
   },
   "last24Count": 13
 }
