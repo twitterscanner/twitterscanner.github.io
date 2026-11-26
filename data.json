@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 12:04 pm SGT",
-  "lastScannedTs": "2026-11-26T12:04:47+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 12:27 pm SGT",
+  "lastScannedTs": "2026-11-26T12:27:13+08:00",
   "asOf": "Thu 26 Nov 2026, 7:05 am SGT",
   "asOfTs": "2026-11-26T07:05:01+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: reported Iranian missile salvo at Hormuz tankers, projectile near a tanker off Dubai, Houthi strikes on Riyadh and Saudi ports; risks skew higher.",
     "lead": "Net read (last 24 hours): Escalating: reported Iranian missile salvo at Hormuz tankers, projectile near a tanker off Dubai, Houthi strikes on Riyadh and Saudi ports; risks skew higher.",
     "verdict": "Bullish",
-    "count": "25 of 25 alerts point higher, 0 lower",
-    "text": "25 of 25 alerts point higher, 0 lower.",
+    "count": "24 of 24 alerts point higher, 0 lower",
+    "text": "24 of 24 alerts point higher, 0 lower.",
     "hawkish": [
       {
         "text": "UKMTO: projectile explodes near tanker west of Dubai, no damage",
@@ -154,12 +154,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-25T12:44:28+08:00"
-      },
-      {
-        "text": "Smoke reported over Aramco's Ras Tanura refinery after drone attack; staff barred",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-25T12:22:45+08:00"
       }
     ],
     "dovish": [],
