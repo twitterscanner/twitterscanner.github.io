@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 12:36 am SGT",
-  "lastScannedTs": "2026-11-27T00:36:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 12:36 am SGT",
-  "asOfTs": "2026-11-27T00:36:02+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 12:45 am SGT",
+  "lastScannedTs": "2026-11-27T00:45:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 12:45 am SGT",
+  "asOfTs": "2026-11-27T00:45:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "lead": "Net read (last 24 hours): Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "25 of 27 alerts point higher, 1 lower",
-    "text": "25 of 27 alerts point higher, 1 lower.",
+    "count": "25 of 28 alerts point higher, 1 lower",
+    "text": "25 of 28 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Basra Oil Terminal operations reportedly slowed; some India cargoes cancelled",
@@ -172,6 +172,12 @@
     ],
     "neutral": [
       {
+        "text": "Amuay refinery fire in Venezuela contained; workers evacuated, no injuries",
+        "confidence": "confirmed",
+        "theme": "Oil fields / outages",
+        "ts": "2026-11-27T00:45:00+08:00"
+      },
+      {
         "text": "OPEC+ leans toward rolling January quotas over unchanged, delegates say",
         "confidence": "unconfirmed",
         "theme": "OPEC+",
@@ -184,6 +190,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:45",
+      "ts": "2026-11-27T00:45:00+08:00",
+      "eventTime": "9:50 pm, 26 Nov (est.)",
+      "eventTs": "2026-11-26T21:50:00+08:00",
+      "eventQual": "est.",
+      "headline": "Fire with reported explosions at PDVSA's Amuay refinery (Paraguana complex, Venezuela) forces worker evacuation; blaze in residual-crude trenches brought under control, no injuries",
+      "theme": "Oil fields / outages",
+      "direction": "Neutral",
+      "confidence": "Confirmed",
+      "source": "N+ Univision (Spanish); Venezuelan outlets; Conflicts W",
+      "url": "https://x.com/nmasunivision/status/2125971939281772858"
+    },
     {
       "time": "00:36",
       "ts": "2026-11-27T00:36:00+08:00",
@@ -690,22 +709,14 @@
       "confidence": "Confirmed",
       "source": "Saudi-led coalition statement via financialjuice; CGTN; WCL News",
       "url": "https://x.com/financialjuice/status/2125420444715254178"
-    },
-    {
-      "time": "09:05",
-      "ts": "2026-11-25T09:05:04+08:00",
-      "eventTime": "8:45 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T08:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "Dammam airport in Saudi Arabia's Eastern Province possibly struck; airspace disruption continues and flights diverting",
-      "theme": "Saudi Arabia",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint; Post Open Source on X",
-      "url": "https://x.com/MenchOsint/status/2125391094263300486"
     }
   ],
   "sources": [
+    {
+      "title": "Fire at PDVSA Amuay refinery, workers evacuated (26 Nov)",
+      "site": "X / nmasunivision",
+      "href": "https://x.com/nmasunivision/status/2125971939281772858"
+    },
     {
       "title": "Basra Oil Terminal operations reportedly slowed, India cargoes cancelled (26 Nov)",
       "site": "X / CRUDEOIL231",
@@ -3591,10 +3602,10 @@
     "title": "Today's key developments",
     "lines": [
       "Ras Tanura crude loadings were reportedly suspended after the Houthi strike, the Houthis also attacked Aramco's Jazan refinery, and Basra terminal operations reportedly slowed.",
-      "Kuwait says Iranian drones hit a vital site, which Iran denies, while Angola cuts January exports and Iraq says its exports recovered to 3.6 million bpd."
+      "Kuwait says Iranian drones hit a vital site, which Iran denies, a fire hit Venezuela's Amuay refinery, and Iraq says exports recovered to 3.6 million bpd."
     ],
-    "updated": "Fri 27 Nov 2026, 12:36 am SGT",
-    "updatedTs": "2026-11-27T00:36:00+08:00"
+    "updated": "Fri 27 Nov 2026, 12:45 am SGT",
+    "updatedTs": "2026-11-27T00:45:00+08:00"
   },
   "last24Count": 13
 }
