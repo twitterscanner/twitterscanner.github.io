@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 5:01 pm SGT",
-  "lastScannedTs": "2026-11-26T17:01:00+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 5:30 pm SGT",
+  "lastScannedTs": "2026-11-26T17:30:00+08:00",
   "asOf": "Thu 26 Nov 2026, 4:47 pm SGT",
   "asOfTs": "2026-11-26T16:47:15+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -172,8 +172,8 @@
     "neutral": []
   },
   "brent": {
-    "value": "$94.61",
-    "detail": "Brent futures settled at $94.61, up $3.21 (3.5%), on 25 Nov (First Squawk on X, about 3:45 am SGT 26 Nov)"
+    "value": "$93.65",
+    "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
     {
@@ -697,6 +697,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "First Squawk: Brent futures fall 1% to $93.65 (26 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2125881241593688525"
+    },
     {
       "title": "Slavyansk refinery damaged again in drone attack (Russian)",
       "site": "X / Activatica",
