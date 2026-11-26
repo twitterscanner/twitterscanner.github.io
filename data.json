@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Thu 26 Nov 2026, 7:53 pm SGT",
-  "lastScannedTs": "2026-11-26T19:53:00+08:00",
-  "asOf": "Thu 26 Nov 2026, 7:05 pm SGT",
-  "asOfTs": "2026-11-26T19:05:46+08:00",
+  "lastScanned": "Thu 26 Nov 2026, 8:04 pm SGT",
+  "lastScannedTs": "2026-11-26T20:04:00+08:00",
+  "asOf": "Thu 26 Nov 2026, 8:04 pm SGT",
+  "asOfTs": "2026-11-26T20:04:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: fresh IRGC mine claims on Hormuz tankers, Houthi strikes on Saudi targets and refinery hits keep risk high; OPEC+ eyes an unchanged January.",
-    "lead": "Net read (last 24 hours): Escalating: fresh IRGC mine claims on Hormuz tankers, Houthi strikes on Saudi targets and refinery hits keep risk high; OPEC+ eyes an unchanged January.",
+    "bottom": "Escalating: UKMTO confirms a tanker hit near Khasab as IRGC claims more mine strikes; Houthi attacks on Saudi targets and refinery hits keep risk high.",
+    "lead": "Net read (last 24 hours): Escalating: UKMTO confirms a tanker hit near Khasab as IRGC claims more mine strikes; Houthi attacks on Saudi targets and refinery hits keep risk high.",
     "verdict": "Bullish",
-    "count": "24 of 25 alerts point higher, 0 lower",
-    "text": "24 of 25 alerts point higher, 0 lower.",
+    "count": "25 of 26 alerts point higher, 0 lower",
+    "text": "25 of 26 alerts point higher, 0 lower.",
     "hawkish": [
+      {
+        "text": "UKMTO confirms tanker struck by projectile 18nm east of Khasab in Hormuz",
+        "confidence": "confirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-26T20:04:00+08:00"
+      },
       {
         "text": "IRGC says two more tankers hit mines and burned in Hormuz",
         "confidence": "unconfirmed",
@@ -171,6 +177,19 @@
     "detail": "Brent futures down 1% at $93.65 a barrel (First Squawk on X, 5:15 pm SGT 26 Nov)"
   },
   "alerts": [
+    {
+      "time": "20:04",
+      "ts": "2026-11-26T20:04:00+08:00",
+      "eventTime": "9:00 pm, 25 Nov",
+      "eventTs": "2026-11-25T21:00:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "UKMTO warning 223-26: outbound tanker struck by an unknown projectile 18nm east of Khasab, Oman, while transiting the Strait of Hormuz",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO notice via ME_Observer_; also First Squawk and MenchOsint",
+      "url": "https://x.com/ME_Observer_/status/2125922683061780620"
+    },
     {
       "time": "19:05",
       "ts": "2026-11-26T19:05:00+08:00",
@@ -676,22 +695,14 @@
       "confidence": "Unconfirmed",
       "source": "IRGC Navy via IRIB; LiveSquawk and First Squawk",
       "url": "https://x.com/LiveSquawk/status/2125285477616115904"
-    },
-    {
-      "time": "01:47",
-      "ts": "2026-11-25T01:47:41+08:00",
-      "eventTime": "1:04 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T01:04:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iraq rejects OPEC+ assessment of its oil production capacity ahead of the 29 Nov ministerial meeting setting 2027 output baselines",
-      "theme": "OPEC+",
-      "direction": "Down",
-      "confidence": "Confirmed",
-      "source": "Bloomberg headline via FinancialJuice; also Rory Johnston",
-      "url": "https://x.com/financialjuice/status/2125274355860951444"
     }
   ],
   "sources": [
+    {
+      "title": "UKMTO warning 223-26: tanker struck by projectile 18nm east of Khasab (25 Nov)",
+      "site": "X / ME_Observer_",
+      "href": "https://x.com/ME_Observer_/status/2125922683061780620"
+    },
     {
       "title": "OPEC+ considers rolling over current quotas for January (delegates)",
       "site": "X / First Squawk",
@@ -3541,11 +3552,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Iran's IRGC Navy says two tankers hit mines and caught fire near Khasab in Hormuz, as Israel's military says it is ready for war with Iran.",
+      "UKMTO confirmed a tanker was struck by a projectile near Khasab, while Iran's IRGC says two more tankers hit mines and burned in Hormuz.",
       "Houthis claimed hits on Ras Tanura and Riyadh, Ukrainian drones struck Russian oil sites, Bangkok's Bangchak refinery shut after a blast, and OPEC+ eyes unchanged January quotas."
     ],
-    "updated": "Thu 26 Nov 2026, 7:05 pm SGT",
-    "updatedTs": "2026-11-26T19:05:00+08:00"
+    "updated": "Thu 26 Nov 2026, 8:04 pm SGT",
+    "updatedTs": "2026-11-26T20:04:00+08:00"
   },
   "last24Count": 13
 }
