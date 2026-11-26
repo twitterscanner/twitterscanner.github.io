@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 12:45 am SGT",
-  "lastScannedTs": "2026-11-27T00:45:00+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 12:57 am SGT",
+  "lastScannedTs": "2026-11-27T00:57:00+08:00",
   "asOf": "Fri 27 Nov 2026, 12:45 am SGT",
   "asOfTs": "2026-11-27T00:45:55+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "lead": "Net read (last 24 hours): Escalating: Ras Tanura loadings reportedly halted, Houthis hit Jazan refinery and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "25 of 28 alerts point higher, 1 lower",
-    "text": "25 of 28 alerts point higher, 1 lower.",
+    "count": "24 of 27 alerts point higher, 1 lower",
+    "text": "24 of 27 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Basra Oil Terminal operations reportedly slowed; some India cargoes cancelled",
@@ -154,12 +154,6 @@
         "confidence": "confirmed",
         "theme": "Oil fields / outages",
         "ts": "2026-11-26T02:03:51+08:00"
-      },
-      {
-        "text": "Houthi projectile hits Saudi Red Sea port of Jazan, minor damage",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-26T00:47:32+08:00"
       }
     ],
     "dovish": [
