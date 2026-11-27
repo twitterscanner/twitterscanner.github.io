@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 10:54 pm SGT",
-  "lastScannedTs": "2026-11-27T22:54:22+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 11:08 pm SGT",
+  "lastScannedTs": "2026-11-27T23:08:11+08:00",
   "asOf": "Fri 27 Nov 2026, 10:54 pm SGT",
   "asOfTs": "2026-11-27T22:54:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mines, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart offsets modestly.",
     "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mines, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart offsets modestly.",
     "verdict": "Bullish",
-    "count": "19 of 23 alerts point higher, 3 lower",
-    "text": "19 of 23 alerts point higher, 3 lower.",
+    "count": "18 of 21 alerts point higher, 2 lower",
+    "text": "18 of 21 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Supertanker VLCC GHAZAL filmed severely damaged, no strike previously reported",
@@ -118,12 +118,6 @@
         "confidence": "confirmed",
         "theme": "Oil fields / outages",
         "ts": "2026-11-26T23:38:00+08:00"
-      },
-      {
-        "text": "Coalition says Houthis attacked Aramco's Jazan refinery; a projectile struck it",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-26T22:58:00+08:00"
       }
     ],
     "dovish": [
@@ -138,12 +132,6 @@
         "confidence": "confirmed",
         "theme": "Iraq / Kurdistan",
         "ts": "2026-11-27T18:02:49+08:00"
-      },
-      {
-        "text": "Iraq says oil exports raised to 3.6 million bpd from 200,000 bpd",
-        "confidence": "confirmed",
-        "theme": "Iraq / Kurdistan",
-        "ts": "2026-11-26T23:07:00+08:00"
       }
     ],
     "neutral": [
