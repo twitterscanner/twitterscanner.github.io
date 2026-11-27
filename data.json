@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 3:55 pm SGT",
-  "lastScannedTs": "2026-11-27T15:55:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 3:04 pm SGT",
-  "asOfTs": "2026-11-27T15:04:41+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 4:00 pm SGT",
+  "lastScannedTs": "2026-11-27T16:00:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 4:00 pm SGT",
+  "asOfTs": "2026-11-27T16:00:49+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC fire at a US escort jet, Basrah delays and Russia's jet fuel ban tilt risk higher.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC fire at a US escort jet, Basrah delays and Russia's jet fuel ban tilt risk higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC fire at a US jet and talk of an Israeli strike on Iran tilt risk higher.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC fire at a US jet and talk of an Israeli strike on Iran tilt risk higher.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "17 of 20 alerts point higher, 1 lower",
+    "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Mossad chief reportedly pushes for an independent Israeli strike on Iran",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-27T15:40:00+08:00"
+      },
       {
         "text": "IRGC says warning fire forced a US F-16 escort away near Hengam Island, Hormuz",
         "confidence": "unconfirmed",
@@ -136,6 +142,19 @@
     "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "15:40",
+      "ts": "2026-11-27T15:40:00+08:00",
+      "eventTime": "Not stated (Israeli media report, first seen ~3:40 pm SGT 27 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Mossad chief Gofman reportedly pushing for an independent Israeli strike on Iran without US involvement, Israeli media say",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Mario Nawfal and War Radar on X, citing Israeli media",
+      "url": "https://x.com/MarioNawfal/status/2126219472877101397"
+    },
     {
       "time": "14:58",
       "ts": "2026-11-27T14:58:43+08:00",
@@ -642,19 +661,6 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel (Osint613) citing Iranian reports; also Iran News Agency, NodeWire, Middle East outlets",
       "url": "https://x.com/Osint613/status/2125580585817223630"
-    },
-    {
-      "time": "20:32",
-      "ts": "2026-11-25T20:32:45+08:00",
-      "eventTime": "24 Nov (Tue), time not stated",
-      "eventTs": "2026-11-24T12:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Kazakhstan oil and condensate output fell 17% on Tuesday to about 1.74 million bpd as storms hit Black Sea (CPC) exports",
-      "theme": "Weather",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Giovanni Staunovo on X, citing industry data and people familiar with the figures",
-      "url": "https://x.com/staunovo/status/2125562548392972541"
     }
   ],
   "sources": [
@@ -3582,16 +3588,21 @@
       "title": "IRGC: US F-16 escort turned away after warning fire near Hengam/Hormuz Island (27 Nov)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2126209085066613101"
+    },
+    {
+      "title": "Israeli media: Mossad chief Gofman backs independent Israeli strike on Iran without US (27 Nov)",
+      "site": "X / Mario Nawfal",
+      "href": "https://x.com/MarioNawfal/status/2126219472877101397"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq reportedly delayed Basrah crude loadings into December.",
-      "In Hormuz another ship was reportedly hit off Khasab and the IRGC claims it drove off a US escort jet, while Russia extended its jet fuel export ban to March 31."
+      "In Hormuz the IRGC claims it drove off a US escort jet, Israeli media say Mossad's chief backs a solo strike on Iran, and Russia extended its jet fuel export ban."
     ],
-    "updated": "Fri 27 Nov 2026, 3:05 pm SGT",
-    "updatedTs": "2026-11-27T15:05:00+08:00"
+    "updated": "Fri 27 Nov 2026, 4:00 pm SGT",
+    "updatedTs": "2026-11-27T16:00:00+08:00"
   },
   "last24Count": 13
 }
