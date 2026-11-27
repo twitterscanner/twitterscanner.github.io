@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 8:02 am SGT",
-  "lastScannedTs": "2026-11-27T08:02:31+08:00",
-  "asOf": "Fri 27 Nov 2026, 7:02 am SGT",
-  "asOfTs": "2026-11-27T07:02:16+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 9:05 am SGT",
+  "lastScannedTs": "2026-11-27T09:05:38+08:00",
+  "asOf": "Fri 27 Nov 2026, 9:05 am SGT",
+  "asOfTs": "2026-11-27T09:05:38+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
+    "bottom": "Escalating: Houthi hits on Jazan, Ras Tanura disruption, Hormuz tanker attacks and a reported US strike on Qeshm keep supply risk tilted higher.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi hits on Jazan, Ras Tanura disruption, Hormuz tanker attacks and a reported US strike on Qeshm keep supply risk tilted higher.",
     "verdict": "Bullish",
-    "count": "13 of 16 alerts point higher, 1 lower",
-    "text": "13 of 16 alerts point higher, 1 lower.",
+    "count": "14 of 17 alerts point higher, 1 lower",
+    "text": "14 of 17 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Possible US strike on Iranian SAM launcher on Qeshm Island, Strait of Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-27T09:05:38+08:00"
+      },
       {
         "text": "Russian refining reportedly near 2.5m b/d, lowest in 20+ years after drone strikes",
         "confidence": "unconfirmed",
@@ -118,6 +124,19 @@
     "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:05",
+      "ts": "2026-11-27T09:05:38+08:00",
+      "eventTime": "8:10 am, 27 Nov (est.)",
+      "eventTs": "2026-11-27T08:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Possible US airstrike reported on an Iranian surface-to-air missile launcher on Qeshm Island in the Strait of Hormuz; residents report jets and an explosion",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "AMK Mapping on X (local reports from Qeshm)",
+      "url": "https://x.com/AMK_Mapping_/status/2126107101315666427"
+    },
     {
       "time": "07:02",
       "ts": "2026-11-27T07:02:16+08:00",
@@ -624,19 +643,6 @@
       "confidence": "Unconfirmed",
       "source": "Houthi military spokesman Yahya Saree (Arabic video statement); Al Masirah",
       "url": "https://x.com/Yah_Saree/status/2125484632745398496"
-    },
-    {
-      "time": "12:44",
-      "ts": "2026-11-25T12:44:28+08:00",
-      "eventTime": "25 Nov, early hours Iran time (~9:30 am SGT est.)",
-      "eventTs": "2026-11-25T09:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says two more 'violating' oil tankers exploded and caught fire after hitting naval mines off the southern and eastern Strait of Hormuz",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "IRGC Navy statement via Fars News (Aggregoir on X; also ShaykhSulaiman, PTVBreaking1)",
-      "url": "https://x.com/Aggregoir/status/2125449342660047108"
     }
   ],
   "sources": [
@@ -3534,16 +3540,21 @@
       "title": "Russian oil refining reportedly falls to lowest level in 20+ years (~2.5m b/d)",
       "site": "X / NSTRIKE",
       "href": "https://x.com/NSTRIKE1231/status/2126077847374643413"
+    },
+    {
+      "title": "Possible US airstrikes on Iranian SAM launcher on Qeshm Island",
+      "site": "X / AMK Mapping",
+      "href": "https://x.com/AMK_Mapping_/status/2126107101315666427"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia's Energy Ministry said a projectile hit Aramco's Jazan refinery, killing a worker and suspending some operations, while Ras Tanura crude loadings were reportedly halted.",
-      "Basra terminal operations were reportedly slowed, a fire hit Venezuela's Amuay refinery, and Russian refining reportedly fell to about 2.5 million barrels a day, a 20-year low."
+      "Saudi Arabia confirmed a Houthi projectile hit Aramco's 400,000 b/d Jazan refinery, while Ras Tanura loadings and Basra terminal operations were reportedly disrupted overnight.",
+      "Local reports this morning describe a possible US airstrike on an Iranian missile launcher on Qeshm Island, and Russian refining reportedly fell to a 20-year low after Ukrainian strikes."
     ],
-    "updated": "Fri 27 Nov 2026, 7:02 am SGT",
-    "updatedTs": "2026-11-27T07:02:16+08:00"
+    "updated": "Fri 27 Nov 2026, 9:05 am SGT",
+    "updatedTs": "2026-11-27T09:05:38+08:00"
   },
   "last24Count": 13
 }
