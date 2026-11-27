@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 12:33 pm SGT",
-  "lastScannedTs": "2026-11-27T12:33:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 12:31 pm SGT",
-  "asOfTs": "2026-11-27T12:31:39+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 1:01 pm SGT",
+  "lastScannedTs": "2026-11-27T13:01:10+08:00",
+  "asOf": "Fri 27 Nov 2026, 1:01 pm SGT",
+  "asOfTs": "2026-11-27T13:01:11+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, a reported Qeshm strike and Basrah loading delays keep supply risk tilted higher.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, a reported Qeshm strike and Basrah loading delays keep supply risk tilted higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah loading delays and a Novorossiysk drone attack keep supply risk tilted higher.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah loading delays and a Novorossiysk drone attack keep supply risk tilted higher.",
     "verdict": "Bullish",
     "count": "16 of 19 alerts point higher, 1 lower",
     "text": "16 of 19 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Drone attack hits Novorossiysk oil port city, three injured; terminal damage not reported",
+        "confidence": "confirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-27T12:45:00+08:00"
+      },
       {
         "text": "Iraq reportedly delays 20-30M barrels of Basrah crude loadings into December",
         "confidence": "unconfirmed",
@@ -100,12 +106,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-26T15:03:51+08:00"
-      },
-      {
-        "text": "Reported strike on Transneft-Ural Subkhankulovo pumping station in Bashkortostan",
-        "confidence": "unconfirmed",
-        "theme": "Russia refineries",
-        "ts": "2026-11-26T12:41:00+08:00"
       }
     ],
     "dovish": [
@@ -136,6 +136,19 @@
     "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "12:45",
+      "ts": "2026-11-27T12:45:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Drone attack hits Russia's Black Sea oil port city of Novorossiysk, three injured; no damage to oil terminals reported so far",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "First Squawk; also CGTN citing local authorities",
+      "url": "https://x.com/FirstSquawk/status/2126175490558046433"
+    },
     {
       "time": "12:26",
       "ts": "2026-11-27T12:26:14+08:00",
@@ -642,19 +655,6 @@
       "confidence": "Confirmed",
       "source": "Iraqi Federal Supreme Court media office via Iraqi outlets (Hber_iq, Sawt Kel Lebnen), Arabic",
       "url": "https://x.com/Hber_iq/status/2125556477553184802"
-    },
-    {
-      "time": "18:28",
-      "ts": "2026-11-25T18:28:23+08:00",
-      "eventTime": "2:30 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T02:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran's army says its air defences shot down two US drones, an MQ-9 Reaper and a LUCAS, over the Strait of Hormuz; no US confirmation",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Iranian Army via state broadcaster IRIB (Middle East Eye live; also Tasnim, ANI)",
-      "url": "https://x.com/MiddleEastEye/status/2125536510921547905"
     }
   ],
   "sources": [
@@ -3567,16 +3567,21 @@
       "title": "Bloomberg via Mario Nawfal: Iraq delays 20-30M barrels of Basrah crude loadings into early December",
       "site": "X / Mario Nawfal",
       "href": "https://x.com/MarioNawfal/status/2126170709269365194"
+    },
+    {
+      "title": "Drone attack hits Novorossiysk, three injured (27 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2126175490558046433"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, while Ras Tanura loadings were reportedly suspended and Iraq reportedly delayed 20-30 million barrels of Basrah crude into December.",
-      "This morning another ship was reportedly hit off Khasab in Hormuz and a possible US strike targeted an Iranian launcher on Qeshm, while Russian refining reportedly hit a 20-year low."
+      "Another ship was reportedly hit off Khasab in Hormuz, a possible US strike targeted an Iranian launcher on Qeshm, and a drone attack hit Russia's Novorossiysk oil port city."
     ],
-    "updated": "Fri 27 Nov 2026, 12:33 pm SGT",
-    "updatedTs": "2026-11-27T12:33:00+08:00"
+    "updated": "Fri 27 Nov 2026, 1:01 pm SGT",
+    "updatedTs": "2026-11-27T13:01:10+08:00"
   },
   "last24Count": 13
 }
