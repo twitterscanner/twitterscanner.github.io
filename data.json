@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 7:18 pm SGT",
-  "lastScannedTs": "2026-11-27T19:18:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 7:17 pm SGT",
-  "asOfTs": "2026-11-27T19:17:33+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 7:33 pm SGT",
+  "lastScannedTs": "2026-11-27T19:33:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 7:32 pm SGT",
+  "asOfTs": "2026-11-27T19:32:46+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq pipeline restart and Russia-US diesel talks are modest offsets.",
     "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq pipeline restart and Russia-US diesel talks are modest offsets.",
     "verdict": "Bullish",
-    "count": "17 of 21 alerts point higher, 3 lower",
-    "text": "17 of 21 alerts point higher, 3 lower.",
+    "count": "18 of 22 alerts point higher, 3 lower",
+    "text": "18 of 22 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Unite calls 24-hour strike on Apache North Sea platforms, 29-30 Nov",
+        "confidence": "confirmed",
+        "theme": "Oil fields / outages",
+        "ts": "2026-11-27T19:33:00+08:00"
+      },
       {
         "text": "Ship reportedly hits naval mine on 'unauthorized' Hormuz route, IRGC-attributed claim",
         "confidence": "unconfirmed",
@@ -148,6 +154,19 @@
     "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:33",
+      "ts": "2026-11-27T19:33:00+08:00",
+      "eventTime": "Scheduled 29-30 Nov, start time not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "UK union Unite announces a 24-hour strike on Apache's North Sea platforms on 29-30 November",
+      "theme": "Oil fields / outages",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "LiveSquawk",
+      "url": "https://x.com/LiveSquawk/status/2126276897709367671"
+    },
     {
       "time": "19:18",
       "ts": "2026-11-27T19:18:00+08:00",
@@ -654,19 +673,6 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel (Osint613) citing Israel's Kan News; also Post Open Source",
       "url": "https://x.com/Osint613/status/2125654116366225585"
-    },
-    {
-      "time": "02:03",
-      "ts": "2026-11-26T02:03:51+08:00",
-      "eventTime": "Not stated (Galp statement on 25 Nov; reported ~1:55 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Galp says an incident at Equinor-operated Bacalhau field in Brazil's Santos Basin has halted output for an estimated 5 to 8 weeks",
-      "theme": "Oil fields / outages",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Giovanni Staunovo on X citing Galp statement (Reuters); Equinor also flags Bacalhau and Visund shut-ins",
-      "url": "https://x.com/staunovo/status/2125649675097137406"
     }
   ],
   "sources": [
@@ -3619,16 +3625,21 @@
       "title": "Novak: Russia in contact with US on diesel supply deal (27 Nov)",
       "site": "X / financialjuice",
       "href": "https://x.com/financialjuice/status/2126254919267344874"
+    },
+    {
+      "title": "Unite announces 24-hour strike on Apache North Sea platforms, 29-30 Nov (27 Nov)",
+      "site": "X / LiveSquawk",
+      "href": "https://x.com/LiveSquawk/status/2126276897709367671"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
-      "In Hormuz a tanker reportedly hit a naval mine and the IRGC claims it drove off a US jet, while Russia says it is in contact with the US on a diesel supply deal."
+      "In Hormuz the IRGC says a tanker hit a naval mine, Russia says it is in contact with the US on a diesel supply deal, and Unite called a North Sea strike at Apache."
     ],
-    "updated": "Fri 27 Nov 2026, 7:18 pm SGT",
-    "updatedTs": "2026-11-27T19:18:00+08:00"
+    "updated": "Fri 27 Nov 2026, 7:33 pm SGT",
+    "updatedTs": "2026-11-27T19:33:00+08:00"
   },
   "last24Count": 13
 }
