@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 9:05 am SGT",
-  "lastScannedTs": "2026-11-27T09:05:38+08:00",
-  "asOf": "Fri 27 Nov 2026, 9:05 am SGT",
-  "asOfTs": "2026-11-27T09:05:38+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 9:42 am SGT",
+  "lastScannedTs": "2026-11-27T09:42:30+08:00",
+  "asOf": "Fri 27 Nov 2026, 9:42 am SGT",
+  "asOfTs": "2026-11-27T09:42:30+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi hits on Jazan, Ras Tanura disruption, Hormuz tanker attacks and a reported US strike on Qeshm keep supply risk tilted higher.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi hits on Jazan, Ras Tanura disruption, Hormuz tanker attacks and a reported US strike on Qeshm keep supply risk tilted higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, fresh Hormuz ship strikes and a reported US strike on Qeshm keep supply risk tilted higher.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, fresh Hormuz ship strikes and a reported US strike on Qeshm keep supply risk tilted higher.",
     "verdict": "Bullish",
-    "count": "14 of 17 alerts point higher, 1 lower",
-    "text": "14 of 17 alerts point higher, 1 lower.",
+    "count": "15 of 18 alerts point higher, 1 lower",
+    "text": "15 of 18 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Another vessel reportedly hit by Iranian missiles off Khasab, Hormuz, on fire",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-27T09:42:30+08:00"
+      },
       {
         "text": "Possible US strike on Iranian SAM launcher on Qeshm Island, Strait of Hormuz",
         "confidence": "unconfirmed",
@@ -124,6 +130,19 @@
     "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "09:42",
+      "ts": "2026-11-27T09:42:30+08:00",
+      "eventTime": "8:00 am, 27 Nov (est.)",
+      "eventTs": "2026-11-27T08:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Another commercial vessel reportedly hit by Iranian anti-ship missiles about 9 nm off Khasab, Oman, in the Strait of Hormuz; ship seen on fire",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Mario Nawfal on X (also MoloWarMonitor, ME Observer)",
+      "url": "https://x.com/MarioNawfal/status/2126128602827649410"
+    },
     {
       "time": "09:05",
       "ts": "2026-11-27T09:05:38+08:00",
@@ -630,19 +649,6 @@
       "confidence": "Confirmed",
       "source": "Roya News English; also Fox News and Times of Israel reports of Katz remarks",
       "url": "https://x.com/RoyaNewsEnglish/status/2125529318847889762"
-    },
-    {
-      "time": "15:03",
-      "ts": "2026-11-25T15:03:27+08:00",
-      "eventTime": "10:40 am, 25 Nov (est.)",
-      "eventTs": "2026-11-25T10:40:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis formally claim drone strike on Aramco's Ras Tanura refinery, saying direct hits sparked fires; also claim Riyadh financial centre attack",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree (Arabic video statement); Al Masirah",
-      "url": "https://x.com/Yah_Saree/status/2125484632745398496"
     }
   ],
   "sources": [
@@ -3545,16 +3551,21 @@
       "title": "Possible US airstrikes on Iranian SAM launcher on Qeshm Island",
       "site": "X / AMK Mapping",
       "href": "https://x.com/AMK_Mapping_/status/2126107101315666427"
+    },
+    {
+      "title": "Reports: another commercial vessel struck off Khasab, Strait of Hormuz (27 Nov)",
+      "site": "X / Mario Nawfal",
+      "href": "https://x.com/MarioNawfal/status/2126128602827649410"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's 400,000 b/d Jazan refinery, while Ras Tanura loadings and Basra terminal operations were reportedly disrupted overnight.",
-      "Local reports this morning describe a possible US airstrike on an Iranian missile launcher on Qeshm Island, and Russian refining reportedly fell to a 20-year low after Ukrainian strikes."
+      "This morning another ship was reportedly hit off Khasab in Hormuz and a possible US strike targeted an Iranian launcher on Qeshm, while Russian refining reportedly hit a 20-year low."
     ],
-    "updated": "Fri 27 Nov 2026, 9:05 am SGT",
-    "updatedTs": "2026-11-27T09:05:38+08:00"
+    "updated": "Fri 27 Nov 2026, 9:42 am SGT",
+    "updatedTs": "2026-11-27T09:42:30+08:00"
   },
   "last24Count": 13
 }
