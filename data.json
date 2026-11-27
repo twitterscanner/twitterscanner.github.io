@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 11:08 pm SGT",
-  "lastScannedTs": "2026-11-27T23:08:11+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 11:16 pm SGT",
+  "lastScannedTs": "2026-11-27T23:16:17+08:00",
   "asOf": "Fri 27 Nov 2026, 10:54 pm SGT",
   "asOfTs": "2026-11-27T22:54:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -144,8 +144,8 @@
     ]
   },
   "brent": {
-    "value": "$96.48",
-    "detail": "Brent futures around $96.48 a barrel, near a monthly high (AsiaOne on X, 10:15 pm SGT 27 Nov)"
+    "value": "$94.97",
+    "detail": "Brent January contract trading at $94.97, down 1.66% (OilandEnergy via X, 11:13 pm SGT 27 Nov)"
   },
   "alerts": [
     {
@@ -3639,6 +3639,11 @@
       "title": "Open Source Intel: video of severely damaged VLCC GHAZAL, no strike reported by IRGC or UKMTO (27 Nov)",
       "site": "X / Open Source Intel",
       "href": "https://x.com/Osint613/status/2126327207350153456"
+    },
+    {
+      "title": "OilandEnergy: Brent January contract at $94.97, down 1.66% (27 Nov)",
+      "site": "X / Orgetorix",
+      "href": "https://x.com/Orgetorix/status/2126333532112908380"
     }
   ],
   "dayNote": {
