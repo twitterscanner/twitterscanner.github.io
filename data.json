@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 7:06 pm SGT",
-  "lastScannedTs": "2026-11-27T19:06:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 6:24 pm SGT",
-  "asOfTs": "2026-11-27T18:24:16+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 7:18 pm SGT",
+  "lastScannedTs": "2026-11-27T19:18:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 7:17 pm SGT",
+  "asOfTs": "2026-11-27T19:17:33+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, fresh Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, fresh Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq pipeline restart and Russia-US diesel talks are modest offsets.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq pipeline restart and Russia-US diesel talks are modest offsets.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 2 lower",
-    "text": "17 of 20 alerts point higher, 2 lower.",
+    "count": "17 of 21 alerts point higher, 3 lower",
+    "text": "17 of 21 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "Ship reportedly hits naval mine on 'unauthorized' Hormuz route, IRGC-attributed claim",
@@ -116,6 +116,12 @@
     ],
     "dovish": [
       {
+        "text": "Novak: Russia in contact with US on a diesel supply deal",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-27T19:18:00+08:00"
+      },
+      {
         "text": "Iraq restarts old Iraq-Turkey pipeline route, 300,000 bpd initial export capacity",
         "confidence": "confirmed",
         "theme": "Iraq / Kurdistan",
@@ -142,6 +148,19 @@
     "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "19:18",
+      "ts": "2026-11-27T19:18:00+08:00",
+      "eventTime": "6:00 pm, 27 Nov (est.)",
+      "eventTs": "2026-11-27T18:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Russia's Deputy PM Novak says Russia's energy ministry is in contact with the United States on a diesel supply deal",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "financialjuice, also CGTN",
+      "url": "https://x.com/financialjuice/status/2126254919267344874"
+    },
     {
       "time": "18:19",
       "ts": "2026-11-27T18:19:36+08:00",
@@ -648,19 +667,6 @@
       "confidence": "Confirmed",
       "source": "Giovanni Staunovo on X citing Galp statement (Reuters); Equinor also flags Bacalhau and Visund shut-ins",
       "url": "https://x.com/staunovo/status/2125649675097137406"
-    },
-    {
-      "time": "00:47",
-      "ts": "2026-11-26T00:47:32+08:00",
-      "eventTime": "Not stated (coalition statement ~12:36 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says a Houthi projectile fell on Jazan port on the Red Sea, causing minor damage",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Anadolu Agency citing Saudi-led coalition statement; also MEBriefNews",
-      "url": "https://x.com/anadoluagency/status/2125630555504980038"
     }
   ],
   "sources": [
@@ -3608,16 +3614,21 @@
       "title": "Ship reportedly hits naval mine in Hormuz, IRGC-attributed (27 Nov)",
       "site": "X / hey_itsmyturn",
       "href": "https://x.com/hey_itsmyturn/status/2126260194430669129"
+    },
+    {
+      "title": "Novak: Russia in contact with US on diesel supply deal (27 Nov)",
+      "site": "X / financialjuice",
+      "href": "https://x.com/financialjuice/status/2126254919267344874"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
-      "In Hormuz the IRGC claims it drove off a US jet and a ship reportedly hit a naval mine, while Iran says commandos retook two tankers seized by US forces."
+      "In Hormuz a tanker reportedly hit a naval mine and the IRGC claims it drove off a US jet, while Russia says it is in contact with the US on a diesel supply deal."
     ],
-    "updated": "Fri 27 Nov 2026, 6:25 pm SGT",
-    "updatedTs": "2026-11-27T18:25:00+08:00"
+    "updated": "Fri 27 Nov 2026, 7:18 pm SGT",
+    "updatedTs": "2026-11-27T19:18:00+08:00"
   },
   "last24Count": 13
 }
