@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 11:47 pm SGT",
-  "lastScannedTs": "2026-11-27T23:47:18+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 12:07 am SGT",
+  "lastScannedTs": "2026-11-28T00:07:20+08:00",
   "asOf": "Fri 27 Nov 2026, 10:54 pm SGT",
   "asOfTs": "2026-11-27T22:54:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mines, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart offsets modestly.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mines, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart offsets modestly.",
+    "bottom": "Escalating: the Jazan refinery hit, Hormuz mines and missiles, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq's pipeline restart offsets.",
+    "lead": "Net read (last 24 hours): Escalating: the Jazan refinery hit, Hormuz mines and missiles, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq's pipeline restart offsets.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 2 lower",
-    "text": "17 of 20 alerts point higher, 2 lower.",
+    "count": "16 of 19 alerts point higher, 2 lower",
+    "text": "16 of 19 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Supertanker VLCC GHAZAL filmed severely damaged, no strike previously reported",
@@ -106,12 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Iraq / Kurdistan",
         "ts": "2026-11-27T00:36:00+08:00"
-      },
-      {
-        "text": "Ras Tanura crude loadings reportedly suspended after Houthi strike",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-27T00:07:00+08:00"
       }
     ],
     "dovish": [
@@ -3643,11 +3637,11 @@
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
-      "The IRGC says tankers hit mines in Hormuz, a damaged supertanker was filmed, Thailand shut Bangchak's Bangkok refinery, and Ynet says Netanyahu weighs strikes on Iranian energy."
+      "No new oil-moving alerts yet on Saturday 28 November; Friday's confirmed Jazan refinery hit, Hormuz tanker mine claims and a damaged supertanker still shape the risk picture.",
+      "Watch Iran's threats to break the US port blockade, Qatar-mediated US-Iran talks, Iraq's OPEC ceiling dispute and Unite's 29-30 November Apache North Sea strike."
     ],
-    "updated": "Fri 27 Nov 2026, 10:54 pm SGT",
-    "updatedTs": "2026-11-27T22:54:22+08:00"
+    "updated": "Sat 28 Nov 2026, 12:07 am SGT",
+    "updatedTs": "2026-11-28T00:07:20+08:00"
   },
   "last24Count": 13
 }
