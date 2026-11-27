@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 10:04 pm SGT",
-  "lastScannedTs": "2026-11-27T22:04:48+08:00",
-  "asOf": "Fri 27 Nov 2026, 8:16 pm SGT",
-  "asOfTs": "2026-11-27T20:16:09+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 10:17 pm SGT",
+  "lastScannedTs": "2026-11-27T22:17:41+08:00",
+  "asOf": "Fri 27 Nov 2026, 10:17 pm SGT",
+  "asOfTs": "2026-11-27T22:17:26+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq pipeline restart and Russia-US diesel talks are modest offsets.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq pipeline restart and Russia-US diesel talks are modest offsets.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mines, IRGC clashes and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart a modest offset.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mines, IRGC clashes and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart a modest offset.",
     "verdict": "Bullish",
-    "count": "17 of 21 alerts point higher, 3 lower",
-    "text": "17 of 21 alerts point higher, 3 lower.",
+    "count": "18 of 22 alerts point higher, 3 lower",
+    "text": "18 of 22 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Netanyahu reportedly weighs strikes on Iran's power grid and energy facilities",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-27T22:15:25+08:00"
+      },
       {
         "text": "Thailand orders Bangchak's Bangkok refinery shut until 8 Jan after fire",
         "confidence": "confirmed",
@@ -144,10 +150,23 @@
     ]
   },
   "brent": {
-    "value": "$97.76",
-    "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
+    "value": "$96.48",
+    "detail": "Brent futures around $96.48 a barrel, near a monthly high (AsiaOne on X, 10:15 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:15",
+      "ts": "2026-11-27T22:15:25+08:00",
+      "eventTime": "Not stated (Ynet report, first seen on X 9:39 pm SGT 27 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Netanyahu reportedly weighing strikes on Iran's power grid, energy facilities and water infrastructure if the government is not toppled, Ynet reports",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "War Radar on X, citing Ynet",
+      "url": "https://x.com/War_Radar2/status/2126318985738408414"
+    },
     {
       "time": "20:16",
       "ts": "2026-11-27T20:16:09+08:00",
@@ -654,19 +673,6 @@
       "confidence": "Unconfirmed",
       "source": "Open Source Intel (Osint613) citing initial reports; also UK_REPT, C14, Iranian Persian-language accounts",
       "url": "https://x.com/Osint613/status/2125673362626425273"
-    },
-    {
-      "time": "03:05",
-      "ts": "2026-11-26T03:05:05+08:00",
-      "eventTime": "Not stated (statement ~2:40 am SGT 26 Nov; Jeddah airspace disruption ~12:50 am SGT est.)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Houthis claim two strikes on Saudi Red Sea ports, a 'precise hit' on Jeddah port and a 'direct hit' on Jizan port, citing damage",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Houthi military spokesman Yahya Saree statement (Arabic); Saudi side confirmed only the Jizan hit (MenchOsint)",
-      "url": "https://x.com/Yah_Saree/status/2125660791948943437"
     }
   ],
   "sources": [
@@ -3629,16 +3635,21 @@
       "title": "Thai Energy Ministry orders Bangchak refinery to halt refining until 8 Jan 2027 (27 Nov)",
       "site": "X / Matichon Online",
       "href": "https://x.com/MatichonOnline/status/2126283682264801344"
+    },
+    {
+      "title": "Ynet via War Radar: Netanyahu weighing strikes on Iran's power grid, energy facilities and water infrastructure (27 Nov)",
+      "site": "X / War Radar",
+      "href": "https://x.com/War_Radar2/status/2126318985738408414"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
-      "The IRGC says a tanker hit a mine in Hormuz, Thailand ordered Bangchak's Bangkok refinery shut until 8 January, and Unite called a North Sea strike at Apache."
+      "The IRGC says tankers hit mines in Hormuz, Thailand shut Bangchak's Bangkok refinery until 8 January, and Ynet says Netanyahu is weighing strikes on Iranian energy facilities."
     ],
-    "updated": "Fri 27 Nov 2026, 8:16 pm SGT",
-    "updatedTs": "2026-11-27T20:16:00+08:00"
+    "updated": "Fri 27 Nov 2026, 10:17 pm SGT",
+    "updatedTs": "2026-11-27T22:17:00+08:00"
   },
   "last24Count": 13
 }
