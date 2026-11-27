@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 2:05 pm SGT",
-  "lastScannedTs": "2026-11-27T14:05:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 2:05 pm SGT",
-  "asOfTs": "2026-11-27T14:05:32+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 3:05 pm SGT",
+  "lastScannedTs": "2026-11-27T15:05:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 3:04 pm SGT",
+  "asOfTs": "2026-11-27T15:04:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah delays, Novorossiysk drones and Russia's jet fuel export ban keep risk tilted higher.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah delays, Novorossiysk drones and Russia's jet fuel export ban keep risk tilted higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC fire at a US escort jet, Basrah delays and Russia's jet fuel ban tilt risk higher.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC fire at a US escort jet, Basrah delays and Russia's jet fuel ban tilt risk higher.",
     "verdict": "Bullish",
     "count": "17 of 20 alerts point higher, 1 lower",
     "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "IRGC says warning fire forced a US F-16 escort away near Hengam Island, Hormuz",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-27T14:58:43+08:00"
+      },
       {
         "text": "Russia extends jet fuel export ban to March 31, Interfax reports",
         "confidence": "confirmed",
@@ -106,12 +112,6 @@
         "confidence": "unconfirmed",
         "theme": "Oil fields / outages",
         "ts": "2026-11-26T15:50:00+08:00"
-      },
-      {
-        "text": "IDF says it is preparing for war with Iran, ready to strike with full force",
-        "confidence": "confirmed",
-        "theme": "Iran",
-        "ts": "2026-11-26T15:03:51+08:00"
       }
     ],
     "dovish": [
@@ -138,10 +138,23 @@
     ]
   },
   "brent": {
-    "value": "$96.57",
-    "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
+    "value": "$97.05",
+    "detail": "Brent around $97.05 a barrel, up 0.5% (CocoPostel on X, 2:35 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:58",
+      "ts": "2026-11-27T14:58:43+08:00",
+      "eventTime": "Not stated (IRGC statement reported ~2:58 pm SGT 27 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "IRGC says it fired on a US F-16 escorting vessels near Hengam Island in the Strait of Hormuz, forcing it to turn away; no US confirmation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "IRGC Aerospace Force statement (via First Squawk, MarketNews)",
+      "url": "https://x.com/FirstSquawk/status/2126209085066613101"
+    },
     {
       "time": "14:02",
       "ts": "2026-11-27T14:02:32+08:00",
@@ -648,19 +661,6 @@
       "confidence": "Confirmed",
       "source": "Giovanni Staunovo on X, citing industry data and people familiar with the figures",
       "url": "https://x.com/staunovo/status/2125562548392972541"
-    },
-    {
-      "time": "20:05",
-      "ts": "2026-11-25T20:05:12+08:00",
-      "eventTime": "8:00 pm, 25 Nov (est.)",
-      "eventTs": "2026-11-25T20:00:00+08:00",
-      "eventQual": "est.",
-      "headline": "Russia's Novak says the energy ministry proposes extending the jet fuel export ban expiring 30 Nov; gasoline export ban extension beyond January to be weighed in December",
-      "theme": "Diesel / jet fuel shortage",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "FirstSquawk headline of Deputy PM Novak remarks; also CGTN Europe, MarketNews",
-      "url": "https://x.com/FirstSquawk/status/2125560671513514166"
     }
   ],
   "sources": [
@@ -3583,16 +3583,21 @@
       "title": "Russia prolongs aviation fuel export ban until March 31 (Interfax via First Squawk, 27 Nov)",
       "site": "x.com",
       "href": "https://x.com/FirstSquawk/status/2126194945891721529"
+    },
+    {
+      "title": "IRGC: US F-16 escort turned away after warning fire near Hengam/Hormuz Island (27 Nov)",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2126209085066613101"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, while Ras Tanura loadings were reportedly suspended and Iraq reportedly delayed 20-30 million barrels of Basrah crude into December.",
-      "Another ship was reportedly hit off Khasab in Hormuz, a drone attack hit Russia's Novorossiysk oil port city, and Russia extended its jet fuel export ban to March 31."
+      "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq reportedly delayed Basrah crude loadings into December.",
+      "In Hormuz another ship was reportedly hit off Khasab and the IRGC claims it drove off a US escort jet, while Russia extended its jet fuel export ban to March 31."
     ],
-    "updated": "Fri 27 Nov 2026, 2:05 pm SGT",
-    "updatedTs": "2026-11-27T14:05:00+08:00"
+    "updated": "Fri 27 Nov 2026, 3:05 pm SGT",
+    "updatedTs": "2026-11-27T15:05:00+08:00"
   },
   "last24Count": 13
 }
