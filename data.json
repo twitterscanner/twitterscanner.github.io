@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 3:05 pm SGT",
-  "lastScannedTs": "2026-11-27T15:05:00+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 3:55 pm SGT",
+  "lastScannedTs": "2026-11-27T15:55:00+08:00",
   "asOf": "Fri 27 Nov 2026, 3:04 pm SGT",
   "asOfTs": "2026-11-27T15:04:41+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC fire at a US escort jet, Basrah delays and Russia's jet fuel ban tilt risk higher.",
     "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC fire at a US escort jet, Basrah delays and Russia's jet fuel ban tilt risk higher.",
     "verdict": "Bullish",
-    "count": "17 of 20 alerts point higher, 1 lower",
-    "text": "17 of 20 alerts point higher, 1 lower.",
+    "count": "16 of 19 alerts point higher, 1 lower",
+    "text": "16 of 19 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "IRGC says warning fire forced a US F-16 escort away near Hengam Island, Hormuz",
@@ -106,12 +106,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia refineries",
         "ts": "2026-11-26T16:47:00+08:00"
-      },
-      {
-        "text": "Explosion and fire reported at Bangchak refinery in Bangkok",
-        "confidence": "unconfirmed",
-        "theme": "Oil fields / outages",
-        "ts": "2026-11-26T15:50:00+08:00"
       }
     ],
     "dovish": [
@@ -138,8 +132,8 @@
     ]
   },
   "brent": {
-    "value": "$97.05",
-    "detail": "Brent around $97.05 a barrel, up 0.5% (CocoPostel on X, 2:35 pm SGT 27 Nov)"
+    "value": "$97.76",
+    "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
     {
