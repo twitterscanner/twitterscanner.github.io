@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 7:02 pm SGT",
-  "lastScannedTs": "2026-11-27T19:02:00+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 7:06 pm SGT",
+  "lastScannedTs": "2026-11-27T19:06:00+08:00",
   "asOf": "Fri 27 Nov 2026, 6:24 pm SGT",
   "asOfTs": "2026-11-27T18:24:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Jazan and Ras Tanura disruption, fresh Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
     "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, fresh Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
     "verdict": "Bullish",
-    "count": "17 of 21 alerts point higher, 2 lower",
-    "text": "17 of 21 alerts point higher, 2 lower.",
+    "count": "17 of 20 alerts point higher, 2 lower",
+    "text": "17 of 20 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Ship reportedly hits naval mine on 'unauthorized' Hormuz route, IRGC-attributed claim",
@@ -134,12 +134,6 @@
         "confidence": "confirmed",
         "theme": "Oil fields / outages",
         "ts": "2026-11-27T00:45:00+08:00"
-      },
-      {
-        "text": "OPEC+ leans toward rolling January quotas over unchanged, delegates say",
-        "confidence": "unconfirmed",
-        "theme": "OPEC+",
-        "ts": "2026-11-26T19:05:00+08:00"
       }
     ]
   },
