@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 4:47 pm SGT",
-  "lastScannedTs": "2026-11-27T16:47:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 4:00 pm SGT",
-  "asOfTs": "2026-11-27T16:00:49+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 5:05 pm SGT",
+  "lastScannedTs": "2026-11-27T17:05:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 5:05 pm SGT",
+  "asOfTs": "2026-11-27T17:05:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC fire at a US jet and talk of an Israeli strike on Iran tilt risk higher.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC fire at a US jet and talk of an Israeli strike on Iran tilt risk higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC clashes with US jets and tankers, and Israeli strike talk tilt risk higher.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC clashes with US jets and tankers, and Israeli strike talk tilt risk higher.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "17 of 20 alerts point higher, 1 lower",
+    "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Iran claims commandos retook two Iranian tankers seized by US forces",
+        "confidence": "unconfirmed",
+        "theme": "Iran",
+        "ts": "2026-11-27T16:48:00+08:00"
+      },
       {
         "text": "Mossad chief reportedly pushes for an independent Israeli strike on Iran",
         "confidence": "unconfirmed",
@@ -136,6 +142,19 @@
     "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "16:48",
+      "ts": "2026-11-27T16:48:00+08:00",
+      "eventTime": "Not stated (claim first seen ~4:48 pm SGT 27 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Iran's navy commander claims US forces seized two Iranian oil tankers and Iranian commandos retook both while US crews slept; no US confirmation",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Press TV (Iranian state media), quoting Navy commander Rear Adm. Shahram Irani; relayed by Open Source Intel and Post Open Source",
+      "url": "https://x.com/PressTV/status/2126236785865039928"
+    },
     {
       "time": "15:40",
       "ts": "2026-11-27T15:40:00+08:00",
@@ -642,19 +661,6 @@
       "confidence": "Unconfirmed",
       "source": "financialjuice citing Fars (Iran's army); also CGTN Europe, CGTN America",
       "url": "https://x.com/financialjuice/status/2125596584704352556"
-    },
-    {
-      "time": "21:25",
-      "ts": "2026-11-25T21:25:03+08:00",
-      "eventTime": "~9:10 pm, 25 Nov (est., first reports)",
-      "eventTs": "2026-11-25T21:10:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian media report multiple explosions heard in the Strait of Hormuz; cause and any vessel damage not confirmed",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel (Osint613) citing Iranian reports; also Iran News Agency, NodeWire, Middle East outlets",
-      "url": "https://x.com/Osint613/status/2125580585817223630"
     }
   ],
   "sources": [
@@ -3587,16 +3593,21 @@
       "title": "Israeli media: Mossad chief Gofman backs independent Israeli strike on Iran without US (27 Nov)",
       "site": "X / Mario Nawfal",
       "href": "https://x.com/MarioNawfal/status/2126219472877101397"
+    },
+    {
+      "title": "Iran Navy commander: commandos retook two Iranian oil tankers seized by US forces (27 Nov)",
+      "site": "X / Press TV",
+      "href": "https://x.com/PressTV/status/2126236785865039928"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq reportedly delayed Basrah crude loadings into December.",
-      "In Hormuz the IRGC claims it drove off a US escort jet, Israeli media say Mossad's chief backs a solo strike on Iran, and Russia extended its jet fuel export ban."
+      "In Hormuz the IRGC claims it drove off a US jet, Iran says commandos retook two tankers seized by US forces, and Russia extended its jet fuel export ban."
     ],
-    "updated": "Fri 27 Nov 2026, 4:00 pm SGT",
-    "updatedTs": "2026-11-27T16:00:00+08:00"
+    "updated": "Fri 27 Nov 2026, 5:05 pm SGT",
+    "updatedTs": "2026-11-27T17:05:00+08:00"
   },
   "last24Count": 13
 }
