@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 10:17 pm SGT",
-  "lastScannedTs": "2026-11-27T22:17:41+08:00",
-  "asOf": "Fri 27 Nov 2026, 10:17 pm SGT",
-  "asOfTs": "2026-11-27T22:17:26+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 10:54 pm SGT",
+  "lastScannedTs": "2026-11-27T22:54:22+08:00",
+  "asOf": "Fri 27 Nov 2026, 10:54 pm SGT",
+  "asOfTs": "2026-11-27T22:54:22+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mines, IRGC clashes and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart a modest offset.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mines, IRGC clashes and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart a modest offset.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz mines, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart offsets modestly.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz mines, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq pipeline restart offsets modestly.",
     "verdict": "Bullish",
-    "count": "18 of 22 alerts point higher, 3 lower",
-    "text": "18 of 22 alerts point higher, 3 lower.",
+    "count": "19 of 23 alerts point higher, 3 lower",
+    "text": "19 of 23 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Supertanker VLCC GHAZAL filmed severely damaged, no strike previously reported",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-27T22:48:00+08:00"
+      },
       {
         "text": "Netanyahu reportedly weighs strikes on Iran's power grid and energy facilities",
         "confidence": "unconfirmed",
@@ -154,6 +160,19 @@
     "detail": "Brent futures around $96.48 a barrel, near a monthly high (AsiaOne on X, 10:15 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "22:48",
+      "ts": "2026-11-27T22:48:00+08:00",
+      "eventTime": "Not stated (vessel spotted damaged today; time of damage unknown)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Video shows supertanker VLCC GHAZAL severely damaged; no strike on it has been reported by the IRGC or UKMTO",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Open Source Intel on X (footage contributed by live_ais_com)",
+      "url": "https://x.com/Osint613/status/2126327207350153456"
+    },
     {
       "time": "22:15",
       "ts": "2026-11-27T22:15:25+08:00",
@@ -660,19 +679,6 @@
       "confidence": "Confirmed",
       "source": "Open Source Intel (Osint613) citing Saudi-led coalition statement; also MenchOsint",
       "url": "https://x.com/Osint613/status/2125676694123991340"
-    },
-    {
-      "time": "04:01",
-      "ts": "2026-11-26T04:01:09+08:00",
-      "eventTime": "About 3:20-3:25 am SGT 26 Nov (est., from first reports)",
-      "eventTs": "2026-11-26T03:25:00+08:00",
-      "eventQual": "est.",
-      "headline": "Explosions reported at Bandar Abbas, Qeshm and Larak islands near the Strait of Hormuz after jet activity; possible strikes or Iranian anti-ship missile launches",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Open Source Intel (Osint613) citing initial reports; also UK_REPT, C14, Iranian Persian-language accounts",
-      "url": "https://x.com/Osint613/status/2125673362626425273"
     }
   ],
   "sources": [
@@ -3640,16 +3646,21 @@
       "title": "Ynet via War Radar: Netanyahu weighing strikes on Iran's power grid, energy facilities and water infrastructure (27 Nov)",
       "site": "X / War Radar",
       "href": "https://x.com/War_Radar2/status/2126318985738408414"
+    },
+    {
+      "title": "Open Source Intel: video of severely damaged VLCC GHAZAL, no strike reported by IRGC or UKMTO (27 Nov)",
+      "site": "X / Open Source Intel",
+      "href": "https://x.com/Osint613/status/2126327207350153456"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
-      "The IRGC says tankers hit mines in Hormuz, Thailand shut Bangchak's Bangkok refinery until 8 January, and Ynet says Netanyahu is weighing strikes on Iranian energy facilities."
+      "The IRGC says tankers hit mines in Hormuz, a damaged supertanker was filmed, Thailand shut Bangchak's Bangkok refinery, and Ynet says Netanyahu weighs strikes on Iranian energy."
     ],
-    "updated": "Fri 27 Nov 2026, 10:17 pm SGT",
-    "updatedTs": "2026-11-27T22:17:00+08:00"
+    "updated": "Fri 27 Nov 2026, 10:54 pm SGT",
+    "updatedTs": "2026-11-27T22:54:22+08:00"
   },
   "last24Count": 13
 }
