@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 12:45 am SGT",
-  "lastScannedTs": "2026-11-28T00:45:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 10:54 pm SGT",
-  "asOfTs": "2026-11-27T22:54:22+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 1:07 am SGT",
+  "lastScannedTs": "2026-11-28T01:07:00+08:00",
+  "asOf": "Sat 28 Nov 2026, 1:07 am SGT",
+  "asOfTs": "2026-11-28T01:07:00+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: the Jazan refinery hit, Hormuz mines and missiles, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq's pipeline restart offsets.",
-    "lead": "Net read (last 24 hours): Escalating: the Jazan refinery hit, Hormuz mines and missiles, a damaged VLCC and Israeli threats to Iranian energy tilt risk higher; Iraq's pipeline restart offsets.",
+    "bottom": "Escalating: the Jazan refinery hit, Hormuz mines, a confirmed US strike on a blockade runner and Israeli threats to Iranian energy tilt risk higher.",
+    "lead": "Net read (last 24 hours): Escalating: the Jazan refinery hit, Hormuz mines, a confirmed US strike on a blockade runner and Israeli threats to Iranian energy tilt risk higher.",
     "verdict": "Bullish",
-    "count": "15 of 17 alerts point higher, 2 lower",
-    "text": "15 of 17 alerts point higher, 2 lower.",
+    "count": "16 of 18 alerts point higher, 2 lower",
+    "text": "16 of 18 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "CENTCOM confirms US strike disabled blockade-running bulk carrier in Gulf of Oman",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-28T00:55:50+08:00"
+      },
       {
         "text": "Supertanker VLCC GHAZAL filmed severely damaged, no strike previously reported",
         "confidence": "unconfirmed",
@@ -123,6 +129,19 @@
     "detail": "Brent January contract trading at $94.97, down 1.66% (OilandEnergy via X, 11:13 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:55",
+      "ts": "2026-11-28T00:55:50+08:00",
+      "eventTime": "26 Nov, time not stated (CENTCOM)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "CENTCOM says a US aircraft struck and disabled Palau-flagged bulk carrier Pacific Archer in the Gulf of Oman after it tried to run the US blockade from Bandar Abbas",
+      "theme": "Iran",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "U.S. Central Command (CENTCOM) on X",
+      "url": "https://x.com/CENTCOM/status/2126359352869065046"
+    },
     {
       "time": "22:48",
       "ts": "2026-11-27T22:48:00+08:00",
@@ -629,19 +648,6 @@
       "confidence": "Confirmed",
       "source": "Rystad Energy data via Bloomberg (staunovo); Putin remarks via Rigzone",
       "url": "https://x.com/staunovo/status/2125684774316433497"
-    },
-    {
-      "time": "04:01",
-      "ts": "2026-11-26T04:01:10+08:00",
-      "eventTime": "Not stated (coalition statement ~3:43 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition confirms a Houthi drone was intercepted near Jeddah port; debris fell, no civilian casualties",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Open Source Intel (Osint613) citing Saudi-led coalition statement; also MenchOsint",
-      "url": "https://x.com/Osint613/status/2125676694123991340"
     }
   ],
   "sources": [
@@ -3619,16 +3625,21 @@
       "title": "OilandEnergy: Brent January contract at $94.97, down 1.66% (27 Nov)",
       "site": "X / Orgetorix",
       "href": "https://x.com/Orgetorix/status/2126333532112908380"
+    },
+    {
+      "title": "CENTCOM: US forces disable commercial vessel Pacific Archer during blockade enforcement against Iran (26 Nov)",
+      "site": "X / CENTCOM",
+      "href": "https://x.com/CENTCOM/status/2126359352869065046"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "No new oil-moving alerts yet on Saturday 28 November; Friday's confirmed Jazan refinery hit, Hormuz tanker mine claims and a damaged supertanker still shape the risk picture.",
-      "Watch Iran's threats to break the US port blockade, Qatar-mediated US-Iran talks, Iraq's OPEC ceiling dispute and Unite's 29-30 November Apache North Sea strike."
+      "CENTCOM confirmed a US aircraft struck and disabled the bulk carrier Pacific Archer in the Gulf of Oman on 26 November after it tried to run the US blockade of Iran.",
+      "Friday's confirmed Jazan refinery hit, IRGC claims of tankers striking mines in Hormuz and Iranian vows to break the blockade keep supply risk tilted higher."
     ],
-    "updated": "Sat 28 Nov 2026, 12:07 am SGT",
-    "updatedTs": "2026-11-28T00:07:20+08:00"
+    "updated": "Sat 28 Nov 2026, 1:07 am SGT",
+    "updatedTs": "2026-11-28T01:07:00+08:00"
   },
   "last24Count": 13
 }
