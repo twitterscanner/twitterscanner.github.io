@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 2:01 am SGT",
-  "lastScannedTs": "2026-11-28T02:01:00+08:00",
-  "asOf": "Sat 28 Nov 2026, 1:07 am SGT",
-  "asOfTs": "2026-11-28T01:07:00+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 3:05 am SGT",
+  "lastScannedTs": "2026-11-28T03:05:00+08:00",
+  "asOf": "Sat 28 Nov 2026, 3:04 am SGT",
+  "asOfTs": "2026-11-28T03:04:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: the Jazan refinery hit, Hormuz mines, a confirmed US strike on a blockade runner and Israeli threats to Iranian energy tilt risk higher.",
-    "lead": "Net read (last 24 hours): Escalating: the Jazan refinery hit, Hormuz mines, a confirmed US strike on a blockade runner and Israeli threats to Iranian energy tilt risk higher.",
+    "bottom": "Escalating: the Jazan refinery hit, Hormuz mines, a US strike on a blockade runner and Israeli threats tilt risk higher; Black Sea truce talk a modest offset.",
+    "lead": "Net read (last 24 hours): Escalating: the Jazan refinery hit, Hormuz mines, a US strike on a blockade runner and Israeli threats tilt risk higher; Black Sea truce talk a modest offset.",
     "verdict": "Bullish",
-    "count": "16 of 18 alerts point higher, 2 lower",
-    "text": "16 of 18 alerts point higher, 2 lower.",
+    "count": "15 of 18 alerts point higher, 3 lower",
+    "text": "15 of 18 alerts point higher, 3 lower.",
     "hawkish": [
       {
         "text": "CENTCOM confirms US strike disabled blockade-running bulk carrier in Gulf of Oman",
@@ -100,15 +100,15 @@
         "confidence": "unconfirmed",
         "theme": "Russian refineries",
         "ts": "2026-11-27T07:02:16+08:00"
-      },
-      {
-        "text": "Saudi ministry: Jazan refinery operations partly suspended after projectile hit",
-        "confidence": "confirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-27T02:03:00+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "Ukraine offers Russia a Black Sea ceasefire; Moscow wants oil shipments covered",
+        "confidence": "confirmed",
+        "theme": "Ceasefire / diplomacy",
+        "ts": "2026-11-28T02:46:10+08:00"
+      },
       {
         "text": "Novak: Russia in contact with US on a diesel supply deal",
         "confidence": "confirmed",
@@ -129,6 +129,19 @@
     "detail": "Brent January contract trading at $94.97, down 1.66% (OilandEnergy via X, 11:13 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "02:46",
+      "ts": "2026-11-28T02:46:10+08:00",
+      "eventTime": "27 Nov, time not stated (Sybiha statement)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Ukraine offers Russia a Black Sea ceasefire to protect grain exports, FM Sybiha says; Russia wants oil shipments included, Kyiv says that belongs in a wider energy truce",
+      "theme": "Ceasefire / diplomacy",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Post Open Source on X, citing Al Jazeera (Ukrainian FM Andrii Sybiha)",
+      "url": "https://x.com/CocoPostel/status/2126387253597364256"
+    },
     {
       "time": "00:55",
       "ts": "2026-11-28T00:55:50+08:00",
@@ -635,19 +648,6 @@
       "confidence": "Confirmed",
       "source": "Energy Intelligence report (via Oil Headline News)",
       "url": "https://x.com/OilHeadlineNews/status/2125684933071151194"
-    },
-    {
-      "time": "05:02",
-      "ts": "2026-11-26T05:02:04+08:00",
-      "eventTime": "Not stated (runs as of Mon 23 Nov; Putin remarks reported ~5:00 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Russia's refinery runs plunge to the lowest in over two decades, 2.6-2.7 million b/d, roughly halved since Oct 30 after Ukrainian strikes; Putin says Moscow will respond",
-      "theme": "Russian refineries",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Rystad Energy data via Bloomberg (staunovo); Putin remarks via Rigzone",
-      "url": "https://x.com/staunovo/status/2125684774316433497"
     }
   ],
   "sources": [
@@ -3630,16 +3630,21 @@
       "title": "CENTCOM: US forces disable commercial vessel Pacific Archer during blockade enforcement against Iran (26 Nov)",
       "site": "X / CENTCOM",
       "href": "https://x.com/CENTCOM/status/2126359352869065046"
+    },
+    {
+      "title": "Al Jazeera via Post Open Source: Ukraine offers Russia Black Sea ceasefire; Russia wants oil shipments included (27 Nov)",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2126387253597364256"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "CENTCOM confirmed a US aircraft struck and disabled the bulk carrier Pacific Archer in the Gulf of Oman on 26 November after it tried to run the US blockade of Iran.",
-      "Friday's confirmed Jazan refinery hit, IRGC claims of tankers striking mines in Hormuz and Iranian vows to break the blockade keep supply risk tilted higher."
+      "Ukraine offered Russia a Black Sea ceasefire to protect grain exports, with Moscow pushing to include oil shipments, while IRGC tanker-mine claims keep Hormuz risk elevated."
     ],
-    "updated": "Sat 28 Nov 2026, 1:07 am SGT",
-    "updatedTs": "2026-11-28T01:07:00+08:00"
+    "updated": "Sat 28 Nov 2026, 3:05 am SGT",
+    "updatedTs": "2026-11-28T03:05:00+08:00"
   },
   "last24Count": 13
 }
