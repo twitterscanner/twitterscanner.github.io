@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 1:01 pm SGT",
-  "lastScannedTs": "2026-11-27T13:01:10+08:00",
-  "asOf": "Fri 27 Nov 2026, 1:01 pm SGT",
-  "asOfTs": "2026-11-27T13:01:11+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 2:05 pm SGT",
+  "lastScannedTs": "2026-11-27T14:05:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 2:05 pm SGT",
+  "asOfTs": "2026-11-27T14:05:32+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah loading delays and a Novorossiysk drone attack keep supply risk tilted higher.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah loading delays and a Novorossiysk drone attack keep supply risk tilted higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah delays, Novorossiysk drones and Russia's jet fuel export ban keep risk tilted higher.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, Basrah delays, Novorossiysk drones and Russia's jet fuel export ban keep risk tilted higher.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "17 of 20 alerts point higher, 1 lower",
+    "text": "17 of 20 alerts point higher, 1 lower.",
     "hawkish": [
+      {
+        "text": "Russia extends jet fuel export ban to March 31, Interfax reports",
+        "confidence": "confirmed",
+        "theme": "Diesel / jet fuel shortage",
+        "ts": "2026-11-27T14:02:32+08:00"
+      },
       {
         "text": "Drone attack hits Novorossiysk oil port city, three injured; terminal damage not reported",
         "confidence": "confirmed",
@@ -136,6 +142,19 @@
     "detail": "Brent settled at $96.57 a barrel (staunovo on X, 2:38 am SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "14:02",
+      "ts": "2026-11-27T14:02:32+08:00",
+      "eventTime": "Not stated (government decision reported ~2:00 pm SGT 27 Nov)",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russia extends its aviation (jet) fuel export ban until March 31, Interfax reports, following the energy ministry's proposal",
+      "theme": "Diesel / jet fuel shortage",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Interfax (via First Squawk, FinancialJuice)",
+      "url": "https://x.com/FirstSquawk/status/2126194945891721529"
+    },
     {
       "time": "12:45",
       "ts": "2026-11-27T12:45:00+08:00",
@@ -642,19 +661,6 @@
       "confidence": "Confirmed",
       "source": "FirstSquawk headline of Deputy PM Novak remarks; also CGTN Europe, MarketNews",
       "url": "https://x.com/FirstSquawk/status/2125560671513514166"
-    },
-    {
-      "time": "19:48",
-      "ts": "2026-11-25T19:48:12+08:00",
-      "eventTime": "Not stated (ruling dated 25 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iraq's Federal Supreme Court rules the PM's federal takeover of oilfields in Kurdistan-held areas constitutional, rejecting KRG's challenge",
-      "theme": "Iraq / Kurdistan",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Iraqi Federal Supreme Court media office via Iraqi outlets (Hber_iq, Sawt Kel Lebnen), Arabic",
-      "url": "https://x.com/Hber_iq/status/2125556477553184802"
     }
   ],
   "sources": [
@@ -3572,16 +3578,21 @@
       "title": "Drone attack hits Novorossiysk, three injured (27 Nov)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2126175490558046433"
+    },
+    {
+      "title": "Russia prolongs aviation fuel export ban until March 31 (Interfax via First Squawk, 27 Nov)",
+      "site": "x.com",
+      "href": "https://x.com/FirstSquawk/status/2126194945891721529"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, while Ras Tanura loadings were reportedly suspended and Iraq reportedly delayed 20-30 million barrels of Basrah crude into December.",
-      "Another ship was reportedly hit off Khasab in Hormuz, a possible US strike targeted an Iranian launcher on Qeshm, and a drone attack hit Russia's Novorossiysk oil port city."
+      "Another ship was reportedly hit off Khasab in Hormuz, a drone attack hit Russia's Novorossiysk oil port city, and Russia extended its jet fuel export ban to March 31."
     ],
-    "updated": "Fri 27 Nov 2026, 1:01 pm SGT",
-    "updatedTs": "2026-11-27T13:01:10+08:00"
+    "updated": "Fri 27 Nov 2026, 2:05 pm SGT",
+    "updatedTs": "2026-11-27T14:05:00+08:00"
   },
   "last24Count": 13
 }
