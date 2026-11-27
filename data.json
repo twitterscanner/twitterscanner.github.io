@@ -1,16 +1,22 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 6:20 pm SGT",
-  "lastScannedTs": "2026-11-27T18:20:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 6:15 pm SGT",
-  "asOfTs": "2026-11-27T18:15:52+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 6:25 pm SGT",
+  "lastScannedTs": "2026-11-27T18:25:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 6:24 pm SGT",
+  "asOfTs": "2026-11-27T18:24:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, fresh Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, fresh Hormuz mine and ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
     "verdict": "Bullish",
-    "count": "16 of 20 alerts point higher, 2 lower",
-    "text": "16 of 20 alerts point higher, 2 lower.",
+    "count": "17 of 21 alerts point higher, 2 lower",
+    "text": "17 of 21 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Ship reportedly hits naval mine on 'unauthorized' Hormuz route, IRGC-attributed claim",
+        "confidence": "unconfirmed",
+        "theme": "Hormuz",
+        "ts": "2026-11-27T18:19:36+08:00"
+      },
       {
         "text": "Iran claims commandos retook two Iranian tankers seized by US forces",
         "confidence": "unconfirmed",
@@ -142,6 +148,19 @@
     "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:19",
+      "ts": "2026-11-27T18:19:36+08:00",
+      "eventTime": "6:18 pm, 27 Nov",
+      "eventTs": "2026-11-27T18:18:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Ship reportedly hit a naval mine and exploded while using an 'unauthorized' route through the Strait of Hormuz, smoke seen; IRGC-attributed claim, no UKMTO confirmation yet",
+      "theme": "Hormuz",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "Iranian channels citing the IRGC, relayed by hey_itsmyturn and MahtabH1NEWS (Persian)",
+      "url": "https://x.com/hey_itsmyturn/status/2126260194430669129"
+    },
     {
       "time": "18:02",
       "ts": "2026-11-27T18:02:49+08:00",
@@ -648,19 +667,6 @@
       "confidence": "Confirmed",
       "source": "Anadolu Agency citing Saudi-led coalition statement; also MEBriefNews",
       "url": "https://x.com/anadoluagency/status/2125630555504980038"
-    },
-    {
-      "time": "23:34",
-      "ts": "2026-11-25T23:34:36+08:00",
-      "eventTime": "Afternoon 25 Nov Iran time (approx. 4:30-10:30 pm SGT, est.)",
-      "eventTs": "2026-11-25T19:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "IRGC Navy says an LNG carrier exploded after striking a naval mine in the Strait of Hormuz",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "LiveSquawk citing IRGC Navy via Iranian state media; also CGTN Europe, CGTN America, ME Observer",
-      "url": "https://x.com/LiveSquawk/status/2125612185561038911"
     }
   ],
   "sources": [
@@ -3603,16 +3609,21 @@
       "title": "Iraq restarts old Iraq-Turkey pipeline route, 300,000 bpd (27 Nov)",
       "site": "X / Iraqi Media Network",
       "href": "https://x.com/iraqmedianet/status/2126256476595593237"
+    },
+    {
+      "title": "Ship reportedly hits naval mine in Hormuz, IRGC-attributed (27 Nov)",
+      "site": "X / hey_itsmyturn",
+      "href": "https://x.com/hey_itsmyturn/status/2126260194430669129"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
       "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
-      "In Hormuz the IRGC claims it drove off a US jet, Iran says commandos retook two tankers seized by US forces, and Russia extended its jet fuel export ban."
+      "In Hormuz the IRGC claims it drove off a US jet and a ship reportedly hit a naval mine, while Iran says commandos retook two tankers seized by US forces."
     ],
-    "updated": "Fri 27 Nov 2026, 6:20 pm SGT",
-    "updatedTs": "2026-11-27T18:20:00+08:00"
+    "updated": "Fri 27 Nov 2026, 6:25 pm SGT",
+    "updatedTs": "2026-11-27T18:25:00+08:00"
   },
   "last24Count": 13
 }
