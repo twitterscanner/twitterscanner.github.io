@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 7:02 am SGT",
-  "lastScannedTs": "2026-11-27T07:02:16+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 8:02 am SGT",
+  "lastScannedTs": "2026-11-27T08:02:31+08:00",
   "asOf": "Fri 27 Nov 2026, 7:02 am SGT",
   "asOfTs": "2026-11-27T07:02:16+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "lead": "Net read (last 24 hours): Escalating: Jazan refinery partly halted, Ras Tanura loadings reportedly suspended and Basra ops reportedly slowed; Iraq's export recovery the lone offset.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "13 of 16 alerts point higher, 1 lower",
+    "text": "13 of 16 alerts point higher, 1 lower.",
     "hawkish": [
       {
         "text": "Russian refining reportedly near 2.5m b/d, lowest in 20+ years after drone strikes",
@@ -88,24 +88,6 @@
         "confidence": "unconfirmed",
         "theme": "Russia refineries",
         "ts": "2026-11-26T12:41:00+08:00"
-      },
-      {
-        "text": "UKMTO: projectile explodes near tanker west of Dubai, no damage",
-        "confidence": "confirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-26T07:04:59+08:00"
-      },
-      {
-        "text": "AFP: explosion heard in Riyadh",
-        "confidence": "unconfirmed",
-        "theme": "Saudi / Houthi",
-        "ts": "2026-11-26T07:04:58+08:00"
-      },
-      {
-        "text": "Iran reportedly fires a dozen-plus anti-ship missiles at escorted Hormuz tankers",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-26T07:04:57+08:00"
       }
     ],
     "dovish": [
