@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Fri 27 Nov 2026, 6:07 pm SGT",
-  "lastScannedTs": "2026-11-27T18:07:00+08:00",
-  "asOf": "Fri 27 Nov 2026, 5:05 pm SGT",
-  "asOfTs": "2026-11-27T17:05:22+08:00",
+  "lastScanned": "Fri 27 Nov 2026, 6:20 pm SGT",
+  "lastScannedTs": "2026-11-27T18:20:00+08:00",
+  "asOf": "Fri 27 Nov 2026, 6:15 pm SGT",
+  "asOfTs": "2026-11-27T18:15:52+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC clashes with US jets and tankers, and Israeli strike talk tilt risk higher.",
-    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes, IRGC clashes with US jets and tankers, and Israeli strike talk tilt risk higher.",
+    "bottom": "Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
+    "lead": "Net read (last 24 hours): Escalating: Jazan and Ras Tanura disruption, Hormuz ship strikes and IRGC clashes tilt risk higher; Iraq's Turkey pipeline restart is a modest offset.",
     "verdict": "Bullish",
-    "count": "16 of 19 alerts point higher, 1 lower",
-    "text": "16 of 19 alerts point higher, 1 lower.",
+    "count": "16 of 20 alerts point higher, 2 lower",
+    "text": "16 of 20 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Iran claims commandos retook two Iranian tankers seized by US forces",
@@ -110,6 +110,12 @@
     ],
     "dovish": [
       {
+        "text": "Iraq restarts old Iraq-Turkey pipeline route, 300,000 bpd initial export capacity",
+        "confidence": "confirmed",
+        "theme": "Iraq / Kurdistan",
+        "ts": "2026-11-27T18:02:49+08:00"
+      },
+      {
         "text": "Iraq says oil exports raised to 3.6 million bpd from 200,000 bpd",
         "confidence": "confirmed",
         "theme": "Iraq / Kurdistan",
@@ -136,6 +142,19 @@
     "detail": "Brent around $97.76 a barrel, up 1.2% in early London trading (Drop Site News on X, 3:48 pm SGT 27 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:02",
+      "ts": "2026-11-27T18:02:49+08:00",
+      "eventTime": "6:00 pm, 27 Nov (est.)",
+      "eventTs": "2026-11-27T18:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Iraq's oil minister announces restart of the old Iraq-Turkey crude pipeline route after a 12-year halt, initial export capacity 300,000 bpd",
+      "theme": "Iraq / Kurdistan",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "Iraqi Media Network (state); also Dijlah TV, Jareda, Afaq TV (Arabic)",
+      "url": "https://x.com/iraqmedianet/status/2126256476595593237"
+    },
     {
       "time": "16:48",
       "ts": "2026-11-27T16:48:00+08:00",
@@ -642,19 +661,6 @@
       "confidence": "Unconfirmed",
       "source": "LiveSquawk citing IRGC Navy via Iranian state media; also CGTN Europe, CGTN America, ME Observer",
       "url": "https://x.com/LiveSquawk/status/2125612185561038911"
-    },
-    {
-      "time": "22:26",
-      "ts": "2026-11-25T22:26:11+08:00",
-      "eventTime": "Not stated (\"hours ago\" per Iran's army, reported ~10:24 pm SGT)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Iran's army says another oil tanker hit a naval mine and caught fire east of the Strait of Hormuz",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "financialjuice citing Fars (Iran's army); also CGTN Europe, CGTN America",
-      "url": "https://x.com/financialjuice/status/2125596584704352556"
     }
   ],
   "sources": [
@@ -3592,16 +3598,21 @@
       "title": "Iran Navy commander: commandos retook two Iranian oil tankers seized by US forces (27 Nov)",
       "site": "X / Press TV",
       "href": "https://x.com/PressTV/status/2126236785865039928"
+    },
+    {
+      "title": "Iraq restarts old Iraq-Turkey pipeline route, 300,000 bpd (27 Nov)",
+      "site": "X / Iraqi Media Network",
+      "href": "https://x.com/iraqmedianet/status/2126256476595593237"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq reportedly delayed Basrah crude loadings into December.",
+      "Saudi Arabia confirmed a Houthi projectile hit Aramco's Jazan refinery, Ras Tanura loadings were reportedly suspended, and Iraq restarted its old Iraq-Turkey pipeline route at 300,000 bpd.",
       "In Hormuz the IRGC claims it drove off a US jet, Iran says commandos retook two tankers seized by US forces, and Russia extended its jet fuel export ban."
     ],
-    "updated": "Fri 27 Nov 2026, 5:05 pm SGT",
-    "updatedTs": "2026-11-27T17:05:00+08:00"
+    "updated": "Fri 27 Nov 2026, 6:20 pm SGT",
+    "updatedTs": "2026-11-27T18:20:00+08:00"
   },
   "last24Count": 13
 }
