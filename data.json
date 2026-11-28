@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 6:05 pm SGT",
-  "lastScannedTs": "2026-11-28T18:05:03+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 9:03 pm SGT",
+  "lastScannedTs": "2026-11-28T21:03:00+08:00",
   "asOf": "Sat 28 Nov 2026, 6:05 pm SGT",
   "asOfTs": "2026-11-28T18:05:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Houthi missiles on Saudi Arabia, a Gulf of Aden hijacking, Hormuz tanker attacks and Ukrainian hits on Russian oil outweigh CENTCOM denials.",
     "lead": "Net read (last 24 hours): Escalating: Houthi missiles on Saudi Arabia, a Gulf of Aden hijacking, Hormuz tanker attacks and Ukrainian hits on Russian oil outweigh CENTCOM denials.",
     "verdict": "Bullish",
-    "count": "11 of 14 alerts point higher, 3 lower",
-    "text": "11 of 14 alerts point higher, 3 lower.",
+    "count": "8 of 10 alerts point higher, 2 lower",
+    "text": "8 of 10 alerts point higher, 2 lower.",
     "hawkish": [
       {
         "text": "Houthi ballistic missiles fired at Jizan and Khamis Mushait in southern Saudi Arabia",
@@ -58,24 +58,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-27T22:15:25+08:00"
-      },
-      {
-        "text": "Thailand orders Bangchak's Bangkok refinery shut until 8 Jan after fire",
-        "confidence": "confirmed",
-        "theme": "Oil fields / outages",
-        "ts": "2026-11-27T20:16:09+08:00"
-      },
-      {
-        "text": "Unite calls 24-hour strike on Apache North Sea platforms, 29-30 Nov",
-        "confidence": "confirmed",
-        "theme": "Oil fields / outages",
-        "ts": "2026-11-27T19:33:00+08:00"
-      },
-      {
-        "text": "Ship reportedly hits naval mine on 'unauthorized' Hormuz route, IRGC-attributed claim",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-27T18:19:36+08:00"
       }
     ],
     "dovish": [
@@ -90,12 +72,6 @@
         "confidence": "confirmed",
         "theme": "Ceasefire / diplomacy",
         "ts": "2026-11-28T02:46:10+08:00"
-      },
-      {
-        "text": "Novak: Russia in contact with US on a diesel supply deal",
-        "confidence": "confirmed",
-        "theme": "Diesel / jet fuel shortage",
-        "ts": "2026-11-27T19:18:00+08:00"
       }
     ],
     "neutral": []
