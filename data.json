@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 3:02 pm SGT",
-  "lastScannedTs": "2026-11-28T15:02:00+08:00",
-  "asOf": "Sat 28 Nov 2026, 9:04 am SGT",
-  "asOfTs": "2026-11-28T09:04:57+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 6:05 pm SGT",
+  "lastScannedTs": "2026-11-28T18:05:03+08:00",
+  "asOf": "Sat 28 Nov 2026, 6:05 pm SGT",
+  "asOfTs": "2026-11-28T18:05:03+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
-    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
-    "verdict": "Mixed, leaning bullish",
-    "count": "11 of 15 alerts point higher, 4 lower",
-    "text": "11 of 15 alerts point higher, 4 lower.",
+    "bottom": "Escalating: Houthi missiles on Saudi Arabia, a Gulf of Aden hijacking, Hormuz tanker attacks and Ukrainian hits on Russian oil outweigh CENTCOM denials.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi missiles on Saudi Arabia, a Gulf of Aden hijacking, Hormuz tanker attacks and Ukrainian hits on Russian oil outweigh CENTCOM denials.",
+    "verdict": "Bullish",
+    "count": "11 of 14 alerts point higher, 3 lower",
+    "text": "11 of 14 alerts point higher, 3 lower.",
     "hawkish": [
+      {
+        "text": "Houthi ballistic missiles fired at Jizan and Khamis Mushait in southern Saudi Arabia",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-28T18:05:03+08:00"
+      },
+      {
+        "text": "Cargo ship hijacked by armed men in Gulf of Aden off Yemen",
+        "confidence": "confirmed",
+        "theme": "Houthi / Red Sea",
+        "ts": "2026-11-28T18:05:02+08:00"
+      },
       {
         "text": "Fresh Ukrainian strike reported on Samara oil pumping station near Prosvet",
         "confidence": "unconfirmed",
@@ -64,18 +76,6 @@
         "confidence": "unconfirmed",
         "theme": "Hormuz",
         "ts": "2026-11-27T18:19:36+08:00"
-      },
-      {
-        "text": "Iran claims commandos retook two Iranian tankers seized by US forces",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-27T16:48:00+08:00"
-      },
-      {
-        "text": "Mossad chief reportedly pushes for an independent Israeli strike on Iran",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-27T15:40:00+08:00"
       }
     ],
     "dovish": [
@@ -96,12 +96,6 @@
         "confidence": "confirmed",
         "theme": "Diesel / jet fuel shortage",
         "ts": "2026-11-27T19:18:00+08:00"
-      },
-      {
-        "text": "Iraq restarts old Iraq-Turkey pipeline route, 300,000 bpd initial export capacity",
-        "confidence": "confirmed",
-        "theme": "Iraq / Kurdistan",
-        "ts": "2026-11-27T18:02:49+08:00"
       }
     ],
     "neutral": []
@@ -111,6 +105,32 @@
     "detail": "Brent futures settled at $95.44/bbl, down $1.13 (1.17%) (First Squawk via X, 3:51 am SGT 28 Nov)"
   },
   "alerts": [
+    {
+      "time": "18:05",
+      "ts": "2026-11-28T18:05:03+08:00",
+      "eventTime": "4:15 pm, 28 Nov (est.)",
+      "eventTs": "2026-11-28T16:15:00+08:00",
+      "eventQual": "est.",
+      "headline": "Houthis fire ballistic missiles at Jizan and Khamis Mushait in southern Saudi Arabia; coalition says one intercepted",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition statement via First Squawk; MenchOsint on X",
+      "url": "https://x.com/FirstSquawk/status/2126609020995969028"
+    },
+    {
+      "time": "18:05",
+      "ts": "2026-11-28T18:05:02+08:00",
+      "eventTime": "2:30 pm, 28 Nov",
+      "eventTs": "2026-11-28T14:30:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "Armed men board and seize a cargo ship 64 nm southwest of Balhaf, Yemen, in the Gulf of Aden (UKMTO 225/26)",
+      "theme": "Houthi / Red Sea",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "UKMTO, via Post Open Source and First Squawk on X",
+      "url": "https://x.com/CocoPostel/status/2126591253944934659"
+    },
     {
       "time": "08:32",
       "ts": "2026-11-28T08:32:00+08:00",
@@ -604,32 +624,6 @@
       "confidence": "Confirmed",
       "source": "UKMTO notice (via First Squawk)",
       "url": "https://x.com/FirstSquawk/status/2125726534615126381"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-26T07:04:58+08:00",
-      "eventTime": "About 6:45 am SGT 26 Nov (est., reported 6:47 am)",
-      "eventTs": "2026-11-26T06:45:00+08:00",
-      "eventQual": "est.",
-      "headline": "AFP: explosion heard in Riyadh, a day after 11 were wounded in a Houthi-claimed attack on the financial district",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "AFP journalist and residents (via Oil Headline News)",
-      "url": "https://x.com/OilHeadlineNews/status/2125723117977006135"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-26T07:04:57+08:00",
-      "eventTime": "About 6:25 am SGT 26 Nov (est., 'tonight', posted 6:27 am)",
-      "eventTs": "2026-11-26T06:25:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iran reportedly launches over a dozen anti-ship cruise missiles from several cities at US-escorted oil tankers in the Strait of Hormuz; explosions and jet activity reported",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Hormuz Letter on X (initial reports)",
-      "url": "https://x.com/HormuzLetter/status/2125717940175806540"
     }
   ],
   "sources": [
@@ -3647,16 +3641,31 @@
       "title": "Samara oil pumping station near Prosvet reportedly hit again",
       "site": "X / big ben",
       "href": "https://x.com/alternative_war/status/2126474297640120614"
+    },
+    {
+      "title": "UKMTO 225/26: cargo ship hijacked 64 nm SW of Balhaf, Yemen",
+      "site": "X / Post Open Source",
+      "href": "https://x.com/CocoPostel/status/2126591253944934659"
+    },
+    {
+      "title": "Coalition intercepts Houthi ballistic missile toward southern Saudi Arabia",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2126609020995969028"
+    },
+    {
+      "title": "Houthi missiles toward Jizan and Khamis Mushait",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2126610162332872753"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukraine offered Russia a Black Sea ceasefire as Ukrainian drones reportedly hit Russia's Novoshakhtinsk refinery and a Samara oil pumping station again overnight.",
-      "Saudi Arabia issued brief missile alerts for its oil-rich Eastern Province as a Houthi drone was intercepted, while CENTCOM rejected IRGC claims of retaking tankers."
+      "Ukrainian drones reportedly hit Russia's Novoshakhtinsk refinery and a Samara oil pumping station again, while Ukraine offered Russia a Black Sea ceasefire.",
+      "Houthis fired missiles at Riyadh and later at Jizan and Khamis Mushait, armed men seized a cargo ship off Yemen, and CENTCOM rejected IRGC tanker claims."
     ],
-    "updated": "Sat 28 Nov 2026, 9:04 am SGT",
-    "updatedTs": "2026-11-28T09:04:57+08:00"
+    "updated": "Sat 28 Nov 2026, 6:05 pm SGT",
+    "updatedTs": "2026-11-28T18:05:03+08:00"
   },
   "last24Count": 13
 }
