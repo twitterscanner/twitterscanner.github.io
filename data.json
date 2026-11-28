@@ -1,15 +1,15 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 12:06 pm SGT",
-  "lastScannedTs": "2026-11-28T12:06:40+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 3:02 pm SGT",
+  "lastScannedTs": "2026-11-28T15:02:00+08:00",
   "asOf": "Sat 28 Nov 2026, 9:04 am SGT",
   "asOfTs": "2026-11-28T09:04:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
     "bottom": "Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
     "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
-    "verdict": "Bullish",
-    "count": "15 of 19 alerts point higher, 4 lower",
-    "text": "15 of 19 alerts point higher, 4 lower.",
+    "verdict": "Mixed, leaning bullish",
+    "count": "11 of 15 alerts point higher, 4 lower",
+    "text": "11 of 15 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Fresh Ukrainian strike reported on Samara oil pumping station near Prosvet",
@@ -76,30 +76,6 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-27T15:40:00+08:00"
-      },
-      {
-        "text": "IRGC says warning fire forced a US F-16 escort away near Hengam Island, Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-27T14:58:43+08:00"
-      },
-      {
-        "text": "Russia extends jet fuel export ban to March 31, Interfax reports",
-        "confidence": "confirmed",
-        "theme": "Diesel / jet fuel shortage",
-        "ts": "2026-11-27T14:02:32+08:00"
-      },
-      {
-        "text": "Drone attack hits Novorossiysk oil port city, three injured; terminal damage not reported",
-        "confidence": "confirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-27T12:45:00+08:00"
-      },
-      {
-        "text": "Iraq reportedly delays 20-30M barrels of Basrah crude loadings into December",
-        "confidence": "unconfirmed",
-        "theme": "Iraq / Kurdistan",
-        "ts": "2026-11-27T12:26:14+08:00"
       }
     ],
     "dovish": [
