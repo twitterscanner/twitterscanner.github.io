@@ -1,16 +1,28 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 9:03 pm SGT",
-  "lastScannedTs": "2026-11-28T21:03:00+08:00",
-  "asOf": "Sat 28 Nov 2026, 6:05 pm SGT",
-  "asOfTs": "2026-11-28T18:05:03+08:00",
+  "lastScanned": "Sun 29 Nov 2026, 12:16 am SGT",
+  "lastScannedTs": "2026-11-29T00:16:20+08:00",
+  "asOf": "Sun 29 Nov 2026, 12:16 am SGT",
+  "asOfTs": "2026-11-29T00:16:20+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: Houthi missiles on Saudi Arabia, a Gulf of Aden hijacking, Hormuz tanker attacks and Ukrainian hits on Russian oil outweigh CENTCOM denials.",
-    "lead": "Net read (last 24 hours): Escalating: Houthi missiles on Saudi Arabia, a Gulf of Aden hijacking, Hormuz tanker attacks and Ukrainian hits on Russian oil outweigh CENTCOM denials.",
+    "bottom": "Escalating: Houthi missiles keep hitting southern Saudi Arabia, Russia strikes Black Sea shipping and Ukraine hits Russian oil, outweighing CENTCOM denials.",
+    "lead": "Net read (last 24 hours): Escalating: Houthi missiles keep hitting southern Saudi Arabia, Russia strikes Black Sea shipping and Ukraine hits Russian oil, outweighing CENTCOM denials.",
     "verdict": "Bullish",
     "count": "8 of 10 alerts point higher, 2 lower",
     "text": "8 of 10 alerts point higher, 2 lower.",
     "hawkish": [
+      {
+        "text": "Russia strikes cargo ship off Odesa, raising Black Sea shipping risk",
+        "confidence": "confirmed",
+        "theme": "Black Sea shipping",
+        "ts": "2026-11-29T00:16:20+08:00"
+      },
+      {
+        "text": "Houthi missile intercepted over Al-Shuqaiq, Jizan; debris, possible damage",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-29T00:16:19+08:00"
+      },
       {
         "text": "Houthi ballistic missiles fired at Jizan and Khamis Mushait in southern Saudi Arabia",
         "confidence": "confirmed",
@@ -46,18 +58,6 @@
         "confidence": "confirmed",
         "theme": "Iran",
         "ts": "2026-11-28T00:55:50+08:00"
-      },
-      {
-        "text": "Supertanker VLCC GHAZAL filmed severely damaged, no strike previously reported",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-27T22:48:00+08:00"
-      },
-      {
-        "text": "Netanyahu reportedly weighs strikes on Iran's power grid and energy facilities",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-27T22:15:25+08:00"
       }
     ],
     "dovish": [
@@ -81,6 +81,32 @@
     "detail": "Brent futures settled at $95.44/bbl, down $1.13 (1.17%) (First Squawk via X, 3:51 am SGT 28 Nov)"
   },
   "alerts": [
+    {
+      "time": "00:16",
+      "ts": "2026-11-29T00:16:20+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Russian Defence Ministry says it struck a dry cargo ship east of Odesa in the Black Sea that it says was carrying military cargo to Ukraine, a day after Kyiv offered a Black Sea ceasefire",
+      "theme": "Black Sea shipping",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Russian Defence Ministry via First Squawk and TASS",
+      "url": "https://x.com/FirstSquawk/status/2126691073393308039"
+    },
+    {
+      "time": "00:16",
+      "ts": "2026-11-29T00:16:19+08:00",
+      "eventTime": "~10:10 pm, 28 Nov (est., first coalition relays)",
+      "eventTs": "2026-11-28T22:10:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi-led coalition intercepts a Houthi ballistic missile aimed at Al-Shuqaiq (Jizan region, home to a major power and desalination plant); debris fell and OSINT accounts report possible material damage",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "Saudi-led coalition statement via CGTN Africa and Roya News; MenchOsint and Post Open Source on X (damage claim unconfirmed)",
+      "url": "https://x.com/MenchOsint/status/2126682682104967394"
+    },
     {
       "time": "18:05",
       "ts": "2026-11-28T18:05:03+08:00",
@@ -574,32 +600,6 @@
       "confidence": "Confirmed",
       "source": "Arab News; IDF spokesperson to Army Radio",
       "url": "https://x.com/arabnews/status/2125847990011064738"
-    },
-    {
-      "time": "12:41",
-      "ts": "2026-11-26T12:41:00+08:00",
-      "eventTime": "Not stated",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Reported strike on Transneft-Ural's Subkhankulovo oil pumping and dispatch station, Tuymazinsky district, Bashkortostan; damage being assessed",
-      "theme": "Russia refineries",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "Ukrainian and Russian OSINT channels (Ukrainian-language relay), preliminary reports",
-      "url": "https://x.com/pogrebeckij/status/2125812143849157045"
-    },
-    {
-      "time": "07:04",
-      "ts": "2026-11-26T07:04:59+08:00",
-      "eventTime": "5:30 am SGT 26 Nov (UKMTO: 2130 UTC 25 Nov)",
-      "eventTs": "2026-11-26T05:30:00+08:00",
-      "eventQual": "confirmed",
-      "headline": "UKMTO: tanker 50nm west of Dubai reports an explosion from an unknown projectile near the vessel; crew safe, no damage",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "UKMTO notice (via First Squawk)",
-      "url": "https://x.com/FirstSquawk/status/2125726534615126381"
     }
   ],
   "sources": [
@@ -3632,16 +3632,26 @@
       "title": "Houthi missiles toward Jizan and Khamis Mushait",
       "site": "X / MenchOsint",
       "href": "https://x.com/MenchOsint/status/2126610162332872753"
+    },
+    {
+      "title": "Coalition intercepts Houthi missile toward Al-Shuqaiq, possible damage",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2126682682104967394"
+    },
+    {
+      "title": "Russian MoD says it struck Black Sea ship carrying military cargo",
+      "site": "X / First Squawk",
+      "href": "https://x.com/FirstSquawk/status/2126691073393308039"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "Ukrainian drones reportedly hit Russia's Novoshakhtinsk refinery and a Samara oil pumping station again, while Ukraine offered Russia a Black Sea ceasefire.",
-      "Houthis fired missiles at Riyadh and later at Jizan and Khamis Mushait, armed men seized a cargo ship off Yemen, and CENTCOM rejected IRGC tanker claims."
+      "Russia said it struck a cargo ship off Odesa carrying military supplies, adding Black Sea shipping risk a day after Ukraine offered a sea ceasefire.",
+      "Late Saturday the Saudi-led coalition intercepted a Houthi missile aimed at Al-Shuqaiq in Jizan, after earlier strikes on Riyadh, Jizan and a ship seizure off Yemen."
     ],
-    "updated": "Sat 28 Nov 2026, 6:05 pm SGT",
-    "updatedTs": "2026-11-28T18:05:03+08:00"
+    "updated": "Sun 29 Nov 2026, 12:16 am SGT",
+    "updatedTs": "2026-11-29T00:16:20+08:00"
   },
   "last24Count": 13
 }
