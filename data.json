@@ -1,16 +1,34 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 6:04 am SGT",
-  "lastScannedTs": "2026-11-28T06:04:25+08:00",
-  "asOf": "Sat 28 Nov 2026, 3:04 am SGT",
-  "asOfTs": "2026-11-28T03:04:20+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 9:04 am SGT",
+  "lastScannedTs": "2026-11-28T09:04:57+08:00",
+  "asOf": "Sat 28 Nov 2026, 9:04 am SGT",
+  "asOfTs": "2026-11-28T09:04:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
   "netRead": {
-    "bottom": "Escalating: the Jazan refinery hit, Hormuz mines, a US strike on a blockade runner and Israeli threats tilt risk higher; Black Sea truce talk a modest offset.",
-    "lead": "Net read (last 24 hours): Escalating: the Jazan refinery hit, Hormuz mines, a US strike on a blockade runner and Israeli threats tilt risk higher; Black Sea truce talk a modest offset.",
+    "bottom": "Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
+    "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
     "verdict": "Bullish",
-    "count": "15 of 18 alerts point higher, 3 lower",
-    "text": "15 of 18 alerts point higher, 3 lower.",
+    "count": "17 of 21 alerts point higher, 4 lower",
+    "text": "17 of 21 alerts point higher, 4 lower.",
     "hawkish": [
+      {
+        "text": "Fresh Ukrainian strike reported on Samara oil pumping station near Prosvet",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-28T08:32:00+08:00"
+      },
+      {
+        "text": "Ukraine reportedly hits Russia's Novoshakhtinsk refinery again",
+        "confidence": "unconfirmed",
+        "theme": "Russian refineries",
+        "ts": "2026-11-28T07:29:00+08:00"
+      },
+      {
+        "text": "Saudi early-warning alerts in Eastern Province; Houthi drone toward Riyadh intercepted",
+        "confidence": "confirmed",
+        "theme": "Saudi / Houthi",
+        "ts": "2026-11-28T06:27:00+08:00"
+      },
       {
         "text": "CENTCOM confirms US strike disabled blockade-running bulk carrier in Gulf of Oman",
         "confidence": "confirmed",
@@ -94,15 +112,15 @@
         "confidence": "unconfirmed",
         "theme": "Iran",
         "ts": "2026-11-27T09:05:38+08:00"
-      },
-      {
-        "text": "Russian refining reportedly near 2.5m b/d, lowest in 20+ years after drone strikes",
-        "confidence": "unconfirmed",
-        "theme": "Russian refineries",
-        "ts": "2026-11-27T07:02:16+08:00"
       }
     ],
     "dovish": [
+      {
+        "text": "CENTCOM denies IRGC claims of retaking tankers and striking a US carrier",
+        "confidence": "confirmed",
+        "theme": "Iran",
+        "ts": "2026-11-28T08:05:00+08:00"
+      },
       {
         "text": "Ukraine offers Russia a Black Sea ceasefire; Moscow wants oil shipments covered",
         "confidence": "confirmed",
@@ -129,6 +147,58 @@
     "detail": "Brent futures settled at $95.44/bbl, down $1.13 (1.17%) (First Squawk via X, 3:51 am SGT 28 Nov)"
   },
   "alerts": [
+    {
+      "time": "08:32",
+      "ts": "2026-11-28T08:32:00+08:00",
+      "eventTime": "Not stated",
+      "eventTs": null,
+      "eventQual": "not stated",
+      "headline": "Fresh Ukrainian strike reported on the Samara oil pumping and dispatch station near Prosvet, with footage posted as visual confirmation",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "big ben on X, citing Exilenova+",
+      "url": "https://x.com/alternative_war/status/2126474297640120614"
+    },
+    {
+      "time": "08:05",
+      "ts": "2026-11-28T08:05:00+08:00",
+      "eventTime": "8:05 am, 28 Nov",
+      "eventTs": "2026-11-28T08:05:00+08:00",
+      "eventQual": "confirmed",
+      "headline": "CENTCOM says Iranian claims are false: IRGC did not retake two tankers from US forces and did not strike a US carrier",
+      "theme": "Iran",
+      "direction": "Down",
+      "confidence": "Confirmed",
+      "source": "U.S. Central Command on X",
+      "url": "https://x.com/CENTCOM/status/2126467565253779814"
+    },
+    {
+      "time": "07:29",
+      "ts": "2026-11-28T07:29:00+08:00",
+      "eventTime": "about 7:00 am, 28 Nov (est., overnight local time)",
+      "eventTs": "2026-11-28T07:00:00+08:00",
+      "eventQual": "est.",
+      "headline": "Ukraine reportedly strikes Russia's Novoshakhtinsk oil refinery (Rostov region) again; residents report explosions and a fire glow over the plant",
+      "theme": "Russian refineries",
+      "direction": "Up",
+      "confidence": "Unconfirmed",
+      "source": "C4H10FO2P on X (footage); big ben, LetsArmUKR",
+      "url": "https://x.com/markito0171/status/2126459081884156081"
+    },
+    {
+      "time": "06:27",
+      "ts": "2026-11-28T06:27:00+08:00",
+      "eventTime": "6:07 am, 28 Nov (est.)",
+      "eventTs": "2026-11-28T06:07:00+08:00",
+      "eventQual": "est.",
+      "headline": "Saudi Civil Defense issues brief early-warning alerts for the oil-rich Eastern Province and Al-Kharj; coalition says a Houthi drone heading for Riyadh was intercepted; no damage reported",
+      "theme": "Saudi / Houthi",
+      "direction": "Up",
+      "confidence": "Confirmed",
+      "source": "MenchOsint on X; Arab News (Al Arabiya, coalition statement)",
+      "url": "https://x.com/MenchOsint/status/2126442831804047441"
+    },
     {
       "time": "02:46",
       "ts": "2026-11-28T02:46:10+08:00",
@@ -596,58 +666,6 @@
       "confidence": "Unconfirmed",
       "source": "Hormuz Letter on X (initial reports)",
       "url": "https://x.com/HormuzLetter/status/2125717940175806540"
-    },
-    {
-      "time": "06:02",
-      "ts": "2026-11-26T06:02:01+08:00",
-      "eventTime": "Overnight 25-26 Nov, about 5:30 am SGT (est., 'tonight')",
-      "eventTs": "2026-11-26T05:30:00+08:00",
-      "eventQual": "est.",
-      "headline": "Iranian forces move against 'rogue tankers' near Hormuz, with footage of the operation at sea; separate unverified report of an anti-ship missile launch from Jask",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Unconfirmed",
-      "source": "MenchOsint on X (footage); Jask launch claim via Mario Nawfal",
-      "url": "https://x.com/MenchOsint/status/2125705125591429419"
-    },
-    {
-      "time": "06:02",
-      "ts": "2026-11-26T06:02:00+08:00",
-      "eventTime": "About 5:15 am SGT 26 Nov (est., 'few minutes ago' at 5:21 am)",
-      "eventTs": "2026-11-26T05:15:00+08:00",
-      "eventQual": "est.",
-      "headline": "Houthis fire ballistic missiles at Riyadh; Saudi says two intercepted as airspace disruption spreads and Jeddah flights divert",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "MenchOsint on X, citing a Saudi spokesperson; coalition later confirmed two ballistic missiles intercepted",
-      "url": "https://x.com/MenchOsint/status/2125701497379811589"
-    },
-    {
-      "time": "05:02",
-      "ts": "2026-11-26T05:02:06+08:00",
-      "eventTime": "Not stated (statement ~4:29 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Saudi-led coalition says its air defences intercepted a Houthi cruise missile headed westward",
-      "theme": "Saudi / Houthi",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Saudi-led coalition statement (First Squawk)",
-      "url": "https://x.com/FirstSquawk/status/2125688441845531064"
-    },
-    {
-      "time": "05:02",
-      "ts": "2026-11-26T05:02:05+08:00",
-      "eventTime": "Not stated (report ~4:15 am SGT 26 Nov)",
-      "eventTs": null,
-      "eventQual": "not stated",
-      "headline": "Crude flows through the Strait of Hormuz fall 31% to an eight-week low as Iranian tanker attacks escalate",
-      "theme": "Hormuz",
-      "direction": "Up",
-      "confidence": "Confirmed",
-      "source": "Energy Intelligence report (via Oil Headline News)",
-      "url": "https://x.com/OilHeadlineNews/status/2125684933071151194"
     }
   ],
   "sources": [
@@ -3640,16 +3658,41 @@
       "title": "First Squawk: Brent crude futures settle at $95.44/bbl, down $1.13 (27 Nov)",
       "site": "X / First Squawk",
       "href": "https://x.com/FirstSquawk/status/2126403550028923376"
+    },
+    {
+      "title": "Saudi early-warning alerts for Eastern Province and Al-Kharj",
+      "site": "X / MenchOsint",
+      "href": "https://x.com/MenchOsint/status/2126442831804047441"
+    },
+    {
+      "title": "Coalition intercepts Houthi drone heading toward Riyadh",
+      "site": "X / Arab News",
+      "href": "https://x.com/arabnews/status/2126444832038011264"
+    },
+    {
+      "title": "Novoshakhtinsk refinery hit again, Rostov region",
+      "site": "X / C4H10FO2P",
+      "href": "https://x.com/markito0171/status/2126459081884156081"
+    },
+    {
+      "title": "CENTCOM refutes Iranian military claims",
+      "site": "X / U.S. Central Command",
+      "href": "https://x.com/CENTCOM/status/2126467565253779814"
+    },
+    {
+      "title": "Samara oil pumping station near Prosvet reportedly hit again",
+      "site": "X / big ben",
+      "href": "https://x.com/alternative_war/status/2126474297640120614"
     }
   ],
   "dayNote": {
     "title": "Today's key developments",
     "lines": [
-      "CENTCOM confirmed a US aircraft struck and disabled the bulk carrier Pacific Archer in the Gulf of Oman on 26 November after it tried to run the US blockade of Iran.",
-      "Ukraine offered Russia a Black Sea ceasefire to protect grain exports, with Moscow pushing to include oil shipments, while IRGC tanker-mine claims keep Hormuz risk elevated."
+      "Ukraine offered Russia a Black Sea ceasefire as Ukrainian drones reportedly hit Russia's Novoshakhtinsk refinery and a Samara oil pumping station again overnight.",
+      "Saudi Arabia issued brief missile alerts for its oil-rich Eastern Province as a Houthi drone was intercepted, while CENTCOM rejected IRGC claims of retaking tankers."
     ],
-    "updated": "Sat 28 Nov 2026, 3:05 am SGT",
-    "updatedTs": "2026-11-28T03:05:00+08:00"
+    "updated": "Sat 28 Nov 2026, 9:04 am SGT",
+    "updatedTs": "2026-11-28T09:04:57+08:00"
   },
   "last24Count": 13
 }
