@@ -1,6 +1,6 @@
 {
-  "lastScanned": "Sat 28 Nov 2026, 9:04 am SGT",
-  "lastScannedTs": "2026-11-28T09:04:57+08:00",
+  "lastScanned": "Sat 28 Nov 2026, 12:06 pm SGT",
+  "lastScannedTs": "2026-11-28T12:06:40+08:00",
   "asOf": "Sat 28 Nov 2026, 9:04 am SGT",
   "asOfTs": "2026-11-28T09:04:57+08:00",
   "summary": "Geopolitical alerts that can move oil. Scans every 10 minutes in the morning, every 5 minutes from noon to 10:00 pm, every 10 minutes late evening and every hour overnight (2:00 am to 8:00 am Singapore time) on weekdays, and every 3 hours from Saturday 3:00 am to Monday 3:00 am Singapore time. Counts and the net read cover the rolling last 24 hours; the feed lists all stored alerts.",
@@ -8,8 +8,8 @@
     "bottom": "Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
     "lead": "Net read (last 24 hours): Escalating: Hormuz tanker attacks, Houthi pressure on Saudi Arabia and renewed Ukrainian hits on Russian oil sites outweigh CENTCOM denials and Black Sea truce talk.",
     "verdict": "Bullish",
-    "count": "17 of 21 alerts point higher, 4 lower",
-    "text": "17 of 21 alerts point higher, 4 lower.",
+    "count": "15 of 19 alerts point higher, 4 lower",
+    "text": "15 of 19 alerts point higher, 4 lower.",
     "hawkish": [
       {
         "text": "Fresh Ukrainian strike reported on Samara oil pumping station near Prosvet",
@@ -100,18 +100,6 @@
         "confidence": "unconfirmed",
         "theme": "Iraq / Kurdistan",
         "ts": "2026-11-27T12:26:14+08:00"
-      },
-      {
-        "text": "Another vessel reportedly hit by Iranian missiles off Khasab, Hormuz, on fire",
-        "confidence": "unconfirmed",
-        "theme": "Hormuz",
-        "ts": "2026-11-27T09:42:30+08:00"
-      },
-      {
-        "text": "Possible US strike on Iranian SAM launcher on Qeshm Island, Strait of Hormuz",
-        "confidence": "unconfirmed",
-        "theme": "Iran",
-        "ts": "2026-11-27T09:05:38+08:00"
       }
     ],
     "dovish": [
